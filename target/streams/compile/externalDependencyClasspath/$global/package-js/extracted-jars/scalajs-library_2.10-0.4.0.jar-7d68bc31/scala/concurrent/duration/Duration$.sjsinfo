@@ -1,0 +1,291 @@
+{
+  "name": "scala.concurrent.duration.Duration$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_duration_Duration$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_duration_Duration$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["zero__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "apply__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_Duration$": ["fromNanos__D__Lscala_concurrent_duration_Duration"],
+        "java_util_concurrent_TimeUnit": ["toNanos__J__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["init___J__Ljava_util_concurrent_TimeUnit"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_FiniteDuration"]
+    },
+    "apply__J__T__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_collection_immutable_Map": ["apply__O__O"],
+        "scala_concurrent_duration_FiniteDuration": ["init___J__Ljava_util_concurrent_TimeUnit"],
+        "scala_concurrent_duration_Duration$": ["timeUnit__Lscala_collection_immutable_Map"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_FiniteDuration"],
+      "accessedModules": ["scala_concurrent_duration_Duration"],
+      "accessedClassData": ["java_util_concurrent_TimeUnit"]
+    },
+    "apply__T__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T", "charWrapper__C__C"],
+        "scala_concurrent_duration_Duration$": ["apply__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_Duration", "Inf__Lscala_concurrent_duration_Duration$Infinite", "MinusInf__Lscala_concurrent_duration_Duration$Infinite", "apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration", "timeUnit__Lscala_collection_immutable_Map"],
+        "scala_collection_immutable_StringOps": ["takeWhile__Lscala_Function1__O", "init___T", "filterNot__Lscala_Function1__O", "dropRight__I__O", "reverse__O"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "java_lang_NumberFormatException": ["init___T"],
+        "scala_Some": ["x__O"],
+        "java_lang_Long$": ["parseLong__T__J"],
+        "scala_runtime_RichChar$": ["isLetter$extension__C__Z", "isWhitespace$extension__C__Z"],
+        "scala_collection_immutable_Map": ["get__O__Lscala_Option"],
+        "java_lang_Double$": ["parseDouble__T__D"]
+      },
+      "instantiatedClasses": ["java_lang_NumberFormatException", "scala_collection_immutable_StringOps", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["java_lang_Long", "scala_Predef", "scala_runtime_RichChar", "java_lang_Double", "scala_concurrent_duration_Duration"],
+      "accessedClassData": ["scala_Some", "java_util_concurrent_TimeUnit", "java_lang_String"]
+    },
+    "scala$concurrent$duration$Duration$$words__T__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["toList__Lscala_collection_immutable_List"],
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__trim__Lscala_scalajs_runtime_RuntimeString__T", "scala_scalajs_runtime_RuntimeString$class__split__Lscala_scalajs_runtime_RuntimeString__T__AT"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala$concurrent$duration$Duration$$expandLabels__T__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_immutable_$colon$colon": ["tl$1__Lscala_collection_immutable_List", "hd$1__O"],
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_concurrent_duration_Duration$": ["scala$concurrent$duration$Duration$$words__T__Lscala_collection_immutable_List"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List", "flatMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_Tuple2": ["init___O__O", "$$und1__O", "$$und2__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List", "canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef"],
+      "accessedClassData": ["scala_collection_immutable_$colon$colon", "scala_collection_immutable_List", "java_lang_Object", "java_lang_String"]
+    },
+    "timeUnitName__Lscala_collection_immutable_Map": {},
+    "timeUnit__Lscala_collection_immutable_Map": {},
+    "unapply__T__Lscala_Option": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["liftedTree1$1__p1__T__Lscala_Option", "unapply__Lscala_concurrent_duration_Duration__Lscala_Option"],
+        "scala_Option": ["flatMap__Lscala_Function1__Lscala_Option"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_concurrent_duration_Duration"]
+    },
+    "unapply__Lscala_concurrent_duration_Duration__Lscala_Option": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration": ["unit__Ljava_util_concurrent_TimeUnit", "isFinite__Z", "length__J"],
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "fromNanos__D__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "java_lang_Double": ["isInfinite__Z", "isNaN__Z"],
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "scala_concurrent_duration_Duration$": ["MinusInf__Lscala_concurrent_duration_Duration$Infinite", "Undefined__Lscala_concurrent_duration_Duration$Infinite", "fromNanos__J__Lscala_concurrent_duration_FiniteDuration", "Inf__Lscala_concurrent_duration_Duration$Infinite"],
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_scalajs_runtime_Long": ["toDouble__D"],
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long", "apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedModules": ["scala_Predef", "scala_scalajs_runtime_Long"]
+    },
+    "fromNanos__J__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$percent__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$div__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "equals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long", "fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_Duration$": ["apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"],
+        "java_util_concurrent_TimeUnit$": ["HOURS__Ljava_util_concurrent_TimeUnit", "MINUTES__Ljava_util_concurrent_TimeUnit", "MILLISECONDS__Ljava_util_concurrent_TimeUnit", "MICROSECONDS__Ljava_util_concurrent_TimeUnit", "NANOSECONDS__Ljava_util_concurrent_TimeUnit", "DAYS__Ljava_util_concurrent_TimeUnit", "SECONDS__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit", "scala_concurrent_duration_Duration"]
+    },
+    "Zero__Lscala_concurrent_duration_FiniteDuration": {},
+    "Undefined__Lscala_concurrent_duration_Duration$Infinite": {},
+    "Inf__Lscala_concurrent_duration_Duration$Infinite": {},
+    "MinusInf__Lscala_concurrent_duration_Duration$Infinite": {},
+    "create__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "create__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_Duration"]
+      }
+    },
+    "create__J__T__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__J__T__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "create__T__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__T__Lscala_concurrent_duration_Duration"]
+      }
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_concurrent_duration_Duration"]
+    },
+    "liftedTree1$1__p1__T__Lscala_Option": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__T__Lscala_concurrent_duration_Duration"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["java_lang_RuntimeException"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MINUTES__Ljava_util_concurrent_TimeUnit", "MICROSECONDS__Ljava_util_concurrent_TimeUnit", "DAYS__Ljava_util_concurrent_TimeUnit", "MILLISECONDS__Ljava_util_concurrent_TimeUnit", "SECONDS__Ljava_util_concurrent_TimeUnit", "HOURS__Ljava_util_concurrent_TimeUnit", "NANOSECONDS__Ljava_util_concurrent_TimeUnit"],
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray", "conforms__Lscala_Predef$$less$colon$less", "any2ArrowAssoc__O__O"],
+        "scala_concurrent_duration_Duration$": ["scala$concurrent$duration$Duration$$words__T__Lscala_collection_immutable_List", "scala$concurrent$duration$Duration$$expandLabels__T__Lscala_collection_immutable_List"],
+        "scala_concurrent_duration_Duration$$anon$2": ["init___"],
+        "scala_concurrent_duration_FiniteDuration": ["init___J__Ljava_util_concurrent_TimeUnit"],
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_duration_Duration$$anonfun$4$$anonfun$apply$1": ["init___Lscala_concurrent_duration_Duration$$anonfun$4__Ljava_util_concurrent_TimeUnit"],
+        "scala_collection_immutable_List": ["toMap__Lscala_Predef$$less$colon$less__Lscala_collection_immutable_Map", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O", "flatMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O", "last__O"],
+        "scala_Tuple2": ["$$und2__O", "$$und1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List", "canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_concurrent_duration_Duration$$anon$1": ["init___"],
+        "scala_collection_immutable_Map": ["mapValues__Lscala_Function1__Lscala_collection_immutable_Map", "toMap__Lscala_Predef$$less$colon$less__Lscala_collection_immutable_Map"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_Predef$ArrowAssoc$": ["$$minus$greater$extension__O__O__Lscala_Tuple2"],
+        "scala_concurrent_duration_Duration$$anon$3": ["init___"],
+        "scala_collection_TraversableOnce": ["toMap__Lscala_Predef$$less$colon$less__Lscala_collection_immutable_Map"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_Duration$$anon$2", "scala_MatchError", "scala_concurrent_duration_Duration$$anon$3", "scala_concurrent_duration_Duration$$anonfun$4$$anonfun$apply$1", "scala_scalajs_runtime_AnonFunction1", "scala_concurrent_duration_FiniteDuration", "scala_concurrent_duration_Duration$$anon$1"],
+      "accessedModules": ["scala_Predef$ArrowAssoc", "scala_collection_immutable_List", "scala_Predef", "scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit", "scala_concurrent_duration_Duration"],
+      "accessedClassData": ["scala_Tuple2", "scala_collection_immutable_List", "java_lang_Object", "scala_collection_TraversableOnce", "java_util_concurrent_TimeUnit", "java_lang_String"]
+    },
+    "create__T__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["create__T__Lscala_concurrent_duration_Duration"]
+      }
+    },
+    "create__J__T__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["create__J__T__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "create__D__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["create__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_Duration"]
+      }
+    },
+    "create__J__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["create__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "MinusInf__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["MinusInf__Lscala_concurrent_duration_Duration$Infinite"]
+      }
+    },
+    "Inf__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["Inf__Lscala_concurrent_duration_Duration$Infinite"]
+      }
+    },
+    "Undefined__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["Undefined__Lscala_concurrent_duration_Duration$Infinite"]
+      }
+    },
+    "Zero__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["Zero__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "fromNanos__J__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["fromNanos__J__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "fromNanos__D__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["fromNanos__D__Lscala_concurrent_duration_Duration"]
+      }
+    },
+    "unapply__Lscala_concurrent_duration_Duration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["unapply__Lscala_concurrent_duration_Duration__Lscala_Option"]
+      }
+    },
+    "unapply__T__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["unapply__T__Lscala_Option"]
+      }
+    },
+    "timeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["timeUnit__Lscala_collection_immutable_Map"]
+      }
+    },
+    "timeUnitName__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["timeUnitName__Lscala_collection_immutable_Map"]
+      }
+    },
+    "scala$concurrent$duration$Duration$$expandLabels__T__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["scala$concurrent$duration$Duration$$expandLabels__T__Lscala_collection_immutable_List"]
+      }
+    },
+    "scala$concurrent$duration$Duration$$words__T__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["scala$concurrent$duration$Duration$$words__T__Lscala_collection_immutable_List"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__T__Lscala_concurrent_duration_Duration"]
+      }
+    },
+    "apply__J__T__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__J__T__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "apply__J__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "apply__D__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_Duration"]
+      }
+    }
+  }
+}

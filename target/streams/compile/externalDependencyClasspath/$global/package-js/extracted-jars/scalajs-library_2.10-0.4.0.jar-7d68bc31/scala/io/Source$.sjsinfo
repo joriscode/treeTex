@@ -1,0 +1,337 @@
+{
+  "name": "scala.io.Source$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_Source$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_Source$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "DefaultBufSize__I": {},
+    "stdin__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "java_lang_System$": ["$in__Ljava_io_InputStream"],
+        "scala_io_Source$": ["fromInputStream__Ljava_io_InputStream__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["fallbackSystemCodec__Lscala_io_Codec"]
+      },
+      "accessedModules": ["java_lang_System", "scala_io_Codec"]
+    },
+    "fromIterable__Lscala_collection_Iterable__Lscala_io_Source": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_io_Source$": ["fromIterable__Lscala_collection_Iterable__Lscala_io_Source"],
+        "scala_io_Source$$anon$1": ["init___Lscala_collection_Iterable", "withReset__Lscala_Function0__Lscala_io_Source"]
+      },
+      "instantiatedClasses": ["scala_io_Source$$anon$1", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_io_Source"]
+    },
+    "fromChar__C__Lscala_io_Source": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapCharArray__AC__Lscala_collection_mutable_WrappedArray"],
+        "scala_Array$": ["apply__C__Lscala_collection_Seq__AC"],
+        "scala_io_Source$": ["fromIterable__Lscala_collection_Iterable__Lscala_io_Source"]
+      },
+      "accessedModules": ["scala_Array", "scala_Predef"]
+    },
+    "fromChars__AC__Lscala_io_Source": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapCharArray__AC__Lscala_collection_mutable_WrappedArray"],
+        "scala_io_Source$": ["fromIterable__Lscala_collection_Iterable__Lscala_io_Source"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "fromString__T__Lscala_io_Source": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_io_Source$": ["fromIterable__Lscala_collection_Iterable__Lscala_io_Source"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "fromFile__T__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "java_io_File": ["init___T"]
+      },
+      "instantiatedClasses": ["java_io_File"]
+    },
+    "fromFile__T__T__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__T__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec"]
+    },
+    "fromFile__Ljava_net_URI__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "java_io_File": ["init___Ljava_net_URI"]
+      },
+      "instantiatedClasses": ["java_io_File"]
+    },
+    "fromFile__Ljava_net_URI__T__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_net_URI__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec"]
+    },
+    "fromFile__Ljava_io_File__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__I__Lscala_io_Codec__Lscala_io_BufferedSource", "DefaultBufSize__I"]
+      },
+      "accessedModules": ["scala_io_Source"]
+    },
+    "fromFile__Ljava_io_File__T__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec"]
+    },
+    "fromFile__Ljava_io_File__T__I__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__I__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec"]
+    },
+    "fromFile__Ljava_io_File__I__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "java_io_FileInputStream": ["init___Ljava_io_File", "close__V"],
+        "scala_io_Source$": ["createBufferedSource__Ljava_io_InputStream__I__Lscala_Function0__Lscala_Function0__Lscala_io_Codec__Lscala_io_BufferedSource", "fromFile__Ljava_io_File__I__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_BufferedSource": ["withDescription__T__Lscala_io_Source"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_io_File": ["getAbsolutePath__T"]
+      },
+      "instantiatedClasses": ["java_io_FileInputStream", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_io_Source"],
+      "accessedClassData": ["scala_io_BufferedSource"]
+    },
+    "fromBytes__AB__Lscala_io_Codec__Lscala_io_Source": {
+      "calledMethods": {
+        "scala_io_Codec": ["name__T"],
+        "scala_scalajs_runtime_RuntimeString$": ["newString__AB__T__Lscala_scalajs_js_String"],
+        "scala_io_Source$": ["fromString__T__Lscala_io_Source"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_RuntimeString"]
+    },
+    "fromBytes__AB__T__Lscala_io_Source": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromBytes__AB__Lscala_io_Codec__Lscala_io_Source"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec"]
+    },
+    "fromRawBytes__AB__Lscala_io_Source": {
+      "calledMethods": {
+        "scala_io_Codec": ["name__T"],
+        "scala_scalajs_runtime_RuntimeString$": ["newString__AB__T__Lscala_scalajs_js_String"],
+        "scala_io_Source$": ["fromString__T__Lscala_io_Source"],
+        "scala_io_Codec$": ["ISO8859__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec", "scala_scalajs_runtime_RuntimeString"]
+    },
+    "fromURI__Ljava_net_URI__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "java_io_File": ["init___Ljava_net_URI"]
+      },
+      "instantiatedClasses": ["java_io_File"]
+    },
+    "fromURL__T__T__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromURL__T__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec"]
+    },
+    "fromURL__T__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "java_net_URL": ["init___T"],
+        "scala_io_Source$": ["fromURL__Ljava_net_URL__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      },
+      "instantiatedClasses": ["java_net_URL"]
+    },
+    "fromURL__Ljava_net_URL__T__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromURL__Ljava_net_URL__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec"]
+    },
+    "fromURL__Ljava_net_URL__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "java_net_URL": ["openStream__Ljava_io_InputStream"],
+        "scala_io_Source$": ["fromInputStream__Ljava_io_InputStream__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "createBufferedSource__Ljava_io_InputStream__I__Lscala_Function0__Lscala_Function0__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_io_BufferedSource": ["init___Ljava_io_InputStream__I__Lscala_io_Codec", "withReset__Lscala_Function0__Lscala_io_Source"],
+        "scala_io_Source$": ["createBufferedSource__Ljava_io_InputStream__I__Lscala_Function0__Lscala_Function0__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Source": ["withClose__Lscala_Function0__Lscala_io_Source"]
+      },
+      "instantiatedClasses": ["scala_io_BufferedSource", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_io_Source"],
+      "accessedClassData": ["scala_io_BufferedSource"]
+    },
+    "createBufferedSource$default$2__I": {
+      "calledMethods": {
+        "scala_io_Source$": ["DefaultBufSize__I"]
+      }
+    },
+    "createBufferedSource$default$3__Lscala_Function0": {},
+    "createBufferedSource$default$4__Lscala_Function0": {},
+    "fromInputStream__Ljava_io_InputStream__T__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromInputStream__Ljava_io_InputStream__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Codec"]
+    },
+    "fromInputStream__Ljava_io_InputStream__Lscala_io_Codec__Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_io_InputStream": ["close__V"],
+        "scala_io_Source$": ["createBufferedSource__Ljava_io_InputStream__I__Lscala_Function0__Lscala_Function0__Lscala_io_Codec__Lscala_io_BufferedSource", "fromInputStream__Ljava_io_InputStream__Lscala_io_Codec__Lscala_io_BufferedSource", "createBufferedSource$default$2__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_io_Source"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "fromInputStream__Ljava_io_InputStream__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromInputStream__Ljava_io_InputStream__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromInputStream__Ljava_io_InputStream__T__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromInputStream__Ljava_io_InputStream__T__Lscala_io_BufferedSource"]
+      }
+    },
+    "createBufferedSource__Ljava_io_InputStream__I__Lscala_Function0__Lscala_Function0__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["createBufferedSource__Ljava_io_InputStream__I__Lscala_Function0__Lscala_Function0__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromURL__Ljava_net_URL__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromURL__Ljava_net_URL__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromURL__Ljava_net_URL__T__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromURL__Ljava_net_URL__T__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromURL__T__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromURL__T__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromURL__T__T__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromURL__T__T__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromURI__Ljava_net_URI__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromURI__Ljava_net_URI__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromRawBytes__AB__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromRawBytes__AB__Lscala_io_Source"]
+      }
+    },
+    "fromBytes__AB__T__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromBytes__AB__T__Lscala_io_Source"]
+      }
+    },
+    "fromBytes__AB__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromBytes__AB__Lscala_io_Codec__Lscala_io_Source"]
+      }
+    },
+    "fromFile__Ljava_io_File__I__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__I__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromFile__Ljava_io_File__T__I__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__T__I__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromFile__Ljava_io_File__T__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__T__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromFile__Ljava_io_File__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_io_File__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromFile__Ljava_net_URI__T__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_net_URI__T__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromFile__Ljava_net_URI__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__Ljava_net_URI__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromFile__T__T__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__T__T__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromFile__T__Lscala_io_Codec__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromFile__T__Lscala_io_Codec__Lscala_io_BufferedSource"]
+      }
+    },
+    "fromString__T__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromString__T__Lscala_io_Source"]
+      }
+    },
+    "fromChars__AC__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromChars__AC__Lscala_io_Source"]
+      }
+    },
+    "fromChar__C__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromChar__C__Lscala_io_Source"]
+      }
+    },
+    "fromIterable__Lscala_collection_Iterable__": {
+      "calledMethods": {
+        "scala_io_Source$": ["fromIterable__Lscala_collection_Iterable__Lscala_io_Source"]
+      }
+    },
+    "stdin__": {
+      "calledMethods": {
+        "scala_io_Source$": ["stdin__Lscala_io_BufferedSource"]
+      }
+    },
+    "DefaultBufSize__": {
+      "calledMethods": {
+        "scala_io_Source$": ["DefaultBufSize__I"]
+      }
+    }
+  }
+}

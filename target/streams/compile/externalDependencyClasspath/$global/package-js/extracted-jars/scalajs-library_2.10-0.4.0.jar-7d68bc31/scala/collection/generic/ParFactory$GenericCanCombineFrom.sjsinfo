@@ -1,0 +1,67 @@
+{
+  "name": "scala.collection.generic.ParFactory$GenericCanCombineFrom",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_ParFactory$GenericCanCombineFrom",
+  "superClass": "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom",
+  "ancestors": ["scala_collection_generic_ParFactory$GenericCanCombineFrom", "scala_collection_generic_CanCombineFrom", "scala_collection_Parallel", "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_parallel_ParIterable__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_parallel_ParIterable": ["genericCombiner__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_ParFactory": ["newBuilder__Lscala_collection_parallel_Combiner"],
+        "scala_collection_generic_ParFactory$GenericCanCombineFrom": ["scala$collection$generic$ParFactory$GenericCanCombineFrom$$$outer__Lscala_collection_generic_ParFactory"]
+      }
+    },
+    "scala$collection$generic$ParFactory$GenericCanCombineFrom$$$outer__Lscala_collection_generic_ParFactory": {
+      "accessedClassData": ["scala_collection_generic_ParFactory"]
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_ParFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_ParFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_ParIterable__Lscala_collection_parallel_Combiner"]
+      },
+      "accessedClassData": ["scala_collection_parallel_ParIterable"]
+    },
+    "apply__O__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_ParFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_ParIterable__Lscala_collection_parallel_Combiner"]
+      },
+      "accessedClassData": ["scala_collection_parallel_ParIterable"]
+    },
+    "apply__Lscala_collection_GenTraversable__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_ParFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_ParIterable__Lscala_collection_parallel_Combiner"]
+      },
+      "accessedClassData": ["scala_collection_parallel_ParIterable"]
+    },
+    "init___Lscala_collection_generic_ParFactory": {
+      "calledMethodsStatic": {
+        "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": ["init___Lscala_collection_generic_GenTraversableFactory"]
+      }
+    },
+    "scala$collection$generic$ParFactory$GenericCanCombineFrom$$$outer__": {
+      "calledMethods": {
+        "scala_collection_generic_ParFactory$GenericCanCombineFrom": ["scala$collection$generic$ParFactory$GenericCanCombineFrom$$$outer__Lscala_collection_generic_ParFactory"]
+      }
+    },
+    "apply__Lscala_collection_parallel_ParIterable__": {
+      "calledMethods": {
+        "scala_collection_generic_ParFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_ParIterable__Lscala_collection_parallel_Combiner"]
+      }
+    }
+  }
+}

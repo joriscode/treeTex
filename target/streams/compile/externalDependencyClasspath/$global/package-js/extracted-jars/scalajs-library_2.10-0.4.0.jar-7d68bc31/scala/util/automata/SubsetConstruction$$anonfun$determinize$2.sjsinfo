@@ -1,0 +1,48 @@
+{
+  "name": "scala.util.automata.SubsetConstruction$$anonfun$determinize$2",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_automata_SubsetConstruction$$anonfun$determinize$2",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_util_automata_SubsetConstruction$$anonfun$determinize$2", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_immutable_BitSet__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_Map": ["apply__O__O"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_generic_FilterMonadic": ["foreach__Lscala_Function1__V"],
+        "scala_collection_mutable_Map": ["apply__O__O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_HashMap": ["apply__O__O", "withFilter__Lscala_Function1__Lscala_collection_generic_FilterMonadic", "init___", "update__O__O__V"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1", "scala_collection_mutable_HashMap"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_Map", "scala_collection_immutable_BitSet", "scala_collection_mutable_Map", "scala_collection_mutable_HashMap"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_util_automata_SubsetConstruction$$anonfun$determinize$2": ["apply__Lscala_collection_immutable_BitSet__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_immutable_BitSet"]
+    },
+    "init___Lscala_util_automata_SubsetConstruction__Lscala_runtime_ObjectRef__Lscala_collection_mutable_HashMap__Lscala_runtime_ObjectRef__ALscala_collection_mutable_Map__AI": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "apply__Lscala_collection_immutable_BitSet__": {
+      "calledMethods": {
+        "scala_util_automata_SubsetConstruction$$anonfun$determinize$2": ["apply__Lscala_collection_immutable_BitSet__V"]
+      }
+    }
+  }
+}

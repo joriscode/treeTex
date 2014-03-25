@@ -1,0 +1,40 @@
+{
+  "name": "scala.xml.include.sax.Main$$anonfun$main$1$$anonfun$apply$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$1",
+  "superClass": "scala_runtime_AbstractFunction0$mcV$sp",
+  "ancestors": ["scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0$mcV$sp", "scala_Function0$mcV$sp", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__V": {
+      "calledMethods": {
+        "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$1": ["apply$mcV$sp__V"]
+      }
+    },
+    "apply$mcV$sp__V": {
+      "calledMethods": {
+        "scala_xml_include_sax_Main$": ["scala$xml$include$sax$Main$$lexicalHandler__T"],
+        "scala_xml_include_sax_XIncludeFilter": ["setProperty__T__O__V"],
+        "scala_xml_include_sax_XIncluder": ["setFilter__Lscala_xml_include_sax_XIncludeFilter__V"]
+      },
+      "accessedModules": ["scala_xml_include_sax_Main"]
+    },
+    "apply__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$1": ["apply__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "init___Lscala_xml_include_sax_Main$$anonfun$main$1__Lscala_xml_include_sax_XIncludeFilter__Lscala_xml_include_sax_XIncluder": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction0$mcV$sp": ["init___"]
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "name": "scala.collection.immutable.RedBlack$Empty$",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_RedBlack$Empty$",
+  "superClass": "scala_collection_immutable_RedBlack$Tree",
+  "ancestors": ["scala_collection_immutable_RedBlack$Empty$", "scala_Product", "scala_Equals", "scala_collection_immutable_RedBlack$Tree", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isEmpty__Z": {},
+    "isBlack__Z": {},
+    "lookup__O__Lscala_collection_immutable_RedBlack$Tree": {},
+    "upd__O__O__Lscala_collection_immutable_RedBlack$Tree": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["Empty__Lscala_collection_immutable_RedBlack$Empty$"],
+        "scala_collection_immutable_RedBlack$RedTree": ["init___Lscala_collection_immutable_RedBlack__O__O__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree"],
+        "scala_collection_immutable_RedBlack$Empty$": ["scala$collection$immutable$RedBlack$Empty$$$outer__Lscala_collection_immutable_RedBlack"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_RedBlack$RedTree"]
+    },
+    "del__O__Lscala_collection_immutable_RedBlack$Tree": {},
+    "smallest__Lscala_collection_immutable_RedBlack$NonEmpty": {
+      "calledMethods": {
+        "java_util_NoSuchElementException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"]
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "toStream__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$": ["empty__Lscala_collection_immutable_Stream"]
+      },
+      "accessedModules": ["scala_collection_immutable_Stream"]
+    },
+    "foreach__Lscala_Function2__V": {},
+    "rng__Lscala_Option__Lscala_Option__Lscala_collection_immutable_RedBlack$Empty$": {},
+    "first__Lscala_Nothing": {
+      "calledMethods": {
+        "java_util_NoSuchElementException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"]
+    },
+    "last__Lscala_Nothing": {
+      "calledMethods": {
+        "java_util_NoSuchElementException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"]
+    },
+    "count__I": {},
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_collection_immutable_RedBlack$Empty$"]
+    },
+    "hashCode__I": {},
+    "toString__T": {},
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["Empty__Lscala_collection_immutable_RedBlack$Empty$"],
+        "scala_collection_immutable_RedBlack$Empty$": ["scala$collection$immutable$RedBlack$Empty$$$outer__Lscala_collection_immutable_RedBlack"]
+      }
+    },
+    "scala$collection$immutable$RedBlack$Empty$$$outer__Lscala_collection_immutable_RedBlack": {},
+    "last__O": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["last__Lscala_Nothing"]
+      }
+    },
+    "first__O": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["first__Lscala_Nothing"]
+      }
+    },
+    "rng__Lscala_Option__Lscala_Option__Lscala_collection_immutable_RedBlack$Tree": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["rng__Lscala_Option__Lscala_Option__Lscala_collection_immutable_RedBlack$Empty$"]
+      }
+    },
+    "init___Lscala_collection_immutable_RedBlack": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_immutable_RedBlack$Tree": ["init___Lscala_collection_immutable_RedBlack"]
+      }
+    },
+    "scala$collection$immutable$RedBlack$Empty$$$outer__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["scala$collection$immutable$RedBlack$Empty$$$outer__Lscala_collection_immutable_RedBlack"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$Empty$": ["productPrefix__T"]
+      }
+    }
+  }
+}

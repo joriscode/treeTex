@@ -1,0 +1,68 @@
+{
+  "name": "java.util.concurrent.TimeUnit$$anon$7",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_concurrent_TimeUnit$$anon$7",
+  "superClass": "java_util_concurrent_TimeUnit",
+  "ancestors": ["java_util_concurrent_TimeUnit$$anon$7", "java_util_concurrent_TimeUnit", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "convert__J__Ljava_util_concurrent_TimeUnit__J": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["toDays__J__J"]
+      }
+    },
+    "toNanos__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_util_concurrent_TimeUnit$": ["x__J__J__J__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit"]
+    },
+    "toMicros__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_util_concurrent_TimeUnit$": ["x__J__J__J__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit"]
+    },
+    "toMillis__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_util_concurrent_TimeUnit$": ["x__J__J__J__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit"]
+    },
+    "toSeconds__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_util_concurrent_TimeUnit$": ["x__J__J__J__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit"]
+    },
+    "toMinutes__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_util_concurrent_TimeUnit$": ["x__J__J__J__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit"]
+    },
+    "toHours__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_util_concurrent_TimeUnit$": ["x__J__J__J__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit"]
+    },
+    "toDays__J__J": {},
+    "init___": {
+      "calledMethodsStatic": {
+        "java_util_concurrent_TimeUnit": ["init___I__T"]
+      }
+    }
+  }
+}

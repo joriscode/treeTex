@@ -1,0 +1,51 @@
+{
+  "name": "scala.reflect.ManifestFactory$$anon$13",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_reflect_ManifestFactory$$anon$13",
+  "superClass": "scala_reflect_AnyValManifest",
+  "ancestors": ["scala_reflect_ManifestFactory$$anon$13", "scala_reflect_AnyValManifest", "scala_reflect_Manifest", "scala_reflect_ClassTag", "scala_Equals", "scala_reflect_ClassManifestDeprecatedApis", "scala_reflect_OptManifest", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "runtimeClass__Ljava_lang_Class": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["TYPE__Ljava_lang_Class"]
+      },
+      "accessedModules": ["java_lang_Boolean"]
+    },
+    "newArray__I__AZ": {},
+    "newWrappedArray__I__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofBoolean": ["init___AZ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofBoolean"]
+    },
+    "newArrayBuilder__Lscala_collection_mutable_ArrayBuilder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuilder$ofBoolean"]
+    },
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$": ["Boolean__Lscala_reflect_AnyValManifest"],
+        "scala_reflect_package$": ["Manifest__Lscala_reflect_ManifestFactory$"]
+      },
+      "accessedModules": ["scala_reflect_package"]
+    },
+    "newArray__I__O": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$$anon$13": ["newArray__I__AZ"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_reflect_AnyValManifest": ["init___T"]
+      }
+    }
+  }
+}

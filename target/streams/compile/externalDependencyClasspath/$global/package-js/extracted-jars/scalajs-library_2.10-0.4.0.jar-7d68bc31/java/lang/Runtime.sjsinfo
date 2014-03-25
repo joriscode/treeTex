@@ -1,0 +1,143 @@
+{
+  "name": "java.lang.Runtime",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Runtime",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Runtime", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "exit__I__V": {
+      "calledMethods": {
+        "java_lang_Runtime": ["halt0__p1__I__V"]
+      }
+    },
+    "addShutdownHook__Ljava_lang_Thread__V": {},
+    "removeShutdownHook__Ljava_lang_Thread__V": {},
+    "halt__I__V": {
+      "calledMethods": {
+        "java_lang_Runtime": ["halt0__p1__I__V"]
+      }
+    },
+    "halt0__p1__I__V": {
+      "calledMethods": {
+        "java_lang_SecurityException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_SecurityException"]
+    },
+    "availableProcessors__I": {},
+    "freeMemory__J": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "totalMemory__J": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "maxMemory__J": {
+      "calledMethods": {
+        "java_lang_Long$": ["MAX$undVALUE__J"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "gc__V": {},
+    "runFinalization__V": {},
+    "traceInstructions__Z__V": {},
+    "traceMethodCalls__Z__V": {},
+    "load__T__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "loadLibrary__T__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "loadLibrary__T__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["loadLibrary__T__V"]
+      }
+    },
+    "load__T__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["load__T__V"]
+      }
+    },
+    "traceMethodCalls__Z__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["traceMethodCalls__Z__V"]
+      }
+    },
+    "traceInstructions__Z__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["traceInstructions__Z__V"]
+      }
+    },
+    "runFinalization__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["runFinalization__V"]
+      }
+    },
+    "gc__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["gc__V"]
+      }
+    },
+    "maxMemory__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["maxMemory__J"]
+      }
+    },
+    "totalMemory__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["totalMemory__J"]
+      }
+    },
+    "freeMemory__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["freeMemory__J"]
+      }
+    },
+    "availableProcessors__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["availableProcessors__I"]
+      }
+    },
+    "halt__I__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["halt__I__V"]
+      }
+    },
+    "removeShutdownHook__Ljava_lang_Thread__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["removeShutdownHook__Ljava_lang_Thread__V"]
+      }
+    },
+    "addShutdownHook__Ljava_lang_Thread__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["addShutdownHook__Ljava_lang_Thread__V"]
+      }
+    },
+    "exit__I__": {
+      "calledMethods": {
+        "java_lang_Runtime": ["exit__I__V"]
+      }
+    }
+  }
+}

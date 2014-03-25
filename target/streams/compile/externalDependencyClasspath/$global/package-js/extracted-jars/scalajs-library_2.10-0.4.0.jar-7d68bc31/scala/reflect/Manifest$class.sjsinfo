@@ -1,0 +1,44 @@
+{
+  "name": "scala.reflect.Manifest$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_reflect_Manifest$class",
+  "superClass": "",
+  "ancestors": ["scala_reflect_Manifest$class"],
+  "isExported": false,
+  "methods": {
+    "scala_reflect_Manifest$class__typeArguments__Lscala_reflect_Manifest__Lscala_collection_immutable_List": {
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "scala_reflect_Manifest$class__arrayManifest__Lscala_reflect_Manifest__Lscala_reflect_Manifest": {
+      "calledMethods": {
+        "scala_reflect_Manifest": ["arrayClass__Ljava_lang_Class__Ljava_lang_Class", "erasure__Ljava_lang_Class"],
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_reflect_ManifestFactory$": ["classType__Ljava_lang_Class__Lscala_reflect_Manifest__Lscala_collection_Seq__Lscala_reflect_Manifest"],
+        "scala_reflect_package$": ["Manifest__Lscala_reflect_ManifestFactory$"]
+      },
+      "accessedModules": ["scala_Predef", "scala_reflect_package"],
+      "accessedClassData": ["java_lang_Object", "scala_reflect_Manifest"]
+    },
+    "scala_reflect_Manifest$class__canEqual__Lscala_reflect_Manifest__O__Z": {
+      "accessedClassData": ["scala_reflect_Manifest"]
+    },
+    "scala_reflect_Manifest$class__equals__Lscala_reflect_Manifest__O__Z": {
+      "calledMethods": {
+        "scala_reflect_Manifest": ["$$less$colon$less__Lscala_reflect_ClassTag__Z", "canEqual__O__Z", "erasure__Ljava_lang_Class"]
+      },
+      "accessedClassData": ["scala_reflect_Manifest"]
+    },
+    "scala_reflect_Manifest$class__hashCode__Lscala_reflect_Manifest__I": {
+      "calledMethods": {
+        "scala_reflect_Manifest": ["erasure__Ljava_lang_Class"],
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "scala_reflect_Manifest$class__$init$__Lscala_reflect_Manifest__V": {}
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "scala.xml.dtd.DFAContentModel",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_DFAContentModel",
+  "superClass": "scala_xml_dtd_ContentModel",
+  "ancestors": ["scala_xml_dtd_DFAContentModel", "scala_xml_dtd_ContentModel", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "dfa$lzycompute__p2__Lscala_util_automata_DetWordAutom": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_util_automata_SubsetConstruction": ["init___Lscala_util_automata_NondetWordAutom", "determinize__Lscala_util_automata_DetWordAutom"],
+        "scala_xml_dtd_ContentModel$Translator$": ["automatonFrom__Lscala_util_regexp_Base$RegExp__I__Lscala_util_automata_NondetWordAutom"],
+        "scala_xml_dtd_DFAContentModel": ["r__Lscala_util_regexp_Base$RegExp"]
+      },
+      "instantiatedClasses": ["scala_util_automata_SubsetConstruction"],
+      "accessedModules": ["scala_xml_dtd_ContentModel$Translator", "scala_runtime_BoxedUnit"]
+    },
+    "r__Lscala_util_regexp_Base$RegExp": {
+      "isAbstract": true
+    },
+    "dfa__Lscala_util_automata_DetWordAutom": {
+      "calledMethods": {
+        "scala_xml_dtd_DFAContentModel": ["dfa$lzycompute__p2__Lscala_util_automata_DetWordAutom"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModel": ["init___"]
+      }
+    },
+    "dfa__": {
+      "calledMethods": {
+        "scala_xml_dtd_DFAContentModel": ["dfa__Lscala_util_automata_DetWordAutom"]
+      }
+    },
+    "r__": {
+      "calledMethods": {
+        "scala_xml_dtd_DFAContentModel": ["r__Lscala_util_regexp_Base$RegExp"]
+      }
+    }
+  }
+}

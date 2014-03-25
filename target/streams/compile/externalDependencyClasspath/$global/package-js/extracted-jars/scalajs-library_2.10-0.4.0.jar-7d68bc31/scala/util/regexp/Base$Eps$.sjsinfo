@@ -1,0 +1,91 @@
+{
+  "name": "scala.util.regexp.Base$Eps$",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_regexp_Base$Eps$",
+  "superClass": "scala_util_regexp_Base$RegExp",
+  "ancestors": ["scala_util_regexp_Base$Eps$", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_util_regexp_Base$RegExp", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isNullable$lzycompute__p2__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "isNullable__Z": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Eps$": ["isNullable$lzycompute__p2__Z"]
+      }
+    },
+    "toString__T": {},
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_util_regexp_Base$Eps$"]
+    },
+    "hashCode__I": {},
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_util_regexp_Base": ["Eps__Lscala_util_regexp_Base$Eps$"],
+        "scala_util_regexp_Base$Eps$": ["scala$util$regexp$Base$Eps$$$outer__Lscala_util_regexp_Base"]
+      }
+    },
+    "scala$util$regexp$Base$Eps$$$outer__Lscala_util_regexp_Base": {},
+    "init___Lscala_util_regexp_Base": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_regexp_Base$RegExp": ["init___Lscala_util_regexp_Base"]
+      }
+    },
+    "scala$util$regexp$Base$Eps$$$outer__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Eps$": ["scala$util$regexp$Base$Eps$$$outer__Lscala_util_regexp_Base"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Eps$": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Eps$": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Eps$": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Eps$": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Eps$": ["productPrefix__T"]
+      }
+    }
+  }
+}

@@ -1,0 +1,811 @@
+{
+  "name": "scala.Tuple2",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Tuple2",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Tuple2", "scala_Serializable", "java_io_Serializable", "scala_Product2", "scala_Product", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "productArity__I": {
+      "calledMethods": {
+        "scala_Product2$class": ["scala_Product2$class__productArity__Lscala_Product2__I"]
+      }
+    },
+    "productElement__I__O": {
+      "calledMethods": {
+        "scala_Product2$class": ["scala_Product2$class__productElement__Lscala_Product2__I__O"]
+      }
+    },
+    "$$und1__O": {},
+    "$$und2__O": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"]
+      }
+    },
+    "swap__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "copy__O__O__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "copy$default$1__O": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "copy$default$2__O": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "productPrefix__T": {},
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O", "$$und2__O", "canEqual__O__Z"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "$$und1$mcZ$sp__Z": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "$$und1$mcC$sp__C": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "$$und1$mcD$sp__D": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "$$und1$mcI$sp__I": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "$$und1$mcJ$sp__J": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "$$und2$mcZ$sp__Z": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "$$und2$mcC$sp__C": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "$$und2$mcD$sp__D": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "$$und2$mcI$sp__I": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "$$und2$mcJ$sp__J": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "swap$mcZZ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZC$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZD$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZI$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZJ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCZ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCC$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCD$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCI$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCJ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDZ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDC$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDD$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDI$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDJ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcIZ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcIC$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcID$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcII$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcIJ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJZ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJC$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJD$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJI$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJJ$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "copy$mZZc$sp__Z__Z__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcZZ$sp": ["init___Z__Z"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcZZ$sp"]
+    },
+    "copy$mZCc$sp__Z__C__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcZC$sp": ["init___Z__C"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcZC$sp"]
+    },
+    "copy$mZDc$sp__Z__D__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcZD$sp": ["init___Z__D"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcZD$sp"]
+    },
+    "copy$mZIc$sp__Z__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcZI$sp": ["init___Z__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcZI$sp"]
+    },
+    "copy$mZJc$sp__Z__J__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcZJ$sp": ["init___Z__J"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcZJ$sp"]
+    },
+    "copy$mCZc$sp__C__Z__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcCZ$sp": ["init___C__Z"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcCZ$sp"]
+    },
+    "copy$mCCc$sp__C__C__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcCC$sp": ["init___C__C"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcCC$sp"]
+    },
+    "copy$mCDc$sp__C__D__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcCD$sp": ["init___C__D"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcCD$sp"]
+    },
+    "copy$mCIc$sp__C__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcCI$sp": ["init___C__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcCI$sp"]
+    },
+    "copy$mCJc$sp__C__J__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcCJ$sp": ["init___C__J"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcCJ$sp"]
+    },
+    "copy$mDZc$sp__D__Z__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcDZ$sp": ["init___D__Z"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcDZ$sp"]
+    },
+    "copy$mDCc$sp__D__C__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcDC$sp": ["init___D__C"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcDC$sp"]
+    },
+    "copy$mDDc$sp__D__D__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcDD$sp": ["init___D__D"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcDD$sp"]
+    },
+    "copy$mDIc$sp__D__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["init___D__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcDI$sp"]
+    },
+    "copy$mDJc$sp__D__J__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcDJ$sp": ["init___D__J"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcDJ$sp"]
+    },
+    "copy$mIZc$sp__I__Z__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcIZ$sp": ["init___I__Z"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcIZ$sp"]
+    },
+    "copy$mICc$sp__I__C__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcIC$sp": ["init___I__C"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcIC$sp"]
+    },
+    "copy$mIDc$sp__I__D__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcID$sp": ["init___I__D"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcID$sp"]
+    },
+    "copy$mIIc$sp__I__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcII$sp": ["init___I__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcII$sp"]
+    },
+    "copy$mIJc$sp__I__J__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcIJ$sp": ["init___I__J"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcIJ$sp"]
+    },
+    "copy$mJZc$sp__J__Z__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcJZ$sp": ["init___J__Z"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcJZ$sp"]
+    },
+    "copy$mJCc$sp__J__C__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcJC$sp": ["init___J__C"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcJC$sp"]
+    },
+    "copy$mJDc$sp__J__D__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcJD$sp": ["init___J__D"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcJD$sp"]
+    },
+    "copy$mJIc$sp__J__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcJI$sp": ["init___J__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcJI$sp"]
+    },
+    "copy$mJJc$sp__J__J__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcJJ$sp": ["init___J__J"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcJJ$sp"]
+    },
+    "copy$default$1$mcZ$sp__Z": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$1__O"]
+      }
+    },
+    "copy$default$1$mcC$sp__C": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$1__O"]
+      }
+    },
+    "copy$default$1$mcD$sp__D": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$1__O"]
+      }
+    },
+    "copy$default$1$mcI$sp__I": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$1__O"]
+      }
+    },
+    "copy$default$1$mcJ$sp__J": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$1__O"]
+      }
+    },
+    "copy$default$2$mcZ$sp__Z": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$2__O"]
+      }
+    },
+    "copy$default$2$mcC$sp__C": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$2__O"]
+      }
+    },
+    "copy$default$2$mcD$sp__D": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$2__O"]
+      }
+    },
+    "copy$default$2$mcI$sp__I": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$2__O"]
+      }
+    },
+    "copy$default$2$mcJ$sp__J": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$default$2__O"]
+      }
+    },
+    "specInstance$__Z": {},
+    "init___O__O": {
+      "calledMethods": {
+        "scala_Product2$class": ["scala_Product2$class__$init$__Lscala_Product2__V"],
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_Tuple2": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_Tuple2": ["productArity__I"]
+      }
+    },
+    "specInstance$__": {
+      "calledMethods": {
+        "scala_Tuple2": ["specInstance$__Z"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_Tuple2": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_Tuple2": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_Tuple2": ["productPrefix__T"]
+      }
+    },
+    "copy$mJJc$sp__J__J__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mJJc$sp__J__J__Lscala_Tuple2"]
+      }
+    },
+    "copy$mJIc$sp__J__I__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mJIc$sp__J__I__Lscala_Tuple2"]
+      }
+    },
+    "copy$mJDc$sp__J__D__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mJDc$sp__J__D__Lscala_Tuple2"]
+      }
+    },
+    "copy$mJCc$sp__J__C__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mJCc$sp__J__C__Lscala_Tuple2"]
+      }
+    },
+    "copy$mJZc$sp__J__Z__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mJZc$sp__J__Z__Lscala_Tuple2"]
+      }
+    },
+    "copy$mIJc$sp__I__J__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mIJc$sp__I__J__Lscala_Tuple2"]
+      }
+    },
+    "copy$mIIc$sp__I__I__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mIIc$sp__I__I__Lscala_Tuple2"]
+      }
+    },
+    "copy$mIDc$sp__I__D__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mIDc$sp__I__D__Lscala_Tuple2"]
+      }
+    },
+    "copy$mICc$sp__I__C__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mICc$sp__I__C__Lscala_Tuple2"]
+      }
+    },
+    "copy$mIZc$sp__I__Z__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mIZc$sp__I__Z__Lscala_Tuple2"]
+      }
+    },
+    "copy$mDJc$sp__D__J__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mDJc$sp__D__J__Lscala_Tuple2"]
+      }
+    },
+    "copy$mDIc$sp__D__I__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mDIc$sp__D__I__Lscala_Tuple2"]
+      }
+    },
+    "copy$mDDc$sp__D__D__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mDDc$sp__D__D__Lscala_Tuple2"]
+      }
+    },
+    "copy$mDCc$sp__D__C__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mDCc$sp__D__C__Lscala_Tuple2"]
+      }
+    },
+    "copy$mDZc$sp__D__Z__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mDZc$sp__D__Z__Lscala_Tuple2"]
+      }
+    },
+    "copy$mCJc$sp__C__J__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mCJc$sp__C__J__Lscala_Tuple2"]
+      }
+    },
+    "copy$mCIc$sp__C__I__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mCIc$sp__C__I__Lscala_Tuple2"]
+      }
+    },
+    "copy$mCDc$sp__C__D__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mCDc$sp__C__D__Lscala_Tuple2"]
+      }
+    },
+    "copy$mCCc$sp__C__C__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mCCc$sp__C__C__Lscala_Tuple2"]
+      }
+    },
+    "copy$mCZc$sp__C__Z__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mCZc$sp__C__Z__Lscala_Tuple2"]
+      }
+    },
+    "copy$mZJc$sp__Z__J__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mZJc$sp__Z__J__Lscala_Tuple2"]
+      }
+    },
+    "copy$mZIc$sp__Z__I__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mZIc$sp__Z__I__Lscala_Tuple2"]
+      }
+    },
+    "copy$mZDc$sp__Z__D__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mZDc$sp__Z__D__Lscala_Tuple2"]
+      }
+    },
+    "copy$mZCc$sp__Z__C__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mZCc$sp__Z__C__Lscala_Tuple2"]
+      }
+    },
+    "copy$mZZc$sp__Z__Z__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy$mZZc$sp__Z__Z__Lscala_Tuple2"]
+      }
+    },
+    "copy__O__O__": {
+      "calledMethods": {
+        "scala_Tuple2": ["copy__O__O__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJJ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcJJ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJI$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcJI$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJD$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcJD$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJC$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcJC$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcJZ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcJZ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcIJ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcIJ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcII$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcII$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcID$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcID$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcIC$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcIC$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcIZ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcIZ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDJ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcDJ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDI$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcDI$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDD$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcDD$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDC$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcDC$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDZ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcDZ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCJ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcCJ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCI$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcCI$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCD$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcCD$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCC$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcCC$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcCZ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcCZ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZJ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcZJ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZI$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcZI$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZD$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcZD$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZC$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcZC$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcZZ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap$mcZZ$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap__": {
+      "calledMethods": {
+        "scala_Tuple2": ["swap__Lscala_Tuple2"]
+      }
+    },
+    "$$und2$mcJ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2$mcJ$sp__J"]
+      }
+    },
+    "$$und2$mcI$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2$mcI$sp__I"]
+      }
+    },
+    "$$und2$mcD$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2$mcD$sp__D"]
+      }
+    },
+    "$$und2$mcC$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2$mcC$sp__C"]
+      }
+    },
+    "$$und2$mcZ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2$mcZ$sp__Z"]
+      }
+    },
+    "$$und2__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "$$und1$mcJ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1$mcJ$sp__J"]
+      }
+    },
+    "$$und1$mcI$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1$mcI$sp__I"]
+      }
+    },
+    "$$und1$mcD$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1$mcD$sp__D"]
+      }
+    },
+    "$$und1$mcC$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1$mcC$sp__C"]
+      }
+    },
+    "$$und1$mcZ$sp__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1$mcZ$sp__Z"]
+      }
+    },
+    "$$und1__": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    }
+  }
+}

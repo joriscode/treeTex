@@ -1,0 +1,136 @@
+{
+  "name": "scala.collection.mutable.SynchronizedBuffer$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_SynchronizedBuffer$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_SynchronizedBuffer$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_SynchronizedBuffer$class__length__Lscala_collection_mutable_SynchronizedBuffer__I": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$length__I"]
+      }
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__iterator__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$iterator__Lscala_collection_Iterator"]
+      },
+      "accessedClassData": ["scala_collection_Iterator"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__apply__Lscala_collection_mutable_SynchronizedBuffer__I__O": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$apply__I__O"]
+      }
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__$plus$eq__Lscala_collection_mutable_SynchronizedBuffer__O__Lscala_collection_mutable_SynchronizedBuffer": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$$plus$eq__O__Lscala_collection_mutable_SynchronizedBuffer"]
+      },
+      "accessedClassData": ["scala_collection_mutable_SynchronizedBuffer"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__$plus$plus__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_GenTraversableOnce__Lscala_collection_mutable_Buffer": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_mutable_Buffer"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Buffer"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__$plus$plus$eq__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedBuffer": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedBuffer"]
+      },
+      "accessedClassData": ["scala_collection_mutable_SynchronizedBuffer"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__append__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_Seq__V": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedBuffer"]
+      }
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__appendAll__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_TraversableOnce__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$appendAll__Lscala_collection_TraversableOnce__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__$plus$eq$colon__Lscala_collection_mutable_SynchronizedBuffer__O__Lscala_collection_mutable_SynchronizedBuffer": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$$plus$eq$colon__O__Lscala_collection_mutable_SynchronizedBuffer"]
+      },
+      "accessedClassData": ["scala_collection_mutable_SynchronizedBuffer"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__$plus$plus$eq$colon__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedBuffer": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$$plus$plus$eq$colon__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedBuffer"]
+      },
+      "accessedClassData": ["scala_collection_mutable_SynchronizedBuffer"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__prepend__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_Seq__V": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["prependAll__Lscala_collection_TraversableOnce__V"]
+      }
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__prependAll__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_TraversableOnce__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$prependAll__Lscala_collection_TraversableOnce__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__insert__Lscala_collection_mutable_SynchronizedBuffer__I__Lscala_collection_Seq__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$insertAll__I__Lscala_collection_Traversable__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__insertAll__Lscala_collection_mutable_SynchronizedBuffer__I__Lscala_collection_Traversable__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$insertAll__I__Lscala_collection_Traversable__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__update__Lscala_collection_mutable_SynchronizedBuffer__I__O__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$update__I__O__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__remove__Lscala_collection_mutable_SynchronizedBuffer__I__O": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$remove__I__O"]
+      }
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__clear__Lscala_collection_mutable_SynchronizedBuffer__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$clear__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__$less$less__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_script_Message__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$$less$less__Lscala_collection_script_Message__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__clone__Lscala_collection_mutable_SynchronizedBuffer__Lscala_collection_mutable_Buffer": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$clone__Lscala_collection_mutable_Buffer"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Buffer"]
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__hashCode__Lscala_collection_mutable_SynchronizedBuffer__I": {
+      "calledMethods": {
+        "scala_collection_mutable_SynchronizedBuffer": ["scala$collection$mutable$SynchronizedBuffer$$super$hashCode__I"]
+      }
+    },
+    "scala_collection_mutable_SynchronizedBuffer$class__$init$__Lscala_collection_mutable_SynchronizedBuffer__V": {}
+  }
+}

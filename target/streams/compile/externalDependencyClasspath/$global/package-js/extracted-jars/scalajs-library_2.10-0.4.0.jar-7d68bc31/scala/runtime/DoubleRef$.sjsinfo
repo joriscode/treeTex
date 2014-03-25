@@ -1,0 +1,45 @@
+{
+  "name": "scala.runtime.DoubleRef$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_DoubleRef$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_DoubleRef$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "create__D__Lscala_runtime_DoubleRef": {
+      "calledMethods": {
+        "scala_runtime_DoubleRef": ["init___D"]
+      },
+      "instantiatedClasses": ["scala_runtime_DoubleRef"]
+    },
+    "zero__Lscala_runtime_DoubleRef": {
+      "calledMethods": {
+        "scala_runtime_DoubleRef": ["init___D"]
+      },
+      "instantiatedClasses": ["scala_runtime_DoubleRef"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_runtime_DoubleRef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_runtime_DoubleRef$": ["zero__Lscala_runtime_DoubleRef"]
+      }
+    },
+    "create__D__": {
+      "calledMethods": {
+        "scala_runtime_DoubleRef$": ["create__D__Lscala_runtime_DoubleRef"]
+      }
+    }
+  }
+}

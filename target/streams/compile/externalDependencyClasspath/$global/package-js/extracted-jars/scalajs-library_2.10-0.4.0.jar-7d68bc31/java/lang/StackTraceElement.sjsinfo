@@ -1,0 +1,71 @@
+{
+  "name": "java.lang.StackTraceElement",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_StackTraceElement",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_StackTraceElement", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "getFileName__T": {},
+    "getLineNumber__I": {},
+    "getClassName__T": {},
+    "getMethodName__T": {},
+    "isNativeMethod__Z": {},
+    "equals__O__Z": {
+      "calledMethods": {
+        "java_lang_StackTraceElement": ["getLineNumber__I", "getFileName__T", "getClassName__T", "getMethodName__T"]
+      },
+      "accessedClassData": ["java_lang_StackTraceElement"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "java_lang_StackTraceElement": ["isNativeMethod__Z"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_StringContext"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "java_lang_String": ["hashCode__I"]
+      }
+    },
+    "init___T__T__T__I": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "isNativeMethod__": {
+      "calledMethods": {
+        "java_lang_StackTraceElement": ["isNativeMethod__Z"]
+      }
+    },
+    "getMethodName__": {
+      "calledMethods": {
+        "java_lang_StackTraceElement": ["getMethodName__T"]
+      }
+    },
+    "getClassName__": {
+      "calledMethods": {
+        "java_lang_StackTraceElement": ["getClassName__T"]
+      }
+    },
+    "getLineNumber__": {
+      "calledMethods": {
+        "java_lang_StackTraceElement": ["getLineNumber__I"]
+      }
+    },
+    "getFileName__": {
+      "calledMethods": {
+        "java_lang_StackTraceElement": ["getFileName__T"]
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "name": "scala.util.automata.BaseBerrySethi",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_automata_BaseBerrySethi",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_automata_BaseBerrySethi", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "lang__Lscala_util_regexp_Base": {
+      "isAbstract": true
+    },
+    "pos__I": {},
+    "pos$und$eq__I__V": {},
+    "follow__Lscala_collection_mutable_HashMap": {},
+    "follow$und$eq__Lscala_collection_mutable_HashMap__V": {},
+    "finalTag__I": {},
+    "finalTag$und$eq__I__V": {},
+    "finals__Lscala_collection_immutable_Map": {},
+    "finals$und$eq__Lscala_collection_immutable_Map__V": {},
+    "emptySet__Lscala_collection_immutable_Set": {},
+    "doComp__p1__Lscala_util_regexp_Base$RegExp__Lscala_Function1__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_util_regexp_Base": ["Eps__Lscala_util_regexp_Base$Eps$"],
+        "scala_collection_Seq": ["take__I__O", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O", "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_CanBuildFrom__O", "span__Lscala_Function1__Lscala_Tuple2"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_util_regexp_Base$Sequ": ["rs__Lscala_collection_Seq"],
+        "scala_collection_TraversableLike": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_util_regexp_Base$Meta": ["r__Lscala_util_regexp_Base$RegExp"],
+        "scala_util_regexp_Base$RegExp": ["isNullable__Z", "getClass__Ljava_lang_Class"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_util_automata_BaseBerrySethi": ["compFirst__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set", "lang__Lscala_util_regexp_Base", "emptySet__Lscala_collection_immutable_Set"],
+        "scala_util_regexp_Base$Star": ["r__Lscala_util_regexp_Base$RegExp"],
+        "scala_Tuple2": ["$$und2__O", "init___O__O", "$$und1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_util_regexp_Base$Alt": ["rs__Lscala_collection_Seq"],
+        "scala_collection_immutable_Set": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_Set"],
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "java_lang_IllegalArgumentException", "scala_MatchError", "scala_scalajs_runtime_AnonFunction1", "scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_collection_Seq"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_GenTraversableOnce", "scala_util_regexp_Base$Sequ", "scala_util_regexp_Base$Alt", "scala_util_regexp_Base$Star", "scala_collection_Seq", "scala_collection_TraversableOnce", "scala_collection_immutable_Set", "scala_util_regexp_Base$Meta"]
+    },
+    "compFirst__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["compFirst__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set", "doComp__p1__Lscala_util_regexp_Base$RegExp__Lscala_Function1__Lscala_collection_immutable_Set"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "compLast__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["doComp__p1__Lscala_util_regexp_Base$RegExp__Lscala_Function1__Lscala_collection_immutable_Set", "compLast__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "compFollow__Lscala_collection_Seq__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$", "wrapIntArray__AI__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_Seq": ["isEmpty__Z", "foldRight__O__Lscala_Function2__O"],
+        "scala_util_regexp_Base$RegExp": ["isNullable__Z"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_util_automata_BaseBerrySethi": ["pos__I", "follow__Lscala_collection_mutable_HashMap", "compFollow1__Lscala_collection_immutable_Set__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set", "emptySet__Lscala_collection_immutable_Set"],
+        "scala_collection_immutable_Set$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_collection_immutable_Set": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_Set"],
+        "scala_collection_mutable_HashMap": ["update__O__O__V", "apply__O__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_collection_immutable_Set"]
+    },
+    "compFollow1__Lscala_collection_immutable_Set__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$", "conforms__Lscala_Predef$$less$colon$less"],
+        "scala_collection_Seq": ["reverseMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O", "foldRight__O__Lscala_Function2__O"],
+        "scala_util_regexp_Base$Sequ": ["rs__Lscala_collection_Seq"],
+        "scala_util_regexp_Base$Meta": ["r__Lscala_util_regexp_Base$RegExp"],
+        "scala_util_regexp_Base$RegExp": ["isNullable__Z", "getClass__Ljava_lang_Class"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_util_automata_BaseBerrySethi": ["compFirst__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set", "compFollow1__Lscala_collection_immutable_Set__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set"],
+        "scala_util_regexp_Base$Star": ["r__Lscala_util_regexp_Base$RegExp"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_generic_GenericTraversableTemplate": ["flatten__Lscala_Function1__Lscala_collection_GenTraversable"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_Set$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_util_regexp_Base$Alt": ["rs__Lscala_collection_Seq"],
+        "scala_collection_immutable_Set": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_Set"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException", "scala_scalajs_runtime_AnonFunction1", "scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_Predef", "scala_collection_Seq"],
+      "accessedClassData": ["scala_util_regexp_Base$Sequ", "scala_util_regexp_Base$Alt", "scala_util_regexp_Base$Star", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_Seq", "scala_collection_immutable_Set", "scala_util_regexp_Base$Meta"]
+    },
+    "traverse__Lscala_util_regexp_Base$RegExp__V": {
+      "calledMethods": {
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V"],
+        "scala_util_regexp_Base$Sequ": ["rs__Lscala_collection_Seq"],
+        "scala_util_regexp_Base$Meta": ["r__Lscala_util_regexp_Base$RegExp"],
+        "scala_util_regexp_Base$RegExp": ["getClass__Ljava_lang_Class"],
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_util_automata_BaseBerrySethi": ["traverse__Lscala_util_regexp_Base$RegExp__V"],
+        "scala_util_regexp_Base$Star": ["r__Lscala_util_regexp_Base$RegExp"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_regexp_Base$Alt": ["rs__Lscala_collection_Seq"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_util_regexp_Base$Sequ", "scala_util_regexp_Base$Alt", "scala_util_regexp_Base$Star", "scala_util_regexp_Base$Meta"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$"],
+        "scala_collection_immutable_Set$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_Predef", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_collection_immutable_Set"]
+    },
+    "traverse__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["traverse__Lscala_util_regexp_Base$RegExp__V"]
+      }
+    },
+    "compFollow1__Lscala_collection_immutable_Set__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["compFollow1__Lscala_collection_immutable_Set__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set"]
+      }
+    },
+    "compFollow__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["compFollow__Lscala_collection_Seq__Lscala_collection_immutable_Set"]
+      }
+    },
+    "compLast__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["compLast__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set"]
+      }
+    },
+    "compFirst__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["compFirst__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set"]
+      }
+    },
+    "emptySet__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["emptySet__Lscala_collection_immutable_Set"]
+      }
+    },
+    "finals$und$eq__Lscala_collection_immutable_Map__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["finals$und$eq__Lscala_collection_immutable_Map__V"]
+      }
+    },
+    "finals__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["finals__Lscala_collection_immutable_Map"]
+      }
+    },
+    "finalTag$und$eq__I__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["finalTag$und$eq__I__V"]
+      }
+    },
+    "finalTag__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["finalTag__I"]
+      }
+    },
+    "follow$und$eq__Lscala_collection_mutable_HashMap__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["follow$und$eq__Lscala_collection_mutable_HashMap__V"]
+      }
+    },
+    "follow__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["follow__Lscala_collection_mutable_HashMap"]
+      }
+    },
+    "pos$und$eq__I__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["pos$und$eq__I__V"]
+      }
+    },
+    "pos__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["pos__I"]
+      }
+    },
+    "lang__": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["lang__Lscala_util_regexp_Base"]
+      }
+    }
+  }
+}

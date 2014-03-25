@@ -1,0 +1,39 @@
+{
+  "name": "scala.runtime.ByteRef",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_ByteRef",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_ByteRef", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elem__B": {},
+    "elem$und$eq__B__V": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ByteRef": ["elem__B"],
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__I__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_RuntimeString"]
+    },
+    "init___B": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "elem$und$eq__B__": {
+      "calledMethods": {
+        "scala_runtime_ByteRef": ["elem$und$eq__B__V"]
+      }
+    },
+    "elem__": {
+      "calledMethods": {
+        "scala_runtime_ByteRef": ["elem__B"]
+      }
+    }
+  }
+}

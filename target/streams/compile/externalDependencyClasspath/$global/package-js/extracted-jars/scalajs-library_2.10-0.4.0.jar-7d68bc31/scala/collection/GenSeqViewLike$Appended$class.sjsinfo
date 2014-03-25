@@ -1,0 +1,35 @@
+{
+  "name": "scala.collection.GenSeqViewLike$Appended$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqViewLike$Appended$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqViewLike$Appended$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqViewLike$Appended$class__restSeq__Lscala_collection_GenSeqViewLike$Appended__Lscala_collection_GenSeq": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Appended": ["rest__Lscala_collection_GenTraversable"],
+        "scala_collection_GenTraversable": ["toSeq__Lscala_collection_GenSeq"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Appended$class__length__Lscala_collection_GenSeqViewLike$Appended__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Appended": ["scala$collection$GenSeqViewLike$Appended$$$outer__Lscala_collection_GenSeqViewLike", "restSeq__Lscala_collection_GenSeq"],
+        "scala_collection_GenSeqViewLike": ["length__I"],
+        "scala_collection_GenSeq": ["length__I"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Appended$class__apply__Lscala_collection_GenSeqViewLike$Appended__I__O": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Appended": ["scala$collection$GenSeqViewLike$Appended$$$outer__Lscala_collection_GenSeqViewLike", "restSeq__Lscala_collection_GenSeq"],
+        "scala_collection_GenSeqViewLike": ["apply__I__O", "length__I"],
+        "scala_collection_GenSeq": ["apply__I__O"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Appended$class__$init$__Lscala_collection_GenSeqViewLike$Appended__V": {}
+  }
+}

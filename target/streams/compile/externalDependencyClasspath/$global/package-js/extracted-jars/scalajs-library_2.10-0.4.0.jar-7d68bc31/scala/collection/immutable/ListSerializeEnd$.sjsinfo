@@ -1,0 +1,71 @@
+{
+  "name": "scala.collection.immutable.ListSerializeEnd$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_ListSerializeEnd$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_ListSerializeEnd$", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_collection_immutable_ListSerializeEnd$"]
+    },
+    "hashCode__I": {},
+    "toString__T": {},
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_immutable_ListSerializeEnd"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSerializeEnd$": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSerializeEnd$": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSerializeEnd$": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSerializeEnd$": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSerializeEnd$": ["productPrefix__T"]
+      }
+    }
+  }
+}

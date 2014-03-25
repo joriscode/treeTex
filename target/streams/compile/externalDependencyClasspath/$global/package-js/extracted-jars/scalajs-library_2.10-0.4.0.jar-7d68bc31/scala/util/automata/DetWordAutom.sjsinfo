@@ -1,0 +1,107 @@
+{
+  "name": "scala.util.automata.DetWordAutom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_automata_DetWordAutom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_automata_DetWordAutom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "nstates__I": {
+      "isAbstract": true
+    },
+    "finals__AI": {
+      "isAbstract": true
+    },
+    "delta__ALscala_collection_mutable_Map": {
+      "isAbstract": true
+    },
+    "$default__AI": {
+      "isAbstract": true
+    },
+    "isFinal__I__Z": {
+      "calledMethods": {
+        "scala_util_automata_DetWordAutom": ["finals__AI"]
+      }
+    },
+    "isSink__I__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["isEmpty__Z"],
+        "scala_util_automata_DetWordAutom": ["$default__AI", "delta__ALscala_collection_mutable_Map"]
+      }
+    },
+    "next__I__O__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_mutable_Map": ["getOrElse__O__Lscala_Function0__O"],
+        "scala_util_automata_DetWordAutom": ["$default__AI", "delta__ALscala_collection_mutable_Map"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "intArrayOps__AI__Lscala_collection_mutable_ArrayOps", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray", "intWrapper__I__I", "augmentString__T__T", "Map__Lscala_collection_immutable_Map$"],
+        "scala_collection_mutable_ArrayOps": ["zipWithIndex__Lscala_collection_generic_CanBuildFrom__O", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_immutable_StringOps": ["init___T", "format__Lscala_collection_Seq__T"],
+        "scala_Array$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_Tuple2": ["swap$mcII$sp__Lscala_Tuple2"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_collection_mutable_StringBuilder": ["toString__T", "append__I__Lscala_collection_mutable_StringBuilder", "init___T", "append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_util_automata_DetWordAutom": ["$default__AI", "finals__AI", "nstates__I", "delta__ALscala_collection_mutable_Map"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_collection_immutable_Map": ["toString__T"],
+        "scala_collection_immutable_Range": ["foreach__Lscala_Function1__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps", "scala_collection_mutable_StringBuilder", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_reflect_ClassTag", "scala_Array", "scala_Predef", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_Tuple2", "java_lang_Object", "scala_collection_immutable_Map"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "next__I__O__": {
+      "calledMethods": {
+        "scala_util_automata_DetWordAutom": ["next__I__O__I"]
+      }
+    },
+    "isSink__I__": {
+      "calledMethods": {
+        "scala_util_automata_DetWordAutom": ["isSink__I__Z"]
+      }
+    },
+    "isFinal__I__": {
+      "calledMethods": {
+        "scala_util_automata_DetWordAutom": ["isFinal__I__Z"]
+      }
+    },
+    "$default__": {
+      "calledMethods": {
+        "scala_util_automata_DetWordAutom": ["$default__AI"]
+      }
+    },
+    "delta__": {
+      "calledMethods": {
+        "scala_util_automata_DetWordAutom": ["delta__ALscala_collection_mutable_Map"]
+      }
+    },
+    "finals__": {
+      "calledMethods": {
+        "scala_util_automata_DetWordAutom": ["finals__AI"]
+      }
+    },
+    "nstates__": {
+      "calledMethods": {
+        "scala_util_automata_DetWordAutom": ["nstates__I"]
+      }
+    }
+  }
+}

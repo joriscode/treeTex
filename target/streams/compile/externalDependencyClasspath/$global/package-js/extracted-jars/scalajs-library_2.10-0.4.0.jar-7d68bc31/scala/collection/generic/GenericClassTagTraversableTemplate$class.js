@@ -1,0 +1,13 @@
+ScalaJS.impls.scala_collection_generic_GenericClassTagTraversableTemplate$class__genericClassTagBuilder__Lscala_collection_generic_GenericClassTagTraversableTemplate__Lscala_reflect_ClassTag__Lscala_collection_mutable_Builder = (function($$this, tag) {
+  return $$this.classTagCompanion__Lscala_collection_generic_GenericClassTagCompanion().newBuilder__Lscala_reflect_ClassTag__Lscala_collection_mutable_Builder(tag)
+});
+ScalaJS.impls.scala_collection_generic_GenericClassTagTraversableTemplate$class__classManifestCompanion__Lscala_collection_generic_GenericClassTagTraversableTemplate__Lscala_collection_generic_GenericClassTagCompanion = (function($$this) {
+  return $$this.classTagCompanion__Lscala_collection_generic_GenericClassTagCompanion()
+});
+ScalaJS.impls.scala_collection_generic_GenericClassTagTraversableTemplate$class__genericClassManifestBuilder__Lscala_collection_generic_GenericClassTagTraversableTemplate__Lscala_reflect_ClassTag__Lscala_collection_mutable_Builder = (function($$this, manifest) {
+  return $$this.genericClassTagBuilder__Lscala_reflect_ClassTag__Lscala_collection_mutable_Builder(manifest)
+});
+ScalaJS.impls.scala_collection_generic_GenericClassTagTraversableTemplate$class__$init$__Lscala_collection_generic_GenericClassTagTraversableTemplate__V = (function($$this) {
+  /*<skip>*/
+});
+//@ sourceMappingURL=GenericClassTagTraversableTemplate$class.js.map

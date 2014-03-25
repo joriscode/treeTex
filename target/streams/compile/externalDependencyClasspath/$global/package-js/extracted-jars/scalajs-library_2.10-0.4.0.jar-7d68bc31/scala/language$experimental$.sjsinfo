@@ -1,0 +1,36 @@
+{
+  "name": "scala.language$experimental$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_language$experimental$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_language$experimental$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "macros$lzycompute__p1__Lscala_languageFeature$experimental$macros": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_languageFeature$experimental$macros", "scala_runtime_BoxedUnit"]
+    },
+    "macros__Lscala_languageFeature$experimental$macros": {
+      "calledMethods": {
+        "scala_language$experimental$": ["macros$lzycompute__p1__Lscala_languageFeature$experimental$macros"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "macros__": {
+      "calledMethods": {
+        "scala_language$experimental$": ["macros__Lscala_languageFeature$experimental$macros"]
+      }
+    }
+  }
+}

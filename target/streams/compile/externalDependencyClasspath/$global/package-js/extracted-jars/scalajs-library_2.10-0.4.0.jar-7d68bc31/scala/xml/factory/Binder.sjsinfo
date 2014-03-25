@@ -1,0 +1,125 @@
+{
+  "name": "scala.xml.factory.Binder",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_factory_Binder",
+  "superClass": "scala_xml_parsing_ValidatingMarkupHandler",
+  "ancestors": ["scala_xml_factory_Binder", "scala_xml_parsing_ValidatingMarkupHandler", "scala_xml_parsing_MarkupHandler", "scala_util_logging_Logged", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "preserveWS__Z": {},
+    "result__Lscala_xml_NodeBuffer": {},
+    "result$und$eq__Lscala_xml_NodeBuffer__V": {},
+    "reportSyntaxError__I__T__V": {},
+    "procInstr__I__T__T__Lscala_xml_ProcInstr": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["init___T__T"]
+      },
+      "instantiatedClasses": ["scala_xml_ProcInstr"]
+    },
+    "comment__I__T__Lscala_xml_Comment": {
+      "calledMethods": {
+        "scala_xml_Comment": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_Comment"]
+    },
+    "entityRef__I__T__Lscala_xml_EntityRef": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_EntityRef"]
+    },
+    "text__I__T__Lscala_xml_Text": {
+      "calledMethods": {
+        "scala_xml_Text$": ["apply__T__Lscala_xml_Text"]
+      },
+      "accessedModules": ["scala_xml_Text"]
+    },
+    "traverse__Lscala_xml_Node__V": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["toList__Lscala_collection_immutable_List"],
+        "scala_xml_Text": ["data__O"],
+        "scala_xml_NodeSeq$": ["fromSeq__Lscala_collection_Seq__Lscala_xml_NodeSeq"],
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V"],
+        "scala_xml_ProcInstr": ["target__T", "text__T"],
+        "scala_xml_NodeBuffer": ["$$amp$plus__O__Lscala_xml_NodeBuffer", "init___"],
+        "scala_MatchError": ["init___O"],
+        "scala_xml_Elem": ["attributes__Lscala_xml_MetaData", "scope__Lscala_xml_NamespaceBinding", "prefix__T", "child__Lscala_collection_Seq", "label__T", "minimizeEmpty__Z"],
+        "scala_xml_factory_Binder": ["procInstr__I__T__T__Lscala_xml_ProcInstr", "result$und$eq__Lscala_xml_NodeBuffer__V", "text__I__T__Lscala_xml_Text", "result__Lscala_xml_NodeBuffer", "elemStart__I__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__V", "entityRef__I__T__Lscala_xml_EntityRef", "traverse__Lscala_xml_Node__V", "comment__I__T__Lscala_xml_Comment", "elem__I__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Z__Lscala_xml_NodeSeq__Lscala_xml_NodeSeq", "elemEnd__I__T__T__V"],
+        "scala_xml_Comment": ["text__T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_EntityRef": ["entityName__T"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_xml_NodeBuffer", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit", "scala_xml_NodeSeq"],
+      "accessedClassData": ["scala_xml_Comment", "scala_xml_Text", "scala_xml_ProcInstr", "scala_xml_EntityRef", "java_lang_String", "scala_xml_Elem"]
+    },
+    "validate__Lscala_xml_Node__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["rootLabel$und$eq__T__V", "traverse__Lscala_xml_Node__V", "result__Lscala_xml_NodeBuffer"],
+        "scala_xml_Node": ["label__T"],
+        "scala_xml_NodeBuffer": ["apply__I__O"]
+      },
+      "accessedClassData": ["scala_xml_Node"]
+    },
+    "text__I__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["text__I__T__Lscala_xml_Text"]
+      }
+    },
+    "entityRef__I__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["entityRef__I__T__Lscala_xml_EntityRef"]
+      }
+    },
+    "comment__I__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["comment__I__T__Lscala_xml_Comment"]
+      }
+    },
+    "procInstr__I__T__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["procInstr__I__T__T__Lscala_xml_ProcInstr"]
+      }
+    },
+    "init___Z": {
+      "calledMethods": {
+        "scala_xml_NodeBuffer": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_parsing_ValidatingMarkupHandler": ["init___"]
+      },
+      "instantiatedClasses": ["scala_xml_NodeBuffer"]
+    },
+    "validate__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["validate__Lscala_xml_Node__Lscala_xml_Node"]
+      }
+    },
+    "traverse__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["traverse__Lscala_xml_Node__V"]
+      }
+    },
+    "result$und$eq__Lscala_xml_NodeBuffer__": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["result$und$eq__Lscala_xml_NodeBuffer__V"]
+      }
+    },
+    "result__": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["result__Lscala_xml_NodeBuffer"]
+      }
+    },
+    "preserveWS__": {
+      "calledMethods": {
+        "scala_xml_factory_Binder": ["preserveWS__Z"]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "scala.concurrent.Future",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Future",
+  "superClass": "",
+  "ancestors": ["scala_concurrent_Future", "scala_concurrent_Awaitable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "onSuccess__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__V": {
+      "isAbstract": true
+    },
+    "onFailure__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__V": {
+      "isAbstract": true
+    },
+    "onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__V": {
+      "isAbstract": true
+    },
+    "isCompleted__Z": {
+      "isAbstract": true
+    },
+    "value__Lscala_Option": {
+      "isAbstract": true
+    },
+    "failed__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "foreach__Lscala_Function1__Lscala_concurrent_ExecutionContext__V": {
+      "isAbstract": true
+    },
+    "transform__Lscala_Function1__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "map__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "flatMap__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "filter__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "withFilter__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "collect__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "recover__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "recoverWith__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "zip__Lscala_concurrent_Future__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "fallbackTo__Lscala_concurrent_Future__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "mapTo__Lscala_reflect_ClassTag__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "andThen__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "isAbstract": true
+    }
+  }
+}

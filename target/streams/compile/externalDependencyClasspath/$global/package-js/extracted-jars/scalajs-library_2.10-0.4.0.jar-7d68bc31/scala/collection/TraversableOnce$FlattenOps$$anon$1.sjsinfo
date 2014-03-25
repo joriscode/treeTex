@@ -1,0 +1,44 @@
+{
+  "name": "scala.collection.TraversableOnce$FlattenOps$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableOnce$FlattenOps$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_TraversableOnce$FlattenOps$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "its__p2__Lscala_collection_Iterator": {},
+    "it__p2__Lscala_collection_Iterator": {},
+    "it$und$eq__p2__Lscala_collection_Iterator__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_TraversableOnce$FlattenOps$$anon$1": ["it$und$eq__p2__Lscala_collection_Iterator__V", "it__p2__Lscala_collection_Iterator", "its__p2__Lscala_collection_Iterator"],
+        "scala_collection_GenTraversableOnce": ["toIterator__Lscala_collection_Iterator"]
+      },
+      "accessedClassData": ["scala_collection_GenTraversableOnce"]
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_TraversableOnce$FlattenOps$$anon$1": ["hasNext__Z", "it__p2__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "init___Lscala_collection_TraversableOnce$FlattenOps": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_TraversableOnce": ["toIterator__Lscala_collection_Iterator"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    }
+  }
+}

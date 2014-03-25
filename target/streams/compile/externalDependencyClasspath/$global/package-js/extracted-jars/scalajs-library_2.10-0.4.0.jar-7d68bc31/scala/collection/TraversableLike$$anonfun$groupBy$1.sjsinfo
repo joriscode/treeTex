@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.TraversableLike$$anonfun$groupBy$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableLike$$anonfun$groupBy$1",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_collection_TraversableLike$$anonfun$groupBy$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_TraversableLike": ["newBuilder__Lscala_collection_mutable_Builder"],
+        "scala_collection_TraversableLike$$anonfun$groupBy$1": ["scala$collection$TraversableLike$$anonfun$$$outer__Lscala_collection_TraversableLike"],
+        "scala_collection_mutable_Builder": ["$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_mutable_Map": ["getOrElseUpdate__O__Lscala_Function0__O"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["scala_collection_mutable_Builder"]
+    },
+    "scala$collection$TraversableLike$$anonfun$$$outer__Lscala_collection_TraversableLike": {},
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_TraversableLike$$anonfun$groupBy$1": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "init___Lscala_collection_TraversableLike__Lscala_collection_mutable_Map__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$TraversableLike$$anonfun$$$outer__": {
+      "calledMethods": {
+        "scala_collection_TraversableLike$$anonfun$groupBy$1": ["scala$collection$TraversableLike$$anonfun$$$outer__Lscala_collection_TraversableLike"]
+      }
+    }
+  }
+}

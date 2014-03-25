@@ -1,0 +1,86 @@
+{
+  "name": "scala.io.Position",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_Position",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_Position", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "checkInput__I__I__V": {
+      "isAbstract": true
+    },
+    "LINE$undBITS__I": {},
+    "COLUMN$undBITS__I": {},
+    "LINE$undMASK__I": {},
+    "COLUMN$undMASK__I": {},
+    "encode__I__I__I": {
+      "calledMethods": {
+        "scala_math_package$": ["min__I__I__I"],
+        "scala_io_Position": ["checkInput__I__I__V"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "line__I__I": {},
+    "column__I__I": {},
+    "toString__I__T": {
+      "calledMethods": {
+        "scala_io_Position": ["column__I__I", "line__I__I"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "toString__I__": {
+      "calledMethods": {
+        "scala_io_Position": ["toString__I__T"]
+      }
+    },
+    "column__I__": {
+      "calledMethods": {
+        "scala_io_Position": ["column__I__I"]
+      }
+    },
+    "line__I__": {
+      "calledMethods": {
+        "scala_io_Position": ["line__I__I"]
+      }
+    },
+    "encode__I__I__": {
+      "calledMethods": {
+        "scala_io_Position": ["encode__I__I__I"]
+      }
+    },
+    "COLUMN$undMASK__": {
+      "calledMethods": {
+        "scala_io_Position": ["COLUMN$undMASK__I"]
+      }
+    },
+    "LINE$undMASK__": {
+      "calledMethods": {
+        "scala_io_Position": ["LINE$undMASK__I"]
+      }
+    },
+    "COLUMN$undBITS__": {
+      "calledMethods": {
+        "scala_io_Position": ["COLUMN$undBITS__I"]
+      }
+    },
+    "LINE$undBITS__": {
+      "calledMethods": {
+        "scala_io_Position": ["LINE$undBITS__I"]
+      }
+    },
+    "checkInput__I__I__": {
+      "calledMethods": {
+        "scala_io_Position": ["checkInput__I__I__V"]
+      }
+    }
+  }
+}

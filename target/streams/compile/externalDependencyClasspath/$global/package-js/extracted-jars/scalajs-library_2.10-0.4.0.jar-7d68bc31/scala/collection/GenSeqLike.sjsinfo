@@ -1,0 +1,110 @@
+{
+  "name": "scala.collection.GenSeqLike",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqLike",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqLike", "scala_Equals", "scala_collection_GenIterableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "seq__Lscala_collection_Seq": {
+      "isAbstract": true
+    },
+    "apply__I__O": {
+      "isAbstract": true
+    },
+    "length__I": {
+      "isAbstract": true
+    },
+    "isDefinedAt__I__Z": {
+      "isAbstract": true
+    },
+    "segmentLength__Lscala_Function1__I__I": {
+      "isAbstract": true
+    },
+    "prefixLength__Lscala_Function1__I": {
+      "isAbstract": true
+    },
+    "indexWhere__Lscala_Function1__I__I": {
+      "isAbstract": true
+    },
+    "indexWhere__Lscala_Function1__I": {
+      "isAbstract": true
+    },
+    "indexOf__O__I": {
+      "isAbstract": true
+    },
+    "indexOf__O__I__I": {
+      "isAbstract": true
+    },
+    "lastIndexOf__O__I": {
+      "isAbstract": true
+    },
+    "lastIndexOf__O__I__I": {
+      "isAbstract": true
+    },
+    "lastIndexWhere__Lscala_Function1__I": {
+      "isAbstract": true
+    },
+    "lastIndexWhere__Lscala_Function1__I__I": {
+      "isAbstract": true
+    },
+    "reverse__O": {
+      "isAbstract": true
+    },
+    "reverseMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "startsWith__Lscala_collection_GenSeq__Z": {
+      "isAbstract": true
+    },
+    "startsWith__Lscala_collection_GenSeq__I__Z": {
+      "isAbstract": true
+    },
+    "endsWith__Lscala_collection_GenSeq__Z": {
+      "isAbstract": true
+    },
+    "patch__I__Lscala_collection_GenSeq__I__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "updated__I__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "$$plus$colon__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "$$colon$plus__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "padTo__I__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "corresponds__Lscala_collection_GenSeq__Lscala_Function2__Z": {
+      "isAbstract": true
+    },
+    "toSeq__Lscala_collection_GenSeq": {
+      "isAbstract": true
+    },
+    "union__Lscala_collection_GenSeq__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "diff__Lscala_collection_GenSeq__O": {
+      "isAbstract": true
+    },
+    "intersect__Lscala_collection_GenSeq__O": {
+      "isAbstract": true
+    },
+    "distinct__O": {
+      "isAbstract": true
+    },
+    "hashCode__I": {
+      "isAbstract": true
+    },
+    "equals__O__Z": {
+      "isAbstract": true
+    }
+  }
+}

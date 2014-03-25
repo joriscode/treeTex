@@ -1,0 +1,170 @@
+{
+  "name": "scala.collection.immutable.PagedSeq$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_PagedSeq$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_PagedSeq$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "UndeterminedEnd__I": {},
+    "fromIterator__Lscala_collection_Iterator__Lscala_reflect_ClassTag__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undupdate__O__I__O__V"],
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_immutable_PagedSeq": ["init___Lscala_Function3__Lscala_reflect_ClassTag"],
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3", "scala_collection_immutable_PagedSeq"],
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "fromIterable__Lscala_collection_immutable_Iterable__Lscala_reflect_ClassTag__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_Iterable": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_immutable_PagedSeq$": ["fromIterator__Lscala_collection_Iterator__Lscala_reflect_ClassTag__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromStrings__Lscala_collection_Iterator__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_collection_immutable_PagedSeq": ["init___Lscala_Function3__Lscala_reflect_ClassTag"],
+        "scala_collection_immutable_PagedSeq$": ["scala$collection$immutable$PagedSeq$$more$1__AC__I__I__Lscala_collection_Iterator__Lscala_runtime_ObjectRef__I"],
+        "scala_reflect_ClassTag$": ["Char__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3", "scala_collection_immutable_PagedSeq", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_collection_immutable_PagedSeq", "scala_reflect_ClassTag"]
+    },
+    "fromStrings__Lscala_collection_immutable_Iterable__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_Iterable": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_immutable_PagedSeq$": ["fromStrings__Lscala_collection_Iterator__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromLines__Lscala_collection_Iterator__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["map__Lscala_Function1__Lscala_collection_Iterator"],
+        "scala_collection_immutable_PagedSeq$": ["fromStrings__Lscala_collection_Iterator__Lscala_collection_immutable_PagedSeq"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_BooleanRef": ["init___Z"]
+      },
+      "instantiatedClasses": ["scala_runtime_BooleanRef", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "fromLines__Lscala_collection_immutable_Iterable__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_Iterable": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_immutable_PagedSeq$": ["fromLines__Lscala_collection_Iterator__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromReader__Ljava_io_Reader__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Char__Lscala_reflect_ClassTag"],
+        "scala_collection_immutable_PagedSeq": ["init___Lscala_Function3__Lscala_reflect_ClassTag"],
+        "java_io_Reader": ["read__AC__I__I__I"],
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3", "scala_collection_immutable_PagedSeq"],
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "fromFile__Ljava_io_File__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "java_io_FileReader": ["init___Ljava_io_File"],
+        "scala_collection_immutable_PagedSeq$": ["fromReader__Ljava_io_Reader__Lscala_collection_immutable_PagedSeq"]
+      },
+      "instantiatedClasses": ["java_io_FileReader"]
+    },
+    "fromFile__T__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromFile__Ljava_io_File__Lscala_collection_immutable_PagedSeq"],
+        "java_io_File": ["init___T"]
+      },
+      "instantiatedClasses": ["java_io_File"]
+    },
+    "fromSource__Lscala_io_Source__Lscala_collection_immutable_PagedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromLines__Lscala_collection_Iterator__Lscala_collection_immutable_PagedSeq"],
+        "scala_io_Source": ["getLines__Lscala_collection_Iterator"]
+      }
+    },
+    "scala$collection$immutable$PagedSeq$$more$1__AC__I__I__Lscala_collection_Iterator__Lscala_runtime_ObjectRef__I": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I", "max$extension__I__I__I"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__T", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I", "scala_scalajs_runtime_RuntimeString$class__getChars__Lscala_scalajs_runtime_RuntimeString__I__I__AC__I__V"],
+        "scala_collection_immutable_PagedSeq$": ["scala$collection$immutable$PagedSeq$$more$1__AC__I__I__Lscala_collection_Iterator__Lscala_runtime_ObjectRef__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "scala$collection$immutable$PagedSeq$$more$1__AC__I__I__Lscala_collection_Iterator__Lscala_runtime_ObjectRef__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["scala$collection$immutable$PagedSeq$$more$1__AC__I__I__Lscala_collection_Iterator__Lscala_runtime_ObjectRef__I"]
+      }
+    },
+    "fromSource__Lscala_io_Source__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromSource__Lscala_io_Source__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromFile__T__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromFile__T__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromFile__Ljava_io_File__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromFile__Ljava_io_File__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromReader__Ljava_io_Reader__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromReader__Ljava_io_Reader__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromLines__Lscala_collection_immutable_Iterable__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromLines__Lscala_collection_immutable_Iterable__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromLines__Lscala_collection_Iterator__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromLines__Lscala_collection_Iterator__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromStrings__Lscala_collection_immutable_Iterable__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromStrings__Lscala_collection_immutable_Iterable__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromStrings__Lscala_collection_Iterator__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromStrings__Lscala_collection_Iterator__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromIterable__Lscala_collection_immutable_Iterable__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromIterable__Lscala_collection_immutable_Iterable__Lscala_reflect_ClassTag__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "fromIterator__Lscala_collection_Iterator__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["fromIterator__Lscala_collection_Iterator__Lscala_reflect_ClassTag__Lscala_collection_immutable_PagedSeq"]
+      }
+    },
+    "UndeterminedEnd__": {
+      "calledMethods": {
+        "scala_collection_immutable_PagedSeq$": ["UndeterminedEnd__I"]
+      }
+    }
+  }
+}

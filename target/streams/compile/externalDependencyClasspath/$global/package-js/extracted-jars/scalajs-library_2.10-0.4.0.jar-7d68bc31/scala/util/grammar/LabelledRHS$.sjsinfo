@@ -1,0 +1,49 @@
+{
+  "name": "scala.util.grammar.LabelledRHS$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_grammar_LabelledRHS$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_grammar_LabelledRHS$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__O__I__Lscala_util_grammar_LabelledRHS": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["init___O__I"]
+      },
+      "instantiatedClasses": ["scala_util_grammar_LabelledRHS"]
+    },
+    "unapply__Lscala_util_grammar_LabelledRHS__Lscala_Option": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["hnt__I", "label__O"],
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_util_grammar_LabelledRHS"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_util_grammar_LabelledRHS__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS$": ["unapply__Lscala_util_grammar_LabelledRHS__Lscala_Option"]
+      }
+    },
+    "apply__O__I__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS$": ["apply__O__I__Lscala_util_grammar_LabelledRHS"]
+      }
+    }
+  }
+}

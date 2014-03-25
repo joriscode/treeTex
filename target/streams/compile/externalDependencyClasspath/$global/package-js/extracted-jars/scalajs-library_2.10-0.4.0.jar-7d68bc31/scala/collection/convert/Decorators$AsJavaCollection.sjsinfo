@@ -1,0 +1,41 @@
+{
+  "name": "scala.collection.convert.Decorators$AsJavaCollection",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Decorators$AsJavaCollection",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Decorators$AsJavaCollection", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "asJavaCollection__Ljava_util_Collection": {
+      "calledMethods": {
+        "scala_collection_JavaConversions$": ["asJavaCollection__Lscala_collection_Iterable__Ljava_util_Collection"]
+      },
+      "accessedModules": ["scala_collection_JavaConversions"]
+    },
+    "scala$collection$convert$Decorators$AsJavaCollection$$$outer__Lscala_collection_convert_Decorators": {},
+    "init___Lscala_collection_convert_Decorators__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$convert$Decorators$AsJavaCollection$$$outer__": {
+      "calledMethods": {
+        "scala_collection_convert_Decorators$AsJavaCollection": ["scala$collection$convert$Decorators$AsJavaCollection$$$outer__Lscala_collection_convert_Decorators"]
+      }
+    },
+    "asJavaCollection__": {
+      "calledMethods": {
+        "scala_collection_convert_Decorators$AsJavaCollection": ["asJavaCollection__Ljava_util_Collection"]
+      }
+    }
+  }
+}

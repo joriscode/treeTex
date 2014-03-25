@@ -1,0 +1,321 @@
+{
+  "name": "scala.util.control.Exception$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_Exception$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_control_Exception$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "mkCatcher__Lscala_Function1__Lscala_Function1__Lscala_reflect_ClassTag__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_util_control_Exception$$anon$1": ["init___Lscala_Function1__Lscala_Function1__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$$anon$1"]
+    },
+    "mkThrowableCatcher__Lscala_Function1__Lscala_Function1__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_util_control_Exception$": ["mkCatcher__Lscala_Function1__Lscala_Function1__Lscala_reflect_ClassTag__Lscala_PartialFunction"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"],
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "throwableSubtypeToCatcher__Lscala_PartialFunction__Lscala_reflect_ClassTag__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_PartialFunction": ["isDefinedAt__O__Z", "apply__O__O"],
+        "scala_util_control_Exception$": ["mkCatcher__Lscala_Function1__Lscala_Function1__Lscala_reflect_ClassTag__Lscala_PartialFunction"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "shouldRethrow__Ljava_lang_Throwable__Z": {
+      "accessedClassData": ["java_lang_InterruptedException", "scala_util_control_ControlThrowable"]
+    },
+    "nothingCatcher__Lscala_PartialFunction": {},
+    "nonFatalCatcher__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"],
+        "scala_util_control_Exception$": ["mkThrowableCatcher__Lscala_Function1__Lscala_Function1__Lscala_PartialFunction"],
+        "scala_Option": ["isEmpty__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_util_control_NonFatal"]
+    },
+    "allCatcher__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["mkThrowableCatcher__Lscala_Function1__Lscala_Function1__Lscala_PartialFunction"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "noCatch__Lscala_util_control_Exception$Catch": {},
+    "allCatch__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["allCatcher__Lscala_PartialFunction"],
+        "scala_util_control_Exception$Catch$": ["$$lessinit$greater$default$3__Lscala_Function1", "$$lessinit$greater$default$2__Lscala_Option"],
+        "scala_util_control_Exception$Catch": ["init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1", "withDesc__T__Lscala_util_control_Exception$Described"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Catch"],
+      "accessedModules": ["scala_util_control_Exception$Catch"],
+      "accessedClassData": ["scala_util_control_Exception$Catch"]
+    },
+    "nonFatalCatch__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["nonFatalCatcher__Lscala_PartialFunction"],
+        "scala_util_control_Exception$Catch$": ["$$lessinit$greater$default$3__Lscala_Function1", "$$lessinit$greater$default$2__Lscala_Option"],
+        "scala_util_control_Exception$Catch": ["init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1", "withDesc__T__Lscala_util_control_Exception$Described"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Catch"],
+      "accessedModules": ["scala_util_control_Exception$Catch"],
+      "accessedClassData": ["scala_util_control_Exception$Catch"]
+    },
+    "catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_collection_Seq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "java_lang_Class": ["getName__T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_control_Exception$Catch$": ["$$lessinit$greater$default$3__Lscala_Function1", "$$lessinit$greater$default$2__Lscala_Option"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_util_control_Exception$Catch": ["init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1", "withDesc__T__Lscala_util_control_Exception$Described"],
+        "scala_util_control_Exception$": ["pfFromExceptions__p1__Lscala_collection_Seq__Lscala_PartialFunction"],
+        "scala_collection_TraversableOnce": ["mkString__T__T"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Catch", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_util_control_Exception$Catch", "scala_collection_Seq"],
+      "accessedClassData": ["scala_util_control_Exception$Catch", "scala_collection_TraversableOnce"]
+    },
+    "catching__Lscala_PartialFunction__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch$": ["$$lessinit$greater$default$3__Lscala_Function1", "$$lessinit$greater$default$2__Lscala_Option"],
+        "scala_util_control_Exception$Catch": ["init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Catch"],
+      "accessedModules": ["scala_util_control_Exception$Catch"]
+    },
+    "catchingPromiscuously__Lscala_collection_Seq__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["pfFromExceptions__p1__Lscala_collection_Seq__Lscala_PartialFunction", "catchingPromiscuously__Lscala_PartialFunction__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "catchingPromiscuously__Lscala_PartialFunction__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Catch", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_None"]
+    },
+    "ignoring__Lscala_collection_Seq__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"],
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "failing__Lscala_collection_Seq__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"],
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_None"]
+    },
+    "failAsValue__Lscala_collection_Seq__Lscala_Function0__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"],
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "handling__Lscala_collection_Seq__Lscala_util_control_Exception$By": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["scala$util$control$Exception$$fun$1__Lscala_Function1__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_control_Exception$By": ["init___Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$By", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_util_control_Exception"]
+    },
+    "ultimately__Lscala_Function0__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["noCatch__Lscala_util_control_Exception$Catch"],
+        "scala_util_control_Exception$Catch": ["andFinally__Lscala_Function0__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "unwrapping__Lscala_collection_Seq__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["scala$util$control$Exception$$unwrap$1__Ljava_lang_Throwable__Lscala_collection_Seq__Ljava_lang_Throwable", "catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"],
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_util_control_Exception"]
+    },
+    "scala$util$control$Exception$$wouldMatch__Ljava_lang_Throwable__Lscala_collection_Seq__Z": {
+      "calledMethods": {
+        "java_lang_Class": ["isAssignableFrom__Ljava_lang_Class__Z"],
+        "java_lang_Throwable": ["getClass__Ljava_lang_Class"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_Seq": ["exists__Lscala_Function1__Z"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "pfFromExceptions__p1__Lscala_collection_Seq__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_util_control_Exception$$anonfun$pfFromExceptions$1": ["init___Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$$anonfun$pfFromExceptions$1"]
+    },
+    "scala$util$control$Exception$$fun$1__Lscala_Function1__Lscala_collection_Seq__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"],
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "scala$util$control$Exception$$unwrap$1__Ljava_lang_Throwable__Lscala_collection_Seq__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["scala$util$control$Exception$$wouldMatch__Ljava_lang_Throwable__Lscala_collection_Seq__Z"],
+        "java_lang_Throwable": ["getCause__Ljava_lang_Throwable"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["nothingCatcher__Lscala_PartialFunction", "mkThrowableCatcher__Lscala_Function1__Lscala_Function1__Lscala_PartialFunction"],
+        "scala_util_control_Exception$Catch$": ["$$lessinit$greater$default$3__Lscala_Function1", "$$lessinit$greater$default$2__Lscala_Option"],
+        "scala_util_control_Exception$Catch": ["init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1", "withDesc__T__Lscala_util_control_Exception$Described"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Catch", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_util_control_Exception$Catch"],
+      "accessedClassData": ["scala_util_control_Exception$Catch"]
+    },
+    "scala$util$control$Exception$$unwrap$1__Ljava_lang_Throwable__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["scala$util$control$Exception$$unwrap$1__Ljava_lang_Throwable__Lscala_collection_Seq__Ljava_lang_Throwable"]
+      }
+    },
+    "scala$util$control$Exception$$fun$1__Lscala_Function1__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["scala$util$control$Exception$$fun$1__Lscala_Function1__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "scala$util$control$Exception$$wouldMatch__Ljava_lang_Throwable__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["scala$util$control$Exception$$wouldMatch__Ljava_lang_Throwable__Lscala_collection_Seq__Z"]
+      }
+    },
+    "unwrapping__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["unwrapping__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "ultimately__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["ultimately__Lscala_Function0__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "handling__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["handling__Lscala_collection_Seq__Lscala_util_control_Exception$By"]
+      }
+    },
+    "failAsValue__Lscala_collection_Seq__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["failAsValue__Lscala_collection_Seq__Lscala_Function0__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "failing__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["failing__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "ignoring__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["ignoring__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "catchingPromiscuously__Lscala_PartialFunction__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["catchingPromiscuously__Lscala_PartialFunction__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "catchingPromiscuously__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["catchingPromiscuously__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "catching__Lscala_PartialFunction__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["catching__Lscala_PartialFunction__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "catching__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "nonFatalCatch__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["nonFatalCatch__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "allCatch__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["allCatch__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "noCatch__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["noCatch__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "allCatcher__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["allCatcher__Lscala_PartialFunction"]
+      }
+    },
+    "nonFatalCatcher__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["nonFatalCatcher__Lscala_PartialFunction"]
+      }
+    },
+    "nothingCatcher__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["nothingCatcher__Lscala_PartialFunction"]
+      }
+    },
+    "shouldRethrow__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["shouldRethrow__Ljava_lang_Throwable__Z"]
+      }
+    },
+    "throwableSubtypeToCatcher__Lscala_PartialFunction__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["throwableSubtypeToCatcher__Lscala_PartialFunction__Lscala_reflect_ClassTag__Lscala_PartialFunction"]
+      }
+    },
+    "mkThrowableCatcher__Lscala_Function1__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["mkThrowableCatcher__Lscala_Function1__Lscala_Function1__Lscala_PartialFunction"]
+      }
+    },
+    "mkCatcher__Lscala_Function1__Lscala_Function1__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["mkCatcher__Lscala_Function1__Lscala_Function1__Lscala_reflect_ClassTag__Lscala_PartialFunction"]
+      }
+    }
+  }
+}

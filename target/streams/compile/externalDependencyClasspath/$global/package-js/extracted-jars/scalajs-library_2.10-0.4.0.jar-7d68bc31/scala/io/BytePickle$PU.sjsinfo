@@ -1,0 +1,36 @@
+{
+  "name": "scala.io.BytePickle$PU",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$PU",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_BytePickle$PU", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "appP__O__AB__AB": {
+      "isAbstract": true
+    },
+    "appU__AB__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "appU__AB__": {
+      "calledMethods": {
+        "scala_io_BytePickle$PU": ["appU__AB__Lscala_Tuple2"]
+      }
+    },
+    "appP__O__AB__": {
+      "calledMethods": {
+        "scala_io_BytePickle$PU": ["appP__O__AB__AB"]
+      }
+    }
+  }
+}

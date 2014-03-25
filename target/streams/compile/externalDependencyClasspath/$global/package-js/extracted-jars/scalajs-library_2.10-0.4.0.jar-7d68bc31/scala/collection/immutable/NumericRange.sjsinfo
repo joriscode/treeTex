@@ -1,0 +1,425 @@
+{
+  "name": "scala.collection.immutable.NumericRange",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_NumericRange",
+  "superClass": "scala_collection_AbstractSeq",
+  "ancestors": ["scala_collection_immutable_NumericRange", "scala_Serializable", "java_io_Serializable", "scala_collection_immutable_IndexedSeq", "scala_collection_IndexedSeq", "scala_collection_IndexedSeqLike", "scala_collection_immutable_Seq", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSeq", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_PartialFunction", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "numRangeElements$lzycompute__p4__I": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_immutable_NumericRange$": ["count__O__O__O__Z__Lscala_math_Integral__I"],
+        "scala_collection_immutable_NumericRange": ["end__O", "start__O", "step__O", "isInclusive__Z"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange", "scala_runtime_BoxedUnit"]
+    },
+    "last$lzycompute__p4__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_immutable_NumericRange": ["locationAfterN__p4__I__O", "length__I"],
+        "scala_collection_immutable_Nil$": ["last__O"]
+      },
+      "accessedModules": ["scala_collection_immutable_Nil", "scala_runtime_BoxedUnit"]
+    },
+    "hashCode$lzycompute__p4__I": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__hashCode__Lscala_collection_IndexedSeqLike__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "companion__Lscala_collection_generic_GenericCompanion": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$class": ["scala_collection_immutable_IndexedSeq$class__companion__Lscala_collection_immutable_IndexedSeq__Lscala_collection_generic_GenericCompanion"]
+      }
+    },
+    "toIndexedSeq__Lscala_collection_immutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$class": ["scala_collection_immutable_IndexedSeq$class__toIndexedSeq__Lscala_collection_immutable_IndexedSeq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$class": ["scala_collection_immutable_IndexedSeq$class__seq__Lscala_collection_immutable_IndexedSeq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "thisCollection__Lscala_collection_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__thisCollection__Lscala_collection_IndexedSeqLike__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__toCollection__Lscala_collection_IndexedSeqLike__O__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__iterator__Lscala_collection_IndexedSeqLike__Lscala_collection_Iterator"]
+      }
+    },
+    "toBuffer__Lscala_collection_mutable_Buffer": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__toBuffer__Lscala_collection_IndexedSeqLike__Lscala_collection_mutable_Buffer"]
+      }
+    },
+    "toSeq__Lscala_collection_immutable_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__toSeq__Lscala_collection_immutable_Seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "parCombiner__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__parCombiner__Lscala_collection_immutable_Seq__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "start__O": {},
+    "end__O": {},
+    "step__O": {},
+    "isInclusive__Z": {},
+    "numRangeElements__p4__I": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["numRangeElements$lzycompute__p4__I"]
+      }
+    },
+    "length__I": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["numRangeElements__p4__I"]
+      }
+    },
+    "isEmpty__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["length__I"]
+      }
+    },
+    "last__O": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["last$lzycompute__p4__O"]
+      }
+    },
+    "by__O__Lscala_collection_immutable_NumericRange": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["end__O", "start__O", "copy__O__O__O__Lscala_collection_immutable_NumericRange"]
+      }
+    },
+    "copy__O__O__O__Lscala_collection_immutable_NumericRange": {
+      "isAbstract": true
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["$$plus__O__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_immutable_NumericRange": ["start__O", "step__O", "length__I"],
+        "scala_math_Integral": ["mkNumericOps__O__Lscala_math_Integral$IntegralOps"]
+      }
+    },
+    "skipCount__p4__Lscala_Function1__I": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["$$plus__O__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_immutable_NumericRange": ["start__O", "step__O", "length__I"],
+        "scala_math_Integral": ["mkNumericOps__O__Lscala_math_Integral$IntegralOps"]
+      }
+    },
+    "isWithinBoundaries__p4__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$Ops": ["$$less__O__Z", "$$less$eq__O__Z", "$$greater__O__Z"],
+        "scala_collection_immutable_NumericRange": ["start__O", "last__O", "step__O", "isEmpty__Z"],
+        "scala_math_Integral": ["mkOrderingOps__O__Lscala_math_Ordering$Ops", "zero__O"]
+      }
+    },
+    "locationAfterN__p4__I__O": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["$$times__O__O", "$$plus__O__O"],
+        "scala_collection_immutable_NumericRange": ["start__O", "step__O"],
+        "scala_math_Integral": ["fromInt__I__O", "mkNumericOps__O__Lscala_math_Integral$IntegralOps"]
+      }
+    },
+    "newEmptyRange__p4__O__Lscala_collection_immutable_NumericRange$Exclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["apply__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Exclusive"],
+        "scala_collection_immutable_NumericRange": ["step__O"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "take__I__Lscala_collection_immutable_NumericRange": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$Inclusive": ["init___O__O__O__Lscala_math_Integral"],
+        "scala_collection_immutable_NumericRange": ["start__O", "step__O", "locationAfterN__p4__I__O", "newEmptyRange__p4__O__Lscala_collection_immutable_NumericRange$Exclusive", "length__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_NumericRange$Inclusive"]
+    },
+    "drop__I__Lscala_collection_immutable_NumericRange": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["end__O", "step__O", "copy__O__O__O__Lscala_collection_immutable_NumericRange", "locationAfterN__p4__I__O", "newEmptyRange__p4__O__Lscala_collection_immutable_NumericRange$Exclusive", "length__I"]
+      }
+    },
+    "apply__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_immutable_NumericRange": ["locationAfterN__p4__I__O", "length__I"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "min__Lscala_math_Ordering__O": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["start__O", "last__O", "step__O"],
+        "scala_math_Integral": ["signum__O__I"],
+        "scala_collection_TraversableOnce$class": ["scala_collection_TraversableOnce$class__min__Lscala_collection_TraversableOnce__Lscala_math_Ordering__O"],
+        "scala_collection_immutable_NumericRange$": ["defaultOrdering__Lscala_collection_immutable_Map"],
+        "scala_collection_immutable_Map": ["apply__O__O"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "max__Lscala_math_Ordering__O": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["start__O", "last__O", "step__O"],
+        "scala_math_Integral": ["signum__O__I"],
+        "scala_collection_TraversableOnce$class": ["scala_collection_TraversableOnce$class__max__Lscala_collection_TraversableOnce__Lscala_math_Ordering__O"],
+        "scala_collection_immutable_NumericRange$": ["defaultOrdering__Lscala_collection_immutable_Map"],
+        "scala_collection_immutable_Map": ["apply__O__O"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "mapRange__Lscala_Function1__Lscala_math_Integral__Lscala_collection_immutable_NumericRange": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$$anon$1": ["init___Lscala_collection_immutable_NumericRange__Lscala_Function1__Lscala_math_Integral__Lscala_collection_immutable_NumericRange"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_NumericRange$$anon$1"]
+    },
+    "containsTyped__O__Z": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["$$minus__O__O", "$$percent__O__O"],
+        "scala_collection_immutable_NumericRange": ["start__O", "step__O", "isWithinBoundaries__p4__O__Z"],
+        "scala_math_Integral": ["mkNumericOps__O__Lscala_math_Integral$IntegralOps", "zero__O"]
+      }
+    },
+    "contains__O__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["containsTyped__O__Z"]
+      },
+      "accessedClassData": ["java_lang_ClassCastException"]
+    },
+    "sum__Lscala_math_Numeric__O": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["$$div__O__O", "$$times__O__O", "$$plus__O__O"],
+        "scala_collection_immutable_NumericRange": ["numRangeElements__p4__I", "last__O", "head__O", "isEmpty__Z"],
+        "scala_math_Integral": ["fromInt__I__O", "mkNumericOps__O__Lscala_math_Integral$IntegralOps"]
+      }
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["hashCode$lzycompute__p4__I"]
+      }
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["start__O", "last__O", "canEqual__O__Z", "length__I"],
+        "scala_collection_GenSeqLike$class": ["scala_collection_GenSeqLike$class__equals__Lscala_collection_GenSeqLike__O__Z"]
+      },
+      "accessedClassData": ["scala_collection_immutable_NumericRange"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$": ["MAX$undPRINT__I"],
+        "scala_collection_immutable_NumericRange": ["take__I__Lscala_collection_immutable_NumericRange", "mkString__T__T__T__T", "length__I"]
+      },
+      "accessedModules": ["scala_collection_immutable_Range"]
+    },
+    "toTraversable__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["toTraversable__Lscala_collection_Traversable"]
+      }
+    },
+    "groupBy__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["groupBy__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "toIterable__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["toIterable__Lscala_collection_Iterable"]
+      }
+    },
+    "isDefinedAt__O__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["isDefinedAt__I__Z"]
+      }
+    },
+    "view__I__I__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["view__I__I__Lscala_collection_SeqView"]
+      }
+    },
+    "view__I__I__Lscala_collection_IterableView": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["view__I__I__Lscala_collection_SeqView"]
+      }
+    },
+    "view__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["view__Lscala_collection_SeqView"]
+      }
+    },
+    "view__Lscala_collection_IterableView": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["view__Lscala_collection_SeqView"]
+      }
+    },
+    "toSeq__Lscala_collection_GenSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["toSeq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "toSeq__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["toSeq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["toCollection__O__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["toCollection__O__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["toCollection__O__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "thisCollection__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["thisCollection__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "thisCollection__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["thisCollection__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "thisCollection__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["thisCollection__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["apply__I__O"]
+      }
+    },
+    "drop__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["drop__I__Lscala_collection_immutable_NumericRange"]
+      }
+    },
+    "take__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["take__I__Lscala_collection_immutable_NumericRange"]
+      }
+    },
+    "init___O__O__O__Z__Lscala_math_Integral": {
+      "calledMethods": {
+        "scala_collection_IndexedSeq$class": ["scala_collection_IndexedSeq$class__$init$__Lscala_collection_IndexedSeq__V"],
+        "scala_collection_immutable_Iterable$class": ["scala_collection_immutable_Iterable$class__$init$__Lscala_collection_immutable_Iterable__V"],
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__$init$__Lscala_collection_immutable_Seq__V"],
+        "scala_collection_immutable_IndexedSeq$class": ["scala_collection_immutable_IndexedSeq$class__$init$__Lscala_collection_immutable_IndexedSeq__V"],
+        "scala_collection_immutable_Traversable$class": ["scala_collection_immutable_Traversable$class__$init$__Lscala_collection_immutable_Traversable__V"],
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__$init$__Lscala_collection_IndexedSeqLike__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractSeq": ["init___"]
+      }
+    },
+    "containsTyped__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["containsTyped__O__Z"]
+      }
+    },
+    "mapRange__Lscala_Function1__Lscala_math_Integral__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["mapRange__Lscala_Function1__Lscala_math_Integral__Lscala_collection_immutable_NumericRange"]
+      }
+    },
+    "by__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["by__O__Lscala_collection_immutable_NumericRange"]
+      }
+    },
+    "isInclusive__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["isInclusive__Z"]
+      }
+    },
+    "step__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["step__O"]
+      }
+    },
+    "end__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["end__O"]
+      }
+    },
+    "start__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["start__O"]
+      }
+    },
+    "copy__O__O__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange": ["copy__O__O__O__Lscala_collection_immutable_NumericRange"]
+      }
+    }
+  }
+}

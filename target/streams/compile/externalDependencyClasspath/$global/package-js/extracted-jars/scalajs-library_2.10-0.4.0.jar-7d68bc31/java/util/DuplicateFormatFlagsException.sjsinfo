@@ -1,0 +1,52 @@
+{
+  "name": "java.util.DuplicateFormatFlagsException",
+  "ancestorCount": 6,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_DuplicateFormatFlagsException",
+  "superClass": "java_util_IllegalFormatException",
+  "ancestors": ["java_util_DuplicateFormatFlagsException", "java_util_IllegalFormatException", "java_lang_IllegalArgumentException", "java_lang_RuntimeException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "flags__p6__T": {},
+    "flags$und$eq__p6__T__V": {},
+    "getFlags__T": {
+      "calledMethods": {
+        "java_util_DuplicateFormatFlagsException": ["flags__p6__T"]
+      }
+    },
+    "getMessage__T": {
+      "calledMethods": {
+        "java_util_DuplicateFormatFlagsException": ["flags__p6__T"],
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_StringContext"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_util_IllegalFormatException": ["init___"]
+      }
+    },
+    "init___T": {
+      "calledMethods": {
+        "java_util_DuplicateFormatFlagsException": ["flags$und$eq__p6__T__V"],
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_util_DuplicateFormatFlagsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "getFlags__": {
+      "calledMethods": {
+        "java_util_DuplicateFormatFlagsException": ["getFlags__T"]
+      }
+    }
+  }
+}

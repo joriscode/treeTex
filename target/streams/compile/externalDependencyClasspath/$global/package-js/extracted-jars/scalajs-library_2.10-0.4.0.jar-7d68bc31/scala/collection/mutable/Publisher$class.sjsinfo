@@ -1,0 +1,75 @@
+{
+  "name": "scala.collection.mutable.Publisher$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_Publisher$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_Publisher$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_Publisher$class__subscribe__Lscala_collection_mutable_Publisher__Lscala_collection_mutable_Subscriber__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Publisher": ["subscribe__Lscala_collection_mutable_Subscriber__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_mutable_Publisher$class__subscribe__Lscala_collection_mutable_Publisher__Lscala_collection_mutable_Subscriber__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Publisher": ["scala$collection$mutable$Publisher$$filters__Lscala_collection_mutable_HashMap"],
+        "scala_collection_mutable_MultiMap": ["addBinding__O__O__Lscala_collection_mutable_MultiMap"]
+      },
+      "accessedClassData": ["scala_collection_mutable_MultiMap"]
+    },
+    "scala_collection_mutable_Publisher$class__suspendSubscription__Lscala_collection_mutable_Publisher__Lscala_collection_mutable_Subscriber__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["$$plus$eq__O__Lscala_collection_mutable_HashSet"],
+        "scala_collection_mutable_Publisher": ["scala$collection$mutable$Publisher$$suspended__Lscala_collection_mutable_HashSet"]
+      }
+    },
+    "scala_collection_mutable_Publisher$class__activateSubscription__Lscala_collection_mutable_Publisher__Lscala_collection_mutable_Subscriber__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["$$minus$eq__O__Lscala_collection_mutable_HashSet"],
+        "scala_collection_mutable_Publisher": ["scala$collection$mutable$Publisher$$suspended__Lscala_collection_mutable_HashSet"]
+      }
+    },
+    "scala_collection_mutable_Publisher$class__removeSubscription__Lscala_collection_mutable_Publisher__Lscala_collection_mutable_Subscriber__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["$$minus$eq__O__Lscala_collection_mutable_HashMap"],
+        "scala_collection_mutable_Publisher": ["scala$collection$mutable$Publisher$$filters__Lscala_collection_mutable_HashMap"]
+      }
+    },
+    "scala_collection_mutable_Publisher$class__removeSubscriptions__Lscala_collection_mutable_Publisher__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["clear__V"],
+        "scala_collection_mutable_Publisher": ["scala$collection$mutable$Publisher$$filters__Lscala_collection_mutable_HashMap"]
+      }
+    },
+    "scala_collection_mutable_Publisher$class__publish__Lscala_collection_mutable_Publisher__O__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["keys__Lscala_collection_Iterable"],
+        "scala_collection_mutable_Publisher": ["scala$collection$mutable$Publisher$$filters__Lscala_collection_mutable_HashMap"],
+        "scala_collection_Iterable": ["foreach__Lscala_Function1__V"],
+        "scala_collection_mutable_Publisher$$anonfun$publish$1": ["init___Lscala_collection_mutable_Publisher__O"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_Publisher$$anonfun$publish$1"]
+    },
+    "scala_collection_mutable_Publisher$class__equals__Lscala_collection_mutable_Publisher__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_Publisher": ["scala$collection$mutable$Publisher$$suspended__Lscala_collection_mutable_HashSet", "scala$collection$mutable$Publisher$$filters__Lscala_collection_mutable_HashMap"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Publisher"]
+    },
+    "scala_collection_mutable_Publisher$class__$init$__Lscala_collection_mutable_Publisher__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["init___"],
+        "scala_collection_mutable_Publisher": ["scala$collection$mutable$Publisher$$undsetter$und$scala$collection$mutable$Publisher$$filters$und$eq__Lscala_collection_mutable_HashMap__V", "scala$collection$mutable$Publisher$$undsetter$und$self$und$eq__Lscala_collection_mutable_Publisher__V", "scala$collection$mutable$Publisher$$undsetter$und$scala$collection$mutable$Publisher$$suspended$und$eq__Lscala_collection_mutable_HashSet__V"],
+        "scala_collection_mutable_Publisher$$anon$1": ["init___Lscala_collection_mutable_Publisher"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_Publisher$$anon$1", "scala_collection_mutable_HashSet"]
+    }
+  }
+}

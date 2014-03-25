@@ -1,0 +1,555 @@
+{
+  "name": "scala.collection.immutable.IntMap",
+  "ancestorCount": 5,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_IntMap",
+  "superClass": "scala_collection_immutable_AbstractMap",
+  "ancestors": ["scala_collection_immutable_IntMap", "scala_collection_immutable_AbstractMap", "scala_collection_immutable_Map", "scala_collection_immutable_MapLike", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractMap", "scala_collection_Map", "scala_collection_MapLike", "scala_collection_generic_Subtractable", "scala_PartialFunction", "scala_Function1", "scala_collection_GenMap", "scala_collection_GenMapLike", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "empty__Lscala_collection_immutable_IntMap": {
+      "accessedModules": ["scala_collection_immutable_IntMap$Nil"]
+    },
+    "toList__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_mutable_ListBuffer": ["toList__Lscala_collection_immutable_List", "$$plus$eq__O__Lscala_collection_mutable_ListBuffer", "init___"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_IntMap": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ListBuffer", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_immutable_IntMapEntryIterator": ["init___Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMapEntryIterator"],
+      "accessedModules": ["scala_collection_Iterator", "scala_collection_immutable_IntMap$Nil"]
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["key__I", "value__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_immutable_IntMap": ["foreach__Lscala_Function1__V"],
+        "scala_collection_immutable_IntMap$Bin": ["left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMap$Nil", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "keysIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_immutable_IntMapKeyIterator": ["init___Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMapKeyIterator"],
+      "accessedModules": ["scala_collection_Iterator", "scala_collection_immutable_IntMap$Nil"]
+    },
+    "foreachKey__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["key__I"],
+        "scala_Function1": ["apply$mcVI$sp__I__V"],
+        "scala_collection_immutable_IntMap": ["foreachKey__Lscala_Function1__V"],
+        "scala_collection_immutable_IntMap$Bin": ["left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMap$Nil", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "valuesIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_immutable_IntMapValueIterator": ["init___Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMapValueIterator"],
+      "accessedModules": ["scala_collection_Iterator", "scala_collection_immutable_IntMap$Nil"]
+    },
+    "foreachValue__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["value__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_immutable_IntMap": ["foreachValue__Lscala_Function1__V"],
+        "scala_collection_immutable_IntMap$Bin": ["left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMap$Nil", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin", "scala_runtime_BoxedUnit"]
+    },
+    "stringPrefix__T": {},
+    "isEmpty__Z": {
+      "accessedModules": ["scala_collection_immutable_IntMap$Nil"]
+    },
+    "filter__Lscala_Function1__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["key__I", "value__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_immutable_IntMap": ["filter__Lscala_Function1__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Bin": ["prefix__I", "mask__I", "left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["init___O__O", "$$und1__O", "$$und2__O"],
+        "scala_collection_immutable_IntMapUtils$": ["bin__I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "transform__Lscala_Function2__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["withValue__O__Lscala_collection_immutable_IntMap$Tip", "key__I", "value__O"],
+        "scala_collection_immutable_IntMap": ["transform__Lscala_Function2__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Bin": ["left__Lscala_collection_immutable_IntMap", "bin__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Function2": ["apply__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "size__I": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_IntMap$Bin": ["left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap": ["size__I"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "get__I__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["key__I", "value__O"],
+        "scala_collection_immutable_IntMap$Bin": ["mask__I", "left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Some": ["init___O"],
+        "scala_collection_immutable_IntMapUtils$": ["zero__I__I__Z"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_Some"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil", "scala_None"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "getOrElse__I__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["key__I", "value__O"],
+        "scala_collection_immutable_IntMap$Bin": ["mask__I", "left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_IntMapUtils$": ["zero__I__I__Z"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "apply__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["key__I", "value__O"],
+        "scala_collection_immutable_IntMap$Bin": ["mask__I", "left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_IntMapUtils$": ["zero__I__I__Z"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_sys_package", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O", "$$und1$mcI$sp__I"],
+        "scala_collection_immutable_IntMap": ["updated__I__O__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "updated__I__O__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["init___I__O", "key__I"],
+        "scala_collection_immutable_IntMap": ["updated__I__O__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Bin": ["prefix__I", "mask__I", "left__Lscala_collection_immutable_IntMap", "init___I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_IntMapUtils$": ["join__I__Lscala_collection_immutable_IntMap__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "zero__I__I__Z", "hasMatch__I__I__I__Z"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMap$Tip", "scala_MatchError", "scala_collection_immutable_IntMap$Bin"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "updateWith__I__O__Lscala_Function2__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["init___I__O", "value__O", "key__I"],
+        "scala_collection_immutable_IntMap": ["updateWith__I__O__Lscala_Function2__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Bin": ["prefix__I", "init___I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap", "mask__I", "left__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_collection_immutable_IntMapUtils$": ["zero__I__I__Z", "join__I__Lscala_collection_immutable_IntMap__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "hasMatch__I__I__I__Z"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMap$Tip", "scala_MatchError", "scala_collection_immutable_IntMap$Bin"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "$$minus__I__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["key__I"],
+        "scala_collection_immutable_IntMap": ["$$minus__I__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Bin": ["prefix__I", "mask__I", "left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_IntMapUtils$": ["bin__I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "zero__I__I__Z", "hasMatch__I__I__I__Z"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "modifyOrRemove__Lscala_Function2__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["init___I__O", "key__I", "value__O"],
+        "scala_collection_immutable_IntMap": ["modifyOrRemove__Lscala_Function2__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Bin": ["prefix__I", "mask__I", "left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_Some": ["x__O"],
+        "scala_collection_immutable_IntMapUtils$": ["bin__I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMap$Tip", "scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil", "scala_None"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_Option", "scala_collection_immutable_IntMap$Bin", "scala_Some"]
+    },
+    "unionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["value__O", "key__I"],
+        "scala_collection_immutable_IntMap": ["unionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__Lscala_collection_immutable_IntMap", "updateWith__I__O__Lscala_Function2__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Bin": ["prefix__I", "init___I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap", "mask__I", "left__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Function3": ["apply__O__O__O__O"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "scala_collection_immutable_IntMapUtils$": ["shorter__I__I__Z", "zero__I__I__Z", "join__I__Lscala_collection_immutable_IntMap__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "hasMatch__I__I__I__Z"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_collection_immutable_IntMap$Bin", "scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "intersectionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["init___I__O", "value__O", "key__I"],
+        "scala_collection_immutable_IntMap": ["intersectionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__Lscala_collection_immutable_IntMap", "get__I__Lscala_Option"],
+        "scala_collection_immutable_IntMap$Bin": ["prefix__I", "right__Lscala_collection_immutable_IntMap", "mask__I", "left__Lscala_collection_immutable_IntMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Function3": ["apply__O__O__O__O"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "scala_Some": ["x__O"],
+        "scala_collection_immutable_IntMapUtils$": ["bin__I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap", "shorter__I__I__Z", "zero__I__I__Z", "hasMatch__I__I__I__Z"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMap$Tip", "scala_Tuple2", "scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_IntMapUtils", "scala_collection_immutable_IntMap$Nil", "scala_None"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap", "scala_collection_immutable_IntMap$Bin", "scala_Some"]
+    },
+    "intersection__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"],
+        "scala_collection_immutable_IntMap": ["intersectionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3"]
+    },
+    "$$plus$plus__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"],
+        "scala_collection_immutable_IntMap": ["unionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3"]
+    },
+    "firstKey__I": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_IntMap$Bin": ["left__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Tip": ["key__I"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_sys_package", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "lastKey__I": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_IntMap$Bin": ["right__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$Tip": ["key__I"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_sys_package", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "toTraversable__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["toTraversable__Lscala_collection_Traversable"]
+      }
+    },
+    "groupBy__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["groupBy__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "repr__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["repr__O"]
+      },
+      "accessedClassData": ["scala_collection_generic_Subtractable"]
+    },
+    "view__I__I__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["view__I__I__Lscala_collection_IterableView"]
+      }
+    },
+    "view__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["view__Lscala_collection_IterableView"]
+      }
+    },
+    "toIterable__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["toIterable__Lscala_collection_Iterable"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["toCollection__O__Lscala_collection_Iterable"]
+      }
+    },
+    "thisCollection__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["thisCollection__Lscala_collection_Iterable"]
+      }
+    },
+    "toSeq__Lscala_collection_GenSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["toSeq__Lscala_collection_Seq"]
+      }
+    },
+    "filterNot__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["filterNot__Lscala_Function1__Lscala_collection_Map"]
+      }
+    },
+    "values__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["values__Lscala_collection_Iterable"]
+      }
+    },
+    "keys__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["keys__Lscala_collection_Iterable"]
+      }
+    },
+    "keySet__Lscala_collection_GenSet": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["keySet__Lscala_collection_immutable_Set"]
+      }
+    },
+    "keySet__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["keySet__Lscala_collection_immutable_Set"]
+      }
+    },
+    "mapValues__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["mapValues__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "mapValues__Lscala_Function1__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["mapValues__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "filterKeys__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["filterKeys__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "filterKeys__Lscala_Function1__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["filterKeys__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_immutable_Map"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_Tuple2__Lscala_collection_Seq__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$plus__Lscala_Tuple2__Lscala_Tuple2__Lscala_collection_Seq__Lscala_collection_immutable_Map"]
+      }
+    },
+    "seq__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["seq__Lscala_collection_immutable_Map"]
+      }
+    },
+    "$$minus__O__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$minus__I__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "$$minus__O__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$minus__I__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "$$minus__O__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$minus__I__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "updated__O__O__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["updated__I__O__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "updated__O__O__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["updated__I__O__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "updated__O__O__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["updated__I__O__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$plus__Lscala_Tuple2__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$plus__Lscala_Tuple2__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$plus__Lscala_Tuple2__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["apply__I__O"]
+      }
+    },
+    "getOrElse__O__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["getOrElse__I__Lscala_Function0__O"]
+      }
+    },
+    "get__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["get__I__Lscala_Option"]
+      }
+    },
+    "filter__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["filter__Lscala_Function1__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "empty__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["empty__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "empty__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["empty__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_immutable_AbstractMap": ["init___"]
+      }
+    },
+    "lastKey__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["lastKey__I"]
+      }
+    },
+    "firstKey__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["firstKey__I"]
+      }
+    },
+    "$$plus$plus__Lscala_collection_immutable_IntMap__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$plus$plus__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "intersection__Lscala_collection_immutable_IntMap__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["intersection__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "intersectionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["intersectionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "unionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["unionWith__Lscala_collection_immutable_IntMap__Lscala_Function3__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "modifyOrRemove__Lscala_Function2__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["modifyOrRemove__Lscala_Function2__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "$$minus__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["$$minus__I__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "updateWith__I__O__Lscala_Function2__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["updateWith__I__O__Lscala_Function2__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "updated__I__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["updated__I__O__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "apply__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["apply__I__O"]
+      }
+    },
+    "getOrElse__I__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["getOrElse__I__Lscala_Function0__O"]
+      }
+    },
+    "get__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["get__I__Lscala_Option"]
+      }
+    },
+    "transform__Lscala_Function2__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["transform__Lscala_Function2__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "foreachValue__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["foreachValue__Lscala_Function1__V"]
+      }
+    },
+    "foreachKey__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap": ["foreachKey__Lscala_Function1__V"]
+      }
+    }
+  }
+}

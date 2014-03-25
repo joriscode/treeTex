@@ -1,0 +1,147 @@
+{
+  "name": "scala.collection.BitSetLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_BitSetLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_BitSetLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_BitSetLike$class__toBitMask__Lscala_collection_BitSetLike__AJ": {
+      "calledMethods": {
+        "scala_collection_BitSetLike": ["word__I__J", "nwords__I"]
+      }
+    },
+    "scala_collection_BitSetLike$class__size__Lscala_collection_BitSetLike__I": {
+      "calledMethods": {
+        "scala_collection_BitSetLike": ["word__I__J", "nwords__I"],
+        "java_lang_Long$": ["bitCount__J__I"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "scala_collection_BitSetLike$class__ordering__Lscala_collection_BitSetLike__Lscala_math_Ordering": {
+      "accessedModules": ["scala_math_Ordering$Int"]
+    },
+    "scala_collection_BitSetLike$class__rangeImpl__Lscala_collection_BitSetLike__Lscala_Option__Lscala_Option__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["unary$und$tilde__Lscala_scalajs_runtime_Long", "$$less$less__I__Lscala_scalajs_runtime_Long", "$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long", "fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_collection_BitSetLike": ["toBitMask__AJ", "fromBitMaskNoCopy__AJ__Lscala_collection_BitSetLike"],
+        "scala_Option": ["isDefined__Z", "get__O"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "scala_collection_BitSetLike$class__iterator__Lscala_collection_BitSetLike__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$$anon$1": ["init___Lscala_collection_BitSetLike"]
+      },
+      "instantiatedClasses": ["scala_collection_BitSetLike$$anon$1"]
+    },
+    "scala_collection_BitSetLike$class__foreach__Lscala_collection_BitSetLike__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_BitSetLike": ["nwords__I"],
+        "scala_collection_BitSetLike$$anonfun$foreach$1": ["init___Lscala_collection_BitSetLike__Lscala_Function1"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_collection_BitSetLike$$anonfun$foreach$1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_BitSetLike$class__$bar__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range", "max$extension__I__I__I"],
+        "scala_collection_BitSetLike": ["word__I__J", "nwords__I", "fromBitMaskNoCopy__AJ__Lscala_collection_BitSetLike"],
+        "scala_collection_BitSet": ["word__I__J", "nwords__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_Long": ["$$bar__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_BitSetLike$class__$amp__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range", "min$extension__I__I__I"],
+        "scala_collection_BitSetLike": ["word__I__J", "nwords__I", "fromBitMaskNoCopy__AJ__Lscala_collection_BitSetLike"],
+        "scala_collection_BitSet": ["word__I__J", "nwords__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_Long": ["$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_BitSetLike$class__$amp$tilde__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_BitSetLike": ["word__I__J", "nwords__I", "fromBitMaskNoCopy__AJ__Lscala_collection_BitSetLike"],
+        "scala_collection_BitSet": ["word__I__J"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_Long": ["unary$und$tilde__Lscala_scalajs_runtime_Long", "$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_BitSetLike$class__$up__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range", "max$extension__I__I__I"],
+        "scala_collection_BitSetLike": ["word__I__J", "nwords__I", "fromBitMaskNoCopy__AJ__Lscala_collection_BitSetLike"],
+        "scala_collection_BitSet": ["word__I__J", "nwords__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_Long": ["$$up__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_BitSetLike$class__contains__Lscala_collection_BitSetLike__I__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["notEquals__O__Z", "$$less$less__I__Lscala_scalajs_runtime_Long", "$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long", "fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_collection_BitSetLike$": ["LogWL__I"],
+        "scala_collection_BitSetLike": ["word__I__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "scala_collection_BitSetLike"]
+    },
+    "scala_collection_BitSetLike$class__subsetOf__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_BitSetLike": ["word__I__J", "nwords__I"],
+        "scala_collection_BitSet": ["word__I__J"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_Long": ["unary$und$tilde__Lscala_scalajs_runtime_Long", "$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "equals__O__Z"],
+        "scala_collection_immutable_Range": ["forall__Lscala_Function1__Z"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_scalajs_runtime_Long"]
+    },
+    "scala_collection_BitSetLike$class__addString__Lscala_collection_BitSetLike__Lscala_collection_mutable_StringBuilder__T__T__T__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_BitSetLike": ["nwords__I", "contains__I__Z"],
+        "scala_collection_BitSetLike$": ["scala$collection$BitSetLike$$WordLength__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_StringBuilder": ["append__I__Lscala_collection_mutable_StringBuilder", "append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_collection_BitSetLike"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "scala_collection_BitSetLike$class__stringPrefix__Lscala_collection_BitSetLike__T": {},
+    "scala_collection_BitSetLike$class__$init$__Lscala_collection_BitSetLike__V": {}
+  }
+}

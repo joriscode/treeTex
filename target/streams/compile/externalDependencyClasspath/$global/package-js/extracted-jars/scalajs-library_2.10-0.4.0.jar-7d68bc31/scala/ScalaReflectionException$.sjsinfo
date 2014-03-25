@@ -1,0 +1,54 @@
+{
+  "name": "scala.ScalaReflectionException$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_ScalaReflectionException$",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_ScalaReflectionException$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__Lscala_ScalaReflectionException": {
+      "calledMethods": {
+        "scala_ScalaReflectionException": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_ScalaReflectionException"]
+    },
+    "unapply__Lscala_ScalaReflectionException__Lscala_Option": {
+      "calledMethods": {
+        "scala_ScalaReflectionException": ["msg__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_ScalaReflectionException"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_ScalaReflectionException$": ["apply__T__Lscala_ScalaReflectionException"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "unapply__Lscala_ScalaReflectionException__": {
+      "calledMethods": {
+        "scala_ScalaReflectionException$": ["unapply__Lscala_ScalaReflectionException__Lscala_Option"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_ScalaReflectionException$": ["apply__T__Lscala_ScalaReflectionException"]
+      }
+    }
+  }
+}

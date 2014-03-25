@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.TraversableViewLike$$anon$4",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableViewLike$$anon$4",
+  "superClass": "scala_collection_TraversableViewLike$AbstractTransformed",
+  "ancestors": ["scala_collection_TraversableViewLike$$anon$4", "scala_collection_TraversableViewLike$FlatMapped", "scala_collection_GenTraversableViewLike$FlatMapped", "scala_collection_TraversableViewLike$AbstractTransformed", "scala_collection_TraversableViewLike$Transformed", "scala_collection_GenTraversableViewLike$Transformed", "scala_collection_TraversableView", "scala_collection_GenTraversableView", "scala_collection_TraversableViewLike", "scala_collection_GenTraversableViewLike", "scala_collection_ViewMkString", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_GenTraversableViewLike$FlatMapped$class": ["scala_collection_GenTraversableViewLike$FlatMapped$class__foreach__Lscala_collection_GenTraversableViewLike$FlatMapped__Lscala_Function1__V"]
+      }
+    },
+    "viewIdentifier__T": {
+      "calledMethods": {
+        "scala_collection_GenTraversableViewLike$FlatMapped$class": ["scala_collection_GenTraversableViewLike$FlatMapped$class__viewIdentifier__Lscala_collection_GenTraversableViewLike$FlatMapped__T"]
+      }
+    },
+    "mapping__Lscala_Function1": {},
+    "scala$collection$GenTraversableViewLike$FlatMapped$$$outer__Lscala_collection_GenTraversableViewLike": {},
+    "init___Lscala_collection_TraversableViewLike__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_GenTraversableViewLike$FlatMapped$class": ["scala_collection_GenTraversableViewLike$FlatMapped$class__$init$__Lscala_collection_GenTraversableViewLike$FlatMapped__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_TraversableViewLike$AbstractTransformed": ["init___Lscala_collection_TraversableViewLike"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$GenTraversableViewLike$FlatMapped$$$outer__": {
+      "calledMethods": {
+        "scala_collection_TraversableViewLike$$anon$4": ["scala$collection$GenTraversableViewLike$FlatMapped$$$outer__Lscala_collection_GenTraversableViewLike"]
+      }
+    },
+    "mapping__": {
+      "calledMethods": {
+        "scala_collection_TraversableViewLike$$anon$4": ["mapping__Lscala_Function1"]
+      }
+    }
+  }
+}

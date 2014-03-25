@@ -1,0 +1,93 @@
+{
+  "name": "scala.collection.immutable.IntMapIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_IntMapIterator",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_immutable_IntMapIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "index__I": {},
+    "index$und$eq__I__V": {},
+    "buffer__AO": {},
+    "buffer$und$eq__AO__V": {},
+    "pop__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["index__I", "index$und$eq__I__V", "buffer__AO"]
+      },
+      "accessedClassData": ["scala_collection_immutable_IntMap"]
+    },
+    "push__Lscala_collection_immutable_IntMap__V": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["index__I", "index$und$eq__I__V", "buffer__AO"]
+      }
+    },
+    "valueOf__Lscala_collection_immutable_IntMap$Tip__O": {
+      "isAbstract": true
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["index__I"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_IntMap$Bin": ["left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMapIterator": ["push__Lscala_collection_immutable_IntMap__V", "pop__Lscala_collection_immutable_IntMap", "valueOf__Lscala_collection_immutable_IntMap$Tip__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_sys_package", "scala_collection_immutable_IntMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_IntMap$Tip", "scala_collection_immutable_IntMap$Bin"]
+    },
+    "init___Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["push__Lscala_collection_immutable_IntMap__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "push__Lscala_collection_immutable_IntMap__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["push__Lscala_collection_immutable_IntMap__V"]
+      }
+    },
+    "pop__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["pop__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "buffer$und$eq__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["buffer$und$eq__AO__V"]
+      }
+    },
+    "buffer__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["buffer__AO"]
+      }
+    },
+    "index$und$eq__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["index$und$eq__I__V"]
+      }
+    },
+    "index__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["index__I"]
+      }
+    },
+    "valueOf__Lscala_collection_immutable_IntMap$Tip__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["valueOf__Lscala_collection_immutable_IntMap$Tip__O"]
+      }
+    }
+  }
+}

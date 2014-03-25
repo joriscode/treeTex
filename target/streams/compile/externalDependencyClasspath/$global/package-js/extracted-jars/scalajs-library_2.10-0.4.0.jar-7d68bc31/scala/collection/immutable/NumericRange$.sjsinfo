@@ -1,0 +1,77 @@
+{
+  "name": "scala.collection.immutable.NumericRange$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_NumericRange$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_NumericRange$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "count__O__O__O__Z__Lscala_math_Integral__I": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray"],
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_collection_immutable_List": ["mkString__T__T"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"],
+        "scala_math_Integral": ["toLong__O__J", "zero__O", "gt__O__O__Z", "lt__O__O__Z", "minus__O__O__O", "quot__O__O__O", "plus__O__O__O", "rem__O__O__O"],
+        "scala_scalajs_runtime_Long": ["$$plus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$less__Lscala_scalajs_runtime_Long__Z", "equals__O__Z", "toInt__I", "$$greater__Lscala_scalajs_runtime_Long__Z"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long", "apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_scalajs_runtime_Long", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "apply__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Exclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$Exclusive": ["init___O__O__O__Lscala_math_Integral"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_NumericRange$Exclusive"]
+    },
+    "inclusive__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Inclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$Inclusive": ["init___O__O__O__Lscala_math_Integral"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_NumericRange$Inclusive"]
+    },
+    "defaultOrdering__Lscala_collection_immutable_Map": {},
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Predef$": ["any2ArrowAssoc__O__O", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_immutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_Predef$ArrowAssoc$": ["$$minus$greater$extension__O__O__Lscala_Tuple2"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_math_Numeric$ShortIsIntegral", "scala_math_Ordering$Byte", "scala_math_Ordering$Char", "scala_math_Ordering$Int", "scala_math_Numeric$BigDecimalAsIfIntegral", "scala_math_Numeric$ByteIsIntegral", "scala_math_Ordering$Short", "scala_math_Numeric$CharIsIntegral", "scala_math_Ordering$BigDecimal", "scala_math_Numeric$IntIsIntegral", "scala_math_Ordering$BigInt", "scala_Predef$ArrowAssoc", "scala_math_Ordering$Long", "scala_math_Numeric$FloatAsIfIntegral", "scala_Predef", "scala_math_Numeric$BigIntIsIntegral", "scala_math_Ordering$Double", "scala_math_Numeric$LongIsIntegral", "scala_collection_immutable_Map", "scala_math_Ordering$Float", "scala_math_Numeric$DoubleAsIfIntegral"],
+      "accessedClassData": ["scala_Tuple2", "java_lang_Object", "scala_collection_immutable_Map"]
+    },
+    "defaultOrdering__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["defaultOrdering__Lscala_collection_immutable_Map"]
+      }
+    },
+    "inclusive__O__O__O__Lscala_math_Integral__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["inclusive__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Inclusive"]
+      }
+    },
+    "apply__O__O__O__Lscala_math_Integral__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["apply__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Exclusive"]
+      }
+    },
+    "count__O__O__O__Z__Lscala_math_Integral__": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["count__O__O__O__Z__Lscala_math_Integral__I"]
+      }
+    }
+  }
+}

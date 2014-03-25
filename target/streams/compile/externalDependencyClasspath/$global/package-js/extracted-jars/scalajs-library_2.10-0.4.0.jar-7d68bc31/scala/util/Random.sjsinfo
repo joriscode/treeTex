@@ -1,0 +1,242 @@
+{
+  "name": "scala.util.Random",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Random",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Random", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "self__Ljava_util_Random": {},
+    "nextBoolean__Z": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextBoolean__Z"]
+      }
+    },
+    "nextBytes__AB__V": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextBytes__AB__V"]
+      }
+    },
+    "nextDouble__D": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextDouble__D"]
+      }
+    },
+    "nextFloat__F": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextFloat__F"]
+      }
+    },
+    "nextGaussian__D": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextGaussian__D"]
+      }
+    },
+    "nextInt__I": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextInt__I"]
+      }
+    },
+    "nextInt__I__I": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextInt__I__I"]
+      }
+    },
+    "nextLong__J": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextLong__J"]
+      }
+    },
+    "nextString__I__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_TraversableOnce": ["mkString__T"],
+        "scala_util_Random": ["scala$util$Random$$safeChar$1__C"],
+        "scala_collection_immutable_List$": ["fill__I__Lscala_Function0__Lscala_collection_GenTraversable"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_collection_immutable_List"],
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "nextPrintableChar__C": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["nextInt__I__I"]
+      }
+    },
+    "setSeed__J__V": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"],
+        "java_util_Random": ["setSeed__J__V"]
+      }
+    },
+    "shuffle__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"],
+        "scala_runtime_RichInt$": ["to$extension0__I__I__Lscala_collection_immutable_Range$Inclusive"],
+        "scala_collection_immutable_Range$Inclusive": ["by__I__Lscala_collection_immutable_Range"],
+        "scala_util_Random": ["nextInt__I__I", "scala$util$Random$$swap$1__I__I__Lscala_collection_mutable_ArrayBuffer__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"],
+        "scala_collection_mutable_ArrayBuffer": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuffer", "length__I", "init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuffer", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"],
+      "accessedClassData": ["scala_collection_TraversableOnce", "scala_collection_mutable_Builder"]
+    },
+    "alphanumeric__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_util_Random": ["nextPrintableChar__C", "scala$util$Random$$isAlphaNum$1__C__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Stream": ["filter__Lscala_Function1__Lscala_collection_immutable_Stream"],
+        "scala_collection_immutable_Stream$": ["continually__Lscala_Function0__Lscala_collection_immutable_Stream"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_Stream"]
+    },
+    "scala$util$Random$$safeChar$1__C": {
+      "calledMethods": {
+        "scala_util_Random": ["nextInt__I__I"]
+      }
+    },
+    "scala$util$Random$$swap$1__I__I__Lscala_collection_mutable_ArrayBuffer__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuffer": ["apply__I__O", "update__I__O__V"]
+      }
+    },
+    "scala$util$Random$$isAlphaNum$1__C__Z": {},
+    "init___Ljava_util_Random": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "init___J": {
+      "calledMethods": {
+        "java_util_Random": ["init___J"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_Random": ["init___Ljava_util_Random"]
+      },
+      "instantiatedClasses": ["java_util_Random"]
+    },
+    "init___I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_Random": ["init___J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_util_Random": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_Random": ["init___Ljava_util_Random"]
+      },
+      "instantiatedClasses": ["java_util_Random"]
+    },
+    "scala$util$Random$$isAlphaNum$1__C__": {
+      "calledMethods": {
+        "scala_util_Random": ["scala$util$Random$$isAlphaNum$1__C__Z"]
+      }
+    },
+    "scala$util$Random$$swap$1__I__I__Lscala_collection_mutable_ArrayBuffer__": {
+      "calledMethods": {
+        "scala_util_Random": ["scala$util$Random$$swap$1__I__I__Lscala_collection_mutable_ArrayBuffer__V"]
+      }
+    },
+    "scala$util$Random$$safeChar$1__": {
+      "calledMethods": {
+        "scala_util_Random": ["scala$util$Random$$safeChar$1__C"]
+      }
+    },
+    "alphanumeric__": {
+      "calledMethods": {
+        "scala_util_Random": ["alphanumeric__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "shuffle__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__": {
+      "calledMethods": {
+        "scala_util_Random": ["shuffle__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "setSeed__J__": {
+      "calledMethods": {
+        "scala_util_Random": ["setSeed__J__V"]
+      }
+    },
+    "nextPrintableChar__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextPrintableChar__C"]
+      }
+    },
+    "nextString__I__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextString__I__T"]
+      }
+    },
+    "nextLong__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextLong__J"]
+      }
+    },
+    "nextInt__I__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextInt__I__I"]
+      }
+    },
+    "nextInt__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextInt__I"]
+      }
+    },
+    "nextGaussian__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextGaussian__D"]
+      }
+    },
+    "nextFloat__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextFloat__F"]
+      }
+    },
+    "nextDouble__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextDouble__D"]
+      }
+    },
+    "nextBytes__AB__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextBytes__AB__V"]
+      }
+    },
+    "nextBoolean__": {
+      "calledMethods": {
+        "scala_util_Random": ["nextBoolean__Z"]
+      }
+    },
+    "self__": {
+      "calledMethods": {
+        "scala_util_Random": ["self__Ljava_util_Random"]
+      }
+    }
+  }
+}

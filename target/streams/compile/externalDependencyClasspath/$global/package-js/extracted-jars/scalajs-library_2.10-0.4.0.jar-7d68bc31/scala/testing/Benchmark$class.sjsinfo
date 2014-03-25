@@ -1,0 +1,54 @@
+{
+  "name": "scala.testing.Benchmark$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_testing_Benchmark$class",
+  "superClass": "",
+  "ancestors": ["scala_testing_Benchmark$class"],
+  "isExported": false,
+  "methods": {
+    "scala_testing_Benchmark$class__runBenchmark__Lscala_testing_Benchmark__I__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_TraversableLike": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_compat_Platform$": ["currentTime__J", "collectGarbage__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["range__O__O__Lscala_math_Integral__Lscala_collection_GenTraversable", "canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_scalajs_runtime_Long": ["$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_testing_Benchmark": ["multiplier__I", "tearDown__V", "setUp__V", "run__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_compat_Platform", "scala_math_Numeric$IntIsIntegral"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_immutable_List"]
+    },
+    "scala_testing_Benchmark$class__setUp__Lscala_testing_Benchmark__V": {},
+    "scala_testing_Benchmark$class__tearDown__Lscala_testing_Benchmark__V": {},
+    "scala_testing_Benchmark$class__prefix__Lscala_testing_Benchmark__T": {
+      "calledMethods": {
+        "scala_testing_Benchmark": ["getClass__Ljava_lang_Class"],
+        "java_lang_Class": ["getName__T"]
+      }
+    },
+    "scala_testing_Benchmark$class__main__Lscala_testing_Benchmark__AT__V": {
+      "calledMethods": {
+        "scala_Predef$": ["println__O__V", "augmentString__T__T"],
+        "java_io_OutputStreamWriter": ["write__T__V", "init___Ljava_io_OutputStream", "flush__V"],
+        "scala_collection_immutable_StringOps": ["init___T", "toInt__I"],
+        "scala_collection_immutable_List": ["foreach__Lscala_Function1__V"],
+        "scala_compat_Platform$": ["EOL__T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "java_lang_System$": ["out__Ljava_io_PrintStream"],
+        "scala_testing_Benchmark": ["multiplier$und$eq__I__V", "prefix__T", "runBenchmark__I__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps", "java_io_OutputStreamWriter", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef", "java_lang_System", "scala_compat_Platform"]
+    },
+    "scala_testing_Benchmark$class__$init$__Lscala_testing_Benchmark__V": {
+      "calledMethods": {
+        "scala_testing_Benchmark": ["multiplier$und$eq__I__V"]
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "name": "scala.collection.immutable.HashSet$HashSetCollision1",
+  "ancestorCount": 5,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_HashSet$HashSetCollision1",
+  "superClass": "scala_collection_immutable_HashSet",
+  "ancestors": ["scala_collection_immutable_HashSet$HashSetCollision1", "scala_collection_immutable_HashSet", "scala_Serializable", "java_io_Serializable", "scala_collection_CustomParallelizable", "scala_collection_immutable_Set", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSet", "scala_collection_Set", "scala_collection_SetLike", "scala_collection_generic_Subtractable", "scala_collection_GenSet", "scala_collection_generic_GenericSetTemplate", "scala_collection_GenSetLike", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hash__I": {},
+    "ks__Lscala_collection_immutable_ListSet": {},
+    "size__I": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSet": ["size__I"],
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["ks__Lscala_collection_immutable_ListSet"]
+      }
+    },
+    "get0__O__I__I__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSet": ["contains__O__Z"],
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["ks__Lscala_collection_immutable_ListSet", "hash__I"]
+      }
+    },
+    "updated0__O__I__I__Lscala_collection_immutable_HashSet": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$HashSet1": ["init___O__I"],
+        "scala_collection_immutable_HashSet$": ["scala$collection$immutable$HashSet$$makeHashTrieSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet$HashTrieSet"],
+        "scala_collection_immutable_ListSet": ["$$plus__O__Lscala_collection_immutable_ListSet"],
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["init___I__Lscala_collection_immutable_ListSet", "ks__Lscala_collection_immutable_ListSet", "hash__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_HashSet$HashSet1", "scala_collection_immutable_HashSet$HashSetCollision1"],
+      "accessedModules": ["scala_collection_immutable_HashSet"]
+    },
+    "removed0__O__I__I__Lscala_collection_immutable_HashSet": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$HashSet1": ["init___O__I"],
+        "scala_collection_immutable_HashSet$": ["empty__Lscala_collection_immutable_HashSet"],
+        "scala_collection_immutable_ListSet": ["tail__Lscala_collection_immutable_ListSet", "$$minus__O__Lscala_collection_immutable_ListSet", "head__O", "isEmpty__Z"],
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["init___I__Lscala_collection_immutable_ListSet", "ks__Lscala_collection_immutable_ListSet", "hash__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_HashSet$HashSet1", "scala_collection_immutable_HashSet$HashSetCollision1"],
+      "accessedModules": ["scala_collection_immutable_HashSet"]
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSet": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["ks__Lscala_collection_immutable_ListSet"]
+      }
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_immutable_ListSet": ["foreach__Lscala_Function1__V"],
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["ks__Lscala_collection_immutable_ListSet"]
+      }
+    },
+    "writeObject__p5__Ljava_io_ObjectOutputStream__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "readObject__p5__Ljava_io_ObjectInputStream__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "init___I__Lscala_collection_immutable_ListSet": {
+      "calledMethodsStatic": {
+        "scala_collection_immutable_HashSet": ["init___"]
+      }
+    },
+    "ks__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["ks__Lscala_collection_immutable_ListSet"]
+      }
+    },
+    "hash__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["hash__I"]
+      }
+    }
+  }
+}

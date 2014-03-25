@@ -1,0 +1,30 @@
+{
+  "name": "scala.collection.mutable.IndexedSeqView$Sliced$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_IndexedSeqView$Sliced$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_IndexedSeqView$Sliced$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_IndexedSeqView$Sliced$class__length__Lscala_collection_mutable_IndexedSeqView$Sliced__I": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView$Sliced": ["endpoints__Lscala_collection_generic_SliceInterval"],
+        "scala_collection_generic_SliceInterval": ["width__I"]
+      }
+    },
+    "scala_collection_mutable_IndexedSeqView$Sliced$class__update__Lscala_collection_mutable_IndexedSeqView$Sliced__I__O__V": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["update__I__O__V"],
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_mutable_IndexedSeqView$Sliced": ["scala$collection$mutable$IndexedSeqView$Sliced$$$outer__Lscala_collection_mutable_IndexedSeqView", "until__I", "from__I"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "scala_collection_mutable_IndexedSeqView$Sliced$class__$init$__Lscala_collection_mutable_IndexedSeqView$Sliced__V": {}
+  }
+}

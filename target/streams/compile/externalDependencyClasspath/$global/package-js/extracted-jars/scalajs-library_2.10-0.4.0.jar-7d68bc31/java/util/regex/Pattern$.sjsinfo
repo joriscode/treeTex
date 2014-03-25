@@ -1,0 +1,124 @@
+{
+  "name": "java.util.regex.Pattern$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_regex_Pattern$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_regex_Pattern$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "UNIX$undLINES__I": {},
+    "CASE$undINSENSITIVE__I": {},
+    "COMMENTS__I": {},
+    "MULTILINE__I": {},
+    "LITERAL__I": {},
+    "DOTALL__I": {},
+    "UNICODE$undCASE__I": {},
+    "CANON$undEQ__I": {},
+    "UNICODE$undCHARACTER$undCLASS__I": {},
+    "compile__T__I__Ljava_util_regex_Pattern": {
+      "calledMethods": {
+        "java_util_regex_Pattern": ["init___T__I"]
+      },
+      "instantiatedClasses": ["java_util_regex_Pattern"]
+    },
+    "compile__T__Ljava_util_regex_Pattern": {
+      "calledMethods": {
+        "java_util_regex_Pattern": ["init___T__I"]
+      },
+      "instantiatedClasses": ["java_util_regex_Pattern"]
+    },
+    "matches__T__Ljava_lang_CharSequence__Z": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["compile__T__Ljava_util_regex_Pattern"],
+        "java_util_regex_Matcher": ["matches__Z"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"]
+      }
+    },
+    "quote__T__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "java$util$regex$Pattern$$splitHackPat__Lscala_scalajs_js_RegExp": {},
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "java$util$regex$Pattern$$splitHackPat__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["java$util$regex$Pattern$$splitHackPat__Lscala_scalajs_js_RegExp"]
+      }
+    },
+    "quote__T__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["quote__T__T"]
+      }
+    },
+    "matches__T__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["matches__T__Ljava_lang_CharSequence__Z"]
+      }
+    },
+    "compile__T__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["compile__T__Ljava_util_regex_Pattern"]
+      }
+    },
+    "compile__T__I__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["compile__T__I__Ljava_util_regex_Pattern"]
+      }
+    },
+    "UNICODE$undCHARACTER$undCLASS__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["UNICODE$undCHARACTER$undCLASS__I"]
+      }
+    },
+    "CANON$undEQ__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["CANON$undEQ__I"]
+      }
+    },
+    "UNICODE$undCASE__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["UNICODE$undCASE__I"]
+      }
+    },
+    "DOTALL__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["DOTALL__I"]
+      }
+    },
+    "LITERAL__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["LITERAL__I"]
+      }
+    },
+    "MULTILINE__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["MULTILINE__I"]
+      }
+    },
+    "COMMENTS__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["COMMENTS__I"]
+      }
+    },
+    "CASE$undINSENSITIVE__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["CASE$undINSENSITIVE__I"]
+      }
+    },
+    "UNIX$undLINES__": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["UNIX$undLINES__I"]
+      }
+    }
+  }
+}

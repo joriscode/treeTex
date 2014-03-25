@@ -1,0 +1,94 @@
+{
+  "name": "java.lang.ThreadLocal",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_ThreadLocal",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_ThreadLocal", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hasValue__p1__Z": {},
+    "hasValue$und$eq__p1__Z__V": {},
+    "i__p1__O": {},
+    "i$und$eq__p1__O__V": {},
+    "v__p1__O": {},
+    "v$und$eq__p1__O__V": {},
+    "m__p1__Ljava_lang_ThreadLocal$ThreadLocalMap": {},
+    "m$und$eq__p1__Ljava_lang_ThreadLocal$ThreadLocalMap__V": {},
+    "initialValue__O": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["i__p1__O"]
+      }
+    },
+    "get__O": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["set__O__V", "initialValue__O", "hasValue__p1__Z", "v__p1__O"]
+      }
+    },
+    "remove__V": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["hasValue$und$eq__p1__Z__V"]
+      }
+    },
+    "set__O__V": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["hasValue$und$eq__p1__Z__V", "v$und$eq__p1__O__V"]
+      }
+    },
+    "childValue__O__O": {},
+    "createMap__Ljava_lang_Thread__O__V": {},
+    "getMap__Ljava_lang_Thread__Ljava_lang_ThreadLocal$ThreadLocalMap": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["m__p1__Ljava_lang_ThreadLocal$ThreadLocalMap"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_ThreadLocal$ThreadLocalMap": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ThreadLocal$ThreadLocalMap"]
+    },
+    "getMap__Ljava_lang_Thread__": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["getMap__Ljava_lang_Thread__Ljava_lang_ThreadLocal$ThreadLocalMap"]
+      }
+    },
+    "createMap__Ljava_lang_Thread__O__": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["createMap__Ljava_lang_Thread__O__V"]
+      }
+    },
+    "childValue__O__": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["childValue__O__O"]
+      }
+    },
+    "set__O__": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["set__O__V"]
+      }
+    },
+    "remove__": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["remove__V"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["get__O"]
+      }
+    },
+    "initialValue__": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["initialValue__O"]
+      }
+    }
+  }
+}

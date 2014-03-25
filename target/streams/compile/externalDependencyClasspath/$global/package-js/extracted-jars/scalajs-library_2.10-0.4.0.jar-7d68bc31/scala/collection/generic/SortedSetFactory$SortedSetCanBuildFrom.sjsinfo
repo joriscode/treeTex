@@ -1,0 +1,63 @@
+{
+  "name": "scala.collection.generic.SortedSetFactory$SortedSetCanBuildFrom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_SortedSet__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom": ["scala$collection$generic$SortedSetFactory$SortedSetCanBuildFrom$$$outer__Lscala_collection_generic_SortedSetFactory"],
+        "scala_collection_generic_SortedSetFactory": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom": ["scala$collection$generic$SortedSetFactory$SortedSetCanBuildFrom$$$outer__Lscala_collection_generic_SortedSetFactory"],
+        "scala_collection_generic_SortedSetFactory": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "scala$collection$generic$SortedSetFactory$SortedSetCanBuildFrom$$$outer__Lscala_collection_generic_SortedSetFactory": {},
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom": ["apply__Lscala_collection_SortedSet__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_SortedSet"]
+    },
+    "init___Lscala_collection_generic_SortedSetFactory__Lscala_math_Ordering": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$generic$SortedSetFactory$SortedSetCanBuildFrom$$$outer__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom": ["scala$collection$generic$SortedSetFactory$SortedSetCanBuildFrom$$$outer__Lscala_collection_generic_SortedSetFactory"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_SortedSet__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom": ["apply__Lscala_collection_SortedSet__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

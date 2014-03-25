@@ -1,0 +1,90 @@
+{
+  "name": "scala.Byte$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Byte$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Byte$", "scala_AnyValCompanion", "scala_Specializable", "scala_SpecializableCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "MinValue__B": {},
+    "MaxValue__B": {},
+    "box__B__Ljava_lang_Byte": {
+      "calledMethods": {
+        "java_lang_Byte$": ["valueOf__B__Ljava_lang_Byte"]
+      },
+      "accessedModules": ["java_lang_Byte"]
+    },
+    "unbox__O__B": {
+      "calledMethods": {
+        "java_lang_Byte": ["byteValue__B"]
+      },
+      "accessedClassData": ["java_lang_Byte"]
+    },
+    "toString__T": {},
+    "byte2short__B__S": {},
+    "byte2int__B__I": {},
+    "byte2long__B__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromByte__B__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "byte2float__B__F": {},
+    "byte2double__B__D": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "byte2double__B__": {
+      "calledMethods": {
+        "scala_Byte$": ["byte2double__B__D"]
+      }
+    },
+    "byte2float__B__": {
+      "calledMethods": {
+        "scala_Byte$": ["byte2float__B__F"]
+      }
+    },
+    "byte2long__B__": {
+      "calledMethods": {
+        "scala_Byte$": ["byte2long__B__J"]
+      }
+    },
+    "byte2int__B__": {
+      "calledMethods": {
+        "scala_Byte$": ["byte2int__B__I"]
+      }
+    },
+    "byte2short__B__": {
+      "calledMethods": {
+        "scala_Byte$": ["byte2short__B__S"]
+      }
+    },
+    "unbox__O__": {
+      "calledMethods": {
+        "scala_Byte$": ["unbox__O__B"]
+      }
+    },
+    "box__B__": {
+      "calledMethods": {
+        "scala_Byte$": ["box__B__Ljava_lang_Byte"]
+      }
+    },
+    "MaxValue__": {
+      "calledMethods": {
+        "scala_Byte$": ["MaxValue__B"]
+      }
+    },
+    "MinValue__": {
+      "calledMethods": {
+        "scala_Byte$": ["MinValue__B"]
+      }
+    }
+  }
+}

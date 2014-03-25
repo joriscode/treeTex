@@ -1,0 +1,154 @@
+{
+  "name": "java.lang.Double$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Double$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Double$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "TYPE__Ljava_lang_Class": {},
+    "POSITIVE$undINFINITY__D": {},
+    "NEGATIVE$undINFINITY__D": {},
+    "NaN__D": {},
+    "MAX$undVALUE__Lscala_scalajs_js_Number": {},
+    "MIN$undNORMAL__D": {},
+    "MIN$undVALUE__Lscala_scalajs_js_Number": {},
+    "MAX$undEXPONENT__I": {},
+    "MIN$undEXPONENT__I": {},
+    "SIZE__I": {},
+    "valueOf__D__Ljava_lang_Double": {
+      "calledMethods": {
+        "java_lang_Double": ["init___D"]
+      },
+      "instantiatedClasses": ["java_lang_Double"]
+    },
+    "parseDouble__T__D": {
+      "calledMethods": {
+        "java_lang_Float$": ["parseFloat__T__F"]
+      },
+      "accessedModules": ["java_lang_Float"]
+    },
+    "toString__D__T": {
+      "calledMethods": {
+        "java_lang_Float$": ["valueOf__F__Ljava_lang_Float"],
+        "java_lang_Float": ["toString__T"]
+      },
+      "accessedModules": ["java_lang_Float"]
+    },
+    "compare__D__D__I": {},
+    "isNaN__D__Z": {},
+    "isInfinite__D__Z": {},
+    "longBitsToDouble__J__D": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "doubleToLongBits__D__J": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "doubleToLongBits__D__": {
+      "calledMethods": {
+        "java_lang_Double$": ["doubleToLongBits__D__J"]
+      }
+    },
+    "longBitsToDouble__J__": {
+      "calledMethods": {
+        "java_lang_Double$": ["longBitsToDouble__J__D"]
+      }
+    },
+    "isInfinite__D__": {
+      "calledMethods": {
+        "java_lang_Double$": ["isInfinite__D__Z"]
+      }
+    },
+    "isNaN__D__": {
+      "calledMethods": {
+        "java_lang_Double$": ["isNaN__D__Z"]
+      }
+    },
+    "compare__D__D__": {
+      "calledMethods": {
+        "java_lang_Double$": ["compare__D__D__I"]
+      }
+    },
+    "toString__D__": {
+      "calledMethods": {
+        "java_lang_Double$": ["toString__D__T"]
+      }
+    },
+    "parseDouble__T__": {
+      "calledMethods": {
+        "java_lang_Double$": ["parseDouble__T__D"]
+      }
+    },
+    "valueOf__D__": {
+      "calledMethods": {
+        "java_lang_Double$": ["valueOf__D__Ljava_lang_Double"]
+      }
+    },
+    "SIZE__": {
+      "calledMethods": {
+        "java_lang_Double$": ["SIZE__I"]
+      }
+    },
+    "MIN$undEXPONENT__": {
+      "calledMethods": {
+        "java_lang_Double$": ["MIN$undEXPONENT__I"]
+      }
+    },
+    "MAX$undEXPONENT__": {
+      "calledMethods": {
+        "java_lang_Double$": ["MAX$undEXPONENT__I"]
+      }
+    },
+    "MIN$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Double$": ["MIN$undVALUE__Lscala_scalajs_js_Number"]
+      }
+    },
+    "MIN$undNORMAL__": {
+      "calledMethods": {
+        "java_lang_Double$": ["MIN$undNORMAL__D"]
+      }
+    },
+    "MAX$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Double$": ["MAX$undVALUE__Lscala_scalajs_js_Number"]
+      }
+    },
+    "NaN__": {
+      "calledMethods": {
+        "java_lang_Double$": ["NaN__D"]
+      }
+    },
+    "NEGATIVE$undINFINITY__": {
+      "calledMethods": {
+        "java_lang_Double$": ["NEGATIVE$undINFINITY__D"]
+      }
+    },
+    "POSITIVE$undINFINITY__": {
+      "calledMethods": {
+        "java_lang_Double$": ["POSITIVE$undINFINITY__D"]
+      }
+    },
+    "TYPE__": {
+      "calledMethods": {
+        "java_lang_Double$": ["TYPE__Ljava_lang_Class"]
+      }
+    }
+  }
+}

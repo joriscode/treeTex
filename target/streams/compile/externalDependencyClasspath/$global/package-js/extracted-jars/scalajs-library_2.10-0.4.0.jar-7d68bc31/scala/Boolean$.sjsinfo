@@ -1,0 +1,43 @@
+{
+  "name": "scala.Boolean$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Boolean$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Boolean$", "scala_AnyValCompanion", "scala_Specializable", "scala_SpecializableCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "box__Z__Ljava_lang_Boolean": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["valueOf__Z__Ljava_lang_Boolean"]
+      },
+      "accessedModules": ["java_lang_Boolean"]
+    },
+    "unbox__O__Z": {
+      "calledMethods": {
+        "java_lang_Boolean": ["booleanValue__Z"]
+      },
+      "accessedClassData": ["java_lang_Boolean"]
+    },
+    "toString__T": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unbox__O__": {
+      "calledMethods": {
+        "scala_Boolean$": ["unbox__O__Z"]
+      }
+    },
+    "box__Z__": {
+      "calledMethods": {
+        "scala_Boolean$": ["box__Z__Ljava_lang_Boolean"]
+      }
+    }
+  }
+}

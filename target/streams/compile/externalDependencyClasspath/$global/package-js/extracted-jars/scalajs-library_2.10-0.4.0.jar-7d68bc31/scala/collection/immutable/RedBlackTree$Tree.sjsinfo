@@ -1,0 +1,70 @@
+{
+  "name": "scala.collection.immutable.RedBlackTree$Tree",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_RedBlackTree$Tree",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_RedBlackTree$Tree", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "key__O": {},
+    "value__O": {},
+    "left__Lscala_collection_immutable_RedBlackTree$Tree": {},
+    "right__Lscala_collection_immutable_RedBlackTree$Tree": {},
+    "count__I": {},
+    "black__Lscala_collection_immutable_RedBlackTree$Tree": {
+      "isAbstract": true
+    },
+    "red__Lscala_collection_immutable_RedBlackTree$Tree": {
+      "isAbstract": true
+    },
+    "init___O__O__Lscala_collection_immutable_RedBlackTree$Tree__Lscala_collection_immutable_RedBlackTree$Tree": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$": ["count__Lscala_collection_immutable_RedBlackTree$Tree__I"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_collection_immutable_RedBlackTree"]
+    },
+    "count__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["count__I"]
+      }
+    },
+    "right__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["right__Lscala_collection_immutable_RedBlackTree$Tree"]
+      }
+    },
+    "left__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["left__Lscala_collection_immutable_RedBlackTree$Tree"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["value__O"]
+      }
+    },
+    "key__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["key__O"]
+      }
+    },
+    "red__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["red__Lscala_collection_immutable_RedBlackTree$Tree"]
+      }
+    },
+    "black__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["black__Lscala_collection_immutable_RedBlackTree$Tree"]
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "scala.PartialFunction$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_PartialFunction$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_PartialFunction$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$PartialFunction$$checkFallback__Lscala_PartialFunction": {},
+    "scala$PartialFunction$$fallbackOccurred__O__Z": {},
+    "unlifted__Lscala_Function1__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_PartialFunction$Lifted": ["pf__Lscala_PartialFunction"],
+        "scala_PartialFunction$Unlifted": ["init___Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_PartialFunction$Unlifted"],
+      "accessedClassData": ["scala_PartialFunction$Lifted"]
+    },
+    "apply__Lscala_Function1__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_PartialFunction$$anonfun$apply$1": ["init___Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_PartialFunction$$anonfun$apply$1"]
+    },
+    "empty__Lscala_PartialFunction": {},
+    "cond__O__Lscala_PartialFunction__Z": {
+      "calledMethods": {
+        "scala_PartialFunction": ["applyOrElse__O__Lscala_Function1__O"]
+      }
+    },
+    "condOpt__O__Lscala_PartialFunction__Lscala_Option": {
+      "calledMethods": {
+        "scala_PartialFunction": ["lift__Lscala_Function1"],
+        "scala_Function1": ["apply__O__O"]
+      },
+      "accessedClassData": ["scala_Option"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_PartialFunction$$anon$1": ["init___"],
+        "scala_PartialFunction$$anonfun$1": ["init___"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_PartialFunction$$anonfun$1", "scala_scalajs_runtime_AnonFunction1", "scala_PartialFunction$$anon$1"]
+    },
+    "condOpt__O__Lscala_PartialFunction__": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["condOpt__O__Lscala_PartialFunction__Lscala_Option"]
+      }
+    },
+    "cond__O__Lscala_PartialFunction__": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["cond__O__Lscala_PartialFunction__Z"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["empty__Lscala_PartialFunction"]
+      }
+    },
+    "apply__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["apply__Lscala_Function1__Lscala_PartialFunction"]
+      }
+    },
+    "unlifted__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["unlifted__Lscala_Function1__Lscala_PartialFunction"]
+      }
+    },
+    "scala$PartialFunction$$fallbackOccurred__O__": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["scala$PartialFunction$$fallbackOccurred__O__Z"]
+      }
+    },
+    "scala$PartialFunction$$checkFallback__": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["scala$PartialFunction$$checkFallback__Lscala_PartialFunction"]
+      }
+    }
+  }
+}

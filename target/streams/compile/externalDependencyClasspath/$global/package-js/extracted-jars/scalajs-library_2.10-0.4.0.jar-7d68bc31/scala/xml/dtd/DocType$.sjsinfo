@@ -1,0 +1,55 @@
+{
+  "name": "scala.xml.dtd.DocType$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_DocType$",
+  "superClass": "scala_runtime_AbstractFunction3",
+  "ancestors": ["scala_xml_dtd_DocType$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction3", "scala_Function3", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__Lscala_xml_dtd_ExternalID__Lscala_collection_Seq__Lscala_xml_dtd_DocType": {
+      "calledMethods": {
+        "scala_xml_dtd_DocType": ["init___T__Lscala_xml_dtd_ExternalID__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_DocType"]
+    },
+    "unapply__Lscala_xml_dtd_DocType__Lscala_Option": {
+      "calledMethods": {
+        "scala_Tuple3": ["init___O__O__O"],
+        "scala_Some": ["init___O"],
+        "scala_xml_dtd_DocType": ["extID__Lscala_xml_dtd_ExternalID", "name__T", "intSubset__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_Tuple3", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_xml_dtd_DocType"]
+    },
+    "apply__O__O__O__O": {
+      "calledMethods": {
+        "scala_xml_dtd_DocType$": ["apply__T__Lscala_xml_dtd_ExternalID__Lscala_collection_Seq__Lscala_xml_dtd_DocType"]
+      },
+      "accessedClassData": ["scala_collection_Seq", "scala_xml_dtd_ExternalID", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction3": ["init___"]
+      }
+    },
+    "unapply__Lscala_xml_dtd_DocType__": {
+      "calledMethods": {
+        "scala_xml_dtd_DocType$": ["unapply__Lscala_xml_dtd_DocType__Lscala_Option"]
+      }
+    },
+    "apply__T__Lscala_xml_dtd_ExternalID__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_dtd_DocType$": ["apply__T__Lscala_xml_dtd_ExternalID__Lscala_collection_Seq__Lscala_xml_dtd_DocType"]
+      }
+    }
+  }
+}

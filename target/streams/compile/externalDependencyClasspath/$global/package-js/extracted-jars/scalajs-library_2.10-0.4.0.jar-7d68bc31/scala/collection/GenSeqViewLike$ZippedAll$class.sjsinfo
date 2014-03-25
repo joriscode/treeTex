@@ -1,0 +1,41 @@
+{
+  "name": "scala.collection.GenSeqViewLike$ZippedAll$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqViewLike$ZippedAll$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqViewLike$ZippedAll$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqViewLike$ZippedAll$class__thatSeq__Lscala_collection_GenSeqViewLike$ZippedAll__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$ZippedAll": ["other__Lscala_collection_GenIterable"],
+        "scala_collection_Iterable": ["toSeq__Lscala_collection_Seq"],
+        "scala_collection_GenIterable": ["seq__Lscala_collection_Iterable"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$ZippedAll$class__length__Lscala_collection_GenSeqViewLike$ZippedAll__I": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_Seq": ["length__I"],
+        "scala_runtime_RichInt$": ["max$extension__I__I__I"],
+        "scala_collection_GenSeqViewLike$ZippedAll": ["scala$collection$GenSeqViewLike$ZippedAll$$$outer__Lscala_collection_GenSeqViewLike", "thatSeq__Lscala_collection_Seq"],
+        "scala_collection_GenSeqViewLike": ["length__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_GenSeqViewLike$ZippedAll$class__apply__Lscala_collection_GenSeqViewLike$ZippedAll__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike": ["apply__I__O", "length__I"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_GenSeqViewLike$ZippedAll": ["thisElem__O", "scala$collection$GenSeqViewLike$ZippedAll$$$outer__Lscala_collection_GenSeqViewLike", "thatSeq__Lscala_collection_Seq", "thatElem__O"],
+        "scala_collection_Seq": ["length__I", "apply__I__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "scala_collection_GenSeqViewLike$ZippedAll$class__$init$__Lscala_collection_GenSeqViewLike$ZippedAll__V": {}
+  }
+}

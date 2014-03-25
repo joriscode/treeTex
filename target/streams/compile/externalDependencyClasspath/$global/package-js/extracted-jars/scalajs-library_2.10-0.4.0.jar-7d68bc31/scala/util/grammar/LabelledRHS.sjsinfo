@@ -1,0 +1,119 @@
+{
+  "name": "scala.util.grammar.LabelledRHS",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_grammar_LabelledRHS",
+  "superClass": "scala_util_grammar_TreeRHS",
+  "ancestors": ["scala_util_grammar_LabelledRHS", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_util_grammar_TreeRHS", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "label__O": {},
+    "hnt__I": {},
+    "copy__O__I__Lscala_util_grammar_LabelledRHS": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["init___O__I"]
+      },
+      "instantiatedClasses": ["scala_util_grammar_LabelledRHS"]
+    },
+    "copy$default$1__O": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["label__O"]
+      }
+    },
+    "copy$default$2__I": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["hnt__I"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_util_grammar_LabelledRHS": ["hnt__I", "label__O"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_util_grammar_LabelledRHS"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["finalizeHash__I__I__I", "mix__I__I__I", "anyHash__O__I"],
+        "scala_util_grammar_LabelledRHS": ["hnt__I", "label__O"]
+      },
+      "accessedModules": ["scala_runtime_Statics"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["hnt__I", "label__O", "canEqual__O__Z"]
+      },
+      "accessedClassData": ["scala_util_grammar_LabelledRHS"]
+    },
+    "init___O__I": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_grammar_TreeRHS": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["productPrefix__T"]
+      }
+    },
+    "copy__O__I__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["copy__O__I__Lscala_util_grammar_LabelledRHS"]
+      }
+    },
+    "hnt__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["hnt__I"]
+      }
+    },
+    "label__": {
+      "calledMethods": {
+        "scala_util_grammar_LabelledRHS": ["label__O"]
+      }
+    }
+  }
+}

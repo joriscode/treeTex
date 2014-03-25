@@ -1,0 +1,32 @@
+{
+  "name": "scala.collection.GenIterableViewLike$Transformed$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenIterableViewLike$Transformed$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenIterableViewLike$Transformed$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenIterableViewLike$Transformed$class__foreach__Lscala_collection_GenIterableViewLike$Transformed__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_GenIterableViewLike$Transformed": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_Iterator": ["foreach__Lscala_Function1__V"]
+      }
+    },
+    "scala_collection_GenIterableViewLike$Transformed$class__toString__Lscala_collection_GenIterableViewLike$Transformed__T": {
+      "calledMethods": {
+        "scala_collection_GenIterableViewLike$Transformed": ["viewToString__T"]
+      }
+    },
+    "scala_collection_GenIterableViewLike$Transformed$class__isEmpty__Lscala_collection_GenIterableViewLike$Transformed__Z": {
+      "calledMethods": {
+        "scala_collection_GenIterableViewLike$Transformed": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_Iterator": ["hasNext__Z"]
+      }
+    },
+    "scala_collection_GenIterableViewLike$Transformed$class__$init$__Lscala_collection_GenIterableViewLike$Transformed__V": {}
+  }
+}

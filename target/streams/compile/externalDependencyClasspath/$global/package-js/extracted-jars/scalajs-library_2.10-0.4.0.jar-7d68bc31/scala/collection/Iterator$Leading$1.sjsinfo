@@ -1,0 +1,76 @@
+{
+  "name": "scala.collection.Iterator$Leading$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$Leading$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_Iterator$Leading$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isDone__p2__Z": {},
+    "isDone$und$eq__p2__Z__V": {},
+    "lookahead__Lscala_collection_mutable_Queue": {},
+    "advance__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_Queue": ["$$plus$eq__O__Lscala_collection_mutable_MutableList"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_BufferedIterator": ["head__O", "hasNext__Z", "next__O"],
+        "scala_collection_Iterator$Leading$1": ["lookahead__Lscala_collection_mutable_Queue"]
+      }
+    },
+    "finish__V": {
+      "calledMethods": {
+        "scala_collection_Iterator$Leading$1": ["isDone$und$eq__p2__Z__V", "advance__Z"]
+      }
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_Queue": ["nonEmpty__Z"],
+        "scala_collection_Iterator$Leading$1": ["advance__Z", "lookahead__Lscala_collection_mutable_Queue"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_Queue": ["isEmpty__Z", "dequeue__O"],
+        "scala_collection_Iterator$Leading$1": ["advance__Z", "lookahead__Lscala_collection_mutable_Queue"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala$collection$Iterator$Leading$$$outer__Lscala_collection_Iterator": {},
+    "init___Lscala_collection_Iterator__Lscala_collection_BufferedIterator__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_mutable_Queue": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_Queue", "java_lang_NullPointerException"]
+    },
+    "scala$collection$Iterator$Leading$$$outer__": {
+      "calledMethods": {
+        "scala_collection_Iterator$Leading$1": ["scala$collection$Iterator$Leading$$$outer__Lscala_collection_Iterator"]
+      }
+    },
+    "finish__": {
+      "calledMethods": {
+        "scala_collection_Iterator$Leading$1": ["finish__V"]
+      }
+    },
+    "advance__": {
+      "calledMethods": {
+        "scala_collection_Iterator$Leading$1": ["advance__Z"]
+      }
+    },
+    "lookahead__": {
+      "calledMethods": {
+        "scala_collection_Iterator$Leading$1": ["lookahead__Lscala_collection_mutable_Queue"]
+      }
+    }
+  }
+}

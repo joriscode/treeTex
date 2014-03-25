@@ -1,0 +1,84 @@
+{
+  "name": "scala.Short$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Short$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Short$", "scala_AnyValCompanion", "scala_Specializable", "scala_SpecializableCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "MinValue__S": {},
+    "MaxValue__S": {},
+    "box__S__Ljava_lang_Short": {
+      "calledMethods": {
+        "java_lang_Short$": ["valueOf__S__Ljava_lang_Short"]
+      },
+      "accessedModules": ["java_lang_Short"]
+    },
+    "unbox__O__S": {
+      "calledMethods": {
+        "java_lang_Short": ["shortValue__S"]
+      },
+      "accessedClassData": ["java_lang_Short"]
+    },
+    "toString__T": {},
+    "short2int__S__I": {},
+    "short2long__S__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "short2float__S__F": {},
+    "short2double__S__D": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "short2double__S__": {
+      "calledMethods": {
+        "scala_Short$": ["short2double__S__D"]
+      }
+    },
+    "short2float__S__": {
+      "calledMethods": {
+        "scala_Short$": ["short2float__S__F"]
+      }
+    },
+    "short2long__S__": {
+      "calledMethods": {
+        "scala_Short$": ["short2long__S__J"]
+      }
+    },
+    "short2int__S__": {
+      "calledMethods": {
+        "scala_Short$": ["short2int__S__I"]
+      }
+    },
+    "unbox__O__": {
+      "calledMethods": {
+        "scala_Short$": ["unbox__O__S"]
+      }
+    },
+    "box__S__": {
+      "calledMethods": {
+        "scala_Short$": ["box__S__Ljava_lang_Short"]
+      }
+    },
+    "MaxValue__": {
+      "calledMethods": {
+        "scala_Short$": ["MaxValue__S"]
+      }
+    },
+    "MinValue__": {
+      "calledMethods": {
+        "scala_Short$": ["MinValue__S"]
+      }
+    }
+  }
+}

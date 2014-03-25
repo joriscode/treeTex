@@ -1,0 +1,172 @@
+{
+  "name": "scala.math.Ordering$$anon$3",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_Ordering$$anon$3",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_math_Ordering$$anon$3", "scala_math_Ordering$OptionOrdering", "scala_math_Ordering", "scala_math_PartialOrdering", "scala_math_Equiv", "scala_Serializable", "java_io_Serializable", "java_util_Comparator", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "compare__Lscala_Option__Lscala_Option__I": {
+      "calledMethods": {
+        "scala_math_Ordering$OptionOrdering$class": ["scala_math_Ordering$OptionOrdering$class__compare__Lscala_math_Ordering$OptionOrdering__Lscala_Option__Lscala_Option__I"]
+      }
+    },
+    "tryCompare__O__O__Lscala_Some": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__tryCompare__Lscala_math_Ordering__O__O__Lscala_Some"]
+      }
+    },
+    "lteq__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__lteq__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "gteq__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__gteq__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "lt__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__lt__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "gt__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__gt__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "equiv__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__equiv__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "max__O__O__O": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__max__Lscala_math_Ordering__O__O__O"]
+      }
+    },
+    "min__O__O__O": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__min__Lscala_math_Ordering__O__O__O"]
+      }
+    },
+    "reverse__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__reverse__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "on__Lscala_Function1__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__on__Lscala_math_Ordering__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "mkOrderingOps__O__Lscala_math_Ordering$Ops": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__mkOrderingOps__Lscala_math_Ordering__O__Lscala_math_Ordering$Ops"]
+      }
+    },
+    "optionOrdering__Lscala_math_Ordering": {},
+    "reverse__Lscala_math_PartialOrdering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["reverse__Lscala_math_Ordering"]
+      }
+    },
+    "tryCompare__O__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["tryCompare__O__O__Lscala_Some"]
+      }
+    },
+    "compare__O__O__I": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["compare__Lscala_Option__Lscala_Option__I"]
+      },
+      "accessedClassData": ["scala_Option"]
+    },
+    "init___Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_PartialOrdering$class": ["scala_math_PartialOrdering$class__$init$__Lscala_math_PartialOrdering__V"],
+        "scala_math_Ordering$OptionOrdering$class": ["scala_math_Ordering$OptionOrdering$class__$init$__Lscala_math_Ordering$OptionOrdering__V"],
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__$init$__Lscala_math_Ordering__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "mkOrderingOps__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["mkOrderingOps__O__Lscala_math_Ordering$Ops"]
+      }
+    },
+    "on__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["on__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "reverse__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["reverse__Lscala_math_Ordering"]
+      }
+    },
+    "min__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["min__O__O__O"]
+      }
+    },
+    "max__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["max__O__O__O"]
+      }
+    },
+    "equiv__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["equiv__O__O__Z"]
+      }
+    },
+    "gt__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["gt__O__O__Z"]
+      }
+    },
+    "lt__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["lt__O__O__Z"]
+      }
+    },
+    "gteq__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["gteq__O__O__Z"]
+      }
+    },
+    "lteq__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["lteq__O__O__Z"]
+      }
+    },
+    "tryCompare__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["tryCompare__O__O__Lscala_Some"]
+      }
+    },
+    "compare__Lscala_Option__Lscala_Option__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["compare__Lscala_Option__Lscala_Option__I"]
+      }
+    },
+    "optionOrdering__": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["optionOrdering__Lscala_math_Ordering"]
+      }
+    },
+    "compare__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    }
+  }
+}

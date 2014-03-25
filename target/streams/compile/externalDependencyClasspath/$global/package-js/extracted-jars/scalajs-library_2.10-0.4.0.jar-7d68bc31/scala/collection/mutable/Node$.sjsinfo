@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.mutable.Node$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_Node$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_Node$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__O__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_collection_mutable_Node": ["init___O__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_AVLTree"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_Node"]
+    },
+    "unapply__Lscala_collection_mutable_Node__Lscala_Option": {
+      "calledMethods": {
+        "scala_Tuple3": ["init___O__O__O"],
+        "scala_collection_mutable_Node": ["left__Lscala_collection_mutable_AVLTree", "right__Lscala_collection_mutable_AVLTree", "data__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Tuple3", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_mutable_Node"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_collection_mutable_Node__": {
+      "calledMethods": {
+        "scala_collection_mutable_Node$": ["unapply__Lscala_collection_mutable_Node__Lscala_Option"]
+      }
+    },
+    "apply__O__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_AVLTree__": {
+      "calledMethods": {
+        "scala_collection_mutable_Node$": ["apply__O__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node"]
+      }
+    }
+  }
+}

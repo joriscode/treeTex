@@ -1,0 +1,76 @@
+{
+  "name": "scala.xml.dtd.ElementValidator$$anonfun$check$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_ElementValidator$$anonfun$check$1",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_xml_dtd_ElementValidator$$anonfun$check$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_xml_MetaData__V": {
+      "calledMethods": {
+        "scala_xml_MetaData": ["key__T"],
+        "scala_xml_dtd_AttrDecl": ["$default__Lscala_xml_dtd_DefaultDecl"],
+        "scala_xml_dtd_DEFAULT": ["fixed__Z", "attValue__T"],
+        "scala_xml_dtd_MakeValidationException$": ["fromUndefinedAttribute__T__Lscala_xml_dtd_ValidationException", "fromFixedAttribute__T__T__T__Lscala_xml_dtd_ValidationException"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_Some": ["x__O"],
+        "scala_xml_dtd_ElementValidator": ["scala$xml$dtd$ElementValidator$$exc$und$eq__Lscala_collection_immutable_List__V", "scala$xml$dtd$ElementValidator$$exc__Lscala_collection_immutable_List"],
+        "scala_xml_dtd_ElementValidator$$anonfun$check$1": ["find$1__p2__T__Lscala_Option", "attrStr$1__p2__Lscala_xml_MetaData__T"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_xml_dtd_MakeValidationException", "scala_None", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_dtd_DEFAULT", "scala_xml_dtd_AttrDecl", "scala_Some"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_xml_dtd_ElementValidator$$anonfun$check$1": ["apply__Lscala_xml_MetaData__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_MetaData"]
+    },
+    "attrStr$1__p2__Lscala_xml_MetaData__T": {
+      "calledMethods": {
+        "scala_collection_Seq": ["toString__T"],
+        "scala_xml_MetaData": ["value__Lscala_collection_Seq"]
+      }
+    },
+    "find$1__p2__T__Lscala_Option": {
+      "calledMethods": {
+        "scala_xml_dtd_AttrDecl": ["name__T"],
+        "scala_collection_mutable_BitSet": ["$$plus$eq__I__Lscala_collection_mutable_BitSet"],
+        "java_lang_Object": ["init___"],
+        "scala_collection_immutable_List": ["zipWithIndex__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_runtime_NonLocalReturnControl": ["value__O", "key__O", "init___O__O"],
+        "scala_Tuple2": ["$$und2$mcI$sp__I", "$$und1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_Some": ["init___O"],
+        "scala_xml_dtd_ElementValidator": ["adecls__Lscala_collection_immutable_List"],
+        "scala_collection_LinearSeqOptimized": ["find__Lscala_Function1__Lscala_Option"]
+      },
+      "instantiatedClasses": ["java_lang_Object", "scala_runtime_NonLocalReturnControl", "scala_scalajs_runtime_AnonFunction1", "scala_Some"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_None"],
+      "accessedClassData": ["scala_runtime_NonLocalReturnControl", "scala_xml_dtd_AttrDecl", "scala_collection_mutable_BitSet", "scala_Option", "scala_collection_LinearSeqOptimized"]
+    },
+    "init___Lscala_xml_dtd_ElementValidator__Lscala_runtime_ObjectRef": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "apply__Lscala_xml_MetaData__": {
+      "calledMethods": {
+        "scala_xml_dtd_ElementValidator$$anonfun$check$1": ["apply__Lscala_xml_MetaData__V"]
+      }
+    }
+  }
+}

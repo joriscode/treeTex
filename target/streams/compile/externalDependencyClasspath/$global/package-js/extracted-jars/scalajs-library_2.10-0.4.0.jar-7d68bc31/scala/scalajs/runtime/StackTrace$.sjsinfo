@@ -1,0 +1,178 @@
+{
+  "name": "scala.scalajs.runtime.StackTrace$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_scalajs_runtime_StackTrace$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_scalajs_runtime_StackTrace$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isRhino$lzycompute__p1__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_scalajs_runtime_StackTrace$": ["liftedTree1$1__p1__Z"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "captureState__Ljava_lang_Throwable__V": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["captureState__Ljava_lang_Throwable__Lscala_scalajs_js_Any__V", "createException__p1__Lscala_scalajs_js_Any"]
+      }
+    },
+    "createException__p1__Lscala_scalajs_js_Any": {
+      "calledMethods": {
+        "scala_scalajs_js_JavaScriptException": ["exception__Lscala_scalajs_js_Any"]
+      },
+      "accessedClassData": ["scala_scalajs_js_JavaScriptException"]
+    },
+    "captureState__Ljava_lang_Throwable__Lscala_scalajs_js_Any__V": {},
+    "isRhino__p1__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["isRhino$lzycompute__p1__Z"]
+      }
+    },
+    "extract__Ljava_lang_Throwable__ALjava_lang_StackTraceElement": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["normalizeStackTraceLines__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "normalizedLinesToStackTrace__p1__Lscala_scalajs_js_Array__ALjava_lang_StackTraceElement"]
+      }
+    },
+    "normalizedLinesToStackTrace__p1__Lscala_scalajs_js_Array__ALjava_lang_StackTraceElement": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["STE__p1__T__T__T__I__I__Ljava_lang_StackTraceElement", "StringRE__p1__T__T", "extractClassMethod__p1__T__Lscala_Tuple2", "STE__p1__T__T__T__I__Ljava_lang_StackTraceElement"],
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension0__T__Lscala_scalajs_js_RegExp"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_StringOps": ["init___T", "toInt__I"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "scala_scalajs_js_Any$": ["stringOps__Lscala_scalajs_js_String__T", "toArray__Lscala_scalajs_js_Array__Lscala_reflect_ClassTag__O"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_scalajs_js_Any", "scala_scalajs_runtime_StackTrace$StringRE", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_StackTraceElement", "java_lang_String"]
+    },
+    "extractClassMethod__p1__T__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["init___O__O"],
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension0__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T", "scala_scalajs_runtime_RuntimeString$class__replace__Lscala_scalajs_runtime_RuntimeString__Ljava_lang_CharSequence__Ljava_lang_CharSequence__T", "scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z", "scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__T__I"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"],
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE"]
+    },
+    "STE__p1__T__T__T__I__Ljava_lang_StackTraceElement": {
+      "calledMethods": {
+        "java_lang_StackTraceElement": ["init___T__T__T__I"]
+      },
+      "instantiatedClasses": ["java_lang_StackTraceElement"]
+    },
+    "STE__p1__T__T__T__I__I__Ljava_lang_StackTraceElement": {
+      "calledMethods": {
+        "java_lang_StackTraceElement": ["init___T__T__T__I"]
+      },
+      "instantiatedClasses": ["java_lang_StackTraceElement"]
+    },
+    "StringRE__p1__T__T": {},
+    "normalizeStackTraceLines__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["extractOpera10b__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "extractIE__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "extractRhino__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "extractFirefox__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "extractOpera10a__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "isRhino__p1__Z", "extractOpera11__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "extractOther__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "extractChrome__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "extractSafari__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array", "extractOpera9__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array"]
+      }
+    },
+    "extractRhino__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension1__T__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE"]
+    },
+    "extractChrome__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension1__T__T__Lscala_scalajs_js_RegExp", "re$extension0__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE"]
+    },
+    "extractFirefox__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension1__T__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE"]
+    },
+    "extractIE__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension1__T__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE"]
+    },
+    "extractSafari__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension1__T__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE"]
+    },
+    "extractOpera9__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension1__T__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE", "scala_runtime_BoxedUnit"]
+    },
+    "extractOpera10a__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension1__T__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE", "scala_runtime_BoxedUnit"]
+    },
+    "extractOpera10b__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension0__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE", "scala_runtime_BoxedUnit"]
+    },
+    "extractOpera11__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_scalajs_runtime_StackTrace$StringRE$": ["re$extension0__T__Lscala_scalajs_js_RegExp"],
+        "scala_scalajs_runtime_StackTrace$": ["StringRE__p1__T__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace$StringRE", "scala_runtime_BoxedUnit"]
+    },
+    "extractOther__p1__Lscala_scalajs_js_Dynamic__Lscala_scalajs_js_Array": {},
+    "liftedTree1$1__p1__Z": {
+      "accessedClassData": ["scala_scalajs_js_JavaScriptException"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "extract__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["extract__Ljava_lang_Throwable__ALjava_lang_StackTraceElement"]
+      }
+    },
+    "captureState__Ljava_lang_Throwable__Lscala_scalajs_js_Any__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["captureState__Ljava_lang_Throwable__Lscala_scalajs_js_Any__V"]
+      }
+    },
+    "captureState__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["captureState__Ljava_lang_Throwable__V"]
+      }
+    }
+  }
+}

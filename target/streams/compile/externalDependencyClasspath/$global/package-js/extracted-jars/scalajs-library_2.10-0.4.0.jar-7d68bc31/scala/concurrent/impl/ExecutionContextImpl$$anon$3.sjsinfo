@@ -1,0 +1,50 @@
+{
+  "name": "scala.concurrent.impl.ExecutionContextImpl$$anon$3",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_ExecutionContextImpl$$anon$3",
+  "superClass": "scala_concurrent_forkjoin_ForkJoinTask",
+  "ancestors": ["scala_concurrent_impl_ExecutionContextImpl$$anon$3", "scala_concurrent_forkjoin_ForkJoinTask", "java_io_Serializable", "java_util_concurrent_Future", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "setRawResult__Lscala_runtime_BoxedUnit__V": {},
+    "getRawResult__V": {},
+    "exec__Z": {
+      "calledMethods": {
+        "java_lang_Runnable": ["run__V"],
+        "java_lang_Thread$UncaughtExceptionHandler": ["uncaughtException__Ljava_lang_Thread__Ljava_lang_Throwable__V"],
+        "java_lang_Thread": ["getUncaughtExceptionHandler__Ljava_lang_Thread$UncaughtExceptionHandler"],
+        "java_lang_Thread$": ["currentThread__Ljava_lang_Thread"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["java_lang_Thread", "scala_runtime_BoxedUnit"]
+    },
+    "getRawResult__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$3": ["getRawResult__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "setRawResult__O__V": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$3": ["setRawResult__Lscala_runtime_BoxedUnit__V"]
+      },
+      "accessedClassData": ["scala_runtime_BoxedUnit"]
+    },
+    "init___Lscala_concurrent_impl_ExecutionContextImpl__Ljava_lang_Runnable": {
+      "calledMethodsStatic": {
+        "scala_concurrent_forkjoin_ForkJoinTask": ["init___"]
+      }
+    },
+    "setRawResult__Lscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$3": ["setRawResult__Lscala_runtime_BoxedUnit__V"]
+      }
+    }
+  }
+}

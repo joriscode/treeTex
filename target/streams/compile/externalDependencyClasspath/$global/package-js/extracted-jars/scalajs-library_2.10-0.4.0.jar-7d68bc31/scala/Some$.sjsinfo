@@ -1,0 +1,47 @@
+{
+  "name": "scala.Some$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Some$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Some$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__O__Lscala_Some": {
+      "calledMethods": {
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "unapply__Lscala_Some__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["x__O", "init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_Some"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_Some__": {
+      "calledMethods": {
+        "scala_Some$": ["unapply__Lscala_Some__Lscala_Option"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_Some$": ["apply__O__Lscala_Some"]
+      }
+    }
+  }
+}

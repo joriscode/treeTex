@@ -1,0 +1,462 @@
+{
+  "name": "java.lang.Character$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Character$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Character$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "TYPE__Ljava_lang_Class": {},
+    "MIN$undVALUE__C": {},
+    "MAX$undVALUE__C": {},
+    "valueOf__C__Ljava_lang_Character": {
+      "calledMethods": {
+        "java_lang_Character": ["init___C"]
+      },
+      "instantiatedClasses": ["java_lang_Character"]
+    },
+    "LOWERCASE$undLETTER__B": {},
+    "UPPERCASE$undLETTER__B": {},
+    "OTHER$undLETTER__B": {},
+    "TITLECASE$undLETTER__B": {},
+    "LETTER$undNUMBER__B": {},
+    "COMBINING$undSPACING$undMARK__B": {},
+    "ENCLOSING$undMARK__B": {},
+    "NON$undSPACING$undMARK__B": {},
+    "MODIFIER$undLETTER__B": {},
+    "DECIMAL$undDIGIT$undNUMBER__B": {},
+    "SURROGATE__B": {},
+    "MIN$undRADIX__I": {},
+    "MAX$undRADIX__I": {},
+    "MIN$undHIGH$undSURROGATE__C": {},
+    "MAX$undHIGH$undSURROGATE__C": {},
+    "MIN$undLOW$undSURROGATE__C": {},
+    "MAX$undLOW$undSURROGATE__C": {},
+    "MIN$undSURROGATE__C": {},
+    "MAX$undSURROGATE__C": {},
+    "getType__C__I": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "getType__I__I": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "digit__C__I__I": {
+      "calledMethods": {
+        "java_lang_Character$": ["MIN$undRADIX__I", "MAX$undRADIX__I"]
+      }
+    },
+    "isISOControl__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isDigit__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isLetter__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isLetterOrDigit__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isWhitespace__C__Z": {
+      "calledMethods": {
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "isSpaceChar__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isHighSurrogate__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["MAX$undHIGH$undSURROGATE__C", "MIN$undHIGH$undSURROGATE__C"]
+      }
+    },
+    "isLowSurrogate__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["MIN$undLOW$undSURROGATE__C", "MAX$undLOW$undSURROGATE__C"]
+      }
+    },
+    "isSurrogatePair__C__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLowSurrogate__C__Z", "isHighSurrogate__C__Z"]
+      }
+    },
+    "isUnicodeIdentifierStart__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isUnicodeIdentifierPart__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isIdentifierIgnorable__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isMirrored__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isLowerCase__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["toLowerCase__C__C"]
+      }
+    },
+    "isUpperCase__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["toUpperCase__C__C"]
+      }
+    },
+    "isTitleCase__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "isJavaIdentifierPart__C__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "getDirectionality__C__B": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "toUpperCase__C__C": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__toUpperCase__Lscala_scalajs_runtime_RuntimeString__T"],
+        "scala_collection_immutable_StringOps$": ["apply$extension__T__I__C"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "accessedModules": ["scala_collection_immutable_StringOps", "scala_Predef"]
+    },
+    "toLowerCase__C__C": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_collection_immutable_StringOps$": ["apply$extension__T__I__C"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__toLowerCase__Lscala_scalajs_runtime_RuntimeString__T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "accessedModules": ["scala_collection_immutable_StringOps", "scala_Predef"]
+    },
+    "toTitleCase__C__C": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "getNumericValue__C__I": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "reverseBytes__C__C": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "toString__C__T": {
+      "calledMethods": {
+        "java_lang_Character$": ["valueOf__C__Ljava_lang_Character"],
+        "java_lang_Character": ["toString__T"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Character$": ["MIN$undHIGH$undSURROGATE__C", "MAX$undLOW$undSURROGATE__C"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "toString__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["toString__C__T"]
+      }
+    },
+    "reverseBytes__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["reverseBytes__C__C"]
+      }
+    },
+    "getNumericValue__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["getNumericValue__C__I"]
+      }
+    },
+    "toTitleCase__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["toTitleCase__C__C"]
+      }
+    },
+    "toLowerCase__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["toLowerCase__C__C"]
+      }
+    },
+    "toUpperCase__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["toUpperCase__C__C"]
+      }
+    },
+    "getDirectionality__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["getDirectionality__C__B"]
+      }
+    },
+    "isJavaIdentifierPart__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isJavaIdentifierPart__C__Z"]
+      }
+    },
+    "isTitleCase__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isTitleCase__C__Z"]
+      }
+    },
+    "isUpperCase__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isUpperCase__C__Z"]
+      }
+    },
+    "isLowerCase__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLowerCase__C__Z"]
+      }
+    },
+    "isMirrored__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isMirrored__C__Z"]
+      }
+    },
+    "isIdentifierIgnorable__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isIdentifierIgnorable__C__Z"]
+      }
+    },
+    "isUnicodeIdentifierPart__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isUnicodeIdentifierPart__C__Z"]
+      }
+    },
+    "isUnicodeIdentifierStart__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isUnicodeIdentifierStart__C__Z"]
+      }
+    },
+    "isSurrogatePair__C__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isSurrogatePair__C__C__Z"]
+      }
+    },
+    "isLowSurrogate__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLowSurrogate__C__Z"]
+      }
+    },
+    "isHighSurrogate__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isHighSurrogate__C__Z"]
+      }
+    },
+    "isSpaceChar__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isSpaceChar__C__Z"]
+      }
+    },
+    "isWhitespace__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isWhitespace__C__Z"]
+      }
+    },
+    "isLetterOrDigit__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLetterOrDigit__C__Z"]
+      }
+    },
+    "isLetter__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLetter__C__Z"]
+      }
+    },
+    "isDigit__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isDigit__C__Z"]
+      }
+    },
+    "isISOControl__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["isISOControl__C__Z"]
+      }
+    },
+    "digit__C__I__": {
+      "calledMethods": {
+        "java_lang_Character$": ["digit__C__I__I"]
+      }
+    },
+    "getType__I__": {
+      "calledMethods": {
+        "java_lang_Character$": ["getType__I__I"]
+      }
+    },
+    "getType__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["getType__C__I"]
+      }
+    },
+    "MAX$undSURROGATE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MAX$undSURROGATE__C"]
+      }
+    },
+    "MIN$undSURROGATE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MIN$undSURROGATE__C"]
+      }
+    },
+    "MAX$undLOW$undSURROGATE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MAX$undLOW$undSURROGATE__C"]
+      }
+    },
+    "MIN$undLOW$undSURROGATE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MIN$undLOW$undSURROGATE__C"]
+      }
+    },
+    "MAX$undHIGH$undSURROGATE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MAX$undHIGH$undSURROGATE__C"]
+      }
+    },
+    "MIN$undHIGH$undSURROGATE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MIN$undHIGH$undSURROGATE__C"]
+      }
+    },
+    "MAX$undRADIX__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MAX$undRADIX__I"]
+      }
+    },
+    "MIN$undRADIX__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MIN$undRADIX__I"]
+      }
+    },
+    "SURROGATE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["SURROGATE__B"]
+      }
+    },
+    "DECIMAL$undDIGIT$undNUMBER__": {
+      "calledMethods": {
+        "java_lang_Character$": ["DECIMAL$undDIGIT$undNUMBER__B"]
+      }
+    },
+    "MODIFIER$undLETTER__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MODIFIER$undLETTER__B"]
+      }
+    },
+    "NON$undSPACING$undMARK__": {
+      "calledMethods": {
+        "java_lang_Character$": ["NON$undSPACING$undMARK__B"]
+      }
+    },
+    "ENCLOSING$undMARK__": {
+      "calledMethods": {
+        "java_lang_Character$": ["ENCLOSING$undMARK__B"]
+      }
+    },
+    "COMBINING$undSPACING$undMARK__": {
+      "calledMethods": {
+        "java_lang_Character$": ["COMBINING$undSPACING$undMARK__B"]
+      }
+    },
+    "LETTER$undNUMBER__": {
+      "calledMethods": {
+        "java_lang_Character$": ["LETTER$undNUMBER__B"]
+      }
+    },
+    "TITLECASE$undLETTER__": {
+      "calledMethods": {
+        "java_lang_Character$": ["TITLECASE$undLETTER__B"]
+      }
+    },
+    "OTHER$undLETTER__": {
+      "calledMethods": {
+        "java_lang_Character$": ["OTHER$undLETTER__B"]
+      }
+    },
+    "UPPERCASE$undLETTER__": {
+      "calledMethods": {
+        "java_lang_Character$": ["UPPERCASE$undLETTER__B"]
+      }
+    },
+    "LOWERCASE$undLETTER__": {
+      "calledMethods": {
+        "java_lang_Character$": ["LOWERCASE$undLETTER__B"]
+      }
+    },
+    "valueOf__C__": {
+      "calledMethods": {
+        "java_lang_Character$": ["valueOf__C__Ljava_lang_Character"]
+      }
+    },
+    "MAX$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MAX$undVALUE__C"]
+      }
+    },
+    "MIN$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["MIN$undVALUE__C"]
+      }
+    },
+    "TYPE__": {
+      "calledMethods": {
+        "java_lang_Character$": ["TYPE__Ljava_lang_Class"]
+      }
+    }
+  }
+}

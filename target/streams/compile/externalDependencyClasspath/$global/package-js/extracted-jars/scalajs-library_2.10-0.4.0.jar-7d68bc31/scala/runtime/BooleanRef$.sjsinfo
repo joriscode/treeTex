@@ -1,0 +1,45 @@
+{
+  "name": "scala.runtime.BooleanRef$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_BooleanRef$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_BooleanRef$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "create__Z__Lscala_runtime_BooleanRef": {
+      "calledMethods": {
+        "scala_runtime_BooleanRef": ["init___Z"]
+      },
+      "instantiatedClasses": ["scala_runtime_BooleanRef"]
+    },
+    "zero__Lscala_runtime_BooleanRef": {
+      "calledMethods": {
+        "scala_runtime_BooleanRef": ["init___Z"]
+      },
+      "instantiatedClasses": ["scala_runtime_BooleanRef"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_runtime_BooleanRef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_runtime_BooleanRef$": ["zero__Lscala_runtime_BooleanRef"]
+      }
+    },
+    "create__Z__": {
+      "calledMethods": {
+        "scala_runtime_BooleanRef$": ["create__Z__Lscala_runtime_BooleanRef"]
+      }
+    }
+  }
+}

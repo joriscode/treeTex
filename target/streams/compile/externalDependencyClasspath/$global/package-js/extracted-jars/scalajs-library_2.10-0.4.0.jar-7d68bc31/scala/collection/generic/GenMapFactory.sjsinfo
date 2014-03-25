@@ -1,0 +1,52 @@
+{
+  "name": "scala.collection.generic.GenMapFactory",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_GenMapFactory",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_GenMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "empty__Lscala_collection_GenMap": {
+      "isAbstract": true
+    },
+    "apply__Lscala_collection_Seq__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_generic_GenMapFactory": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_GenMap", "scala_collection_mutable_Builder"]
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory": ["empty__Lscala_collection_GenMap"],
+        "scala_collection_mutable_MapBuilder": ["init___Lscala_collection_GenMap"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_MapBuilder"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "newBuilder__": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory": ["newBuilder__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory": ["empty__Lscala_collection_GenMap"]
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "scala.collection.DebugUtils$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_DebugUtils$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_DebugUtils$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "unsupported__T__Lscala_Nothing": {
+      "calledMethods": {
+        "java_lang_UnsupportedOperationException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException"]
+    },
+    "noSuchElement__T__Lscala_Nothing": {
+      "calledMethods": {
+        "java_util_NoSuchElementException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"]
+    },
+    "indexOutOfBounds__I__Lscala_Nothing": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "illegalArgument__T__Lscala_Nothing": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "buildString__Lscala_Function1__T": {
+      "calledMethods": {
+        "scala_Predef$": ["any2stringadd__O__O"],
+        "scala_runtime_StringAdd$": ["$$plus$extension__O__T__T"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_ObjectRef": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_runtime_StringAdd", "scala_Predef"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "arrayString__O__I__I__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericArrayOps__O__Lscala_collection_mutable_ArrayOps", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O", "mkString__T__T", "slice__I__I__O"],
+        "scala_Array$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "arrayString__O__I__I__": {
+      "calledMethods": {
+        "scala_collection_DebugUtils$": ["arrayString__O__I__I__T"]
+      }
+    },
+    "buildString__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_DebugUtils$": ["buildString__Lscala_Function1__T"]
+      }
+    },
+    "illegalArgument__T__": {
+      "calledMethods": {
+        "scala_collection_DebugUtils$": ["illegalArgument__T__Lscala_Nothing"]
+      }
+    },
+    "indexOutOfBounds__I__": {
+      "calledMethods": {
+        "scala_collection_DebugUtils$": ["indexOutOfBounds__I__Lscala_Nothing"]
+      }
+    },
+    "noSuchElement__T__": {
+      "calledMethods": {
+        "scala_collection_DebugUtils$": ["noSuchElement__T__Lscala_Nothing"]
+      }
+    },
+    "unsupported__T__": {
+      "calledMethods": {
+        "scala_collection_DebugUtils$": ["unsupported__T__Lscala_Nothing"]
+      }
+    }
+  }
+}

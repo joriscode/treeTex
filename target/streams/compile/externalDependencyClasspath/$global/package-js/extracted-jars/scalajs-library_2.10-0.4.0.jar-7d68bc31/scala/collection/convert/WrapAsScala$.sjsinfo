@@ -1,0 +1,144 @@
+{
+  "name": "scala.collection.convert.WrapAsScala$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_WrapAsScala$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_WrapAsScala$", "scala_collection_convert_WrapAsScala", "scala_collection_convert_LowPriorityWrapAsScala", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "asScalaIterator__Ljava_util_Iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__asScalaIterator__Lscala_collection_convert_WrapAsScala__Ljava_util_Iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "enumerationAsScalaIterator__Ljava_util_Enumeration__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__enumerationAsScalaIterator__Lscala_collection_convert_WrapAsScala__Ljava_util_Enumeration__Lscala_collection_Iterator"]
+      }
+    },
+    "iterableAsScalaIterable__Ljava_lang_Iterable__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__iterableAsScalaIterable__Lscala_collection_convert_WrapAsScala__Ljava_lang_Iterable__Lscala_collection_Iterable"]
+      }
+    },
+    "collectionAsScalaIterable__Ljava_util_Collection__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__collectionAsScalaIterable__Lscala_collection_convert_WrapAsScala__Ljava_util_Collection__Lscala_collection_Iterable"]
+      }
+    },
+    "asScalaBuffer__Ljava_util_List__Lscala_collection_mutable_Buffer": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__asScalaBuffer__Lscala_collection_convert_WrapAsScala__Ljava_util_List__Lscala_collection_mutable_Buffer"]
+      }
+    },
+    "asScalaSet__Ljava_util_Set__Lscala_collection_mutable_Set": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__asScalaSet__Lscala_collection_convert_WrapAsScala__Ljava_util_Set__Lscala_collection_mutable_Set"]
+      }
+    },
+    "mapAsScalaMap__Ljava_util_Map__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__mapAsScalaMap__Lscala_collection_convert_WrapAsScala__Ljava_util_Map__Lscala_collection_mutable_Map"]
+      }
+    },
+    "asScalaConcurrentMap__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_mutable_ConcurrentMap": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__asScalaConcurrentMap__Lscala_collection_convert_WrapAsScala__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_mutable_ConcurrentMap"]
+      }
+    },
+    "mapAsScalaConcurrentMap__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_concurrent_Map": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__mapAsScalaConcurrentMap__Lscala_collection_convert_WrapAsScala__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_concurrent_Map"]
+      }
+    },
+    "dictionaryAsScalaMap__Ljava_util_Dictionary__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__dictionaryAsScalaMap__Lscala_collection_convert_WrapAsScala__Ljava_util_Dictionary__Lscala_collection_mutable_Map"]
+      }
+    },
+    "propertiesAsScalaMap__Ljava_util_Properties__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__propertiesAsScalaMap__Lscala_collection_convert_WrapAsScala__Ljava_util_Properties__Lscala_collection_mutable_Map"]
+      }
+    },
+    "mapAsScalaDeprecatedConcurrentMap__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_mutable_ConcurrentMap": {
+      "calledMethods": {
+        "scala_collection_convert_LowPriorityWrapAsScala$class": ["scala_collection_convert_LowPriorityWrapAsScala$class__mapAsScalaDeprecatedConcurrentMap__Lscala_collection_convert_WrapAsScala__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_mutable_ConcurrentMap"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_convert_LowPriorityWrapAsScala$class": ["scala_collection_convert_LowPriorityWrapAsScala$class__$init$__Lscala_collection_convert_WrapAsScala__V"],
+        "scala_collection_convert_WrapAsScala$class": ["scala_collection_convert_WrapAsScala$class__$init$__Lscala_collection_convert_WrapAsScala__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "mapAsScalaDeprecatedConcurrentMap__Ljava_util_concurrent_ConcurrentMap__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["mapAsScalaDeprecatedConcurrentMap__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_mutable_ConcurrentMap"]
+      }
+    },
+    "propertiesAsScalaMap__Ljava_util_Properties__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["propertiesAsScalaMap__Ljava_util_Properties__Lscala_collection_mutable_Map"]
+      }
+    },
+    "dictionaryAsScalaMap__Ljava_util_Dictionary__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["dictionaryAsScalaMap__Ljava_util_Dictionary__Lscala_collection_mutable_Map"]
+      }
+    },
+    "mapAsScalaConcurrentMap__Ljava_util_concurrent_ConcurrentMap__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["mapAsScalaConcurrentMap__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_concurrent_Map"]
+      }
+    },
+    "asScalaConcurrentMap__Ljava_util_concurrent_ConcurrentMap__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["asScalaConcurrentMap__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_mutable_ConcurrentMap"]
+      }
+    },
+    "mapAsScalaMap__Ljava_util_Map__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["mapAsScalaMap__Ljava_util_Map__Lscala_collection_mutable_Map"]
+      }
+    },
+    "asScalaSet__Ljava_util_Set__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["asScalaSet__Ljava_util_Set__Lscala_collection_mutable_Set"]
+      }
+    },
+    "asScalaBuffer__Ljava_util_List__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["asScalaBuffer__Ljava_util_List__Lscala_collection_mutable_Buffer"]
+      }
+    },
+    "collectionAsScalaIterable__Ljava_util_Collection__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["collectionAsScalaIterable__Ljava_util_Collection__Lscala_collection_Iterable"]
+      }
+    },
+    "iterableAsScalaIterable__Ljava_lang_Iterable__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["iterableAsScalaIterable__Ljava_lang_Iterable__Lscala_collection_Iterable"]
+      }
+    },
+    "enumerationAsScalaIterator__Ljava_util_Enumeration__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["enumerationAsScalaIterator__Ljava_util_Enumeration__Lscala_collection_Iterator"]
+      }
+    },
+    "asScalaIterator__Ljava_util_Iterator__": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsScala$": ["asScalaIterator__Ljava_util_Iterator__Lscala_collection_Iterator"]
+      }
+    }
+  }
+}

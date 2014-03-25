@@ -1,0 +1,34 @@
+{
+  "name": "scala.concurrent.ThreadRunner$$anon$1",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_ThreadRunner$$anon$1",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_ThreadRunner$$anon$1", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "run__V": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["scala$concurrent$ThreadRunner$$tryCatch__Lscala_Function0__Lscala_util_Either"]
+      }
+    },
+    "init___Lscala_concurrent_ThreadRunner__Lscala_Function0": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "run__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner$$anon$1": ["run__V"]
+      }
+    }
+  }
+}

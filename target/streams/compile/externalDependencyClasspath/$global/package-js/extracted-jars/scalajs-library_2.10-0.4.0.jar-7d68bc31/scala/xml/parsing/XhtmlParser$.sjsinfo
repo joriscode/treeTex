@@ -1,0 +1,33 @@
+{
+  "name": "scala.xml.parsing.XhtmlParser$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_XhtmlParser$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_parsing_XhtmlParser$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_io_Source__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["document__Lscala_xml_Document"],
+        "scala_xml_parsing_XhtmlParser": ["initialize__Lscala_xml_parsing_MarkupHandler", "init___Lscala_io_Source"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_XhtmlParser"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_io_Source__": {
+      "calledMethods": {
+        "scala_xml_parsing_XhtmlParser$": ["apply__Lscala_io_Source__Lscala_xml_NodeSeq"]
+      }
+    }
+  }
+}

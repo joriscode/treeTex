@@ -1,0 +1,73 @@
+{
+  "name": "scala.collection.mutable.FlatHashTable$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_FlatHashTable$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_FlatHashTable$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "seedGenerator__Ljava_lang_ThreadLocal": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$$anon$2": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_FlatHashTable$$anon$2"]
+    },
+    "defaultLoadFactor__I": {},
+    "loadFactorDenum__I": {},
+    "sizeForThreshold__I__I__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$times__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$div__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "toInt__I"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_math_package$": ["max__I__I__I"],
+        "scala_collection_mutable_FlatHashTable$": ["loadFactorDenum__I"]
+      },
+      "accessedModules": ["scala_math_package", "scala_scalajs_runtime_Long"]
+    },
+    "newThreshold__I__I__I": {
+      "calledMethods": {
+        "scala_Predef$": ["assert__Z__Lscala_Function0__V"],
+        "scala_collection_mutable_FlatHashTable$": ["loadFactorDenum__I"],
+        "scala_scalajs_runtime_Long": ["$$times__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$div__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "toInt__I"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_Predef", "scala_scalajs_runtime_Long"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "newThreshold__I__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$": ["newThreshold__I__I__I"]
+      }
+    },
+    "sizeForThreshold__I__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$": ["sizeForThreshold__I__I__I"]
+      }
+    },
+    "loadFactorDenum__": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$": ["loadFactorDenum__I"]
+      }
+    },
+    "defaultLoadFactor__": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$": ["defaultLoadFactor__I"]
+      }
+    },
+    "seedGenerator__": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$": ["seedGenerator__Ljava_lang_ThreadLocal"]
+      }
+    }
+  }
+}

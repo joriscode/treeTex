@@ -1,0 +1,370 @@
+{
+  "name": "java.util.regex.Matcher",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_regex_Matcher",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_regex_Matcher", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pattern0__p1__Ljava_util_regex_Pattern": {},
+    "pattern0$und$eq__p1__Ljava_util_regex_Pattern__V": {},
+    "input0__p1__Ljava_lang_CharSequence": {},
+    "input0$und$eq__p1__Ljava_lang_CharSequence__V": {},
+    "regionStart0__p1__I": {},
+    "regionStart0$und$eq__p1__I__V": {},
+    "regionEnd0__p1__I": {},
+    "regionEnd0$und$eq__p1__I__V": {},
+    "pattern__Ljava_util_regex_Pattern": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["pattern0__p1__Ljava_util_regex_Pattern"]
+      }
+    },
+    "regexp__p1__Lscala_scalajs_js_RegExp": {},
+    "regexp$und$eq__p1__Lscala_scalajs_js_RegExp__V": {},
+    "inputstr__p1__T": {},
+    "inputstr$und$eq__p1__T__V": {},
+    "lastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult": {},
+    "lastMatch$und$eq__p1__Lscala_scalajs_js_RegExp$ExecResult__V": {},
+    "lastMatchIsValid__p1__Z": {},
+    "lastMatchIsValid$und$eq__p1__Z__V": {},
+    "canStillFind__p1__Z": {},
+    "canStillFind$und$eq__p1__Z__V": {},
+    "appendPos__p1__I": {},
+    "appendPos$und$eq__p1__I__V": {},
+    "matches__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_util_regex_Matcher": ["find__Z", "start__I", "reset__Ljava_util_regex_Matcher", "lastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult", "end__I", "inputstr__p1__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "lookingAt__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_util_regex_Matcher": ["find__Z", "start__I", "reset__Ljava_util_regex_Matcher", "lastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "find__Z": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["canStillFind$und$eq__p1__Z__V", "lastMatch$und$eq__p1__Lscala_scalajs_js_RegExp$ExecResult__V", "canStillFind__p1__Z", "lastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult", "regexp__p1__Lscala_scalajs_js_RegExp", "inputstr__p1__T", "lastMatchIsValid$und$eq__p1__Z__V"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__isEmpty__Lscala_scalajs_runtime_RuntimeString__Z"]
+      }
+    },
+    "find__I__Z": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["find__Z", "reset__Ljava_util_regex_Matcher", "regexp__p1__Lscala_scalajs_js_RegExp"]
+      }
+    },
+    "appendReplacement__Ljava_lang_StringBuffer__T__Ljava_util_regex_Matcher": {
+      "calledMethods": {
+        "java_lang_Integer$": ["parseInt__T__I"],
+        "java_util_regex_Matcher": ["start__I", "group__I__T", "appendPos__p1__I", "end__I", "inputstr__p1__T", "isDigit$1__p1__C__Z", "appendPos$und$eq__p1__I__V"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I", "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T"],
+        "java_lang_StringBuffer": ["append__C__Ljava_lang_StringBuffer", "append__T__Ljava_lang_StringBuffer"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["java_lang_Integer", "scala_runtime_BoxedUnit"]
+    },
+    "appendTail__Ljava_lang_StringBuffer__Ljava_lang_StringBuffer": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["appendPos__p1__I", "inputstr__p1__T", "appendPos$und$eq__p1__I__V"],
+        "java_lang_StringBuffer": ["append__T__Ljava_lang_StringBuffer"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__T", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "replaceFirst__T__T": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["find__Z", "reset__Ljava_util_regex_Matcher", "appendTail__Ljava_lang_StringBuffer__Ljava_lang_StringBuffer", "appendReplacement__Ljava_lang_StringBuffer__T__Ljava_util_regex_Matcher", "inputstr__p1__T"],
+        "java_lang_StringBuffer": ["toString__T", "init___"]
+      },
+      "instantiatedClasses": ["java_lang_StringBuffer"]
+    },
+    "replaceAll__T__T": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["find__Z", "reset__Ljava_util_regex_Matcher", "appendTail__Ljava_lang_StringBuffer__Ljava_lang_StringBuffer", "appendReplacement__Ljava_lang_StringBuffer__T__Ljava_util_regex_Matcher"],
+        "java_lang_StringBuffer": ["toString__T", "init___"]
+      },
+      "instantiatedClasses": ["java_lang_StringBuffer"]
+    },
+    "reset__Ljava_util_regex_Matcher": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["canStillFind$und$eq__p1__Z__V", "lastMatch$und$eq__p1__Lscala_scalajs_js_RegExp$ExecResult__V", "regexp__p1__Lscala_scalajs_js_RegExp", "appendPos$und$eq__p1__I__V", "lastMatchIsValid$und$eq__p1__Z__V"]
+      }
+    },
+    "reset__Ljava_lang_CharSequence__Ljava_util_regex_Matcher": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["input0__p1__Ljava_lang_CharSequence", "reset__Ljava_util_regex_Matcher", "regionEnd0$und$eq__p1__I__V", "input0$und$eq__p1__Ljava_lang_CharSequence__V", "regionStart0$und$eq__p1__I__V", "inputstr$und$eq__p1__T__V"],
+        "java_lang_CharSequence": ["length__I", "toString__T"]
+      }
+    },
+    "usePattern__Ljava_util_regex_Pattern__Ljava_util_regex_Matcher": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["regexp$und$eq__p1__Lscala_scalajs_js_RegExp__V", "lastMatch$und$eq__p1__Lscala_scalajs_js_RegExp$ExecResult__V", "regexp__p1__Lscala_scalajs_js_RegExp", "pattern0$und$eq__p1__Ljava_util_regex_Pattern__V"],
+        "java_util_regex_Pattern": ["jsflags__T", "jspattern__T"]
+      }
+    },
+    "ensureLastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult": {
+      "calledMethods": {
+        "java_lang_IllegalStateException": ["init___T"],
+        "java_util_regex_Matcher": ["lastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalStateException"]
+    },
+    "groupCount__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher$": ["java$util$regex$Matcher$$jsNumberToInt__Lscala_scalajs_js_Number__I"],
+        "java_util_regex_Matcher": ["ensureLastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult"]
+      },
+      "accessedModules": ["java_util_regex_Matcher"]
+    },
+    "start__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher$": ["java$util$regex$Matcher$$jsNumberToInt__Lscala_scalajs_js_Number__I"],
+        "java_util_regex_Matcher": ["ensureLastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult"]
+      },
+      "accessedModules": ["java_util_regex_Matcher"]
+    },
+    "end__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["start__I", "group__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "group__T": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["ensureLastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult"]
+      }
+    },
+    "start__I__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher$": ["java$util$regex$Matcher$$jsNumberToInt__Lscala_scalajs_js_Number__I"],
+        "java_util_regex_Matcher": ["start__I", "ensureLastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult", "inputstr__p1__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__T__I__I"]
+      },
+      "accessedModules": ["java_util_regex_Matcher"]
+    },
+    "end__I__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["start__I__I", "group__I__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "group__I__T": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["ensureLastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult"]
+      }
+    },
+    "toMatchResult__Ljava_util_regex_MatchResult": {
+      "calledMethods": {
+        "java_util_regex_Matcher$SealedResult": ["init___T__Lscala_scalajs_js_RegExp$ExecResult"],
+        "java_util_regex_Matcher": ["lastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult", "inputstr__p1__T"]
+      },
+      "instantiatedClasses": ["java_util_regex_Matcher$SealedResult"]
+    },
+    "hitEnd__Z": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["lastMatch__p1__Lscala_scalajs_js_RegExp$ExecResult", "end__I", "inputstr__p1__T", "lastMatchIsValid__p1__Z"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "requireEnd__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["$$qmark$qmark$qmark__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "regionStart__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["regionStart0__p1__I"]
+      }
+    },
+    "regionEnd__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["regionEnd0__p1__I"]
+      }
+    },
+    "region__I__I__Ljava_util_regex_Matcher": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["input0__p1__Ljava_lang_CharSequence", "pattern0__p1__Ljava_util_regex_Pattern", "init___Ljava_util_regex_Pattern__Ljava_lang_CharSequence__I__I"]
+      },
+      "instantiatedClasses": ["java_util_regex_Matcher"]
+    },
+    "hasTransparentBounds__Z": {},
+    "useTransparentBounds__Z__Ljava_util_regex_Matcher": {
+      "calledMethods": {
+        "scala_Predef$": ["$$qmark$qmark$qmark__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "hasAnchoringBounds__Z": {},
+    "useAnchoringBounds__Z__Ljava_util_regex_Matcher": {
+      "calledMethods": {
+        "scala_Predef$": ["$$qmark$qmark$qmark__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "isDigit$1__p1__C__Z": {},
+    "init___Ljava_util_regex_Pattern__Ljava_lang_CharSequence__I__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["input0__p1__Ljava_lang_CharSequence", "pattern0__p1__Ljava_util_regex_Pattern", "regionEnd0__p1__I", "regionStart0__p1__I"],
+        "java_util_regex_Pattern": ["jsflags__T", "jspattern__T"],
+        "java_lang_CharSequence": ["subSequence__I__I__Ljava_lang_CharSequence", "toString__T"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "useAnchoringBounds__Z__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["useAnchoringBounds__Z__Ljava_util_regex_Matcher"]
+      }
+    },
+    "hasAnchoringBounds__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["hasAnchoringBounds__Z"]
+      }
+    },
+    "useTransparentBounds__Z__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["useTransparentBounds__Z__Ljava_util_regex_Matcher"]
+      }
+    },
+    "hasTransparentBounds__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["hasTransparentBounds__Z"]
+      }
+    },
+    "region__I__I__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["region__I__I__Ljava_util_regex_Matcher"]
+      }
+    },
+    "regionEnd__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["regionEnd__I"]
+      }
+    },
+    "regionStart__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["regionStart__I"]
+      }
+    },
+    "requireEnd__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["requireEnd__Z"]
+      }
+    },
+    "hitEnd__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["hitEnd__Z"]
+      }
+    },
+    "toMatchResult__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["toMatchResult__Ljava_util_regex_MatchResult"]
+      }
+    },
+    "group__I__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["group__I__T"]
+      }
+    },
+    "end__I__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["end__I__I"]
+      }
+    },
+    "start__I__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["start__I__I"]
+      }
+    },
+    "group__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["group__T"]
+      }
+    },
+    "end__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["end__I"]
+      }
+    },
+    "start__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["start__I"]
+      }
+    },
+    "groupCount__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["groupCount__I"]
+      }
+    },
+    "usePattern__Ljava_util_regex_Pattern__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["usePattern__Ljava_util_regex_Pattern__Ljava_util_regex_Matcher"]
+      }
+    },
+    "reset__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["reset__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"]
+      }
+    },
+    "reset__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["reset__Ljava_util_regex_Matcher"]
+      }
+    },
+    "replaceAll__T__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["replaceAll__T__T"]
+      }
+    },
+    "replaceFirst__T__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["replaceFirst__T__T"]
+      }
+    },
+    "appendTail__Ljava_lang_StringBuffer__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["appendTail__Ljava_lang_StringBuffer__Ljava_lang_StringBuffer"]
+      }
+    },
+    "appendReplacement__Ljava_lang_StringBuffer__T__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["appendReplacement__Ljava_lang_StringBuffer__T__Ljava_util_regex_Matcher"]
+      }
+    },
+    "find__I__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["find__I__Z"]
+      }
+    },
+    "find__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["find__Z"]
+      }
+    },
+    "lookingAt__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["lookingAt__Z"]
+      }
+    },
+    "matches__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["matches__Z"]
+      }
+    },
+    "pattern__": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["pattern__Ljava_util_regex_Pattern"]
+      }
+    }
+  }
+}

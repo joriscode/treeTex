@@ -1,0 +1,54 @@
+{
+  "name": "scala.xml.EntityRef$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_EntityRef$",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_xml_EntityRef$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__Lscala_xml_EntityRef": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_EntityRef"]
+    },
+    "unapply__Lscala_xml_EntityRef__Lscala_Option": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["entityName__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_xml_EntityRef"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_xml_EntityRef$": ["apply__T__Lscala_xml_EntityRef"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "unapply__Lscala_xml_EntityRef__": {
+      "calledMethods": {
+        "scala_xml_EntityRef$": ["unapply__Lscala_xml_EntityRef__Lscala_Option"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_xml_EntityRef$": ["apply__T__Lscala_xml_EntityRef"]
+      }
+    }
+  }
+}

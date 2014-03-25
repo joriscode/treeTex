@@ -1,0 +1,54 @@
+{
+  "name": "scala.collection.convert.Wrappers$MutableSeqWrapper$",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$MutableSeqWrapper$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Wrappers$MutableSeqWrapper$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_collection_mutable_Seq__Lscala_collection_convert_Wrappers$MutableSeqWrapper": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MutableSeqWrapper": ["init___Lscala_collection_convert_Wrappers__Lscala_collection_mutable_Seq"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$MutableSeqWrapper"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$MutableSeqWrapper__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_collection_convert_Wrappers$MutableSeqWrapper": ["underlying__Lscala_collection_mutable_Seq"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers": ["MutableSeqWrapper__Lscala_collection_convert_Wrappers$MutableSeqWrapper$"]
+      }
+    },
+    "init___Lscala_collection_convert_Wrappers": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$MutableSeqWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MutableSeqWrapper$": ["unapply__Lscala_collection_convert_Wrappers$MutableSeqWrapper__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_collection_mutable_Seq__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MutableSeqWrapper$": ["apply__Lscala_collection_mutable_Seq__Lscala_collection_convert_Wrappers$MutableSeqWrapper"]
+      }
+    }
+  }
+}

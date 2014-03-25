@@ -1,0 +1,54 @@
+{
+  "name": "scala.concurrent.Channel$LinkedList",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Channel$LinkedList",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_Channel$LinkedList", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elem__O": {},
+    "elem$und$eq__O__V": {},
+    "next__Lscala_concurrent_Channel$LinkedList": {},
+    "next$und$eq__Lscala_concurrent_Channel$LinkedList__V": {},
+    "scala$concurrent$Channel$LinkedList$$$outer__Lscala_concurrent_Channel": {},
+    "init___Lscala_concurrent_Channel": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$concurrent$Channel$LinkedList$$$outer__": {
+      "calledMethods": {
+        "scala_concurrent_Channel$LinkedList": ["scala$concurrent$Channel$LinkedList$$$outer__Lscala_concurrent_Channel"]
+      }
+    },
+    "next$und$eq__Lscala_concurrent_Channel$LinkedList__": {
+      "calledMethods": {
+        "scala_concurrent_Channel$LinkedList": ["next$und$eq__Lscala_concurrent_Channel$LinkedList__V"]
+      }
+    },
+    "next__": {
+      "calledMethods": {
+        "scala_concurrent_Channel$LinkedList": ["next__Lscala_concurrent_Channel$LinkedList"]
+      }
+    },
+    "elem$und$eq__O__": {
+      "calledMethods": {
+        "scala_concurrent_Channel$LinkedList": ["elem$und$eq__O__V"]
+      }
+    },
+    "elem__": {
+      "calledMethods": {
+        "scala_concurrent_Channel$LinkedList": ["elem__O"]
+      }
+    }
+  }
+}

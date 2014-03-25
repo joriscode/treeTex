@@ -1,0 +1,195 @@
+{
+  "name": "scala.package$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_package$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_package$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "BigDecimal$lzycompute__p1__Lscala_math_BigDecimal$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_math_BigDecimal", "scala_runtime_BoxedUnit"]
+    },
+    "BigInt$lzycompute__p1__Lscala_math_BigInt$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit", "scala_math_BigInt"]
+    },
+    "AnyRef__Lscala_Specializable": {},
+    "Traversable__Lscala_collection_Traversable$": {},
+    "Iterable__Lscala_collection_Iterable$": {},
+    "Seq__Lscala_collection_Seq$": {},
+    "IndexedSeq__Lscala_collection_IndexedSeq$": {},
+    "Iterator__Lscala_collection_Iterator$": {},
+    "List__Lscala_collection_immutable_List$": {},
+    "Nil__Lscala_collection_immutable_Nil$": {},
+    "$$colon$colon__Lscala_collection_immutable_$colon$colon$": {},
+    "$$plus$colon__Lscala_collection_$plus$colon$": {},
+    "$$colon$plus__Lscala_collection_$colon$plus$": {},
+    "Stream__Lscala_collection_immutable_Stream$": {},
+    "$$hash$colon$colon__Lscala_collection_immutable_Stream$$hash$colon$colon$": {},
+    "Vector__Lscala_collection_immutable_Vector$": {},
+    "StringBuilder__Lscala_collection_mutable_StringBuilder$": {},
+    "Range__Lscala_collection_immutable_Range$": {},
+    "BigDecimal__Lscala_math_BigDecimal$": {
+      "calledMethods": {
+        "scala_package$": ["BigDecimal$lzycompute__p1__Lscala_math_BigDecimal$"]
+      }
+    },
+    "BigInt__Lscala_math_BigInt$": {
+      "calledMethods": {
+        "scala_package$": ["BigInt$lzycompute__p1__Lscala_math_BigInt$"]
+      }
+    },
+    "Equiv__Lscala_math_Equiv$": {},
+    "Numeric__Lscala_math_Numeric$": {},
+    "Ordered__Lscala_math_Ordered$": {},
+    "Ordering__Lscala_math_Ordering$": {},
+    "Either__Lscala_util_Either$": {},
+    "Left__Lscala_util_Left$": {},
+    "Right__Lscala_util_Right$": {},
+    "init___": {
+      "calledMethods": {
+        "scala_package$$anon$1": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_package$$anon$1"],
+      "accessedModules": ["scala_util_Left", "scala_collection_immutable_Vector", "scala_collection_Traversable", "scala_collection_Iterable", "scala_collection_mutable_StringBuilder", "scala_util_Either", "scala_collection_immutable_$colon$colon", "scala_math_Equiv", "scala_collection_Iterator", "scala_collection_immutable_List", "scala_math_Ordered", "scala_collection_immutable_Range", "scala_collection_$plus$colon", "scala_collection_$colon$plus", "scala_collection_Seq", "scala_collection_immutable_Stream$$hash$colon$colon", "scala_math_Ordering", "scala_util_Right", "scala_math_Numeric", "scala_collection_immutable_Nil", "scala_collection_immutable_Stream", "scala_collection_IndexedSeq"]
+    },
+    "Right__": {
+      "calledMethods": {
+        "scala_package$": ["Right__Lscala_util_Right$"]
+      }
+    },
+    "Left__": {
+      "calledMethods": {
+        "scala_package$": ["Left__Lscala_util_Left$"]
+      }
+    },
+    "Either__": {
+      "calledMethods": {
+        "scala_package$": ["Either__Lscala_util_Either$"]
+      }
+    },
+    "Ordering__": {
+      "calledMethods": {
+        "scala_package$": ["Ordering__Lscala_math_Ordering$"]
+      }
+    },
+    "Ordered__": {
+      "calledMethods": {
+        "scala_package$": ["Ordered__Lscala_math_Ordered$"]
+      }
+    },
+    "Numeric__": {
+      "calledMethods": {
+        "scala_package$": ["Numeric__Lscala_math_Numeric$"]
+      }
+    },
+    "Equiv__": {
+      "calledMethods": {
+        "scala_package$": ["Equiv__Lscala_math_Equiv$"]
+      }
+    },
+    "BigInt__": {
+      "calledMethods": {
+        "scala_package$": ["BigInt__Lscala_math_BigInt$"]
+      }
+    },
+    "BigDecimal__": {
+      "calledMethods": {
+        "scala_package$": ["BigDecimal__Lscala_math_BigDecimal$"]
+      }
+    },
+    "Range__": {
+      "calledMethods": {
+        "scala_package$": ["Range__Lscala_collection_immutable_Range$"]
+      }
+    },
+    "StringBuilder__": {
+      "calledMethods": {
+        "scala_package$": ["StringBuilder__Lscala_collection_mutable_StringBuilder$"]
+      }
+    },
+    "Vector__": {
+      "calledMethods": {
+        "scala_package$": ["Vector__Lscala_collection_immutable_Vector$"]
+      }
+    },
+    "$$hash$colon$colon__": {
+      "calledMethods": {
+        "scala_package$": ["$$hash$colon$colon__Lscala_collection_immutable_Stream$$hash$colon$colon$"]
+      }
+    },
+    "Stream__": {
+      "calledMethods": {
+        "scala_package$": ["Stream__Lscala_collection_immutable_Stream$"]
+      }
+    },
+    "$$colon$plus__": {
+      "calledMethods": {
+        "scala_package$": ["$$colon$plus__Lscala_collection_$colon$plus$"]
+      }
+    },
+    "$$plus$colon__": {
+      "calledMethods": {
+        "scala_package$": ["$$plus$colon__Lscala_collection_$plus$colon$"]
+      }
+    },
+    "$$colon$colon__": {
+      "calledMethods": {
+        "scala_package$": ["$$colon$colon__Lscala_collection_immutable_$colon$colon$"]
+      }
+    },
+    "Nil__": {
+      "calledMethods": {
+        "scala_package$": ["Nil__Lscala_collection_immutable_Nil$"]
+      }
+    },
+    "List__": {
+      "calledMethods": {
+        "scala_package$": ["List__Lscala_collection_immutable_List$"]
+      }
+    },
+    "Iterator__": {
+      "calledMethods": {
+        "scala_package$": ["Iterator__Lscala_collection_Iterator$"]
+      }
+    },
+    "IndexedSeq__": {
+      "calledMethods": {
+        "scala_package$": ["IndexedSeq__Lscala_collection_IndexedSeq$"]
+      }
+    },
+    "Seq__": {
+      "calledMethods": {
+        "scala_package$": ["Seq__Lscala_collection_Seq$"]
+      }
+    },
+    "Iterable__": {
+      "calledMethods": {
+        "scala_package$": ["Iterable__Lscala_collection_Iterable$"]
+      }
+    },
+    "Traversable__": {
+      "calledMethods": {
+        "scala_package$": ["Traversable__Lscala_collection_Traversable$"]
+      }
+    },
+    "AnyRef__": {
+      "calledMethods": {
+        "scala_package$": ["AnyRef__Lscala_Specializable"]
+      }
+    }
+  }
+}

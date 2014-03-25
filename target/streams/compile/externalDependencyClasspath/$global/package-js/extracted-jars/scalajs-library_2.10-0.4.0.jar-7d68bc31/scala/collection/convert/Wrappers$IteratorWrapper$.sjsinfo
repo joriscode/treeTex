@@ -1,0 +1,54 @@
+{
+  "name": "scala.collection.convert.Wrappers$IteratorWrapper$",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$IteratorWrapper$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Wrappers$IteratorWrapper$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_collection_Iterator__Lscala_collection_convert_Wrappers$IteratorWrapper": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$IteratorWrapper": ["init___Lscala_collection_convert_Wrappers__Lscala_collection_Iterator"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$IteratorWrapper"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$IteratorWrapper__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_collection_convert_Wrappers$IteratorWrapper": ["underlying__Lscala_collection_Iterator"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers": ["IteratorWrapper__Lscala_collection_convert_Wrappers$IteratorWrapper$"]
+      }
+    },
+    "init___Lscala_collection_convert_Wrappers": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$IteratorWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$IteratorWrapper$": ["unapply__Lscala_collection_convert_Wrappers$IteratorWrapper__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_collection_Iterator__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$IteratorWrapper$": ["apply__Lscala_collection_Iterator__Lscala_collection_convert_Wrappers$IteratorWrapper"]
+      }
+    }
+  }
+}

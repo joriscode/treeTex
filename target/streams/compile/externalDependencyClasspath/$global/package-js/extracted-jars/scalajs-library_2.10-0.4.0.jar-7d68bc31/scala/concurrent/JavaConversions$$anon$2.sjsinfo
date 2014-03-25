@@ -1,0 +1,68 @@
+{
+  "name": "scala.concurrent.JavaConversions$$anon$2",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_JavaConversions$$anon$2",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_JavaConversions$$anon$2", "scala_concurrent_TaskRunner", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "functionAsTask__Lscala_Function0__Ljava_lang_Runnable": {
+      "calledMethods": {
+        "scala_concurrent_JavaConversions$$anon$2$$anon$3": ["init___Lscala_concurrent_JavaConversions$$anon$2__Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_concurrent_JavaConversions$$anon$2$$anon$3"]
+    },
+    "execute__Ljava_lang_Runnable__V": {
+      "calledMethods": {
+        "java_util_concurrent_Executor": ["execute__Ljava_lang_Runnable__V"]
+      }
+    },
+    "managedBlock__p1__Lscala_concurrent_ManagedBlocker__V": {
+      "calledMethods": {
+        "scala_concurrent_ManagedBlocker": ["block__Z"]
+      }
+    },
+    "shutdown__V": {},
+    "execute__O__V": {
+      "calledMethods": {
+        "scala_concurrent_JavaConversions$$anon$2": ["execute__Ljava_lang_Runnable__V"]
+      },
+      "accessedClassData": ["java_lang_Runnable"]
+    },
+    "functionAsTask__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_concurrent_JavaConversions$$anon$2": ["functionAsTask__Lscala_Function0__Ljava_lang_Runnable"]
+      }
+    },
+    "init___Ljava_util_concurrent_Executor": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "shutdown__": {
+      "calledMethods": {
+        "scala_concurrent_JavaConversions$$anon$2": ["shutdown__V"]
+      }
+    },
+    "execute__Ljava_lang_Runnable__": {
+      "calledMethods": {
+        "scala_concurrent_JavaConversions$$anon$2": ["execute__Ljava_lang_Runnable__V"]
+      }
+    },
+    "functionAsTask__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_concurrent_JavaConversions$$anon$2": ["functionAsTask__Lscala_Function0__Ljava_lang_Runnable"]
+      }
+    },
+    "execute__O__": {
+      "calledMethods": {
+        "scala_concurrent_TaskRunner": ["execute__O__V"]
+      }
+    }
+  }
+}

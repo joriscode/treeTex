@@ -1,0 +1,33 @@
+{
+  "name": "scala.xml.TextBuffer$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_TextBuffer$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_TextBuffer$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "fromString__T__Lscala_xml_TextBuffer": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_xml_TextBuffer": ["init___", "append__Lscala_collection_Seq__Lscala_xml_TextBuffer"]
+      },
+      "instantiatedClasses": ["scala_xml_TextBuffer"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "fromString__T__": {
+      "calledMethods": {
+        "scala_xml_TextBuffer$": ["fromString__T__Lscala_xml_TextBuffer"]
+      }
+    }
+  }
+}

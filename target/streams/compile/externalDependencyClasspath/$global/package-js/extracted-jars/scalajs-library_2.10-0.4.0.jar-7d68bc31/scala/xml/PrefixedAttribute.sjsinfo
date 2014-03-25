@@ -1,0 +1,129 @@
+{
+  "name": "scala.xml.PrefixedAttribute",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_PrefixedAttribute",
+  "superClass": "scala_xml_MetaData",
+  "ancestors": ["scala_xml_PrefixedAttribute", "scala_xml_Attribute", "scala_xml_MetaData", "scala_Serializable", "java_io_Serializable", "scala_xml_Equality", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "remove__T__Lscala_xml_MetaData": {
+      "calledMethods": {
+        "scala_xml_Attribute$class": ["scala_xml_Attribute$class__remove__Lscala_xml_Attribute__T__Lscala_xml_MetaData"]
+      }
+    },
+    "remove__T__Lscala_xml_NamespaceBinding__T__Lscala_xml_MetaData": {
+      "calledMethods": {
+        "scala_xml_Attribute$class": ["scala_xml_Attribute$class__remove__Lscala_xml_Attribute__T__Lscala_xml_NamespaceBinding__T__Lscala_xml_MetaData"]
+      }
+    },
+    "isPrefixed__Z": {
+      "calledMethods": {
+        "scala_xml_Attribute$class": ["scala_xml_Attribute$class__isPrefixed__Lscala_xml_Attribute__Z"]
+      }
+    },
+    "wellformed__Lscala_xml_NamespaceBinding__Z": {
+      "calledMethods": {
+        "scala_xml_Attribute$class": ["scala_xml_Attribute$class__wellformed__Lscala_xml_Attribute__Lscala_xml_NamespaceBinding__Z"]
+      }
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_xml_Attribute$class": ["scala_xml_Attribute$class__iterator__Lscala_xml_Attribute__Lscala_collection_Iterator"]
+      }
+    },
+    "size__I": {
+      "calledMethods": {
+        "scala_xml_Attribute$class": ["scala_xml_Attribute$class__size__Lscala_xml_Attribute__I"]
+      }
+    },
+    "toString1__Lscala_collection_mutable_StringBuilder__V": {
+      "calledMethods": {
+        "scala_xml_Attribute$class": ["scala_xml_Attribute$class__toString1__Lscala_xml_Attribute__Lscala_collection_mutable_StringBuilder__V"]
+      }
+    },
+    "pre__T": {},
+    "key__T": {},
+    "value__Lscala_collection_Seq": {},
+    "next1__Lscala_xml_MetaData": {},
+    "next__Lscala_xml_MetaData": {},
+    "copy__Lscala_xml_MetaData__Lscala_xml_PrefixedAttribute": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["key__T", "init___T__T__Lscala_collection_Seq__Lscala_xml_MetaData", "value__Lscala_collection_Seq", "pre__T"]
+      },
+      "instantiatedClasses": ["scala_xml_PrefixedAttribute"]
+    },
+    "getNamespace__Lscala_xml_Node__T": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["pre__T"],
+        "scala_xml_Node": ["getNamespace__T__T"]
+      }
+    },
+    "apply__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["next__Lscala_xml_MetaData"],
+        "scala_xml_MetaData": ["apply__T__Lscala_collection_Seq"]
+      }
+    },
+    "apply__T__Lscala_xml_NamespaceBinding__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["key__T", "value__Lscala_collection_Seq", "pre__T", "next__Lscala_xml_MetaData"],
+        "scala_xml_NamespaceBinding": ["getURI__T__T"],
+        "scala_xml_MetaData": ["apply__T__Lscala_xml_NamespaceBinding__T__Lscala_collection_Seq"]
+      }
+    },
+    "copy__Lscala_xml_MetaData__Lscala_xml_MetaData": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["copy__Lscala_xml_MetaData__Lscala_xml_PrefixedAttribute"]
+      }
+    },
+    "copy__Lscala_xml_MetaData__Lscala_xml_Attribute": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["copy__Lscala_xml_MetaData__Lscala_xml_PrefixedAttribute"]
+      }
+    },
+    "init___T__T__Lscala_collection_Seq__Lscala_xml_MetaData": {
+      "calledMethods": {
+        "scala_xml_Attribute$class": ["scala_xml_Attribute$class__$init$__Lscala_xml_Attribute__V"],
+        "scala_xml_MetaData": ["remove__T__Lscala_xml_MetaData"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_MetaData": ["init___"]
+      }
+    },
+    "init___T__T__T__Lscala_xml_MetaData": {
+      "calledMethods": {
+        "scala_xml_Text$": ["apply__T__Lscala_xml_Text"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_PrefixedAttribute": ["init___T__T__Lscala_collection_Seq__Lscala_xml_MetaData"]
+      },
+      "accessedModules": ["scala_xml_Text"]
+    },
+    "init___T__T__Lscala_Option__Lscala_xml_MetaData": {
+      "calledMethods": {
+        "scala_Predef$": ["conforms__Lscala_Predef$$less$colon$less"],
+        "scala_Option": ["orNull__Lscala_Predef$$less$colon$less__O"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_PrefixedAttribute": ["init___T__T__Lscala_collection_Seq__Lscala_xml_MetaData"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_collection_Seq"]
+    },
+    "next1__": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["next1__Lscala_xml_MetaData"]
+      }
+    },
+    "pre__": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["pre__T"]
+      }
+    }
+  }
+}

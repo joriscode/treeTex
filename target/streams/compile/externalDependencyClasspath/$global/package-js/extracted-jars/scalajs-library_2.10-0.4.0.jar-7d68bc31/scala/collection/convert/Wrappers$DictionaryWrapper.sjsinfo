@@ -1,0 +1,176 @@
+{
+  "name": "scala.collection.convert.Wrappers$DictionaryWrapper",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$DictionaryWrapper",
+  "superClass": "java_util_Dictionary",
+  "ancestors": ["scala_collection_convert_Wrappers$DictionaryWrapper", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "java_util_Dictionary", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "underlying__Lscala_collection_mutable_Map": {},
+    "size__I": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["size__I"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"]
+      }
+    },
+    "isEmpty__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["isEmpty__Z"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"]
+      }
+    },
+    "keys__Ljava_util_Enumeration": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["keysIterator__Lscala_collection_Iterator"],
+        "scala_collection_convert_WrapAsJava$": ["asJavaEnumeration__Lscala_collection_Iterator__Ljava_util_Enumeration"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"]
+      },
+      "accessedModules": ["scala_collection_convert_WrapAsJava"]
+    },
+    "elements__Ljava_util_Enumeration": {
+      "calledMethods": {
+        "scala_collection_convert_WrapAsJava$": ["asJavaEnumeration__Lscala_collection_Iterator__Ljava_util_Enumeration"],
+        "scala_collection_mutable_Map": ["valuesIterator__Lscala_collection_Iterator"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"]
+      },
+      "accessedModules": ["scala_collection_convert_WrapAsJava"]
+    },
+    "get__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["get__O__Lscala_Option"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"],
+        "scala_Some": ["x__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["java_lang_ClassCastException", "scala_Some"]
+    },
+    "put__O__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["put__O__O__Lscala_Option"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"],
+        "scala_Some": ["x__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Some"]
+    },
+    "remove__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["remove__O__Lscala_Option"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"],
+        "scala_Some": ["x__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["java_lang_ClassCastException", "scala_Some"]
+    },
+    "copy__Lscala_collection_mutable_Map__Lscala_collection_convert_Wrappers$DictionaryWrapper": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["scala$collection$convert$Wrappers$DictionaryWrapper$$$outer__Lscala_collection_convert_Wrappers", "init___Lscala_collection_convert_Wrappers__Lscala_collection_mutable_Map"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$DictionaryWrapper"]
+    },
+    "copy$default$1__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_collection_convert_Wrappers$DictionaryWrapper"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map", "scala$collection$convert$Wrappers$DictionaryWrapper$$$outer__Lscala_collection_convert_Wrappers", "canEqual__O__Z"]
+      },
+      "accessedClassData": ["scala_collection_convert_Wrappers$DictionaryWrapper"]
+    },
+    "scala$collection$convert$Wrappers$DictionaryWrapper$$$outer__Lscala_collection_convert_Wrappers": {},
+    "init___Lscala_collection_convert_Wrappers__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_util_Dictionary": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$convert$Wrappers$DictionaryWrapper$$$outer__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["scala$collection$convert$Wrappers$DictionaryWrapper$$$outer__Lscala_collection_convert_Wrappers"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["productPrefix__T"]
+      }
+    },
+    "copy__Lscala_collection_mutable_Map__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["copy__Lscala_collection_mutable_Map__Lscala_collection_convert_Wrappers$DictionaryWrapper"]
+      }
+    },
+    "underlying__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$DictionaryWrapper": ["underlying__Lscala_collection_mutable_Map"]
+      }
+    }
+  }
+}

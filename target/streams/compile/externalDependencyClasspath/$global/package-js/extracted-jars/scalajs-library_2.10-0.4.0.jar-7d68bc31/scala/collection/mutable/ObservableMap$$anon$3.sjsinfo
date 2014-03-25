@@ -1,0 +1,35 @@
+{
+  "name": "scala.collection.mutable.ObservableMap$$anon$3",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ObservableMap$$anon$3",
+  "superClass": "scala_collection_script_Remove",
+  "ancestors": ["scala_collection_mutable_ObservableMap$$anon$3", "scala_collection_mutable_Undoable", "scala_collection_script_Remove", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_collection_script_Message", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "undo__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ObservableMap": ["update__O__O__V"]
+      }
+    },
+    "init___Lscala_collection_mutable_ObservableMap__O__O": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_script_Remove": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "java_lang_NullPointerException"]
+    },
+    "undo__": {
+      "calledMethods": {
+        "scala_collection_mutable_ObservableMap$$anon$3": ["undo__V"]
+      }
+    }
+  }
+}

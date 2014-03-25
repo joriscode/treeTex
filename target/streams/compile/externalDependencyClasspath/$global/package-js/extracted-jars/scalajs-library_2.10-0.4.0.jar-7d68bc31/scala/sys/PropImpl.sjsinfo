@@ -1,0 +1,150 @@
+{
+  "name": "scala.sys.PropImpl",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_PropImpl",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_PropImpl", "scala_sys_Prop", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "key__T": {},
+    "value__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_sys_PropImpl": ["zero__O", "isSet__Z", "get__T"]
+      }
+    },
+    "isSet__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["contains__O__Z"],
+        "scala_sys_PropImpl": ["underlying__Lscala_collection_mutable_Map", "key__T"]
+      }
+    },
+    "set__T__T": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["update__O__O__V"],
+        "scala_sys_PropImpl": ["isSet__Z", "underlying__Lscala_collection_mutable_Map", "get__T", "key__T"]
+      }
+    },
+    "setValue__O__O": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["value__O", "set__T__T"]
+      }
+    },
+    "get__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_mutable_Map": ["getOrElse__O__Lscala_Function0__O"],
+        "scala_sys_PropImpl": ["isSet__Z", "underlying__Lscala_collection_mutable_Map", "key__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "clear__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["$$minus$eq__O__Lscala_collection_mutable_MapLike"],
+        "scala_sys_PropImpl": ["underlying__Lscala_collection_mutable_Map", "key__T"]
+      }
+    },
+    "option__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_sys_PropImpl": ["isSet__Z", "value__O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "or__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["isSet__Z", "value__O"],
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "underlying__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_sys_package$": ["props__Lscala_sys_SystemProperties"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "zero__O": {},
+    "getString__p1__T": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["isSet__Z", "get__T"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["format__Lscala_collection_Seq__T", "init___T"],
+        "scala_sys_PropImpl": ["getString__p1__T", "key__T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "init___T__Lscala_Function1": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["zero__O"]
+      }
+    },
+    "underlying__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["underlying__Lscala_collection_mutable_Map"]
+      }
+    },
+    "or__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["or__Lscala_Function0__O"]
+      }
+    },
+    "option__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["option__Lscala_Option"]
+      }
+    },
+    "clear__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["clear__V"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["get__T"]
+      }
+    },
+    "setValue__O__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["setValue__O__O"]
+      }
+    },
+    "set__T__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["set__T__T"]
+      }
+    },
+    "isSet__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["isSet__Z"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["value__O"]
+      }
+    },
+    "key__": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["key__T"]
+      }
+    }
+  }
+}

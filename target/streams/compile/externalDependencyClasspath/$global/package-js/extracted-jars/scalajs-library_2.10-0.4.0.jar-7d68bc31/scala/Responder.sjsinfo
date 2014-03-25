@@ -1,0 +1,72 @@
+{
+  "name": "scala.Responder",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Responder",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Responder", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "respond__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Responder": ["respond__Lscala_Function1__V"]
+      }
+    },
+    "map__Lscala_Function1__Lscala_Responder": {
+      "calledMethods": {
+        "scala_Responder$$anon$3": ["init___Lscala_Responder__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_Responder$$anon$3"]
+    },
+    "flatMap__Lscala_Function1__Lscala_Responder": {
+      "calledMethods": {
+        "scala_Responder$$anon$2": ["init___Lscala_Responder__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_Responder$$anon$2"]
+    },
+    "filter__Lscala_Function1__Lscala_Responder": {
+      "calledMethods": {
+        "scala_Responder$$anon$4": ["init___Lscala_Responder__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_Responder$$anon$4"]
+    },
+    "toString__T": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "filter__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Responder": ["filter__Lscala_Function1__Lscala_Responder"]
+      }
+    },
+    "flatMap__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Responder": ["flatMap__Lscala_Function1__Lscala_Responder"]
+      }
+    },
+    "map__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Responder": ["map__Lscala_Function1__Lscala_Responder"]
+      }
+    },
+    "foreach__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Responder": ["foreach__Lscala_Function1__V"]
+      }
+    },
+    "respond__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Responder": ["respond__Lscala_Function1__V"]
+      }
+    }
+  }
+}

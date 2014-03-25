@@ -1,0 +1,37 @@
+{
+  "name": "scala.runtime.ScalaRunTime$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_ScalaRunTime$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_runtime_ScalaRunTime$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "c__p2__I": {},
+    "c$und$eq__p2__I__V": {},
+    "cmax__p2__I": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$$anon$1": ["cmax__p2__I", "c__p2__I"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_Product": ["productElement__I__O"],
+        "scala_runtime_ScalaRunTime$$anon$1": ["c$und$eq__p2__I__V", "c__p2__I"]
+      }
+    },
+    "init___Lscala_Product": {
+      "calledMethods": {
+        "scala_Product": ["productArity__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

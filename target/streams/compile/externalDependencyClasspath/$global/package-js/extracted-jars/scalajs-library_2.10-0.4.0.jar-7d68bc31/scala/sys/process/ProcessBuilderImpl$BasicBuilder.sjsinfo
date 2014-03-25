@@ -1,0 +1,53 @@
+{
+  "name": "scala.sys.process.ProcessBuilderImpl$BasicBuilder",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessBuilderImpl$BasicBuilder",
+  "superClass": "scala_sys_process_ProcessBuilderImpl$AbstractBuilder",
+  "ancestors": ["scala_sys_process_ProcessBuilderImpl$BasicBuilder", "scala_sys_process_ProcessBuilderImpl$AbstractBuilder", "scala_sys_process_ProcessBuilder", "scala_sys_process_ProcessBuilder$Sink", "scala_sys_process_ProcessBuilder$Source", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "checkNotThis__Lscala_sys_process_ProcessBuilder__V": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Predef$": ["require__Z__Lscala_Function0__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$BasicBuilder": ["createProcess__Lscala_sys_process_ProcessIO__Lscala_sys_process_ProcessImpl$BasicProcess"],
+        "scala_sys_process_ProcessImpl$BasicProcess": ["start__V"]
+      }
+    },
+    "createProcess__Lscala_sys_process_ProcessIO__Lscala_sys_process_ProcessImpl$BasicProcess": {
+      "isAbstract": true
+    },
+    "scala$sys$process$ProcessBuilderImpl$BasicBuilder$$$outer__Lscala_sys_process_ProcessBuilder$": {},
+    "init___Lscala_sys_process_ProcessBuilder$": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["init___Lscala_sys_process_ProcessBuilder$"]
+      }
+    },
+    "scala$sys$process$ProcessBuilderImpl$BasicBuilder$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$BasicBuilder": ["scala$sys$process$ProcessBuilderImpl$BasicBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"]
+      }
+    },
+    "checkNotThis__Lscala_sys_process_ProcessBuilder__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$BasicBuilder": ["checkNotThis__Lscala_sys_process_ProcessBuilder__V"]
+      }
+    },
+    "createProcess__Lscala_sys_process_ProcessIO__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$BasicBuilder": ["createProcess__Lscala_sys_process_ProcessIO__Lscala_sys_process_ProcessImpl$BasicProcess"]
+      }
+    }
+  }
+}

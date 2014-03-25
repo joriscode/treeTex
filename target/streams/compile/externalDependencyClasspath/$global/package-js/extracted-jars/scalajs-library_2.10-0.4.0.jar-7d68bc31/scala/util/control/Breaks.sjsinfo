@@ -1,0 +1,63 @@
+{
+  "name": "scala.util.control.Breaks",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_Breaks",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_control_Breaks", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$util$control$Breaks$$breakException__Lscala_util_control_BreakControl": {},
+    "breakable__Lscala_Function0__V": {
+      "calledMethods": {
+        "scala_Function0": ["apply$mcV$sp__V"],
+        "scala_util_control_Breaks": ["scala$util$control$Breaks$$breakException__Lscala_util_control_BreakControl"]
+      },
+      "accessedClassData": ["scala_util_control_BreakControl"]
+    },
+    "tryBreakable__Lscala_Function0__Lscala_util_control_Breaks$TryBlock": {
+      "calledMethods": {
+        "scala_util_control_Breaks$$anon$1": ["init___Lscala_util_control_Breaks__Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_util_control_Breaks$$anon$1"]
+    },
+    "$break__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_util_control_Breaks": ["scala$util$control$Breaks$$breakException__Lscala_util_control_BreakControl"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_control_BreakControl": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_control_BreakControl"]
+    },
+    "$break__": {
+      "calledMethods": {
+        "scala_util_control_Breaks": ["$break__Lscala_Nothing"]
+      }
+    },
+    "tryBreakable__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Breaks": ["tryBreakable__Lscala_Function0__Lscala_util_control_Breaks$TryBlock"]
+      }
+    },
+    "breakable__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Breaks": ["breakable__Lscala_Function0__V"]
+      }
+    },
+    "scala$util$control$Breaks$$breakException__": {
+      "calledMethods": {
+        "scala_util_control_Breaks": ["scala$util$control$Breaks$$breakException__Lscala_util_control_BreakControl"]
+      }
+    }
+  }
+}

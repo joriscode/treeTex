@@ -1,0 +1,145 @@
+{
+  "name": "java.util.concurrent.TimeUnit",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_concurrent_TimeUnit",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_concurrent_TimeUnit", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "convert__J__Ljava_util_concurrent_TimeUnit__J": {
+      "isAbstract": true
+    },
+    "toNanos__J__J": {
+      "isAbstract": true
+    },
+    "toMicros__J__J": {
+      "isAbstract": true
+    },
+    "toMillis__J__J": {
+      "isAbstract": true
+    },
+    "toSeconds__J__J": {
+      "isAbstract": true
+    },
+    "toMinutes__J__J": {
+      "isAbstract": true
+    },
+    "toHours__J__J": {
+      "isAbstract": true
+    },
+    "toDays__J__J": {
+      "isAbstract": true
+    },
+    "excessNanos__J__J__I": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "name__T": {},
+    "ordinal__I": {},
+    "timedWait__O__J__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "timedJoin__Ljava_lang_Thread__J__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "sleep__J__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["name__T"]
+      }
+    },
+    "init___I__T": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "sleep__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["sleep__J__V"]
+      }
+    },
+    "timedJoin__Ljava_lang_Thread__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["timedJoin__Ljava_lang_Thread__J__V"]
+      }
+    },
+    "timedWait__O__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["timedWait__O__J__V"]
+      }
+    },
+    "ordinal__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["ordinal__I"]
+      }
+    },
+    "name__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["name__T"]
+      }
+    },
+    "excessNanos__J__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["excessNanos__J__J__I"]
+      }
+    },
+    "toDays__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["toDays__J__J"]
+      }
+    },
+    "toHours__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["toHours__J__J"]
+      }
+    },
+    "toMinutes__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["toMinutes__J__J"]
+      }
+    },
+    "toSeconds__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["toSeconds__J__J"]
+      }
+    },
+    "toMillis__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["toMillis__J__J"]
+      }
+    },
+    "toMicros__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["toMicros__J__J"]
+      }
+    },
+    "toNanos__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["toNanos__J__J"]
+      }
+    },
+    "convert__J__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit": ["convert__J__Ljava_util_concurrent_TimeUnit__J"]
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "name": "scala.collection.immutable.HashMap$HashMap1",
+  "ancestorCount": 6,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_HashMap$HashMap1",
+  "superClass": "scala_collection_immutable_HashMap",
+  "ancestors": ["scala_collection_immutable_HashMap$HashMap1", "scala_collection_immutable_HashMap", "scala_collection_CustomParallelizable", "scala_Serializable", "java_io_Serializable", "scala_collection_immutable_AbstractMap", "scala_collection_immutable_Map", "scala_collection_immutable_MapLike", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractMap", "scala_collection_Map", "scala_collection_MapLike", "scala_collection_generic_Subtractable", "scala_PartialFunction", "scala_Function1", "scala_collection_GenMap", "scala_collection_GenMapLike", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "key__O": {},
+    "hash__I": {},
+    "value__O": {},
+    "kv__Lscala_Tuple2": {},
+    "kv$und$eq__Lscala_Tuple2__V": {},
+    "size__I": {},
+    "getKey__O": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["key__O"]
+      }
+    },
+    "getHash__I": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["hash__I"]
+      }
+    },
+    "computeHashFor__O__I": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["computeHash__O__I"]
+      }
+    },
+    "get0__O__I__I__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["hash__I", "value__O", "key__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "updated0__O__I__I__O__Lscala_Tuple2__Lscala_collection_immutable_HashMap$Merger__Lscala_collection_immutable_HashMap": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$Merger": ["apply__Lscala_Tuple2__Lscala_Tuple2__Lscala_Tuple2"],
+        "scala_collection_immutable_ListMap": ["updated__O__O__Lscala_collection_immutable_ListMap"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"],
+        "scala_collection_immutable_HashMap$": ["scala$collection$immutable$HashMap$$makeHashTrieMap__I__Lscala_collection_immutable_HashMap__I__Lscala_collection_immutable_HashMap__I__I__Lscala_collection_immutable_HashMap$HashTrieMap"],
+        "scala_collection_immutable_HashMap$HashMapCollision1": ["init___I__Lscala_collection_immutable_ListMap"],
+        "scala_collection_immutable_HashMap$HashMap1": ["hash__I", "init___O__I__O__Lscala_Tuple2", "kv__Lscala_Tuple2", "value__O", "key__O"],
+        "scala_collection_immutable_ListMap$": ["empty__Lscala_collection_immutable_ListMap"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_HashMap$HashMapCollision1", "scala_collection_immutable_HashMap$HashMap1"],
+      "accessedModules": ["scala_collection_immutable_ListMap", "scala_collection_immutable_HashMap"]
+    },
+    "removed0__O__I__I__Lscala_collection_immutable_HashMap": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["empty__Lscala_collection_immutable_HashMap"],
+        "scala_collection_immutable_HashMap$HashMap1": ["hash__I", "key__O"]
+      },
+      "accessedModules": ["scala_collection_immutable_HashMap"]
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["apply__Lscala_collection_Seq__Lscala_collection_Iterator"],
+        "scala_collection_immutable_HashMap$HashMap1": ["ensurePair__Lscala_Tuple2"],
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"]
+      },
+      "accessedModules": ["scala_collection_Iterator", "scala_Predef"],
+      "accessedClassData": ["scala_Tuple2", "java_lang_Object"]
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["ensurePair__Lscala_Tuple2"],
+        "scala_Function1": ["apply__O__O"]
+      }
+    },
+    "ensurePair__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["kv__Lscala_Tuple2", "value__O", "kv$und$eq__Lscala_Tuple2__V", "key__O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "merge0__Lscala_collection_immutable_HashMap__I__Lscala_collection_immutable_HashMap$Merger__Lscala_collection_immutable_HashMap": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["hash__I", "kv__Lscala_Tuple2", "value__O", "key__O"],
+        "scala_collection_immutable_HashMap": ["updated0__O__I__I__O__Lscala_Tuple2__Lscala_collection_immutable_HashMap$Merger__Lscala_collection_immutable_HashMap"],
+        "scala_collection_immutable_HashMap$Merger": ["invert__Lscala_collection_immutable_HashMap$Merger"]
+      }
+    },
+    "init___O__I__O__Lscala_Tuple2": {
+      "calledMethodsStatic": {
+        "scala_collection_immutable_HashMap": ["init___"]
+      }
+    },
+    "ensurePair__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["ensurePair__Lscala_Tuple2"]
+      }
+    },
+    "computeHashFor__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["computeHashFor__O__I"]
+      }
+    },
+    "getHash__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["getHash__I"]
+      }
+    },
+    "getKey__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["getKey__O"]
+      }
+    },
+    "kv$und$eq__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["kv$und$eq__Lscala_Tuple2__V"]
+      }
+    },
+    "kv__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["kv__Lscala_Tuple2"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["value__O"]
+      }
+    },
+    "hash__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["hash__I"]
+      }
+    },
+    "key__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$HashMap1": ["key__O"]
+      }
+    }
+  }
+}

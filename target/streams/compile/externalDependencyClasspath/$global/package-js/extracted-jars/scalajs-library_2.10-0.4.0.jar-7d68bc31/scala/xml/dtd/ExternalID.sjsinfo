@@ -1,0 +1,209 @@
+{
+  "name": "scala.xml.dtd.ExternalID",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_ExternalID",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_dtd_ExternalID", "scala_xml_parsing_TokenTests", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isSpace__C__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isSpace__Lscala_xml_parsing_TokenTests__C__Z"]
+      }
+    },
+    "isSpace__Lscala_collection_Seq__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isSpace__Lscala_xml_parsing_TokenTests__Lscala_collection_Seq__Z"]
+      }
+    },
+    "isAlpha__C__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isAlpha__Lscala_xml_parsing_TokenTests__C__Z"]
+      }
+    },
+    "isAlphaDigit__C__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isAlphaDigit__Lscala_xml_parsing_TokenTests__C__Z"]
+      }
+    },
+    "isNameChar__C__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isNameChar__Lscala_xml_parsing_TokenTests__C__Z"]
+      }
+    },
+    "isNameStart__C__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isNameStart__Lscala_xml_parsing_TokenTests__C__Z"]
+      }
+    },
+    "isName__T__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isName__Lscala_xml_parsing_TokenTests__T__Z"]
+      }
+    },
+    "isPubIDChar__C__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isPubIDChar__Lscala_xml_parsing_TokenTests__C__Z"]
+      }
+    },
+    "isValidIANAEncoding__Lscala_collection_Seq__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__isValidIANAEncoding__Lscala_xml_parsing_TokenTests__Lscala_collection_Seq__Z"]
+      }
+    },
+    "checkSysID__T__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__checkSysID__Lscala_xml_parsing_TokenTests__T__Z"]
+      }
+    },
+    "checkPubID__T__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__checkPubID__Lscala_xml_parsing_TokenTests__T__Z"]
+      }
+    },
+    "quoted__T__T": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["contains__O__Z", "init___T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_xml_dtd_ExternalID": ["quotedSystemLiteral$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__T", "publicId__T", "systemId__T", "quotedPublicLiteral$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__T"],
+        "scala_runtime_VolatileByteRef": ["init___B"]
+      },
+      "instantiatedClasses": ["scala_runtime_VolatileByteRef", "scala_runtime_ObjectRef"]
+    },
+    "buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["toString__T"],
+        "scala_collection_mutable_StringBuilder": ["append__T__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "systemId__T": {
+      "isAbstract": true
+    },
+    "publicId__T": {
+      "isAbstract": true
+    },
+    "quotedSystemLiteral$lzycompute$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__T": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_dtd_ExternalID": ["quoted__T__T", "systemId__T"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "quotedSystemLiteral$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__T": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["quotedSystemLiteral$lzycompute$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__T"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "quotedPublicLiteral$lzycompute$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__T": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_dtd_ExternalID": ["publicId__T", "quoted__T__T"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "quotedPublicLiteral$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__T": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["quotedPublicLiteral$lzycompute$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__T"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_xml_parsing_TokenTests$class": ["scala_xml_parsing_TokenTests$class__$init$__Lscala_xml_parsing_TokenTests__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "checkPubID__T__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["checkPubID__T__Z"]
+      }
+    },
+    "checkSysID__T__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["checkSysID__T__Z"]
+      }
+    },
+    "isValidIANAEncoding__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isValidIANAEncoding__Lscala_collection_Seq__Z"]
+      }
+    },
+    "isPubIDChar__C__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isPubIDChar__C__Z"]
+      }
+    },
+    "isName__T__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isName__T__Z"]
+      }
+    },
+    "isNameStart__C__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isNameStart__C__Z"]
+      }
+    },
+    "isNameChar__C__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isNameChar__C__Z"]
+      }
+    },
+    "isAlphaDigit__C__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isAlphaDigit__C__Z"]
+      }
+    },
+    "isAlpha__C__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isAlpha__C__Z"]
+      }
+    },
+    "isSpace__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isSpace__Lscala_collection_Seq__Z"]
+      }
+    },
+    "isSpace__C__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["isSpace__C__Z"]
+      }
+    },
+    "buildString__Lscala_collection_mutable_StringBuilder__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "quoted__T__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["quoted__T__T"]
+      }
+    },
+    "publicId__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["publicId__T"]
+      }
+    },
+    "systemId__": {
+      "calledMethods": {
+        "scala_xml_dtd_ExternalID": ["systemId__T"]
+      }
+    }
+  }
+}

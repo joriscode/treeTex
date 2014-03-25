@@ -1,0 +1,52 @@
+{
+  "name": "scala.xml.Utility$Escapes$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_Utility$Escapes$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_Utility$Escapes$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pairs__Lscala_collection_immutable_Map": {},
+    "escMap__Lscala_collection_immutable_Map": {},
+    "unescMap__Lscala_collection_immutable_Map": {},
+    "init___": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T", "any2ArrowAssoc__O__O", "Map__Lscala_collection_immutable_Map$", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_xml_Utility$Escapes$": ["pairs__Lscala_collection_immutable_Map"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_StringOps": ["init___T", "format__Lscala_collection_Seq__T"],
+        "scala_Tuple2": ["$$und2$mcC$sp__C", "$$und1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Map$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom", "apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_collection_immutable_Map": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_immutable_Map", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_Predef$ArrowAssoc$": ["$$minus$greater$extension__O__O__Lscala_Tuple2"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_collection_immutable_StringOps", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef$ArrowAssoc", "scala_Predef", "scala_collection_immutable_Map"],
+      "accessedClassData": ["scala_Tuple2", "java_lang_Object", "java_lang_String", "scala_collection_immutable_Map"]
+    },
+    "unescMap__": {
+      "calledMethods": {
+        "scala_xml_Utility$Escapes$": ["unescMap__Lscala_collection_immutable_Map"]
+      }
+    },
+    "escMap__": {
+      "calledMethods": {
+        "scala_xml_Utility$Escapes$": ["escMap__Lscala_collection_immutable_Map"]
+      }
+    },
+    "pairs__": {
+      "calledMethods": {
+        "scala_xml_Utility$Escapes$": ["pairs__Lscala_collection_immutable_Map"]
+      }
+    }
+  }
+}

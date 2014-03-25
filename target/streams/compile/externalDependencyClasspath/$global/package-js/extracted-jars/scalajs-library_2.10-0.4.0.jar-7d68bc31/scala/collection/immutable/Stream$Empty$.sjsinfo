@@ -1,0 +1,52 @@
+{
+  "name": "scala.collection.immutable.Stream$Empty$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Stream$Empty$",
+  "superClass": "scala_collection_immutable_Stream",
+  "ancestors": ["scala_collection_immutable_Stream$Empty$", "scala_Serializable", "java_io_Serializable", "scala_collection_immutable_Stream", "scala_collection_LinearSeqOptimized", "scala_collection_immutable_LinearSeq", "scala_collection_LinearSeq", "scala_collection_LinearSeqLike", "scala_collection_immutable_Seq", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSeq", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_PartialFunction", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isEmpty__Z": {},
+    "head__Lscala_Nothing": {
+      "calledMethods": {
+        "java_util_NoSuchElementException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"]
+    },
+    "tail__Lscala_Nothing": {
+      "calledMethods": {
+        "java_lang_UnsupportedOperationException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException"]
+    },
+    "tailDefined__Z": {},
+    "readResolve__p5__O": {
+      "accessedModules": ["scala_collection_immutable_Stream$Empty"]
+    },
+    "tail__Lscala_collection_LinearSeqOptimized": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$Empty$": ["tail__Lscala_Nothing"]
+      }
+    },
+    "tail__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$Empty$": ["tail__Lscala_Nothing"]
+      }
+    },
+    "head__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$Empty$": ["head__Lscala_Nothing"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream": ["init___"]
+      }
+    }
+  }
+}

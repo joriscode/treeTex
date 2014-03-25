@@ -1,0 +1,44 @@
+{
+  "name": "scala.collection.immutable.Map$",
+  "ancestorCount": 4,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Map$",
+  "superClass": "scala_collection_generic_ImmutableMapFactory",
+  "ancestors": ["scala_collection_immutable_Map$", "scala_collection_generic_ImmutableMapFactory", "scala_collection_generic_MapFactory", "scala_collection_generic_GenMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["init___Lscala_collection_generic_GenMapFactory"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_GenMapFactory$MapCanBuildFrom"]
+    },
+    "empty__Lscala_collection_immutable_Map": {
+      "accessedModules": ["scala_collection_immutable_Map$EmptyMap"]
+    },
+    "empty__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$": ["empty__Lscala_collection_immutable_Map"]
+      }
+    },
+    "empty__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$": ["empty__Lscala_collection_immutable_Map"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_ImmutableMapFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

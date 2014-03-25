@@ -1,0 +1,41 @@
+{
+  "name": "scala.util.control.NonFatal$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_NonFatal$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_control_NonFatal$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Ljava_lang_Throwable__Z": {
+      "accessedClassData": ["java_lang_VirtualMachineError", "scala_NotImplementedError", "java_lang_InterruptedException", "java_lang_LinkageError", "java_lang_StackOverflowError", "java_lang_ThreadDeath", "scala_util_control_ControlThrowable"]
+    },
+    "unapply__Ljava_lang_Throwable__Lscala_Option": {
+      "calledMethods": {
+        "scala_util_control_NonFatal$": ["apply__Ljava_lang_Throwable__Z"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"]
+      }
+    },
+    "apply__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_util_control_NonFatal$": ["apply__Ljava_lang_Throwable__Z"]
+      }
+    }
+  }
+}

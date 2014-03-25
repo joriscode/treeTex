@@ -1,0 +1,78 @@
+{
+  "name": "java.lang.Byte$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Byte$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Byte$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "TYPE__Ljava_lang_Class": {},
+    "MIN$undVALUE__B": {},
+    "MAX$undVALUE__B": {},
+    "SIZE__I": {},
+    "valueOf__B__Ljava_lang_Byte": {
+      "calledMethods": {
+        "java_lang_Byte": ["init___B"]
+      },
+      "instantiatedClasses": ["java_lang_Byte"]
+    },
+    "parseByte__T__B": {
+      "calledMethods": {
+        "java_lang_Integer$": ["parseInt__T__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "toString__B__T": {
+      "calledMethods": {
+        "java_lang_Integer": ["toString__T"],
+        "java_lang_Integer$": ["valueOf__I__Ljava_lang_Integer"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "toString__B__": {
+      "calledMethods": {
+        "java_lang_Byte$": ["toString__B__T"]
+      }
+    },
+    "parseByte__T__": {
+      "calledMethods": {
+        "java_lang_Byte$": ["parseByte__T__B"]
+      }
+    },
+    "valueOf__B__": {
+      "calledMethods": {
+        "java_lang_Byte$": ["valueOf__B__Ljava_lang_Byte"]
+      }
+    },
+    "SIZE__": {
+      "calledMethods": {
+        "java_lang_Byte$": ["SIZE__I"]
+      }
+    },
+    "MAX$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Byte$": ["MAX$undVALUE__B"]
+      }
+    },
+    "MIN$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Byte$": ["MIN$undVALUE__B"]
+      }
+    },
+    "TYPE__": {
+      "calledMethods": {
+        "java_lang_Byte$": ["TYPE__Ljava_lang_Class"]
+      }
+    }
+  }
+}

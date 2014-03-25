@@ -1,0 +1,187 @@
+{
+  "name": "scala.math.Ordering$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_Ordering$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_math_Ordering$", "scala_Serializable", "java_io_Serializable", "scala_math_LowPriorityOrderingImplicits", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ordered__Lscala_Function1__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_LowPriorityOrderingImplicits$class": ["scala_math_LowPriorityOrderingImplicits$class__ordered__Lscala_math_LowPriorityOrderingImplicits__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "comparatorToOrdering__Ljava_util_Comparator__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_LowPriorityOrderingImplicits$class": ["scala_math_LowPriorityOrderingImplicits$class__comparatorToOrdering__Lscala_math_LowPriorityOrderingImplicits__Ljava_util_Comparator__Lscala_math_Ordering"]
+      }
+    },
+    "apply__Lscala_math_Ordering__Lscala_math_Ordering": {},
+    "fromLessThan__Lscala_Function2__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$9": ["init___Lscala_Function2"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$9"]
+    },
+    "by__Lscala_Function1__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_math_Ordering": ["lt__O__O__Z"],
+        "scala_math_Ordering$": ["fromLessThan__Lscala_Function2__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"]
+    },
+    "Option__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$3": ["init___Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$3"]
+    },
+    "Iterable__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$10": ["init___Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$10"]
+    },
+    "Tuple2__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$11": ["init___Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$11"]
+    },
+    "Tuple3__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$12": ["init___Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$12"]
+    },
+    "Tuple4__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$13": ["init___Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$13"]
+    },
+    "Tuple5__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$14": ["init___Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$14"]
+    },
+    "Tuple6__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$15": ["init___Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$15"]
+    },
+    "Tuple7__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$16": ["init___Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$16"]
+    },
+    "Tuple8__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$17": ["init___Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$17"]
+    },
+    "Tuple9__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$18": ["init___Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$18"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_math_Ordering"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_math_LowPriorityOrderingImplicits$class": ["scala_math_LowPriorityOrderingImplicits$class__$init$__Lscala_math_LowPriorityOrderingImplicits__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "comparatorToOrdering__Ljava_util_Comparator__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["comparatorToOrdering__Ljava_util_Comparator__Lscala_math_Ordering"]
+      }
+    },
+    "ordered__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["ordered__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "Tuple9__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Tuple9__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Tuple8__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Tuple8__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Tuple7__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Tuple7__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Tuple6__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Tuple6__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Tuple5__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Tuple5__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Tuple4__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Tuple4__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Tuple3__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Tuple3__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Tuple2__Lscala_math_Ordering__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Tuple2__Lscala_math_Ordering__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Iterable__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Iterable__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "Option__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["Option__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "by__Lscala_Function1__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["by__Lscala_Function1__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "fromLessThan__Lscala_Function2__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["fromLessThan__Lscala_Function2__Lscala_math_Ordering"]
+      }
+    },
+    "apply__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_math_Ordering$": ["apply__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    }
+  }
+}

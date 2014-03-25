@@ -1,0 +1,46 @@
+{
+  "name": "scala.collection.Traversable$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Traversable$",
+  "superClass": "scala_collection_generic_GenTraversableFactory",
+  "ancestors": ["scala_collection_Traversable$", "scala_collection_generic_TraversableFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "breaks__Lscala_util_control_Breaks": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_Traversable$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_Traversable$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_immutable_Traversable"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_control_Breaks": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_generic_GenTraversableFactory": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_control_Breaks"]
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_Traversable$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "breaks__": {
+      "calledMethods": {
+        "scala_collection_Traversable$": ["breaks__Lscala_util_control_Breaks"]
+      }
+    }
+  }
+}

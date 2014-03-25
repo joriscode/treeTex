@@ -1,0 +1,55 @@
+{
+  "name": "scala.util.Either$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Either$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Either$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "MergeableEither__Lscala_util_Either__Lscala_util_Either$MergeableEither": {
+      "calledMethods": {
+        "scala_util_Either$MergeableEither": ["init___Lscala_util_Either"]
+      },
+      "instantiatedClasses": ["scala_util_Either$MergeableEither"]
+    },
+    "either2mergeable__Lscala_util_Either__Lscala_util_Either$MergeableEither": {
+      "calledMethods": {
+        "scala_util_Either$MergeableEither": ["init___Lscala_util_Either"]
+      },
+      "instantiatedClasses": ["scala_util_Either$MergeableEither"]
+    },
+    "cond__Z__Lscala_Function0__Lscala_Function0__Lscala_util_Either": {
+      "calledMethods": {
+        "scala_util_Right": ["init___O"],
+        "scala_Function0": ["apply__O"],
+        "scala_util_Left": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_util_Left", "scala_util_Right"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "cond__Z__Lscala_Function0__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_Either$": ["cond__Z__Lscala_Function0__Lscala_Function0__Lscala_util_Either"]
+      }
+    },
+    "either2mergeable__Lscala_util_Either__": {
+      "calledMethods": {
+        "scala_util_Either$": ["either2mergeable__Lscala_util_Either__Lscala_util_Either$MergeableEither"]
+      }
+    },
+    "MergeableEither__Lscala_util_Either__": {
+      "calledMethods": {
+        "scala_util_Either$": ["MergeableEither__Lscala_util_Either__Lscala_util_Either$MergeableEither"]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "scala.xml.dtd.NotationDecl$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_NotationDecl$",
+  "superClass": "scala_runtime_AbstractFunction2",
+  "ancestors": ["scala_xml_dtd_NotationDecl$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction2", "scala_Function2", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__Lscala_xml_dtd_ExternalID__Lscala_xml_dtd_NotationDecl": {
+      "calledMethods": {
+        "scala_xml_dtd_NotationDecl": ["init___T__Lscala_xml_dtd_ExternalID"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_NotationDecl"]
+    },
+    "unapply__Lscala_xml_dtd_NotationDecl__Lscala_Option": {
+      "calledMethods": {
+        "scala_xml_dtd_NotationDecl": ["extID__Lscala_xml_dtd_ExternalID", "name__T"],
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_xml_dtd_NotationDecl"]
+    },
+    "apply__O__O__O": {
+      "calledMethods": {
+        "scala_xml_dtd_NotationDecl$": ["apply__T__Lscala_xml_dtd_ExternalID__Lscala_xml_dtd_NotationDecl"]
+      },
+      "accessedClassData": ["scala_xml_dtd_ExternalID", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction2": ["init___"]
+      }
+    },
+    "unapply__Lscala_xml_dtd_NotationDecl__": {
+      "calledMethods": {
+        "scala_xml_dtd_NotationDecl$": ["unapply__Lscala_xml_dtd_NotationDecl__Lscala_Option"]
+      }
+    },
+    "apply__T__Lscala_xml_dtd_ExternalID__": {
+      "calledMethods": {
+        "scala_xml_dtd_NotationDecl$": ["apply__T__Lscala_xml_dtd_ExternalID__Lscala_xml_dtd_NotationDecl"]
+      }
+    }
+  }
+}

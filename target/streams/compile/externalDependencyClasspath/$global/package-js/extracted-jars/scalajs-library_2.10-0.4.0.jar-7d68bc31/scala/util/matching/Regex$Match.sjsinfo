@@ -1,0 +1,234 @@
+{
+  "name": "scala.util.matching.Regex$Match",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_matching_Regex$Match",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_matching_Regex$Match", "scala_util_matching_Regex$MatchData", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "starts$lzycompute__p1__AI": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["groupCount__I"],
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["to$extension0__I__I__Lscala_collection_immutable_Range$Inclusive"],
+        "java_util_regex_Matcher": ["start__I__I"],
+        "scala_collection_immutable_Range$Inclusive": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_IndexedSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_TraversableOnce": ["toArray__Lscala_reflect_ClassTag__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_reflect_ClassTag", "scala_Predef", "scala_collection_immutable_IndexedSeq", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "ends$lzycompute__p1__AI": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["groupCount__I"],
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["to$extension0__I__I__Lscala_collection_immutable_Range$Inclusive"],
+        "java_util_regex_Matcher": ["end__I__I"],
+        "scala_collection_immutable_Range$Inclusive": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_IndexedSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_TraversableOnce": ["toArray__Lscala_reflect_ClassTag__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_reflect_ClassTag", "scala_Predef", "scala_collection_immutable_IndexedSeq", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "scala$util$matching$Regex$MatchData$$nameToIndex$lzycompute__p1__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__scala$util$matching$Regex$MatchData$$nameToIndex__Lscala_util_matching_Regex$MatchData__Lscala_collection_immutable_Map"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala$util$matching$Regex$MatchData$$nameToIndex__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["scala$util$matching$Regex$MatchData$$nameToIndex$lzycompute__p1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "matched__T": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__matched__Lscala_util_matching_Regex$MatchData__T"]
+      }
+    },
+    "group__I__T": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__group__Lscala_util_matching_Regex$MatchData__I__T"]
+      }
+    },
+    "subgroups__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__subgroups__Lscala_util_matching_Regex$MatchData__Lscala_collection_immutable_List"]
+      }
+    },
+    "before__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__before__Lscala_util_matching_Regex$MatchData__Ljava_lang_CharSequence"]
+      }
+    },
+    "before__I__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__before__Lscala_util_matching_Regex$MatchData__I__Ljava_lang_CharSequence"]
+      }
+    },
+    "after__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__after__Lscala_util_matching_Regex$MatchData__Ljava_lang_CharSequence"]
+      }
+    },
+    "after__I__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__after__Lscala_util_matching_Regex$MatchData__I__Ljava_lang_CharSequence"]
+      }
+    },
+    "group__T__T": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__group__Lscala_util_matching_Regex$MatchData__T__T"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__toString__Lscala_util_matching_Regex$MatchData__T"]
+      }
+    },
+    "source__Ljava_lang_CharSequence": {},
+    "groupNames__Lscala_collection_Seq": {},
+    "start__I": {},
+    "end__I": {},
+    "groupCount__I": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["groupCount__I"]
+      }
+    },
+    "starts__p1__AI": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["starts$lzycompute__p1__AI"]
+      }
+    },
+    "ends__p1__AI": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["ends$lzycompute__p1__AI"]
+      }
+    },
+    "start__I__I": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["starts__p1__AI"]
+      }
+    },
+    "end__I__I": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["ends__p1__AI"]
+      }
+    },
+    "force__Lscala_util_matching_Regex$Match": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["ends__p1__AI", "starts__p1__AI"]
+      }
+    },
+    "init___Ljava_lang_CharSequence__Ljava_util_regex_Matcher__Lscala_collection_Seq": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["start__I", "end__I"],
+        "scala_util_matching_Regex$MatchData$class": ["scala_util_matching_Regex$MatchData$class__$init$__Lscala_util_matching_Regex$MatchData__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "group__T__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["group__T__T"]
+      }
+    },
+    "after__I__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["after__I__Ljava_lang_CharSequence"]
+      }
+    },
+    "after__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["after__Ljava_lang_CharSequence"]
+      }
+    },
+    "before__I__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["before__I__Ljava_lang_CharSequence"]
+      }
+    },
+    "before__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["before__Ljava_lang_CharSequence"]
+      }
+    },
+    "subgroups__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["subgroups__Lscala_collection_immutable_List"]
+      }
+    },
+    "group__I__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["group__I__T"]
+      }
+    },
+    "matched__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["matched__T"]
+      }
+    },
+    "scala$util$matching$Regex$MatchData$$nameToIndex__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["scala$util$matching$Regex$MatchData$$nameToIndex__Lscala_collection_immutable_Map"]
+      }
+    },
+    "force__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["force__Lscala_util_matching_Regex$Match"]
+      }
+    },
+    "end__I__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["end__I__I"]
+      }
+    },
+    "start__I__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["start__I__I"]
+      }
+    },
+    "groupCount__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["groupCount__I"]
+      }
+    },
+    "end__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["end__I"]
+      }
+    },
+    "start__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["start__I"]
+      }
+    },
+    "groupNames__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["groupNames__Lscala_collection_Seq"]
+      }
+    },
+    "source__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["source__Ljava_lang_CharSequence"]
+      }
+    }
+  }
+}

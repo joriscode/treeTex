@@ -1,0 +1,30 @@
+{
+  "name": "scala.collection.immutable.IntMapKeyIterator",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_IntMapKeyIterator",
+  "superClass": "scala_collection_immutable_IntMapIterator",
+  "ancestors": ["scala_collection_immutable_IntMapKeyIterator", "scala_collection_immutable_IntMapIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "valueOf__Lscala_collection_immutable_IntMap$Tip__I": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["key__I"]
+      }
+    },
+    "valueOf__Lscala_collection_immutable_IntMap$Tip__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapKeyIterator": ["valueOf__Lscala_collection_immutable_IntMap$Tip__I"]
+      }
+    },
+    "init___Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMapIterator": ["init___Lscala_collection_immutable_IntMap"]
+      }
+    }
+  }
+}

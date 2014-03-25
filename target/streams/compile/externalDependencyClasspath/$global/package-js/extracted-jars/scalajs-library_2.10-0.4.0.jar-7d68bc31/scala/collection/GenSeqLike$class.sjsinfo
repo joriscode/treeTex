@@ -1,0 +1,85 @@
+{
+  "name": "scala.collection.GenSeqLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqLike$class__isDefinedAt__Lscala_collection_GenSeqLike__I__Z": {
+      "calledMethods": {
+        "scala_collection_GenSeqLike": ["length__I"]
+      }
+    },
+    "scala_collection_GenSeqLike$class__prefixLength__Lscala_collection_GenSeqLike__Lscala_Function1__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqLike": ["segmentLength__Lscala_Function1__I__I"]
+      }
+    },
+    "scala_collection_GenSeqLike$class__indexWhere__Lscala_collection_GenSeqLike__Lscala_Function1__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqLike": ["indexWhere__Lscala_Function1__I__I"]
+      }
+    },
+    "scala_collection_GenSeqLike$class__indexOf__Lscala_collection_GenSeqLike__O__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqLike": ["indexOf__O__I__I"]
+      }
+    },
+    "scala_collection_GenSeqLike$class__indexOf__Lscala_collection_GenSeqLike__O__I__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_GenSeqLike": ["indexWhere__Lscala_Function1__I__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_GenSeqLike$class__lastIndexOf__Lscala_collection_GenSeqLike__O__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_GenSeqLike": ["lastIndexWhere__Lscala_Function1__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_GenSeqLike$class__lastIndexOf__Lscala_collection_GenSeqLike__O__I__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_GenSeqLike": ["lastIndexWhere__Lscala_Function1__I__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_GenSeqLike$class__lastIndexWhere__Lscala_collection_GenSeqLike__Lscala_Function1__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqLike": ["length__I", "lastIndexWhere__Lscala_Function1__I__I"]
+      }
+    },
+    "scala_collection_GenSeqLike$class__startsWith__Lscala_collection_GenSeqLike__Lscala_collection_GenSeq__Z": {
+      "calledMethods": {
+        "scala_collection_GenSeqLike": ["startsWith__Lscala_collection_GenSeq__I__Z"]
+      }
+    },
+    "scala_collection_GenSeqLike$class__union__Lscala_collection_GenSeqLike__Lscala_collection_GenSeq__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_GenSeqLike": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_CanBuildFrom__O"]
+      }
+    },
+    "scala_collection_GenSeqLike$class__hashCode__Lscala_collection_GenSeqLike__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["seqHash__Lscala_collection_Seq__I"],
+        "scala_collection_GenSeqLike": ["seq__Lscala_collection_Seq"]
+      },
+      "accessedModules": ["scala_util_hashing_MurmurHash3"]
+    },
+    "scala_collection_GenSeqLike$class__equals__Lscala_collection_GenSeqLike__O__Z": {
+      "calledMethods": {
+        "scala_collection_GenSeq": ["canEqual__O__Z"],
+        "scala_collection_GenSeqLike": ["sameElements__Lscala_collection_GenIterable__Z"]
+      },
+      "accessedClassData": ["scala_collection_GenSeq"]
+    },
+    "scala_collection_GenSeqLike$class__$init$__Lscala_collection_GenSeqLike__V": {}
+  }
+}

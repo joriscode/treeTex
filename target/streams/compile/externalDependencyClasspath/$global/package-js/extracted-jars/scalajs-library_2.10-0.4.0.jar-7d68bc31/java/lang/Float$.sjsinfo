@@ -1,0 +1,157 @@
+{
+  "name": "java.lang.Float$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Float$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Float$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "TYPE__Ljava_lang_Class": {},
+    "POSITIVE$undINFINITY__F": {},
+    "NEGATIVE$undINFINITY__F": {},
+    "NaN__F": {},
+    "MAX$undVALUE__F": {},
+    "MIN$undNORMAL__F": {},
+    "MIN$undVALUE__F": {},
+    "MAX$undEXPONENT__I": {},
+    "MIN$undEXPONENT__I": {},
+    "SIZE__I": {},
+    "valueOf__F__Ljava_lang_Float": {
+      "calledMethods": {
+        "java_lang_Float": ["init___F"]
+      },
+      "instantiatedClasses": ["java_lang_Float"]
+    },
+    "parseFloat__T__F": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "java_lang_NumberFormatException": ["init___T"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["java_lang_NumberFormatException", "scala_StringContext"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "toString__F__T": {
+      "calledMethods": {
+        "java_lang_Float$": ["valueOf__F__Ljava_lang_Float"],
+        "java_lang_Float": ["toString__T"]
+      }
+    },
+    "compare__F__F__I": {},
+    "isNaN__F__Z": {},
+    "isInfinite__F__Z": {},
+    "intBitsToFloat__I__F": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "floatToIntBits__F__I": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "floatToIntBits__F__": {
+      "calledMethods": {
+        "java_lang_Float$": ["floatToIntBits__F__I"]
+      }
+    },
+    "intBitsToFloat__I__": {
+      "calledMethods": {
+        "java_lang_Float$": ["intBitsToFloat__I__F"]
+      }
+    },
+    "isInfinite__F__": {
+      "calledMethods": {
+        "java_lang_Float$": ["isInfinite__F__Z"]
+      }
+    },
+    "isNaN__F__": {
+      "calledMethods": {
+        "java_lang_Float$": ["isNaN__F__Z"]
+      }
+    },
+    "compare__F__F__": {
+      "calledMethods": {
+        "java_lang_Float$": ["compare__F__F__I"]
+      }
+    },
+    "toString__F__": {
+      "calledMethods": {
+        "java_lang_Float$": ["toString__F__T"]
+      }
+    },
+    "parseFloat__T__": {
+      "calledMethods": {
+        "java_lang_Float$": ["parseFloat__T__F"]
+      }
+    },
+    "valueOf__F__": {
+      "calledMethods": {
+        "java_lang_Float$": ["valueOf__F__Ljava_lang_Float"]
+      }
+    },
+    "SIZE__": {
+      "calledMethods": {
+        "java_lang_Float$": ["SIZE__I"]
+      }
+    },
+    "MIN$undEXPONENT__": {
+      "calledMethods": {
+        "java_lang_Float$": ["MIN$undEXPONENT__I"]
+      }
+    },
+    "MAX$undEXPONENT__": {
+      "calledMethods": {
+        "java_lang_Float$": ["MAX$undEXPONENT__I"]
+      }
+    },
+    "MIN$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Float$": ["MIN$undVALUE__F"]
+      }
+    },
+    "MIN$undNORMAL__": {
+      "calledMethods": {
+        "java_lang_Float$": ["MIN$undNORMAL__F"]
+      }
+    },
+    "MAX$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Float$": ["MAX$undVALUE__F"]
+      }
+    },
+    "NaN__": {
+      "calledMethods": {
+        "java_lang_Float$": ["NaN__F"]
+      }
+    },
+    "NEGATIVE$undINFINITY__": {
+      "calledMethods": {
+        "java_lang_Float$": ["NEGATIVE$undINFINITY__F"]
+      }
+    },
+    "POSITIVE$undINFINITY__": {
+      "calledMethods": {
+        "java_lang_Float$": ["POSITIVE$undINFINITY__F"]
+      }
+    },
+    "TYPE__": {
+      "calledMethods": {
+        "java_lang_Float$": ["TYPE__Ljava_lang_Class"]
+      }
+    }
+  }
+}

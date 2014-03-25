@@ -1,0 +1,47 @@
+{
+  "name": "scala.util.regexp.WordExp$Wildcard$",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_regexp_WordExp$Wildcard$",
+  "superClass": "scala_runtime_AbstractFunction0",
+  "ancestors": ["scala_util_regexp_WordExp$Wildcard$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_util_regexp_WordExp$Wildcard": {
+      "calledMethods": {
+        "scala_util_regexp_WordExp$Wildcard": ["init___Lscala_util_regexp_WordExp"]
+      },
+      "instantiatedClasses": ["scala_util_regexp_WordExp$Wildcard"]
+    },
+    "unapply__Lscala_util_regexp_WordExp$Wildcard__Z": {},
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_util_regexp_WordExp": ["Wildcard__Lscala_util_regexp_WordExp$Wildcard$"]
+      }
+    },
+    "apply__O": {
+      "calledMethods": {
+        "scala_util_regexp_WordExp$Wildcard$": ["apply__Lscala_util_regexp_WordExp$Wildcard"]
+      }
+    },
+    "init___Lscala_util_regexp_WordExp": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction0": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_util_regexp_WordExp$Wildcard__": {
+      "calledMethods": {
+        "scala_util_regexp_WordExp$Wildcard$": ["unapply__Lscala_util_regexp_WordExp$Wildcard__Z"]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "scala.runtime.AbstractPartialFunction$mcZL$sp",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_AbstractPartialFunction$mcZL$sp",
+  "superClass": "scala_runtime_AbstractPartialFunction",
+  "ancestors": ["scala_runtime_AbstractPartialFunction$mcZL$sp", "scala_runtime_AbstractPartialFunction", "scala_PartialFunction", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__O__Z": {
+      "calledMethods": {
+        "scala_runtime_AbstractPartialFunction$mcZL$sp": ["apply$mcZL$sp__O__Z"]
+      }
+    },
+    "apply$mcZL$sp__O__Z": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["empty__Lscala_PartialFunction"],
+        "scala_runtime_AbstractPartialFunction$mcZL$sp": ["applyOrElse__O__Lscala_Function1__O"]
+      },
+      "accessedModules": ["scala_PartialFunction"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_runtime_AbstractPartialFunction$mcZL$sp": ["apply__O__Z"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractPartialFunction": ["init___"]
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "name": "scala.collection.immutable.LongMapUtils$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_LongMapUtils$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_LongMapUtils$", "scala_collection_generic_BitOperations$Long", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "zero__J__J__Z": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__zero__Lscala_collection_generic_BitOperations$Long__J__J__Z"]
+      }
+    },
+    "mask__J__J__J": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__mask__Lscala_collection_generic_BitOperations$Long__J__J__J"]
+      }
+    },
+    "hasMatch__J__J__J__Z": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__hasMatch__Lscala_collection_generic_BitOperations$Long__J__J__J__Z"]
+      }
+    },
+    "unsignedCompare__J__J__Z": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__unsignedCompare__Lscala_collection_generic_BitOperations$Long__J__J__Z"]
+      }
+    },
+    "shorter__J__J__Z": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__shorter__Lscala_collection_generic_BitOperations$Long__J__J__Z"]
+      }
+    },
+    "complement__J__J": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__complement__Lscala_collection_generic_BitOperations$Long__J__J"]
+      }
+    },
+    "bits__J__Lscala_collection_immutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__bits__Lscala_collection_generic_BitOperations$Long__J__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "bitString__J__T__T": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__bitString__Lscala_collection_generic_BitOperations$Long__J__T__T"]
+      }
+    },
+    "highestOneBit__J__J": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__highestOneBit__Lscala_collection_generic_BitOperations$Long__J__J"]
+      }
+    },
+    "bitString$default$2__T": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__bitString$default$2__Lscala_collection_generic_BitOperations$Long__T"]
+      }
+    },
+    "branchMask__J__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$up__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_collection_immutable_LongMapUtils$": ["highestOneBit__J__J"]
+      }
+    },
+    "join__J__Lscala_collection_immutable_LongMap__J__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["branchMask__J__J__J", "mask__J__J__J", "zero__J__J__Z"],
+        "scala_collection_immutable_LongMap$Bin": ["init___J__J__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_LongMap$Bin"]
+    },
+    "bin__J__J__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["init___O__O", "$$und1__O", "$$und2__O"],
+        "scala_collection_immutable_LongMap$Bin": ["init___J__J__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_collection_immutable_LongMap$Bin"],
+      "accessedModules": ["scala_collection_immutable_LongMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_LongMap"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Long$class": ["scala_collection_generic_BitOperations$Long$class__$init$__Lscala_collection_generic_BitOperations$Long__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "highestOneBit__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["highestOneBit__J__J"]
+      }
+    },
+    "bitString__J__T__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["bitString__J__T__T"]
+      }
+    },
+    "bits__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["bits__J__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "complement__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["complement__J__J"]
+      }
+    },
+    "shorter__J__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["shorter__J__J__Z"]
+      }
+    },
+    "unsignedCompare__J__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["unsignedCompare__J__J__Z"]
+      }
+    },
+    "hasMatch__J__J__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["hasMatch__J__J__J__Z"]
+      }
+    },
+    "mask__J__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["mask__J__J__J"]
+      }
+    },
+    "zero__J__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["zero__J__J__Z"]
+      }
+    },
+    "bin__J__J__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["bin__J__J__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap"]
+      }
+    },
+    "join__J__Lscala_collection_immutable_LongMap__J__Lscala_collection_immutable_LongMap__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["join__J__Lscala_collection_immutable_LongMap__J__Lscala_collection_immutable_LongMap__Lscala_collection_immutable_LongMap"]
+      }
+    },
+    "branchMask__J__J__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapUtils$": ["branchMask__J__J__J"]
+      }
+    }
+  }
+}

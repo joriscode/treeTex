@@ -1,0 +1,55 @@
+{
+  "name": "scala.util.control.Exception$$anonfun$pfFromExceptions$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_Exception$$anonfun$pfFromExceptions$1",
+  "superClass": "scala_runtime_AbstractPartialFunction",
+  "ancestors": ["scala_util_control_Exception$$anonfun$pfFromExceptions$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractPartialFunction", "scala_PartialFunction", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "applyOrElse__Ljava_lang_Throwable__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_util_control_Exception$": ["scala$util$control$Exception$$wouldMatch__Ljava_lang_Throwable__Lscala_collection_Seq__Z"]
+      },
+      "accessedModules": ["scala_util_control_Exception"]
+    },
+    "isDefinedAt__Ljava_lang_Throwable__Z": {
+      "calledMethods": {
+        "scala_util_control_Exception$": ["scala$util$control$Exception$$wouldMatch__Ljava_lang_Throwable__Lscala_collection_Seq__Z"]
+      },
+      "accessedModules": ["scala_util_control_Exception"]
+    },
+    "isDefinedAt__O__Z": {
+      "calledMethods": {
+        "scala_util_control_Exception$$anonfun$pfFromExceptions$1": ["isDefinedAt__Ljava_lang_Throwable__Z"]
+      },
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "applyOrElse__O__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_util_control_Exception$$anonfun$pfFromExceptions$1": ["applyOrElse__Ljava_lang_Throwable__Lscala_Function1__O"]
+      },
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "init___Lscala_collection_Seq": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractPartialFunction": ["init___"]
+      }
+    },
+    "isDefinedAt__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_util_control_Exception$$anonfun$pfFromExceptions$1": ["isDefinedAt__Ljava_lang_Throwable__Z"]
+      }
+    },
+    "applyOrElse__Ljava_lang_Throwable__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_control_Exception$$anonfun$pfFromExceptions$1": ["applyOrElse__Ljava_lang_Throwable__Lscala_Function1__O"]
+      }
+    }
+  }
+}

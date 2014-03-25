@@ -1,0 +1,106 @@
+{
+  "name": "scala.io.BufferedSource",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BufferedSource",
+  "superClass": "scala_io_Source",
+  "ancestors": ["scala_io_BufferedSource", "scala_io_Source", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$io$BufferedSource$$charReader$lzycompute__p2__Ljava_io_BufferedReader": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_io_BufferedSource": ["bufferedReader__Ljava_io_BufferedReader", "scala$io$BufferedSource$$charReaderCreated$und$eq__p2__Z__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "iter$lzycompute__p2__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["takeWhile__Lscala_Function1__Lscala_collection_Iterator", "map__Lscala_Function1__Lscala_collection_Iterator"],
+        "scala_collection_Iterator$": ["continually__Lscala_Function0__Lscala_collection_Iterator"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BufferedSource$$anonfun$iter$1": ["init___Lscala_io_BufferedSource"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_io_BufferedSource$$anonfun$iter$1", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_Iterator", "scala_runtime_BoxedUnit"]
+    },
+    "codec__Lscala_io_Codec": {},
+    "reader__Ljava_io_InputStreamReader": {
+      "calledMethods": {
+        "java_io_InputStreamReader": ["init___Ljava_io_InputStream__Ljava_nio_charset_CharsetDecoder"],
+        "scala_io_Codec": ["decoder__Ljava_nio_charset_CharsetDecoder"],
+        "scala_io_BufferedSource": ["codec__Lscala_io_Codec"]
+      },
+      "instantiatedClasses": ["java_io_InputStreamReader"]
+    },
+    "bufferedReader__Ljava_io_BufferedReader": {
+      "calledMethods": {
+        "java_io_BufferedReader": ["init___Ljava_io_Reader__I"],
+        "scala_io_BufferedSource": ["reader__Ljava_io_InputStreamReader"]
+      },
+      "instantiatedClasses": ["java_io_BufferedReader"]
+    },
+    "scala$io$BufferedSource$$charReaderCreated__Z": {},
+    "scala$io$BufferedSource$$charReaderCreated$und$eq__p2__Z__V": {},
+    "scala$io$BufferedSource$$charReader__Ljava_io_BufferedReader": {
+      "calledMethods": {
+        "scala_io_BufferedSource": ["scala$io$BufferedSource$$charReader$lzycompute__p2__Ljava_io_BufferedReader"]
+      }
+    },
+    "iter__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_io_BufferedSource": ["iter$lzycompute__p2__Lscala_collection_Iterator"]
+      }
+    },
+    "getLines__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_io_BufferedSource$BufferedLineIterator": ["init___Lscala_io_BufferedSource"]
+      },
+      "instantiatedClasses": ["scala_io_BufferedSource$BufferedLineIterator"]
+    },
+    "init___Ljava_io_InputStream__I__Lscala_io_Codec": {
+      "calledMethodsStatic": {
+        "scala_io_Source": ["init___"]
+      }
+    },
+    "init___Ljava_io_InputStream__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_Source$": ["DefaultBufSize__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_io_BufferedSource": ["init___Ljava_io_InputStream__I__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_io_Source"]
+    },
+    "scala$io$BufferedSource$$charReader__": {
+      "calledMethods": {
+        "scala_io_BufferedSource": ["scala$io$BufferedSource$$charReader__Ljava_io_BufferedReader"]
+      }
+    },
+    "scala$io$BufferedSource$$charReaderCreated__": {
+      "calledMethods": {
+        "scala_io_BufferedSource": ["scala$io$BufferedSource$$charReaderCreated__Z"]
+      }
+    },
+    "bufferedReader__": {
+      "calledMethods": {
+        "scala_io_BufferedSource": ["bufferedReader__Ljava_io_BufferedReader"]
+      }
+    },
+    "reader__": {
+      "calledMethods": {
+        "scala_io_BufferedSource": ["reader__Ljava_io_InputStreamReader"]
+      }
+    },
+    "codec__": {
+      "calledMethods": {
+        "scala_io_BufferedSource": ["codec__Lscala_io_Codec"]
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "name": "scala.collection.mutable.PriorityQueueProxy",
+  "ancestorCount": 5,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_PriorityQueueProxy",
+  "superClass": "scala_collection_mutable_PriorityQueue",
+  "ancestors": ["scala_collection_mutable_PriorityQueueProxy", "scala_Proxy", "scala_collection_mutable_PriorityQueue", "scala_Cloneable", "java_lang_Cloneable", "scala_Serializable", "java_io_Serializable", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "scala_collection_generic_GenericOrderedTraversableTemplate", "scala_collection_mutable_AbstractIterable", "scala_collection_mutable_Iterable", "scala_collection_mutable_Traversable", "scala_Mutable", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_Proxy$class": ["scala_Proxy$class__hashCode__Lscala_Proxy__I"]
+      }
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_Proxy$class": ["scala_Proxy$class__equals__Lscala_Proxy__O__Z"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Proxy$class": ["scala_Proxy$class__toString__Lscala_Proxy__T"]
+      }
+    },
+    "scala$collection$mutable$PriorityQueueProxy$$super$ord__Lscala_math_Ordering": {
+      "calledMethodsStatic": {
+        "scala_collection_mutable_PriorityQueue": ["ord__Lscala_math_Ordering"]
+      }
+    },
+    "self__Lscala_collection_mutable_PriorityQueue": {
+      "isAbstract": true
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "length__I": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["length__I"]
+      }
+    },
+    "isEmpty__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["isEmpty__Z"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_PriorityQueueProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["$$plus$eq__O__Lscala_collection_mutable_PriorityQueue"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_PriorityQueueProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      }
+    },
+    "enqueue__Lscala_collection_Seq__V": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      }
+    },
+    "dequeue__O": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["dequeue__O"]
+      }
+    },
+    "head__O": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["head__O"]
+      }
+    },
+    "max__O": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["max__O"]
+      }
+    },
+    "clear__V": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["clear__V"]
+      }
+    },
+    "toQueue__Lscala_collection_mutable_Queue": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"],
+        "scala_collection_mutable_PriorityQueue": ["toQueue__Lscala_collection_mutable_Queue"]
+      }
+    },
+    "clone__Lscala_collection_mutable_PriorityQueue": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy$$anon$1": ["init___Lscala_collection_mutable_PriorityQueueProxy"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_PriorityQueueProxy$$anon$1"]
+    },
+    "clone__O": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["clone__Lscala_collection_mutable_PriorityQueue"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_PriorityQueueProxy"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["$$plus$eq__O__Lscala_collection_mutable_PriorityQueueProxy"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["$$plus$eq__O__Lscala_collection_mutable_PriorityQueueProxy"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_PriorityQueue": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["$$plus$eq__O__Lscala_collection_mutable_PriorityQueueProxy"]
+      }
+    },
+    "init___Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_Proxy$class": ["scala_Proxy$class__$init$__Lscala_Proxy__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_mutable_PriorityQueue": ["init___Lscala_math_Ordering"]
+      }
+    },
+    "scala$collection$mutable$PriorityQueueProxy$$super$ord__": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["scala$collection$mutable$PriorityQueueProxy$$super$ord__Lscala_math_Ordering"]
+      }
+    },
+    "self__": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueueProxy": ["self__Lscala_collection_mutable_PriorityQueue"]
+      }
+    }
+  }
+}

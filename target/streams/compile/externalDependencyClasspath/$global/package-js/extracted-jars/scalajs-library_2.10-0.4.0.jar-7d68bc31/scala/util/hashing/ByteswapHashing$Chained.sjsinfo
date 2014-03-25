@@ -1,0 +1,32 @@
+{
+  "name": "scala.util.hashing.ByteswapHashing$Chained",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_hashing_ByteswapHashing$Chained",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_hashing_ByteswapHashing$Chained", "scala_util_hashing_Hashing", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hash__O__I": {
+      "calledMethods": {
+        "scala_util_hashing_Hashing": ["hash__O__I"],
+        "scala_util_hashing_package$": ["byteswap32__I__I"]
+      },
+      "accessedModules": ["scala_util_hashing_package"]
+    },
+    "init___Lscala_util_hashing_Hashing": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "hash__O__": {
+      "calledMethods": {
+        "scala_util_hashing_ByteswapHashing$Chained": ["hash__O__I"]
+      }
+    }
+  }
+}

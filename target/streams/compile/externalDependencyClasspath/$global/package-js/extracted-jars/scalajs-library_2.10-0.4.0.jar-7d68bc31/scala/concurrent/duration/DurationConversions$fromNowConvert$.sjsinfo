@@ -1,0 +1,37 @@
+{
+  "name": "scala.concurrent.duration.DurationConversions$fromNowConvert$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_duration_DurationConversions$fromNowConvert$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_duration_DurationConversions$fromNowConvert$", "scala_concurrent_duration_DurationConversions$Classifier", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "convert__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_Deadline": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$": ["now__Lscala_concurrent_duration_Deadline"],
+        "scala_concurrent_duration_Deadline": ["$$plus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_Deadline"]
+      },
+      "accessedModules": ["scala_concurrent_duration_Deadline"]
+    },
+    "convert__Lscala_concurrent_duration_FiniteDuration__O": {
+      "calledMethods": {
+        "scala_concurrent_duration_DurationConversions$fromNowConvert$": ["convert__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_Deadline"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "convert__Lscala_concurrent_duration_FiniteDuration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_DurationConversions$fromNowConvert$": ["convert__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_Deadline"]
+      }
+    }
+  }
+}

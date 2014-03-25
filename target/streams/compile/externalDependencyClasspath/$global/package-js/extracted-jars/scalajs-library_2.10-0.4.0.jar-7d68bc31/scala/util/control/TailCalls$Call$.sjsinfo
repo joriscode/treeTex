@@ -1,0 +1,48 @@
+{
+  "name": "scala.util.control.TailCalls$Call$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_TailCalls$Call$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_control_TailCalls$Call$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_Function0__Lscala_util_control_TailCalls$Call": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["init___Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_util_control_TailCalls$Call"]
+    },
+    "unapply__Lscala_util_control_TailCalls$Call__Lscala_Option": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["rest__Lscala_Function0"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_util_control_TailCalls$Call"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_util_control_TailCalls$Call__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call$": ["unapply__Lscala_util_control_TailCalls$Call__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call$": ["apply__Lscala_Function0__Lscala_util_control_TailCalls$Call"]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.mutable.UnrolledBuffer$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_UnrolledBuffer$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_mutable_UnrolledBuffer$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pos__p2__I": {},
+    "pos$und$eq__p2__I__V": {},
+    "node__p2__Lscala_collection_mutable_UnrolledBuffer$Unrolled": {},
+    "node$und$eq__p2__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V": {},
+    "scan__p2__V": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled"],
+        "scala_collection_mutable_UnrolledBuffer$$anon$1": ["pos$und$eq__p2__I__V", "pos__p2__I", "node$und$eq__p2__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V", "node__p2__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      }
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$$anon$1": ["node__p2__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["array__O"],
+        "scala_collection_mutable_UnrolledBuffer$$anon$1": ["pos__p2__I", "scan__p2__V", "hasNext__Z", "node__p2__Lscala_collection_mutable_UnrolledBuffer$Unrolled"],
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O"]
+      },
+      "accessedModules": ["scala_collection_Iterator", "scala_runtime_ScalaRunTime"]
+    },
+    "init___Lscala_collection_mutable_UnrolledBuffer": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer": ["scala$collection$mutable$UnrolledBuffer$$headptr__Lscala_collection_mutable_UnrolledBuffer$Unrolled"],
+        "scala_collection_mutable_UnrolledBuffer$$anon$1": ["scan__p2__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

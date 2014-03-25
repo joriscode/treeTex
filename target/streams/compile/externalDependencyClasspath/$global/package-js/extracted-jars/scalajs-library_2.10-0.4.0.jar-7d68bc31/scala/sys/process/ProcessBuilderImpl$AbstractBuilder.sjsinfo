@@ -1,0 +1,450 @@
+{
+  "name": "scala.sys.process.ProcessBuilderImpl$AbstractBuilder",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessBuilderImpl$AbstractBuilder",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_ProcessBuilderImpl$AbstractBuilder", "scala_sys_process_ProcessBuilder", "scala_sys_process_ProcessBuilder$Sink", "scala_sys_process_ProcessBuilder$Source", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "$$hash$less__Ljava_io_File__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Sink$class": ["scala_sys_process_ProcessBuilder$Sink$class__$hash$less__Lscala_sys_process_ProcessBuilder$Sink__Ljava_io_File__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$less__Ljava_net_URL__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Sink$class": ["scala_sys_process_ProcessBuilder$Sink$class__$hash$less__Lscala_sys_process_ProcessBuilder$Sink__Ljava_net_URL__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$less__Lscala_Function0__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Sink$class": ["scala_sys_process_ProcessBuilder$Sink$class__$hash$less__Lscala_sys_process_ProcessBuilder$Sink__Lscala_Function0__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$less__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Sink$class": ["scala_sys_process_ProcessBuilder$Sink$class__$hash$less__Lscala_sys_process_ProcessBuilder$Sink__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$greater__Ljava_io_File__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Source$class": ["scala_sys_process_ProcessBuilder$Source$class__$hash$greater__Lscala_sys_process_ProcessBuilder$Source__Ljava_io_File__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$greater$greater__Ljava_io_File__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Source$class": ["scala_sys_process_ProcessBuilder$Source$class__$hash$greater$greater__Lscala_sys_process_ProcessBuilder$Source__Ljava_io_File__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$greater__Lscala_Function0__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Source$class": ["scala_sys_process_ProcessBuilder$Source$class__$hash$greater__Lscala_sys_process_ProcessBuilder$Source__Lscala_Function0__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$greater__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Source$class": ["scala_sys_process_ProcessBuilder$Source$class__$hash$greater__Lscala_sys_process_ProcessBuilder$Source__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "cat__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder$Source$class": ["scala_sys_process_ProcessBuilder$Source$class__cat__Lscala_sys_process_ProcessBuilder$Source__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "toSource__Lscala_sys_process_ProcessBuilderImpl$AbstractBuilder": {},
+    "toSink__Lscala_sys_process_ProcessBuilderImpl$AbstractBuilder": {},
+    "$$hash$bar__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__Lscala_Function0__V"],
+        "scala_sys_process_ProcessBuilderImpl$PipedBuilder": ["init___Lscala_sys_process_ProcessBuilder$__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder__Z"],
+        "scala_sys_process_ProcessBuilder": ["canPipeTo__Z"],
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["scala$sys$process$ProcessBuilderImpl$AbstractBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$PipedBuilder", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "$$hash$bar$bar__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["scala$sys$process$ProcessBuilderImpl$AbstractBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"],
+        "scala_sys_process_ProcessBuilderImpl$OrBuilder": ["init___Lscala_sys_process_ProcessBuilder$__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$OrBuilder"]
+    },
+    "$$hash$amp$amp__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["scala$sys$process$ProcessBuilderImpl$AbstractBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"],
+        "scala_sys_process_ProcessBuilderImpl$AndBuilder": ["init___Lscala_sys_process_ProcessBuilder$__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$AndBuilder"]
+    },
+    "$$hash$hash$hash__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["scala$sys$process$ProcessBuilderImpl$AbstractBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"],
+        "scala_sys_process_ProcessBuilderImpl$SequenceBuilder": ["init___Lscala_sys_process_ProcessBuilder$__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$SequenceBuilder"]
+    },
+    "run__Lscala_sys_process_Process": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Z__Lscala_sys_process_Process"]
+      }
+    },
+    "run__Z__Lscala_sys_process_Process": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process"],
+        "scala_sys_process_BasicIO$": ["standard__Z__Lscala_sys_process_ProcessIO"]
+      },
+      "accessedModules": ["scala_sys_process_BasicIO"]
+    },
+    "run__Lscala_sys_process_ProcessLogger__Lscala_sys_process_Process": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_ProcessLogger__Z__Lscala_sys_process_Process"]
+      }
+    },
+    "run__Lscala_sys_process_ProcessLogger__Z__Lscala_sys_process_Process": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process"],
+        "scala_sys_process_BasicIO$": ["apply__Z__Lscala_sys_process_ProcessLogger__Lscala_sys_process_ProcessIO"]
+      },
+      "accessedModules": ["scala_sys_process_BasicIO"]
+    },
+    "$$bang$bang__T": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["slurp__p1__Lscala_Option__Z__T"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "$$bang$bang__Lscala_sys_process_ProcessLogger__T": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["slurp__p1__Lscala_Option__Z__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "$$bang$bang$less__T": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["slurp__p1__Lscala_Option__Z__T"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "$$bang$bang$less__Lscala_sys_process_ProcessLogger__T": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["slurp__p1__Lscala_Option__Z__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "lines__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["lines__p1__Z__Z__Lscala_Option__Lscala_collection_immutable_Stream"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "lines__Lscala_sys_process_ProcessLogger__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["lines__p1__Z__Z__Lscala_Option__Lscala_collection_immutable_Stream"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "lines$und$bang__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["lines__p1__Z__Z__Lscala_Option__Lscala_collection_immutable_Stream"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "lines$und$bang__Lscala_sys_process_ProcessLogger__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["lines__p1__Z__Z__Lscala_Option__Lscala_collection_immutable_Stream"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "$$bang__I": {
+      "calledMethods": {
+        "scala_sys_process_Process": ["exitValue__I"],
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Z__Lscala_sys_process_Process"]
+      }
+    },
+    "$$bang__Lscala_sys_process_ProcessIO__I": {
+      "calledMethods": {
+        "scala_sys_process_Process": ["exitValue__I"],
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process"]
+      }
+    },
+    "$$bang__Lscala_sys_process_ProcessLogger__I": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["runBuffered__p1__Lscala_sys_process_ProcessLogger__Z__I"]
+      }
+    },
+    "$$bang$less__I": {
+      "calledMethods": {
+        "scala_sys_process_Process": ["exitValue__I"],
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Z__Lscala_sys_process_Process"]
+      }
+    },
+    "$$bang$less__Lscala_sys_process_ProcessLogger__I": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["runBuffered__p1__Lscala_sys_process_ProcessLogger__Z__I"]
+      }
+    },
+    "daemonized__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["scala$sys$process$ProcessBuilderImpl$AbstractBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"],
+        "scala_sys_process_ProcessBuilderImpl$DaemonBuilder": ["init___Lscala_sys_process_ProcessBuilder$__Lscala_sys_process_ProcessBuilder"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$DaemonBuilder"]
+    },
+    "slurp__p1__Lscala_Option__Z__T": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang__Lscala_sys_process_ProcessIO__I"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "java_lang_StringBuffer": ["toString__T", "init___"],
+        "scala_sys_process_BasicIO$": ["apply__Z__Ljava_lang_StringBuffer__Lscala_Option__Lscala_sys_process_ProcessIO"]
+      },
+      "instantiatedClasses": ["java_lang_StringBuffer"],
+      "accessedModules": ["scala_sys_package", "scala_sys_process_BasicIO"]
+    },
+    "lines__p1__Z__Z__Lscala_Option__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["apply__Z__Lscala_Function1__Lscala_Option__Lscala_sys_process_ProcessIO"],
+        "scala_sys_process_Process$": ["Spawn__Lscala_sys_process_ProcessImpl$Spawn$"],
+        "scala_sys_process_Process": ["exitValue__I"],
+        "scala_Function1": ["apply$mcVI$sp__I__V"],
+        "scala_sys_process_BasicIO$Streamed$": ["apply__Z__Lscala_sys_process_BasicIO$Streamed"],
+        "scala_sys_process_BasicIO$Streamed": ["process__Lscala_Function1", "done__Lscala_Function1", "stream__Lscala_Function0"],
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process"],
+        "scala_sys_process_ProcessImpl$Spawn$": ["apply__Lscala_Function0__Ljava_lang_Thread"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_sys_process_BasicIO$Streamed", "scala_sys_process_BasicIO", "scala_sys_process_Process"],
+      "accessedClassData": ["scala_collection_immutable_Stream"]
+    },
+    "runBuffered__p1__Lscala_sys_process_ProcessLogger__Z__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_sys_process_Process": ["exitValue__I"],
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_ProcessLogger__Z__Lscala_sys_process_Process"],
+        "scala_sys_process_ProcessLogger": ["buffer__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "canPipeTo__Z": {},
+    "hasExitValue__Z": {},
+    "scala$sys$process$ProcessBuilderImpl$AbstractBuilder$$$outer__Lscala_sys_process_ProcessBuilder$": {},
+    "toSink__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["toSink__Lscala_sys_process_ProcessBuilderImpl$AbstractBuilder"]
+      }
+    },
+    "toSource__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["toSource__Lscala_sys_process_ProcessBuilderImpl$AbstractBuilder"]
+      }
+    },
+    "init___Lscala_sys_process_ProcessBuilder$": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_sys_process_ProcessBuilder$Sink$class": ["scala_sys_process_ProcessBuilder$Sink$class__$init$__Lscala_sys_process_ProcessBuilder$Sink__V"],
+        "scala_sys_process_ProcessBuilder$Source$class": ["scala_sys_process_ProcessBuilder$Source$class__$init$__Lscala_sys_process_ProcessBuilder$Source__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "cat__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["cat__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$greater__Lscala_sys_process_ProcessBuilder__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$greater__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$greater__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$greater__Lscala_Function0__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$greater$greater__Ljava_io_File__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$greater$greater__Ljava_io_File__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$greater__Ljava_io_File__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$greater__Ljava_io_File__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$less__Lscala_sys_process_ProcessBuilder__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$less__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$less__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$less__Lscala_Function0__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$less__Ljava_net_URL__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$less__Ljava_net_URL__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$less__Ljava_io_File__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$less__Ljava_io_File__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "scala$sys$process$ProcessBuilderImpl$AbstractBuilder$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["scala$sys$process$ProcessBuilderImpl$AbstractBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"]
+      }
+    },
+    "hasExitValue__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["hasExitValue__Z"]
+      }
+    },
+    "canPipeTo__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["canPipeTo__Z"]
+      }
+    },
+    "daemonized__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["daemonized__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$bang$less__Lscala_sys_process_ProcessLogger__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang$less__Lscala_sys_process_ProcessLogger__I"]
+      }
+    },
+    "$$bang$less__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang$less__I"]
+      }
+    },
+    "$$bang__Lscala_sys_process_ProcessLogger__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang__Lscala_sys_process_ProcessLogger__I"]
+      }
+    },
+    "$$bang__Lscala_sys_process_ProcessIO__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang__Lscala_sys_process_ProcessIO__I"]
+      }
+    },
+    "$$bang__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang__I"]
+      }
+    },
+    "lines$und$bang__Lscala_sys_process_ProcessLogger__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["lines$und$bang__Lscala_sys_process_ProcessLogger__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "lines$und$bang__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["lines$und$bang__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "lines__Lscala_sys_process_ProcessLogger__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["lines__Lscala_sys_process_ProcessLogger__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "lines__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["lines__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "$$bang$bang$less__Lscala_sys_process_ProcessLogger__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang$bang$less__Lscala_sys_process_ProcessLogger__T"]
+      }
+    },
+    "$$bang$bang$less__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang$bang$less__T"]
+      }
+    },
+    "$$bang$bang__Lscala_sys_process_ProcessLogger__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang$bang__Lscala_sys_process_ProcessLogger__T"]
+      }
+    },
+    "$$bang$bang__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$bang$bang__T"]
+      }
+    },
+    "run__Lscala_sys_process_ProcessLogger__Z__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_ProcessLogger__Z__Lscala_sys_process_Process"]
+      }
+    },
+    "run__Lscala_sys_process_ProcessLogger__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_ProcessLogger__Lscala_sys_process_Process"]
+      }
+    },
+    "run__Z__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Z__Lscala_sys_process_Process"]
+      }
+    },
+    "run__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["run__Lscala_sys_process_Process"]
+      }
+    },
+    "$$hash$hash$hash__Lscala_sys_process_ProcessBuilder__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$hash$hash__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$amp$amp__Lscala_sys_process_ProcessBuilder__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$amp$amp__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$bar$bar__Lscala_sys_process_ProcessBuilder__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$bar$bar__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "$$hash$bar__Lscala_sys_process_ProcessBuilder__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["$$hash$bar__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "toSink__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["toSink__Lscala_sys_process_ProcessBuilderImpl$AbstractBuilder"]
+      }
+    },
+    "toSource__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["toSource__Lscala_sys_process_ProcessBuilderImpl$AbstractBuilder"]
+      }
+    },
+    "run__Lscala_sys_process_ProcessIO__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilder": ["run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process"]
+      }
+    }
+  }
+}

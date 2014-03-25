@@ -1,0 +1,52 @@
+{
+  "name": "scala.collection.generic.GenericOrderedCompanion",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_GenericOrderedCompanion",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_GenericOrderedCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder": {
+      "isAbstract": true
+    },
+    "empty__Lscala_math_Ordering__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O"],
+        "scala_collection_generic_GenericOrderedCompanion": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_Traversable"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_math_Ordering__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_generic_GenericOrderedCompanion": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_Traversable"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_collection_Seq__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_generic_GenericOrderedCompanion": ["apply__Lscala_collection_Seq__Lscala_math_Ordering__Lscala_collection_Traversable"]
+      }
+    },
+    "empty__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_generic_GenericOrderedCompanion": ["empty__Lscala_math_Ordering__Lscala_collection_Traversable"]
+      }
+    },
+    "newBuilder__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_generic_GenericOrderedCompanion": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

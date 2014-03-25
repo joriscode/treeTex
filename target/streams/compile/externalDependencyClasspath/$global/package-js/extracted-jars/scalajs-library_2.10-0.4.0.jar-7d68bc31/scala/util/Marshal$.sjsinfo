@@ -1,0 +1,48 @@
+{
+  "name": "scala.util.Marshal$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Marshal$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Marshal$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "dump__O__Lscala_reflect_ClassTag__AB": {
+      "calledMethods": {
+        "java_io_ByteArrayOutputStream": ["init___I", "toByteArray__AB"],
+        "java_io_ObjectOutputStream": ["writeObject__O__V", "close__V", "init___Ljava_io_OutputStream"]
+      },
+      "instantiatedClasses": ["java_io_ByteArrayOutputStream", "java_io_ObjectOutputStream"]
+    },
+    "load__AB__Lscala_reflect_ClassTag__O": {
+      "calledMethods": {
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"],
+        "java_io_ByteArrayInputStream": ["init___AB"],
+        "java_lang_Class": ["asSubclass__Ljava_lang_Class__Ljava_lang_Class"],
+        "java_lang_ClassCastException": ["init___T"],
+        "java_io_ObjectInputStream": ["init___Ljava_io_InputStream", "close__V", "readObject__O"]
+      },
+      "instantiatedClasses": ["java_io_ObjectInputStream", "java_lang_ClassCastException", "java_io_ByteArrayInputStream"],
+      "accessedClassData": ["scala_reflect_ClassTag", "java_lang_ClassCastException"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "load__AB__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_util_Marshal$": ["load__AB__Lscala_reflect_ClassTag__O"]
+      }
+    },
+    "dump__O__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_util_Marshal$": ["dump__O__Lscala_reflect_ClassTag__AB"]
+      }
+    }
+  }
+}

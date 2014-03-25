@@ -1,0 +1,97 @@
+{
+  "name": "scala.xml.factory.NodeFactory$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_factory_NodeFactory$class",
+  "superClass": "",
+  "ancestors": ["scala_xml_factory_NodeFactory$class"],
+  "isExported": false,
+  "methods": {
+    "scala_xml_factory_NodeFactory$class__construct__Lscala_xml_factory_NodeFactory__I__Lscala_collection_immutable_List__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["update__O__O__V"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_xml_factory_NodeFactory": ["cache__Lscala_collection_mutable_HashMap", "create__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node"]
+      }
+    },
+    "scala_xml_factory_NodeFactory$class__eqElements__Lscala_xml_factory_NodeFactory__Lscala_collection_Seq__Lscala_collection_Seq__Z": {
+      "calledMethods": {
+        "scala_collection_Seq": ["view__Lscala_collection_SeqView"],
+        "scala_collection_SeqView": ["zipAll__Lscala_collection_GenIterable__O__O__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_IterableLike": ["forall__Lscala_Function1__Z"],
+        "scala_collection_SeqView$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_SeqView"],
+      "accessedClassData": ["scala_xml_Node", "scala_collection_IterableLike"]
+    },
+    "scala_xml_factory_NodeFactory$class__nodeEquals__Lscala_xml_factory_NodeFactory__Lscala_xml_Node__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Z": {
+      "calledMethods": {
+        "scala_xml_Node": ["attributes__Lscala_xml_MetaData", "child__Lscala_collection_Seq", "prefix__T", "label__T"],
+        "scala_xml_factory_NodeFactory": ["eqElements__Lscala_collection_Seq__Lscala_collection_Seq__Z"]
+      }
+    },
+    "scala_xml_factory_NodeFactory$class__makeNode__Lscala_xml_factory_NodeFactory__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory": ["nodeEquals__Lscala_xml_Node__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Z", "cache__Lscala_collection_mutable_HashMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_List": ["find__Lscala_Function1__Lscala_Option"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Some": ["x__O"],
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__cons$1__Lscala_xml_factory_NodeFactory__Lscala_collection_immutable_List__I__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node"],
+        "scala_xml_Utility$": ["hashCode__T__T__I__I__Lscala_collection_Seq__I"],
+        "scala_collection_mutable_HashMap": ["get__O__Lscala_Option"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility", "scala_None", "scala_runtime_ScalaRunTime", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_xml_Node", "scala_collection_immutable_List", "scala_Some"]
+    },
+    "scala_xml_factory_NodeFactory$class__makeText__Lscala_xml_factory_NodeFactory__T__Lscala_xml_Text": {
+      "calledMethods": {
+        "scala_xml_Text$": ["apply__T__Lscala_xml_Text"]
+      },
+      "accessedModules": ["scala_xml_Text"]
+    },
+    "scala_xml_factory_NodeFactory$class__makeComment__Lscala_xml_factory_NodeFactory__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_xml_Comment": ["init___T"],
+        "scala_xml_factory_NodeFactory": ["ignoreComments__Z"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_xml_Comment"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_xml_Comment", "java_lang_Object"]
+    },
+    "scala_xml_factory_NodeFactory$class__makeProcInstr__Lscala_xml_factory_NodeFactory__T__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_xml_ProcInstr": ["init___T__T"],
+        "scala_xml_factory_NodeFactory": ["ignoreProcInstr__Z"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_xml_ProcInstr"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["java_lang_Object", "scala_xml_ProcInstr"]
+    },
+    "scala_xml_factory_NodeFactory$class__cons$1__Lscala_xml_factory_NodeFactory__Lscala_collection_immutable_List__I__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory": ["construct__I__Lscala_collection_immutable_List__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node"]
+      }
+    },
+    "scala_xml_factory_NodeFactory$class__$init$__Lscala_xml_factory_NodeFactory__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["init___"],
+        "scala_xml_factory_NodeFactory": ["scala$xml$factory$NodeFactory$$undsetter$und$ignoreComments$und$eq__Z__V", "scala$xml$factory$NodeFactory$$undsetter$und$ignoreProcInstr$und$eq__Z__V", "scala$xml$factory$NodeFactory$$undsetter$und$cache$und$eq__Lscala_collection_mutable_HashMap__V"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_HashMap"]
+    }
+  }
+}

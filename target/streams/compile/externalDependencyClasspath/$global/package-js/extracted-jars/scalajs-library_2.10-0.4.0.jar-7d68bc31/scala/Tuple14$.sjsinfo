@@ -1,0 +1,48 @@
+{
+  "name": "scala.Tuple14$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Tuple14$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Tuple14$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__O__O__O__O__O__O__O__O__O__O__O__O__O__O__Lscala_Tuple14": {
+      "calledMethods": {
+        "scala_Tuple14": ["init___O__O__O__O__O__O__O__O__O__O__O__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple14"]
+    },
+    "unapply__Lscala_Tuple14__Lscala_Option": {
+      "calledMethods": {
+        "scala_Tuple14": ["$$und8__O", "$$und13__O", "$$und6__O", "$$und12__O", "$$und4__O", "$$und5__O", "$$und11__O", "$$und10__O", "$$und7__O", "$$und3__O", "$$und1__O", "$$und2__O", "$$und9__O", "$$und14__O", "init___O__O__O__O__O__O__O__O__O__O__O__O__O__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some", "scala_Tuple14"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_Tuple14"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_Tuple14__": {
+      "calledMethods": {
+        "scala_Tuple14$": ["unapply__Lscala_Tuple14__Lscala_Option"]
+      }
+    },
+    "apply__O__O__O__O__O__O__O__O__O__O__O__O__O__O__": {
+      "calledMethods": {
+        "scala_Tuple14$": ["apply__O__O__O__O__O__O__O__O__O__O__O__O__O__O__Lscala_Tuple14"]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "scala.collection.GenSeqViewLike$Patched$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqViewLike$Patched$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqViewLike$Patched$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqViewLike$Patched$class__scala$collection$GenSeqViewLike$Patched$$plen__Lscala_collection_GenSeqViewLike$Patched__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Patched": ["patch__Lscala_collection_GenSeq"],
+        "scala_collection_GenSeq": ["length__I"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Patched$class__iterator__Lscala_collection_GenSeqViewLike$Patched__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["patch__I__Lscala_collection_Iterator__I__Lscala_collection_Iterator"],
+        "scala_collection_GenSeqViewLike$Patched": ["patch__Lscala_collection_GenSeq", "replaced__I", "scala$collection$GenSeqViewLike$Patched$$$outer__Lscala_collection_GenSeqViewLike", "from__I"],
+        "scala_collection_GenSeqViewLike": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_GenSeq": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Patched$class__length__Lscala_collection_GenSeqViewLike$Patched__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Patched": ["replaced__I", "scala$collection$GenSeqViewLike$Patched$$$outer__Lscala_collection_GenSeqViewLike", "scala$collection$GenSeqViewLike$Patched$$plen__I"],
+        "scala_collection_GenSeqViewLike": ["length__I"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Patched$class__apply__Lscala_collection_GenSeqViewLike$Patched__I__O": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Patched": ["patch__Lscala_collection_GenSeq", "replaced__I", "scala$collection$GenSeqViewLike$Patched$$$outer__Lscala_collection_GenSeqViewLike", "scala$collection$GenSeqViewLike$Patched$$plen__I", "from__I"],
+        "scala_collection_GenSeqViewLike": ["apply__I__O"],
+        "scala_collection_GenSeq": ["apply__I__O"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Patched$class__viewIdentifier__Lscala_collection_GenSeqViewLike$Patched__T": {},
+    "scala_collection_GenSeqViewLike$Patched$class__$init$__Lscala_collection_GenSeqViewLike$Patched__V": {}
+  }
+}

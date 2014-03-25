@@ -1,0 +1,55 @@
+{
+  "name": "scala.xml.parsing.MarkupParser$WithLookAhead",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_MarkupParser$WithLookAhead",
+  "superClass": "scala_io_Source",
+  "ancestors": ["scala_xml_parsing_MarkupParser$WithLookAhead", "scala_io_Source", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$xml$parsing$MarkupParser$WithLookAhead$$queue__Lscala_collection_mutable_Queue": {},
+    "lookahead__Lscala_collection_BufferedIterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["$$plus$plus__Lscala_Function0__Lscala_collection_Iterator", "buffered__Lscala_collection_BufferedIterator"],
+        "scala_collection_mutable_Queue": ["iterator__Lscala_collection_Iterator"],
+        "scala_xml_parsing_MarkupParser$WithLookAhead": ["scala$xml$parsing$MarkupParser$WithLookAhead$$queue__Lscala_collection_mutable_Queue"],
+        "scala_xml_parsing_MarkupParser$WithLookAhead$$anonfun$3": ["init___Lscala_xml_parsing_MarkupParser$WithLookAhead"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_MarkupParser$WithLookAhead$$anonfun$3"]
+    },
+    "iter__Lscala_collection_Iterator": {},
+    "scala$xml$parsing$MarkupParser$WithLookAhead$$$outer__Lscala_xml_parsing_MarkupHandler": {},
+    "init___Lscala_xml_parsing_MarkupHandler__Lscala_io_Source": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_mutable_Queue$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_xml_parsing_MarkupParser$WithLookAhead$$anon$2": ["init___Lscala_xml_parsing_MarkupParser$WithLookAhead"]
+      },
+      "calledMethodsStatic": {
+        "scala_io_Source": ["init___"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_MarkupParser$WithLookAhead$$anon$2", "java_lang_NullPointerException"],
+      "accessedModules": ["scala_collection_mutable_Queue", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_collection_mutable_Queue"]
+    },
+    "scala$xml$parsing$MarkupParser$WithLookAhead$$$outer__": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser$WithLookAhead": ["scala$xml$parsing$MarkupParser$WithLookAhead$$$outer__Lscala_xml_parsing_MarkupHandler"]
+      }
+    },
+    "lookahead__": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser$WithLookAhead": ["lookahead__Lscala_collection_BufferedIterator"]
+      }
+    },
+    "scala$xml$parsing$MarkupParser$WithLookAhead$$queue__": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser$WithLookAhead": ["scala$xml$parsing$MarkupParser$WithLookAhead$$queue__Lscala_collection_mutable_Queue"]
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "scala.Int$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Int$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Int$", "scala_AnyValCompanion", "scala_Specializable", "scala_SpecializableCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "MinValue__I": {},
+    "MaxValue__I": {},
+    "box__I__Ljava_lang_Integer": {
+      "calledMethods": {
+        "java_lang_Integer$": ["valueOf__I__Ljava_lang_Integer"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "unbox__O__I": {
+      "calledMethods": {
+        "java_lang_Integer": ["intValue__I"]
+      },
+      "accessedClassData": ["java_lang_Integer"]
+    },
+    "toString__T": {},
+    "int2long__I__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "int2float__I__F": {},
+    "int2double__I__D": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "int2double__I__": {
+      "calledMethods": {
+        "scala_Int$": ["int2double__I__D"]
+      }
+    },
+    "int2float__I__": {
+      "calledMethods": {
+        "scala_Int$": ["int2float__I__F"]
+      }
+    },
+    "int2long__I__": {
+      "calledMethods": {
+        "scala_Int$": ["int2long__I__J"]
+      }
+    },
+    "unbox__O__": {
+      "calledMethods": {
+        "scala_Int$": ["unbox__O__I"]
+      }
+    },
+    "box__I__": {
+      "calledMethods": {
+        "scala_Int$": ["box__I__Ljava_lang_Integer"]
+      }
+    },
+    "MaxValue__": {
+      "calledMethods": {
+        "scala_Int$": ["MaxValue__I"]
+      }
+    },
+    "MinValue__": {
+      "calledMethods": {
+        "scala_Int$": ["MinValue__I"]
+      }
+    }
+  }
+}

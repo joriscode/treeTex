@@ -1,0 +1,45 @@
+{
+  "name": "scala.runtime.CharRef$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_CharRef$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_CharRef$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "create__C__Lscala_runtime_CharRef": {
+      "calledMethods": {
+        "scala_runtime_CharRef": ["init___C"]
+      },
+      "instantiatedClasses": ["scala_runtime_CharRef"]
+    },
+    "zero__Lscala_runtime_CharRef": {
+      "calledMethods": {
+        "scala_runtime_CharRef": ["init___C"]
+      },
+      "instantiatedClasses": ["scala_runtime_CharRef"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_runtime_CharRef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_runtime_CharRef$": ["zero__Lscala_runtime_CharRef"]
+      }
+    },
+    "create__C__": {
+      "calledMethods": {
+        "scala_runtime_CharRef$": ["create__C__Lscala_runtime_CharRef"]
+      }
+    }
+  }
+}

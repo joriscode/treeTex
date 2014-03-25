@@ -1,0 +1,92 @@
+{
+  "name": "scala.Responder$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Responder$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Responder$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "constant__O__Lscala_Responder": {
+      "calledMethods": {
+        "scala_Responder$$anon$1": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Responder$$anon$1"]
+    },
+    "exec__Lscala_Function0__Z": {
+      "calledMethods": {
+        "scala_Function0": ["apply$mcV$sp__V"]
+      }
+    },
+    "run__Lscala_Responder__Lscala_Option": {
+      "calledMethods": {
+        "scala_Responder": ["foreach__Lscala_Function1__V"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_Some": ["init___O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_Some", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Option"]
+    },
+    "loop__Lscala_Responder__Lscala_Responder": {
+      "calledMethods": {
+        "scala_Responder": ["map__Lscala_Function1__Lscala_Responder", "flatMap__Lscala_Function1__Lscala_Responder"],
+        "scala_Responder$": ["loop__Lscala_Responder__Lscala_Responder"],
+        "scala_Responder$$anonfun$loop$1$$anonfun$apply$1": ["init___Lscala_Responder$$anonfun$loop$1"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_Responder$$anonfun$loop$1$$anonfun$apply$1", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Responder"]
+    },
+    "loopWhile__Lscala_Function0__Lscala_Responder__Lscala_Responder": {
+      "calledMethods": {
+        "scala_Responder$": ["loopWhile__Lscala_Function0__Lscala_Responder__Lscala_Responder", "constant__O__Lscala_Responder"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Responder": ["map__Lscala_Function1__Lscala_Responder", "flatMap__Lscala_Function1__Lscala_Responder"],
+        "scala_Function0": ["apply$mcZ$sp__Z"],
+        "scala_Responder$$anonfun$loopWhile$1$$anonfun$apply$2": ["init___Lscala_Responder$$anonfun$loopWhile$1"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Responder$$anonfun$loopWhile$1$$anonfun$apply$2", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit", "scala_Responder"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_Responder"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "loopWhile__Lscala_Function0__Lscala_Responder__": {
+      "calledMethods": {
+        "scala_Responder$": ["loopWhile__Lscala_Function0__Lscala_Responder__Lscala_Responder"]
+      }
+    },
+    "loop__Lscala_Responder__": {
+      "calledMethods": {
+        "scala_Responder$": ["loop__Lscala_Responder__Lscala_Responder"]
+      }
+    },
+    "run__Lscala_Responder__": {
+      "calledMethods": {
+        "scala_Responder$": ["run__Lscala_Responder__Lscala_Option"]
+      }
+    },
+    "exec__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_Responder$": ["exec__Lscala_Function0__Z"]
+      }
+    },
+    "constant__O__": {
+      "calledMethods": {
+        "scala_Responder$": ["constant__O__Lscala_Responder"]
+      }
+    }
+  }
+}

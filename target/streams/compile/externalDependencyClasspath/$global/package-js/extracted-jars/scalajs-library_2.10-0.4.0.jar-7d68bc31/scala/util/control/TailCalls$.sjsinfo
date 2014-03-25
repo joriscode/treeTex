@@ -1,0 +1,42 @@
+{
+  "name": "scala.util.control.TailCalls$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_TailCalls$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_control_TailCalls$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "tailcall__Lscala_Function0__Lscala_util_control_TailCalls$TailRec": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["init___Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_util_control_TailCalls$Call"]
+    },
+    "done__O__Lscala_util_control_TailCalls$TailRec": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Done": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_util_control_TailCalls$Done"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "done__O__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$": ["done__O__Lscala_util_control_TailCalls$TailRec"]
+      }
+    },
+    "tailcall__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$": ["tailcall__Lscala_Function0__Lscala_util_control_TailCalls$TailRec"]
+      }
+    }
+  }
+}

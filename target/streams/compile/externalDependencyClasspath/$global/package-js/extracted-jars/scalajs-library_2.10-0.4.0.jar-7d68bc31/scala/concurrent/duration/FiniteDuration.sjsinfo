@@ -1,0 +1,355 @@
+{
+  "name": "scala.concurrent.duration.FiniteDuration",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_duration_FiniteDuration",
+  "superClass": "scala_concurrent_duration_Duration",
+  "ancestors": ["scala_concurrent_duration_FiniteDuration", "scala_concurrent_duration_Duration", "scala_math_Ordered", "java_lang_Comparable", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["zero__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "length__J": {},
+    "unit__Ljava_util_concurrent_TimeUnit": {},
+    "bounded__p2__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less$eq__Lscala_scalajs_runtime_Long__Z", "unary$und$minus__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_FiniteDuration": ["length__J"]
+      }
+    },
+    "toNanos__J": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_TimeUnit": ["toNanos__J__J"]
+      }
+    },
+    "toMicros__J": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_TimeUnit": ["toMicros__J__J"]
+      }
+    },
+    "toMillis__J": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_TimeUnit": ["toMillis__J__J"]
+      }
+    },
+    "toSeconds__J": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_TimeUnit": ["toSeconds__J__J"]
+      }
+    },
+    "toMinutes__J": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_TimeUnit": ["toMinutes__J__J"]
+      }
+    },
+    "toHours__J": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_TimeUnit": ["toHours__J__J"]
+      }
+    },
+    "toDays__J": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_TimeUnit": ["toDays__J__J"]
+      }
+    },
+    "toUnit__Ljava_util_concurrent_TimeUnit__D": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["NANOSECONDS__Ljava_util_concurrent_TimeUnit"],
+        "scala_concurrent_duration_FiniteDuration": ["toNanos__J"],
+        "scala_scalajs_runtime_Long": ["toDouble__D"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_util_concurrent_TimeUnit": ["convert__J__Ljava_util_concurrent_TimeUnit__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit"]
+    },
+    "fromNow__Lscala_concurrent_duration_Deadline": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$": ["now__Lscala_concurrent_duration_Deadline"],
+        "scala_concurrent_duration_Deadline": ["$$plus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_Deadline"]
+      },
+      "accessedModules": ["scala_concurrent_duration_Deadline"]
+    },
+    "unitString__p2__T": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["timeUnitName__Lscala_collection_immutable_Map"],
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_collection_immutable_Map": ["apply__O__O"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "scala_concurrent_duration_Duration"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unitString__p2__T"]
+      }
+    },
+    "compare__Lscala_concurrent_duration_Duration__I": {
+      "calledMethods": {
+        "scala_Predef$": ["longWrapper__J__J"],
+        "scala_concurrent_duration_Duration": ["compare__O__I"],
+        "scala_concurrent_duration_FiniteDuration": ["toNanos__J"],
+        "scala_runtime_RichLong": ["compare__O__I", "init___J"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichLong"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_concurrent_duration_FiniteDuration"]
+    },
+    "safeAdd__p2__J__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less__Lscala_scalajs_runtime_Long__Z", "$$plus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$greater__Lscala_scalajs_runtime_Long__Z", "$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long", "apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_lang_IllegalArgumentException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "add__p2__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long", "fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_FiniteDuration": ["safeAdd__p2__J__J__J", "length__J", "unit__Ljava_util_concurrent_TimeUnit", "init___J__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_TimeUnit": ["convert__J__Ljava_util_concurrent_TimeUnit__J"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_FiniteDuration"],
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$plus__Lscala_concurrent_duration_Duration__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "add__p2__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration", "unit__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedClassData": ["scala_concurrent_duration_FiniteDuration"]
+    },
+    "$$minus__Lscala_concurrent_duration_Duration__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["unary$und$minus__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "add__p2__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration", "unit__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedClassData": ["scala_concurrent_duration_FiniteDuration"]
+    },
+    "$$times__D__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "java_lang_Double": ["isInfinite__Z", "isNaN__Z"],
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "scala_concurrent_duration_Duration$": ["MinusInf__Lscala_concurrent_duration_Duration$Infinite", "Undefined__Lscala_concurrent_duration_Duration$Infinite", "Inf__Lscala_concurrent_duration_Duration$Infinite", "fromNanos__D__Lscala_concurrent_duration_Duration", "Zero__Lscala_concurrent_duration_FiniteDuration"],
+        "scala_concurrent_duration_FiniteDuration": ["toNanos__J", "$$less__O__Z"],
+        "scala_scalajs_runtime_Long": ["toDouble__D"]
+      },
+      "accessedModules": ["scala_Predef", "scala_concurrent_duration_Duration"]
+    },
+    "$$div__D__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "java_lang_Double": ["isInfinite__Z", "isNaN__Z"],
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "scala_concurrent_duration_Duration$": ["Undefined__Lscala_concurrent_duration_Duration$Infinite", "fromNanos__D__Lscala_concurrent_duration_Duration", "Zero__Lscala_concurrent_duration_FiniteDuration"],
+        "scala_concurrent_duration_FiniteDuration": ["toNanos__J"],
+        "scala_scalajs_runtime_Long": ["toDouble__D"]
+      },
+      "accessedModules": ["scala_Predef", "scala_concurrent_duration_Duration"]
+    },
+    "minusZero__p2__D": {},
+    "$$div__Lscala_concurrent_duration_Duration__D": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["Undefined__Lscala_concurrent_duration_Duration$Infinite", "Zero__Lscala_concurrent_duration_FiniteDuration"],
+        "scala_concurrent_duration_FiniteDuration": ["minusZero__p2__D", "toNanos__J", "length__J"],
+        "scala_scalajs_runtime_Long": ["toDouble__D", "$$less__Lscala_scalajs_runtime_Long__Z"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_Duration": ["$$greater__O__Z", "isFinite__Z", "toNanos__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "scala_concurrent_duration_Duration"]
+    },
+    "$$plus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "add__p2__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration", "unit__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "$$minus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["unary$und$minus__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "add__p2__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration", "unit__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "plus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$plus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "minus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$minus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "min__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$less__O__Z"]
+      }
+    },
+    "max__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$greater__O__Z"]
+      }
+    },
+    "$$div__J__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$div__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_FiniteDuration": ["toNanos__J"],
+        "scala_concurrent_duration_Duration$": ["fromNanos__J__Lscala_concurrent_duration_FiniteDuration"]
+      },
+      "accessedModules": ["scala_concurrent_duration_Duration"]
+    },
+    "$$times__J__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "safeMul__p2__J__J__J", "unit__Ljava_util_concurrent_TimeUnit", "init___J__Ljava_util_concurrent_TimeUnit"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_FiniteDuration"]
+    },
+    "safeMul__p2__J__J__J": {
+      "calledMethods": {
+        "scala_math_package$": ["abs__J__J"],
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_scalajs_runtime_Long": ["unary$und$minus__Lscala_scalajs_runtime_Long", "$$times__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "equals__O__Z", "$$less__Lscala_scalajs_runtime_Long__Z"],
+        "java_lang_Long$": ["numberOfLeadingZeros__J__I"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedModules": ["scala_math_package", "java_lang_Long", "scala_scalajs_runtime_Long"]
+    },
+    "div__J__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$div__J__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "mul__J__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$times__J__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "unary$und$minus__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["unary$und$minus__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_FiniteDuration": ["length__J", "unit__Ljava_util_concurrent_TimeUnit"],
+        "scala_concurrent_duration_Duration$": ["apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"]
+      },
+      "accessedModules": ["scala_concurrent_duration_Duration"]
+    },
+    "isFinite__Z": {},
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_concurrent_duration_FiniteDuration": ["toNanos__J"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["equals__O__Z"]
+      },
+      "accessedClassData": ["scala_concurrent_duration_FiniteDuration"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toInt__I"],
+        "scala_concurrent_duration_FiniteDuration": ["toNanos__J"]
+      }
+    },
+    "unary$und$minus__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["unary$und$minus__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "compare__O__I": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["compare__Lscala_concurrent_duration_Duration__I"]
+      },
+      "accessedClassData": ["scala_concurrent_duration_Duration"]
+    },
+    "init___J__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MINUTES__Ljava_util_concurrent_TimeUnit", "MICROSECONDS__Ljava_util_concurrent_TimeUnit", "DAYS__Ljava_util_concurrent_TimeUnit", "HOURS__Ljava_util_concurrent_TimeUnit", "MILLISECONDS__Ljava_util_concurrent_TimeUnit", "NANOSECONDS__Ljava_util_concurrent_TimeUnit", "SECONDS__Ljava_util_concurrent_TimeUnit"],
+        "scala_Predef$": ["require__Z__Lscala_Function0__V"],
+        "scala_concurrent_duration_FiniteDuration": ["bounded__p2__J__Z"],
+        "scala_scalajs_runtime_Long": ["$$less$eq__Lscala_scalajs_runtime_Long__Z", "unary$und$minus__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_util_concurrent_TimeUnit": ["convert__J__Ljava_util_concurrent_TimeUnit__J"]
+      },
+      "calledMethodsStatic": {
+        "scala_concurrent_duration_Duration": ["init___"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_Predef", "scala_scalajs_runtime_Long", "java_util_concurrent_TimeUnit"]
+    },
+    "mul__J__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["mul__J__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "div__J__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["div__J__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "$$times__J__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$times__J__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "$$div__J__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$div__J__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "max__Lscala_concurrent_duration_FiniteDuration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["max__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "min__Lscala_concurrent_duration_FiniteDuration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["min__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "minus__Lscala_concurrent_duration_FiniteDuration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["minus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "plus__Lscala_concurrent_duration_FiniteDuration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["plus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "$$minus__Lscala_concurrent_duration_FiniteDuration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$minus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "$$plus__Lscala_concurrent_duration_FiniteDuration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["$$plus__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "compare__Lscala_concurrent_duration_Duration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["compare__Lscala_concurrent_duration_Duration__I"]
+      }
+    },
+    "fromNow__": {
+      "calledMethods": {
+        "scala_concurrent_duration_FiniteDuration": ["fromNow__Lscala_concurrent_duration_Deadline"]
+      }
+    }
+  }
+}

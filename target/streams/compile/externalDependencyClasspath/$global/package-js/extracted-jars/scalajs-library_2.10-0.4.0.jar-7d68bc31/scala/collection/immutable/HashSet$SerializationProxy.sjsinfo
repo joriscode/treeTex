@@ -1,0 +1,60 @@
+{
+  "name": "scala.collection.immutable.HashSet$SerializationProxy",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_HashSet$SerializationProxy",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_HashSet$SerializationProxy", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$collection$immutable$HashSet$SerializationProxy$$orig__Lscala_collection_immutable_HashSet": {},
+    "scala$collection$immutable$HashSet$SerializationProxy$$orig$und$eq__Lscala_collection_immutable_HashSet__V": {},
+    "writeObject__p1__Ljava_io_ObjectOutputStream__V": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$SerializationProxy": ["scala$collection$immutable$HashSet$SerializationProxy$$orig__Lscala_collection_immutable_HashSet"],
+        "scala_collection_immutable_HashSet": ["foreach__Lscala_Function1__V", "size__I"],
+        "java_io_ObjectOutputStream": ["writeObject__O__V", "writeInt__I__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "readObject__p1__Ljava_io_ObjectInputStream__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_immutable_HashSet$SerializationProxy": ["scala$collection$immutable$HashSet$SerializationProxy$$orig__Lscala_collection_immutable_HashSet", "scala$collection$immutable$HashSet$SerializationProxy$$orig$und$eq__Lscala_collection_immutable_HashSet__V"],
+        "scala_collection_immutable_HashSet$": ["empty__Lscala_collection_immutable_HashSet"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "java_io_ObjectInputStream": ["readInt__I", "readObject__O"],
+        "scala_collection_immutable_HashSet": ["$$plus__O__Lscala_collection_immutable_HashSet"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_collection_immutable_HashSet", "scala_Predef"]
+    },
+    "readResolve__p1__O": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$SerializationProxy": ["scala$collection$immutable$HashSet$SerializationProxy$$orig__Lscala_collection_immutable_HashSet"]
+      }
+    },
+    "init___Lscala_collection_immutable_HashSet": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "scala$collection$immutable$HashSet$SerializationProxy$$orig$und$eq__Lscala_collection_immutable_HashSet__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$SerializationProxy": ["scala$collection$immutable$HashSet$SerializationProxy$$orig$und$eq__Lscala_collection_immutable_HashSet__V"]
+      }
+    },
+    "scala$collection$immutable$HashSet$SerializationProxy$$orig__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$SerializationProxy": ["scala$collection$immutable$HashSet$SerializationProxy$$orig__Lscala_collection_immutable_HashSet"]
+      }
+    }
+  }
+}

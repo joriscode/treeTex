@@ -1,0 +1,52 @@
+{
+  "name": "scala.runtime.StringAdd",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_StringAdd",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_StringAdd", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "self__O": {},
+    "$$plus__T__T": {
+      "calledMethods": {
+        "scala_runtime_StringAdd$": ["$$plus$extension__O__T__T"],
+        "scala_runtime_StringAdd": ["self__O"]
+      },
+      "accessedModules": ["scala_runtime_StringAdd"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_StringAdd$": ["hashCode$extension__O__I"],
+        "scala_runtime_StringAdd": ["self__O"]
+      },
+      "accessedModules": ["scala_runtime_StringAdd"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_runtime_StringAdd$": ["equals$extension__O__O__Z"],
+        "scala_runtime_StringAdd": ["self__O"]
+      },
+      "accessedModules": ["scala_runtime_StringAdd"]
+    },
+    "init___O": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "$$plus__T__": {
+      "calledMethods": {
+        "scala_runtime_StringAdd": ["$$plus__T__T"]
+      }
+    },
+    "self__": {
+      "calledMethods": {
+        "scala_runtime_StringAdd": ["self__O"]
+      }
+    }
+  }
+}

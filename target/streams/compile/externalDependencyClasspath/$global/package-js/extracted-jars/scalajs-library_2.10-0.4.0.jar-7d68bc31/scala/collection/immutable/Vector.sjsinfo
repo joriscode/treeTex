@@ -1,0 +1,760 @@
+{
+  "name": "scala.collection.immutable.Vector",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Vector",
+  "superClass": "scala_collection_AbstractSeq",
+  "ancestors": ["scala_collection_immutable_Vector", "scala_collection_CustomParallelizable", "scala_Serializable", "java_io_Serializable", "scala_collection_immutable_VectorPointer", "scala_collection_immutable_IndexedSeq", "scala_collection_IndexedSeq", "scala_collection_IndexedSeqLike", "scala_collection_immutable_Seq", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSeq", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_PartialFunction", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "parCombiner__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_CustomParallelizable$class": ["scala_collection_CustomParallelizable$class__parCombiner__Lscala_collection_CustomParallelizable__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "depth__I": {},
+    "depth$und$eq__I__V": {},
+    "display0__AO": {},
+    "display0$und$eq__AO__V": {},
+    "display1__AO": {},
+    "display1$und$eq__AO__V": {},
+    "display2__AO": {},
+    "display2$und$eq__AO__V": {},
+    "display3__AO": {},
+    "display3$und$eq__AO__V": {},
+    "display4__AO": {},
+    "display4$und$eq__AO__V": {},
+    "display5__AO": {},
+    "display5$und$eq__AO__V": {},
+    "initFrom__Lscala_collection_immutable_VectorPointer__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__initFrom__Lscala_collection_immutable_VectorPointer__Lscala_collection_immutable_VectorPointer__V"]
+      }
+    },
+    "initFrom__Lscala_collection_immutable_VectorPointer__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__initFrom__Lscala_collection_immutable_VectorPointer__Lscala_collection_immutable_VectorPointer__I__V"]
+      }
+    },
+    "getElem__I__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__getElem__Lscala_collection_immutable_VectorPointer__I__I__O"]
+      }
+    },
+    "gotoPos__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__gotoPos__Lscala_collection_immutable_VectorPointer__I__I__V"]
+      }
+    },
+    "gotoNextBlockStart__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__gotoNextBlockStart__Lscala_collection_immutable_VectorPointer__I__I__V"]
+      }
+    },
+    "gotoNextBlockStartWritable__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__gotoNextBlockStartWritable__Lscala_collection_immutable_VectorPointer__I__I__V"]
+      }
+    },
+    "copyOf__AO__AO": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__copyOf__Lscala_collection_immutable_VectorPointer__AO__AO"]
+      }
+    },
+    "nullSlotAndCopy__AO__I__AO": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__nullSlotAndCopy__Lscala_collection_immutable_VectorPointer__AO__I__AO"]
+      }
+    },
+    "stabilize__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__stabilize__Lscala_collection_immutable_VectorPointer__I__V"]
+      }
+    },
+    "gotoPosWritable0__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__gotoPosWritable0__Lscala_collection_immutable_VectorPointer__I__I__V"]
+      }
+    },
+    "gotoPosWritable1__I__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__gotoPosWritable1__Lscala_collection_immutable_VectorPointer__I__I__I__V"]
+      }
+    },
+    "copyRange__AO__I__I__AO": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__copyRange__Lscala_collection_immutable_VectorPointer__AO__I__I__AO"]
+      }
+    },
+    "gotoFreshPosWritable0__I__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__gotoFreshPosWritable0__Lscala_collection_immutable_VectorPointer__I__I__I__V"]
+      }
+    },
+    "gotoFreshPosWritable1__I__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__gotoFreshPosWritable1__Lscala_collection_immutable_VectorPointer__I__I__I__V"]
+      }
+    },
+    "debug__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__debug__Lscala_collection_immutable_VectorPointer__V"]
+      }
+    },
+    "toIndexedSeq__Lscala_collection_immutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$class": ["scala_collection_immutable_IndexedSeq$class__toIndexedSeq__Lscala_collection_immutable_IndexedSeq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$class": ["scala_collection_immutable_IndexedSeq$class__seq__Lscala_collection_immutable_IndexedSeq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__hashCode__Lscala_collection_IndexedSeqLike__I"]
+      }
+    },
+    "thisCollection__Lscala_collection_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__thisCollection__Lscala_collection_IndexedSeqLike__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__toCollection__Lscala_collection_IndexedSeqLike__O__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "toBuffer__Lscala_collection_mutable_Buffer": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__toBuffer__Lscala_collection_IndexedSeqLike__Lscala_collection_mutable_Buffer"]
+      }
+    },
+    "toSeq__Lscala_collection_immutable_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__toSeq__Lscala_collection_immutable_Seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "startIndex__I": {},
+    "endIndex__I": {},
+    "companion__Lscala_collection_generic_GenericCompanion": {
+      "accessedModules": ["scala_collection_immutable_Vector"]
+    },
+    "dirty__Z": {},
+    "dirty$und$eq__Z__V": {},
+    "length__I": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["endIndex__I", "startIndex__I"]
+      }
+    },
+    "par__Lscala_collection_parallel_immutable_ParVector": {
+      "calledMethods": {
+        "scala_collection_parallel_immutable_ParVector": ["init___Lscala_collection_immutable_Vector"]
+      },
+      "instantiatedClasses": ["scala_collection_parallel_immutable_ParVector"]
+    },
+    "toVector__Lscala_collection_immutable_Vector": {},
+    "lengthCompare__I__I": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["length__I"]
+      }
+    },
+    "initIterator__Lscala_collection_immutable_VectorIterator__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorIterator": ["gotoPos__I__I__V", "initFrom__Lscala_collection_immutable_VectorPointer__V", "stabilize__I__V", "depth__I"],
+        "scala_collection_immutable_Vector": ["startIndex__I", "dirty__Z"]
+      }
+    },
+    "iterator__Lscala_collection_immutable_VectorIterator": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorIterator": ["init___I__I"],
+        "scala_collection_immutable_Vector": ["startIndex__I", "endIndex__I", "initIterator__Lscala_collection_immutable_VectorIterator__V"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_VectorIterator"]
+    },
+    "reverseIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$$anon$1": ["init___Lscala_collection_immutable_Vector"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Vector$$anon$1"]
+    },
+    "apply__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["checkRangeConvert__p4__I__I", "getElem__I__I__O"]
+      }
+    },
+    "checkRangeConvert__p4__I__I": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_immutable_Vector": ["startIndex__I", "endIndex__I"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "updated__I__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"],
+        "scala_collection_SeqLike$class": ["scala_collection_SeqLike$class__updated__Lscala_collection_SeqLike__I__O__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_Vector": ["updateAt__I__O__Lscala_collection_immutable_Vector"]
+      },
+      "accessedModules": ["scala_collection_immutable_IndexedSeq"]
+    },
+    "$$plus$colon__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"],
+        "scala_collection_SeqLike$class": ["scala_collection_SeqLike$class__$plus$colon__Lscala_collection_SeqLike__O__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_Vector": ["appendFront__O__Lscala_collection_immutable_Vector"]
+      },
+      "accessedModules": ["scala_collection_immutable_IndexedSeq"]
+    },
+    "$$colon$plus__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_SeqLike$class": ["scala_collection_SeqLike$class__$colon$plus__Lscala_collection_SeqLike__O__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_IndexedSeq$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"],
+        "scala_collection_immutable_Vector": ["appendBack__O__Lscala_collection_immutable_Vector"]
+      },
+      "accessedModules": ["scala_collection_immutable_IndexedSeq"]
+    },
+    "take__I__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["empty__Lscala_collection_immutable_Vector"],
+        "scala_collection_immutable_Vector": ["startIndex__I", "endIndex__I", "dropBack0__p4__I__Lscala_collection_immutable_Vector"]
+      },
+      "accessedModules": ["scala_collection_immutable_Vector"]
+    },
+    "drop__I__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["empty__Lscala_collection_immutable_Vector"],
+        "scala_collection_immutable_Vector": ["startIndex__I", "endIndex__I", "dropFront0__p4__I__Lscala_collection_immutable_Vector"]
+      },
+      "accessedModules": ["scala_collection_immutable_Vector"]
+    },
+    "takeRight__I__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["empty__Lscala_collection_immutable_Vector"],
+        "scala_collection_immutable_Vector": ["endIndex__I", "startIndex__I", "dropFront0__p4__I__Lscala_collection_immutable_Vector"]
+      },
+      "accessedModules": ["scala_collection_immutable_Vector"]
+    },
+    "dropRight__I__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["empty__Lscala_collection_immutable_Vector"],
+        "scala_collection_immutable_Vector": ["endIndex__I", "startIndex__I", "dropBack0__p4__I__Lscala_collection_immutable_Vector"]
+      },
+      "accessedModules": ["scala_collection_immutable_Vector"]
+    },
+    "head__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["apply__I__O", "isEmpty__Z"],
+        "java_lang_UnsupportedOperationException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException"]
+    },
+    "tail__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["drop__I__Lscala_collection_immutable_Vector", "isEmpty__Z"],
+        "java_lang_UnsupportedOperationException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException"]
+    },
+    "last__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["length__I", "apply__I__O", "isEmpty__Z"],
+        "java_lang_UnsupportedOperationException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException"]
+    },
+    "init__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["dropRight__I__Lscala_collection_immutable_Vector", "isEmpty__Z"],
+        "java_lang_UnsupportedOperationException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException"]
+    },
+    "slice__I__I__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["take__I__Lscala_collection_immutable_Vector", "drop__I__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "splitAt__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["take__I__Lscala_collection_immutable_Vector", "drop__I__Lscala_collection_immutable_Vector"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_TraversableLike$class": ["scala_collection_TraversableLike$class__$plus$plus__Lscala_collection_TraversableLike__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_GenTraversableOnce": ["seq__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "updateAt__I__O__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display0__AO", "startIndex__I", "endIndex__I", "checkRangeConvert__p4__I__I", "gotoPosWritable__p4__I__I__I__V", "dirty$und$eq__Z__V", "dirty__Z", "initFrom__Lscala_collection_immutable_VectorPointer__V", "init___I__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Vector"]
+    },
+    "gotoPosWritable__p4__I__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoPosWritable1__I__I__I__V", "gotoPosWritable0__I__I__V", "dirty$und$eq__Z__V", "dirty__Z"]
+      }
+    },
+    "gotoFreshPosWritable__p4__I__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoFreshPosWritable1__I__I__I__V", "dirty$und$eq__Z__V", "gotoFreshPosWritable0__I__I__I__V", "dirty__Z"]
+      }
+    },
+    "appendFront__O__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display0__AO", "startIndex__I", "gotoPosWritable__p4__I__I__I__V", "display0$und$eq__AO__V", "depth__I", "initFrom__Lscala_collection_immutable_VectorPointer__V", "shiftTopLevel__p4__I__I__V", "endIndex__I", "gotoFreshPosWritable__p4__I__I__I__V", "dirty$und$eq__Z__V", "depth$und$eq__I__V", "debug__V", "dirty__Z", "init___I__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Vector"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "appendBack__O__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display0__AO", "startIndex__I", "gotoPosWritable__p4__I__I__I__V", "display0$und$eq__AO__V", "depth__I", "initFrom__Lscala_collection_immutable_VectorPointer__V", "shiftTopLevel__p4__I__I__V", "endIndex__I", "gotoFreshPosWritable__p4__I__I__I__V", "dirty$und$eq__Z__V", "depth$und$eq__I__V", "debug__V", "dirty__Z", "init___I__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Vector"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "shiftTopLevel__p4__I__I__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_Vector": ["display0__AO", "display4$und$eq__AO__V", "display0$und$eq__AO__V", "depth__I", "display1__AO", "display5$und$eq__AO__V", "display1$und$eq__AO__V", "display3__AO", "display3$und$eq__AO__V", "display4__AO", "display2$und$eq__AO__V", "display2__AO", "display5__AO", "copyRange__AO__I__I__AO"]
+      },
+      "instantiatedClasses": ["scala_MatchError"]
+    },
+    "zeroLeft__p4__AO__I__V": {},
+    "zeroRight__p4__AO__I__V": {},
+    "copyLeft__p4__AO__I__AO": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["arraycopy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["scala_compat_Platform"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "copyRight__p4__AO__I__AO": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["arraycopy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["scala_compat_Platform"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "preClean__p4__I__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_Vector": ["display4$und$eq__AO__V", "depth$und$eq__I__V", "display5$und$eq__AO__V", "display2$und$eq__AO__V", "display1$und$eq__AO__V", "display3$und$eq__AO__V"]
+      },
+      "instantiatedClasses": ["scala_MatchError"]
+    },
+    "cleanLeftEdge__p4__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"],
+        "scala_collection_immutable_Vector": ["display0__AO", "display4$und$eq__AO__V", "display1__AO", "display5$und$eq__AO__V", "display1$und$eq__AO__V", "display3__AO", "display3$und$eq__AO__V", "copyRight__p4__AO__I__AO", "display4__AO", "zeroLeft__p4__AO__I__V", "display2$und$eq__AO__V", "display2__AO", "display5__AO"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "cleanRightEdge__p4__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"],
+        "scala_collection_immutable_Vector": ["display0__AO", "display4$und$eq__AO__V", "display1__AO", "display5$und$eq__AO__V", "display1$und$eq__AO__V", "display3__AO", "display3$und$eq__AO__V", "display4__AO", "copyLeft__p4__AO__I__AO", "zeroRight__p4__AO__I__V", "display2$und$eq__AO__V", "display2__AO", "display5__AO"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "requiredDepth__p4__I__I": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "dropFront0__p4__I__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["requiredDepth__p4__I__I", "endIndex__I", "gotoPosWritable__p4__I__I__I__V", "cleanLeftEdge__p4__I__V", "dirty$und$eq__Z__V", "preClean__p4__I__V", "dirty__Z", "initFrom__Lscala_collection_immutable_VectorPointer__V", "init___I__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Vector"]
+    },
+    "dropBack0__p4__I__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["requiredDepth__p4__I__I", "startIndex__I", "gotoPosWritable__p4__I__I__I__V", "dirty$und$eq__Z__V", "preClean__p4__I__V", "cleanRightEdge__p4__I__V", "dirty__Z", "initFrom__Lscala_collection_immutable_VectorPointer__V", "init___I__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Vector"]
+    },
+    "toTraversable__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["toTraversable__Lscala_collection_Traversable"]
+      }
+    },
+    "groupBy__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["groupBy__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "toIterable__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["toIterable__Lscala_collection_Iterable"]
+      }
+    },
+    "isDefinedAt__O__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["isDefinedAt__I__Z"]
+      }
+    },
+    "view__I__I__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["view__I__I__Lscala_collection_SeqView"]
+      }
+    },
+    "view__I__I__Lscala_collection_IterableView": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["view__I__I__Lscala_collection_SeqView"]
+      }
+    },
+    "view__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["view__Lscala_collection_SeqView"]
+      }
+    },
+    "view__Lscala_collection_IterableView": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["view__Lscala_collection_SeqView"]
+      }
+    },
+    "toSeq__Lscala_collection_GenSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["toSeq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "toSeq__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["toSeq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["toCollection__O__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["toCollection__O__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["toCollection__O__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "thisCollection__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["thisCollection__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "thisCollection__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["thisCollection__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "thisCollection__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["thisCollection__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Traversable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "seq__Lscala_collection_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["seq__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "slice__I__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["slice__I__I__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "init__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["init__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "tail__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["tail__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "dropRight__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["dropRight__I__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "takeRight__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["takeRight__I__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "drop__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["drop__I__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "take__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["take__I__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["apply__I__O"]
+      }
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["iterator__Lscala_collection_immutable_VectorIterator"]
+      }
+    },
+    "par__Lscala_collection_Parallel": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["par__Lscala_collection_parallel_immutable_ParVector"]
+      }
+    },
+    "init___I__I__I": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer$class": ["scala_collection_immutable_VectorPointer$class__$init$__Lscala_collection_immutable_VectorPointer__V"],
+        "scala_collection_IndexedSeq$class": ["scala_collection_IndexedSeq$class__$init$__Lscala_collection_IndexedSeq__V"],
+        "scala_collection_immutable_Iterable$class": ["scala_collection_immutable_Iterable$class__$init$__Lscala_collection_immutable_Iterable__V"],
+        "scala_collection_CustomParallelizable$class": ["scala_collection_CustomParallelizable$class__$init$__Lscala_collection_CustomParallelizable__V"],
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__$init$__Lscala_collection_immutable_Seq__V"],
+        "scala_collection_immutable_IndexedSeq$class": ["scala_collection_immutable_IndexedSeq$class__$init$__Lscala_collection_immutable_IndexedSeq__V"],
+        "scala_collection_immutable_Traversable$class": ["scala_collection_immutable_Traversable$class__$init$__Lscala_collection_immutable_Traversable__V"],
+        "scala_collection_IndexedSeqLike$class": ["scala_collection_IndexedSeqLike$class__$init$__Lscala_collection_IndexedSeqLike__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractSeq": ["init___"]
+      }
+    },
+    "debug__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["debug__V"]
+      }
+    },
+    "gotoFreshPosWritable1__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoFreshPosWritable1__I__I__I__V"]
+      }
+    },
+    "gotoFreshPosWritable0__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoFreshPosWritable0__I__I__I__V"]
+      }
+    },
+    "copyRange__AO__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["copyRange__AO__I__I__AO"]
+      }
+    },
+    "gotoPosWritable1__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoPosWritable1__I__I__I__V"]
+      }
+    },
+    "gotoPosWritable0__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoPosWritable0__I__I__V"]
+      }
+    },
+    "stabilize__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["stabilize__I__V"]
+      }
+    },
+    "nullSlotAndCopy__AO__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["nullSlotAndCopy__AO__I__AO"]
+      }
+    },
+    "copyOf__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["copyOf__AO__AO"]
+      }
+    },
+    "gotoNextBlockStartWritable__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoNextBlockStartWritable__I__I__V"]
+      }
+    },
+    "gotoNextBlockStart__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoNextBlockStart__I__I__V"]
+      }
+    },
+    "gotoPos__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["gotoPos__I__I__V"]
+      }
+    },
+    "getElem__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["getElem__I__I__O"]
+      }
+    },
+    "initFrom__Lscala_collection_immutable_VectorPointer__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["initFrom__Lscala_collection_immutable_VectorPointer__I__V"]
+      }
+    },
+    "initFrom__Lscala_collection_immutable_VectorPointer__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["initFrom__Lscala_collection_immutable_VectorPointer__V"]
+      }
+    },
+    "display5$und$eq__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display5$und$eq__AO__V"]
+      }
+    },
+    "display5__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display5__AO"]
+      }
+    },
+    "display4$und$eq__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display4$und$eq__AO__V"]
+      }
+    },
+    "display4__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display4__AO"]
+      }
+    },
+    "display3$und$eq__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display3$und$eq__AO__V"]
+      }
+    },
+    "display3__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display3__AO"]
+      }
+    },
+    "display2$und$eq__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display2$und$eq__AO__V"]
+      }
+    },
+    "display2__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display2__AO"]
+      }
+    },
+    "display1$und$eq__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display1$und$eq__AO__V"]
+      }
+    },
+    "display1__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display1__AO"]
+      }
+    },
+    "display0$und$eq__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display0$und$eq__AO__V"]
+      }
+    },
+    "display0__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["display0__AO"]
+      }
+    },
+    "depth$und$eq__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["depth$und$eq__I__V"]
+      }
+    },
+    "depth__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["depth__I"]
+      }
+    },
+    "appendBack__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["appendBack__O__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "appendFront__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["appendFront__O__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "updateAt__I__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["updateAt__I__O__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "initIterator__Lscala_collection_immutable_VectorIterator__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["initIterator__Lscala_collection_immutable_VectorIterator__V"]
+      }
+    },
+    "dirty$und$eq__Z__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["dirty$und$eq__Z__V"]
+      }
+    },
+    "dirty__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["dirty__Z"]
+      }
+    },
+    "endIndex__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["endIndex__I"]
+      }
+    },
+    "startIndex__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector": ["startIndex__I"]
+      }
+    }
+  }
+}

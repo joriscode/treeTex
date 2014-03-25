@@ -1,0 +1,41 @@
+{
+  "name": "java.util.IllegalFormatCodePointException",
+  "ancestorCount": 6,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_IllegalFormatCodePointException",
+  "superClass": "java_util_IllegalFormatException",
+  "ancestors": ["java_util_IllegalFormatCodePointException", "java_util_IllegalFormatException", "java_lang_IllegalArgumentException", "java_lang_RuntimeException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "c__p6__I": {},
+    "getCodePoint__I": {
+      "calledMethods": {
+        "java_util_IllegalFormatCodePointException": ["c__p6__I"]
+      }
+    },
+    "getMessage__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"],
+        "java_util_IllegalFormatCodePointException": ["c__p6__I"]
+      },
+      "instantiatedClasses": ["scala_StringContext"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "init___I": {
+      "calledMethodsStatic": {
+        "java_util_IllegalFormatException": ["init___"]
+      }
+    },
+    "getCodePoint__": {
+      "calledMethods": {
+        "java_util_IllegalFormatCodePointException": ["getCodePoint__I"]
+      }
+    }
+  }
+}

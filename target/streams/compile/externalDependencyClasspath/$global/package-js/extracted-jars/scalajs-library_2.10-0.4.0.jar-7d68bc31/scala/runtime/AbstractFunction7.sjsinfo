@@ -1,0 +1,53 @@
+{
+  "name": "scala.runtime.AbstractFunction7",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_AbstractFunction7",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_AbstractFunction7", "scala_Function7", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "curried__Lscala_Function1": {
+      "calledMethods": {
+        "scala_Function7$class": ["scala_Function7$class__curried__Lscala_Function7__Lscala_Function1"]
+      }
+    },
+    "tupled__Lscala_Function1": {
+      "calledMethods": {
+        "scala_Function7$class": ["scala_Function7$class__tupled__Lscala_Function7__Lscala_Function1"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Function7$class": ["scala_Function7$class__toString__Lscala_Function7__T"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Function7$class": ["scala_Function7$class__$init$__Lscala_Function7__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "tupled__": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction7": ["tupled__Lscala_Function1"]
+      }
+    },
+    "curried__": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction7": ["curried__Lscala_Function1"]
+      }
+    },
+    "apply__O__O__O__O__O__O__O__": {
+      "calledMethods": {
+        "scala_Function7": ["apply__O__O__O__O__O__O__O__O"]
+      }
+    }
+  }
+}

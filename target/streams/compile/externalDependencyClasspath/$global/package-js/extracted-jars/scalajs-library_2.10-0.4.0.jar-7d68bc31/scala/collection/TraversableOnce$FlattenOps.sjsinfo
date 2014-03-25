@@ -1,0 +1,31 @@
+{
+  "name": "scala.collection.TraversableOnce$FlattenOps",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableOnce$FlattenOps",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_TraversableOnce$FlattenOps", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "flatten__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$FlattenOps$$anon$1": ["init___Lscala_collection_TraversableOnce$FlattenOps"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableOnce$FlattenOps$$anon$1"]
+    },
+    "init___Lscala_collection_TraversableOnce": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "flatten__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$FlattenOps": ["flatten__Lscala_collection_Iterator"]
+      }
+    }
+  }
+}

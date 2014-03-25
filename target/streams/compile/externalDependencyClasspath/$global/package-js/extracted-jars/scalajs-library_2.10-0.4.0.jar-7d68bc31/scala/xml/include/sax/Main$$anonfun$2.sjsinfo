@@ -1,0 +1,39 @@
+{
+  "name": "scala.xml.include.sax.Main$$anonfun$2",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_include_sax_Main$$anonfun$2",
+  "superClass": "scala_runtime_AbstractFunction0",
+  "ancestors": ["scala_xml_include_sax_Main$$anonfun$2", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lorg_xml_sax_XMLReader": {
+      "calledMethods": {
+        "org_xml_sax_helpers_XMLReaderFactory$": ["createXMLReader__T__Lorg_xml_sax_XMLReader"],
+        "scala_Option": ["getOrElse__Lscala_Function0__O"],
+        "scala_xml_package$": ["XercesClassName__T"],
+        "scala_runtime_NonLocalReturnControl$mcV$sp": ["init___O__Lscala_runtime_BoxedUnit"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_xml_include_sax_Main$": ["scala$xml$include$sax$Main$$saxe$1__Lscala_Function0__Lscala_Option", "scala$xml$include$sax$Main$$fail$1__T__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_runtime_NonLocalReturnControl$mcV$sp"],
+      "accessedModules": ["scala_xml_package", "org_xml_sax_helpers_XMLReaderFactory", "scala_xml_include_sax_Main", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["org_xml_sax_XMLReader"]
+    },
+    "apply__O": {
+      "calledMethods": {
+        "scala_xml_include_sax_Main$$anonfun$2": ["apply__Lorg_xml_sax_XMLReader"]
+      }
+    },
+    "init___O": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction0": ["init___"]
+      }
+    }
+  }
+}

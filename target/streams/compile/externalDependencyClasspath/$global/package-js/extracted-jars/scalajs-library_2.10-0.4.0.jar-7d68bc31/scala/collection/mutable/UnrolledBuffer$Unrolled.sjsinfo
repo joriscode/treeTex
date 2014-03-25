@@ -1,0 +1,256 @@
+{
+  "name": "scala.collection.mutable.UnrolledBuffer$Unrolled",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_UnrolledBuffer$Unrolled",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_UnrolledBuffer$Unrolled", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "size__I": {},
+    "size$und$eq__I__V": {},
+    "array__O": {},
+    "array$und$eq__O__V": {},
+    "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled": {},
+    "next$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V": {},
+    "buff__Lscala_collection_mutable_UnrolledBuffer": {},
+    "nextlength__p1__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"],
+        "scala_collection_mutable_UnrolledBuffer": ["calcNextLength__I__I"],
+        "scala_collection_mutable_UnrolledBuffer$": ["unrolledlength__I"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["array__O", "buff__Lscala_collection_mutable_UnrolledBuffer"]
+      },
+      "accessedModules": ["scala_collection_mutable_UnrolledBuffer", "scala_runtime_ScalaRunTime"]
+    },
+    "append__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I", "array$undupdate__O__I__O__V"],
+        "scala_reflect_ClassTag": ["newArray__I__O"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "init___I__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled__Lscala_collection_mutable_UnrolledBuffer__Lscala_reflect_ClassTag", "array__O", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled", "size$und$eq__I__V", "buff__Lscala_collection_mutable_UnrolledBuffer", "next$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V", "nextlength__p1__I"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_UnrolledBuffer$Unrolled"],
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "apply__I__O": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "update__I__O__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undupdate__O__I__O__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime", "scala_runtime_BoxedUnit"]
+    },
+    "locate__I__Lscala_collection_mutable_UnrolledBuffer$Unrolled": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      }
+    },
+    "prepend__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I", "array$undupdate__O__I__O__V"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O", "shiftright__p1__V", "size$und$eq__I__V", "buff__Lscala_collection_mutable_UnrolledBuffer", "init___Lscala_collection_mutable_UnrolledBuffer__Lscala_reflect_ClassTag", "append__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled", "next$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_UnrolledBuffer$Unrolled"],
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "shiftright__p1__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O", "array$undupdate__O__I__O__V"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "remove__I__Lscala_collection_mutable_UnrolledBuffer__O": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O"],
+        "scala_collection_mutable_UnrolledBuffer": ["lastPtr$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O", "shiftleft__p1__I__V", "tryMergeWithNext__Z", "size$und$eq__I__V", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "shiftleft__p1__I__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O", "array$undupdate__O__I__O__V"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O", "nullout__p1__I__I__V"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "tryMergeWithNext__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"],
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_mutable_UnrolledBuffer$": ["waterlineDelim__I", "waterline__I"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled", "size$und$eq__I__V", "next$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V"]
+      },
+      "accessedModules": ["scala_collection_mutable_UnrolledBuffer", "scala_Array", "scala_runtime_ScalaRunTime"]
+    },
+    "insertAll__I__Lscala_collection_Traversable__Lscala_collection_mutable_UnrolledBuffer__V": {
+      "calledMethods": {
+        "scala_reflect_ClassTag": ["newArray__I__O"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "init___I__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled__Lscala_collection_mutable_UnrolledBuffer__Lscala_reflect_ClassTag", "array__O", "tryMergeWithNext__Z", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled", "size$und$eq__I__V", "buff__Lscala_collection_mutable_UnrolledBuffer", "append__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled", "next$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V", "nullout__p1__I__I__V"],
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_Traversable": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_collection_mutable_UnrolledBuffer": ["lastPtr$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V"],
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_UnrolledBuffer$Unrolled", "scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_Array", "scala_runtime_ScalaRunTime", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_mutable_UnrolledBuffer$Unrolled"]
+    },
+    "nullout__p1__I__I__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undupdate__O__I__O__V"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["array__O"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "bind__Lscala_collection_mutable_UnrolledBuffer$Unrolled__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["assert__Z__V"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["tryMergeWithNext__Z", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled", "next$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["mkString__T__T__T__T", "take__I__O"],
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"],
+        "scala_Predef$": ["genericArrayOps__O__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I", "array__O", "next__Lscala_collection_mutable_UnrolledBuffer$Unrolled", "toString__T"]
+      },
+      "accessedModules": ["scala_Predef", "scala_runtime_ScalaRunTime"]
+    },
+    "init___I__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled__Lscala_collection_mutable_UnrolledBuffer__Lscala_reflect_ClassTag": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "init___Lscala_reflect_ClassTag": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$": ["unrolledlength__I"],
+        "scala_reflect_ClassTag": ["newArray__I__O"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["init___I__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled__Lscala_collection_mutable_UnrolledBuffer__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_collection_mutable_UnrolledBuffer"]
+    },
+    "init___Lscala_collection_mutable_UnrolledBuffer__Lscala_reflect_ClassTag": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$": ["unrolledlength__I"],
+        "scala_reflect_ClassTag": ["newArray__I__O"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["init___I__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled__Lscala_collection_mutable_UnrolledBuffer__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_collection_mutable_UnrolledBuffer"]
+    },
+    "bind__Lscala_collection_mutable_UnrolledBuffer$Unrolled__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["bind__Lscala_collection_mutable_UnrolledBuffer$Unrolled__Z"]
+      }
+    },
+    "insertAll__I__Lscala_collection_Traversable__Lscala_collection_mutable_UnrolledBuffer__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["insertAll__I__Lscala_collection_Traversable__Lscala_collection_mutable_UnrolledBuffer__V"]
+      }
+    },
+    "tryMergeWithNext__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["tryMergeWithNext__Z"]
+      }
+    },
+    "remove__I__Lscala_collection_mutable_UnrolledBuffer__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["remove__I__Lscala_collection_mutable_UnrolledBuffer__O"]
+      }
+    },
+    "prepend__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["prepend__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      }
+    },
+    "locate__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["locate__I__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      }
+    },
+    "update__I__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["update__I__O__V"]
+      }
+    },
+    "apply__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["apply__I__O"]
+      }
+    },
+    "foreach__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["foreach__Lscala_Function1__V"]
+      }
+    },
+    "append__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["append__O__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      }
+    },
+    "buff__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["buff__Lscala_collection_mutable_UnrolledBuffer"]
+      }
+    },
+    "next$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["next$und$eq__Lscala_collection_mutable_UnrolledBuffer$Unrolled__V"]
+      }
+    },
+    "next__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["next__Lscala_collection_mutable_UnrolledBuffer$Unrolled"]
+      }
+    },
+    "array$und$eq__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["array$und$eq__O__V"]
+      }
+    },
+    "array__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["array__O"]
+      }
+    },
+    "size$und$eq__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size$und$eq__I__V"]
+      }
+    },
+    "size__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$Unrolled": ["size__I"]
+      }
+    }
+  }
+}

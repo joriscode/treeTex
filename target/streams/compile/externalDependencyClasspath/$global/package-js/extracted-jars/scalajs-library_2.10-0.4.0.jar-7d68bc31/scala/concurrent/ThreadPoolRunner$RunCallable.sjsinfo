@@ -1,0 +1,50 @@
+{
+  "name": "scala.concurrent.ThreadPoolRunner$RunCallable",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_ThreadPoolRunner$RunCallable",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_ThreadPoolRunner$RunCallable", "java_util_concurrent_Callable", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "run__V": {
+      "calledMethods": {
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "call__O": {
+      "calledMethods": {
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "scala$concurrent$ThreadPoolRunner$RunCallable$$$outer__Lscala_concurrent_ThreadPoolRunner": {},
+    "init___Lscala_concurrent_ThreadPoolRunner__Lscala_Function0": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$concurrent$ThreadPoolRunner$RunCallable$$$outer__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadPoolRunner$RunCallable": ["scala$concurrent$ThreadPoolRunner$RunCallable$$$outer__Lscala_concurrent_ThreadPoolRunner"]
+      }
+    },
+    "call__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadPoolRunner$RunCallable": ["call__O"]
+      }
+    },
+    "run__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadPoolRunner$RunCallable": ["run__V"]
+      }
+    }
+  }
+}

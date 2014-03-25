@@ -1,0 +1,629 @@
+{
+  "name": "scala.collection.mutable.BitSet",
+  "ancestorCount": 5,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_BitSet",
+  "superClass": "scala_collection_mutable_AbstractSet",
+  "ancestors": ["scala_collection_mutable_BitSet", "scala_Serializable", "java_io_Serializable", "scala_collection_BitSet", "scala_collection_BitSetLike", "scala_collection_mutable_SortedSet", "scala_collection_SortedSet", "scala_collection_SortedSetLike", "scala_collection_generic_Sorted", "scala_collection_mutable_AbstractSet", "scala_collection_mutable_Set", "scala_collection_mutable_SetLike", "scala_collection_mutable_Cloneable", "scala_Cloneable", "java_lang_Cloneable", "scala_collection_generic_Shrinkable", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "scala_collection_script_Scriptable", "scala_collection_Set", "scala_collection_SetLike", "scala_collection_generic_Subtractable", "scala_collection_GenSet", "scala_collection_generic_GenericSetTemplate", "scala_collection_GenSetLike", "scala_Function1", "scala_collection_mutable_AbstractIterable", "scala_collection_mutable_Iterable", "scala_collection_mutable_Traversable", "scala_Mutable", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toBitMask__AJ": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__toBitMask__Lscala_collection_BitSetLike__AJ"]
+      }
+    },
+    "size__I": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__size__Lscala_collection_BitSetLike__I"]
+      }
+    },
+    "ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__ordering__Lscala_collection_BitSetLike__Lscala_math_Ordering"]
+      }
+    },
+    "rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__rangeImpl__Lscala_collection_BitSetLike__Lscala_Option__Lscala_Option__Lscala_collection_BitSetLike"]
+      }
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__iterator__Lscala_collection_BitSetLike__Lscala_collection_Iterator"]
+      }
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__foreach__Lscala_collection_BitSetLike__Lscala_Function1__V"]
+      }
+    },
+    "$$bar__Lscala_collection_BitSet__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__$bar__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Lscala_collection_BitSetLike"]
+      }
+    },
+    "$$amp__Lscala_collection_BitSet__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__$amp__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Lscala_collection_BitSetLike"]
+      }
+    },
+    "$$amp$tilde__Lscala_collection_BitSet__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__$amp$tilde__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Lscala_collection_BitSetLike"]
+      }
+    },
+    "$$up__Lscala_collection_BitSet__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__$up__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Lscala_collection_BitSetLike"]
+      }
+    },
+    "contains__I__Z": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__contains__Lscala_collection_BitSetLike__I__Z"]
+      }
+    },
+    "subsetOf__Lscala_collection_BitSet__Z": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__subsetOf__Lscala_collection_BitSetLike__Lscala_collection_BitSet__Z"]
+      }
+    },
+    "addString__Lscala_collection_mutable_StringBuilder__T__T__T__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__addString__Lscala_collection_BitSetLike__Lscala_collection_mutable_StringBuilder__T__T__T__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "stringPrefix__T": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__stringPrefix__Lscala_collection_BitSetLike__T"]
+      }
+    },
+    "scala$collection$SortedSetLike$$super$subsetOf__Lscala_collection_GenSet__Z": {
+      "calledMethods": {
+        "scala_collection_GenSetLike$class": ["scala_collection_GenSetLike$class__subsetOf__Lscala_collection_GenSetLike__Lscala_collection_GenSet__Z"]
+      }
+    },
+    "keySet__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike$class": ["scala_collection_SortedSetLike$class__keySet__Lscala_collection_SortedSetLike__Lscala_collection_SortedSet"]
+      }
+    },
+    "firstKey__O": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike$class": ["scala_collection_SortedSetLike$class__firstKey__Lscala_collection_SortedSetLike__O"]
+      }
+    },
+    "lastKey__O": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike$class": ["scala_collection_SortedSetLike$class__lastKey__Lscala_collection_SortedSetLike__O"]
+      }
+    },
+    "from__O__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike$class": ["scala_collection_SortedSetLike$class__from__Lscala_collection_SortedSetLike__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "until__O__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike$class": ["scala_collection_SortedSetLike$class__until__Lscala_collection_SortedSetLike__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "range__O__O__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike$class": ["scala_collection_SortedSetLike$class__range__Lscala_collection_SortedSetLike__O__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "subsetOf__Lscala_collection_GenSet__Z": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike$class": ["scala_collection_SortedSetLike$class__subsetOf__Lscala_collection_SortedSetLike__Lscala_collection_GenSet__Z"]
+      }
+    },
+    "compare__O__O__I": {
+      "calledMethods": {
+        "scala_collection_generic_Sorted$class": ["scala_collection_generic_Sorted$class__compare__Lscala_collection_generic_Sorted__O__O__I"]
+      }
+    },
+    "to__O__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_collection_generic_Sorted$class": ["scala_collection_generic_Sorted$class__to__Lscala_collection_generic_Sorted__O__Lscala_collection_generic_Sorted"]
+      }
+    },
+    "hasAll__Lscala_collection_Iterator__Z": {
+      "calledMethods": {
+        "scala_collection_generic_Sorted$class": ["scala_collection_generic_Sorted$class__hasAll__Lscala_collection_generic_Sorted__Lscala_collection_Iterator__Z"]
+      }
+    },
+    "elems__AJ": {},
+    "elems$und$eq__AJ__V": {},
+    "empty__Lscala_collection_mutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["empty__Lscala_collection_mutable_BitSet"]
+      },
+      "accessedModules": ["scala_collection_mutable_BitSet"]
+    },
+    "nwords__I": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["elems__AJ"]
+      }
+    },
+    "word__I__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_collection_mutable_BitSet": ["nwords__I", "elems__AJ"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "updateWord__p5__I__J__V": {
+      "calledMethods": {
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_mutable_BitSet": ["nwords__I", "elems__AJ", "elems$und$eq__AJ__V"]
+      },
+      "accessedModules": ["scala_Array"]
+    },
+    "fromBitMaskNoCopy__AJ__Lscala_collection_mutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["init___AJ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_BitSet"]
+    },
+    "add__I__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__V"],
+        "scala_collection_BitSetLike$": ["LogWL__I"],
+        "scala_collection_mutable_BitSet": ["updateWord__p5__I__J__V", "word__I__J", "contains__I__Z"],
+        "scala_scalajs_runtime_Long": ["$$less$less__I__Lscala_scalajs_runtime_Long", "$$bar__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long", "fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_Predef", "scala_scalajs_runtime_Long", "scala_collection_BitSetLike"]
+    },
+    "remove__I__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__V"],
+        "scala_collection_BitSetLike$": ["LogWL__I"],
+        "scala_collection_mutable_BitSet": ["updateWord__p5__I__J__V", "word__I__J", "contains__I__Z"],
+        "scala_scalajs_runtime_Long": ["unary$und$tilde__Lscala_scalajs_runtime_Long", "$$less$less__I__Lscala_scalajs_runtime_Long", "$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long", "fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_Predef", "scala_scalajs_runtime_Long", "scala_collection_BitSetLike"]
+    },
+    "$$plus$eq__I__Lscala_collection_mutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["add__I__Z"]
+      }
+    },
+    "$$minus$eq__I__Lscala_collection_mutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["remove__I__Z"]
+      }
+    },
+    "clear__V": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["elems__AJ", "elems$und$eq__AJ__V"]
+      }
+    },
+    "toImmutable__Lscala_collection_immutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_immutable_BitSet$": ["fromBitMaskNoCopy__AJ__Lscala_collection_immutable_BitSet"],
+        "scala_collection_mutable_BitSet": ["elems__AJ"]
+      },
+      "accessedModules": ["scala_collection_immutable_BitSet"]
+    },
+    "clone__Lscala_collection_mutable_BitSet": {
+      "calledMethods": {
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_mutable_BitSet": ["elems__AJ", "init___AJ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_BitSet"],
+      "accessedModules": ["scala_Array"]
+    },
+    "toTraversable__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["toTraversable__Lscala_collection_Traversable"]
+      }
+    },
+    "groupBy__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["groupBy__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "repr__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["repr__O"]
+      },
+      "accessedClassData": ["scala_collection_generic_Subtractable"]
+    },
+    "repr__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["repr__O"]
+      },
+      "accessedClassData": ["scala_collection_generic_Sorted"]
+    },
+    "view__I__I__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["view__I__I__Lscala_collection_IterableView"]
+      }
+    },
+    "view__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["view__Lscala_collection_IterableView"]
+      }
+    },
+    "toIterable__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["toIterable__Lscala_collection_Iterable"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["toCollection__O__Lscala_collection_Iterable"]
+      }
+    },
+    "thisCollection__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["thisCollection__Lscala_collection_Iterable"]
+      }
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["apply__O__Z"]
+      }
+    },
+    "diff__Lscala_collection_GenSet__O": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["diff__Lscala_collection_GenSet__Lscala_collection_Set"]
+      }
+    },
+    "union__Lscala_collection_GenSet__O": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["union__Lscala_collection_GenSet__Lscala_collection_Set"]
+      }
+    },
+    "toSeq__Lscala_collection_GenSeq": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["toSeq__Lscala_collection_Seq"]
+      }
+    },
+    "$$minus$minus__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$minus$minus__Lscala_collection_GenTraversableOnce__Lscala_collection_mutable_Set"]
+      }
+    },
+    "$$minus__O__O__Lscala_collection_Seq__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$minus__O__O__Lscala_collection_Seq__Lscala_collection_mutable_Set"]
+      }
+    },
+    "$$minus__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$minus__O__Lscala_collection_mutable_Set"]
+      }
+    },
+    "$$minus__O__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$minus__O__Lscala_collection_mutable_Set"]
+      }
+    },
+    "$$minus__O__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$minus__O__Lscala_collection_mutable_Set"]
+      }
+    },
+    "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_mutable_Set"]
+      }
+    },
+    "$$plus__O__O__Lscala_collection_Seq__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$plus__O__O__Lscala_collection_Seq__Lscala_collection_mutable_Set"]
+      }
+    },
+    "$$plus__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$plus__O__Lscala_collection_mutable_Set"]
+      }
+    },
+    "$$plus__O__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$plus__O__Lscala_collection_mutable_Set"]
+      }
+    },
+    "result__O": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["result__Lscala_collection_mutable_Set"]
+      }
+    },
+    "seq__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["seq__Lscala_collection_mutable_Set"]
+      }
+    },
+    "range__O__O__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["range__O__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "until__O__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["until__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "from__O__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["from__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "contains__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["contains__I__Z"]
+      }
+    },
+    "rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_BitSetLike"]
+      }
+    },
+    "rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_BitSetLike"]
+      },
+      "accessedClassData": ["scala_collection_SortedSet"]
+    },
+    "clone__O": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["clone__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "clone__Lscala_collection_mutable_Set": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["clone__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "$$minus$eq__O__Lscala_collection_generic_Shrinkable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$minus$eq__I__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "$$minus$eq__O__Lscala_collection_mutable_SetLike": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$minus$eq__I__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$plus$eq__I__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$plus$eq__I__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_SetLike": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$plus$eq__I__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "remove__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["remove__I__Z"]
+      }
+    },
+    "add__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["add__I__Z"]
+      }
+    },
+    "fromBitMaskNoCopy__AJ__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["fromBitMaskNoCopy__AJ__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "empty__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["empty__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "empty__Lscala_collection_BitSetLike": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["empty__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "empty__Lscala_collection_GenSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["empty__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "empty__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["empty__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "empty__Lscala_collection_mutable_SortedSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["empty__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "empty__Lscala_collection_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["empty__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "init___AJ": {
+      "calledMethods": {
+        "scala_collection_BitSet$class": ["scala_collection_BitSet$class__$init$__Lscala_collection_BitSet__V"],
+        "scala_collection_generic_Sorted$class": ["scala_collection_generic_Sorted$class__$init$__Lscala_collection_generic_Sorted__V"],
+        "scala_collection_mutable_SortedSet$class": ["scala_collection_mutable_SortedSet$class__$init$__Lscala_collection_mutable_SortedSet__V"],
+        "scala_collection_SortedSet$class": ["scala_collection_SortedSet$class__$init$__Lscala_collection_SortedSet__V"],
+        "scala_collection_SortedSetLike$class": ["scala_collection_SortedSetLike$class__$init$__Lscala_collection_SortedSetLike__V"],
+        "scala_collection_BitSetLike$class": ["scala_collection_BitSetLike$class__$init$__Lscala_collection_BitSetLike__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_mutable_AbstractSet": ["init___"]
+      }
+    },
+    "init___I": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["max$extension__I__I__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_mutable_BitSet": ["init___AJ"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_collection_mutable_BitSet": ["init___I"]
+      }
+    },
+    "hasAll__Lscala_collection_Iterator__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["hasAll__Lscala_collection_Iterator__Z"]
+      }
+    },
+    "to__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["to__O__Lscala_collection_generic_Sorted"]
+      }
+    },
+    "compare__O__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["compare__O__O__I"]
+      }
+    },
+    "range__O__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["range__O__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "until__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["until__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "from__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["from__O__Lscala_collection_SortedSet"]
+      }
+    },
+    "lastKey__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["lastKey__O"]
+      }
+    },
+    "firstKey__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["firstKey__O"]
+      }
+    },
+    "keySet__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["keySet__Lscala_collection_SortedSet"]
+      }
+    },
+    "scala$collection$SortedSetLike$$super$subsetOf__Lscala_collection_GenSet__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["scala$collection$SortedSetLike$$super$subsetOf__Lscala_collection_GenSet__Z"]
+      }
+    },
+    "subsetOf__Lscala_collection_BitSet__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["subsetOf__Lscala_collection_BitSet__Z"]
+      }
+    },
+    "contains__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["contains__I__Z"]
+      }
+    },
+    "$$up__Lscala_collection_BitSet__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$up__Lscala_collection_BitSet__Lscala_collection_BitSetLike"]
+      }
+    },
+    "$$amp$tilde__Lscala_collection_BitSet__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$amp$tilde__Lscala_collection_BitSet__Lscala_collection_BitSetLike"]
+      }
+    },
+    "$$amp__Lscala_collection_BitSet__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$amp__Lscala_collection_BitSet__Lscala_collection_BitSetLike"]
+      }
+    },
+    "$$bar__Lscala_collection_BitSet__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$bar__Lscala_collection_BitSet__Lscala_collection_BitSetLike"]
+      }
+    },
+    "rangeImpl__Lscala_Option__Lscala_Option__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_BitSetLike"]
+      }
+    },
+    "ordering__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["ordering__Lscala_math_Ordering"]
+      }
+    },
+    "toBitMask__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["toBitMask__AJ"]
+      }
+    },
+    "toImmutable__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["toImmutable__Lscala_collection_immutable_BitSet"]
+      }
+    },
+    "$$minus$eq__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$minus$eq__I__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "$$plus$eq__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["$$plus$eq__I__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "remove__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["remove__I__Z"]
+      }
+    },
+    "add__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["add__I__Z"]
+      }
+    },
+    "fromBitMaskNoCopy__AJ__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["fromBitMaskNoCopy__AJ__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "word__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["word__I__J"]
+      }
+    },
+    "nwords__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["nwords__I"]
+      }
+    },
+    "elems$und$eq__AJ__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["elems$und$eq__AJ__V"]
+      }
+    },
+    "elems__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["elems__AJ"]
+      }
+    }
+  }
+}

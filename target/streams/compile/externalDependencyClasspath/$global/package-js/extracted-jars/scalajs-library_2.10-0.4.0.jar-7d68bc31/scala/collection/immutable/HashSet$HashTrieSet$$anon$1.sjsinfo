@@ -1,0 +1,30 @@
+{
+  "name": "scala.collection.immutable.HashSet$HashTrieSet$$anon$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_HashSet$HashTrieSet$$anon$1",
+  "superClass": "scala_collection_immutable_TrieIterator",
+  "ancestors": ["scala_collection_immutable_HashSet$HashTrieSet$$anon$1", "scala_collection_immutable_TrieIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "getElem__O__O": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$HashSet1": ["key__O"]
+      },
+      "accessedClassData": ["scala_collection_immutable_HashSet$HashSet1"]
+    },
+    "init___Lscala_collection_immutable_HashSet$HashTrieSet": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$HashTrieSet": ["elems__ALscala_collection_immutable_HashSet"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_immutable_TrieIterator": ["init___ALscala_collection_immutable_Iterable"]
+      },
+      "accessedClassData": ["scala_collection_immutable_Iterable"]
+    }
+  }
+}

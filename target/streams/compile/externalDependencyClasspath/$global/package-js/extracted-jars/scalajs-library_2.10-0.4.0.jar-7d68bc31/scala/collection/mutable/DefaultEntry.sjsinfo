@@ -1,0 +1,69 @@
+{
+  "name": "scala.collection.mutable.DefaultEntry",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_DefaultEntry",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_DefaultEntry", "scala_Serializable", "java_io_Serializable", "scala_collection_mutable_HashEntry", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "next__O": {},
+    "next$und$eq__O__V": {},
+    "key__O": {},
+    "value__O": {},
+    "value$und$eq__O__V": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_collection_mutable_DefaultEntry": ["chainString__T"]
+      }
+    },
+    "chainString__T": {
+      "calledMethods": {
+        "scala_collection_mutable_DefaultEntry": ["value__O", "next__O", "toString__T", "key__O"]
+      },
+      "accessedClassData": ["scala_collection_mutable_DefaultEntry"]
+    },
+    "init___O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_HashEntry$class": ["scala_collection_mutable_HashEntry$class__$init$__Lscala_collection_mutable_HashEntry__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "next$und$eq__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_DefaultEntry": ["next$und$eq__O__V"]
+      }
+    },
+    "next__": {
+      "calledMethods": {
+        "scala_collection_mutable_DefaultEntry": ["next__O"]
+      }
+    },
+    "chainString__": {
+      "calledMethods": {
+        "scala_collection_mutable_DefaultEntry": ["chainString__T"]
+      }
+    },
+    "value$und$eq__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_DefaultEntry": ["value$und$eq__O__V"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "scala_collection_mutable_DefaultEntry": ["value__O"]
+      }
+    },
+    "key__": {
+      "calledMethods": {
+        "scala_collection_mutable_DefaultEntry": ["key__O"]
+      }
+    }
+  }
+}

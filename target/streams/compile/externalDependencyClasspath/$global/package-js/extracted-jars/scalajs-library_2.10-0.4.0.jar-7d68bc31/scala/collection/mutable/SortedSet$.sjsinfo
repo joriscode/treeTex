@@ -1,0 +1,42 @@
+{
+  "name": "scala.collection.mutable.SortedSet$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_SortedSet$",
+  "superClass": "scala_collection_generic_MutableSortedSetFactory",
+  "ancestors": ["scala_collection_mutable_SortedSet$", "scala_collection_generic_MutableSortedSetFactory", "scala_collection_generic_SortedSetFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom": ["init___Lscala_collection_generic_SortedSetFactory__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom"]
+    },
+    "empty__Lscala_math_Ordering__Lscala_collection_mutable_SortedSet": {
+      "calledMethods": {
+        "scala_collection_mutable_TreeSet$": ["empty__Lscala_math_Ordering__Lscala_collection_mutable_TreeSet"]
+      },
+      "accessedModules": ["scala_collection_mutable_TreeSet"]
+    },
+    "empty__Lscala_math_Ordering__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_mutable_SortedSet$": ["empty__Lscala_math_Ordering__Lscala_collection_mutable_SortedSet"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_MutableSortedSetFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_mutable_SortedSet$": ["canBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

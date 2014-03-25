@@ -1,0 +1,41 @@
+{
+  "name": "scala.sys.process.ProcessImpl$SequentialProcess",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$SequentialProcess",
+  "superClass": "scala_sys_process_ProcessImpl$CompoundProcess",
+  "ancestors": ["scala_sys_process_ProcessImpl$SequentialProcess", "scala_sys_process_ProcessImpl$CompoundProcess", "scala_sys_process_ProcessImpl$BasicProcess", "scala_sys_process_Process", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "runAndExitValue__Lscala_Option": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$5$$anonfun$apply$2": ["init___Lscala_sys_process_ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$5__Lscala_sys_process_Process"],
+        "scala_sys_process_ProcessImpl$SequentialProcess": ["runInterruptible__Lscala_Function0__Lscala_Function0__Lscala_Option"],
+        "scala_sys_process_Process": ["exitValue__I", "destroy__V"],
+        "scala_Function1": ["apply$mcZI$sp__I__Z"],
+        "scala_Option": ["flatMap__Lscala_Function1__Lscala_Option"],
+        "scala_sys_process_ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$5$$anonfun$apply$3": ["init___Lscala_sys_process_ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$5__Lscala_sys_process_Process"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Some": ["init___O"],
+        "scala_sys_process_ProcessBuilder": ["run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$5$$anonfun$apply$3", "scala_scalajs_runtime_AnonFunction0", "scala_scalajs_runtime_AnonFunction1", "scala_Some", "scala_sys_process_ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$5$$anonfun$apply$2"]
+    },
+    "scala$sys$process$ProcessImpl$SequentialProcess$$$outer__Lscala_sys_process_Process$": {},
+    "init___Lscala_sys_process_Process$__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessIO__Lscala_Function1": {
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["init___Lscala_sys_process_Process$"]
+      }
+    },
+    "scala$sys$process$ProcessImpl$SequentialProcess$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$SequentialProcess": ["scala$sys$process$ProcessImpl$SequentialProcess$$$outer__Lscala_sys_process_Process$"]
+      }
+    }
+  }
+}

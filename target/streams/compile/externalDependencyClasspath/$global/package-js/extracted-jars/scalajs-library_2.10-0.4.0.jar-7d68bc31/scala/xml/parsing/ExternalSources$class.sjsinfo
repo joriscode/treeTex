@@ -1,0 +1,31 @@
+{
+  "name": "scala.xml.parsing.ExternalSources$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_ExternalSources$class",
+  "superClass": "",
+  "ancestors": ["scala_xml_parsing_ExternalSources$class"],
+  "isExported": false,
+  "methods": {
+    "scala_xml_parsing_ExternalSources$class__externalSource__Lscala_xml_parsing_MarkupHandler__T__Lscala_io_Source": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_io_Source": ["descr__T"],
+        "java_net_URL": ["init___T"],
+        "scala_collection_immutable_StringOps": ["take__I__O", "init___T", "drop__I__O"],
+        "scala_io_Source$": ["fromFile__T__Lscala_io_Codec__Lscala_io_BufferedSource", "fromURL__Ljava_net_URL__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z", "scala_scalajs_runtime_RuntimeString$class__lastIndexOf__Lscala_scalajs_runtime_RuntimeString__T__I"],
+        "java_io_File$": ["separator__T"],
+        "scala_io_Codec$": ["fallbackSystemCodec__Lscala_io_Codec"],
+        "scala_xml_parsing_MarkupParser": ["input__Lscala_io_Source"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps", "java_net_URL"],
+      "accessedModules": ["java_io_File", "scala_io_Source", "scala_Predef", "scala_io_Codec"],
+      "accessedClassData": ["java_lang_String", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_ExternalSources$class__$init$__Lscala_xml_parsing_MarkupHandler__V": {}
+  }
+}

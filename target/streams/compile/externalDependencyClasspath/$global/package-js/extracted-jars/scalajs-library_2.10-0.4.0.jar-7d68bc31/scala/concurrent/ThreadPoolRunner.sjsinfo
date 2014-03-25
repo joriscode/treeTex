@@ -1,0 +1,32 @@
+{
+  "name": "scala.concurrent.ThreadPoolRunner",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_ThreadPoolRunner",
+  "superClass": "",
+  "ancestors": ["scala_concurrent_ThreadPoolRunner", "scala_concurrent_FutureTaskRunner", "scala_concurrent_TaskRunner", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "functionAsTask__Lscala_Function0__Ljava_util_concurrent_Callable": {
+      "isAbstract": true
+    },
+    "futureAsFunction__Ljava_util_concurrent_Future__Lscala_Function0": {
+      "isAbstract": true
+    },
+    "executor__Ljava_util_concurrent_ExecutorService": {
+      "isAbstract": true
+    },
+    "submit__Ljava_util_concurrent_Callable__Ljava_util_concurrent_Future": {
+      "isAbstract": true
+    },
+    "execute__Ljava_util_concurrent_Callable__V": {
+      "isAbstract": true
+    },
+    "managedBlock__Lscala_concurrent_ManagedBlocker__V": {
+      "isAbstract": true
+    }
+  }
+}

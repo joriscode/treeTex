@@ -1,0 +1,88 @@
+{
+  "name": "scala.collection.TraversableOnce$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableOnce$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_TraversableOnce$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "traversableOnceCanBuildFrom__Lscala_collection_TraversableOnce$OnceCanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$OnceCanBuildFrom": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableOnce$OnceCanBuildFrom"]
+    },
+    "wrapTraversableOnce__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce$MonadOps": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$MonadOps": ["init___Lscala_collection_TraversableOnce"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableOnce$MonadOps"]
+    },
+    "alternateImplicit__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce$ForceImplicitAmbiguity": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$ForceImplicitAmbiguity": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableOnce$ForceImplicitAmbiguity"]
+    },
+    "flattenTraversableOnce__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_collection_TraversableOnce$FlattenOps": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$": ["MonadOps__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce$MonadOps"],
+        "scala_collection_TraversableOnce$FlattenOps": ["init___Lscala_collection_TraversableOnce"],
+        "scala_collection_TraversableOnce$MonadOps": ["map__Lscala_Function1__Lscala_collection_TraversableOnce"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableOnce$FlattenOps"]
+    },
+    "OnceCanBuildFrom__Lscala_collection_TraversableOnce$OnceCanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$OnceCanBuildFrom": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableOnce$OnceCanBuildFrom"]
+    },
+    "MonadOps__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce$MonadOps": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$MonadOps": ["init___Lscala_collection_TraversableOnce"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableOnce$MonadOps"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "MonadOps__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$": ["MonadOps__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce$MonadOps"]
+      }
+    },
+    "OnceCanBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$": ["OnceCanBuildFrom__Lscala_collection_TraversableOnce$OnceCanBuildFrom"]
+      }
+    },
+    "flattenTraversableOnce__Lscala_collection_TraversableOnce__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$": ["flattenTraversableOnce__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_collection_TraversableOnce$FlattenOps"]
+      }
+    },
+    "alternateImplicit__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$": ["alternateImplicit__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce$ForceImplicitAmbiguity"]
+      }
+    },
+    "wrapTraversableOnce__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$": ["wrapTraversableOnce__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce$MonadOps"]
+      }
+    },
+    "traversableOnceCanBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$": ["traversableOnceCanBuildFrom__Lscala_collection_TraversableOnce$OnceCanBuildFrom"]
+      }
+    }
+  }
+}

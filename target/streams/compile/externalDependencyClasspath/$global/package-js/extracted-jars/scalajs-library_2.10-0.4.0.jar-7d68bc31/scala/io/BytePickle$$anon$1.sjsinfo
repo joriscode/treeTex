@@ -1,0 +1,53 @@
+{
+  "name": "scala.io.BytePickle$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$$anon$1",
+  "superClass": "scala_io_BytePickle$PU",
+  "ancestors": ["scala_io_BytePickle$$anon$1", "scala_io_BytePickle$PU", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "appP__Lscala_io_BytePickle$RefDef__AB__AB": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapByteArray__AB__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"],
+        "scala_Array$": ["concat__Lscala_collection_Seq__Lscala_reflect_ClassTag__O", "apply__Lscala_collection_Seq__Lscala_reflect_ClassTag__O"],
+        "scala_MatchError": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef"],
+      "accessedClassData": ["scala_io_BytePickle$Def", "java_lang_Object", "scala_io_BytePickle$Ref"]
+    },
+    "appU__AB__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Predef$": ["byteArrayOps__AB__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["slice__I__I__O"],
+        "scala_io_BytePickle$Ref": ["init___"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_io_BytePickle$Def": ["init___"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$Def", "scala_Tuple2", "scala_io_BytePickle$Ref"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "appP__O__AB__AB": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$1": ["appP__Lscala_io_BytePickle$RefDef__AB__AB"]
+      },
+      "accessedClassData": ["scala_io_BytePickle$RefDef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_io_BytePickle$PU": ["init___"]
+      }
+    },
+    "appP__Lscala_io_BytePickle$RefDef__AB__": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$1": ["appP__Lscala_io_BytePickle$RefDef__AB__AB"]
+      }
+    }
+  }
+}

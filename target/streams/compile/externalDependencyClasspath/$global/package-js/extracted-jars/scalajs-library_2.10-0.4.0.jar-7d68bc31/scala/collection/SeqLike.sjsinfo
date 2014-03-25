@@ -1,0 +1,140 @@
+{
+  "name": "scala.collection.SeqLike",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SeqLike",
+  "superClass": "",
+  "ancestors": ["scala_collection_SeqLike", "scala_collection_GenSeqLike", "scala_collection_IterableLike", "scala_collection_GenIterableLike", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "thisCollection__Lscala_collection_Seq": {
+      "isAbstract": true
+    },
+    "toCollection__O__Lscala_collection_Seq": {
+      "isAbstract": true
+    },
+    "length__I": {
+      "isAbstract": true
+    },
+    "apply__I__O": {
+      "isAbstract": true
+    },
+    "parCombiner__Lscala_collection_parallel_Combiner": {
+      "isAbstract": true
+    },
+    "lengthCompare__I__I": {
+      "isAbstract": true
+    },
+    "isEmpty__Z": {
+      "isAbstract": true
+    },
+    "size__I": {
+      "isAbstract": true
+    },
+    "segmentLength__Lscala_Function1__I__I": {
+      "isAbstract": true
+    },
+    "indexWhere__Lscala_Function1__I__I": {
+      "isAbstract": true
+    },
+    "lastIndexWhere__Lscala_Function1__I__I": {
+      "isAbstract": true
+    },
+    "permutations__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "combinations__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "reverse__O": {
+      "isAbstract": true
+    },
+    "reverseMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "reverseIterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "startsWith__Lscala_collection_GenSeq__I__Z": {
+      "isAbstract": true
+    },
+    "endsWith__Lscala_collection_GenSeq__Z": {
+      "isAbstract": true
+    },
+    "indexOfSlice__Lscala_collection_GenSeq__I": {
+      "isAbstract": true
+    },
+    "indexOfSlice__Lscala_collection_GenSeq__I__I": {
+      "isAbstract": true
+    },
+    "lastIndexOfSlice__Lscala_collection_GenSeq__I": {
+      "isAbstract": true
+    },
+    "lastIndexOfSlice__Lscala_collection_GenSeq__I__I": {
+      "isAbstract": true
+    },
+    "containsSlice__Lscala_collection_GenSeq__Z": {
+      "isAbstract": true
+    },
+    "contains__O__Z": {
+      "isAbstract": true
+    },
+    "union__Lscala_collection_GenSeq__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "diff__Lscala_collection_GenSeq__O": {
+      "isAbstract": true
+    },
+    "intersect__Lscala_collection_GenSeq__O": {
+      "isAbstract": true
+    },
+    "distinct__O": {
+      "isAbstract": true
+    },
+    "patch__I__Lscala_collection_GenSeq__I__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "updated__I__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "$$plus$colon__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "$$colon$plus__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "padTo__I__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "corresponds__Lscala_collection_GenSeq__Lscala_Function2__Z": {
+      "isAbstract": true
+    },
+    "sortWith__Lscala_Function2__O": {
+      "isAbstract": true
+    },
+    "sortBy__Lscala_Function1__Lscala_math_Ordering__O": {
+      "isAbstract": true
+    },
+    "sorted__Lscala_math_Ordering__O": {
+      "isAbstract": true
+    },
+    "toSeq__Lscala_collection_Seq": {
+      "isAbstract": true
+    },
+    "indices__Lscala_collection_immutable_Range": {
+      "isAbstract": true
+    },
+    "view__Lscala_collection_SeqView": {
+      "isAbstract": true
+    },
+    "view__I__I__Lscala_collection_SeqView": {
+      "isAbstract": true
+    },
+    "toString__T": {
+      "isAbstract": true
+    }
+  }
+}

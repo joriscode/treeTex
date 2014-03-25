@@ -1,0 +1,34 @@
+{
+  "name": "scala.concurrent.impl.ExecutionContextImpl$$anon$4",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_ExecutionContextImpl$$anon$4",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_impl_ExecutionContextImpl$$anon$4", "java_lang_Thread$UncaughtExceptionHandler", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "uncaughtException__Ljava_lang_Thread__Ljava_lang_Throwable__V": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"]
+      }
+    },
+    "init___Lscala_concurrent_impl_ExecutionContextImpl": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "uncaughtException__Ljava_lang_Thread__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$4": ["uncaughtException__Ljava_lang_Thread__Ljava_lang_Throwable__V"]
+      }
+    }
+  }
+}

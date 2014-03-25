@@ -1,0 +1,26 @@
+{
+  "name": "scala.runtime.MegaMethodCache",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_MegaMethodCache",
+  "superClass": "scala_runtime_MethodCache",
+  "ancestors": ["scala_runtime_MegaMethodCache", "scala_runtime_MethodCache", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "find__Ljava_lang_Class__Ljava_lang_reflect_Method": {
+      "calledMethods": {
+        "java_lang_Class": ["getMethod__T__ALjava_lang_Class__Ljava_lang_reflect_Method"]
+      }
+    },
+    "add__Ljava_lang_Class__Ljava_lang_reflect_Method__Lscala_runtime_MethodCache": {},
+    "init___T__ALjava_lang_Class": {
+      "calledMethodsStatic": {
+        "scala_runtime_MethodCache": ["init___"]
+      }
+    }
+  }
+}

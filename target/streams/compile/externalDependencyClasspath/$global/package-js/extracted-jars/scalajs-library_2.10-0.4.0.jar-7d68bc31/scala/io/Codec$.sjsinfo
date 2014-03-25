@@ -1,0 +1,204 @@
+{
+  "name": "scala.io.Codec$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_Codec$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_Codec$", "scala_io_LowPriorityCodecImplicits", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "fallbackSystemCodec__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_LowPriorityCodecImplicits$class": ["scala_io_LowPriorityCodecImplicits$class__fallbackSystemCodec__Lscala_io_Codec$__Lscala_io_Codec"]
+      }
+    },
+    "ISO8859__Lscala_io_Codec": {},
+    "UTF8__Lscala_io_Codec": {},
+    "defaultCharsetCodec__Lscala_io_Codec": {
+      "calledMethods": {
+        "java_nio_charset_Charset$": ["defaultCharset__Ljava_nio_charset_Charset"],
+        "scala_io_Codec$": ["apply__Ljava_nio_charset_Charset__Lscala_io_Codec"]
+      },
+      "accessedModules": ["java_nio_charset_Charset"]
+    },
+    "fileEncodingCodec__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_util_Properties$": ["encodingString__T"],
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      },
+      "accessedModules": ["scala_util_Properties"]
+    },
+    "$default__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_Codec$": ["defaultCharsetCodec__Lscala_io_Codec"]
+      }
+    },
+    "apply__T__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_Codec": ["init___Ljava_nio_charset_Charset"],
+        "java_nio_charset_Charset$": ["forName__T__Ljava_nio_charset_Charset"]
+      },
+      "instantiatedClasses": ["scala_io_Codec"],
+      "accessedModules": ["java_nio_charset_Charset"]
+    },
+    "apply__Ljava_nio_charset_Charset__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_Codec": ["init___Ljava_nio_charset_Charset"]
+      },
+      "instantiatedClasses": ["scala_io_Codec"]
+    },
+    "apply__Ljava_nio_charset_CharsetDecoder__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_Codec$$anon$1": ["init___Ljava_nio_charset_CharsetDecoder__Ljava_nio_charset_CharsetDecoder"]
+      },
+      "instantiatedClasses": ["scala_io_Codec$$anon$1"]
+    },
+    "fromUTF8__AB__AC": {
+      "calledMethods": {
+        "scala_io_Codec$": ["fromUTF8__AB__I__I__AC"]
+      }
+    },
+    "fromUTF8__AB__I__I__AC": {
+      "calledMethods": {
+        "scala_io_Codec": ["charSet__Ljava_nio_charset_Charset"],
+        "java_nio_ByteBuffer$": ["wrap__AB__I__I__Ljava_nio_ByteBuffer"],
+        "scala_io_Codec$": ["UTF8__Lscala_io_Codec"],
+        "java_nio_charset_Charset": ["decode__Ljava_nio_ByteBuffer__Ljava_nio_CharBuffer"],
+        "java_nio_CharBuffer": ["remaining__I", "get__AC__Ljava_nio_CharBuffer"]
+      },
+      "accessedModules": ["java_nio_ByteBuffer"]
+    },
+    "toUTF8__Ljava_lang_CharSequence__AB": {
+      "calledMethods": {
+        "java_nio_ByteBuffer": ["remaining__I", "get__AB__Ljava_nio_ByteBuffer"],
+        "scala_io_Codec": ["charSet__Ljava_nio_charset_Charset"],
+        "java_lang_CharSequence": ["length__I"],
+        "java_nio_CharBuffer$": ["wrap__Ljava_lang_CharSequence__I__I__Ljava_nio_CharBuffer"],
+        "scala_io_Codec$": ["UTF8__Lscala_io_Codec"],
+        "java_nio_charset_Charset": ["encode__Ljava_nio_CharBuffer__Ljava_nio_ByteBuffer"]
+      },
+      "accessedModules": ["java_nio_CharBuffer"]
+    },
+    "toUTF8__AC__I__I__AB": {
+      "calledMethods": {
+        "java_nio_ByteBuffer": ["remaining__I", "get__AB__Ljava_nio_ByteBuffer"],
+        "scala_io_Codec": ["charSet__Ljava_nio_charset_Charset"],
+        "java_nio_CharBuffer$": ["wrap__AC__I__I__Ljava_nio_CharBuffer"],
+        "scala_io_Codec$": ["UTF8__Lscala_io_Codec"],
+        "java_nio_charset_Charset": ["encode__Ljava_nio_CharBuffer__Ljava_nio_ByteBuffer"]
+      },
+      "accessedModules": ["java_nio_CharBuffer"]
+    },
+    "string2codec__T__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      }
+    },
+    "charset2codec__Ljava_nio_charset_Charset__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_Codec$": ["apply__Ljava_nio_charset_Charset__Lscala_io_Codec"]
+      }
+    },
+    "decoder2codec__Ljava_nio_charset_CharsetDecoder__Lscala_io_Codec": {
+      "calledMethods": {
+        "scala_io_Codec$": ["apply__Ljava_nio_charset_CharsetDecoder__Lscala_io_Codec"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_io_Codec": ["init___Ljava_nio_charset_Charset"],
+        "scala_io_LowPriorityCodecImplicits$class": ["scala_io_LowPriorityCodecImplicits$class__$init$__Lscala_io_Codec$__V"],
+        "java_nio_charset_Charset$": ["forName__T__Ljava_nio_charset_Charset"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_io_Codec"],
+      "accessedModules": ["java_nio_charset_Charset"]
+    },
+    "fallbackSystemCodec__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["fallbackSystemCodec__Lscala_io_Codec"]
+      }
+    },
+    "decoder2codec__Ljava_nio_charset_CharsetDecoder__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["decoder2codec__Ljava_nio_charset_CharsetDecoder__Lscala_io_Codec"]
+      }
+    },
+    "charset2codec__Ljava_nio_charset_Charset__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["charset2codec__Ljava_nio_charset_Charset__Lscala_io_Codec"]
+      }
+    },
+    "string2codec__T__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["string2codec__T__Lscala_io_Codec"]
+      }
+    },
+    "toUTF8__AC__I__I__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["toUTF8__AC__I__I__AB"]
+      }
+    },
+    "toUTF8__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["toUTF8__Ljava_lang_CharSequence__AB"]
+      }
+    },
+    "fromUTF8__AB__I__I__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["fromUTF8__AB__I__I__AC"]
+      }
+    },
+    "fromUTF8__AB__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["fromUTF8__AB__AC"]
+      }
+    },
+    "apply__Ljava_nio_charset_CharsetDecoder__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["apply__Ljava_nio_charset_CharsetDecoder__Lscala_io_Codec"]
+      }
+    },
+    "apply__Ljava_nio_charset_Charset__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["apply__Ljava_nio_charset_Charset__Lscala_io_Codec"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["apply__T__Lscala_io_Codec"]
+      }
+    },
+    "$default__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["$default__Lscala_io_Codec"]
+      }
+    },
+    "fileEncodingCodec__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["fileEncodingCodec__Lscala_io_Codec"]
+      }
+    },
+    "defaultCharsetCodec__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["defaultCharsetCodec__Lscala_io_Codec"]
+      }
+    },
+    "UTF8__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["UTF8__Lscala_io_Codec"]
+      }
+    },
+    "ISO8859__": {
+      "calledMethods": {
+        "scala_io_Codec$": ["ISO8859__Lscala_io_Codec"]
+      }
+    }
+  }
+}

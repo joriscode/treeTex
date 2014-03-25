@@ -1,0 +1,88 @@
+{
+  "name": "scala.collection.mutable.ArrayStack$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayStack$",
+  "superClass": "scala_collection_generic_SeqFactory",
+  "ancestors": ["scala_collection_mutable_ArrayStack$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_SeqFactory", "scala_collection_generic_TraversableFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenSeqFactory", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayStack"]
+    },
+    "empty__Lscala_collection_mutable_ArrayStack": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayStack"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayStack": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack": ["init___AO__I", "init___"],
+        "scala_collection_Seq": ["reverseMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_package$": ["breakOut__Lscala_collection_generic_CanBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_Array$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_reflect_ClassTag$": ["AnyRef__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayStack", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_package", "scala_reflect_ClassTag", "scala_Array"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "growArray__AO__AO": {
+      "calledMethods": {
+        "scala_math_package$": ["max__I__I__I"],
+        "scala_Array$": ["copy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["scala_math_package", "scala_Array"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "clone__AO__AO": {
+      "calledMethods": {
+        "scala_Array$": ["copy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["scala_Array"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "readResolve__p5__O": {
+      "accessedModules": ["scala_collection_mutable_ArrayStack"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_SeqFactory": ["init___"]
+      }
+    },
+    "clone__AO__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack$": ["clone__AO__AO"]
+      }
+    },
+    "growArray__AO__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack$": ["growArray__AO__AO"]
+      }
+    },
+    "apply__Lscala_collection_Seq__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack$": ["apply__Lscala_collection_Seq__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayStack"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

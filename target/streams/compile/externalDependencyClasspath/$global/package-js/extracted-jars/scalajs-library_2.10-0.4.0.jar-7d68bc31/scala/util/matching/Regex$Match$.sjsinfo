@@ -1,0 +1,32 @@
+{
+  "name": "scala.util.matching.Regex$Match$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_matching_Regex$Match$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_matching_Regex$Match$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "unapply__Lscala_util_matching_Regex$Match__Lscala_Some": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["matched__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_util_matching_Regex$Match__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match$": ["unapply__Lscala_util_matching_Regex$Match__Lscala_Some"]
+      }
+    }
+  }
+}

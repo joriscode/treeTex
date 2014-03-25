@@ -1,0 +1,222 @@
+{
+  "name": "scala.scalajs.runtime.Long$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_scalajs_runtime_Long$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_scalajs_runtime_Long$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "BITS__p1__I": {},
+    "BITS01__p1__I": {},
+    "BITS2__p1__I": {},
+    "MASK__p1__I": {},
+    "MASK$und2__p1__I": {},
+    "SIGN$undBIT__p1__I": {},
+    "SIGN$undBIT$undVALUE__p1__I": {},
+    "TWO$undPWR$und15$undDBL__p1__D": {},
+    "TWO$undPWR$und16$undDBL__p1__D": {},
+    "TWO$undPWR$und22$undDBL__p1__D": {},
+    "TWO$undPWR$und31$undDBL__p1__D": {},
+    "TWO$undPWR$und32$undDBL__p1__D": {},
+    "TWO$undPWR$und44$undDBL__p1__D": {},
+    "TWO$undPWR$und63$undDBL__p1__D": {},
+    "zero__Lscala_scalajs_runtime_Long": {},
+    "one__Lscala_scalajs_runtime_Long": {},
+    "fromHexString__T__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["masked__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_Predef$": ["augmentString__T__T", "assert__Z__V"],
+        "scala_collection_immutable_StringOps": ["size__I", "init___T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T", "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "fromString__T__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["unary$und$minus__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromString__T__Lscala_scalajs_runtime_Long", "zero__Lscala_scalajs_runtime_Long", "fromString0$1__p1__T__Lscala_scalajs_runtime_Long__T__I__Lscala_scalajs_runtime_Long"],
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["head__O", "init___T", "tail__O"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "fromByte__B__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromShort__S__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromChar__C__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromInt__I__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["init___I__I__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_Long"]
+    },
+    "fromFloat__F__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromDouble__D__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["unary$und$minus__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long", "zero__Lscala_scalajs_runtime_Long", "MaxValue__Lscala_scalajs_runtime_Long", "fromDouble__D__Lscala_scalajs_runtime_Long", "MinValue__Lscala_scalajs_runtime_Long"],
+        "java_lang_Double$": ["isNaN__D__Z"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_lang_Double"]
+    },
+    "masked__I__I__I__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "apply__I__I__I__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["init___I__I__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_Long"]
+    },
+    "scala$scalajs$runtime$Long$$divModHelper__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long__Z__Z__Z__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["numberOfLeadingZeros__I", "$$less$less__I__Lscala_scalajs_runtime_Long", "unary$und$minus__Lscala_scalajs_runtime_Long", "$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["one__Lscala_scalajs_runtime_Long", "zero__Lscala_scalajs_runtime_Long", "divide0$1__p1__I__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long__Lscala_scalajs_js_Array"]
+      },
+      "accessedClassData": ["scala_scalajs_runtime_Long"]
+    },
+    "MinValue__Lscala_scalajs_runtime_Long": {},
+    "MaxValue__Lscala_scalajs_runtime_Long": {},
+    "fromString0$1__p1__T__Lscala_scalajs_runtime_Long__T__I__Lscala_scalajs_runtime_Long": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_math_package$": ["pow__D__D__D"],
+        "scala_MatchError": ["init___O"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"],
+        "scala_collection_immutable_StringOps": ["init___T", "size__I", "splitAt__I__Lscala_Tuple2"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "java_lang_NumberFormatException": ["init___T"],
+        "scala_scalajs_runtime_Long": ["$$times__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$plus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "java_lang_NumberFormatException", "scala_MatchError", "scala_collection_immutable_StringOps", "scala_StringContext"],
+      "accessedModules": ["scala_math_package", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "divide0$1__p1__I__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$greater$greater__I__Lscala_scalajs_runtime_Long", "scala$scalajs$runtime$Long$$setBit__I__Lscala_scalajs_runtime_Long", "scala$scalajs$runtime$Long$$isZero__Z", "scala$scalajs$runtime$Long$$isNegative__Z", "$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "MaxValue__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["MaxValue__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "MinValue__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["MinValue__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "scala$scalajs$runtime$Long$$divModHelper__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long__Z__Z__Z__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["scala$scalajs$runtime$Long$$divModHelper__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long__Z__Z__Z__Lscala_scalajs_js_Array"]
+      }
+    },
+    "apply__I__I__I__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "masked__I__I__I__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["masked__I__I__I__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromDouble__D__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromFloat__F__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromFloat__F__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromInt__I__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromChar__C__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromChar__C__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromShort__S__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromByte__B__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromByte__B__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromString__T__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromString__T__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromHexString__T__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromHexString__T__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "fromRuntimeLong__Lscala_scalajs_runtime_Long__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromRuntimeLong__Lscala_scalajs_runtime_Long__J"]
+      }
+    },
+    "toRuntimeLong__J__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["toRuntimeLong__J__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "one__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["one__Lscala_scalajs_runtime_Long"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["zero__Lscala_scalajs_runtime_Long"]
+      }
+    }
+  }
+}

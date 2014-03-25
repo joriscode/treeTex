@@ -1,0 +1,60 @@
+{
+  "name": "scala.collection.convert.Wrappers$JPropertiesWrapper$",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$JPropertiesWrapper$",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_collection_convert_Wrappers$JPropertiesWrapper$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Ljava_util_Properties__Lscala_collection_convert_Wrappers$JPropertiesWrapper": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JPropertiesWrapper": ["init___Lscala_collection_convert_Wrappers__Ljava_util_Properties"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JPropertiesWrapper"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$JPropertiesWrapper__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JPropertiesWrapper": ["underlying__Ljava_util_Properties"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers": ["JPropertiesWrapper__Lscala_collection_convert_Wrappers$JPropertiesWrapper$"]
+      }
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JPropertiesWrapper$": ["apply__Ljava_util_Properties__Lscala_collection_convert_Wrappers$JPropertiesWrapper"]
+      },
+      "accessedClassData": ["java_util_Properties"]
+    },
+    "init___Lscala_collection_convert_Wrappers": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$JPropertiesWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JPropertiesWrapper$": ["unapply__Lscala_collection_convert_Wrappers$JPropertiesWrapper__Lscala_Option"]
+      }
+    },
+    "apply__Ljava_util_Properties__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JPropertiesWrapper$": ["apply__Ljava_util_Properties__Lscala_collection_convert_Wrappers$JPropertiesWrapper"]
+      }
+    }
+  }
+}

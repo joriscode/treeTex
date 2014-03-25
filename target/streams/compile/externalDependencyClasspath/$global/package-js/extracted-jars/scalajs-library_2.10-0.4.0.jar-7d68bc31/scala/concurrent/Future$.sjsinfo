@@ -1,0 +1,184 @@
+{
+  "name": "scala.concurrent.Future$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Future$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_Future$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toBoxed__Lscala_collection_immutable_Map": {},
+    "failed__Ljava_lang_Throwable__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Promise": ["future__Lscala_concurrent_Future"],
+        "scala_concurrent_Promise$": ["failed__Ljava_lang_Throwable__Lscala_concurrent_Promise"]
+      },
+      "accessedModules": ["scala_concurrent_Promise"]
+    },
+    "successful__O__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Promise": ["future__Lscala_concurrent_Future"],
+        "scala_concurrent_Promise$": ["successful__O__Lscala_concurrent_Promise"]
+      },
+      "accessedModules": ["scala_concurrent_Promise"]
+    },
+    "apply__Lscala_Function0__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_impl_Future$": ["apply__Lscala_Function0__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      },
+      "accessedModules": ["scala_concurrent_impl_Future"]
+    },
+    "sequence__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"],
+        "scala_concurrent_Promise$": ["successful__O__Lscala_concurrent_Promise"],
+        "scala_concurrent_Promise": ["future__Lscala_concurrent_Future"],
+        "scala_concurrent_Future$$anonfun$sequence$1": ["init___Lscala_concurrent_ExecutionContext"],
+        "scala_concurrent_Future": ["map__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_Builder": ["result__O"],
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_concurrent_Future$$anonfun$sequence$1"],
+      "accessedModules": ["scala_concurrent_Promise"],
+      "accessedClassData": ["scala_concurrent_Future", "scala_collection_TraversableOnce"]
+    },
+    "firstCompletedOf__Lscala_collection_TraversableOnce__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Promise$": ["apply__Lscala_concurrent_Promise"],
+        "scala_concurrent_Promise": ["tryComplete__Lscala_util_Try__Z", "future__Lscala_concurrent_Future"],
+        "scala_concurrent_Future": ["onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_concurrent_Promise"]
+    },
+    "find__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_concurrent_Promise$": ["successful__O__Lscala_concurrent_Promise", "apply__Lscala_concurrent_Promise"],
+        "scala_concurrent_Promise": ["future__Lscala_concurrent_Future", "tryComplete__Lscala_util_Try__Z"],
+        "scala_util_Success": ["init___O", "value__O"],
+        "java_util_concurrent_atomic_AtomicInteger": ["init___I", "decrementAndGet__I"],
+        "scala_concurrent_Future": ["onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Some": ["init___O"],
+        "scala_collection_mutable_Buffer": ["isEmpty__Z", "size__I", "foreach__Lscala_Function1__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_TraversableOnce": ["toBuffer__Lscala_collection_mutable_Buffer"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_Some", "scala_util_Success", "java_util_concurrent_atomic_AtomicInteger"],
+      "accessedModules": ["scala_concurrent_Promise", "scala_None", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_util_Success"]
+    },
+    "fold__Lscala_collection_TraversableOnce__O__Lscala_Function2__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Promise$": ["successful__O__Lscala_concurrent_Promise"],
+        "scala_concurrent_Promise": ["future__Lscala_concurrent_Future"],
+        "scala_concurrent_Future$": ["sequence__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"],
+        "scala_concurrent_Future": ["map__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_TraversableOnce$": ["OnceCanBuildFrom__Lscala_collection_TraversableOnce$OnceCanBuildFrom"],
+        "scala_collection_TraversableOnce": ["isEmpty__Z", "foldLeft__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_concurrent_Promise", "scala_collection_TraversableOnce"]
+    },
+    "reduce__Lscala_collection_TraversableOnce__Lscala_Function2__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Promise$": ["apply__Lscala_concurrent_Promise"],
+        "scala_concurrent_Promise": ["failure__Ljava_lang_Throwable__Lscala_concurrent_Promise", "future__Lscala_concurrent_Future"],
+        "scala_concurrent_Future$": ["sequence__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"],
+        "java_util_NoSuchElementException": ["init___T"],
+        "scala_concurrent_Future": ["map__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_TraversableOnce$": ["OnceCanBuildFrom__Lscala_collection_TraversableOnce$OnceCanBuildFrom"],
+        "scala_collection_TraversableOnce": ["isEmpty__Z", "reduceLeft__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_concurrent_Promise", "scala_collection_TraversableOnce"]
+    },
+    "traverse__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"],
+        "scala_concurrent_Future$$anonfun$traverse$1": ["init___Lscala_Function1__Lscala_concurrent_ExecutionContext"],
+        "scala_concurrent_Promise$": ["successful__O__Lscala_concurrent_Promise"],
+        "scala_concurrent_Promise": ["future__Lscala_concurrent_Future"],
+        "scala_concurrent_Future": ["map__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_Builder": ["result__O"],
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_concurrent_Future$$anonfun$traverse$1", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_concurrent_Promise"],
+      "accessedClassData": ["scala_concurrent_Future", "scala_collection_TraversableOnce"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Predef$": ["any2ArrowAssoc__O__O", "Map__Lscala_collection_immutable_Map$", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_immutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_Predef$ArrowAssoc$": ["$$minus$greater$extension__O__O__Lscala_Tuple2"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_Predef$ArrowAssoc", "scala_Predef"],
+      "accessedClassData": ["java_lang_Boolean", "java_lang_Float", "scala_Tuple2", "java_lang_Byte", "java_lang_Integer", "java_lang_Long", "java_lang_Object", "java_lang_Character", "java_lang_Double", "scala_collection_immutable_Map", "scala_runtime_BoxedUnit", "java_lang_Short"]
+    },
+    "traverse__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["traverse__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "reduce__Lscala_collection_TraversableOnce__Lscala_Function2__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["reduce__Lscala_collection_TraversableOnce__Lscala_Function2__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "fold__Lscala_collection_TraversableOnce__O__Lscala_Function2__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["fold__Lscala_collection_TraversableOnce__O__Lscala_Function2__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "find__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["find__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "firstCompletedOf__Lscala_collection_TraversableOnce__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["firstCompletedOf__Lscala_collection_TraversableOnce__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "sequence__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["sequence__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "apply__Lscala_Function0__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["apply__Lscala_Function0__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "successful__O__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["successful__O__Lscala_concurrent_Future"]
+      }
+    },
+    "failed__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["failed__Ljava_lang_Throwable__Lscala_concurrent_Future"]
+      }
+    },
+    "toBoxed__": {
+      "calledMethods": {
+        "scala_concurrent_Future$": ["toBoxed__Lscala_collection_immutable_Map"]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "scala.collection.GenSeqViewLike$Zipped$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqViewLike$Zipped$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqViewLike$Zipped$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqViewLike$Zipped$class__thatSeq__Lscala_collection_GenSeqViewLike$Zipped__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Zipped": ["other__Lscala_collection_GenIterable"],
+        "scala_collection_Iterable": ["toSeq__Lscala_collection_Seq"],
+        "scala_collection_GenIterable": ["seq__Lscala_collection_Iterable"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Zipped$class__length__Lscala_collection_GenSeqViewLike$Zipped__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Zipped": ["thatSeq__Lscala_collection_Seq", "scala$collection$GenSeqViewLike$Zipped$$$outer__Lscala_collection_GenSeqViewLike"],
+        "scala_collection_GenSeqViewLike": ["length__I"],
+        "scala_collection_Seq": ["length__I", "lengthCompare__I__I"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Zipped$class__apply__Lscala_collection_GenSeqViewLike$Zipped__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Zipped": ["thatSeq__Lscala_collection_Seq", "scala$collection$GenSeqViewLike$Zipped$$$outer__Lscala_collection_GenSeqViewLike"],
+        "scala_collection_GenSeqViewLike": ["apply__I__O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_Seq": ["apply__I__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "scala_collection_GenSeqViewLike$Zipped$class__$init$__Lscala_collection_GenSeqViewLike$Zipped__V": {}
+  }
+}

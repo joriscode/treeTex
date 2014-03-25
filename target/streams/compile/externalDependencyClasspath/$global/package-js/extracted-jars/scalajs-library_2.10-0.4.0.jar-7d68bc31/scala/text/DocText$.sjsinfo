@@ -1,0 +1,54 @@
+{
+  "name": "scala.text.DocText$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_text_DocText$",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_text_DocText$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__Lscala_text_DocText": {
+      "calledMethods": {
+        "scala_text_DocText": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_text_DocText"]
+    },
+    "unapply__Lscala_text_DocText__Lscala_Option": {
+      "calledMethods": {
+        "scala_text_DocText": ["txt__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_text_DocText"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_text_DocText$": ["apply__T__Lscala_text_DocText"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "unapply__Lscala_text_DocText__": {
+      "calledMethods": {
+        "scala_text_DocText$": ["unapply__Lscala_text_DocText__Lscala_Option"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_text_DocText$": ["apply__T__Lscala_text_DocText"]
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "scala.collection.GenIterableLike",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenIterableLike",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenIterableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "iterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "sameElements__Lscala_collection_GenIterable__Z": {
+      "isAbstract": true
+    },
+    "zip__Lscala_collection_GenIterable__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "zipWithIndex__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "zipAll__Lscala_collection_GenIterable__O__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    }
+  }
+}

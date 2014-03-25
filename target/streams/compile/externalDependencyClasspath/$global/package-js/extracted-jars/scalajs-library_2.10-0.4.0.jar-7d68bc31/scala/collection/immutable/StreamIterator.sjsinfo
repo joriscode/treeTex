@@ -1,0 +1,69 @@
+{
+  "name": "scala.collection.immutable.StreamIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_StreamIterator",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_immutable_StreamIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "these__p2__Lscala_collection_immutable_StreamIterator$LazyCell": {},
+    "these$und$eq__p2__Lscala_collection_immutable_StreamIterator$LazyCell__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamIterator": ["these__p2__Lscala_collection_immutable_StreamIterator$LazyCell"],
+        "scala_collection_immutable_Stream": ["nonEmpty__Z"],
+        "scala_collection_immutable_StreamIterator$LazyCell": ["v__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_immutable_StreamIterator$LazyCell": ["v__Lscala_collection_immutable_Stream", "init___Lscala_collection_immutable_StreamIterator__Lscala_Function0"],
+        "scala_collection_immutable_StreamIterator": ["these$und$eq__p2__Lscala_collection_immutable_StreamIterator$LazyCell__V", "isEmpty__Z", "these__p2__Lscala_collection_immutable_StreamIterator$LazyCell"],
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_immutable_Stream": ["tail__O", "head__O"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StreamIterator$LazyCell", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_collection_Iterator"],
+      "accessedClassData": ["scala_collection_immutable_Stream"]
+    },
+    "toStream__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_immutable_StreamIterator": ["these$und$eq__p2__Lscala_collection_immutable_StreamIterator$LazyCell__V", "these__p2__Lscala_collection_immutable_StreamIterator$LazyCell"],
+        "scala_collection_immutable_StreamIterator$LazyCell": ["v__Lscala_collection_immutable_Stream", "init___Lscala_collection_immutable_StreamIterator__Lscala_Function0"],
+        "scala_collection_immutable_Stream$": ["empty__Lscala_collection_immutable_Stream"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StreamIterator$LazyCell", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_collection_immutable_Stream"]
+    },
+    "toList__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamIterator": ["toStream__Lscala_collection_immutable_Stream"],
+        "scala_collection_immutable_Stream": ["toList__Lscala_collection_immutable_List"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    },
+    "init___Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_immutable_StreamIterator": ["these$und$eq__p2__Lscala_collection_immutable_StreamIterator$LazyCell__V"],
+        "scala_collection_immutable_StreamIterator$LazyCell": ["init___Lscala_collection_immutable_StreamIterator__Lscala_Function0"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_immutable_StreamIterator": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StreamIterator$LazyCell", "scala_scalajs_runtime_AnonFunction0"]
+    }
+  }
+}

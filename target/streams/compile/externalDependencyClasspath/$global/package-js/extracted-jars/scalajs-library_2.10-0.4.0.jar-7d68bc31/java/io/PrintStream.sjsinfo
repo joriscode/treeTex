@@ -1,0 +1,344 @@
+{
+  "name": "java.io.PrintStream",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_io_PrintStream",
+  "superClass": "java_io_FilterOutputStream",
+  "ancestors": ["java_io_PrintStream", "java_lang_Appendable", "java_io_FilterOutputStream", "java_io_OutputStream", "java_io_Flushable", "java_io_Closeable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "write__I__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["flush__V"],
+        "java_io_OutputStream": ["write__I__V"]
+      }
+    },
+    "append__C__Ljava_io_PrintStream": {},
+    "append__Ljava_lang_CharSequence__Ljava_io_PrintStream": {},
+    "append__Ljava_lang_CharSequence__I__I__Ljava_io_PrintStream": {},
+    "hasError__Z": {},
+    "hasError$und$eq__Z__V": {},
+    "checkError__Z": {
+      "calledMethods": {
+        "java_io_PrintStream": ["hasError__Z"]
+      }
+    },
+    "setError__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["hasError$und$eq__Z__V"]
+      }
+    },
+    "clearError__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["hasError$und$eq__Z__V"]
+      }
+    },
+    "print__Z__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "print__C__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "print__I__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "print__J__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "print__F__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "print__D__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "print__AC__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"]
+      }
+    },
+    "print__T__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V", "writeString__p3__T__V"]
+      }
+    },
+    "print__O__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "writeString__p3__T__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["write__AB__V"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "println__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["write__I__V"]
+      }
+    },
+    "println__Z__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__Z__V", "println__V"]
+      }
+    },
+    "println__C__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__C__V", "println__V"]
+      }
+    },
+    "println__I__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__I__V", "println__V"]
+      }
+    },
+    "println__J__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__V", "print__J__V"]
+      }
+    },
+    "println__F__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__F__V", "println__V"]
+      }
+    },
+    "println__D__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__D__V", "println__V"]
+      }
+    },
+    "println__T__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V", "println__V"]
+      }
+    },
+    "println__O__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__O__V", "println__V"]
+      }
+    },
+    "printf__T__AO__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"]
+      }
+    },
+    "printf__Ljava_util_Locale__T__AO__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"]
+      }
+    },
+    "format__T__AO__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"]
+      }
+    },
+    "format__Ljava_util_Locale__T__AO__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__I__I__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_io_PrintStream": ["append__Ljava_lang_CharSequence__I__I__Ljava_io_PrintStream"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_io_PrintStream": ["append__Ljava_lang_CharSequence__Ljava_io_PrintStream"]
+      }
+    },
+    "append__C__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_io_PrintStream": ["append__C__Ljava_io_PrintStream"]
+      }
+    },
+    "init___Ljava_io_OutputStream__Z__T": {
+      "calledMethodsStatic": {
+        "java_io_FilterOutputStream": ["init___Ljava_io_OutputStream"]
+      }
+    },
+    "init___Ljava_io_OutputStream": {
+      "calledMethodsStatic": {
+        "java_io_PrintStream": ["init___Ljava_io_OutputStream__Z__T"]
+      }
+    },
+    "init___Ljava_io_OutputStream__Z": {
+      "calledMethodsStatic": {
+        "java_io_PrintStream": ["init___Ljava_io_OutputStream__Z__T"]
+      }
+    },
+    "format__Ljava_util_Locale__T__AO__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["format__Ljava_util_Locale__T__AO__V"]
+      }
+    },
+    "format__T__AO__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["format__T__AO__V"]
+      }
+    },
+    "printf__Ljava_util_Locale__T__AO__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["printf__Ljava_util_Locale__T__AO__V"]
+      }
+    },
+    "printf__T__AO__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["printf__T__AO__V"]
+      }
+    },
+    "println__O__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__O__V"]
+      }
+    },
+    "println__T__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__T__V"]
+      }
+    },
+    "println__D__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__D__V"]
+      }
+    },
+    "println__F__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__F__V"]
+      }
+    },
+    "println__J__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__J__V"]
+      }
+    },
+    "println__I__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__I__V"]
+      }
+    },
+    "println__C__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__C__V"]
+      }
+    },
+    "println__Z__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__Z__V"]
+      }
+    },
+    "println__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__V"]
+      }
+    },
+    "print__O__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__O__V"]
+      }
+    },
+    "print__T__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__T__V"]
+      }
+    },
+    "print__AC__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__AC__V"]
+      }
+    },
+    "print__D__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__D__V"]
+      }
+    },
+    "print__F__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__F__V"]
+      }
+    },
+    "print__J__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__J__V"]
+      }
+    },
+    "print__I__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__I__V"]
+      }
+    },
+    "print__C__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__C__V"]
+      }
+    },
+    "print__Z__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["print__Z__V"]
+      }
+    },
+    "clearError__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["clearError__V"]
+      }
+    },
+    "setError__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["setError__V"]
+      }
+    },
+    "checkError__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["checkError__Z"]
+      }
+    },
+    "hasError$und$eq__Z__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["hasError$und$eq__Z__V"]
+      }
+    },
+    "hasError__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["hasError__Z"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__I__I__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["append__Ljava_lang_CharSequence__I__I__Ljava_io_PrintStream"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["append__Ljava_lang_CharSequence__Ljava_io_PrintStream"]
+      }
+    },
+    "append__C__": {
+      "calledMethods": {
+        "java_io_PrintStream": ["append__C__Ljava_io_PrintStream"]
+      }
+    }
+  }
+}

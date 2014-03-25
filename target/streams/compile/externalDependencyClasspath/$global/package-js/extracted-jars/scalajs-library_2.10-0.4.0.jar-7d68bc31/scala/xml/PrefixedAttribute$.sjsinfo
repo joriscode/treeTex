@@ -1,0 +1,36 @@
+{
+  "name": "scala.xml.PrefixedAttribute$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_PrefixedAttribute$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_PrefixedAttribute$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "unapply__Lscala_xml_PrefixedAttribute__Lscala_Some": {
+      "calledMethods": {
+        "scala_Tuple4": ["init___O__O__O__O"],
+        "scala_xml_PrefixedAttribute": ["key__T", "value__Lscala_collection_Seq", "pre__T", "next__Lscala_xml_MetaData"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some", "scala_Tuple4"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_xml_PrefixedAttribute"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_xml_PrefixedAttribute__": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute$": ["unapply__Lscala_xml_PrefixedAttribute__Lscala_Some"]
+      }
+    }
+  }
+}

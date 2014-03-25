@@ -1,0 +1,38 @@
+{
+  "name": "scala.MatchError",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_MatchError",
+  "superClass": "java_lang_RuntimeException",
+  "ancestors": ["scala_MatchError", "java_lang_RuntimeException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "objString$lzycompute__p4__T": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_lang_Class": ["getName__T"],
+        "java_lang_Object": ["toString__T", "getClass__Ljava_lang_Class"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "objString__p4__T": {
+      "calledMethods": {
+        "scala_MatchError": ["objString$lzycompute__p4__T"]
+      }
+    },
+    "getMessage__T": {
+      "calledMethods": {
+        "scala_MatchError": ["objString__p4__T"]
+      }
+    },
+    "init___O": {
+      "calledMethodsStatic": {
+        "java_lang_RuntimeException": ["init___"]
+      }
+    }
+  }
+}

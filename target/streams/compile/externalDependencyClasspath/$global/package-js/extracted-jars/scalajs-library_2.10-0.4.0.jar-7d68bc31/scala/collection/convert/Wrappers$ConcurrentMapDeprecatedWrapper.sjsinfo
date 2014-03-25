@@ -1,0 +1,92 @@
+{
+  "name": "scala.collection.convert.Wrappers$ConcurrentMapDeprecatedWrapper",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper",
+  "superClass": "scala_collection_convert_Wrappers$MutableMapWrapper",
+  "ancestors": ["scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper", "java_util_concurrent_ConcurrentMap", "scala_collection_convert_Wrappers$MutableMapWrapper", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_collection_convert_Wrappers$MapWrapper", "java_util_AbstractMap", "java_util_Map", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "underlying__Lscala_collection_mutable_ConcurrentMap": {
+      "calledMethodsStatic": {
+        "scala_collection_convert_Wrappers$MutableMapWrapper": ["underlying__Lscala_collection_mutable_Map"]
+      },
+      "accessedClassData": ["scala_collection_mutable_ConcurrentMap"]
+    },
+    "putIfAbsent__O__O__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["underlying__Lscala_collection_mutable_ConcurrentMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Some": ["x__O"],
+        "scala_collection_mutable_ConcurrentMap": ["putIfAbsent__O__O__Lscala_Option"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Some"]
+    },
+    "remove__O__O__Z": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["underlying__Lscala_collection_mutable_ConcurrentMap"],
+        "scala_collection_mutable_ConcurrentMap": ["remove__O__O__Z"]
+      },
+      "accessedClassData": ["java_lang_ClassCastException"]
+    },
+    "replace__O__O__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["underlying__Lscala_collection_mutable_ConcurrentMap"],
+        "scala_MatchError": ["init___O"],
+        "scala_Some": ["x__O"],
+        "scala_collection_mutable_ConcurrentMap": ["replace__O__O__Lscala_Option"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Some"]
+    },
+    "replace__O__O__O__Z": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["underlying__Lscala_collection_mutable_ConcurrentMap"],
+        "scala_collection_mutable_ConcurrentMap": ["replace__O__O__O__Z"]
+      }
+    },
+    "scala$collection$convert$Wrappers$ConcurrentMapDeprecatedWrapper$$$outer__Lscala_collection_convert_Wrappers": {},
+    "underlying__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["underlying__Lscala_collection_mutable_ConcurrentMap"]
+      }
+    },
+    "init___Lscala_collection_convert_Wrappers__Lscala_collection_mutable_ConcurrentMap": {
+      "calledMethodsStatic": {
+        "scala_collection_convert_Wrappers$MutableMapWrapper": ["init___Lscala_collection_convert_Wrappers__Lscala_collection_mutable_Map"]
+      }
+    },
+    "scala$collection$convert$Wrappers$ConcurrentMapDeprecatedWrapper$$$outer__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["scala$collection$convert$Wrappers$ConcurrentMapDeprecatedWrapper$$$outer__Lscala_collection_convert_Wrappers"]
+      }
+    },
+    "replace__O__O__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["replace__O__O__O__Z"]
+      }
+    },
+    "replace__O__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["replace__O__O__O"]
+      }
+    },
+    "remove__O__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["remove__O__O__Z"]
+      }
+    },
+    "putIfAbsent__O__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapDeprecatedWrapper": ["putIfAbsent__O__O__O"]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "scala.collection.generic.ParSetFactory$GenericCanCombineFrom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_ParSetFactory$GenericCanCombineFrom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_ParSetFactory$GenericCanCombineFrom", "scala_collection_generic_CanCombineFrom", "scala_collection_Parallel", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_parallel_ParSet__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_parallel_ParSet": ["genericCombiner__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_ParSetFactory": ["newCombiner__Lscala_collection_parallel_Combiner"],
+        "scala_collection_generic_ParSetFactory$GenericCanCombineFrom": ["scala$collection$generic$ParSetFactory$GenericCanCombineFrom$$$outer__Lscala_collection_generic_ParSetFactory"]
+      }
+    },
+    "scala$collection$generic$ParSetFactory$GenericCanCombineFrom$$$outer__Lscala_collection_generic_ParSetFactory": {},
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_ParSetFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_ParSetFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_ParSet__Lscala_collection_parallel_Combiner"]
+      },
+      "accessedClassData": ["scala_collection_parallel_ParSet"]
+    },
+    "apply__O__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_ParSetFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_ParSet__Lscala_collection_parallel_Combiner"]
+      },
+      "accessedClassData": ["scala_collection_parallel_ParSet"]
+    },
+    "init___Lscala_collection_generic_ParSetFactory": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$generic$ParSetFactory$GenericCanCombineFrom$$$outer__": {
+      "calledMethods": {
+        "scala_collection_generic_ParSetFactory$GenericCanCombineFrom": ["scala$collection$generic$ParSetFactory$GenericCanCombineFrom$$$outer__Lscala_collection_generic_ParSetFactory"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_generic_ParSetFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__Lscala_collection_parallel_ParSet__": {
+      "calledMethods": {
+        "scala_collection_generic_ParSetFactory$GenericCanCombineFrom": ["apply__Lscala_collection_parallel_ParSet__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanCombineFrom": ["apply__O__Lscala_collection_parallel_Combiner"]
+      }
+    }
+  }
+}

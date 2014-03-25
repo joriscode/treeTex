@@ -1,0 +1,44 @@
+{
+  "name": "scala.collection.GenTraversableViewLike$Sliced$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenTraversableViewLike$Sliced$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenTraversableViewLike$Sliced$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenTraversableViewLike$Sliced$class__from__Lscala_collection_GenTraversableViewLike$Sliced__I": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["from__I"],
+        "scala_collection_GenTraversableViewLike$Sliced": ["endpoints__Lscala_collection_generic_SliceInterval"]
+      }
+    },
+    "scala_collection_GenTraversableViewLike$Sliced$class__until__Lscala_collection_GenTraversableViewLike$Sliced__I": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["until__I"],
+        "scala_collection_GenTraversableViewLike$Sliced": ["endpoints__Lscala_collection_generic_SliceInterval"]
+      }
+    },
+    "scala_collection_GenTraversableViewLike$Sliced$class__foreach__Lscala_collection_GenTraversableViewLike$Sliced__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_GenTraversableViewLike": ["foreach__Lscala_Function1__V"],
+        "scala_collection_GenTraversableViewLike$Sliced": ["scala$collection$GenTraversableViewLike$Sliced$$$outer__Lscala_collection_GenTraversableViewLike", "until__I", "from__I"],
+        "java_lang_Object": ["init___"],
+        "scala_runtime_NonLocalReturnControl": ["value$mcV$sp__V", "key__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_runtime_NonLocalReturnControl$mcV$sp": ["init___O__Lscala_runtime_BoxedUnit"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "java_lang_Object", "scala_runtime_NonLocalReturnControl$mcV$sp", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_runtime_NonLocalReturnControl"]
+    },
+    "scala_collection_GenTraversableViewLike$Sliced$class__viewIdentifier__Lscala_collection_GenTraversableViewLike$Sliced__T": {},
+    "scala_collection_GenTraversableViewLike$Sliced$class__$init$__Lscala_collection_GenTraversableViewLike$Sliced__V": {}
+  }
+}

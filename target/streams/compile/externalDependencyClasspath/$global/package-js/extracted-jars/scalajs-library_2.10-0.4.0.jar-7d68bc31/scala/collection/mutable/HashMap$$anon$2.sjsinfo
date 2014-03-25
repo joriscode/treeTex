@@ -1,0 +1,33 @@
+{
+  "name": "scala.collection.mutable.HashMap$$anon$2",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_HashMap$$anon$2",
+  "superClass": "scala_collection_MapLike$DefaultValuesIterable",
+  "ancestors": ["scala_collection_mutable_HashMap$$anon$2", "scala_collection_MapLike$DefaultValuesIterable", "scala_Serializable", "java_io_Serializable", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["foreachEntry__Lscala_Function1__V"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_DefaultEntry": ["value__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "init___Lscala_collection_mutable_HashMap": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_MapLike$DefaultValuesIterable": ["init___Lscala_collection_MapLike"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

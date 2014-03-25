@@ -1,0 +1,55 @@
+{
+  "name": "scala.xml.pull.EvElemStart$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_pull_EvElemStart$",
+  "superClass": "scala_runtime_AbstractFunction4",
+  "ancestors": ["scala_xml_pull_EvElemStart$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction4", "scala_Function4", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_xml_pull_EvElemStart": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemStart": ["init___T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding"]
+      },
+      "instantiatedClasses": ["scala_xml_pull_EvElemStart"]
+    },
+    "unapply__Lscala_xml_pull_EvElemStart__Lscala_Option": {
+      "calledMethods": {
+        "scala_Tuple4": ["init___O__O__O__O"],
+        "scala_xml_pull_EvElemStart": ["attrs__Lscala_xml_MetaData", "scope__Lscala_xml_NamespaceBinding", "pre__T", "label__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some", "scala_Tuple4"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_xml_pull_EvElemStart"]
+    },
+    "apply__O__O__O__O__O": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemStart$": ["apply__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_xml_pull_EvElemStart"]
+      },
+      "accessedClassData": ["scala_xml_NamespaceBinding", "scala_xml_MetaData", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction4": ["init___"]
+      }
+    },
+    "unapply__Lscala_xml_pull_EvElemStart__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemStart$": ["unapply__Lscala_xml_pull_EvElemStart__Lscala_Option"]
+      }
+    },
+    "apply__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemStart$": ["apply__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_xml_pull_EvElemStart"]
+      }
+    }
+  }
+}

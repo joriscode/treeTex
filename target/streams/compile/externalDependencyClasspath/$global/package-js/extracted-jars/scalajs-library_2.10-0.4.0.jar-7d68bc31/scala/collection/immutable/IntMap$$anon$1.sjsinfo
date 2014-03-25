@@ -1,0 +1,54 @@
+{
+  "name": "scala.collection.immutable.IntMap$$anon$1",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_IntMap$$anon$1",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_IntMap$$anon$1", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_immutable_IntMap__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$$anon$1": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$": ["empty__Lscala_collection_immutable_IntMap"],
+        "scala_collection_mutable_MapBuilder": ["init___Lscala_collection_GenMap"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_MapBuilder"],
+      "accessedModules": ["scala_collection_immutable_IntMap"]
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$$anon$1": ["apply__Lscala_collection_immutable_IntMap__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_immutable_IntMap"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$$anon$1": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_immutable_IntMap__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$$anon$1": ["apply__Lscala_collection_immutable_IntMap__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

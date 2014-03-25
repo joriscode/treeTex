@@ -1,0 +1,30 @@
+{
+  "name": "scala.collection.mutable.SeqLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_SeqLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_SeqLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_SeqLike$class__parCombiner__Lscala_collection_mutable_SeqLike__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_parallel_mutable_ParSeq$": ["newCombiner__Lscala_collection_parallel_Combiner"]
+      },
+      "accessedModules": ["scala_collection_parallel_mutable_ParSeq"]
+    },
+    "scala_collection_mutable_SeqLike$class__transform__Lscala_collection_mutable_SeqLike__Lscala_Function1__Lscala_collection_mutable_SeqLike": {
+      "calledMethods": {
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_mutable_SeqLike": ["foreach__Lscala_Function1__V", "update__I__O__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_mutable_SeqLike$class__$init$__Lscala_collection_mutable_SeqLike__V": {}
+  }
+}

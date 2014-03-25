@@ -1,0 +1,168 @@
+{
+  "name": "scala.xml.parsing.NoBindingFactoryAdapter",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_NoBindingFactoryAdapter",
+  "superClass": "scala_xml_parsing_FactoryAdapter",
+  "ancestors": ["scala_xml_parsing_NoBindingFactoryAdapter", "scala_xml_factory_NodeFactory", "scala_xml_parsing_FactoryAdapter", "scala_xml_factory_XMLLoader", "org_xml_sax_helpers_DefaultHandler", "org_xml_sax_ErrorHandler", "org_xml_sax_ContentHandler", "org_xml_sax_DTDHandler", "org_xml_sax_EntityResolver", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ignoreComments__Z": {},
+    "ignoreProcInstr__Z": {},
+    "cache__Lscala_collection_mutable_HashMap": {},
+    "scala$xml$factory$NodeFactory$$undsetter$und$ignoreComments$und$eq__Z__V": {},
+    "scala$xml$factory$NodeFactory$$undsetter$und$ignoreProcInstr$und$eq__Z__V": {},
+    "scala$xml$factory$NodeFactory$$undsetter$und$cache$und$eq__Lscala_collection_mutable_HashMap__V": {},
+    "construct__I__Lscala_collection_immutable_List__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__construct__Lscala_xml_factory_NodeFactory__I__Lscala_collection_immutable_List__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node"]
+      }
+    },
+    "eqElements__Lscala_collection_Seq__Lscala_collection_Seq__Z": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__eqElements__Lscala_xml_factory_NodeFactory__Lscala_collection_Seq__Lscala_collection_Seq__Z"]
+      }
+    },
+    "nodeEquals__Lscala_xml_Node__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Z": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__nodeEquals__Lscala_xml_factory_NodeFactory__Lscala_xml_Node__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Z"]
+      }
+    },
+    "makeNode__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__makeNode__Lscala_xml_factory_NodeFactory__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node"]
+      }
+    },
+    "makeText__T__Lscala_xml_Text": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__makeText__Lscala_xml_factory_NodeFactory__T__Lscala_xml_Text"]
+      }
+    },
+    "makeComment__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__makeComment__Lscala_xml_factory_NodeFactory__T__Lscala_collection_Seq"]
+      }
+    },
+    "makeProcInstr__T__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__makeProcInstr__Lscala_xml_factory_NodeFactory__T__T__Lscala_collection_Seq"]
+      }
+    },
+    "nodeContainsText__T__Z": {},
+    "create__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Elem": {
+      "calledMethods": {
+        "scala_xml_Elem$": ["apply__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Elem"]
+      },
+      "accessedModules": ["scala_xml_Elem"]
+    },
+    "createNode__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_immutable_List__Lscala_xml_Elem": {
+      "calledMethods": {
+        "scala_xml_Elem$": ["apply__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Elem"]
+      },
+      "accessedModules": ["scala_xml_Elem"]
+    },
+    "createText__T__Lscala_xml_Text": {
+      "calledMethods": {
+        "scala_xml_Text$": ["apply__T__Lscala_xml_Text"]
+      },
+      "accessedModules": ["scala_xml_Text"]
+    },
+    "createProcInstr__T__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["makeProcInstr__T__T__Lscala_collection_Seq"]
+      }
+    },
+    "createNode__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_immutable_List__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["createNode__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_immutable_List__Lscala_xml_Elem"]
+      }
+    },
+    "create__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["create__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Elem"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_xml_factory_NodeFactory$class": ["scala_xml_factory_NodeFactory$class__$init$__Lscala_xml_factory_NodeFactory__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_parsing_FactoryAdapter": ["init___"]
+      }
+    },
+    "makeProcInstr__T__T__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["makeProcInstr__T__T__Lscala_collection_Seq"]
+      }
+    },
+    "makeComment__T__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["makeComment__T__Lscala_collection_Seq"]
+      }
+    },
+    "makeText__T__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["makeText__T__Lscala_xml_Text"]
+      }
+    },
+    "makeNode__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["makeNode__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node"]
+      }
+    },
+    "nodeEquals__Lscala_xml_Node__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["nodeEquals__Lscala_xml_Node__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Z"]
+      }
+    },
+    "eqElements__Lscala_collection_Seq__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["eqElements__Lscala_collection_Seq__Lscala_collection_Seq__Z"]
+      }
+    },
+    "construct__I__Lscala_collection_immutable_List__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["construct__I__Lscala_collection_immutable_List__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node"]
+      }
+    },
+    "scala$xml$factory$NodeFactory$$undsetter$und$cache$und$eq__Lscala_collection_mutable_HashMap__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["scala$xml$factory$NodeFactory$$undsetter$und$cache$und$eq__Lscala_collection_mutable_HashMap__V"]
+      }
+    },
+    "scala$xml$factory$NodeFactory$$undsetter$und$ignoreProcInstr$und$eq__Z__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["scala$xml$factory$NodeFactory$$undsetter$und$ignoreProcInstr$und$eq__Z__V"]
+      }
+    },
+    "scala$xml$factory$NodeFactory$$undsetter$und$ignoreComments$und$eq__Z__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["scala$xml$factory$NodeFactory$$undsetter$und$ignoreComments$und$eq__Z__V"]
+      }
+    },
+    "cache__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["cache__Lscala_collection_mutable_HashMap"]
+      }
+    },
+    "ignoreProcInstr__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["ignoreProcInstr__Z"]
+      }
+    },
+    "ignoreComments__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["ignoreComments__Z"]
+      }
+    },
+    "create__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["create__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Elem"]
+      }
+    }
+  }
+}

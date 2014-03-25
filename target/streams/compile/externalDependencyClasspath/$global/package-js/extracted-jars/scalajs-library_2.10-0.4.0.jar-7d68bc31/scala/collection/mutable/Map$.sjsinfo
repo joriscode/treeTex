@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.mutable.Map$",
+  "ancestorCount": 4,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_Map$",
+  "superClass": "scala_collection_generic_MutableMapFactory",
+  "ancestors": ["scala_collection_mutable_Map$", "scala_collection_generic_MutableMapFactory", "scala_collection_generic_MapFactory", "scala_collection_generic_GenMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["init___Lscala_collection_generic_GenMapFactory"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_GenMapFactory$MapCanBuildFrom"]
+    },
+    "empty__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_HashMap"]
+    },
+    "empty__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_Map$": ["empty__Lscala_collection_mutable_Map"]
+      }
+    },
+    "empty__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_Map$": ["empty__Lscala_collection_mutable_Map"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_MutableMapFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_mutable_Map$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

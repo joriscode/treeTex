@@ -1,0 +1,140 @@
+{
+  "name": "java.lang.Throwable",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Throwable",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "e__p1__Ljava_lang_Throwable": {},
+    "e$und$eq__p1__Ljava_lang_Throwable__V": {},
+    "initCause__Ljava_lang_Throwable__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "java_lang_Throwable": ["e$und$eq__p1__Ljava_lang_Throwable__V"]
+      }
+    },
+    "getMessage__T": {},
+    "getCause__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "java_lang_Throwable": ["e__p1__Ljava_lang_Throwable"]
+      }
+    },
+    "getLocalizedMessage__T": {
+      "calledMethods": {
+        "java_lang_Throwable": ["getMessage__T"]
+      }
+    },
+    "fillInStackTrace__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["captureState__Ljava_lang_Throwable__V"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace"]
+    },
+    "getStackTrace__ALjava_lang_StackTraceElement": {
+      "calledMethods": {
+        "scala_scalajs_runtime_StackTrace$": ["extract__Ljava_lang_Throwable__ALjava_lang_StackTraceElement"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_StackTrace"]
+    },
+    "setStackTrace__ALjava_lang_StackTraceElement__V": {
+      "calledMethods": {
+        "scala_Array": ["clone__O"],
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"],
+      "accessedClassData": ["java_lang_StackTraceElement"]
+    },
+    "printStackTrace__V": {
+      "calledMethods": {
+        "java_lang_System$": ["err__Ljava_io_PrintStream"],
+        "java_lang_Throwable": ["printStackTrace__Ljava_io_PrintStream__V"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "printStackTrace__Ljava_io_PrintStream__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["println__T__V"],
+        "java_lang_Throwable": ["toString__T", "getCause__Ljava_lang_Throwable", "getStackTrace__ALjava_lang_StackTraceElement"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "java_lang_Class": ["getName__T"],
+        "java_lang_Throwable": ["getClass__Ljava_lang_Class", "getMessage__T"]
+      }
+    },
+    "init___T__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "java_lang_Throwable": ["fillInStackTrace__Ljava_lang_Throwable"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Throwable": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "init___T": {
+      "calledMethodsStatic": {
+        "java_lang_Throwable": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "init___Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_Throwable": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "printStackTrace__Ljava_io_PrintStream__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["printStackTrace__Ljava_io_PrintStream__V"]
+      }
+    },
+    "printStackTrace__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["printStackTrace__V"]
+      }
+    },
+    "setStackTrace__ALjava_lang_StackTraceElement__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["setStackTrace__ALjava_lang_StackTraceElement__V"]
+      }
+    },
+    "getStackTrace__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["getStackTrace__ALjava_lang_StackTraceElement"]
+      }
+    },
+    "fillInStackTrace__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["fillInStackTrace__Ljava_lang_Throwable"]
+      }
+    },
+    "getLocalizedMessage__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["getLocalizedMessage__T"]
+      }
+    },
+    "getCause__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["getCause__Ljava_lang_Throwable"]
+      }
+    },
+    "getMessage__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["getMessage__T"]
+      }
+    },
+    "initCause__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "java_lang_Throwable": ["initCause__Ljava_lang_Throwable__Ljava_lang_Throwable"]
+      }
+    }
+  }
+}

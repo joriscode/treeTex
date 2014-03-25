@@ -1,0 +1,57 @@
+{
+  "name": "scala.collection.mutable.OpenHashMap$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_OpenHashMap$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_mutable_OpenHashMap$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "index__p2__I": {},
+    "index$und$eq__p2__I__V": {},
+    "initialModCount__p2__I": {},
+    "advance__p2__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$mask__I", "scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option"],
+        "scala_collection_mutable_OpenHashMap$$anon$1": ["index$und$eq__p2__I__V", "index__p2__I", "initialModCount__p2__I"]
+      },
+      "accessedModules": ["scala_sys_package", "scala_None"]
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$mask__I"],
+        "scala_collection_mutable_OpenHashMap$$anon$1": ["advance__p2__V", "index__p2__I"]
+      }
+    },
+    "next__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Option": ["get__O"],
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option", "key__O"],
+        "scala_collection_mutable_OpenHashMap$$anon$1": ["advance__p2__V", "index$und$eq__p2__I__V", "index__p2__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$$anon$1": ["next__Lscala_Tuple2"]
+      }
+    },
+    "init___Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

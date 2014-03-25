@@ -1,0 +1,45 @@
+{
+  "name": "scala.concurrent.TaskRunners$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_TaskRunners$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_TaskRunners$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "threadRunner__Lscala_concurrent_FutureTaskRunner": {},
+    "threadPoolRunner__Lscala_concurrent_FutureTaskRunner": {},
+    "init___": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MILLISECONDS__Ljava_util_concurrent_TimeUnit"],
+        "java_util_concurrent_ThreadPoolExecutor": ["init___I__I__J__Ljava_util_concurrent_TimeUnit__Ljava_util_concurrent_BlockingQueue__Ljava_util_concurrent_RejectedExecutionHandler"],
+        "java_lang_Runtime": ["availableProcessors__I"],
+        "java_util_concurrent_LinkedBlockingQueue": ["init___"],
+        "java_util_concurrent_ThreadPoolExecutor$CallerRunsPolicy": ["init___"],
+        "scala_concurrent_JavaConversions$": ["asTaskRunner__Ljava_util_concurrent_ExecutorService__Lscala_concurrent_FutureTaskRunner"],
+        "java_lang_Runtime$": ["getRuntime__Ljava_lang_Runtime"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_ThreadRunner": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_util_concurrent_ThreadPoolExecutor", "java_util_concurrent_LinkedBlockingQueue", "java_util_concurrent_ThreadPoolExecutor$CallerRunsPolicy", "scala_concurrent_ThreadRunner"],
+      "accessedModules": ["scala_scalajs_runtime_Long", "scala_concurrent_JavaConversions", "java_util_concurrent_TimeUnit", "java_lang_Runtime"]
+    },
+    "threadPoolRunner__": {
+      "calledMethods": {
+        "scala_concurrent_TaskRunners$": ["threadPoolRunner__Lscala_concurrent_FutureTaskRunner"]
+      }
+    },
+    "threadRunner__": {
+      "calledMethods": {
+        "scala_concurrent_TaskRunners$": ["threadRunner__Lscala_concurrent_FutureTaskRunner"]
+      }
+    }
+  }
+}

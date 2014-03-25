@@ -1,0 +1,52 @@
+{
+  "name": "scala.concurrent.Future$$anonfun$flatMap$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Future$$anonfun$flatMap$1",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_concurrent_Future$$anonfun$flatMap$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_util_Try__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_concurrent_Promise": ["success__O__Lscala_concurrent_Promise", "complete__Lscala_util_Try__Lscala_concurrent_Promise", "failure__Ljava_lang_Throwable__Lscala_concurrent_Promise"],
+        "scala_util_Success": ["value__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__scala$concurrent$Future$$internalExecutor__Lscala_concurrent_Future__Lscala_concurrent_ExecutionContext"],
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"],
+        "scala_concurrent_Future": ["onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_util_control_NonFatal", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_concurrent_Future", "java_lang_Throwable", "scala_util_Success", "scala_util_Failure"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_concurrent_Future$$anonfun$flatMap$1": ["apply__Lscala_util_Try__O"]
+      },
+      "accessedClassData": ["scala_util_Try"]
+    },
+    "init___Lscala_concurrent_Future__Lscala_concurrent_Promise__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "apply__Lscala_util_Try__": {
+      "calledMethods": {
+        "scala_concurrent_Future$$anonfun$flatMap$1": ["apply__Lscala_util_Try__O"]
+      }
+    }
+  }
+}

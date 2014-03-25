@@ -1,0 +1,101 @@
+{
+  "name": "scala.xml.dtd.ValidationException",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_ValidationException",
+  "superClass": "java_lang_Exception",
+  "ancestors": ["scala_xml_dtd_ValidationException", "scala_Serializable", "scala_Product", "scala_Equals", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "e__T": {},
+    "copy__T__Lscala_xml_dtd_ValidationException": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_ValidationException"]
+    },
+    "copy$default$1__T": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["e__T"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_xml_dtd_ValidationException": ["e__T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_xml_dtd_ValidationException"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["e__T", "canEqual__O__Z"]
+      },
+      "accessedClassData": ["scala_xml_dtd_ValidationException"]
+    },
+    "init___T": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Exception": ["init___T"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["productPrefix__T"]
+      }
+    },
+    "copy__T__": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["copy__T__Lscala_xml_dtd_ValidationException"]
+      }
+    },
+    "e__": {
+      "calledMethods": {
+        "scala_xml_dtd_ValidationException": ["e__T"]
+      }
+    }
+  }
+}

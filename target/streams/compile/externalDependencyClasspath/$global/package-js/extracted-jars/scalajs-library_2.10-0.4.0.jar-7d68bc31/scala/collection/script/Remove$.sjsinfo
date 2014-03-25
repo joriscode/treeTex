@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.script.Remove$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_script_Remove$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_script_Remove$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_collection_script_Location__O__Lscala_collection_script_Remove": {
+      "calledMethods": {
+        "scala_collection_script_Remove": ["init___Lscala_collection_script_Location__O"]
+      },
+      "instantiatedClasses": ["scala_collection_script_Remove"]
+    },
+    "unapply__Lscala_collection_script_Remove__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_script_Remove": ["location__Lscala_collection_script_Location", "elem__O"],
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_script_Remove"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_collection_script_Remove__": {
+      "calledMethods": {
+        "scala_collection_script_Remove$": ["unapply__Lscala_collection_script_Remove__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_collection_script_Location__O__": {
+      "calledMethods": {
+        "scala_collection_script_Remove$": ["apply__Lscala_collection_script_Location__O__Lscala_collection_script_Remove"]
+      }
+    }
+  }
+}

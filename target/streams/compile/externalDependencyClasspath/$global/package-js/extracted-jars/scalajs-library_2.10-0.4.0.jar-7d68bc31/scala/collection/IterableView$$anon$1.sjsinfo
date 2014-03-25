@@ -1,0 +1,58 @@
+{
+  "name": "scala.collection.IterableView$$anon$1",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_IterableView$$anon$1",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_IterableView$$anon$1", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_TraversableView__Lscala_collection_TraversableView$NoBuilder": {
+      "calledMethods": {
+        "scala_collection_TraversableView$NoBuilder": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableView$NoBuilder"]
+    },
+    "apply__Lscala_collection_TraversableView$NoBuilder": {
+      "calledMethods": {
+        "scala_collection_TraversableView$NoBuilder": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_TraversableView$NoBuilder"]
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_IterableView$$anon$1": ["apply__Lscala_collection_TraversableView$NoBuilder"]
+      }
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_IterableView$$anon$1": ["apply__Lscala_collection_TraversableView__Lscala_collection_TraversableView$NoBuilder"]
+      },
+      "accessedClassData": ["scala_collection_TraversableView"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_IterableView$$anon$1": ["apply__Lscala_collection_TraversableView$NoBuilder"]
+      }
+    },
+    "apply__Lscala_collection_TraversableView__": {
+      "calledMethods": {
+        "scala_collection_IterableView$$anon$1": ["apply__Lscala_collection_TraversableView__Lscala_collection_TraversableView$NoBuilder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "scala.testing.Show$SymApply",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_testing_Show$SymApply",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_testing_Show$SymApply", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_Seq__V": {
+      "calledMethods": {
+        "scala_Predef$": ["println__O__V"],
+        "scala_testing_Show": ["test__Lscala_Symbol__Lscala_collection_Seq__T"],
+        "scala_testing_Show$SymApply": ["scala$testing$Show$SymApply$$$outer__Lscala_testing_Show"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "scala$testing$Show$SymApply$$$outer__Lscala_testing_Show": {},
+    "init___Lscala_testing_Show__Lscala_Symbol": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$testing$Show$SymApply$$$outer__": {
+      "calledMethods": {
+        "scala_testing_Show$SymApply": ["scala$testing$Show$SymApply$$$outer__Lscala_testing_Show"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_testing_Show$SymApply": ["apply__Lscala_collection_Seq__V"]
+      }
+    }
+  }
+}

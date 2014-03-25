@@ -1,0 +1,44 @@
+{
+  "name": "scala.xml.factory.LoggedNodeFactory$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_factory_LoggedNodeFactory$class",
+  "superClass": "",
+  "ancestors": ["scala_xml_factory_LoggedNodeFactory$class"],
+  "isExported": false,
+  "methods": {
+    "scala_xml_factory_LoggedNodeFactory$class__makeNode__Lscala_xml_factory_LoggedNodeFactory__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_LoggedNodeFactory": ["logCompressLevel__I", "scala$xml$factory$LoggedNodeFactory$$super$makeNode__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Lscala_collection_Seq__Lscala_xml_Node", "logNode__Z", "cache__Lscala_collection_mutable_HashMap", "log__T__V"],
+        "scala_Option": ["isEmpty__Z"],
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_xml_Utility$": ["hashCode__T__T__I__I__Lscala_collection_Seq__I"],
+        "scala_collection_mutable_HashMap": ["get__O__Lscala_Option"]
+      },
+      "accessedModules": ["scala_xml_Utility", "scala_runtime_ScalaRunTime"]
+    },
+    "scala_xml_factory_LoggedNodeFactory$class__makeText__Lscala_xml_factory_LoggedNodeFactory__T__Lscala_xml_Text": {
+      "calledMethods": {
+        "scala_xml_factory_LoggedNodeFactory": ["logText__Z", "scala$xml$factory$LoggedNodeFactory$$super$makeText__T__Lscala_xml_Text", "log__T__V"]
+      }
+    },
+    "scala_xml_factory_LoggedNodeFactory$class__makeComment__Lscala_xml_factory_LoggedNodeFactory__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_factory_LoggedNodeFactory": ["logComment__Z", "scala$xml$factory$LoggedNodeFactory$$super$makeComment__T__Lscala_collection_Seq", "log__T__V"]
+      }
+    },
+    "scala_xml_factory_LoggedNodeFactory$class__makeProcInstr__Lscala_xml_factory_LoggedNodeFactory__T__T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_factory_LoggedNodeFactory": ["scala$xml$factory$LoggedNodeFactory$$super$makeProcInstr__T__T__Lscala_collection_Seq", "logProcInstr__Z", "log__T__V"]
+      }
+    },
+    "scala_xml_factory_LoggedNodeFactory$class__$init$__Lscala_xml_factory_LoggedNodeFactory__V": {
+      "calledMethods": {
+        "scala_xml_factory_LoggedNodeFactory": ["scala$xml$factory$LoggedNodeFactory$$undsetter$und$logNode$und$eq__Z__V", "scala$xml$factory$LoggedNodeFactory$$undsetter$und$logProcInstr$und$eq__Z__V", "scala$xml$factory$LoggedNodeFactory$$undsetter$und$logComment$und$eq__Z__V", "scala$xml$factory$LoggedNodeFactory$$undsetter$und$logCompressLevel$und$eq__I__V", "scala$xml$factory$LoggedNodeFactory$$undsetter$und$logText$und$eq__Z__V"]
+      }
+    }
+  }
+}

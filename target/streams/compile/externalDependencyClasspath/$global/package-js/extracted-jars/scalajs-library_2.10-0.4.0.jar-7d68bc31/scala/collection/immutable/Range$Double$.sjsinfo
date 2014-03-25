@@ -1,0 +1,76 @@
+{
+  "name": "scala.collection.immutable.Range$Double$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Range$Double$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_Range$Double$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "bigDecAsIntegral__Lscala_math_Numeric$BigDecimalAsIfIntegral$": {},
+    "doubleAsIntegral__Lscala_math_Numeric$DoubleAsIfIntegral$": {},
+    "toBD__D__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal$": ["valueOf__D__Lscala_math_BigDecimal"]
+      },
+      "accessedModules": ["scala_math_BigDecimal"]
+    },
+    "apply__D__D__D__Lscala_collection_immutable_NumericRange": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_math_BigDecimal": ["doubleValue__D"],
+        "scala_collection_immutable_NumericRange$Exclusive": ["mapRange__Lscala_Function1__Lscala_math_Integral__Lscala_collection_immutable_NumericRange"],
+        "scala_collection_immutable_Range$BigDecimal$": ["apply__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Exclusive"],
+        "scala_collection_immutable_Range$Double$": ["doubleAsIntegral__Lscala_math_Numeric$DoubleAsIfIntegral$", "toBD__D__Lscala_math_BigDecimal"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_Range$BigDecimal"]
+    },
+    "inclusive__D__D__D__Lscala_collection_immutable_NumericRange": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_math_BigDecimal": ["doubleValue__D"],
+        "scala_collection_immutable_Range$BigDecimal$": ["inclusive__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Inclusive"],
+        "scala_collection_immutable_Range$Double$": ["doubleAsIntegral__Lscala_math_Numeric$DoubleAsIfIntegral$", "toBD__D__Lscala_math_BigDecimal"],
+        "scala_collection_immutable_NumericRange$Inclusive": ["mapRange__Lscala_Function1__Lscala_math_Integral__Lscala_collection_immutable_NumericRange"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_Range$BigDecimal"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_math_Numeric$BigDecimalAsIfIntegral", "scala_math_Numeric$DoubleAsIfIntegral"]
+    },
+    "inclusive__D__D__D__": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$Double$": ["inclusive__D__D__D__Lscala_collection_immutable_NumericRange"]
+      }
+    },
+    "apply__D__D__D__": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$Double$": ["apply__D__D__D__Lscala_collection_immutable_NumericRange"]
+      }
+    },
+    "toBD__D__": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$Double$": ["toBD__D__Lscala_math_BigDecimal"]
+      }
+    },
+    "doubleAsIntegral__": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$Double$": ["doubleAsIntegral__Lscala_math_Numeric$DoubleAsIfIntegral$"]
+      }
+    },
+    "bigDecAsIntegral__": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$Double$": ["bigDecAsIntegral__Lscala_math_Numeric$BigDecimalAsIfIntegral$"]
+      }
+    }
+  }
+}

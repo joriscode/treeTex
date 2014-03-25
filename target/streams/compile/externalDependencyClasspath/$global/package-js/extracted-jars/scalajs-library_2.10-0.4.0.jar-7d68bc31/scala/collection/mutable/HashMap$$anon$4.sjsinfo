@@ -1,0 +1,38 @@
+{
+  "name": "scala.collection.mutable.HashMap$$anon$4",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_HashMap$$anon$4",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_mutable_HashMap$$anon$4", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "iter__p2__Lscala_collection_Iterator": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap$$anon$4": ["iter__p2__Lscala_collection_Iterator"],
+        "scala_collection_Iterator": ["hasNext__Z"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap$$anon$4": ["iter__p2__Lscala_collection_Iterator"],
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_mutable_DefaultEntry": ["value__O"]
+      },
+      "accessedClassData": ["scala_collection_mutable_DefaultEntry"]
+    },
+    "init___Lscala_collection_mutable_HashMap": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["entriesIterator__Lscala_collection_Iterator"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

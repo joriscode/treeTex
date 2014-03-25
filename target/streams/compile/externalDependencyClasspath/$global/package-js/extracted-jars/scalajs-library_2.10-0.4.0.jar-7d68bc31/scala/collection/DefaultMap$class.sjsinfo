@@ -1,0 +1,35 @@
+{
+  "name": "scala.collection.DefaultMap$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_DefaultMap$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_DefaultMap$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_DefaultMap$class__$plus__Lscala_collection_DefaultMap__Lscala_Tuple2__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable", "$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_Map$": ["newBuilder__Lscala_collection_mutable_Builder"],
+        "scala_Tuple2": ["init___O__O", "$$und1__O", "$$und2__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"],
+      "accessedModules": ["scala_collection_Map"],
+      "accessedClassData": ["scala_collection_Map"]
+    },
+    "scala_collection_DefaultMap$class__$minus__Lscala_collection_DefaultMap__O__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_Tuple2": ["$$und1__O"],
+        "scala_collection_DefaultMap": ["newBuilder__Lscala_collection_mutable_Builder", "filter__Lscala_Function1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_Map", "scala_collection_TraversableOnce"]
+    },
+    "scala_collection_DefaultMap$class__$init$__Lscala_collection_DefaultMap__V": {}
+  }
+}

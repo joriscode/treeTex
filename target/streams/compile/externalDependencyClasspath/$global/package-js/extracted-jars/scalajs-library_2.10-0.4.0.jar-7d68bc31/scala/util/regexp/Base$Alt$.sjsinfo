@@ -1,0 +1,49 @@
+{
+  "name": "scala.util.regexp.Base$Alt$",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_regexp_Base$Alt$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_regexp_Base$Alt$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_Seq__Lscala_util_regexp_Base$Alt": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Alt": ["init___Lscala_util_regexp_Base__Lscala_collection_Seq"],
+        "scala_collection_Seq": ["size__I"],
+        "scala_util_regexp_SyntaxError": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_util_regexp_Base$Alt", "scala_util_regexp_SyntaxError"]
+    },
+    "unapplySeq__Lscala_util_regexp_Base$Alt__Lscala_Some": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Alt": ["rs__Lscala_collection_Seq"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "init___Lscala_util_regexp_Base": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapplySeq__Lscala_util_regexp_Base$Alt__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Alt$": ["unapplySeq__Lscala_util_regexp_Base$Alt__Lscala_Some"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Alt$": ["apply__Lscala_collection_Seq__Lscala_util_regexp_Base$Alt"]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.immutable.IntMap$Bin$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_IntMap$Bin$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_IntMap$Bin$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap$Bin": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Bin": ["init___I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMap$Bin"]
+    },
+    "unapply__Lscala_collection_immutable_IntMap$Bin__Lscala_Option": {
+      "calledMethods": {
+        "scala_Tuple4": ["init___O__O__O__O"],
+        "scala_Some": ["init___O"],
+        "scala_collection_immutable_IntMap$Bin": ["prefix__I", "mask__I", "left__Lscala_collection_immutable_IntMap", "right__Lscala_collection_immutable_IntMap"]
+      },
+      "instantiatedClasses": ["scala_Some", "scala_Tuple4"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_immutable_IntMap$Bin"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_collection_immutable_IntMap$Bin__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Bin$": ["unapply__Lscala_collection_immutable_IntMap$Bin__Lscala_Option"]
+      }
+    },
+    "apply__I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Bin$": ["apply__I__I__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap__Lscala_collection_immutable_IntMap$Bin"]
+      }
+    }
+  }
+}

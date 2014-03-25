@@ -1,0 +1,741 @@
+{
+  "name": "scala.math.BigDecimal",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_BigDecimal",
+  "superClass": "scala_math_ScalaNumber",
+  "ancestors": ["scala_math_BigDecimal", "scala_Serializable", "scala_math_ScalaNumericConversions", "scala_math_ScalaNumericAnyConversions", "scala_math_ScalaNumber", "java_lang_Number", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toChar__C": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toChar__Lscala_math_ScalaNumericAnyConversions__C"]
+      }
+    },
+    "toByte__B": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toByte__Lscala_math_ScalaNumericAnyConversions__B"]
+      }
+    },
+    "toShort__S": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toShort__Lscala_math_ScalaNumericAnyConversions__S"]
+      }
+    },
+    "toInt__I": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toInt__Lscala_math_ScalaNumericAnyConversions__I"]
+      }
+    },
+    "toLong__J": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toLong__Lscala_math_ScalaNumericAnyConversions__J"]
+      }
+    },
+    "toFloat__F": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toFloat__Lscala_math_ScalaNumericAnyConversions__F"]
+      }
+    },
+    "toDouble__D": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toDouble__Lscala_math_ScalaNumericAnyConversions__D"]
+      }
+    },
+    "unifiedPrimitiveHashcode__I": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__unifiedPrimitiveHashcode__Lscala_math_ScalaNumericAnyConversions__I"]
+      }
+    },
+    "unifiedPrimitiveEquals__O__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__unifiedPrimitiveEquals__Lscala_math_ScalaNumericAnyConversions__O__Z"]
+      }
+    },
+    "bigDecimal__Ljava_math_BigDecimal": {},
+    "mc__Ljava_math_MathContext": {},
+    "bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["mc__Ljava_math_MathContext", "init___Ljava_math_BigDecimal__Ljava_math_MathContext"]
+      },
+      "instantiatedClasses": ["scala_math_BigDecimal"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__D__I"],
+        "scala_math_BigDecimal": ["doubleValue__D", "unifiedPrimitiveHashcode__I", "isWhole__Z"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_math_BigInt": ["equals__Lscala_math_BigInt__Z"],
+        "scala_math_BigDecimal": ["isValidFloat__Z", "toFloat__F", "toBigIntExact__Lscala_Option", "equals__Lscala_math_BigDecimal__Z", "isValidLong__Z", "isValidDouble__Z", "unifiedPrimitiveEquals__O__Z", "toDouble__D"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Option": ["exists__Lscala_Function1__Z"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["java_lang_Float", "java_lang_Double", "scala_math_BigDecimal", "scala_math_BigInt"]
+    },
+    "isValidByte__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_math_BigDecimal": ["noArithmeticException__p3__Lscala_Function0__Z", "toByteExact__B"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "isValidShort__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_math_BigDecimal": ["noArithmeticException__p3__Lscala_Function0__Z", "toShortExact__S"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "isValidChar__Z": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toIntExact__I", "isValidInt__Z"]
+      }
+    },
+    "isValidInt__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_math_BigDecimal": ["noArithmeticException__p3__Lscala_Function0__Z", "toIntExact__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "isValidLong__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_math_BigDecimal": ["noArithmeticException__p3__Lscala_Function0__Z", "toLongExact__J"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "isValidFloat__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["floatWrapper__F__F"],
+        "scala_math_BigDecimal": ["toFloat__F", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["compareTo__Ljava_math_BigDecimal__I", "init___D"],
+        "scala_runtime_RichFloat$": ["isInfinity$extension__F__Z"]
+      },
+      "instantiatedClasses": ["java_math_BigDecimal"],
+      "accessedModules": ["scala_Predef", "scala_runtime_RichFloat"]
+    },
+    "isValidDouble__Z": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toDouble__D", "bigDecimal__Ljava_math_BigDecimal"],
+        "scala_Predef$": ["doubleWrapper__D__D"],
+        "scala_runtime_RichDouble$": ["isInfinity$extension__D__Z"],
+        "java_math_BigDecimal": ["compareTo__Ljava_math_BigDecimal__I", "init___D"]
+      },
+      "instantiatedClasses": ["java_math_BigDecimal"],
+      "accessedModules": ["scala_Predef", "scala_runtime_RichDouble"]
+    },
+    "noArithmeticException__p3__Lscala_Function0__Z": {
+      "calledMethods": {
+        "scala_Function0": ["apply$mcV$sp__V"]
+      },
+      "accessedClassData": ["java_lang_ArithmeticException"]
+    },
+    "isWhole__Z": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["remainder__Lscala_math_BigDecimal__Lscala_math_BigDecimal"],
+        "scala_math_BigDecimal$": ["apply__I__Lscala_math_BigDecimal", "int2bigDecimal__I__Lscala_math_BigDecimal"]
+      },
+      "accessedModules": ["scala_math_BigDecimal"]
+    },
+    "underlying__Ljava_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"]
+      }
+    },
+    "equals__Lscala_math_BigDecimal__Z": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["compare__Lscala_math_BigDecimal__I"]
+      }
+    },
+    "compare__Lscala_math_BigDecimal__I": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["compareTo__Ljava_math_BigDecimal__I"]
+      }
+    },
+    "$$less$eq__Lscala_math_BigDecimal__Z": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["compare__Lscala_math_BigDecimal__I"]
+      }
+    },
+    "$$greater$eq__Lscala_math_BigDecimal__Z": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["compare__Lscala_math_BigDecimal__I"]
+      }
+    },
+    "$$less__Lscala_math_BigDecimal__Z": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["compare__Lscala_math_BigDecimal__I"]
+      }
+    },
+    "$$greater__Lscala_math_BigDecimal__Z": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["compare__Lscala_math_BigDecimal__I"]
+      }
+    },
+    "$$plus__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["add__Ljava_math_BigDecimal__Ljava_math_BigDecimal"]
+      }
+    },
+    "$$minus__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["subtract__Ljava_math_BigDecimal__Ljava_math_BigDecimal"]
+      }
+    },
+    "$$times__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["mc__Ljava_math_MathContext", "bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["multiply__Ljava_math_BigDecimal__Ljava_math_MathContext__Ljava_math_BigDecimal"]
+      }
+    },
+    "$$div__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["mc__Ljava_math_MathContext", "bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["divide__Ljava_math_BigDecimal__Ljava_math_MathContext__Ljava_math_BigDecimal"]
+      }
+    },
+    "$$div$percent__Lscala_math_BigDecimal__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_Array$": ["unapplySeq__O__Lscala_Option"],
+        "scala_Tuple2": ["init___O__O"],
+        "java_math_BigDecimal": ["divideAndRemainder__Ljava_math_BigDecimal__ALjava_math_BigDecimal"],
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal", "bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal"],
+        "scala_collection_SeqLike": ["apply__I__O", "lengthCompare__I__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError"],
+      "accessedModules": ["scala_Array"],
+      "accessedClassData": ["java_math_BigDecimal", "scala_collection_SeqLike"]
+    },
+    "quot__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["divideToIntegralValue__Ljava_math_BigDecimal__Ljava_math_BigDecimal"]
+      }
+    },
+    "min__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["min__Ljava_math_BigDecimal__Ljava_math_BigDecimal"]
+      }
+    },
+    "max__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["max__Ljava_math_BigDecimal__Ljava_math_BigDecimal"]
+      }
+    },
+    "remainder__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["remainder__Ljava_math_BigDecimal__Ljava_math_BigDecimal"]
+      }
+    },
+    "$$percent__Lscala_math_BigDecimal__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["remainder__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "pow__I__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["mc__Ljava_math_MathContext", "bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["pow__I__Ljava_math_MathContext__Ljava_math_BigDecimal"]
+      }
+    },
+    "unary$und$minus__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["negate__Ljava_math_BigDecimal"]
+      }
+    },
+    "abs__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["abs__Ljava_math_BigDecimal"]
+      }
+    },
+    "signum__I": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["signum__I"]
+      }
+    },
+    "precision__I": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["precision__I"]
+      }
+    },
+    "round__Ljava_math_MathContext__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["round__Ljava_math_MathContext__Ljava_math_BigDecimal"]
+      }
+    },
+    "scale__I": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["scale__I"]
+      }
+    },
+    "ulp__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["ulp__Ljava_math_BigDecimal"]
+      }
+    },
+    "apply__Ljava_math_MathContext__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["toString__T"],
+        "scala_math_BigDecimal$": ["apply__T__Ljava_math_MathContext__Lscala_math_BigDecimal"]
+      },
+      "accessedModules": ["scala_math_BigDecimal"]
+    },
+    "setScale__I__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["setScale__I__Ljava_math_BigDecimal"]
+      }
+    },
+    "setScale__I__Lscala_Enumeration$Value__Lscala_math_BigDecimal": {
+      "calledMethods": {
+        "scala_Enumeration$Value": ["id__I"],
+        "scala_math_BigDecimal": ["bigdec2BigDecimal__p3__Ljava_math_BigDecimal__Lscala_math_BigDecimal", "bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["setScale__I__I__Ljava_math_BigDecimal"]
+      }
+    },
+    "byteValue__B": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["intValue__I"]
+      }
+    },
+    "shortValue__S": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["intValue__I"]
+      }
+    },
+    "charValue__C": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["intValue__I"]
+      }
+    },
+    "intValue__I": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["intValue__I"]
+      }
+    },
+    "longValue__J": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["longValue__J"]
+      }
+    },
+    "floatValue__F": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["floatValue__F"]
+      }
+    },
+    "doubleValue__D": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["doubleValue__D"]
+      }
+    },
+    "toByteExact__B": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["byteValueExact__B"]
+      }
+    },
+    "toShortExact__S": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["shortValueExact__S"]
+      }
+    },
+    "toIntExact__I": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["intValueExact__I"]
+      }
+    },
+    "toLongExact__J": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["longValueExact__J"]
+      }
+    },
+    "until__Lscala_math_BigDecimal__Lscala_collection_immutable_Range$Partial": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["until__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Exclusive"],
+        "scala_collection_immutable_Range$Partial": ["init___Lscala_Function1"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Range$Partial", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "until__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Exclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$BigDecimal$": ["apply__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Exclusive"]
+      },
+      "accessedModules": ["scala_collection_immutable_Range$BigDecimal"]
+    },
+    "to__Lscala_math_BigDecimal__Lscala_collection_immutable_Range$Partial": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["to__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Inclusive"],
+        "scala_collection_immutable_Range$Partial": ["init___Lscala_Function1"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Range$Partial", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "to__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Inclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$BigDecimal$": ["inclusive__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Inclusive"]
+      },
+      "accessedModules": ["scala_collection_immutable_Range$BigDecimal"]
+    },
+    "toBigInt__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["toBigInteger__Ljava_math_BigInteger"]
+      },
+      "instantiatedClasses": ["scala_math_BigInt"]
+    },
+    "toBigIntExact__Lscala_Option": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "scala_Some": ["init___O"],
+        "java_math_BigDecimal": ["toBigIntegerExact__Ljava_math_BigInteger"]
+      },
+      "instantiatedClasses": ["scala_Some", "scala_math_BigInt"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["java_lang_ArithmeticException"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"],
+        "java_math_BigDecimal": ["toString__T"]
+      }
+    },
+    "underlying__O": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["underlying__Ljava_math_BigDecimal"]
+      }
+    },
+    "init___Ljava_math_BigDecimal__Ljava_math_MathContext": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__$init$__Lscala_math_ScalaNumericAnyConversions__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_math_ScalaNumber": ["init___"]
+      }
+    },
+    "init___Ljava_math_BigDecimal": {
+      "calledMethods": {
+        "scala_math_BigDecimal$": ["defaultMathContext__Ljava_math_MathContext"]
+      },
+      "calledMethodsStatic": {
+        "scala_math_BigDecimal": ["init___Ljava_math_BigDecimal__Ljava_math_MathContext"]
+      },
+      "accessedModules": ["scala_math_BigDecimal"]
+    },
+    "unifiedPrimitiveEquals__O__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["unifiedPrimitiveEquals__O__Z"]
+      }
+    },
+    "unifiedPrimitiveHashcode__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["unifiedPrimitiveHashcode__I"]
+      }
+    },
+    "toDouble__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toDouble__D"]
+      }
+    },
+    "toFloat__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toFloat__F"]
+      }
+    },
+    "toLong__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toLong__J"]
+      }
+    },
+    "toInt__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toInt__I"]
+      }
+    },
+    "toShort__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toShort__S"]
+      }
+    },
+    "toByte__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toByte__B"]
+      }
+    },
+    "toChar__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toChar__C"]
+      }
+    },
+    "toBigIntExact__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toBigIntExact__Lscala_Option"]
+      }
+    },
+    "toBigInt__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toBigInt__Lscala_math_BigInt"]
+      }
+    },
+    "to__Lscala_math_BigDecimal__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["to__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Inclusive"]
+      }
+    },
+    "to__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["to__Lscala_math_BigDecimal__Lscala_collection_immutable_Range$Partial"]
+      }
+    },
+    "until__Lscala_math_BigDecimal__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["until__Lscala_math_BigDecimal__Lscala_math_BigDecimal__Lscala_collection_immutable_NumericRange$Exclusive"]
+      }
+    },
+    "until__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["until__Lscala_math_BigDecimal__Lscala_collection_immutable_Range$Partial"]
+      }
+    },
+    "toLongExact__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toLongExact__J"]
+      }
+    },
+    "toIntExact__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toIntExact__I"]
+      }
+    },
+    "toShortExact__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toShortExact__S"]
+      }
+    },
+    "toByteExact__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["toByteExact__B"]
+      }
+    },
+    "charValue__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["charValue__C"]
+      }
+    },
+    "setScale__I__Lscala_Enumeration$Value__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["setScale__I__Lscala_Enumeration$Value__Lscala_math_BigDecimal"]
+      }
+    },
+    "setScale__I__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["setScale__I__Lscala_math_BigDecimal"]
+      }
+    },
+    "apply__Ljava_math_MathContext__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["apply__Ljava_math_MathContext__Lscala_math_BigDecimal"]
+      }
+    },
+    "ulp__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["ulp__Lscala_math_BigDecimal"]
+      }
+    },
+    "scale__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["scale__I"]
+      }
+    },
+    "round__Ljava_math_MathContext__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["round__Ljava_math_MathContext__Lscala_math_BigDecimal"]
+      }
+    },
+    "precision__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["precision__I"]
+      }
+    },
+    "signum__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["signum__I"]
+      }
+    },
+    "abs__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["abs__Lscala_math_BigDecimal"]
+      }
+    },
+    "unary$und$minus__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["unary$und$minus__Lscala_math_BigDecimal"]
+      }
+    },
+    "pow__I__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["pow__I__Lscala_math_BigDecimal"]
+      }
+    },
+    "$$percent__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$percent__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "remainder__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["remainder__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "max__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["max__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "min__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["min__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "quot__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["quot__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "$$div$percent__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$div$percent__Lscala_math_BigDecimal__Lscala_Tuple2"]
+      }
+    },
+    "$$div__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$div__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "$$times__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$times__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "$$minus__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$minus__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "$$plus__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$plus__Lscala_math_BigDecimal__Lscala_math_BigDecimal"]
+      }
+    },
+    "$$greater__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$greater__Lscala_math_BigDecimal__Z"]
+      }
+    },
+    "$$less__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$less__Lscala_math_BigDecimal__Z"]
+      }
+    },
+    "$$greater$eq__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$greater$eq__Lscala_math_BigDecimal__Z"]
+      }
+    },
+    "$$less$eq__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["$$less$eq__Lscala_math_BigDecimal__Z"]
+      }
+    },
+    "compare__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["compare__Lscala_math_BigDecimal__I"]
+      }
+    },
+    "equals__Lscala_math_BigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["equals__Lscala_math_BigDecimal__Z"]
+      }
+    },
+    "isValidDouble__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["isValidDouble__Z"]
+      }
+    },
+    "isValidFloat__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["isValidFloat__Z"]
+      }
+    },
+    "isValidLong__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["isValidLong__Z"]
+      }
+    },
+    "isValidInt__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["isValidInt__Z"]
+      }
+    },
+    "isValidChar__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["isValidChar__Z"]
+      }
+    },
+    "isValidShort__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["isValidShort__Z"]
+      }
+    },
+    "isValidByte__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["isValidByte__Z"]
+      }
+    },
+    "mc__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["mc__Ljava_math_MathContext"]
+      }
+    },
+    "bigDecimal__": {
+      "calledMethods": {
+        "scala_math_BigDecimal": ["bigDecimal__Ljava_math_BigDecimal"]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "java.util.FormatFlagsConversionMismatchException",
+  "ancestorCount": 6,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_FormatFlagsConversionMismatchException",
+  "superClass": "java_util_IllegalFormatException",
+  "ancestors": ["java_util_FormatFlagsConversionMismatchException", "java_util_IllegalFormatException", "java_lang_IllegalArgumentException", "java_lang_RuntimeException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "c__p6__C": {},
+    "f__p6__T": {},
+    "f$und$eq__p6__T__V": {},
+    "getFlags__T": {
+      "calledMethods": {
+        "java_util_FormatFlagsConversionMismatchException": ["f__p6__T"]
+      }
+    },
+    "getConversion__C": {
+      "calledMethods": {
+        "java_util_FormatFlagsConversionMismatchException": ["c__p6__C"]
+      }
+    },
+    "getMessage__T": {
+      "calledMethods": {
+        "java_util_FormatFlagsConversionMismatchException": ["c__p6__C", "f__p6__T"]
+      }
+    },
+    "init___C": {
+      "calledMethodsStatic": {
+        "java_util_IllegalFormatException": ["init___"]
+      }
+    },
+    "init___T__C": {
+      "calledMethods": {
+        "java_util_FormatFlagsConversionMismatchException": ["f$und$eq__p6__T__V"],
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_util_FormatFlagsConversionMismatchException": ["init___C"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "getConversion__": {
+      "calledMethods": {
+        "java_util_FormatFlagsConversionMismatchException": ["getConversion__C"]
+      }
+    },
+    "getFlags__": {
+      "calledMethods": {
+        "java_util_FormatFlagsConversionMismatchException": ["getFlags__T"]
+      }
+    }
+  }
+}

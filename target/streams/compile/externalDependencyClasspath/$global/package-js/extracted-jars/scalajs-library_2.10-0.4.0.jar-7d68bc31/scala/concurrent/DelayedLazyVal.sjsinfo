@@ -1,0 +1,54 @@
+{
+  "name": "scala.concurrent.DelayedLazyVal",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_DelayedLazyVal",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_DelayedLazyVal", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "complete$lzycompute__p1__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "complete__p1__O": {
+      "calledMethods": {
+        "scala_concurrent_DelayedLazyVal": ["complete$lzycompute__p1__O"]
+      }
+    },
+    "isDone__Z": {},
+    "apply__O": {
+      "calledMethods": {
+        "scala_concurrent_DelayedLazyVal": ["isDone__Z", "complete__p1__O"],
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "init___Lscala_Function0__Lscala_Function0__Lscala_concurrent_ExecutionContext": {
+      "calledMethods": {
+        "scala_concurrent_DelayedLazyVal$$anon$1": ["init___Lscala_concurrent_DelayedLazyVal"],
+        "scala_concurrent_ExecutionContext": ["execute__Ljava_lang_Runnable__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_concurrent_DelayedLazyVal$$anon$1"]
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_concurrent_DelayedLazyVal": ["apply__O"]
+      }
+    },
+    "isDone__": {
+      "calledMethods": {
+        "scala_concurrent_DelayedLazyVal": ["isDone__Z"]
+      }
+    }
+  }
+}

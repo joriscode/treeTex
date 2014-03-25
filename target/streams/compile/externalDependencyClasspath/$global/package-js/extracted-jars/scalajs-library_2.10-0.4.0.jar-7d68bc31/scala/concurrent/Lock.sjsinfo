@@ -1,0 +1,52 @@
+{
+  "name": "scala.concurrent.Lock",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Lock",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_Lock", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "available__Z": {},
+    "available$und$eq__Z__V": {},
+    "acquire__V": {
+      "calledMethods": {
+        "scala_concurrent_Lock": ["available$und$eq__Z__V", "available__Z", "wait__V"]
+      }
+    },
+    "release__V": {
+      "calledMethods": {
+        "scala_concurrent_Lock": ["available$und$eq__Z__V", "notify__V"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "release__": {
+      "calledMethods": {
+        "scala_concurrent_Lock": ["release__V"]
+      }
+    },
+    "acquire__": {
+      "calledMethods": {
+        "scala_concurrent_Lock": ["acquire__V"]
+      }
+    },
+    "available$und$eq__Z__": {
+      "calledMethods": {
+        "scala_concurrent_Lock": ["available$und$eq__Z__V"]
+      }
+    },
+    "available__": {
+      "calledMethods": {
+        "scala_concurrent_Lock": ["available__Z"]
+      }
+    }
+  }
+}

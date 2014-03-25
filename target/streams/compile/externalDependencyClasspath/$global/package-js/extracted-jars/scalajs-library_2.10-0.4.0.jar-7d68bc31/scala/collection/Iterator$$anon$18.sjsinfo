@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.Iterator$$anon$18",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$$anon$18",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_Iterator$$anon$18", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "it$lzycompute__p2__Lscala_collection_BufferedIterator": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_Iterator$Leading$1": ["finish__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "it__p2__Lscala_collection_BufferedIterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$18": ["it$lzycompute__p2__Lscala_collection_BufferedIterator"]
+      }
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$18": ["it__p2__Lscala_collection_BufferedIterator"],
+        "scala_collection_BufferedIterator": ["hasNext__Z"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$18": ["it__p2__Lscala_collection_BufferedIterator"],
+        "scala_collection_BufferedIterator": ["next__O"]
+      }
+    },
+    "toString__T": {},
+    "init___Lscala_collection_Iterator__Lscala_collection_BufferedIterator__Lscala_collection_Iterator$Leading$1": {
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

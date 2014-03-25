@@ -1,0 +1,35 @@
+{
+  "name": "scala.collection.immutable.TrieIterator$DupIterator",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_TrieIterator$DupIterator",
+  "superClass": "scala_collection_immutable_TrieIterator",
+  "ancestors": ["scala_collection_immutable_TrieIterator$DupIterator", "scala_collection_immutable_TrieIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "initDepth__I": {},
+    "initArrayStack__AALscala_collection_immutable_Iterable": {},
+    "initPosStack__AI": {},
+    "initArrayD__ALscala_collection_immutable_Iterable": {},
+    "initPosD__I": {},
+    "initSubIter__Lscala_collection_Iterator": {},
+    "getElem__O__O": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["getElem__O__O"]
+      }
+    },
+    "init___Lscala_collection_immutable_TrieIterator__ALscala_collection_immutable_Iterable": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_immutable_TrieIterator": ["init___ALscala_collection_immutable_Iterable"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

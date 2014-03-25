@@ -1,0 +1,66 @@
+{
+  "name": "scala.collection.immutable.LongMap$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_LongMap$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_LongMap$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$$anon$1": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_LongMap$$anon$1"]
+    },
+    "empty__Lscala_collection_immutable_LongMap": {
+      "accessedModules": ["scala_collection_immutable_LongMap$Nil"]
+    },
+    "singleton__J__O__Lscala_collection_immutable_LongMap": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$Tip": ["init___J__O"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_LongMap$Tip"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_collection_immutable_LongMap": {
+      "calledMethods": {
+        "scala_collection_Seq": ["foldLeft__O__Lscala_Function2__O"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_immutable_LongMap$": ["empty__Lscala_collection_immutable_LongMap"],
+        "scala_collection_immutable_LongMap": ["updated__J__O__Lscala_collection_immutable_LongMap"],
+        "scala_Tuple2": ["$$und1$mcJ$sp__J", "$$und2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedClassData": ["scala_collection_immutable_LongMap"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_LongMap"]
+      }
+    },
+    "singleton__J__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$": ["singleton__J__O__Lscala_collection_immutable_LongMap"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$": ["empty__Lscala_collection_immutable_LongMap"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

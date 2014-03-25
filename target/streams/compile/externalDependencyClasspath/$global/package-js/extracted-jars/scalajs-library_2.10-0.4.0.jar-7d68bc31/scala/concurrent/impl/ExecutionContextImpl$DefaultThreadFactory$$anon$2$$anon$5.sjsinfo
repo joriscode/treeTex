@@ -1,0 +1,43 @@
+{
+  "name": "scala.concurrent.impl.ExecutionContextImpl$DefaultThreadFactory$$anon$2$$anon$5",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2$$anon$5",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2$$anon$5", "scala_concurrent_forkjoin_ForkJoinPool$ManagedBlocker", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isdone__p1__Z": {},
+    "isdone$und$eq__p1__Z__V": {},
+    "block__Z": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2$$anon$5": ["isdone$und$eq__p1__Z__V"],
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "isReleasable__Z": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2$$anon$5": ["isdone__p1__Z"]
+      }
+    },
+    "init___Lscala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2__Lscala_Function0__Lscala_runtime_ObjectRef": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "isReleasable__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2$$anon$5": ["isReleasable__Z"]
+      }
+    },
+    "block__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2$$anon$5": ["block__Z"]
+      }
+    }
+  }
+}

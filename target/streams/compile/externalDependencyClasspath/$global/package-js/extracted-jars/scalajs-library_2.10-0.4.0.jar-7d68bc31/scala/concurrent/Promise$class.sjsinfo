@@ -1,0 +1,71 @@
+{
+  "name": "scala.concurrent.Promise$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Promise$class",
+  "superClass": "",
+  "ancestors": ["scala_concurrent_Promise$class"],
+  "isExported": false,
+  "methods": {
+    "scala_concurrent_Promise$class__internalExecutor__Lscala_concurrent_Promise__Lscala_concurrent_ExecutionContext": {
+      "accessedModules": ["scala_concurrent_Future$InternalCallbackExecutor"]
+    },
+    "scala_concurrent_Promise$class__complete__Lscala_concurrent_Promise__Lscala_util_Try__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "java_lang_IllegalStateException": ["init___T"],
+        "scala_concurrent_Promise": ["tryComplete__Lscala_util_Try__Z"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalStateException"]
+    },
+    "scala_concurrent_Promise$class__completeWith__Lscala_concurrent_Promise__Lscala_concurrent_Future__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__internalExecutor__Lscala_concurrent_Promise__Lscala_concurrent_ExecutionContext"],
+        "scala_concurrent_Promise": ["complete__Lscala_util_Try__Lscala_concurrent_Promise"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_concurrent_Future": ["onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_concurrent_Promise$class__tryCompleteWith__Lscala_concurrent_Promise__Lscala_concurrent_Future__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__internalExecutor__Lscala_concurrent_Promise__Lscala_concurrent_ExecutionContext"],
+        "scala_concurrent_Promise": ["tryComplete__Lscala_util_Try__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_concurrent_Future": ["onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_concurrent_Promise$class__success__Lscala_concurrent_Promise__O__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_util_Success": ["init___O"],
+        "scala_concurrent_Promise": ["complete__Lscala_util_Try__Lscala_concurrent_Promise"]
+      },
+      "instantiatedClasses": ["scala_util_Success"]
+    },
+    "scala_concurrent_Promise$class__trySuccess__Lscala_concurrent_Promise__O__Z": {
+      "calledMethods": {
+        "scala_util_Success": ["init___O"],
+        "scala_concurrent_Promise": ["tryComplete__Lscala_util_Try__Z"]
+      },
+      "instantiatedClasses": ["scala_util_Success"]
+    },
+    "scala_concurrent_Promise$class__failure__Lscala_concurrent_Promise__Ljava_lang_Throwable__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_util_Failure": ["init___Ljava_lang_Throwable"],
+        "scala_concurrent_Promise": ["complete__Lscala_util_Try__Lscala_concurrent_Promise"]
+      },
+      "instantiatedClasses": ["scala_util_Failure"]
+    },
+    "scala_concurrent_Promise$class__tryFailure__Lscala_concurrent_Promise__Ljava_lang_Throwable__Z": {
+      "calledMethods": {
+        "scala_util_Failure": ["init___Ljava_lang_Throwable"],
+        "scala_concurrent_Promise": ["tryComplete__Lscala_util_Try__Z"]
+      },
+      "instantiatedClasses": ["scala_util_Failure"]
+    },
+    "scala_concurrent_Promise$class__$init$__Lscala_concurrent_Promise__V": {}
+  }
+}

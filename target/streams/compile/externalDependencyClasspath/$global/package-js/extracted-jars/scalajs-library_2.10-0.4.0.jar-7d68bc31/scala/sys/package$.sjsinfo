@@ -1,0 +1,117 @@
+{
+  "name": "scala.sys.package$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_package$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_package$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "error__T__Lscala_Nothing": {
+      "calledMethods": {
+        "java_lang_RuntimeException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_RuntimeException"]
+    },
+    "exit__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_sys_package$": ["exit__I__Lscala_Nothing"]
+      }
+    },
+    "exit__I__Lscala_Nothing": {
+      "calledMethods": {
+        "java_lang_System$": ["exit__I__V"],
+        "java_lang_Throwable": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Throwable"],
+      "accessedModules": ["java_lang_System"]
+    },
+    "runtime__Ljava_lang_Runtime": {
+      "calledMethods": {
+        "java_lang_Runtime$": ["getRuntime__Ljava_lang_Runtime"]
+      },
+      "accessedModules": ["java_lang_Runtime"]
+    },
+    "props__Lscala_sys_SystemProperties": {
+      "calledMethods": {
+        "scala_sys_SystemProperties": ["init___"]
+      },
+      "instantiatedClasses": ["scala_sys_SystemProperties"]
+    },
+    "env__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_collection_MapLike": ["toSeq__Lscala_collection_Seq"],
+        "scala_collection_JavaConverters$": ["mapAsScalaMapConverter__Ljava_util_Map__Lscala_collection_convert_Decorators$AsScala"],
+        "scala_collection_convert_Decorators$AsScala": ["asScala__O"],
+        "scala_collection_immutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "java_lang_System$": ["getenv__Ljava_util_Map"]
+      },
+      "accessedModules": ["scala_collection_JavaConverters", "java_lang_System", "scala_collection_immutable_Map"],
+      "accessedClassData": ["scala_collection_MapLike", "scala_collection_immutable_Map"]
+    },
+    "addShutdownHook__Lscala_Function0__Lscala_sys_ShutdownHookThread": {
+      "calledMethods": {
+        "scala_sys_ShutdownHookThread$": ["apply__Lscala_Function0__Lscala_sys_ShutdownHookThread"]
+      },
+      "accessedModules": ["scala_sys_ShutdownHookThread"]
+    },
+    "allThreads__Lscala_collection_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["take__I__O"],
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "java_lang_Thread$": ["enumerate__ALjava_lang_Thread__I", "activeCount__I"]
+      },
+      "accessedModules": ["scala_Predef", "java_lang_Thread"],
+      "accessedClassData": ["java_lang_Object", "java_lang_Thread"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "allThreads__": {
+      "calledMethods": {
+        "scala_sys_package$": ["allThreads__Lscala_collection_IndexedSeq"]
+      }
+    },
+    "addShutdownHook__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_package$": ["addShutdownHook__Lscala_Function0__Lscala_sys_ShutdownHookThread"]
+      }
+    },
+    "env__": {
+      "calledMethods": {
+        "scala_sys_package$": ["env__Lscala_collection_immutable_Map"]
+      }
+    },
+    "props__": {
+      "calledMethods": {
+        "scala_sys_package$": ["props__Lscala_sys_SystemProperties"]
+      }
+    },
+    "runtime__": {
+      "calledMethods": {
+        "scala_sys_package$": ["runtime__Ljava_lang_Runtime"]
+      }
+    },
+    "exit__I__": {
+      "calledMethods": {
+        "scala_sys_package$": ["exit__I__Lscala_Nothing"]
+      }
+    },
+    "exit__": {
+      "calledMethods": {
+        "scala_sys_package$": ["exit__Lscala_Nothing"]
+      }
+    },
+    "error__T__": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      }
+    }
+  }
+}

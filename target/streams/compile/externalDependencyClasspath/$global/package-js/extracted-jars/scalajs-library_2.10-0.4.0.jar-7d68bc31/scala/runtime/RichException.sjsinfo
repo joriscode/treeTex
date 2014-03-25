@@ -1,0 +1,35 @@
+{
+  "name": "scala.runtime.RichException",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichException",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichException", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "getStackTraceString__T": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["mkString__T__T__T__T"],
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_compat_Platform$": ["EOL__T"],
+        "java_lang_Throwable": ["getStackTrace__ALjava_lang_StackTraceElement"]
+      },
+      "accessedModules": ["scala_Predef", "scala_compat_Platform"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "init___Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "getStackTraceString__": {
+      "calledMethods": {
+        "scala_runtime_RichException": ["getStackTraceString__T"]
+      }
+    }
+  }
+}

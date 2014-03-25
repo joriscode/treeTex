@@ -1,0 +1,162 @@
+{
+  "name": "scala.xml.dtd.ContentModelParser$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_ContentModelParser$",
+  "superClass": "scala_xml_dtd_Scanner",
+  "ancestors": ["scala_xml_dtd_ContentModelParser$", "scala_xml_dtd_Scanner", "scala_xml_parsing_TokenTests", "scala_xml_dtd_Tokens", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "parse__T__Lscala_xml_dtd_ContentModel": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["initScanner__T__V", "contentspec__Lscala_xml_dtd_ContentModel"]
+      }
+    },
+    "accept__I__V": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "token2string__I__T", "token__I"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "maybeSuffix__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "token__I"],
+        "scala_xml_dtd_ContentModel$": ["Eps__Lscala_util_regexp_Base$Eps$", "Alt__Lscala_util_regexp_Base$Alt$", "Sequ__Lscala_util_regexp_Base$Sequ$"],
+        "scala_util_regexp_Base$Alt$": ["apply__Lscala_collection_Seq__Lscala_util_regexp_Base$Alt"],
+        "scala_util_regexp_Base$Star": ["init___Lscala_util_regexp_Base__Lscala_util_regexp_Base$RegExp"],
+        "scala_util_regexp_Base$Sequ$": ["apply__Lscala_collection_Seq__Lscala_util_regexp_Base$RegExp"]
+      },
+      "instantiatedClasses": ["scala_util_regexp_Base$Star"],
+      "accessedModules": ["scala_xml_dtd_ContentModel", "scala_Predef"],
+      "accessedClassData": ["scala_util_regexp_Base$RegExp", "java_lang_Object"]
+    },
+    "contentspec__Lscala_xml_dtd_ContentModel": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "token2string__I__T", "choiceRest__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$Alt", "accept__I__V", "token__I", "sOpt__V", "regexp__Lscala_util_regexp_Base$RegExp", "value__T"],
+        "scala_xml_dtd_ContentModel$": ["Eps__Lscala_util_regexp_Base$Eps$"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_xml_dtd_ELEMENTS": ["init___Lscala_util_regexp_Base$RegExp"],
+        "scala_xml_dtd_MIXED": ["init___Lscala_util_regexp_Base$RegExp"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_ELEMENTS", "scala_xml_dtd_MIXED"],
+      "accessedModules": ["scala_xml_dtd_ContentModel", "scala_sys_package", "scala_xml_dtd_EMPTY", "scala_xml_dtd_PCDATA", "scala_xml_dtd_ANY"]
+    },
+    "sOpt__V": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "token__I"]
+      }
+    },
+    "regexp__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "seqRest__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp", "choiceRest__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$Alt", "accept__I__V", "particle__Lscala_util_regexp_Base$RegExp", "token__I", "sOpt__V", "maybeSuffix__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp"]
+      },
+      "instantiatedClasses": ["scala_MatchError"]
+    },
+    "seqRest__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "particle__Lscala_util_regexp_Base$RegExp", "token__I", "sOpt__V"],
+        "scala_xml_dtd_ContentModel$": ["Sequ__Lscala_util_regexp_Base$Sequ$"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List", "reverse__Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"],
+        "scala_util_regexp_Base$Sequ$": ["apply__Lscala_collection_Seq__Lscala_util_regexp_Base$RegExp"]
+      },
+      "accessedModules": ["scala_xml_dtd_ContentModel", "scala_collection_immutable_List", "scala_Predef"],
+      "accessedClassData": ["scala_util_regexp_Base$RegExp", "java_lang_Object"]
+    },
+    "choiceRest__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$Alt": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "particle__Lscala_util_regexp_Base$RegExp", "token__I", "sOpt__V"],
+        "scala_xml_dtd_ContentModel$": ["Alt__Lscala_util_regexp_Base$Alt$"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List", "reverse__Lscala_collection_immutable_List"],
+        "scala_util_regexp_Base$Alt$": ["apply__Lscala_collection_Seq__Lscala_util_regexp_Base$Alt"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"]
+      },
+      "accessedModules": ["scala_xml_dtd_ContentModel", "scala_collection_immutable_List", "scala_Predef"],
+      "accessedClassData": ["scala_util_regexp_Base$RegExp", "java_lang_Object"]
+    },
+    "particle__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModel$ElemName": ["init___T"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "token2string__I__T", "token__I", "sOpt__V", "maybeSuffix__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp", "regexp__Lscala_util_regexp_Base$RegExp", "value__T"],
+        "scala_util_regexp_WordExp$Letter": ["init___Lscala_util_regexp_WordExp__Lscala_util_regexp_WordExp$Label"]
+      },
+      "instantiatedClasses": ["scala_util_regexp_WordExp$Letter", "scala_xml_dtd_ContentModel$ElemName"],
+      "accessedModules": ["scala_xml_dtd_ContentModel", "scala_sys_package"]
+    },
+    "atom__Lscala_util_regexp_WordExp$Letter": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModel$ElemName": ["init___T"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_xml_dtd_ContentModelParser$": ["nextToken__V", "token2string__I__T", "token__I", "value__T"],
+        "scala_util_regexp_WordExp$Letter": ["init___Lscala_util_regexp_WordExp__Lscala_util_regexp_WordExp$Label"]
+      },
+      "instantiatedClasses": ["scala_util_regexp_WordExp$Letter", "scala_xml_dtd_ContentModel$ElemName"],
+      "accessedModules": ["scala_xml_dtd_ContentModel", "scala_sys_package"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_xml_dtd_Scanner": ["init___"]
+      }
+    },
+    "atom__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["atom__Lscala_util_regexp_WordExp$Letter"]
+      }
+    },
+    "particle__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["particle__Lscala_util_regexp_Base$RegExp"]
+      }
+    },
+    "choiceRest__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["choiceRest__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$Alt"]
+      }
+    },
+    "seqRest__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["seqRest__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp"]
+      }
+    },
+    "regexp__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["regexp__Lscala_util_regexp_Base$RegExp"]
+      }
+    },
+    "sOpt__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["sOpt__V"]
+      }
+    },
+    "contentspec__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["contentspec__Lscala_xml_dtd_ContentModel"]
+      }
+    },
+    "maybeSuffix__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["maybeSuffix__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp"]
+      }
+    },
+    "accept__I__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["accept__I__V"]
+      }
+    },
+    "parse__T__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModelParser$": ["parse__T__Lscala_xml_dtd_ContentModel"]
+      }
+    }
+  }
+}

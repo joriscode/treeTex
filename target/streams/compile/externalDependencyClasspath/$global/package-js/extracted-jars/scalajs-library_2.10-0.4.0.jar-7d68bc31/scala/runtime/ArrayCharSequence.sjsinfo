@@ -1,0 +1,69 @@
+{
+  "name": "scala.runtime.ArrayCharSequence",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_ArrayCharSequence",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_ArrayCharSequence", "java_lang_CharSequence", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "xs__AC": {},
+    "length__I": {
+      "calledMethods": {
+        "scala_math_package$": ["max__I__I__I"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "charAt__I__C": {
+      "calledMethods": {
+        "scala_runtime_ArrayCharSequence": ["length__I", "xs__AC"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___I"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException"]
+    },
+    "subSequence__I__I__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "scala_runtime_ArrayCharSequence": ["length__I", "init___AC__I__I", "xs__AC"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___I"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "scala_runtime_ArrayCharSequence"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["drop__I__O", "mkString__T__T", "take__I__O"],
+        "scala_runtime_ArrayCharSequence": ["length__I", "xs__AC"],
+        "scala_Predef$": ["charArrayOps__AC__Lscala_collection_mutable_ArrayOps"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "init___AC__I__I": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "subSequence__I__I__": {
+      "calledMethods": {
+        "scala_runtime_ArrayCharSequence": ["subSequence__I__I__Ljava_lang_CharSequence"]
+      }
+    },
+    "charAt__I__": {
+      "calledMethods": {
+        "scala_runtime_ArrayCharSequence": ["charAt__I__C"]
+      }
+    },
+    "length__": {
+      "calledMethods": {
+        "scala_runtime_ArrayCharSequence": ["length__I"]
+      }
+    },
+    "xs__": {
+      "calledMethods": {
+        "scala_runtime_ArrayCharSequence": ["xs__AC"]
+      }
+    }
+  }
+}

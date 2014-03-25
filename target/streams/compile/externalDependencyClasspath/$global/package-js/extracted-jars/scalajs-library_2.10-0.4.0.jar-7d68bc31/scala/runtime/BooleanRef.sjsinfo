@@ -1,0 +1,39 @@
+{
+  "name": "scala.runtime.BooleanRef",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_BooleanRef",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_BooleanRef", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elem__Z": {},
+    "elem$und$eq__Z__V": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__Z__T"],
+        "scala_runtime_BooleanRef": ["elem__Z"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_RuntimeString"]
+    },
+    "init___Z": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "elem$und$eq__Z__": {
+      "calledMethods": {
+        "scala_runtime_BooleanRef": ["elem$und$eq__Z__V"]
+      }
+    },
+    "elem__": {
+      "calledMethods": {
+        "scala_runtime_BooleanRef": ["elem__Z"]
+      }
+    }
+  }
+}

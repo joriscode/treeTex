@@ -1,0 +1,36 @@
+{
+  "name": "scala.collection.GenIterable$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenIterable$",
+  "superClass": "scala_collection_generic_GenTraversableFactory",
+  "ancestors": ["scala_collection_GenIterable$", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_GenIterable$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_Iterable$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_Iterable"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_GenTraversableFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_GenIterable$": ["canBuildFrom__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    }
+  }
+}

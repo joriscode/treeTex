@@ -1,0 +1,86 @@
+{
+  "name": "scala.sys.process.FileProcessLogger",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_FileProcessLogger",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_FileProcessLogger", "java_io_Flushable", "java_io_Closeable", "java_lang_AutoCloseable", "scala_sys_process_ProcessLogger", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "writer__p1__Ljava_io_PrintWriter": {},
+    "out__Lscala_Function0__V": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["writer__p1__Ljava_io_PrintWriter"],
+        "scala_Function0": ["apply__O"],
+        "java_io_PrintWriter": ["println__T__V"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "err__Lscala_Function0__V": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["writer__p1__Ljava_io_PrintWriter"],
+        "scala_Function0": ["apply__O"],
+        "java_io_PrintWriter": ["println__T__V"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "buffer__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "close__V": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["writer__p1__Ljava_io_PrintWriter"],
+        "java_io_PrintWriter": ["close__V"]
+      }
+    },
+    "flush__V": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["writer__p1__Ljava_io_PrintWriter"],
+        "java_io_PrintWriter": ["flush__V"]
+      }
+    },
+    "init___Ljava_io_File": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["init___Ljava_io_OutputStream"],
+        "java_io_FileOutputStream": ["init___Ljava_io_File__Z"],
+        "java_io_PrintWriter": ["init___Ljava_io_Writer"],
+        "java_io_BufferedWriter": ["init___Ljava_io_Writer"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_io_FileOutputStream", "java_io_OutputStreamWriter", "java_io_BufferedWriter", "java_io_PrintWriter"]
+    },
+    "flush__": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["flush__V"]
+      }
+    },
+    "close__": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["close__V"]
+      }
+    },
+    "buffer__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["buffer__Lscala_Function0__O"]
+      }
+    },
+    "err__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["err__Lscala_Function0__V"]
+      }
+    },
+    "out__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_FileProcessLogger": ["out__Lscala_Function0__V"]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "scala.runtime.LongRef",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_LongRef",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_LongRef", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["zero__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "elem__J": {},
+    "elem$und$eq__J__V": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_LongRef": ["elem__J"],
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__J__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_RuntimeString"]
+    },
+    "init___J": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "elem$und$eq__J__": {
+      "calledMethods": {
+        "scala_runtime_LongRef": ["elem$und$eq__J__V"]
+      }
+    },
+    "elem__": {
+      "calledMethods": {
+        "scala_runtime_LongRef": ["elem__J"]
+      }
+    }
+  }
+}

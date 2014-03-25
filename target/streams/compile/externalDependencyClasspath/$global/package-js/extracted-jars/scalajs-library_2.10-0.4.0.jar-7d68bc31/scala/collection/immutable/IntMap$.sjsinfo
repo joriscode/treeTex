@@ -1,0 +1,66 @@
+{
+  "name": "scala.collection.immutable.IntMap$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_IntMap$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_IntMap$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$$anon$1": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMap$$anon$1"]
+    },
+    "empty__Lscala_collection_immutable_IntMap": {
+      "accessedModules": ["scala_collection_immutable_IntMap$Nil"]
+    },
+    "singleton__I__O__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$Tip": ["init___I__O"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_IntMap$Tip"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_collection_immutable_IntMap": {
+      "calledMethods": {
+        "scala_collection_Seq": ["foldLeft__O__Lscala_Function2__O"],
+        "scala_collection_immutable_IntMap": ["updated__I__O__Lscala_collection_immutable_IntMap"],
+        "scala_collection_immutable_IntMap$": ["empty__Lscala_collection_immutable_IntMap"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_Tuple2": ["$$und2__O", "$$und1$mcI$sp__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedClassData": ["scala_collection_immutable_IntMap"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "singleton__I__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$": ["singleton__I__O__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$": ["empty__Lscala_collection_immutable_IntMap"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_immutable_IntMap$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

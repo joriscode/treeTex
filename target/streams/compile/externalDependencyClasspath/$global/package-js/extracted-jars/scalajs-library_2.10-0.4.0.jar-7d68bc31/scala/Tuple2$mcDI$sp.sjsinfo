@@ -1,0 +1,88 @@
+{
+  "name": "scala.Tuple2$mcDI$sp",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Tuple2$mcDI$sp",
+  "superClass": "scala_Tuple2",
+  "ancestors": ["scala_Tuple2$mcDI$sp", "scala_Product2$mcDI$sp", "scala_Tuple2", "scala_Serializable", "java_io_Serializable", "scala_Product2", "scala_Product", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "$$und1$mcD$sp__D": {},
+    "$$und1__D": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["$$und1$mcD$sp__D"]
+      }
+    },
+    "$$und2$mcI$sp__I": {},
+    "$$und2__I": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["$$und2$mcI$sp__I"]
+      }
+    },
+    "swap__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["swap$mcDI$sp__Lscala_Tuple2"]
+      }
+    },
+    "swap$mcDI$sp__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2$mcID$sp": ["init___I__D"],
+        "scala_Tuple2$mcDI$sp": ["$$und1__D", "$$und2__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcID$sp"]
+    },
+    "copy$default$1__D": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["copy$default$1$mcD$sp__D"]
+      }
+    },
+    "copy$default$1$mcD$sp__D": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["$$und1__D"]
+      }
+    },
+    "copy$default$2__I": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["copy$default$2$mcI$sp__I"]
+      }
+    },
+    "copy$default$2$mcI$sp__I": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["$$und2__I"]
+      }
+    },
+    "specInstance$__Z": {},
+    "copy$default$2__O": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["copy$default$2__I"]
+      }
+    },
+    "copy$default$1__O": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["copy$default$1__D"]
+      }
+    },
+    "$$und2__O": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["$$und2__I"]
+      }
+    },
+    "$$und1__O": {
+      "calledMethods": {
+        "scala_Tuple2$mcDI$sp": ["$$und1__D"]
+      }
+    },
+    "init___D__I": {
+      "calledMethods": {
+        "scala_Product2$mcDI$sp$class": ["scala_Product2$mcDI$sp$class__$init$__Lscala_Product2$mcDI$sp__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_Tuple2": ["init___O__O"]
+      }
+    }
+  }
+}

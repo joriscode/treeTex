@@ -1,0 +1,251 @@
+{
+  "name": "scala.xml.include.sax.XIncluder",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_include_sax_XIncluder",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_include_sax_XIncluder", "org_xml_sax_ext_LexicalHandler", "org_xml_sax_ContentHandler", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "out__Ljava_io_OutputStreamWriter": {},
+    "out$und$eq__Ljava_io_OutputStreamWriter__V": {},
+    "setDocumentLocator__Lorg_xml_sax_Locator__V": {},
+    "startDocument__V": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["write__T__V"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "endDocument__V": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["flush__V"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "startPrefixMapping__T__T__V": {},
+    "endPrefixMapping__T__V": {},
+    "startElement__T__T__T__Lorg_xml_sax_Attributes__V": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["write__T__V"],
+        "org_xml_sax_Attributes": ["getValue__I__T", "getQName__I__T", "getLength__I"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter"],
+        "scala_xml_Utility$": ["escape__T__T"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedModules": ["scala_xml_Utility"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "endElement__T__T__T__V": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["write__T__V"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "characters__AC__I__I__V": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["write__I__V", "write__T__V"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "ignorableWhitespace__AC__I__I__V": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["characters__AC__I__I__V"]
+      }
+    },
+    "processingInstruction__T__T__V": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["write__T__V"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "skippedEntity__T__V": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["write__T__V"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "inDTD__p1__Z": {},
+    "inDTD$und$eq__p1__Z__V": {},
+    "entities__p1__Lscala_collection_mutable_Stack": {},
+    "startDTD__T__T__T__V": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["write__T__V"],
+        "scala_collection_mutable_Stack": ["isEmpty__Z"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter", "inDTD$und$eq__p1__Z__V", "entities__p1__Lscala_collection_mutable_Stack"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "endDTD__V": {},
+    "startEntity__T__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Stack": ["push__O__Lscala_collection_mutable_Stack"],
+        "scala_xml_include_sax_XIncluder": ["entities__p1__Lscala_collection_mutable_Stack"]
+      }
+    },
+    "endEntity__T__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Stack": ["pop__O"],
+        "scala_xml_include_sax_XIncluder": ["entities__p1__Lscala_collection_mutable_Stack"]
+      }
+    },
+    "startCDATA__V": {},
+    "endCDATA__V": {},
+    "filter__p1__Lscala_xml_include_sax_XIncludeFilter": {},
+    "filter$und$eq__p1__Lscala_xml_include_sax_XIncludeFilter__V": {},
+    "setFilter__Lscala_xml_include_sax_XIncludeFilter__V": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["filter$und$eq__p1__Lscala_xml_include_sax_XIncludeFilter__V"]
+      }
+    },
+    "comment__AC__I__I__V": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncludeFilter": ["insideIncludeElement__Z"],
+        "java_io_OutputStreamWriter": ["write__T__V", "write__AC__I__I__V"],
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter", "inDTD__p1__Z", "filter__p1__Lscala_xml_include_sax_XIncludeFilter"],
+        "org_xml_sax_SAXException": ["init___T__Ljava_lang_Exception"]
+      },
+      "instantiatedClasses": ["org_xml_sax_SAXException"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "init___Ljava_io_OutputStream__T": {
+      "calledMethods": {
+        "java_io_OutputStreamWriter": ["init___Ljava_io_OutputStream__T"],
+        "scala_collection_mutable_Stack": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_io_OutputStreamWriter", "scala_collection_mutable_Stack"]
+    },
+    "comment__AC__I__I__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["comment__AC__I__I__V"]
+      }
+    },
+    "setFilter__Lscala_xml_include_sax_XIncludeFilter__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["setFilter__Lscala_xml_include_sax_XIncludeFilter__V"]
+      }
+    },
+    "endCDATA__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["endCDATA__V"]
+      }
+    },
+    "startCDATA__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["startCDATA__V"]
+      }
+    },
+    "endEntity__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["endEntity__T__V"]
+      }
+    },
+    "startEntity__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["startEntity__T__V"]
+      }
+    },
+    "endDTD__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["endDTD__V"]
+      }
+    },
+    "startDTD__T__T__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["startDTD__T__T__T__V"]
+      }
+    },
+    "skippedEntity__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["skippedEntity__T__V"]
+      }
+    },
+    "processingInstruction__T__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["processingInstruction__T__T__V"]
+      }
+    },
+    "ignorableWhitespace__AC__I__I__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["ignorableWhitespace__AC__I__I__V"]
+      }
+    },
+    "characters__AC__I__I__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["characters__AC__I__I__V"]
+      }
+    },
+    "endElement__T__T__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["endElement__T__T__T__V"]
+      }
+    },
+    "startElement__T__T__T__Lorg_xml_sax_Attributes__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["startElement__T__T__T__Lorg_xml_sax_Attributes__V"]
+      }
+    },
+    "endPrefixMapping__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["endPrefixMapping__T__V"]
+      }
+    },
+    "startPrefixMapping__T__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["startPrefixMapping__T__T__V"]
+      }
+    },
+    "endDocument__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["endDocument__V"]
+      }
+    },
+    "startDocument__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["startDocument__V"]
+      }
+    },
+    "setDocumentLocator__Lorg_xml_sax_Locator__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["setDocumentLocator__Lorg_xml_sax_Locator__V"]
+      }
+    },
+    "out$und$eq__Ljava_io_OutputStreamWriter__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["out$und$eq__Ljava_io_OutputStreamWriter__V"]
+      }
+    },
+    "out__": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncluder": ["out__Ljava_io_OutputStreamWriter"]
+      }
+    }
+  }
+}

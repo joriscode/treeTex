@@ -1,0 +1,41 @@
+{
+  "name": "scala.collection.generic.DelegatedSignalling",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_DelegatedSignalling",
+  "superClass": "",
+  "ancestors": ["scala_collection_generic_DelegatedSignalling", "scala_collection_generic_Signalling", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "signalDelegate__Lscala_collection_generic_Signalling": {
+      "isAbstract": true
+    },
+    "signalDelegate$und$eq__Lscala_collection_generic_Signalling__V": {
+      "isAbstract": true
+    },
+    "isAborted__Z": {
+      "isAbstract": true
+    },
+    "abort__V": {
+      "isAbstract": true
+    },
+    "indexFlag__I": {
+      "isAbstract": true
+    },
+    "setIndexFlag__I__V": {
+      "isAbstract": true
+    },
+    "setIndexFlagIfGreater__I__V": {
+      "isAbstract": true
+    },
+    "setIndexFlagIfLesser__I__V": {
+      "isAbstract": true
+    },
+    "tag__I": {
+      "isAbstract": true
+    }
+  }
+}

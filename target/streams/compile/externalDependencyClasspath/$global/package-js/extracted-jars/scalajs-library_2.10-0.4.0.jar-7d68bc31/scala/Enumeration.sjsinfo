@@ -1,0 +1,334 @@
+{
+  "name": "scala.Enumeration",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Enumeration",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Enumeration", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ValueOrdering$lzycompute__p1__Lscala_Enumeration$ValueOrdering$": {
+      "calledMethods": {
+        "scala_Enumeration$ValueOrdering$": ["init___Lscala_Enumeration"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Enumeration$ValueOrdering$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "ValueSet$lzycompute__p1__Lscala_Enumeration$ValueSet$": {
+      "calledMethods": {
+        "scala_Enumeration$ValueSet$": ["init___Lscala_Enumeration"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Enumeration$ValueSet$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "readResolve__O": {
+      "calledMethods": {
+        "java_lang_reflect_Field": ["get__O__O"],
+        "scala_Enumeration": ["getClass__Ljava_lang_Class"],
+        "java_lang_Class": ["getField__T__Ljava_lang_reflect_Field"],
+        "scala_reflect_NameTransformer$": ["MODULE$undINSTANCE$undNAME__T"]
+      },
+      "accessedModules": ["scala_reflect_NameTransformer"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["last__O"],
+        "java_util_regex_Pattern$": ["quote__T__T"],
+        "java_lang_Class": ["getName__T"],
+        "scala_collection_immutable_StringOps": ["split__C__AT", "stripSuffix__T__T", "init___T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__split__Lscala_scalajs_runtime_RuntimeString__T__AT"],
+        "scala_Enumeration": ["getClass__Ljava_lang_Class"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef", "java_util_regex_Pattern"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "scala$Enumeration$$vmap__Lscala_collection_mutable_Map": {},
+    "vset__p1__Lscala_Enumeration$ValueSet": {},
+    "vset$und$eq__p1__Lscala_Enumeration$ValueSet__V": {},
+    "scala$Enumeration$$vsetDefined__p1__Z": {},
+    "scala$Enumeration$$vsetDefined$und$eq__Z__V": {},
+    "scala$Enumeration$$nmap__Lscala_collection_mutable_Map": {},
+    "values__Lscala_Enumeration$ValueSet": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_Enumeration$ValueSet$": ["newBuilder__Lscala_collection_mutable_Builder"],
+        "scala_collection_mutable_Map": ["values__Lscala_collection_Iterable"],
+        "scala_Enumeration": ["scala$Enumeration$$vsetDefined__p1__Z", "scala$Enumeration$$vmap__Lscala_collection_mutable_Map", "ValueSet__Lscala_Enumeration$ValueSet$", "vset$und$eq__p1__Lscala_Enumeration$ValueSet__V", "scala$Enumeration$$vsetDefined$und$eq__Z__V", "vset__p1__Lscala_Enumeration$ValueSet"]
+      },
+      "accessedClassData": ["scala_Enumeration$ValueSet", "scala_collection_mutable_Builder"]
+    },
+    "nextId__I": {},
+    "nextId$und$eq__I__V": {},
+    "nextName__Lscala_collection_Iterator": {},
+    "nextName$und$eq__Lscala_collection_Iterator__V": {},
+    "scala$Enumeration$$nextNameOrNull__T": {
+      "calledMethods": {
+        "scala_Enumeration": ["nextName__Lscala_collection_Iterator"],
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "scala$Enumeration$$topId__I": {},
+    "scala$Enumeration$$topId$und$eq__I__V": {},
+    "scala$Enumeration$$bottomId__I": {},
+    "scala$Enumeration$$bottomId$und$eq__I__V": {},
+    "maxId__I": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$topId__I"]
+      }
+    },
+    "apply__I__Lscala_Enumeration$Value": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["apply__O__O"],
+        "scala_Enumeration": ["scala$Enumeration$$vmap__Lscala_collection_mutable_Map"]
+      },
+      "accessedClassData": ["scala_Enumeration$Value"]
+    },
+    "withName__T__Lscala_Enumeration$Value": {
+      "calledMethods": {
+        "scala_Enumeration$Value": ["toString__T"],
+        "scala_Option": ["get__O"],
+        "scala_Enumeration$ValueSet": ["find__Lscala_Function1__Lscala_Option"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Enumeration": ["values__Lscala_Enumeration$ValueSet"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_Enumeration$Value"]
+    },
+    "Value__Lscala_Enumeration$Value": {
+      "calledMethods": {
+        "scala_Enumeration": ["nextId__I", "Value__I__Lscala_Enumeration$Value"]
+      }
+    },
+    "Value__I__Lscala_Enumeration$Value": {
+      "calledMethods": {
+        "scala_Enumeration": ["Value__I__T__Lscala_Enumeration$Value", "scala$Enumeration$$nextNameOrNull__T"]
+      }
+    },
+    "Value__T__Lscala_Enumeration$Value": {
+      "calledMethods": {
+        "scala_Enumeration": ["Value__I__T__Lscala_Enumeration$Value", "nextId__I"]
+      }
+    },
+    "Value__I__T__Lscala_Enumeration$Value": {
+      "calledMethods": {
+        "scala_Enumeration$Val": ["init___Lscala_Enumeration__I__T"]
+      },
+      "instantiatedClasses": ["scala_Enumeration$Val"]
+    },
+    "scala$Enumeration$$populateNameMap__V": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_Enumeration$Value": ["scala$Enumeration$$outerEnum__Lscala_Enumeration"],
+        "scala_collection_mutable_ArrayOps": ["filter__Lscala_Function1__O", "foreach__Lscala_Function1__V", "isEmpty__Z"],
+        "java_lang_Class": ["getDeclaredFields__ALjava_lang_reflect_Field", "isAssignableFrom__Ljava_lang_Class__Z", "getMethod__T__ALjava_lang_Class__Ljava_lang_reflect_Method", "getMethods__ALjava_lang_reflect_Method"],
+        "scala_Tuple2": ["init___O__O"],
+        "java_lang_reflect_Method": ["getName__T", "getParameterTypes__ALjava_lang_Class", "invoke__O__AO__O", "getReturnType__Ljava_lang_Class", "getDeclaringClass__Ljava_lang_Class"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Enumeration": ["scala$Enumeration$$nmap__Lscala_collection_mutable_Map", "scala$Enumeration$$isValDef$1__Ljava_lang_reflect_Method__ALjava_lang_reflect_Field__Z", "getClass__Ljava_lang_Class"],
+        "scala_collection_mutable_Map": ["$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_MapLike"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_Object", "scala_Enumeration$Val", "java_lang_Class", "scala_Enumeration", "java_lang_reflect_Method", "scala_Enumeration$Value"]
+    },
+    "scala$Enumeration$$nameOf__I__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_mutable_Map": ["getOrElse__O__Lscala_Function0__O", "apply__O__O"],
+        "scala_Enumeration": ["scala$Enumeration$$populateNameMap__V", "scala$Enumeration$$nmap__Lscala_collection_mutable_Map"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "ValueOrdering__Lscala_Enumeration$ValueOrdering$": {
+      "calledMethods": {
+        "scala_Enumeration": ["ValueOrdering$lzycompute__p1__Lscala_Enumeration$ValueOrdering$"]
+      }
+    },
+    "ValueSet__Lscala_Enumeration$ValueSet$": {
+      "calledMethods": {
+        "scala_Enumeration": ["ValueSet$lzycompute__p1__Lscala_Enumeration$ValueSet$"]
+      }
+    },
+    "scala$Enumeration$$isValDef$1__Ljava_lang_reflect_Method__ALjava_lang_reflect_Field__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["exists__Lscala_Function1__Z"],
+        "java_lang_reflect_Method": ["getName__T", "getReturnType__Ljava_lang_Class"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "java_lang_reflect_Field": ["getName__T", "getType__Ljava_lang_Class"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "init___I": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_HashMap"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_Enumeration": ["init___I"]
+      }
+    },
+    "init___I__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_Enumeration": ["nextName$und$eq__Lscala_collection_Iterator__V"],
+        "scala_collection_Seq": ["iterator__Lscala_collection_Iterator"]
+      },
+      "calledMethodsStatic": {
+        "scala_Enumeration": ["init___I"]
+      }
+    },
+    "init___Lscala_collection_Seq": {
+      "calledMethodsStatic": {
+        "scala_Enumeration": ["init___I__Lscala_collection_Seq"]
+      }
+    },
+    "scala$Enumeration$$isValDef$1__Ljava_lang_reflect_Method__ALjava_lang_reflect_Field__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$isValDef$1__Ljava_lang_reflect_Method__ALjava_lang_reflect_Field__Z"]
+      }
+    },
+    "ValueSet__": {
+      "calledMethods": {
+        "scala_Enumeration": ["ValueSet__Lscala_Enumeration$ValueSet$"]
+      }
+    },
+    "ValueOrdering__": {
+      "calledMethods": {
+        "scala_Enumeration": ["ValueOrdering__Lscala_Enumeration$ValueOrdering$"]
+      }
+    },
+    "scala$Enumeration$$nameOf__I__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$nameOf__I__T"]
+      }
+    },
+    "scala$Enumeration$$populateNameMap__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$populateNameMap__V"]
+      }
+    },
+    "Value__I__T__": {
+      "calledMethods": {
+        "scala_Enumeration": ["Value__I__T__Lscala_Enumeration$Value"]
+      }
+    },
+    "Value__T__": {
+      "calledMethods": {
+        "scala_Enumeration": ["Value__T__Lscala_Enumeration$Value"]
+      }
+    },
+    "Value__I__": {
+      "calledMethods": {
+        "scala_Enumeration": ["Value__I__Lscala_Enumeration$Value"]
+      }
+    },
+    "Value__": {
+      "calledMethods": {
+        "scala_Enumeration": ["Value__Lscala_Enumeration$Value"]
+      }
+    },
+    "withName__T__": {
+      "calledMethods": {
+        "scala_Enumeration": ["withName__T__Lscala_Enumeration$Value"]
+      }
+    },
+    "apply__I__": {
+      "calledMethods": {
+        "scala_Enumeration": ["apply__I__Lscala_Enumeration$Value"]
+      }
+    },
+    "maxId__": {
+      "calledMethods": {
+        "scala_Enumeration": ["maxId__I"]
+      }
+    },
+    "scala$Enumeration$$bottomId$und$eq__I__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$bottomId$und$eq__I__V"]
+      }
+    },
+    "scala$Enumeration$$bottomId__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$bottomId__I"]
+      }
+    },
+    "scala$Enumeration$$topId$und$eq__I__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$topId$und$eq__I__V"]
+      }
+    },
+    "scala$Enumeration$$topId__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$topId__I"]
+      }
+    },
+    "scala$Enumeration$$nextNameOrNull__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$nextNameOrNull__T"]
+      }
+    },
+    "nextName$und$eq__Lscala_collection_Iterator__": {
+      "calledMethods": {
+        "scala_Enumeration": ["nextName$und$eq__Lscala_collection_Iterator__V"]
+      }
+    },
+    "nextName__": {
+      "calledMethods": {
+        "scala_Enumeration": ["nextName__Lscala_collection_Iterator"]
+      }
+    },
+    "nextId$und$eq__I__": {
+      "calledMethods": {
+        "scala_Enumeration": ["nextId$und$eq__I__V"]
+      }
+    },
+    "nextId__": {
+      "calledMethods": {
+        "scala_Enumeration": ["nextId__I"]
+      }
+    },
+    "values__": {
+      "calledMethods": {
+        "scala_Enumeration": ["values__Lscala_Enumeration$ValueSet"]
+      }
+    },
+    "scala$Enumeration$$nmap__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$nmap__Lscala_collection_mutable_Map"]
+      }
+    },
+    "scala$Enumeration$$vsetDefined$und$eq__Z__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$vsetDefined$und$eq__Z__V"]
+      }
+    },
+    "scala$Enumeration$$vmap__": {
+      "calledMethods": {
+        "scala_Enumeration": ["scala$Enumeration$$vmap__Lscala_collection_mutable_Map"]
+      }
+    },
+    "readResolve__": {
+      "calledMethods": {
+        "scala_Enumeration": ["readResolve__O"]
+      }
+    }
+  }
+}

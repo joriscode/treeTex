@@ -1,0 +1,69 @@
+{
+  "name": "scala.text.Document$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_text_Document$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_text_Document$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "empty__Lscala_text_DocNil$": {
+      "accessedModules": ["scala_text_DocNil"]
+    },
+    "$break__Lscala_text_DocBreak$": {
+      "accessedModules": ["scala_text_DocBreak"]
+    },
+    "text__T__Lscala_text_Document": {
+      "calledMethods": {
+        "scala_text_DocText": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_text_DocText"]
+    },
+    "group__Lscala_text_Document__Lscala_text_Document": {
+      "calledMethods": {
+        "scala_text_DocGroup": ["init___Lscala_text_Document"]
+      },
+      "instantiatedClasses": ["scala_text_DocGroup"]
+    },
+    "nest__I__Lscala_text_Document__Lscala_text_Document": {
+      "calledMethods": {
+        "scala_text_DocNest": ["init___I__Lscala_text_Document"]
+      },
+      "instantiatedClasses": ["scala_text_DocNest"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "nest__I__Lscala_text_Document__": {
+      "calledMethods": {
+        "scala_text_Document$": ["nest__I__Lscala_text_Document__Lscala_text_Document"]
+      }
+    },
+    "group__Lscala_text_Document__": {
+      "calledMethods": {
+        "scala_text_Document$": ["group__Lscala_text_Document__Lscala_text_Document"]
+      }
+    },
+    "text__T__": {
+      "calledMethods": {
+        "scala_text_Document$": ["text__T__Lscala_text_Document"]
+      }
+    },
+    "$break__": {
+      "calledMethods": {
+        "scala_text_Document$": ["$break__Lscala_text_DocBreak$"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_text_Document$": ["empty__Lscala_text_DocNil$"]
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "scala.concurrent.ExecutionContext$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_ExecutionContext$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_ExecutionContext$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "global__Lscala_concurrent_ExecutionContextExecutor": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$Implicits$": ["global__Lscala_concurrent_ExecutionContextExecutor"]
+      },
+      "accessedModules": ["scala_concurrent_ExecutionContext$Implicits"]
+    },
+    "fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_Function1__Lscala_concurrent_ExecutionContextExecutorService": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$": ["fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_Function1__Lscala_concurrent_impl_ExecutionContextImpl"]
+      },
+      "accessedModules": ["scala_concurrent_impl_ExecutionContextImpl"],
+      "accessedClassData": ["scala_concurrent_ExecutionContextExecutorService"]
+    },
+    "fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_concurrent_ExecutionContextExecutorService": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["defaultReporter__Lscala_Function1", "fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_Function1__Lscala_concurrent_ExecutionContextExecutorService"]
+      }
+    },
+    "fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__Lscala_concurrent_ExecutionContextExecutor": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$": ["fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__Lscala_concurrent_impl_ExecutionContextImpl"]
+      },
+      "accessedModules": ["scala_concurrent_impl_ExecutionContextImpl"]
+    },
+    "fromExecutor__Ljava_util_concurrent_Executor__Lscala_concurrent_ExecutionContextExecutor": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["defaultReporter__Lscala_Function1", "fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__Lscala_concurrent_ExecutionContextExecutor"]
+      }
+    },
+    "defaultReporter__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_Throwable": ["printStackTrace__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "defaultReporter__": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["defaultReporter__Lscala_Function1"]
+      }
+    },
+    "fromExecutor__Ljava_util_concurrent_Executor__": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["fromExecutor__Ljava_util_concurrent_Executor__Lscala_concurrent_ExecutionContextExecutor"]
+      }
+    },
+    "fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__Lscala_concurrent_ExecutionContextExecutor"]
+      }
+    },
+    "fromExecutorService__Ljava_util_concurrent_ExecutorService__": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_concurrent_ExecutionContextExecutorService"]
+      }
+    },
+    "fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_Function1__Lscala_concurrent_ExecutionContextExecutorService"]
+      }
+    },
+    "global__": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["global__Lscala_concurrent_ExecutionContextExecutor"]
+      }
+    }
+  }
+}

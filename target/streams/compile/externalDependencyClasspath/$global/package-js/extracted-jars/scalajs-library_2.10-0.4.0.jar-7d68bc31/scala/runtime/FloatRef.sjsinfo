@@ -1,0 +1,39 @@
+{
+  "name": "scala.runtime.FloatRef",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_FloatRef",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_FloatRef", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elem__F": {},
+    "elem$und$eq__F__V": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_FloatRef": ["elem__F"],
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__F__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_RuntimeString"]
+    },
+    "init___F": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "elem$und$eq__F__": {
+      "calledMethods": {
+        "scala_runtime_FloatRef": ["elem$und$eq__F__V"]
+      }
+    },
+    "elem__": {
+      "calledMethods": {
+        "scala_runtime_FloatRef": ["elem__F"]
+      }
+    }
+  }
+}

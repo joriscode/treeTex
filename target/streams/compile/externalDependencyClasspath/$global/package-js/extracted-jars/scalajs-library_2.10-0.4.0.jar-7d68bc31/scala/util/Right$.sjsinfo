@@ -1,0 +1,48 @@
+{
+  "name": "scala.util.Right$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Right$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Right$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__O__Lscala_util_Right": {
+      "calledMethods": {
+        "scala_util_Right": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_util_Right"]
+    },
+    "unapply__Lscala_util_Right__Lscala_Option": {
+      "calledMethods": {
+        "scala_util_Right": ["b__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_util_Right"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_util_Right__": {
+      "calledMethods": {
+        "scala_util_Right$": ["unapply__Lscala_util_Right__Lscala_Option"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_util_Right$": ["apply__O__Lscala_util_Right"]
+      }
+    }
+  }
+}

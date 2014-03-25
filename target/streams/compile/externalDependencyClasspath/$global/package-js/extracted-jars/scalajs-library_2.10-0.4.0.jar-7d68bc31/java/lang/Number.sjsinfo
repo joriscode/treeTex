@@ -1,0 +1,72 @@
+{
+  "name": "java.lang.Number",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Number",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Number", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "byteValue__B": {
+      "calledMethods": {
+        "java_lang_Number": ["intValue__I"]
+      }
+    },
+    "shortValue__S": {
+      "calledMethods": {
+        "java_lang_Number": ["intValue__I"]
+      }
+    },
+    "intValue__I": {
+      "isAbstract": true
+    },
+    "longValue__J": {
+      "isAbstract": true
+    },
+    "floatValue__F": {
+      "isAbstract": true
+    },
+    "doubleValue__D": {
+      "isAbstract": true
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "shortValue__": {
+      "calledMethods": {
+        "java_lang_Number": ["shortValue__S"]
+      }
+    },
+    "byteValue__": {
+      "calledMethods": {
+        "java_lang_Number": ["byteValue__B"]
+      }
+    },
+    "doubleValue__": {
+      "calledMethods": {
+        "java_lang_Number": ["doubleValue__D"]
+      }
+    },
+    "floatValue__": {
+      "calledMethods": {
+        "java_lang_Number": ["floatValue__F"]
+      }
+    },
+    "longValue__": {
+      "calledMethods": {
+        "java_lang_Number": ["longValue__J"]
+      }
+    },
+    "intValue__": {
+      "calledMethods": {
+        "java_lang_Number": ["intValue__I"]
+      }
+    }
+  }
+}

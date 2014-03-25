@@ -1,0 +1,546 @@
+{
+  "name": "scala.runtime.ScalaRunTime$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_ScalaRunTime$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_ScalaRunTime$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isArray__O__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["isArray__O__I__Z"]
+      }
+    },
+    "isArray__O__I__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["isArrayClass__p1__Ljava_lang_Class__I__Z"],
+        "java_lang_Object": ["getClass__Ljava_lang_Class"]
+      }
+    },
+    "isArrayClass__p1__Ljava_lang_Class__I__Z": {
+      "calledMethods": {
+        "java_lang_Class": ["isArray__Z", "getComponentType__Ljava_lang_Class"]
+      }
+    },
+    "isValueClass__Ljava_lang_Class__Z": {
+      "calledMethods": {
+        "java_lang_Class": ["isPrimitive__Z"]
+      }
+    },
+    "isTuple__O__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["tupleNames__p1__Lscala_collection_immutable_Set"],
+        "scala_collection_immutable_Set": ["apply__O__Z"],
+        "java_lang_Class": ["getName__T"],
+        "java_lang_Object": ["getClass__Ljava_lang_Class"]
+      }
+    },
+    "isAnyVal__O__Z": {
+      "accessedClassData": ["java_lang_Boolean", "java_lang_Float", "java_lang_Byte", "java_lang_Integer", "java_lang_Long", "java_lang_Character", "java_lang_Double", "scala_runtime_BoxedUnit", "java_lang_Short"]
+    },
+    "tupleNames__p1__Lscala_collection_immutable_Set": {},
+    "arrayClass__Ljava_lang_Class__Ljava_lang_Class": {
+      "calledMethods": {
+        "java_lang_Void$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_reflect_Array$": ["newInstance__Ljava_lang_Class__I__O"],
+        "java_lang_Object": ["getClass__Ljava_lang_Class"]
+      },
+      "accessedModules": ["java_lang_Void", "java_lang_reflect_Array"],
+      "accessedClassData": ["scala_runtime_BoxedUnit"]
+    },
+    "arrayElementClass__O__Ljava_lang_Class": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"],
+        "java_lang_UnsupportedOperationException": ["init___T"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"],
+        "java_lang_Class": ["getComponentType__Ljava_lang_Class"],
+        "java_lang_Object": ["getClass__Ljava_lang_Class"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException", "scala_StringContext"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_reflect_ClassTag", "java_lang_Object", "java_lang_Class", "java_lang_String"]
+    },
+    "anyValClass__O__Lscala_reflect_ClassTag__Ljava_lang_Class": {
+      "calledMethods": {
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"],
+        "scala_reflect_package$": ["classTag__Lscala_reflect_ClassTag__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_package"]
+    },
+    "array$undapply__O__I__O": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_MatchError": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "java_lang_NullPointerException"],
+      "accessedClassData": ["java_lang_Object", "scala_runtime_BoxedUnit"]
+    },
+    "array$undupdate__O__I__O__V": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_MatchError": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "java_lang_NullPointerException"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_Object", "scala_runtime_BoxedUnit"]
+    },
+    "array$undlength__O__I": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_MatchError": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "java_lang_NullPointerException"],
+      "accessedClassData": ["java_lang_Object", "scala_runtime_BoxedUnit"]
+    },
+    "array$undclone__O__O": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_runtime_ArrayRuntime$": ["cloneArray__AZ__AZ", "cloneArray__AS__AS", "cloneArray__AC__AC", "cloneArray__AI__AI", "cloneArray__AO__AO", "cloneArray__AD__AD", "cloneArray__AJ__AJ", "cloneArray__AF__AF", "cloneArray__AB__AB"],
+        "scala_MatchError": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "java_lang_NullPointerException"],
+      "accessedModules": ["scala_runtime_ArrayRuntime"],
+      "accessedClassData": ["java_lang_Object", "scala_runtime_BoxedUnit"]
+    },
+    "toObjectArray__O__AO": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"],
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O", "array$undlength__O__I", "array$undupdate__O__I__O__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_runtime_ScalaRunTime"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "toArray__Lscala_collection_Seq__AO": {
+      "calledMethods": {
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_Seq": ["length__I", "foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "ensureAccessible__Ljava_lang_reflect_Method__Ljava_lang_reflect_Method": {
+      "calledMethods": {
+        "java_lang_reflect_Method": ["setAccessible__Z__V", "isAccessible__Z"]
+      },
+      "accessedClassData": ["java_lang_SecurityException"]
+    },
+    "checkInitialized__O__O": {
+      "calledMethods": {
+        "scala_UninitializedError": ["init___"]
+      },
+      "instantiatedClasses": ["scala_UninitializedError"]
+    },
+    "$$undtoString__Lscala_Product__T": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["mkString__T__T__T__T"],
+        "scala_Product": ["productPrefix__T", "productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "$$undhashCode__Lscala_Product__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["productHash__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_util_hashing_MurmurHash3"]
+    },
+    "typedProductIterator__Lscala_Product__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$$anon$1": ["init___Lscala_Product"]
+      },
+      "instantiatedClasses": ["scala_runtime_ScalaRunTime$$anon$1"]
+    },
+    "inlinedEquals__O__O__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equalsNumObject__Ljava_lang_Number__O__Z", "equalsCharObject__Ljava_lang_Character__O__Z"],
+        "java_lang_Object": ["equals__O__Z"]
+      },
+      "accessedModules": ["scala_runtime_BoxesRunTime"],
+      "accessedClassData": ["java_lang_Number", "java_lang_Character"]
+    },
+    "$$undequals__Lscala_Product__O__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["sameElements__Lscala_collection_Iterator__Z"],
+        "scala_Product": ["productIterator__Lscala_collection_Iterator", "productArity__I"]
+      },
+      "accessedClassData": ["scala_Product"]
+    },
+    "hash__O__I": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["hashFromNumber__Ljava_lang_Number__I"],
+        "java_lang_Object": ["hashCode__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxesRunTime"],
+      "accessedClassData": ["java_lang_Number"]
+    },
+    "hash__D__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D"],
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"],
+        "java_lang_Object": ["hashCode__I"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "hash__F__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D"],
+        "scala_scalajs_runtime_Long$": ["fromFloat__F__Lscala_scalajs_runtime_Long"],
+        "scala_runtime_ScalaRunTime$": ["hash__J__I"],
+        "java_lang_Object": ["hashCode__I"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "hash__J__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$greater$greater$greater__I__Lscala_scalajs_runtime_Long", "toInt__I"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "hash__Ljava_lang_Number__I": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["hashFromNumber__Ljava_lang_Number__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxesRunTime"]
+    },
+    "hash__I__I": {},
+    "hash__S__I": {},
+    "hash__B__I": {},
+    "hash__C__I": {},
+    "hash__Z__I": {
+      "calledMethods": {
+        "java_lang_Object": ["hashCode__I"]
+      }
+    },
+    "hash__Lscala_runtime_BoxedUnit__I": {},
+    "sameElements__Lscala_collection_Seq__Lscala_collection_Seq__Z": {
+      "calledMethods": {
+        "scala_collection_Seq": ["sameElements__Lscala_collection_GenIterable__Z"]
+      }
+    },
+    "stringOf__O__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["stringOf__O__I__T"]
+      }
+    },
+    "stringOf__O__I__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["scala$runtime$ScalaRunTime$$inner$1__O__I__T"]
+      },
+      "accessedClassData": ["java_lang_UnsupportedOperationException", "java_lang_AssertionError", "java_lang_StackOverflowError"]
+    },
+    "replStringOf__O__I__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["stringOf__O__I__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__contains__Lscala_scalajs_runtime_RuntimeString__Ljava_lang_CharSequence__Z"]
+      }
+    },
+    "checkZip__T__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce__V": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "println__O__V"],
+        "scala_collection_mutable_ArrayOps": ["drop__I__O", "take__I__O", "foreach__Lscala_Function1__V"],
+        "java_lang_Exception": ["getStackTrace__ALjava_lang_StackTraceElement", "init___"],
+        "scala_sys_SystemProperties": ["contains__T__Z"],
+        "scala_sys_package$": ["props__Lscala_sys_SystemProperties"],
+        "scala_collection_immutable_IndexedSeq": ["mkString__T__T", "length__I"],
+        "java_io_PrintStream": ["println__T__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Console$": ["err__Ljava_io_PrintStream"],
+        "scala_collection_TraversableOnce": ["toIndexedSeq__Lscala_collection_immutable_IndexedSeq"]
+      },
+      "instantiatedClasses": ["java_lang_Exception", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_sys_package", "scala_Predef", "scala_Console"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "packageOf$1__p1__O__T": {
+      "calledMethods": {
+        "java_lang_Package": ["getName__T"],
+        "java_lang_Class": ["getPackage__Ljava_lang_Package"],
+        "java_lang_Object": ["getClass__Ljava_lang_Class"]
+      }
+    },
+    "isScalaClass$1__p1__O__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["packageOf$1__p1__O__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z"]
+      }
+    },
+    "isScalaCompilerClass$1__p1__O__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["packageOf$1__p1__O__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z"]
+      }
+    },
+    "useOwnToString$1__p1__O__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["isScalaCompilerClass$1__p1__O__Z", "isScalaClass$1__p1__O__Z"],
+        "scala_collection_Traversable": ["hasDefiniteSize__Z"]
+      },
+      "accessedClassData": ["scala_collection_generic_Sorted", "scala_collection_TraversableView", "scala_collection_immutable_NumericRange", "scala_xml_Node", "scala_collection_Traversable", "scala_collection_immutable_Range", "scala_xml_MetaData", "scala_collection_immutable_StringLike"]
+    },
+    "scala$runtime$ScalaRunTime$$mapInner$1__O__I__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["scala$runtime$ScalaRunTime$$inner$1__O__I__T"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "arrayToString$1__p1__O__I__T": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range", "min$extension__I__I__I"],
+        "scala_collection_TraversableLike": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "java_lang_Class": ["getComponentType__Ljava_lang_Class"],
+        "java_lang_Object": ["getClass__Ljava_lang_Class"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_WrappedArray": ["take__I__O"],
+        "scala_collection_mutable_WrappedArray$": ["make__O__Lscala_collection_mutable_WrappedArray", "canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_IndexedSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_collection_immutable_Range": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I", "scala$runtime$ScalaRunTime$$inner$1__O__I__T"],
+        "scala_collection_TraversableOnce": ["mkString__T__T__T__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_reflect_ClassTag", "scala_collection_mutable_WrappedArray", "scala_Predef", "scala_collection_immutable_IndexedSeq", "scala_runtime_ScalaRunTime"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_TraversableOnce", "java_lang_String", "scala_runtime_BoxedUnit"]
+    },
+    "scala$runtime$ScalaRunTime$$inner$1__O__I__T": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T", "charWrapper__C__C"],
+        "scala_collection_Iterator": ["take__I__Lscala_collection_Iterator", "map__Lscala_Function1__Lscala_collection_Iterator", "mkString__T__T__T__T"],
+        "scala_collection_TraversableLike": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_Iterable": ["iterator__Lscala_collection_Iterator", "stringPrefix__T"],
+        "scala_collection_immutable_StringOps": ["init___T", "last__O", "head__O"],
+        "java_lang_Object": ["toString__T"],
+        "scala_collection_Traversable": ["take__I__O", "stringPrefix__T"],
+        "scala_collection_Map": ["stringPrefix__T", "iterator__Lscala_collection_Iterator"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Product1": ["$$und1__O"],
+        "scala_collection_Traversable$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_runtime_RichChar$": ["isWhitespace$extension__C__Z"],
+        "scala_runtime_ScalaRunTime$": ["arrayToString$1__p1__O__I__T", "isTuple__O__Z", "useOwnToString$1__p1__O__Z", "isArray__O__Z", "scala$runtime$ScalaRunTime$$mapInner$1__O__I__T", "scala$runtime$ScalaRunTime$$inner$1__O__I__T"],
+        "scala_Product": ["productIterator__Lscala_collection_Iterator"],
+        "scala_collection_TraversableOnce": ["mkString__T__T__T__T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_Traversable", "scala_Predef", "scala_runtime_RichChar", "scala_runtime_ScalaRunTime"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_Product", "scala_collection_Map", "scala_collection_Traversable", "scala_Product1", "scala_collection_Iterable", "java_lang_Object", "scala_collection_TraversableOnce", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["toSet__Lscala_collection_immutable_Set", "$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__I__T"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_collection_immutable_Nil", "scala_scalajs_runtime_RuntimeString"]
+    },
+    "scala$runtime$ScalaRunTime$$inner$1__O__I__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["scala$runtime$ScalaRunTime$$inner$1__O__I__T"]
+      }
+    },
+    "scala$runtime$ScalaRunTime$$mapInner$1__O__I__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["scala$runtime$ScalaRunTime$$mapInner$1__O__I__T"]
+      }
+    },
+    "checkZip__T__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["checkZip__T__Lscala_collection_TraversableOnce__Lscala_collection_TraversableOnce__V"]
+      }
+    },
+    "replStringOf__O__I__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["replStringOf__O__I__T"]
+      }
+    },
+    "stringOf__O__I__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["stringOf__O__I__T"]
+      }
+    },
+    "stringOf__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["stringOf__O__T"]
+      }
+    },
+    "sameElements__Lscala_collection_Seq__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["sameElements__Lscala_collection_Seq__Lscala_collection_Seq__Z"]
+      }
+    },
+    "hash__Lscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__Lscala_runtime_BoxedUnit__I"]
+      }
+    },
+    "hash__Z__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__Z__I"]
+      }
+    },
+    "hash__C__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__C__I"]
+      }
+    },
+    "hash__B__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__B__I"]
+      }
+    },
+    "hash__S__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__S__I"]
+      }
+    },
+    "hash__I__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__I__I"]
+      }
+    },
+    "hash__Ljava_lang_Number__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__Ljava_lang_Number__I"]
+      }
+    },
+    "hash__J__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__J__I"]
+      }
+    },
+    "hash__F__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__F__I"]
+      }
+    },
+    "hash__D__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__D__I"]
+      }
+    },
+    "hash__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"]
+      }
+    },
+    "$$undequals__Lscala_Product__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undequals__Lscala_Product__O__Z"]
+      }
+    },
+    "inlinedEquals__O__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["inlinedEquals__O__O__Z"]
+      }
+    },
+    "typedProductIterator__Lscala_Product__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      }
+    },
+    "$$undhashCode__Lscala_Product__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      }
+    },
+    "$$undtoString__Lscala_Product__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      }
+    },
+    "checkInitialized__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["checkInitialized__O__O"]
+      }
+    },
+    "ensureAccessible__Ljava_lang_reflect_Method__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["ensureAccessible__Ljava_lang_reflect_Method__Ljava_lang_reflect_Method"]
+      }
+    },
+    "toArray__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["toArray__Lscala_collection_Seq__AO"]
+      }
+    },
+    "toObjectArray__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["toObjectArray__O__AO"]
+      }
+    },
+    "array$undclone__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undclone__O__O"]
+      }
+    },
+    "array$undlength__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"]
+      }
+    },
+    "array$undupdate__O__I__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undupdate__O__I__O__V"]
+      }
+    },
+    "array$undapply__O__I__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O"]
+      }
+    },
+    "anyValClass__O__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["anyValClass__O__Lscala_reflect_ClassTag__Ljava_lang_Class"]
+      }
+    },
+    "arrayElementClass__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["arrayElementClass__O__Ljava_lang_Class"]
+      }
+    },
+    "arrayClass__Ljava_lang_Class__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["arrayClass__Ljava_lang_Class__Ljava_lang_Class"]
+      }
+    },
+    "isAnyVal__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["isAnyVal__O__Z"]
+      }
+    },
+    "isTuple__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["isTuple__O__Z"]
+      }
+    },
+    "isValueClass__Ljava_lang_Class__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["isValueClass__Ljava_lang_Class__Z"]
+      }
+    },
+    "isArray__O__I__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["isArray__O__I__Z"]
+      }
+    },
+    "isArray__O__": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["isArray__O__Z"]
+      }
+    }
+  }
+}

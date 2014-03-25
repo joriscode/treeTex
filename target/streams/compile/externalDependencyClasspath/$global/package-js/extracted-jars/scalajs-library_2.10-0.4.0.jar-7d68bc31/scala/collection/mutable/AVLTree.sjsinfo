@@ -1,0 +1,53 @@
+{
+  "name": "scala.collection.mutable.AVLTree",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_AVLTree",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_AVLTree", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "balance__I": {
+      "isAbstract": true
+    },
+    "depth__I": {
+      "isAbstract": true
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "contains__O__Lscala_math_Ordering__Z": {
+      "isAbstract": true
+    },
+    "insert__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree": {
+      "isAbstract": true
+    },
+    "remove__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree": {
+      "isAbstract": true
+    },
+    "removeMin__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "removeMax__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "rebalance__Lscala_collection_mutable_AVLTree": {
+      "isAbstract": true
+    },
+    "leftRotation__Lscala_collection_mutable_Node": {
+      "isAbstract": true
+    },
+    "rightRotation__Lscala_collection_mutable_Node": {
+      "isAbstract": true
+    },
+    "doubleLeftRotation__Lscala_collection_mutable_Node": {
+      "isAbstract": true
+    },
+    "doubleRightRotation__Lscala_collection_mutable_Node": {
+      "isAbstract": true
+    }
+  }
+}

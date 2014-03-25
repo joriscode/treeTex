@@ -1,0 +1,105 @@
+{
+  "name": "scala.collection.mutable.ArrayBuilder$ofBoolean",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayBuilder$ofBoolean",
+  "superClass": "scala_collection_mutable_ArrayBuilder",
+  "ancestors": ["scala_collection_mutable_ArrayBuilder$ofBoolean", "scala_collection_mutable_ArrayBuilder", "scala_Serializable", "java_io_Serializable", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elems__p2__AZ": {},
+    "elems$und$eq__p2__AZ__V": {},
+    "capacity__p2__I": {},
+    "capacity$und$eq__p2__I__V": {},
+    "size__p2__I": {},
+    "size$und$eq__p2__I__V": {},
+    "mkArray__p2__I__AZ": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["elems__p2__AZ", "size__p2__I"],
+        "scala_Array$": ["copy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["scala_Array"]
+    },
+    "resize__p2__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["elems$und$eq__p2__AZ__V", "capacity$und$eq__p2__I__V", "mkArray__p2__I__AZ"]
+      }
+    },
+    "sizeHint__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["capacity__p2__I", "resize__p2__I__V"]
+      }
+    },
+    "ensureSize__p2__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["capacity__p2__I", "resize__p2__I__V"]
+      }
+    },
+    "$$plus$eq__Z__Lscala_collection_mutable_ArrayBuilder$ofBoolean": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["size$und$eq__p2__I__V", "ensureSize__p2__I__V", "elems__p2__AZ", "size__p2__I"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuilder$ofBoolean": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["size$und$eq__p2__I__V", "ensureSize__p2__I__V", "elems__p2__AZ", "size__p2__I"],
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_mutable_WrappedArray$ofBoolean": ["length__I", "array__AZ"],
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$plus$plus$eq__Lscala_collection_generic_Growable__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      },
+      "accessedModules": ["scala_Array"],
+      "accessedClassData": ["scala_collection_mutable_WrappedArray$ofBoolean", "scala_collection_mutable_ArrayBuilder$ofBoolean"]
+    },
+    "clear__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["size$und$eq__p2__I__V"]
+      }
+    },
+    "result__AZ": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["capacity__p2__I", "elems__p2__AZ", "mkArray__p2__I__AZ", "size__p2__I"]
+      }
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["elems__p2__AZ", "size__p2__I"]
+      },
+      "accessedClassData": ["scala_collection_mutable_ArrayBuilder$ofBoolean"]
+    },
+    "toString__T": {},
+    "result__O": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["result__AZ"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuilder$ofBoolean"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["$$plus$eq__Z__Lscala_collection_mutable_ArrayBuilder$ofBoolean"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["$$plus$eq__Z__Lscala_collection_mutable_ArrayBuilder$ofBoolean"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_collection_mutable_ArrayBuilder": ["init___"]
+      }
+    },
+    "$$plus$eq__Z__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["$$plus$eq__Z__Lscala_collection_mutable_ArrayBuilder$ofBoolean"]
+      }
+    }
+  }
+}

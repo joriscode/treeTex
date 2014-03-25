@@ -1,0 +1,79 @@
+{
+  "name": "scala.collection.concurrent.Debug$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_Debug$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_concurrent_Debug$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "logbuffer$lzycompute__p1__Ljava_util_concurrent_ConcurrentLinkedQueue": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_util_concurrent_ConcurrentLinkedQueue": ["init___"]
+      },
+      "instantiatedClasses": ["java_util_concurrent_ConcurrentLinkedQueue"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "logbuffer__Ljava_util_concurrent_ConcurrentLinkedQueue": {
+      "calledMethods": {
+        "scala_collection_concurrent_Debug$": ["logbuffer$lzycompute__p1__Ljava_util_concurrent_ConcurrentLinkedQueue"]
+      }
+    },
+    "log__O__Z": {
+      "calledMethods": {
+        "java_util_concurrent_ConcurrentLinkedQueue": ["add__O__Z"],
+        "scala_collection_concurrent_Debug$": ["logbuffer__Ljava_util_concurrent_ConcurrentLinkedQueue"]
+      }
+    },
+    "flush__V": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["foreach__Lscala_Function1__V"],
+        "java_lang_Object": ["toString__T"],
+        "java_util_concurrent_ConcurrentLinkedQueue": ["clear__V", "iterator__Ljava_util_Iterator"],
+        "java_io_PrintStream": ["println__T__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_concurrent_Debug$": ["logbuffer__Ljava_util_concurrent_ConcurrentLinkedQueue"],
+        "scala_Console$": ["out__Ljava_io_PrintStream"],
+        "scala_collection_JavaConversions$": ["asScalaIterator__Ljava_util_Iterator__Lscala_collection_Iterator"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_JavaConversions", "scala_Console"]
+    },
+    "clear__V": {
+      "calledMethods": {
+        "java_util_concurrent_ConcurrentLinkedQueue": ["clear__V"],
+        "scala_collection_concurrent_Debug$": ["logbuffer__Ljava_util_concurrent_ConcurrentLinkedQueue"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "clear__": {
+      "calledMethods": {
+        "scala_collection_concurrent_Debug$": ["clear__V"]
+      }
+    },
+    "flush__": {
+      "calledMethods": {
+        "scala_collection_concurrent_Debug$": ["flush__V"]
+      }
+    },
+    "log__O__": {
+      "calledMethods": {
+        "scala_collection_concurrent_Debug$": ["log__O__Z"]
+      }
+    },
+    "logbuffer__": {
+      "calledMethods": {
+        "scala_collection_concurrent_Debug$": ["logbuffer__Ljava_util_concurrent_ConcurrentLinkedQueue"]
+      }
+    }
+  }
+}

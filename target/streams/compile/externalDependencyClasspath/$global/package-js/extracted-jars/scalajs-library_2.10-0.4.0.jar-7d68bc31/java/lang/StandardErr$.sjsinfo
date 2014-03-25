@@ -1,0 +1,27 @@
+{
+  "name": "java.lang.StandardErr$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_StandardErr$",
+  "superClass": "java_io_OutputStream",
+  "ancestors": ["java_lang_StandardErr$", "java_io_OutputStream", "java_io_Flushable", "java_io_Closeable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "write__I__V": {
+      "calledMethods": {
+        "java_lang_Object": ["toString__T"],
+        "java_lang_StandardErrPrintStream$": ["print__T__V"]
+      },
+      "accessedModules": ["java_lang_StandardErrPrintStream"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_io_OutputStream": ["init___"]
+      }
+    }
+  }
+}

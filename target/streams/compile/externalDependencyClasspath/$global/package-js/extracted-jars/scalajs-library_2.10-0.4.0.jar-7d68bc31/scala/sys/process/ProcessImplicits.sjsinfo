@@ -1,0 +1,35 @@
+{
+  "name": "scala.sys.process.ProcessImplicits",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImplicits",
+  "superClass": "",
+  "ancestors": ["scala_sys_process_ProcessImplicits", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "buildersToProcess__Lscala_collection_Seq__Lscala_Function1__Lscala_collection_Seq": {
+      "isAbstract": true
+    },
+    "builderToProcess__Ljava_lang_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "isAbstract": true
+    },
+    "fileToProcess__Ljava_io_File__Lscala_sys_process_ProcessBuilder$FileBuilder": {
+      "isAbstract": true
+    },
+    "urlToProcess__Ljava_net_URL__Lscala_sys_process_ProcessBuilder$URLBuilder": {
+      "isAbstract": true
+    },
+    "xmlToProcess__Lscala_xml_Elem__Lscala_sys_process_ProcessBuilder": {
+      "isAbstract": true
+    },
+    "stringToProcess__T__Lscala_sys_process_ProcessBuilder": {
+      "isAbstract": true
+    },
+    "stringSeqToProcess__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "isAbstract": true
+    }
+  }
+}

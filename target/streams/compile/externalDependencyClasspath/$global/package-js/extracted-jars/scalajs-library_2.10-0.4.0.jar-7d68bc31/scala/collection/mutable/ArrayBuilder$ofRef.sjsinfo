@@ -1,0 +1,102 @@
+{
+  "name": "scala.collection.mutable.ArrayBuilder$ofRef",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayBuilder$ofRef",
+  "superClass": "scala_collection_mutable_ArrayBuilder",
+  "ancestors": ["scala_collection_mutable_ArrayBuilder$ofRef", "scala_collection_mutable_ArrayBuilder", "scala_Serializable", "java_io_Serializable", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elems__p2__AO": {},
+    "elems$und$eq__p2__AO__V": {},
+    "capacity__p2__I": {},
+    "capacity$und$eq__p2__I__V": {},
+    "size__p2__I": {},
+    "size$und$eq__p2__I__V": {},
+    "mkArray__p2__I__AO": {
+      "calledMethods": {
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_reflect_ClassTag": ["newArray__I__O"],
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["elems__p2__AO", "size__p2__I"]
+      },
+      "accessedModules": ["scala_Array"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "resize__p2__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["capacity$und$eq__p2__I__V", "mkArray__p2__I__AO", "elems$und$eq__p2__AO__V"]
+      }
+    },
+    "sizeHint__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["capacity__p2__I", "resize__p2__I__V"]
+      }
+    },
+    "ensureSize__p2__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["capacity__p2__I", "resize__p2__I__V"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_ArrayBuilder$ofRef": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["ensureSize__p2__I__V", "size$und$eq__p2__I__V", "elems__p2__AO", "size__p2__I"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuilder$ofRef": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofRef": ["array__AO", "length__I"],
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$plus$plus$eq__Lscala_collection_generic_Growable__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["ensureSize__p2__I__V", "size$und$eq__p2__I__V", "size__p2__I", "elems__p2__AO"]
+      },
+      "accessedModules": ["scala_Array"],
+      "accessedClassData": ["scala_collection_mutable_ArrayBuilder$ofRef", "scala_collection_mutable_WrappedArray$ofRef"]
+    },
+    "clear__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["size$und$eq__p2__I__V"]
+      }
+    },
+    "result__AO": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["elems__p2__AO", "size__p2__I", "mkArray__p2__I__AO", "capacity__p2__I"]
+      }
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["elems__p2__AO", "size__p2__I"]
+      },
+      "accessedClassData": ["scala_collection_mutable_ArrayBuilder$ofRef"]
+    },
+    "toString__T": {},
+    "result__O": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["result__AO"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuilder$ofRef"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["$$plus$eq__O__Lscala_collection_mutable_ArrayBuilder$ofRef"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["$$plus$eq__O__Lscala_collection_mutable_ArrayBuilder$ofRef"]
+      }
+    },
+    "init___Lscala_reflect_ClassTag": {
+      "calledMethodsStatic": {
+        "scala_collection_mutable_ArrayBuilder": ["init___"]
+      }
+    }
+  }
+}

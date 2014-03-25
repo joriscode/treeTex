@@ -1,0 +1,40 @@
+{
+  "name": "scala.concurrent.duration.Duration$$anon$3",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_duration_Duration$$anon$3",
+  "superClass": "scala_concurrent_duration_Duration$Infinite",
+  "ancestors": ["scala_concurrent_duration_Duration$$anon$3", "scala_concurrent_duration_Duration$Infinite", "scala_concurrent_duration_Duration", "scala_math_Ordered", "java_lang_Comparable", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "compare__Lscala_concurrent_duration_Duration__I": {},
+    "unary$und$minus__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["Inf__Lscala_concurrent_duration_Duration$Infinite"]
+      },
+      "accessedModules": ["scala_concurrent_duration_Duration"]
+    },
+    "toUnit__Ljava_util_concurrent_TimeUnit__D": {},
+    "compare__O__I": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$$anon$3": ["compare__Lscala_concurrent_duration_Duration__I"]
+      },
+      "accessedClassData": ["scala_concurrent_duration_Duration"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$Infinite": ["init___"]
+      }
+    },
+    "compare__Lscala_concurrent_duration_Duration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$$anon$3": ["compare__Lscala_concurrent_duration_Duration__I"]
+      }
+    }
+  }
+}

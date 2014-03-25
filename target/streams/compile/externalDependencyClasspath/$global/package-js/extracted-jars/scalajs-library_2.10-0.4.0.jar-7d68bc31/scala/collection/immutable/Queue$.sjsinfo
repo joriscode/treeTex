@@ -1,0 +1,64 @@
+{
+  "name": "scala.collection.immutable.Queue$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Queue$",
+  "superClass": "scala_collection_generic_SeqFactory",
+  "ancestors": ["scala_collection_immutable_Queue$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_SeqFactory", "scala_collection_generic_TraversableFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenSeqFactory", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_immutable_Queue$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["toList__Lscala_collection_immutable_List"],
+        "scala_collection_mutable_ListBuffer": ["mapResult__Lscala_Function1__Lscala_collection_mutable_Builder", "init___"],
+        "scala_collection_immutable_Queue": ["init___Lscala_collection_immutable_List__Lscala_collection_immutable_List"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Queue", "scala_collection_mutable_ListBuffer", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "empty__Lscala_collection_immutable_Queue": {
+      "accessedModules": ["scala_collection_immutable_Queue$EmptyQueue"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_collection_immutable_Queue": {
+      "calledMethods": {
+        "scala_collection_immutable_Queue": ["init___Lscala_collection_immutable_List__Lscala_collection_immutable_List"],
+        "scala_collection_Seq": ["toList__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Queue"],
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "readResolve__p5__O": {
+      "accessedModules": ["scala_collection_immutable_Queue"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_immutable_Queue$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_Queue"]
+      }
+    },
+    "empty__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_immutable_Queue$": ["empty__Lscala_collection_immutable_Queue"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_SeqFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_immutable_Queue$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

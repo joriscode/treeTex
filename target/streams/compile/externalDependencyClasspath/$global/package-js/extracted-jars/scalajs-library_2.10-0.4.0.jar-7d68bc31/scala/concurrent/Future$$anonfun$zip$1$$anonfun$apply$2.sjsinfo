@@ -1,0 +1,52 @@
+{
+  "name": "scala.concurrent.Future$$anonfun$zip$1$$anonfun$apply$2",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Future$$anonfun$zip$1$$anonfun$apply$2",
+  "superClass": "scala_runtime_AbstractPartialFunction",
+  "ancestors": ["scala_concurrent_Future$$anonfun$zip$1$$anonfun$apply$2", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractPartialFunction", "scala_PartialFunction", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "applyOrElse__Ljava_lang_Throwable__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_concurrent_Promise": ["failure__Ljava_lang_Throwable__Lscala_concurrent_Promise"]
+      }
+    },
+    "isDefinedAt__Ljava_lang_Throwable__Z": {},
+    "isDefinedAt__O__Z": {
+      "calledMethods": {
+        "scala_concurrent_Future$$anonfun$zip$1$$anonfun$apply$2": ["isDefinedAt__Ljava_lang_Throwable__Z"]
+      },
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "applyOrElse__O__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_concurrent_Future$$anonfun$zip$1$$anonfun$apply$2": ["applyOrElse__Ljava_lang_Throwable__Lscala_Function1__O"]
+      },
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "init___Lscala_concurrent_Future$$anonfun$zip$1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractPartialFunction": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "isDefinedAt__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_concurrent_Future$$anonfun$zip$1$$anonfun$apply$2": ["isDefinedAt__Ljava_lang_Throwable__Z"]
+      }
+    },
+    "applyOrElse__Ljava_lang_Throwable__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_concurrent_Future$$anonfun$zip$1$$anonfun$apply$2": ["applyOrElse__Ljava_lang_Throwable__Lscala_Function1__O"]
+      }
+    }
+  }
+}

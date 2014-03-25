@@ -1,0 +1,32 @@
+{
+  "name": "scala.collection.concurrent.TrieMap$MangledHashing",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_TrieMap$MangledHashing",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_concurrent_TrieMap$MangledHashing", "scala_util_hashing_Hashing", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hash__O__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_util_hashing_package$": ["byteswap32__I__I"]
+      },
+      "accessedModules": ["scala_util_hashing_package", "scala_runtime_ScalaRunTime"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "hash__O__": {
+      "calledMethods": {
+        "scala_collection_concurrent_TrieMap$MangledHashing": ["hash__O__I"]
+      }
+    }
+  }
+}

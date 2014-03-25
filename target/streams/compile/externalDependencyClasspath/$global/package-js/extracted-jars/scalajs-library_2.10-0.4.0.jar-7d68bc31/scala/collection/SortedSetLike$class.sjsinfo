@@ -1,0 +1,61 @@
+{
+  "name": "scala.collection.SortedSetLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SortedSetLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_SortedSetLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_SortedSetLike$class__keySet__Lscala_collection_SortedSetLike__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike": ["repr__O"]
+      },
+      "accessedClassData": ["scala_collection_SortedSet"]
+    },
+    "scala_collection_SortedSetLike$class__firstKey__Lscala_collection_SortedSetLike__O": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike": ["head__O"]
+      }
+    },
+    "scala_collection_SortedSetLike$class__lastKey__Lscala_collection_SortedSetLike__O": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike": ["last__O"]
+      }
+    },
+    "scala_collection_SortedSetLike$class__from__Lscala_collection_SortedSetLike__O__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_SortedSet"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_SortedSetLike$class__until__Lscala_collection_SortedSetLike__O__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_SortedSet"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_SortedSetLike$class__range__Lscala_collection_SortedSetLike__O__O__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_SortedSet"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "scala_collection_SortedSetLike$class__subsetOf__Lscala_collection_SortedSetLike__Lscala_collection_GenSet__Z": {
+      "calledMethods": {
+        "scala_collection_SortedSetLike": ["scala$collection$SortedSetLike$$super$subsetOf__Lscala_collection_GenSet__Z", "ordering__Lscala_math_Ordering", "iterator__Lscala_collection_Iterator"],
+        "scala_collection_SortedSet": ["hasAll__Lscala_collection_Iterator__Z", "ordering__Lscala_math_Ordering"]
+      },
+      "accessedClassData": ["scala_collection_SortedSet"]
+    },
+    "scala_collection_SortedSetLike$class__$init$__Lscala_collection_SortedSetLike__V": {}
+  }
+}

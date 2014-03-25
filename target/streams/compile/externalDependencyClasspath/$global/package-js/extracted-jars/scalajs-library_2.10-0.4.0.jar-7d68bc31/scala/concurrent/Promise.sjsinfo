@@ -1,0 +1,44 @@
+{
+  "name": "scala.concurrent.Promise",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Promise",
+  "superClass": "",
+  "ancestors": ["scala_concurrent_Promise", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "future__Lscala_concurrent_Future": {
+      "isAbstract": true
+    },
+    "isCompleted__Z": {
+      "isAbstract": true
+    },
+    "complete__Lscala_util_Try__Lscala_concurrent_Promise": {
+      "isAbstract": true
+    },
+    "tryComplete__Lscala_util_Try__Z": {
+      "isAbstract": true
+    },
+    "completeWith__Lscala_concurrent_Future__Lscala_concurrent_Promise": {
+      "isAbstract": true
+    },
+    "tryCompleteWith__Lscala_concurrent_Future__Lscala_concurrent_Promise": {
+      "isAbstract": true
+    },
+    "success__O__Lscala_concurrent_Promise": {
+      "isAbstract": true
+    },
+    "trySuccess__O__Z": {
+      "isAbstract": true
+    },
+    "failure__Ljava_lang_Throwable__Lscala_concurrent_Promise": {
+      "isAbstract": true
+    },
+    "tryFailure__Ljava_lang_Throwable__Z": {
+      "isAbstract": true
+    }
+  }
+}

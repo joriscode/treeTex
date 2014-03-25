@@ -1,0 +1,99 @@
+{
+  "name": "scala.xml.EntityRef",
+  "ancestorCount": 7,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_EntityRef",
+  "superClass": "scala_xml_SpecialNode",
+  "ancestors": ["scala_xml_EntityRef", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_xml_SpecialNode", "scala_xml_pull_XMLEvent", "scala_xml_Node", "scala_xml_NodeSeq", "scala_xml_Equality", "scala_collection_immutable_Seq", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSeq", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_PartialFunction", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "entityName__T": {},
+    "doCollectNamespaces__Z": {},
+    "doTransform__Z": {},
+    "label__T": {},
+    "text__T": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder", "entityName__T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Utility$": ["sbToString__Lscala_Function1__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["entityName__T"],
+        "scala_collection_mutable_StringBuilder": ["append__T__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "copy__T__Lscala_xml_EntityRef": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_EntityRef"]
+    },
+    "copy$default$1__T": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["entityName__T"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_xml_EntityRef": ["entityName__T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "init___T": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_SpecialNode": ["init___"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["productPrefix__T"]
+      }
+    },
+    "copy__T__": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["copy__T__Lscala_xml_EntityRef"]
+      }
+    },
+    "entityName__": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["entityName__T"]
+      }
+    }
+  }
+}

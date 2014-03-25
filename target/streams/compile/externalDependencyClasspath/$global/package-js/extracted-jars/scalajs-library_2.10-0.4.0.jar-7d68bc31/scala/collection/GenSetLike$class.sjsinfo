@@ -1,0 +1,66 @@
+{
+  "name": "scala.collection.GenSetLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSetLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSetLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSetLike$class__apply__Lscala_collection_GenSetLike__O__Z": {
+      "calledMethods": {
+        "scala_collection_GenSetLike": ["contains__O__Z"]
+      }
+    },
+    "scala_collection_GenSetLike$class__intersect__Lscala_collection_GenSetLike__Lscala_collection_GenSet__O": {
+      "calledMethods": {
+        "scala_collection_GenSetLike": ["filter__Lscala_Function1__O"]
+      }
+    },
+    "scala_collection_GenSetLike$class__$amp__Lscala_collection_GenSetLike__Lscala_collection_GenSet__O": {
+      "calledMethods": {
+        "scala_collection_GenSetLike": ["intersect__Lscala_collection_GenSet__O"]
+      }
+    },
+    "scala_collection_GenSetLike$class__$bar__Lscala_collection_GenSetLike__Lscala_collection_GenSet__O": {
+      "calledMethods": {
+        "scala_collection_GenSetLike": ["union__Lscala_collection_GenSet__O"]
+      }
+    },
+    "scala_collection_GenSetLike$class__$amp$tilde__Lscala_collection_GenSetLike__Lscala_collection_GenSet__O": {
+      "calledMethods": {
+        "scala_collection_GenSetLike": ["diff__Lscala_collection_GenSet__O"]
+      }
+    },
+    "scala_collection_GenSetLike$class__subsetOf__Lscala_collection_GenSetLike__Lscala_collection_GenSet__Z": {
+      "calledMethods": {
+        "scala_collection_GenSetLike": ["forall__Lscala_Function1__Z"]
+      }
+    },
+    "scala_collection_GenSetLike$class__equals__Lscala_collection_GenSetLike__O__Z": {
+      "calledMethods": {
+        "scala_collection_GenSetLike$class": ["scala_collection_GenSetLike$class__liftedTree1$1__Lscala_collection_GenSetLike__Lscala_collection_GenSet__Z"],
+        "scala_collection_GenSetLike": ["size__I"],
+        "scala_collection_GenSet": ["size__I", "canEqual__O__Z"]
+      },
+      "accessedClassData": ["scala_collection_GenSet"]
+    },
+    "scala_collection_GenSetLike$class__hashCode__Lscala_collection_GenSetLike__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["setHash__Lscala_collection_Set__I"],
+        "scala_collection_GenSetLike": ["seq__Lscala_collection_Set"]
+      },
+      "accessedModules": ["scala_util_hashing_MurmurHash3"]
+    },
+    "scala_collection_GenSetLike$class__liftedTree1$1__Lscala_collection_GenSetLike__Lscala_collection_GenSet__Z": {
+      "calledMethods": {
+        "scala_collection_GenSetLike": ["subsetOf__Lscala_collection_GenSet__Z"]
+      },
+      "accessedClassData": ["java_lang_ClassCastException"]
+    },
+    "scala_collection_GenSetLike$class__$init$__Lscala_collection_GenSetLike__V": {}
+  }
+}

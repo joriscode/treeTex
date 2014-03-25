@@ -1,0 +1,52 @@
+{
+  "name": "scala.io.BytePickle$$anon$2",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$$anon$2",
+  "superClass": "scala_io_BytePickle$PU",
+  "ancestors": ["scala_io_BytePickle$$anon$2", "scala_io_BytePickle$PU", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "appP__I__AB__AB": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"],
+        "scala_Array$": ["concat__Lscala_collection_Seq__Lscala_reflect_ClassTag__O"],
+        "scala_io_BytePickle$": ["nat2Bytes__I__AB"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef", "scala_io_BytePickle"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "appU__AB__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Predef$": ["byteArrayOps__AB__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["slice__I__I__O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_io_BytePickle$$anon$2": ["readNat$1__p2__AB__Lscala_runtime_IntRef__I"],
+        "scala_runtime_IntRef": ["init___I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_runtime_IntRef"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "appP__O__AB__AB": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$2": ["appP__I__AB__AB"]
+      }
+    },
+    "readNat$1__p2__AB__Lscala_runtime_IntRef__I": {},
+    "init___": {
+      "calledMethods": {
+        "scala_io_BytePickle$PU": ["init___"]
+      }
+    },
+    "appP__I__AB__": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$2": ["appP__I__AB__AB"]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "scala.concurrent.Await$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Await$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_Await$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ready__Lscala_concurrent_Awaitable__Lscala_concurrent_duration_Duration__Lscala_concurrent_Awaitable": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_concurrent_Awaitable": ["ready__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__Lscala_concurrent_Awaitable"],
+        "scala_concurrent_package$": ["blocking__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_concurrent_package", "scala_concurrent_AwaitPermission"],
+      "accessedClassData": ["scala_concurrent_Awaitable"]
+    },
+    "result__Lscala_concurrent_Awaitable__Lscala_concurrent_duration_Duration__O": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_concurrent_Awaitable": ["result__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__O"],
+        "scala_concurrent_package$": ["blocking__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_concurrent_package", "scala_concurrent_AwaitPermission"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "result__Lscala_concurrent_Awaitable__Lscala_concurrent_duration_Duration__": {
+      "calledMethods": {
+        "scala_concurrent_Await$": ["result__Lscala_concurrent_Awaitable__Lscala_concurrent_duration_Duration__O"]
+      }
+    },
+    "ready__Lscala_concurrent_Awaitable__Lscala_concurrent_duration_Duration__": {
+      "calledMethods": {
+        "scala_concurrent_Await$": ["ready__Lscala_concurrent_Awaitable__Lscala_concurrent_duration_Duration__Lscala_concurrent_Awaitable"]
+      }
+    }
+  }
+}

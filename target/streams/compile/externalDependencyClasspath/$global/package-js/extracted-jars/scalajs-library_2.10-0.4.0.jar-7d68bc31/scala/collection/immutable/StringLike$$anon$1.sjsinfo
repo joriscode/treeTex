@@ -1,0 +1,54 @@
+{
+  "name": "scala.collection.immutable.StringLike$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_StringLike$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_immutable_StringLike$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "str__p2__T": {},
+    "len__p2__I": {},
+    "index__p2__I": {},
+    "index$und$eq__p2__I__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike$$anon$1": ["index__p2__I", "len__p2__I"]
+      }
+    },
+    "next__T": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I"],
+        "scala_collection_immutable_StringLike$class": ["scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$isLineBreak__Lscala_collection_immutable_StringLike__C__Z"],
+        "java_util_NoSuchElementException": ["init___T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T"],
+        "scala_collection_immutable_StringLike$$anon$1": ["index__p2__I", "len__p2__I", "index$und$eq__p2__I__V", "str__p2__T"],
+        "scala_collection_immutable_StringLike": ["apply__I__C"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike$$anon$1": ["next__T"]
+      }
+    },
+    "init___Lscala_collection_immutable_StringLike": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike$$anon$1": ["str__p2__T"],
+        "java_lang_NullPointerException": ["init___"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

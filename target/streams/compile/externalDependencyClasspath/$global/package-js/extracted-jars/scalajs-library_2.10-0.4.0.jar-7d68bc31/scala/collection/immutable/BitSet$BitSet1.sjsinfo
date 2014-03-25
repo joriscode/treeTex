@@ -1,0 +1,50 @@
+{
+  "name": "scala.collection.immutable.BitSet$BitSet1",
+  "ancestorCount": 5,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_BitSet$BitSet1",
+  "superClass": "scala_collection_immutable_BitSet",
+  "ancestors": ["scala_collection_immutable_BitSet$BitSet1", "scala_collection_immutable_BitSet", "scala_Serializable", "java_io_Serializable", "scala_collection_BitSet", "scala_collection_BitSetLike", "scala_collection_immutable_SortedSet", "scala_collection_SortedSet", "scala_collection_SortedSetLike", "scala_collection_generic_Sorted", "scala_collection_immutable_Set", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSet", "scala_collection_Set", "scala_collection_SetLike", "scala_collection_generic_Subtractable", "scala_collection_GenSet", "scala_collection_generic_GenericSetTemplate", "scala_collection_GenSetLike", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["zero__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "elems__J": {},
+    "nwords__I": {},
+    "word__I__J": {
+      "calledMethods": {
+        "scala_collection_immutable_BitSet$BitSet1": ["elems__J"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "updateWord__I__J__Lscala_collection_immutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_immutable_BitSet$BitSet1": ["init___J", "elems__J", "fromBitMaskNoCopy__AJ__Lscala_collection_immutable_BitSet"],
+        "scala_Predef$": ["wrapLongArray__AJ__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_BitSetLike$": ["updateArray__AJ__I__J__AJ"],
+        "scala_Array$": ["apply__J__Lscala_collection_Seq__AJ"],
+        "scala_collection_immutable_BitSet$BitSet2": ["init___J__J"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_BitSet$BitSet1", "scala_collection_immutable_BitSet$BitSet2"],
+      "accessedModules": ["scala_Array", "scala_Predef", "scala_collection_BitSetLike"]
+    },
+    "init___J": {
+      "calledMethodsStatic": {
+        "scala_collection_immutable_BitSet": ["init___"]
+      }
+    },
+    "elems__": {
+      "calledMethods": {
+        "scala_collection_immutable_BitSet$BitSet1": ["elems__J"]
+      }
+    }
+  }
+}

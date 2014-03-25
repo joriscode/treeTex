@@ -1,0 +1,85 @@
+{
+  "name": "scala.collection.TraversableOnce$BufferedCanBuildFrom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableOnce$BufferedCanBuildFrom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_TraversableOnce$BufferedCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "bufferToColl__Lscala_collection_mutable_ArrayBuffer__Lscala_collection_TraversableOnce": {
+      "isAbstract": true
+    },
+    "traversableToColl__Lscala_collection_GenTraversable__Lscala_collection_TraversableOnce": {
+      "isAbstract": true
+    },
+    "newIterator__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["bufferToColl__Lscala_collection_mutable_ArrayBuffer__Lscala_collection_TraversableOnce"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_ArrayBuffer": ["init___", "mapResult__Lscala_Function1__Lscala_collection_mutable_Builder"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuffer", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "apply__Lscala_collection_TraversableOnce__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["mapResult__Lscala_Function1__Lscala_collection_mutable_Builder"],
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["newIterator__Lscala_collection_mutable_Builder", "traversableToColl__Lscala_collection_GenTraversable__Lscala_collection_TraversableOnce"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_generic_GenericTraversableTemplate": ["genericBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_generic_GenericTraversableTemplate"]
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["newIterator__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["apply__Lscala_collection_TraversableOnce__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["apply__Lscala_collection_TraversableOnce__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "newIterator__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["newIterator__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "traversableToColl__Lscala_collection_GenTraversable__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["traversableToColl__Lscala_collection_GenTraversable__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "bufferToColl__Lscala_collection_mutable_ArrayBuffer__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["bufferToColl__Lscala_collection_mutable_ArrayBuffer__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

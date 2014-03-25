@@ -1,0 +1,64 @@
+{
+  "name": "java.util.concurrent.atomic.AtomicBoolean",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_concurrent_atomic_AtomicBoolean",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_concurrent_atomic_AtomicBoolean", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "get__Z": {},
+    "set__Z__V": {},
+    "lazySet__Z__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicBoolean": ["set__Z__V"]
+      }
+    },
+    "compareAndSet__Z__Z__Z": {},
+    "weakCompareAndSet__Z__Z__Z": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicBoolean": ["compareAndSet__Z__Z__Z"]
+      }
+    },
+    "getAndSet__Z__Z": {},
+    "init___Z": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "getAndSet__Z__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicBoolean": ["getAndSet__Z__Z"]
+      }
+    },
+    "weakCompareAndSet__Z__Z__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicBoolean": ["weakCompareAndSet__Z__Z__Z"]
+      }
+    },
+    "compareAndSet__Z__Z__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicBoolean": ["compareAndSet__Z__Z__Z"]
+      }
+    },
+    "lazySet__Z__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicBoolean": ["lazySet__Z__V"]
+      }
+    },
+    "set__Z__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicBoolean": ["set__Z__V"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicBoolean": ["get__Z"]
+      }
+    }
+  }
+}

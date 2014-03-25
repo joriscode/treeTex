@@ -1,0 +1,46 @@
+{
+  "name": "scala.collection.BitSetLike$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_BitSetLike$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_BitSetLike$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "LogWL__I": {},
+    "scala$collection$BitSetLike$$WordLength__I": {},
+    "updateArray__AJ__I__J__AJ": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z", "notEquals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_Predef$": ["assert__Z__V"],
+        "scala_Array$": ["copy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["scala_Array", "scala_scalajs_runtime_Long", "scala_Predef"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "updateArray__AJ__I__J__": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$": ["updateArray__AJ__I__J__AJ"]
+      }
+    },
+    "scala$collection$BitSetLike$$WordLength__": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$": ["scala$collection$BitSetLike$$WordLength__I"]
+      }
+    },
+    "LogWL__": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$": ["LogWL__I"]
+      }
+    }
+  }
+}

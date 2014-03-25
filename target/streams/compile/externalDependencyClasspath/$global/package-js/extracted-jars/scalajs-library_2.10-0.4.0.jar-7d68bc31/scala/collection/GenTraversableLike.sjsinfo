@@ -1,0 +1,101 @@
+{
+  "name": "scala.collection.GenTraversableLike",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenTraversableLike",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "repr__O": {
+      "isAbstract": true
+    },
+    "size__I": {
+      "isAbstract": true
+    },
+    "head__O": {
+      "isAbstract": true
+    },
+    "headOption__Lscala_Option": {
+      "isAbstract": true
+    },
+    "isTraversableAgain__Z": {
+      "isAbstract": true
+    },
+    "tail__O": {
+      "isAbstract": true
+    },
+    "last__O": {
+      "isAbstract": true
+    },
+    "lastOption__Lscala_Option": {
+      "isAbstract": true
+    },
+    "init__O": {
+      "isAbstract": true
+    },
+    "scan__O__Lscala_Function2__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "scanLeft__O__Lscala_Function2__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "scanRight__O__Lscala_Function2__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "foreach__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "collect__Lscala_PartialFunction__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "flatMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "filter__Lscala_Function1__O": {
+      "isAbstract": true
+    },
+    "filterNot__Lscala_Function1__O": {
+      "isAbstract": true
+    },
+    "partition__Lscala_Function1__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "groupBy__Lscala_Function1__Lscala_collection_GenMap": {
+      "isAbstract": true
+    },
+    "take__I__O": {
+      "isAbstract": true
+    },
+    "drop__I__O": {
+      "isAbstract": true
+    },
+    "slice__I__I__O": {
+      "isAbstract": true
+    },
+    "splitAt__I__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "takeWhile__Lscala_Function1__O": {
+      "isAbstract": true
+    },
+    "span__Lscala_Function1__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "dropWhile__Lscala_Function1__O": {
+      "isAbstract": true
+    },
+    "stringPrefix__T": {
+      "isAbstract": true
+    }
+  }
+}

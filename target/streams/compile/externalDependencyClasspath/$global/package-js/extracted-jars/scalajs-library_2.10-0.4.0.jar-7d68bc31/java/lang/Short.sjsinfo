@@ -1,0 +1,1218 @@
+{
+  "name": "java.lang.Short",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Short",
+  "superClass": "java_lang_Number",
+  "ancestors": ["java_lang_Short", "java_lang_Number", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "value__p2__S": {},
+    "isInt__Z": {},
+    "byteValue__B": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "shortValue__S": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "intValue__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "longValue__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "floatValue__F": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "doubleValue__D": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedClassData": ["java_lang_Short"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "toByte__B": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "toShort__S": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "toChar__C": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "toInt__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "toLong__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "toFloat__F": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "toDouble__D": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "unary$und$tilde__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "unary$und$plus__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "unary$und$minus__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$plus__T__T": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less$less__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less$less__J__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less$less__I__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$greater$greater$greater__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater$greater$greater__J__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$greater$greater$greater__I__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$greater$greater__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater$greater__J__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$greater$greater__I__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$eq$eq__B__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$eq$eq__S__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$eq$eq__C__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$eq$eq__I__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$eq$eq__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$eq$eq__F__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$eq$eq__D__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bang$eq__B__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bang$eq__S__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bang$eq__C__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bang$eq__I__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bang$eq__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["notEquals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$bang$eq__F__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bang$eq__D__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less__B__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less__S__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less__C__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less__I__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less__Lscala_scalajs_runtime_Long__Z"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$less__F__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less__D__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less$eq__B__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less$eq__S__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less$eq__C__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less$eq__I__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less$eq__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less$eq__Lscala_scalajs_runtime_Long__Z"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$less$eq__F__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$less$eq__D__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater__B__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater__S__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater__C__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater__I__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$greater__Lscala_scalajs_runtime_Long__Z"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$greater__F__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater__D__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater$eq__B__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater$eq__S__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater$eq__C__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater$eq__I__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater$eq__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$greater$eq__Lscala_scalajs_runtime_Long__Z"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$greater$eq__F__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$greater$eq__D__Z": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bar__B__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bar__S__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bar__C__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bar__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$bar__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$bar__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$amp__B__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$amp__S__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$amp__C__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$amp__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$amp__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$up__B__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$up__S__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$up__C__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$up__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$up__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$up__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$plus__B__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$plus__S__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$plus__C__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$plus__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$plus__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$plus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$plus__F__F": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$plus__D__D": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$minus__B__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$minus__S__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$minus__C__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$minus__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$minus__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$minus__F__F": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$minus__D__D": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$times__B__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$times__S__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$times__C__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$times__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$times__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$times__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$times__F__F": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$times__D__D": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$div__B__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$div__S__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$div__C__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$div__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$div__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$div__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$div__F__F": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$div__D__D": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$percent__B__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$percent__S__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$percent__C__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$percent__I__I": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$percent__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$percent__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"],
+        "java_lang_Short": ["value__p2__S"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "$$percent__F__F": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "$$percent__D__D": {
+      "calledMethods": {
+        "java_lang_Short": ["value__p2__S"]
+      }
+    },
+    "init___S": {
+      "calledMethodsStatic": {
+        "java_lang_Number": ["init___"]
+      }
+    },
+    "$$percent__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$percent__D__D"]
+      }
+    },
+    "$$percent__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$percent__F__F"]
+      }
+    },
+    "$$percent__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$percent__J__J"]
+      }
+    },
+    "$$percent__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$percent__I__I"]
+      }
+    },
+    "$$percent__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$percent__C__I"]
+      }
+    },
+    "$$percent__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$percent__S__I"]
+      }
+    },
+    "$$percent__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$percent__B__I"]
+      }
+    },
+    "$$div__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$div__D__D"]
+      }
+    },
+    "$$div__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$div__F__F"]
+      }
+    },
+    "$$div__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$div__J__J"]
+      }
+    },
+    "$$div__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$div__I__I"]
+      }
+    },
+    "$$div__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$div__C__I"]
+      }
+    },
+    "$$div__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$div__S__I"]
+      }
+    },
+    "$$div__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$div__B__I"]
+      }
+    },
+    "$$times__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$times__D__D"]
+      }
+    },
+    "$$times__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$times__F__F"]
+      }
+    },
+    "$$times__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$times__J__J"]
+      }
+    },
+    "$$times__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$times__I__I"]
+      }
+    },
+    "$$times__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$times__C__I"]
+      }
+    },
+    "$$times__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$times__S__I"]
+      }
+    },
+    "$$times__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$times__B__I"]
+      }
+    },
+    "$$minus__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$minus__D__D"]
+      }
+    },
+    "$$minus__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$minus__F__F"]
+      }
+    },
+    "$$minus__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$minus__J__J"]
+      }
+    },
+    "$$minus__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$minus__I__I"]
+      }
+    },
+    "$$minus__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$minus__C__I"]
+      }
+    },
+    "$$minus__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$minus__S__I"]
+      }
+    },
+    "$$minus__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$minus__B__I"]
+      }
+    },
+    "$$plus__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$plus__D__D"]
+      }
+    },
+    "$$plus__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$plus__F__F"]
+      }
+    },
+    "$$plus__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$plus__J__J"]
+      }
+    },
+    "$$plus__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$plus__I__I"]
+      }
+    },
+    "$$plus__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$plus__C__I"]
+      }
+    },
+    "$$plus__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$plus__S__I"]
+      }
+    },
+    "$$plus__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$plus__B__I"]
+      }
+    },
+    "$$up__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$up__J__J"]
+      }
+    },
+    "$$up__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$up__I__I"]
+      }
+    },
+    "$$up__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$up__C__I"]
+      }
+    },
+    "$$up__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$up__S__I"]
+      }
+    },
+    "$$up__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$up__B__I"]
+      }
+    },
+    "$$amp__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$amp__J__J"]
+      }
+    },
+    "$$amp__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$amp__I__I"]
+      }
+    },
+    "$$amp__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$amp__C__I"]
+      }
+    },
+    "$$amp__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$amp__S__I"]
+      }
+    },
+    "$$amp__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$amp__B__I"]
+      }
+    },
+    "$$bar__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bar__J__J"]
+      }
+    },
+    "$$bar__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bar__I__I"]
+      }
+    },
+    "$$bar__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bar__C__I"]
+      }
+    },
+    "$$bar__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bar__S__I"]
+      }
+    },
+    "$$bar__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bar__B__I"]
+      }
+    },
+    "$$greater$eq__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$eq__D__Z"]
+      }
+    },
+    "$$greater$eq__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$eq__F__Z"]
+      }
+    },
+    "$$greater$eq__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$eq__J__Z"]
+      }
+    },
+    "$$greater$eq__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$eq__I__Z"]
+      }
+    },
+    "$$greater$eq__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$eq__C__Z"]
+      }
+    },
+    "$$greater$eq__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$eq__S__Z"]
+      }
+    },
+    "$$greater$eq__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$eq__B__Z"]
+      }
+    },
+    "$$greater__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater__D__Z"]
+      }
+    },
+    "$$greater__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater__F__Z"]
+      }
+    },
+    "$$greater__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater__J__Z"]
+      }
+    },
+    "$$greater__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater__I__Z"]
+      }
+    },
+    "$$greater__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater__C__Z"]
+      }
+    },
+    "$$greater__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater__S__Z"]
+      }
+    },
+    "$$greater__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater__B__Z"]
+      }
+    },
+    "$$less$eq__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$eq__D__Z"]
+      }
+    },
+    "$$less$eq__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$eq__F__Z"]
+      }
+    },
+    "$$less$eq__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$eq__J__Z"]
+      }
+    },
+    "$$less$eq__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$eq__I__Z"]
+      }
+    },
+    "$$less$eq__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$eq__C__Z"]
+      }
+    },
+    "$$less$eq__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$eq__S__Z"]
+      }
+    },
+    "$$less$eq__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$eq__B__Z"]
+      }
+    },
+    "$$less__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less__D__Z"]
+      }
+    },
+    "$$less__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less__F__Z"]
+      }
+    },
+    "$$less__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less__J__Z"]
+      }
+    },
+    "$$less__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less__I__Z"]
+      }
+    },
+    "$$less__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less__C__Z"]
+      }
+    },
+    "$$less__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less__S__Z"]
+      }
+    },
+    "$$less__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less__B__Z"]
+      }
+    },
+    "$$bang$eq__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bang$eq__D__Z"]
+      }
+    },
+    "$$bang$eq__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bang$eq__F__Z"]
+      }
+    },
+    "$$bang$eq__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bang$eq__J__Z"]
+      }
+    },
+    "$$bang$eq__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bang$eq__I__Z"]
+      }
+    },
+    "$$bang$eq__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bang$eq__C__Z"]
+      }
+    },
+    "$$bang$eq__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bang$eq__S__Z"]
+      }
+    },
+    "$$bang$eq__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$bang$eq__B__Z"]
+      }
+    },
+    "$$eq$eq__D__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$eq$eq__D__Z"]
+      }
+    },
+    "$$eq$eq__F__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$eq$eq__F__Z"]
+      }
+    },
+    "$$eq$eq__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$eq$eq__J__Z"]
+      }
+    },
+    "$$eq$eq__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$eq$eq__I__Z"]
+      }
+    },
+    "$$eq$eq__C__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$eq$eq__C__Z"]
+      }
+    },
+    "$$eq$eq__S__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$eq$eq__S__Z"]
+      }
+    },
+    "$$eq$eq__B__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$eq$eq__B__Z"]
+      }
+    },
+    "$$greater$greater__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$greater__J__I"]
+      }
+    },
+    "$$greater$greater__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$greater__I__I"]
+      }
+    },
+    "$$greater$greater$greater__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$greater$greater__J__I"]
+      }
+    },
+    "$$greater$greater$greater__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$greater$greater$greater__I__I"]
+      }
+    },
+    "$$less$less__J__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$less__J__I"]
+      }
+    },
+    "$$less$less__I__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$less$less__I__I"]
+      }
+    },
+    "$$plus__T__": {
+      "calledMethods": {
+        "java_lang_Short": ["$$plus__T__T"]
+      }
+    },
+    "unary$und$minus__": {
+      "calledMethods": {
+        "java_lang_Short": ["unary$und$minus__I"]
+      }
+    },
+    "unary$und$plus__": {
+      "calledMethods": {
+        "java_lang_Short": ["unary$und$plus__I"]
+      }
+    },
+    "unary$und$tilde__": {
+      "calledMethods": {
+        "java_lang_Short": ["unary$und$tilde__I"]
+      }
+    },
+    "toDouble__": {
+      "calledMethods": {
+        "java_lang_Short": ["toDouble__D"]
+      }
+    },
+    "toFloat__": {
+      "calledMethods": {
+        "java_lang_Short": ["toFloat__F"]
+      }
+    },
+    "toLong__": {
+      "calledMethods": {
+        "java_lang_Short": ["toLong__J"]
+      }
+    },
+    "toInt__": {
+      "calledMethods": {
+        "java_lang_Short": ["toInt__I"]
+      }
+    },
+    "toChar__": {
+      "calledMethods": {
+        "java_lang_Short": ["toChar__C"]
+      }
+    },
+    "toShort__": {
+      "calledMethods": {
+        "java_lang_Short": ["toShort__S"]
+      }
+    },
+    "toByte__": {
+      "calledMethods": {
+        "java_lang_Short": ["toByte__B"]
+      }
+    },
+    "isInt__": {
+      "calledMethods": {
+        "java_lang_Short": ["isInt__Z"]
+      }
+    }
+  }
+}

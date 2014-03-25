@@ -1,0 +1,139 @@
+{
+  "name": "scala.collection.mutable.LinkedListLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_LinkedListLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_LinkedListLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_LinkedListLike$class__isEmpty__Lscala_collection_mutable_LinkedListLike__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["next__Lscala_collection_mutable_Seq"]
+      }
+    },
+    "scala_collection_mutable_LinkedListLike$class__length__Lscala_collection_mutable_LinkedListLike__I": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["repr__O"],
+        "scala_collection_mutable_LinkedListLike$class": ["scala_collection_mutable_LinkedListLike$class__length0__Lscala_collection_mutable_LinkedListLike__Lscala_collection_mutable_Seq__I__I"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Seq"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__length0__Lscala_collection_mutable_LinkedListLike__Lscala_collection_mutable_Seq__I__I": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["isEmpty__Z", "next__Lscala_collection_mutable_Seq"]
+      },
+      "accessedClassData": ["scala_collection_mutable_LinkedListLike"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__head__Lscala_collection_mutable_LinkedListLike__O": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["isEmpty__Z", "elem__O"],
+        "java_util_NoSuchElementException": ["init___"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__tail__Lscala_collection_mutable_LinkedListLike__Lscala_collection_mutable_Seq": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["nonEmpty__Z", "next__Lscala_collection_mutable_Seq"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Predef$": ["require__Z__Lscala_Function0__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__append__Lscala_collection_mutable_LinkedListLike__Lscala_collection_mutable_Seq__Lscala_collection_mutable_Seq": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["repr__O", "isEmpty__Z"],
+        "scala_collection_mutable_LinkedListLike$class": ["scala_collection_mutable_LinkedListLike$class__loop$1__Lscala_collection_mutable_LinkedListLike__Lscala_collection_mutable_Seq__Lscala_collection_mutable_Seq__V"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Seq"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__insert__Lscala_collection_mutable_LinkedListLike__Lscala_collection_mutable_Seq__V": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["next$und$eq__Lscala_collection_mutable_Seq__V", "append__Lscala_collection_mutable_Seq__Lscala_collection_mutable_Seq", "nonEmpty__Z", "next__Lscala_collection_mutable_Seq"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Predef$": ["require__Z__Lscala_Function0__V"],
+        "scala_collection_mutable_Seq": ["nonEmpty__Z"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_collection_mutable_LinkedListLike"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__drop__Lscala_collection_mutable_LinkedListLike__I__Lscala_collection_mutable_Seq": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["repr__O", "isEmpty__Z", "next__Lscala_collection_mutable_Seq"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Seq", "scala_collection_mutable_LinkedListLike"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__atLocation__Lscala_collection_mutable_LinkedListLike__I__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_mutable_Seq": ["nonEmpty__Z"],
+        "java_lang_Object": ["toString__T"],
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_mutable_LinkedListLike": ["drop__I__Lscala_collection_mutable_Seq"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__apply__Lscala_collection_mutable_LinkedListLike__I__O": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["elem__O"],
+        "scala_collection_mutable_LinkedListLike$class": ["scala_collection_mutable_LinkedListLike$class__atLocation__Lscala_collection_mutable_LinkedListLike__I__Lscala_Function1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_mutable_LinkedListLike"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__update__Lscala_collection_mutable_LinkedListLike__I__O__V": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["elem$und$eq__O__V"],
+        "scala_collection_mutable_LinkedListLike$class": ["scala_collection_mutable_LinkedListLike$class__atLocation__Lscala_collection_mutable_LinkedListLike__I__Lscala_Function1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_mutable_LinkedListLike"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__get__Lscala_collection_mutable_LinkedListLike__I__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["drop__I__Lscala_collection_mutable_Seq", "elem__O"],
+        "scala_collection_mutable_Seq": ["nonEmpty__Z"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_collection_mutable_LinkedListLike"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__iterator__Lscala_collection_mutable_LinkedListLike__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike$$anon$1": ["init___Lscala_collection_mutable_LinkedListLike"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_LinkedListLike$$anon$1"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__foreach__Lscala_collection_mutable_LinkedListLike__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["nonEmpty__Z", "elem__O", "next__Lscala_collection_mutable_Seq"],
+        "scala_Function1": ["apply__O__O"]
+      },
+      "accessedClassData": ["scala_collection_mutable_LinkedListLike"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__clone__Lscala_collection_mutable_LinkedListLike__Lscala_collection_mutable_Seq": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_mutable_LinkedListLike": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Seq"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__loop$1__Lscala_collection_mutable_LinkedListLike__Lscala_collection_mutable_Seq__Lscala_collection_mutable_Seq__V": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedListLike": ["next$und$eq__Lscala_collection_mutable_Seq__V", "isEmpty__Z", "next__Lscala_collection_mutable_Seq"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_mutable_LinkedListLike"]
+    },
+    "scala_collection_mutable_LinkedListLike$class__$init$__Lscala_collection_mutable_LinkedListLike__V": {}
+  }
+}

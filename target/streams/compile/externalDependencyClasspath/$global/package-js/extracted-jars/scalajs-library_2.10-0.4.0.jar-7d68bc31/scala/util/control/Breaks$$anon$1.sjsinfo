@@ -1,0 +1,36 @@
+{
+  "name": "scala.util.control.Breaks$$anon$1",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_Breaks$$anon$1",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_control_Breaks$$anon$1", "scala_util_control_Breaks$TryBlock", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "catchBreak__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_Function0": ["apply__O"],
+        "scala_util_control_Breaks": ["scala$util$control$Breaks$$breakException__Lscala_util_control_BreakControl"]
+      },
+      "accessedClassData": ["scala_util_control_BreakControl"]
+    },
+    "init___Lscala_util_control_Breaks__Lscala_Function0": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "catchBreak__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Breaks$$anon$1": ["catchBreak__Lscala_Function0__O"]
+      }
+    }
+  }
+}

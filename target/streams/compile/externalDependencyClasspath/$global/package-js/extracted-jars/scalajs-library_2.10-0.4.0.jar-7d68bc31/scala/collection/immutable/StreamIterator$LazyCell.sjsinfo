@@ -1,0 +1,48 @@
+{
+  "name": "scala.collection.immutable.StreamIterator$LazyCell",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_StreamIterator$LazyCell",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_StreamIterator$LazyCell", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "v$lzycompute__p1__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_immutable_Stream"]
+    },
+    "v__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamIterator$LazyCell": ["v$lzycompute__p1__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "scala$collection$immutable$StreamIterator$LazyCell$$$outer__Lscala_collection_immutable_StreamIterator": {},
+    "init___Lscala_collection_immutable_StreamIterator__Lscala_Function0": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$immutable$StreamIterator$LazyCell$$$outer__": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamIterator$LazyCell": ["scala$collection$immutable$StreamIterator$LazyCell$$$outer__Lscala_collection_immutable_StreamIterator"]
+      }
+    },
+    "v__": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamIterator$LazyCell": ["v__Lscala_collection_immutable_Stream"]
+      }
+    }
+  }
+}

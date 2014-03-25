@@ -1,0 +1,95 @@
+{
+  "name": "scala.runtime.WorksheetSupport$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_WorksheetSupport$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_WorksheetSupport$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$runtime$WorksheetSupport$$currentOffset__I": {},
+    "scala$runtime$WorksheetSupport$$currentOffset$und$eq__p1__I__V": {},
+    "flushedOut__p1__Lscala_runtime_WorksheetSupport$FlushedOutputStream": {},
+    "printOut__p1__Ljava_io_PrintStream": {},
+    "redirected__p1__Lscala_Function0__V": {
+      "calledMethods": {
+        "java_io_PrintStream": ["close__V"],
+        "scala_Console$": ["setErr__Ljava_io_PrintStream__V", "out__Ljava_io_PrintStream", "setOut__Ljava_io_PrintStream__V", "err__Ljava_io_PrintStream"],
+        "scala_runtime_WorksheetSupport$": ["printOut__p1__Ljava_io_PrintStream"],
+        "java_lang_System$": ["setErr__Ljava_io_PrintStream__V", "err__Ljava_io_PrintStream", "setOut__Ljava_io_PrintStream__V", "out__Ljava_io_PrintStream"],
+        "scala_Function0": ["apply$mcV$sp__V"]
+      },
+      "accessedModules": ["scala_Console", "java_lang_System"]
+    },
+    "$$execute__Lscala_Function0__V": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_runtime_WorksheetSupport$": ["redirected__p1__Lscala_Function0__V"],
+        "java_lang_Throwable": ["printStackTrace__V"],
+        "scala_Function0": ["apply$mcV$sp__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["scala_runtime_StopException"]
+    },
+    "$$skip__I__V": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$": ["flushedOut__p1__Lscala_runtime_WorksheetSupport$FlushedOutputStream", "scala$runtime$WorksheetSupport$$currentOffset__I", "scala$runtime$WorksheetSupport$$currentOffset$und$eq__p1__I__V"],
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["ensureNewLine__V"]
+      }
+    },
+    "$$stop__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_runtime_StopException": ["init___"]
+      },
+      "instantiatedClasses": ["scala_runtime_StopException"]
+    },
+    "$$show__O__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["stringOf__O__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_System$": ["out__Ljava_io_PrintStream"],
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["init___Ljava_io_OutputStream"],
+        "scala_runtime_WorksheetSupport$": ["flushedOut__p1__Lscala_runtime_WorksheetSupport$FlushedOutputStream"],
+        "java_io_PrintStream": ["init___Ljava_io_OutputStream"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_io_PrintStream", "scala_runtime_WorksheetSupport$FlushedOutputStream"],
+      "accessedModules": ["java_lang_System"]
+    },
+    "$$show__O__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$": ["$$show__O__T"]
+      }
+    },
+    "$$stop__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$": ["$$stop__Lscala_Nothing"]
+      }
+    },
+    "$$skip__I__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$": ["$$skip__I__V"]
+      }
+    },
+    "$$execute__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$": ["$$execute__Lscala_Function0__V"]
+      }
+    },
+    "scala$runtime$WorksheetSupport$$currentOffset__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$": ["scala$runtime$WorksheetSupport$$currentOffset__I"]
+      }
+    }
+  }
+}

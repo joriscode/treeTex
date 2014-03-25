@@ -1,0 +1,45 @@
+{
+  "name": "scala.runtime.VolatileShortRef$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_VolatileShortRef$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_VolatileShortRef$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "create__S__Lscala_runtime_VolatileShortRef": {
+      "calledMethods": {
+        "scala_runtime_VolatileShortRef": ["init___S"]
+      },
+      "instantiatedClasses": ["scala_runtime_VolatileShortRef"]
+    },
+    "zero__Lscala_runtime_VolatileShortRef": {
+      "calledMethods": {
+        "scala_runtime_VolatileShortRef": ["init___S"]
+      },
+      "instantiatedClasses": ["scala_runtime_VolatileShortRef"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_runtime_VolatileShortRef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_runtime_VolatileShortRef$": ["zero__Lscala_runtime_VolatileShortRef"]
+      }
+    },
+    "create__S__": {
+      "calledMethods": {
+        "scala_runtime_VolatileShortRef$": ["create__S__Lscala_runtime_VolatileShortRef"]
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "name": "scala.runtime.Tuple3Zipped$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_Tuple3Zipped$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_Tuple3Zipped$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "map$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_TraversableLike": ["foreach__Lscala_Function1__V", "repr__O"],
+        "scala_Function3": ["apply__O__O__O__O"],
+        "java_lang_Object": ["init___"],
+        "scala_collection_IterableLike": ["iterator__Lscala_collection_Iterator"],
+        "scala_runtime_NonLocalReturnControl": ["value__O", "key__O", "init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "$$und2__O"],
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$eq__O__Lscala_collection_mutable_Builder"]
+      },
+      "instantiatedClasses": ["java_lang_Object", "scala_runtime_NonLocalReturnControl", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_IterableLike", "scala_runtime_NonLocalReturnControl"]
+    },
+    "flatMap$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_TraversableLike": ["foreach__Lscala_Function1__V", "repr__O"],
+        "scala_Function3": ["apply__O__O__O__O"],
+        "java_lang_Object": ["init___"],
+        "scala_collection_IterableLike": ["iterator__Lscala_collection_Iterator"],
+        "scala_runtime_NonLocalReturnControl": ["value__O", "key__O", "init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "$$und2__O"],
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      },
+      "instantiatedClasses": ["java_lang_Object", "scala_runtime_NonLocalReturnControl", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_IterableLike", "scala_runtime_NonLocalReturnControl", "scala_collection_TraversableOnce", "scala_collection_mutable_Builder"]
+    },
+    "filter$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__Lscala_collection_generic_CanBuildFrom__Lscala_collection_generic_CanBuildFrom__Lscala_Tuple3": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_TraversableLike": ["foreach__Lscala_Function1__V", "repr__O"],
+        "scala_Function3": ["apply__O__O__O__O"],
+        "java_lang_Object": ["init___"],
+        "scala_collection_IterableLike": ["iterator__Lscala_collection_Iterator"],
+        "scala_runtime_NonLocalReturnControl": ["value__O", "key__O", "init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "$$und2__O"],
+        "scala_runtime_Tuple3Zipped$": ["scala$runtime$Tuple3Zipped$$result$1__Lscala_collection_mutable_Builder__Lscala_collection_mutable_Builder__Lscala_collection_mutable_Builder__Lscala_Tuple3"],
+        "scala_collection_mutable_Builder": ["$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["java_lang_Object", "scala_runtime_NonLocalReturnControl", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_Tuple3Zipped", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_IterableLike", "scala_Tuple3", "scala_runtime_NonLocalReturnControl"]
+    },
+    "exists$extension__Lscala_Tuple3__Lscala_Function3__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O", "hasNext__Z"],
+        "scala_collection_TraversableLike": ["foreach__Lscala_Function1__V"],
+        "scala_Function3": ["apply__O__O__O__O"],
+        "java_lang_Object": ["init___"],
+        "scala_runtime_NonLocalReturnControl$mcZ$sp": ["init___O__Z"],
+        "scala_collection_IterableLike": ["iterator__Lscala_collection_Iterator"],
+        "scala_runtime_NonLocalReturnControl": ["key__O", "value$mcZ$sp__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "$$und2__O"]
+      },
+      "instantiatedClasses": ["scala_runtime_NonLocalReturnControl$mcZ$sp", "java_lang_Object", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_IterableLike", "scala_runtime_NonLocalReturnControl"]
+    },
+    "forall$extension__Lscala_Tuple3__Lscala_Function3__Z": {
+      "calledMethods": {
+        "scala_Function3": ["apply__O__O__O__O"],
+        "scala_runtime_Tuple3Zipped$": ["exists$extension__Lscala_Tuple3__Lscala_Function3__Z"],
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3"]
+    },
+    "foreach$extension__Lscala_Tuple3__Lscala_Function3__V": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_TraversableLike": ["foreach__Lscala_Function1__V"],
+        "scala_Function3": ["apply__O__O__O__O"],
+        "java_lang_Object": ["init___"],
+        "scala_collection_IterableLike": ["iterator__Lscala_collection_Iterator"],
+        "scala_runtime_NonLocalReturnControl": ["value$mcV$sp__V", "key__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "$$und2__O"],
+        "scala_runtime_NonLocalReturnControl$mcV$sp": ["init___O__Lscala_runtime_BoxedUnit"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["java_lang_Object", "scala_runtime_NonLocalReturnControl$mcV$sp", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_IterableLike", "scala_runtime_NonLocalReturnControl"]
+    },
+    "hashCode$extension__Lscala_Tuple3__I": {
+      "calledMethods": {
+        "scala_Tuple3": ["hashCode__I"]
+      }
+    },
+    "equals$extension__Lscala_Tuple3__O__Z": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped": ["colls__Lscala_Tuple3"]
+      },
+      "accessedClassData": ["scala_runtime_Tuple3Zipped"]
+    },
+    "scala$runtime$Tuple3Zipped$$result$1__Lscala_collection_mutable_Builder__Lscala_collection_mutable_Builder__Lscala_collection_mutable_Builder__Lscala_Tuple3": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O"],
+        "scala_Tuple3": ["init___O__O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple3"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "scala$runtime$Tuple3Zipped$$result$1__Lscala_collection_mutable_Builder__Lscala_collection_mutable_Builder__Lscala_collection_mutable_Builder__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["scala$runtime$Tuple3Zipped$$result$1__Lscala_collection_mutable_Builder__Lscala_collection_mutable_Builder__Lscala_collection_mutable_Builder__Lscala_Tuple3"]
+      }
+    },
+    "equals$extension__Lscala_Tuple3__O__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["equals$extension__Lscala_Tuple3__O__Z"]
+      }
+    },
+    "hashCode$extension__Lscala_Tuple3__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["hashCode$extension__Lscala_Tuple3__I"]
+      }
+    },
+    "foreach$extension__Lscala_Tuple3__Lscala_Function3__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["foreach$extension__Lscala_Tuple3__Lscala_Function3__V"]
+      }
+    },
+    "forall$extension__Lscala_Tuple3__Lscala_Function3__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["forall$extension__Lscala_Tuple3__Lscala_Function3__Z"]
+      }
+    },
+    "exists$extension__Lscala_Tuple3__Lscala_Function3__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["exists$extension__Lscala_Tuple3__Lscala_Function3__Z"]
+      }
+    },
+    "filter$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__Lscala_collection_generic_CanBuildFrom__Lscala_collection_generic_CanBuildFrom__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["filter$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__Lscala_collection_generic_CanBuildFrom__Lscala_collection_generic_CanBuildFrom__Lscala_Tuple3"]
+      }
+    },
+    "flatMap$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["flatMap$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__O"]
+      }
+    },
+    "map$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__": {
+      "calledMethods": {
+        "scala_runtime_Tuple3Zipped$": ["map$extension__Lscala_Tuple3__Lscala_Function3__Lscala_collection_generic_CanBuildFrom__O"]
+      }
+    }
+  }
+}

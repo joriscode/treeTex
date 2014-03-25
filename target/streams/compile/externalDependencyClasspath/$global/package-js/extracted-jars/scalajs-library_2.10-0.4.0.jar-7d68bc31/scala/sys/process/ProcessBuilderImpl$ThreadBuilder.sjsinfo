@@ -1,0 +1,40 @@
+{
+  "name": "scala.sys.process.ProcessBuilderImpl$ThreadBuilder",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessBuilderImpl$ThreadBuilder",
+  "superClass": "scala_sys_process_ProcessBuilderImpl$AbstractBuilder",
+  "ancestors": ["scala_sys_process_ProcessBuilderImpl$ThreadBuilder", "scala_sys_process_ProcessBuilderImpl$AbstractBuilder", "scala_sys_process_ProcessBuilder", "scala_sys_process_ProcessBuilder$Sink", "scala_sys_process_ProcessBuilder$Source", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["daemonizeThreads__Z"],
+        "scala_sys_process_Process$": ["Spawn__Lscala_sys_process_ProcessImpl$Spawn$"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_concurrent_SyncVar": ["init___", "set__O__V", "put__O__V"],
+        "scala_sys_process_ProcessImpl$ThreadProcess": ["init___Lscala_sys_process_Process$__Ljava_lang_Thread__Lscala_concurrent_SyncVar"],
+        "scala_sys_process_ProcessImpl$Spawn$": ["apply__Lscala_Function0__Z__Ljava_lang_Thread"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessImpl$ThreadProcess", "scala_concurrent_SyncVar", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_sys_process_Process"]
+    },
+    "scala$sys$process$ProcessBuilderImpl$ThreadBuilder$$$outer__Lscala_sys_process_ProcessBuilder$": {},
+    "init___Lscala_sys_process_ProcessBuilder$__T__Lscala_Function1": {
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["init___Lscala_sys_process_ProcessBuilder$"]
+      }
+    },
+    "scala$sys$process$ProcessBuilderImpl$ThreadBuilder$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$ThreadBuilder": ["scala$sys$process$ProcessBuilderImpl$ThreadBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"]
+      }
+    }
+  }
+}

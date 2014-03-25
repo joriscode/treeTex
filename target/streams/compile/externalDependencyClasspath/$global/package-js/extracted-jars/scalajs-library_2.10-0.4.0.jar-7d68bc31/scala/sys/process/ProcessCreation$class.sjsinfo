@@ -1,0 +1,155 @@
+{
+  "name": "scala.sys.process.ProcessCreation$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessCreation$class",
+  "superClass": "",
+  "ancestors": ["scala_sys_process_ProcessCreation$class"],
+  "isExported": false,
+  "methods": {
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__T__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_sys_process_ProcessCreation": ["apply__T__Lscala_Option__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"]
+      },
+      "accessedModules": ["scala_Predef", "scala_None"],
+      "accessedClassData": ["scala_Tuple2", "java_lang_Object"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessCreation": ["apply__Lscala_collection_Seq__Lscala_Option__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"],
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"]
+      },
+      "accessedModules": ["scala_Predef", "scala_None"],
+      "accessedClassData": ["scala_Tuple2", "java_lang_Object"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__T__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessCreation": ["apply__Lscala_collection_Seq__Lscala_Option__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"],
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_Seq": ["$$plus$colon__O__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "accessedModules": ["scala_Predef", "scala_None", "scala_collection_Seq"],
+      "accessedClassData": ["scala_Tuple2", "java_lang_Object", "scala_collection_Seq"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__T__Ljava_io_File__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessCreation": ["apply__T__Lscala_Option__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__Lscala_collection_Seq__Ljava_io_File__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessCreation": ["apply__Lscala_collection_Seq__Lscala_Option__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__T__Lscala_Option__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessCreation": ["apply__Lscala_collection_Seq__Lscala_Option__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"],
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__split__Lscala_scalajs_runtime_RuntimeString__T__AT"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__Lscala_collection_Seq__Lscala_Option__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V", "toArray__Lscala_reflect_ClassTag__O"],
+        "scala_Option": ["foreach__Lscala_Function1__V"],
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"],
+        "java_lang_ProcessBuilder": ["directory__Ljava_io_File__Ljava_lang_ProcessBuilder", "environment__Ljava_util_Map", "init___AT"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "java_util_Map": ["put__O__O__O"],
+        "scala_sys_process_ProcessCreation": ["apply__Ljava_lang_ProcessBuilder__Lscala_sys_process_ProcessBuilder"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "java_lang_ProcessBuilder", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__Ljava_lang_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$Simple": ["init___Lscala_sys_process_ProcessBuilder$__Ljava_lang_ProcessBuilder"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$Simple"],
+      "accessedModules": ["scala_sys_process_ProcessBuilder"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__Ljava_io_File__Lscala_sys_process_ProcessBuilder$FileBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$FileImpl": ["init___Lscala_sys_process_ProcessBuilder$__Ljava_io_File"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$FileImpl"],
+      "accessedModules": ["scala_sys_process_ProcessBuilder"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__Ljava_net_URL__Lscala_sys_process_ProcessBuilder$URLBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$URLImpl": ["init___Lscala_sys_process_ProcessBuilder$__Ljava_net_URL"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$URLImpl"],
+      "accessedModules": ["scala_sys_process_ProcessBuilder"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__Lscala_xml_Elem__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_xml_Elem": ["text__T"],
+        "scala_sys_process_ProcessCreation": ["apply__T__Lscala_sys_process_ProcessBuilder"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__trim__Lscala_scalajs_runtime_RuntimeString__T"]
+      }
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__Z__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_sys_process_ProcessCreation": ["apply__T__Lscala_Function0__Lscala_sys_process_ProcessBuilder"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "scala_sys_process_ProcessCreation$class__apply__Lscala_sys_process_ProcessCreation__T__Lscala_Function0__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$Dummy": ["init___Lscala_sys_process_ProcessBuilder$__T__Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessBuilderImpl$Dummy"],
+      "accessedModules": ["scala_sys_process_ProcessBuilder"]
+    },
+    "scala_sys_process_ProcessCreation$class__applySeq__Lscala_sys_process_ProcessCreation__Lscala_collection_Seq__Lscala_Function1__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_Seq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "accessedModules": ["scala_collection_Seq"],
+      "accessedClassData": ["scala_collection_Seq"]
+    },
+    "scala_sys_process_ProcessCreation$class__cat__Lscala_sys_process_ProcessCreation__Lscala_sys_process_ProcessBuilder$Source__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessCreation": ["cat__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_Seq": ["$$plus$colon__O__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "accessedModules": ["scala_collection_Seq"],
+      "accessedClassData": ["scala_collection_Seq"]
+    },
+    "scala_sys_process_ProcessCreation$class__cat__Lscala_sys_process_ProcessCreation__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__V"],
+        "scala_collection_Seq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O", "nonEmpty__Z"],
+        "scala_sys_process_ProcessBuilder$Source": ["cat__Lscala_sys_process_ProcessBuilder"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_sys_process_ProcessBuilder": ["$$hash$amp$amp__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder"],
+        "scala_collection_TraversableOnce": ["reduceLeft__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_Predef", "scala_collection_Seq"],
+      "accessedClassData": ["scala_sys_process_ProcessBuilder", "scala_collection_TraversableOnce"]
+    },
+    "scala_sys_process_ProcessCreation$class__$init$__Lscala_sys_process_ProcessCreation__V": {}
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "scala.concurrent.impl.ExecutionContextImpl$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_ExecutionContextImpl$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_impl_ExecutionContextImpl$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__Lscala_concurrent_impl_ExecutionContextImpl": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl": ["init___Ljava_util_concurrent_Executor__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_concurrent_impl_ExecutionContextImpl"]
+    },
+    "fromExecutor$default$2__Lscala_Function1": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["defaultReporter__Lscala_Function1"]
+      },
+      "accessedModules": ["scala_concurrent_ExecutionContext"]
+    },
+    "fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_Function1__Lscala_concurrent_impl_ExecutionContextImpl": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["init___Ljava_util_concurrent_ExecutorService__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_concurrent_impl_ExecutionContextImpl$$anon$1"]
+    },
+    "fromExecutorService$default$2__Lscala_Function1": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$": ["defaultReporter__Lscala_Function1"]
+      },
+      "accessedModules": ["scala_concurrent_ExecutionContext"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$": ["fromExecutorService__Ljava_util_concurrent_ExecutorService__Lscala_Function1__Lscala_concurrent_impl_ExecutionContextImpl"]
+      }
+    },
+    "fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$": ["fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__Lscala_concurrent_impl_ExecutionContextImpl"]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "scala.xml.parsing.ConsoleErrorHandler$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_ConsoleErrorHandler$class",
+  "superClass": "",
+  "ancestors": ["scala_xml_parsing_ConsoleErrorHandler$class"],
+  "isExported": false,
+  "methods": {
+    "scala_xml_parsing_ConsoleErrorHandler$class__warning__Lscala_xml_parsing_ConsoleErrorHandler__Lorg_xml_sax_SAXParseException__V": {},
+    "scala_xml_parsing_ConsoleErrorHandler$class__error__Lscala_xml_parsing_ConsoleErrorHandler__Lorg_xml_sax_SAXParseException__V": {
+      "calledMethods": {
+        "scala_xml_parsing_ConsoleErrorHandler": ["printError__T__Lorg_xml_sax_SAXParseException__V"]
+      }
+    },
+    "scala_xml_parsing_ConsoleErrorHandler$class__fatalError__Lscala_xml_parsing_ConsoleErrorHandler__Lorg_xml_sax_SAXParseException__V": {
+      "calledMethods": {
+        "scala_xml_parsing_ConsoleErrorHandler": ["printError__T__Lorg_xml_sax_SAXParseException__V"]
+      }
+    },
+    "scala_xml_parsing_ConsoleErrorHandler$class__printError__Lscala_xml_parsing_ConsoleErrorHandler__T__Lorg_xml_sax_SAXParseException__V": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["format__Lscala_collection_Seq__T", "init___T"],
+        "org_xml_sax_SAXParseException": ["getLineNumber__I", "getColumnNumber__I", "getMessage__T"],
+        "scala_Console$": ["withOut__Ljava_io_PrintStream__Lscala_Function0__O", "flush__V", "err__Ljava_io_PrintStream", "println__O__V"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_Predef", "scala_Console"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_xml_parsing_ConsoleErrorHandler$class__$init$__Lscala_xml_parsing_ConsoleErrorHandler__V": {}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "scala.Application$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_Application$class",
+  "superClass": "",
+  "ancestors": ["scala_Application$class"],
+  "isExported": false,
+  "methods": {
+    "scala_Application$class__main__Lscala_Application__AT__V": {
+      "calledMethods": {
+        "scala_util_Properties$": ["propIsSet__T__Z"],
+        "scala_Application": ["executionStart__J"],
+        "scala_compat_Platform$": ["currentTime__J"],
+        "scala_scalajs_runtime_Long": ["$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_Console$": ["println__O__V"]
+      },
+      "accessedModules": ["scala_util_Properties", "scala_Console", "scala_compat_Platform"]
+    },
+    "scala_Application$class__$init$__Lscala_Application__V": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["currentTime__J"],
+        "scala_Application": ["scala$Application$$undsetter$und$executionStart$und$eq__J__V"]
+      },
+      "accessedModules": ["scala_compat_Platform"]
+    }
+  }
+}

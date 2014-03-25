@@ -1,0 +1,64 @@
+{
+  "name": "scala.concurrent.SyncChannel",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_SyncChannel",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_SyncChannel", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pendingWrites__p1__Lscala_collection_immutable_List": {},
+    "pendingWrites$und$eq__p1__Lscala_collection_immutable_List__V": {},
+    "pendingReads__p1__Lscala_collection_immutable_List": {},
+    "pendingReads$und$eq__p1__Lscala_collection_immutable_List__V": {},
+    "write__O__V": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_immutable_List": ["$$colon$colon$colon__Lscala_collection_immutable_List__Lscala_collection_immutable_List", "head__O", "isEmpty__Z", "tail__O"],
+        "scala_concurrent_SyncVar": ["init___", "set__O__V", "get__O"],
+        "scala_concurrent_SyncChannel": ["pendingReads$und$eq__p1__Lscala_collection_immutable_List__V", "pendingReads__p1__Lscala_collection_immutable_List", "pendingWrites$und$eq__p1__Lscala_collection_immutable_List__V", "pendingWrites__p1__Lscala_collection_immutable_List"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_concurrent_SyncVar"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_Tuple2", "scala_concurrent_SyncVar", "scala_collection_immutable_List", "java_lang_Object"]
+    },
+    "read__O": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_List": ["$$colon$colon$colon__Lscala_collection_immutable_List__Lscala_collection_immutable_List", "head__O", "isEmpty__Z", "tail__O"],
+        "scala_concurrent_SyncVar": ["init___", "set__O__V", "get__O"],
+        "scala_concurrent_SyncChannel": ["pendingReads$und$eq__p1__Lscala_collection_immutable_List__V", "pendingReads__p1__Lscala_collection_immutable_List", "pendingWrites$und$eq__p1__Lscala_collection_immutable_List__V", "pendingWrites__p1__Lscala_collection_immutable_List"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_concurrent_SyncVar", "scala_MatchError"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_Tuple2", "scala_concurrent_SyncVar", "scala_collection_immutable_List", "java_lang_Object"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "read__": {
+      "calledMethods": {
+        "scala_concurrent_SyncChannel": ["read__O"]
+      }
+    },
+    "write__O__": {
+      "calledMethods": {
+        "scala_concurrent_SyncChannel": ["write__O__V"]
+      }
+    }
+  }
+}

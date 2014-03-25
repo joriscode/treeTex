@@ -1,0 +1,211 @@
+{
+  "name": "scala.math.BigInt$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_BigInt$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_math_BigInt$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "minCached__p1__I": {},
+    "maxCached__p1__I": {},
+    "cache__p1__ALscala_math_BigInt": {},
+    "scala$math$BigInt$$minusOne__Ljava_math_BigInteger": {},
+    "MinLong__Lscala_math_BigInt": {},
+    "MaxLong__Lscala_math_BigInt": {},
+    "apply__I__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "java_math_BigInteger$": ["valueOf__J__Ljava_math_BigInteger"],
+        "scala_math_BigInt$": ["cache__p1__ALscala_math_BigInt", "maxCached__p1__I", "minCached__p1__I"]
+      },
+      "instantiatedClasses": ["scala_math_BigInt"],
+      "accessedModules": ["java_math_BigInteger", "scala_scalajs_runtime_Long"]
+    },
+    "apply__J__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less$eq__Lscala_scalajs_runtime_Long__Z", "toInt__I"],
+        "scala_math_BigInt$": ["maxCached__p1__I", "apply__I__Lscala_math_BigInt", "minCached__p1__I"],
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "java_math_BigInteger$": ["valueOf__J__Ljava_math_BigInteger"]
+      },
+      "instantiatedClasses": ["scala_math_BigInt"],
+      "accessedModules": ["java_math_BigInteger", "scala_scalajs_runtime_Long"]
+    },
+    "apply__AB__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "java_math_BigInteger": ["init___AB"]
+      },
+      "instantiatedClasses": ["java_math_BigInteger", "scala_math_BigInt"]
+    },
+    "apply__I__AB__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "java_math_BigInteger": ["init___I__AB"]
+      },
+      "instantiatedClasses": ["java_math_BigInteger", "scala_math_BigInt"]
+    },
+    "apply__I__I__Lscala_util_Random__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "java_math_BigInteger": ["init___I__I__Ljava_util_Random"],
+        "scala_util_Random": ["self__Ljava_util_Random"]
+      },
+      "instantiatedClasses": ["java_math_BigInteger", "scala_math_BigInt"]
+    },
+    "apply__I__Lscala_util_Random__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "java_math_BigInteger": ["init___I__Ljava_util_Random"],
+        "scala_util_Random": ["self__Ljava_util_Random"]
+      },
+      "instantiatedClasses": ["java_math_BigInteger", "scala_math_BigInt"]
+    },
+    "apply__T__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "java_math_BigInteger": ["init___T"]
+      },
+      "instantiatedClasses": ["java_math_BigInteger", "scala_math_BigInt"]
+    },
+    "apply__T__I__Lscala_math_BigInt": {
+      "calledMethods": {
+        "java_math_BigInteger": ["init___T__I"],
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"]
+      },
+      "instantiatedClasses": ["java_math_BigInteger", "scala_math_BigInt"]
+    },
+    "apply__Ljava_math_BigInteger__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"]
+      },
+      "instantiatedClasses": ["scala_math_BigInt"]
+    },
+    "probablePrime__I__Lscala_util_Random__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt": ["init___Ljava_math_BigInteger"],
+        "java_math_BigInteger$": ["probablePrime__I__Ljava_util_Random__Ljava_math_BigInteger"],
+        "scala_util_Random": ["self__Ljava_util_Random"]
+      },
+      "instantiatedClasses": ["scala_math_BigInt"],
+      "accessedModules": ["java_math_BigInteger"]
+    },
+    "int2bigInt__I__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__I__Lscala_math_BigInt"]
+      }
+    },
+    "long2bigInt__J__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__J__Lscala_math_BigInt"]
+      }
+    },
+    "javaBigInteger2bigInt__Ljava_math_BigInteger__Lscala_math_BigInt": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__Ljava_math_BigInteger__Lscala_math_BigInt"]
+      }
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_math_BigInt"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_math_BigInteger$": ["valueOf__J__Ljava_math_BigInteger"],
+        "scala_math_BigInt$": ["apply__J__Lscala_math_BigInt", "maxCached__p1__I", "minCached__p1__I"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["java_math_BigInteger", "scala_scalajs_runtime_Long", "scala_math_BigInt"],
+      "accessedClassData": ["scala_math_BigInt"]
+    },
+    "javaBigInteger2bigInt__Ljava_math_BigInteger__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["javaBigInteger2bigInt__Ljava_math_BigInteger__Lscala_math_BigInt"]
+      }
+    },
+    "long2bigInt__J__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["long2bigInt__J__Lscala_math_BigInt"]
+      }
+    },
+    "int2bigInt__I__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["int2bigInt__I__Lscala_math_BigInt"]
+      }
+    },
+    "probablePrime__I__Lscala_util_Random__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["probablePrime__I__Lscala_util_Random__Lscala_math_BigInt"]
+      }
+    },
+    "apply__Ljava_math_BigInteger__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__Ljava_math_BigInteger__Lscala_math_BigInt"]
+      }
+    },
+    "apply__T__I__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__T__I__Lscala_math_BigInt"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__T__Lscala_math_BigInt"]
+      }
+    },
+    "apply__I__Lscala_util_Random__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__I__Lscala_util_Random__Lscala_math_BigInt"]
+      }
+    },
+    "apply__I__I__Lscala_util_Random__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__I__I__Lscala_util_Random__Lscala_math_BigInt"]
+      }
+    },
+    "apply__I__AB__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__I__AB__Lscala_math_BigInt"]
+      }
+    },
+    "apply__AB__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__AB__Lscala_math_BigInt"]
+      }
+    },
+    "apply__J__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__J__Lscala_math_BigInt"]
+      }
+    },
+    "apply__I__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["apply__I__Lscala_math_BigInt"]
+      }
+    },
+    "MaxLong__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["MaxLong__Lscala_math_BigInt"]
+      }
+    },
+    "MinLong__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["MinLong__Lscala_math_BigInt"]
+      }
+    },
+    "scala$math$BigInt$$minusOne__": {
+      "calledMethods": {
+        "scala_math_BigInt$": ["scala$math$BigInt$$minusOne__Ljava_math_BigInteger"]
+      }
+    }
+  }
+}

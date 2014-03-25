@@ -1,0 +1,159 @@
+{
+  "name": "scala.collection.mutable.MapBuilder",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_MapBuilder",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_MapBuilder", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "sizeHint__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__I__V"]
+      }
+    },
+    "sizeHint__Lscala_collection_TraversableLike__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__Lscala_collection_TraversableLike__V"]
+      }
+    },
+    "sizeHint__Lscala_collection_TraversableLike__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__Lscala_collection_TraversableLike__I__V"]
+      }
+    },
+    "sizeHintBounded__I__Lscala_collection_TraversableLike__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__sizeHintBounded__Lscala_collection_mutable_Builder__I__Lscala_collection_TraversableLike__V"]
+      }
+    },
+    "mapResult__Lscala_Function1__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__mapResult__Lscala_collection_mutable_Builder__Lscala_Function1__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "$$plus$eq__O__O__Lscala_collection_Seq__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$plus$eq__Lscala_collection_generic_Growable__O__O__Lscala_collection_Seq__Lscala_collection_generic_Growable"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$plus$plus$eq__Lscala_collection_generic_Growable__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      }
+    },
+    "elems__Lscala_collection_GenMap": {},
+    "elems$und$eq__Lscala_collection_GenMap__V": {},
+    "$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_MapBuilder": {
+      "calledMethods": {
+        "scala_collection_GenMap": ["$$plus__Lscala_Tuple2__Lscala_collection_GenMap"],
+        "scala_collection_mutable_MapBuilder": ["elems__Lscala_collection_GenMap", "elems$und$eq__Lscala_collection_GenMap__V"]
+      }
+    },
+    "clear__V": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["elems$und$eq__Lscala_collection_GenMap__V"]
+      }
+    },
+    "result__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["elems__Lscala_collection_GenMap"]
+      }
+    },
+    "result__O": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["result__Lscala_collection_GenMap"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_MapBuilder"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_MapBuilder"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "init___Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__$init$__Lscala_collection_mutable_Builder__V"],
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$init$__Lscala_collection_generic_Growable__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      }
+    },
+    "$$plus$eq__O__O__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["$$plus$eq__O__O__Lscala_collection_Seq__Lscala_collection_generic_Growable"]
+      }
+    },
+    "mapResult__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["mapResult__Lscala_Function1__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "sizeHintBounded__I__Lscala_collection_TraversableLike__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["sizeHintBounded__I__Lscala_collection_TraversableLike__V"]
+      }
+    },
+    "sizeHint__Lscala_collection_TraversableLike__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["sizeHint__Lscala_collection_TraversableLike__I__V"]
+      }
+    },
+    "sizeHint__Lscala_collection_TraversableLike__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["sizeHint__Lscala_collection_TraversableLike__V"]
+      }
+    },
+    "sizeHint__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["sizeHint__I__V"]
+      }
+    },
+    "result__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["result__Lscala_collection_GenMap"]
+      }
+    },
+    "clear__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["clear__V"]
+      }
+    },
+    "$$plus$eq__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_MapBuilder"]
+      }
+    },
+    "elems$und$eq__Lscala_collection_GenMap__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["elems$und$eq__Lscala_collection_GenMap__V"]
+      }
+    },
+    "elems__": {
+      "calledMethods": {
+        "scala_collection_mutable_MapBuilder": ["elems__Lscala_collection_GenMap"]
+      }
+    },
+    "$$plus$eq__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["$$plus$eq__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

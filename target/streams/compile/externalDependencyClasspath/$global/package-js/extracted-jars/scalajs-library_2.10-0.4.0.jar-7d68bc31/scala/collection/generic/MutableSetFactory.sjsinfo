@@ -1,0 +1,28 @@
+{
+  "name": "scala.collection.generic.MutableSetFactory",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_MutableSetFactory",
+  "superClass": "scala_collection_generic_SetFactory",
+  "ancestors": ["scala_collection_generic_MutableSetFactory", "scala_collection_generic_SetFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenSetFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_GrowingBuilder": ["init___Lscala_collection_generic_Growable"],
+        "scala_collection_generic_MutableSetFactory": ["empty__Lscala_collection_GenTraversable"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_GrowingBuilder"],
+      "accessedClassData": ["scala_collection_generic_Growable"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_SetFactory": ["init___"]
+      }
+    }
+  }
+}

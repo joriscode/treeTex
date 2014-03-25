@@ -1,0 +1,32 @@
+{
+  "name": "scala.xml.transform.RuleTransformer",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_transform_RuleTransformer",
+  "superClass": "scala_xml_transform_BasicTransformer",
+  "ancestors": ["scala_xml_transform_RuleTransformer", "scala_xml_transform_BasicTransformer", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "transform__Lscala_xml_Node__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_Seq": ["foldLeft__O__Lscala_Function2__O"],
+        "scala_xml_transform_RewriteRule": ["transform__Lscala_collection_Seq__Lscala_collection_Seq"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_transform_BasicTransformer": ["transform__Lscala_xml_Node__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedClassData": ["scala_collection_Seq"]
+    },
+    "init___Lscala_collection_Seq": {
+      "calledMethodsStatic": {
+        "scala_xml_transform_BasicTransformer": ["init___"]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "scala.collection.TraversableOnce$OnceCanBuildFrom",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableOnce$OnceCanBuildFrom",
+  "superClass": "scala_collection_TraversableOnce$BufferedCanBuildFrom",
+  "ancestors": ["scala_collection_TraversableOnce$OnceCanBuildFrom", "scala_collection_TraversableOnce$BufferedCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "bufferToColl__Lscala_collection_mutable_ArrayBuffer__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuffer": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "traversableToColl__Lscala_collection_GenTraversable__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_GenTraversable": ["seq__Lscala_collection_Traversable"]
+      }
+    },
+    "traversableToColl__Lscala_collection_GenTraversable__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$OnceCanBuildFrom": ["traversableToColl__Lscala_collection_GenTraversable__Lscala_collection_Traversable"]
+      }
+    },
+    "bufferToColl__Lscala_collection_mutable_ArrayBuffer__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$OnceCanBuildFrom": ["bufferToColl__Lscala_collection_mutable_ArrayBuffer__Lscala_collection_Iterator"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$BufferedCanBuildFrom": ["init___"]
+      }
+    }
+  }
+}

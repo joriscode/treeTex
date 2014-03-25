@@ -1,0 +1,279 @@
+{
+  "name": "scala.sys.process.BasicIO$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_BasicIO$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_BasicIO$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "BufferSize__I": {},
+    "Newline__T": {},
+    "apply__Z__Lscala_Function1__Lscala_Option__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["init___Lscala_Function1__Lscala_Function1__Lscala_Function1"],
+        "scala_sys_process_BasicIO$": ["getErr__Lscala_Option__Lscala_Function1", "processFully__Lscala_Function1__Lscala_Function1", "input__Z__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessIO"]
+    },
+    "apply__Z__Ljava_lang_StringBuffer__Lscala_Option__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["init___Lscala_Function1__Lscala_Function1__Lscala_Function1"],
+        "scala_sys_process_BasicIO$": ["getErr__Lscala_Option__Lscala_Function1", "processFully__Ljava_lang_Appendable__Lscala_Function1", "input__Z__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessIO"]
+    },
+    "apply__Z__Lscala_sys_process_ProcessLogger__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["init___Lscala_Function1__Lscala_Function1__Lscala_Function1"],
+        "scala_sys_process_BasicIO$": ["processErrFully__p1__Lscala_sys_process_ProcessLogger__Lscala_Function1", "input__Z__Lscala_Function1", "processOutFully__p1__Lscala_sys_process_ProcessLogger__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessIO"]
+    },
+    "getErr__Lscala_Option__Lscala_Function1": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_Some": ["x__O"],
+        "scala_sys_process_BasicIO$": ["processErrFully__p1__Lscala_sys_process_ProcessLogger__Lscala_Function1", "toStdErr__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Some", "scala_sys_process_ProcessLogger"]
+    },
+    "processErrFully__p1__Lscala_sys_process_ProcessLogger__Lscala_Function1": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$$anonfun$processErrFully$1$$anonfun$apply$4": ["init___Lscala_sys_process_BasicIO$$anonfun$processErrFully$1__T"],
+        "scala_sys_process_ProcessLogger": ["err__Lscala_Function0__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_sys_process_BasicIO$": ["processFully__Lscala_Function1__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_sys_process_BasicIO$$anonfun$processErrFully$1$$anonfun$apply$4"]
+    },
+    "processOutFully__p1__Lscala_sys_process_ProcessLogger__Lscala_Function1": {
+      "calledMethods": {
+        "scala_sys_process_ProcessLogger": ["out__Lscala_Function0__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_sys_process_BasicIO$": ["processFully__Lscala_Function1__Lscala_Function1"],
+        "scala_sys_process_BasicIO$$anonfun$processOutFully$1$$anonfun$apply$5": ["init___Lscala_sys_process_BasicIO$$anonfun$processOutFully$1__T"]
+      },
+      "instantiatedClasses": ["scala_sys_process_BasicIO$$anonfun$processOutFully$1$$anonfun$apply$5", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "close__Ljava_io_Closeable__V": {
+      "calledMethods": {
+        "java_io_Closeable": ["close__V"]
+      },
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "processFully__Ljava_lang_Appendable__Lscala_Function1": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["processFully__Lscala_Function1__Lscala_Function1", "appendLine__p1__Ljava_lang_Appendable__Lscala_Function1"]
+      }
+    },
+    "processFully__Lscala_Function1__Lscala_Function1": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["processLinesFully__Lscala_Function1__Lscala_Function0__V"],
+        "scala_sys_process_BasicIO$$anonfun$processFully$1$$anonfun$apply$6": ["init___Lscala_sys_process_BasicIO$$anonfun$processFully$1__Ljava_io_BufferedReader"],
+        "java_io_BufferedReader": ["close__V", "init___Ljava_io_Reader"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "java_io_InputStreamReader": ["init___Ljava_io_InputStream"]
+      },
+      "instantiatedClasses": ["java_io_InputStreamReader", "java_io_BufferedReader", "scala_sys_process_BasicIO$$anonfun$processFully$1$$anonfun$apply$6", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_sys_process_BasicIO"]
+    },
+    "processLinesFully__Lscala_Function1__Lscala_Function0__V": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["readFully$1__p1__Lscala_Function1__Lscala_Function0__V"]
+      }
+    },
+    "connectToIn__Ljava_io_OutputStream__V": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stdin__Ljava_io_InputStream"],
+        "scala_sys_process_BasicIO$Uncloseable$": ["protect__Ljava_io_InputStream__Ljava_io_InputStream"],
+        "scala_sys_process_BasicIO$": ["transferFully__Ljava_io_InputStream__Ljava_io_OutputStream__V"]
+      },
+      "accessedModules": ["scala_sys_process_BasicIO$Uncloseable", "scala_sys_process_package"]
+    },
+    "input__Z__Lscala_Function1": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_sys_process_BasicIO$": ["connectToIn__Ljava_io_OutputStream__V"],
+        "java_io_OutputStream": ["close__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_sys_process_BasicIO"]
+    },
+    "standard__Z__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["input__Z__Lscala_Function1", "standard__Lscala_Function1__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "standard__Lscala_Function1__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["init___Lscala_Function1__Lscala_Function1__Lscala_Function1"],
+        "scala_sys_process_BasicIO$": ["toStdOut__Lscala_Function1", "toStdErr__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessIO"]
+    },
+    "toStdErr__Lscala_Function1": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stderr__Ljava_io_PrintStream"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_sys_process_BasicIO$": ["transferFully__Ljava_io_InputStream__Ljava_io_OutputStream__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_sys_process_package", "scala_sys_process_BasicIO"]
+    },
+    "toStdOut__Lscala_Function1": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stdout__Ljava_io_PrintStream"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_sys_process_BasicIO$": ["transferFully__Ljava_io_InputStream__Ljava_io_OutputStream__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_sys_process_package", "scala_sys_process_BasicIO"]
+    },
+    "transferFully__Ljava_io_InputStream__Ljava_io_OutputStream__V": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_sys_process_processInternal$": ["onInterrupt__Lscala_Function0__Lscala_PartialFunction"],
+        "scala_PartialFunction": ["isDefinedAt__O__Z", "apply__O__O"],
+        "scala_sys_process_BasicIO$": ["transferFullyImpl__p1__Ljava_io_InputStream__Ljava_io_OutputStream__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_sys_process_processInternal"]
+    },
+    "appendLine__p1__Ljava_lang_Appendable__Lscala_Function1": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_sys_process_BasicIO$": ["Newline__T"],
+        "java_lang_Appendable": ["append__Ljava_lang_CharSequence__Ljava_lang_Appendable"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_sys_process_BasicIO"]
+    },
+    "transferFullyImpl__p1__Ljava_io_InputStream__Ljava_io_OutputStream__V": {
+      "calledMethods": {
+        "java_io_InputStream": ["close__V"],
+        "scala_sys_process_BasicIO$": ["loop$1__p1__Ljava_io_InputStream__Ljava_io_OutputStream__AB__V"]
+      }
+    },
+    "readFully$1__p1__Lscala_Function1__Lscala_Function0__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "loop$1__p1__Ljava_io_InputStream__Ljava_io_OutputStream__AB__V": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_io_InputStream": ["read__AB__I"],
+        "java_io_OutputStream": ["flush__V", "write__AB__I__I__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_sys_package$": ["props__Lscala_sys_SystemProperties"],
+        "scala_sys_SystemProperties": ["apply__O__O"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_sys_package"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "transferFully__Ljava_io_InputStream__Ljava_io_OutputStream__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["transferFully__Ljava_io_InputStream__Ljava_io_OutputStream__V"]
+      }
+    },
+    "toStdOut__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["toStdOut__Lscala_Function1"]
+      }
+    },
+    "toStdErr__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["toStdErr__Lscala_Function1"]
+      }
+    },
+    "standard__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["standard__Lscala_Function1__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "standard__Z__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["standard__Z__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "input__Z__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["input__Z__Lscala_Function1"]
+      }
+    },
+    "connectToIn__Ljava_io_OutputStream__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["connectToIn__Ljava_io_OutputStream__V"]
+      }
+    },
+    "processLinesFully__Lscala_Function1__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["processLinesFully__Lscala_Function1__Lscala_Function0__V"]
+      }
+    },
+    "processFully__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["processFully__Lscala_Function1__Lscala_Function1"]
+      }
+    },
+    "processFully__Ljava_lang_Appendable__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["processFully__Ljava_lang_Appendable__Lscala_Function1"]
+      }
+    },
+    "close__Ljava_io_Closeable__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["close__Ljava_io_Closeable__V"]
+      }
+    },
+    "getErr__Lscala_Option__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["getErr__Lscala_Option__Lscala_Function1"]
+      }
+    },
+    "apply__Z__Lscala_sys_process_ProcessLogger__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["apply__Z__Lscala_sys_process_ProcessLogger__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "apply__Z__Ljava_lang_StringBuffer__Lscala_Option__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["apply__Z__Ljava_lang_StringBuffer__Lscala_Option__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "apply__Z__Lscala_Function1__Lscala_Option__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["apply__Z__Lscala_Function1__Lscala_Option__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "Newline__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["Newline__T"]
+      }
+    },
+    "BufferSize__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["BufferSize__I"]
+      }
+    }
+  }
+}

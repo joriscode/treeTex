@@ -1,0 +1,349 @@
+{
+  "name": "scala.runtime.BoxesRunTime$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_BoxesRunTime$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_BoxesRunTime$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "boxToBoolean__Z__Ljava_lang_Boolean": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["valueOf__Z__Ljava_lang_Boolean"]
+      },
+      "accessedModules": ["java_lang_Boolean"]
+    },
+    "boxToCharacter__C__Ljava_lang_Character": {
+      "calledMethods": {
+        "java_lang_Character$": ["valueOf__C__Ljava_lang_Character"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "boxToByte__B__Ljava_lang_Byte": {
+      "calledMethods": {
+        "java_lang_Byte$": ["valueOf__B__Ljava_lang_Byte"]
+      },
+      "accessedModules": ["java_lang_Byte"]
+    },
+    "boxToShort__S__Ljava_lang_Short": {
+      "calledMethods": {
+        "java_lang_Short$": ["valueOf__S__Ljava_lang_Short"]
+      },
+      "accessedModules": ["java_lang_Short"]
+    },
+    "boxToInteger__I__Ljava_lang_Integer": {
+      "calledMethods": {
+        "java_lang_Integer$": ["valueOf__I__Ljava_lang_Integer"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "boxToLong__J__Ljava_lang_Long": {
+      "calledMethods": {
+        "java_lang_Long$": ["valueOf__J__Ljava_lang_Long"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "boxToFloat__F__Ljava_lang_Float": {
+      "calledMethods": {
+        "java_lang_Float$": ["valueOf__F__Ljava_lang_Float"]
+      },
+      "accessedModules": ["java_lang_Float"]
+    },
+    "boxToDouble__D__Ljava_lang_Double": {
+      "calledMethods": {
+        "java_lang_Double$": ["valueOf__D__Ljava_lang_Double"]
+      },
+      "accessedModules": ["java_lang_Double"]
+    },
+    "unboxToBoolean__O__Z": {
+      "calledMethods": {
+        "java_lang_Boolean": ["booleanValue__Z"]
+      },
+      "accessedClassData": ["java_lang_Boolean"]
+    },
+    "unboxToChar__O__C": {
+      "calledMethods": {
+        "java_lang_Character": ["charValue__C"]
+      },
+      "accessedClassData": ["java_lang_Character"]
+    },
+    "unboxToByte__O__B": {
+      "calledMethods": {
+        "java_lang_Byte": ["byteValue__B"]
+      },
+      "accessedClassData": ["java_lang_Byte"]
+    },
+    "unboxToShort__O__S": {
+      "calledMethods": {
+        "java_lang_Short": ["shortValue__S"]
+      },
+      "accessedClassData": ["java_lang_Short"]
+    },
+    "unboxToInt__O__I": {
+      "calledMethods": {
+        "java_lang_Integer": ["intValue__I"]
+      },
+      "accessedClassData": ["java_lang_Integer"]
+    },
+    "unboxToLong__O__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_lang_Long": ["longValue__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"],
+      "accessedClassData": ["java_lang_Long"]
+    },
+    "unboxToFloat__O__F": {
+      "calledMethods": {
+        "java_lang_Float": ["floatValue__F"]
+      },
+      "accessedClassData": ["java_lang_Float"]
+    },
+    "unboxToDouble__O__D": {
+      "calledMethods": {
+        "java_lang_Double": ["doubleValue__D"]
+      },
+      "accessedClassData": ["java_lang_Double"]
+    },
+    "equals__O__O__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equals2__O__O__Z"]
+      }
+    },
+    "equals2__O__O__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equalsNumObject__Ljava_lang_Number__O__Z", "equalsCharObject__Ljava_lang_Character__O__Z"],
+        "java_lang_Object": ["equals__O__Z"]
+      },
+      "accessedClassData": ["java_lang_Number", "java_lang_Character"]
+    },
+    "equalsNumObject__Ljava_lang_Number__O__Z": {
+      "calledMethods": {
+        "java_lang_Number": ["equals__O__Z"],
+        "scala_runtime_BoxesRunTime$": ["equalsNumChar__p1__Ljava_lang_Number__Ljava_lang_Character__Z", "equalsNumNum__Ljava_lang_Number__Ljava_lang_Number__Z"]
+      },
+      "accessedClassData": ["java_lang_Number", "java_lang_Character"]
+    },
+    "typeCode__p1__O__I": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$Codes$": ["CHAR__I", "SHORT__I", "INT__I", "BYTE__I", "LONG__I", "OTHER__I", "DOUBLE__I", "FLOAT__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxesRunTime$Codes"],
+      "accessedClassData": ["java_lang_Float", "java_lang_Byte", "java_lang_Integer", "java_lang_Long", "java_lang_Character", "java_lang_Double", "java_lang_Short"]
+    },
+    "eqTypeCode__p1__Ljava_lang_Number__I": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$Codes$": ["INT__I", "LONG__I", "OTHER__I", "DOUBLE__I", "FLOAT__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxesRunTime$Codes"],
+      "accessedClassData": ["java_lang_Float", "java_lang_Byte", "java_lang_Integer", "java_lang_Long", "java_lang_Double", "java_lang_Short"]
+    },
+    "equalsNumNum__Ljava_lang_Number__Ljava_lang_Number__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "java_lang_Number": ["equals__O__Z", "floatValue__F", "doubleValue__D", "intValue__I", "longValue__J"],
+        "scala_runtime_BoxesRunTime$Codes$": ["INT__I", "LONG__I", "FLOAT__I", "DOUBLE__I"],
+        "scala_runtime_BoxesRunTime$": ["eqTypeCode__p1__Ljava_lang_Number__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxesRunTime$Codes"],
+      "accessedClassData": ["scala_math_ScalaNumber"]
+    },
+    "equalsCharObject__Ljava_lang_Character__O__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equalsNumChar__p1__Ljava_lang_Number__Ljava_lang_Character__Z"],
+        "java_lang_Character": ["equals__O__Z", "charValue__C"]
+      },
+      "accessedClassData": ["java_lang_Number", "java_lang_Character"]
+    },
+    "equalsNumChar__p1__Ljava_lang_Number__Ljava_lang_Character__Z": {
+      "calledMethods": {
+        "java_lang_Character": ["charValue__C"],
+        "scala_runtime_BoxesRunTime$": ["eqTypeCode__p1__Ljava_lang_Number__I"],
+        "java_lang_Number": ["equals__O__Z", "floatValue__F", "doubleValue__D", "intValue__I", "longValue__J"],
+        "scala_runtime_BoxesRunTime$Codes$": ["INT__I", "LONG__I", "FLOAT__I", "DOUBLE__I"],
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["fromChar__C__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "scala_runtime_BoxesRunTime$Codes"]
+    },
+    "hashFromLong__Ljava_lang_Long__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "java_lang_Long": ["hashCode__I", "longValue__J", "intValue__I"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "hashFromDouble__Ljava_lang_Double__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D"],
+        "java_lang_Long": ["hashCode__I"],
+        "java_lang_Double": ["hashCode__I", "intValue__I", "doubleValue__D", "longValue__J"],
+        "java_lang_Long$": ["valueOf__J__Ljava_lang_Long"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "hashFromFloat__Ljava_lang_Float__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D"],
+        "java_lang_Long": ["hashCode__I"],
+        "java_lang_Long$": ["valueOf__J__Ljava_lang_Long"],
+        "java_lang_Float": ["hashCode__I", "intValue__I", "longValue__J", "floatValue__F"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "hashFromNumber__Ljava_lang_Number__I": {
+      "calledMethods": {
+        "java_lang_Number": ["hashCode__I"],
+        "scala_runtime_BoxesRunTime$": ["hashFromLong__Ljava_lang_Long__I", "hashFromDouble__Ljava_lang_Double__I", "hashFromFloat__Ljava_lang_Float__I"]
+      },
+      "accessedClassData": ["java_lang_Float", "java_lang_Long", "java_lang_Double"]
+    },
+    "hashFromObject__O__I": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["hashFromNumber__Ljava_lang_Number__I"],
+        "java_lang_Object": ["hashCode__I"]
+      },
+      "accessedClassData": ["java_lang_Number"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "hashFromObject__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["hashFromObject__O__I"]
+      }
+    },
+    "hashFromNumber__Ljava_lang_Number__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["hashFromNumber__Ljava_lang_Number__I"]
+      }
+    },
+    "hashFromFloat__Ljava_lang_Float__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["hashFromFloat__Ljava_lang_Float__I"]
+      }
+    },
+    "hashFromDouble__Ljava_lang_Double__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["hashFromDouble__Ljava_lang_Double__I"]
+      }
+    },
+    "hashFromLong__Ljava_lang_Long__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["hashFromLong__Ljava_lang_Long__I"]
+      }
+    },
+    "equalsCharObject__Ljava_lang_Character__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equalsCharObject__Ljava_lang_Character__O__Z"]
+      }
+    },
+    "equalsNumNum__Ljava_lang_Number__Ljava_lang_Number__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equalsNumNum__Ljava_lang_Number__Ljava_lang_Number__Z"]
+      }
+    },
+    "equalsNumObject__Ljava_lang_Number__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equalsNumObject__Ljava_lang_Number__O__Z"]
+      }
+    },
+    "equals2__O__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equals2__O__O__Z"]
+      }
+    },
+    "equals__O__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["equals__O__O__Z"]
+      }
+    },
+    "unboxToDouble__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["unboxToDouble__O__D"]
+      }
+    },
+    "unboxToFloat__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["unboxToFloat__O__F"]
+      }
+    },
+    "unboxToLong__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["unboxToLong__O__J"]
+      }
+    },
+    "unboxToInt__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["unboxToInt__O__I"]
+      }
+    },
+    "unboxToShort__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["unboxToShort__O__S"]
+      }
+    },
+    "unboxToByte__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["unboxToByte__O__B"]
+      }
+    },
+    "unboxToChar__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["unboxToChar__O__C"]
+      }
+    },
+    "unboxToBoolean__O__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["unboxToBoolean__O__Z"]
+      }
+    },
+    "boxToDouble__D__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["boxToDouble__D__Ljava_lang_Double"]
+      }
+    },
+    "boxToFloat__F__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["boxToFloat__F__Ljava_lang_Float"]
+      }
+    },
+    "boxToLong__J__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["boxToLong__J__Ljava_lang_Long"]
+      }
+    },
+    "boxToInteger__I__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["boxToInteger__I__Ljava_lang_Integer"]
+      }
+    },
+    "boxToShort__S__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["boxToShort__S__Ljava_lang_Short"]
+      }
+    },
+    "boxToByte__B__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["boxToByte__B__Ljava_lang_Byte"]
+      }
+    },
+    "boxToCharacter__C__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["boxToCharacter__C__Ljava_lang_Character"]
+      }
+    },
+    "boxToBoolean__Z__": {
+      "calledMethods": {
+        "scala_runtime_BoxesRunTime$": ["boxToBoolean__Z__Ljava_lang_Boolean"]
+      }
+    }
+  }
+}

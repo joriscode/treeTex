@@ -1,0 +1,40 @@
+{
+  "name": "scala.collection.mutable.PriorityQueue$$anon$3",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_PriorityQueue$$anon$3",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_mutable_PriorityQueue$$anon$3", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "i__p2__I": {},
+    "i$und$eq__p2__I__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueue$$anon$3": ["i__p2__I"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueue$$anon$3": ["i__p2__I", "i$und$eq__p2__I__V"],
+        "scala_collection_mutable_PriorityQueue": ["scala$collection$mutable$PriorityQueue$$resarr__Lscala_collection_mutable_PriorityQueue$ResizableArrayAccess", "scala$collection$mutable$PriorityQueue$$toA__O__O"],
+        "scala_collection_mutable_PriorityQueue$ResizableArrayAccess": ["p$undarray__AO"]
+      }
+    },
+    "init___Lscala_collection_mutable_PriorityQueue": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_mutable_PriorityQueue": ["scala$collection$mutable$PriorityQueue$$resarr__Lscala_collection_mutable_PriorityQueue$ResizableArrayAccess"],
+        "scala_collection_mutable_PriorityQueue$ResizableArrayAccess": ["p$undsize0__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

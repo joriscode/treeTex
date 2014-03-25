@@ -1,0 +1,76 @@
+{
+  "name": "scala.Option$WithFilter",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Option$WithFilter",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Option$WithFilter", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "map__Lscala_Function1__Lscala_Option": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["scala$Option$WithFilter$$$outer__Lscala_Option"],
+        "scala_Option": ["filter__Lscala_Function1__Lscala_Option", "map__Lscala_Function1__Lscala_Option"]
+      }
+    },
+    "flatMap__Lscala_Function1__Lscala_Option": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["scala$Option$WithFilter$$$outer__Lscala_Option"],
+        "scala_Option": ["filter__Lscala_Function1__Lscala_Option", "flatMap__Lscala_Function1__Lscala_Option"]
+      }
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["scala$Option$WithFilter$$$outer__Lscala_Option"],
+        "scala_Option": ["filter__Lscala_Function1__Lscala_Option", "foreach__Lscala_Function1__V"]
+      }
+    },
+    "withFilter__Lscala_Function1__Lscala_Option$WithFilter": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["init___Lscala_Option__Lscala_Function1", "scala$Option$WithFilter$$$outer__Lscala_Option"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_Option$WithFilter"]
+    },
+    "scala$Option$WithFilter$$$outer__Lscala_Option": {},
+    "init___Lscala_Option__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$Option$WithFilter$$$outer__": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["scala$Option$WithFilter$$$outer__Lscala_Option"]
+      }
+    },
+    "withFilter__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["withFilter__Lscala_Function1__Lscala_Option$WithFilter"]
+      }
+    },
+    "foreach__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["foreach__Lscala_Function1__V"]
+      }
+    },
+    "flatMap__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["flatMap__Lscala_Function1__Lscala_Option"]
+      }
+    },
+    "map__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["map__Lscala_Function1__Lscala_Option"]
+      }
+    }
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "name": "scala.collection.convert.Wrappers$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Wrappers$", "scala_Serializable", "java_io_Serializable", "scala_collection_convert_Wrappers", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "IteratorWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$IteratorWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$IteratorWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$IteratorWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "IteratorWrapper__Lscala_collection_convert_Wrappers$IteratorWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["IteratorWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$IteratorWrapper$"]
+      }
+    },
+    "JIteratorWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JIteratorWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$JIteratorWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JIteratorWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JIteratorWrapper__Lscala_collection_convert_Wrappers$JIteratorWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JIteratorWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JIteratorWrapper$"]
+      }
+    },
+    "JEnumerationWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JEnumerationWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JEnumerationWrapper$": ["init___Lscala_collection_convert_Wrappers"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JEnumerationWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JEnumerationWrapper__Lscala_collection_convert_Wrappers$JEnumerationWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JEnumerationWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JEnumerationWrapper$"]
+      }
+    },
+    "IterableWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$IterableWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$IterableWrapper$": ["init___Lscala_collection_convert_Wrappers"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$IterableWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "IterableWrapper__Lscala_collection_convert_Wrappers$IterableWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["IterableWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$IterableWrapper$"]
+      }
+    },
+    "JIterableWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JIterableWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$JIterableWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JIterableWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JIterableWrapper__Lscala_collection_convert_Wrappers$JIterableWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JIterableWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JIterableWrapper$"]
+      }
+    },
+    "JCollectionWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JCollectionWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$JCollectionWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JCollectionWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JCollectionWrapper__Lscala_collection_convert_Wrappers$JCollectionWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JCollectionWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JCollectionWrapper$"]
+      }
+    },
+    "SeqWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$SeqWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$SeqWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$SeqWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "SeqWrapper__Lscala_collection_convert_Wrappers$SeqWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["SeqWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$SeqWrapper$"]
+      }
+    },
+    "MutableSeqWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$MutableSeqWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$MutableSeqWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$MutableSeqWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "MutableSeqWrapper__Lscala_collection_convert_Wrappers$MutableSeqWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["MutableSeqWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$MutableSeqWrapper$"]
+      }
+    },
+    "MutableBufferWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$MutableBufferWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$MutableBufferWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$MutableBufferWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "MutableBufferWrapper__Lscala_collection_convert_Wrappers$MutableBufferWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["MutableBufferWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$MutableBufferWrapper$"]
+      }
+    },
+    "JListWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JListWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$JListWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JListWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JListWrapper__Lscala_collection_convert_Wrappers$JListWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JListWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JListWrapper$"]
+      }
+    },
+    "MutableSetWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$MutableSetWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$MutableSetWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$MutableSetWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "MutableSetWrapper__Lscala_collection_convert_Wrappers$MutableSetWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["MutableSetWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$MutableSetWrapper$"]
+      }
+    },
+    "JSetWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JSetWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JSetWrapper$": ["init___Lscala_collection_convert_Wrappers"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JSetWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JSetWrapper__Lscala_collection_convert_Wrappers$JSetWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JSetWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JSetWrapper$"]
+      }
+    },
+    "MutableMapWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$MutableMapWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$MutableMapWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$MutableMapWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "MutableMapWrapper__Lscala_collection_convert_Wrappers$MutableMapWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["MutableMapWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$MutableMapWrapper$"]
+      }
+    },
+    "JMapWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JMapWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapper$": ["init___Lscala_collection_convert_Wrappers"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JMapWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JMapWrapper__Lscala_collection_convert_Wrappers$JMapWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JMapWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JMapWrapper$"]
+      }
+    },
+    "JConcurrentMapDeprecatedWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JConcurrentMapDeprecatedWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$JConcurrentMapDeprecatedWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JConcurrentMapDeprecatedWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JConcurrentMapDeprecatedWrapper__Lscala_collection_convert_Wrappers$JConcurrentMapDeprecatedWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JConcurrentMapDeprecatedWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JConcurrentMapDeprecatedWrapper$"]
+      }
+    },
+    "JConcurrentMapWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JConcurrentMapWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$JConcurrentMapWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JConcurrentMapWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JConcurrentMapWrapper__Lscala_collection_convert_Wrappers$JConcurrentMapWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JConcurrentMapWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JConcurrentMapWrapper$"]
+      }
+    },
+    "DictionaryWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$DictionaryWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$DictionaryWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$DictionaryWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "DictionaryWrapper__Lscala_collection_convert_Wrappers$DictionaryWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["DictionaryWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$DictionaryWrapper$"]
+      }
+    },
+    "JDictionaryWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JDictionaryWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$JDictionaryWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JDictionaryWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JDictionaryWrapper__Lscala_collection_convert_Wrappers$JDictionaryWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JDictionaryWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JDictionaryWrapper$"]
+      }
+    },
+    "JPropertiesWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JPropertiesWrapper$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_convert_Wrappers$JPropertiesWrapper$": ["init___Lscala_collection_convert_Wrappers"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JPropertiesWrapper$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "JPropertiesWrapper__Lscala_collection_convert_Wrappers$JPropertiesWrapper$": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JPropertiesWrapper$lzycompute__p1__Lscala_collection_convert_Wrappers$JPropertiesWrapper$"]
+      }
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_convert_Wrappers"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$class": ["scala_collection_convert_Wrappers$class__$init$__Lscala_collection_convert_Wrappers__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "JPropertiesWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JPropertiesWrapper__Lscala_collection_convert_Wrappers$JPropertiesWrapper$"]
+      }
+    },
+    "JDictionaryWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JDictionaryWrapper__Lscala_collection_convert_Wrappers$JDictionaryWrapper$"]
+      }
+    },
+    "DictionaryWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["DictionaryWrapper__Lscala_collection_convert_Wrappers$DictionaryWrapper$"]
+      }
+    },
+    "JConcurrentMapWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JConcurrentMapWrapper__Lscala_collection_convert_Wrappers$JConcurrentMapWrapper$"]
+      }
+    },
+    "JConcurrentMapDeprecatedWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JConcurrentMapDeprecatedWrapper__Lscala_collection_convert_Wrappers$JConcurrentMapDeprecatedWrapper$"]
+      }
+    },
+    "JMapWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JMapWrapper__Lscala_collection_convert_Wrappers$JMapWrapper$"]
+      }
+    },
+    "MutableMapWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["MutableMapWrapper__Lscala_collection_convert_Wrappers$MutableMapWrapper$"]
+      }
+    },
+    "JSetWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JSetWrapper__Lscala_collection_convert_Wrappers$JSetWrapper$"]
+      }
+    },
+    "MutableSetWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["MutableSetWrapper__Lscala_collection_convert_Wrappers$MutableSetWrapper$"]
+      }
+    },
+    "JListWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JListWrapper__Lscala_collection_convert_Wrappers$JListWrapper$"]
+      }
+    },
+    "MutableBufferWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["MutableBufferWrapper__Lscala_collection_convert_Wrappers$MutableBufferWrapper$"]
+      }
+    },
+    "MutableSeqWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["MutableSeqWrapper__Lscala_collection_convert_Wrappers$MutableSeqWrapper$"]
+      }
+    },
+    "SeqWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["SeqWrapper__Lscala_collection_convert_Wrappers$SeqWrapper$"]
+      }
+    },
+    "JCollectionWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JCollectionWrapper__Lscala_collection_convert_Wrappers$JCollectionWrapper$"]
+      }
+    },
+    "JIterableWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JIterableWrapper__Lscala_collection_convert_Wrappers$JIterableWrapper$"]
+      }
+    },
+    "IterableWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["IterableWrapper__Lscala_collection_convert_Wrappers$IterableWrapper$"]
+      }
+    },
+    "JEnumerationWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JEnumerationWrapper__Lscala_collection_convert_Wrappers$JEnumerationWrapper$"]
+      }
+    },
+    "JIteratorWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["JIteratorWrapper__Lscala_collection_convert_Wrappers$JIteratorWrapper$"]
+      }
+    },
+    "IteratorWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$": ["IteratorWrapper__Lscala_collection_convert_Wrappers$IteratorWrapper$"]
+      }
+    }
+  }
+}

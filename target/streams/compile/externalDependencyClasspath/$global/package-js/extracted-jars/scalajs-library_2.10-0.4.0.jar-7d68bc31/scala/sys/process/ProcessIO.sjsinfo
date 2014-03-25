@@ -1,0 +1,93 @@
+{
+  "name": "scala.sys.process.ProcessIO",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessIO",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_ProcessIO", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "writeInput__Lscala_Function1": {},
+    "processOutput__Lscala_Function1": {},
+    "processError__Lscala_Function1": {},
+    "daemonizeThreads__Z": {},
+    "withInput__Lscala_Function1__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["processOutput__Lscala_Function1", "daemonizeThreads__Z", "processError__Lscala_Function1", "init___Lscala_Function1__Lscala_Function1__Lscala_Function1__Z"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessIO"]
+    },
+    "withOutput__Lscala_Function1__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["daemonizeThreads__Z", "writeInput__Lscala_Function1", "processError__Lscala_Function1", "init___Lscala_Function1__Lscala_Function1__Lscala_Function1__Z"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessIO"]
+    },
+    "withError__Lscala_Function1__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["processOutput__Lscala_Function1", "daemonizeThreads__Z", "writeInput__Lscala_Function1", "init___Lscala_Function1__Lscala_Function1__Lscala_Function1__Z"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessIO"]
+    },
+    "daemonized__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["processOutput__Lscala_Function1", "writeInput__Lscala_Function1", "processError__Lscala_Function1", "init___Lscala_Function1__Lscala_Function1__Lscala_Function1__Z"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessIO"]
+    },
+    "init___Lscala_Function1__Lscala_Function1__Lscala_Function1__Z": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "init___Lscala_Function1__Lscala_Function1__Lscala_Function1": {
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessIO": ["init___Lscala_Function1__Lscala_Function1__Lscala_Function1__Z"]
+      }
+    },
+    "daemonized__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["daemonized__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "withError__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["withError__Lscala_Function1__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "withOutput__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["withOutput__Lscala_Function1__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "withInput__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["withInput__Lscala_Function1__Lscala_sys_process_ProcessIO"]
+      }
+    },
+    "daemonizeThreads__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["daemonizeThreads__Z"]
+      }
+    },
+    "processError__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["processError__Lscala_Function1"]
+      }
+    },
+    "processOutput__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["processOutput__Lscala_Function1"]
+      }
+    },
+    "writeInput__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["writeInput__Lscala_Function1"]
+      }
+    }
+  }
+}

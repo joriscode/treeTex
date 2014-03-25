@@ -1,0 +1,42 @@
+{
+  "name": "scala.collection.GenTraversableViewLike$FlatMapped$$anonfun$foreach$3",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenTraversableViewLike$FlatMapped$$anonfun$foreach$3",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_collection_GenTraversableViewLike$FlatMapped$$anonfun$foreach$3", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__O__V": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_GenTraversableOnce": ["seq__Lscala_collection_TraversableOnce"],
+        "scala_collection_GenTraversableViewLike$FlatMapped": ["mapping__Lscala_Function1"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_GenTraversableOnce"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_GenTraversableViewLike$FlatMapped$$anonfun$foreach$3": ["apply__O__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "init___Lscala_collection_GenTraversableViewLike$FlatMapped__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "scala.collection.IndexedSeqLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_IndexedSeqLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_IndexedSeqLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_IndexedSeqLike$class__hashCode__Lscala_collection_IndexedSeqLike__I": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike": ["seq__Lscala_collection_IndexedSeq"],
+        "scala_util_hashing_MurmurHash3$": ["seqHash__Lscala_collection_Seq__I"]
+      },
+      "accessedModules": ["scala_util_hashing_MurmurHash3"]
+    },
+    "scala_collection_IndexedSeqLike$class__thisCollection__Lscala_collection_IndexedSeqLike__Lscala_collection_IndexedSeq": {
+      "accessedClassData": ["scala_collection_IndexedSeq"]
+    },
+    "scala_collection_IndexedSeqLike$class__toCollection__Lscala_collection_IndexedSeqLike__O__Lscala_collection_IndexedSeq": {
+      "accessedClassData": ["scala_collection_IndexedSeq"]
+    },
+    "scala_collection_IndexedSeqLike$class__iterator__Lscala_collection_IndexedSeqLike__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike": ["length__I"],
+        "scala_collection_IndexedSeqLike$Elements": ["init___Lscala_collection_IndexedSeqLike__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_IndexedSeqLike$Elements"]
+    },
+    "scala_collection_IndexedSeqLike$class__toBuffer__Lscala_collection_IndexedSeqLike__Lscala_collection_mutable_Buffer": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike": ["size__I", "copyToBuffer__Lscala_collection_mutable_Buffer__V"],
+        "scala_collection_mutable_ArrayBuffer": ["init___I"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuffer"]
+    },
+    "scala_collection_IndexedSeqLike$class__$init$__Lscala_collection_IndexedSeqLike__V": {}
+  }
+}

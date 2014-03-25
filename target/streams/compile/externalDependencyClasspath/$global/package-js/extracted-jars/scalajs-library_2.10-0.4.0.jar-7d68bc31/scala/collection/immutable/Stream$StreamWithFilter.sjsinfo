@@ -1,0 +1,113 @@
+{
+  "name": "scala.collection.immutable.Stream$StreamWithFilter",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Stream$StreamWithFilter",
+  "superClass": "scala_collection_TraversableLike$WithFilter",
+  "ancestors": ["scala_collection_immutable_Stream$StreamWithFilter", "scala_collection_TraversableLike$WithFilter", "scala_collection_generic_FilterMonadic", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream": ["scala$collection$immutable$Stream$$asThat__O__O", "scala$collection$immutable$Stream$$isStreamBuilder__Lscala_collection_generic_CanBuildFrom__Z"],
+        "scala_collection_immutable_Stream$StreamWithFilter": ["scala$collection$immutable$Stream$StreamWithFilter$$$outer__Lscala_collection_immutable_Stream", "scala$collection$immutable$Stream$StreamWithFilter$$tailMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__Lscala_collection_immutable_Stream"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_TraversableLike$WithFilter": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"]
+      }
+    },
+    "flatMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream": ["scala$collection$immutable$Stream$$asThat__O__O", "scala$collection$immutable$Stream$$isStreamBuilder__Lscala_collection_generic_CanBuildFrom__Z"],
+        "scala_collection_immutable_Stream$StreamWithFilter": ["scala$collection$immutable$Stream$StreamWithFilter$$$outer__Lscala_collection_immutable_Stream", "scala$collection$immutable$Stream$StreamWithFilter$$tailFlatMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__Lscala_collection_immutable_Stream"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_TraversableLike$WithFilter": ["flatMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"]
+      }
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_immutable_Stream$StreamWithFilter": ["scala$collection$immutable$Stream$StreamWithFilter$$$outer__Lscala_collection_immutable_Stream"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Stream": ["foreach__Lscala_Function1__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "withFilter__Lscala_Function1__Lscala_collection_immutable_Stream$StreamWithFilter": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$StreamWithFilter": ["init___Lscala_collection_immutable_Stream__Lscala_Function1", "scala$collection$immutable$Stream$StreamWithFilter$$$outer__Lscala_collection_immutable_Stream"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_collection_immutable_Stream$StreamWithFilter"]
+    },
+    "scala$collection$immutable$Stream$StreamWithFilter$$$outer__Lscala_collection_immutable_Stream": {
+      "accessedClassData": ["scala_collection_immutable_Stream"]
+    },
+    "withFilter__Lscala_Function1__Lscala_collection_generic_FilterMonadic": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$StreamWithFilter": ["withFilter__Lscala_Function1__Lscala_collection_immutable_Stream$StreamWithFilter"]
+      }
+    },
+    "withFilter__Lscala_Function1__Lscala_collection_TraversableLike$WithFilter": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$StreamWithFilter": ["withFilter__Lscala_Function1__Lscala_collection_immutable_Stream$StreamWithFilter"]
+      }
+    },
+    "scala$collection$immutable$Stream$StreamWithFilter$$tailMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_immutable_Stream$StreamWithFilter": ["scala$collection$immutable$Stream$StreamWithFilter$$tailMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__Lscala_collection_immutable_Stream"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "java_lang_RuntimeException": ["init___"],
+        "scala_collection_immutable_Stream$cons$": ["apply__O__Lscala_Function0__Lscala_collection_immutable_Stream$Cons"],
+        "scala_collection_immutable_Stream": ["isEmpty__Z", "tail__O", "head__O"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "java_lang_RuntimeException", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_collection_immutable_Stream$Empty", "scala_collection_immutable_Stream$cons"],
+      "accessedClassData": ["scala_collection_immutable_Stream"]
+    },
+    "scala$collection$immutable$Stream$StreamWithFilter$$tailFlatMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_immutable_Stream$StreamWithFilter": ["scala$collection$immutable$Stream$StreamWithFilter$$tailFlatMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__Lscala_collection_immutable_Stream"],
+        "scala_collection_GenTraversableOnce": ["toStream__Lscala_collection_immutable_Stream"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "java_lang_RuntimeException": ["init___"],
+        "scala_collection_immutable_Stream": ["isEmpty__Z", "tail__O", "append__Lscala_Function0__Lscala_collection_immutable_Stream", "head__O"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "java_lang_RuntimeException", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_collection_immutable_Stream$Empty"],
+      "accessedClassData": ["scala_collection_GenTraversableOnce", "scala_collection_immutable_Stream"]
+    },
+    "init___Lscala_collection_immutable_Stream__Lscala_Function1": {
+      "calledMethodsStatic": {
+        "scala_collection_TraversableLike$WithFilter": ["init___Lscala_collection_TraversableLike__Lscala_Function1"]
+      }
+    },
+    "scala$collection$immutable$Stream$StreamWithFilter$$tailFlatMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$StreamWithFilter": ["scala$collection$immutable$Stream$StreamWithFilter$$tailFlatMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "scala$collection$immutable$Stream$StreamWithFilter$$tailMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$StreamWithFilter": ["scala$collection$immutable$Stream$StreamWithFilter$$tailMap$1__Lscala_collection_immutable_Stream__Lscala_Function1__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "scala$collection$immutable$Stream$StreamWithFilter$$$outer__": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$StreamWithFilter": ["scala$collection$immutable$Stream$StreamWithFilter$$$outer__Lscala_collection_immutable_Stream"]
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "scala.collection.generic.SliceInterval",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_SliceInterval",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_SliceInterval", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "from__I": {},
+    "until__I": {},
+    "width__I": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["from__I", "until__I"]
+      }
+    },
+    "recalculate__I__I__Lscala_collection_generic_SliceInterval": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_math_package$": ["min__I__I__I"],
+        "scala_collection_generic_SliceInterval": ["from__I", "width__I", "init___I__I"],
+        "scala_runtime_RichInt$": ["max$extension__I__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_SliceInterval"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_math_package", "scala_Predef"]
+    },
+    "recalculate__Lscala_collection_generic_SliceInterval__Lscala_collection_generic_SliceInterval": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["from__I", "until__I", "recalculate__I__I__Lscala_collection_generic_SliceInterval"]
+      }
+    },
+    "init___I__I": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "recalculate__Lscala_collection_generic_SliceInterval__": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["recalculate__Lscala_collection_generic_SliceInterval__Lscala_collection_generic_SliceInterval"]
+      }
+    },
+    "recalculate__I__I__": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["recalculate__I__I__Lscala_collection_generic_SliceInterval"]
+      }
+    },
+    "width__": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["width__I"]
+      }
+    },
+    "until__": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["until__I"]
+      }
+    },
+    "from__": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval": ["from__I"]
+      }
+    }
+  }
+}

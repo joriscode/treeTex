@@ -1,0 +1,46 @@
+{
+  "name": "scala.sys.ShutdownHookThread$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_ShutdownHookThread$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_ShutdownHookThread$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hookNameCount__p1__I": {},
+    "hookNameCount$und$eq__p1__I__V": {},
+    "scala$sys$ShutdownHookThread$$hookName__T": {
+      "calledMethods": {
+        "scala_sys_ShutdownHookThread$": ["hookNameCount__p1__I", "hookNameCount$und$eq__p1__I__V"]
+      }
+    },
+    "apply__Lscala_Function0__Lscala_sys_ShutdownHookThread": {
+      "calledMethods": {
+        "java_lang_Runtime": ["addShutdownHook__Ljava_lang_Thread__V"],
+        "scala_sys_package$": ["runtime__Ljava_lang_Runtime"],
+        "scala_sys_ShutdownHookThread$$anon$1": ["init___Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_ShutdownHookThread$$anon$1"],
+      "accessedModules": ["scala_sys_package"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_ShutdownHookThread$": ["apply__Lscala_Function0__Lscala_sys_ShutdownHookThread"]
+      }
+    },
+    "scala$sys$ShutdownHookThread$$hookName__": {
+      "calledMethods": {
+        "scala_sys_ShutdownHookThread$": ["scala$sys$ShutdownHookThread$$hookName__T"]
+      }
+    }
+  }
+}

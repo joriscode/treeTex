@@ -1,0 +1,232 @@
+{
+  "name": "scala.util.matching.Regex",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_matching_Regex",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_matching_Regex", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pattern__Ljava_util_regex_Pattern": {},
+    "unapplySeq__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["matched__T"],
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["to$extension0__I__I__Lscala_collection_immutable_Range$Inclusive"],
+        "scala_util_matching_Regex": ["unapplySeq__O__Lscala_Option", "pattern__Ljava_util_regex_Pattern", "runMatcher__Ljava_util_regex_Matcher__Z"],
+        "java_util_regex_Matcher": ["groupCount__I", "group__I__T"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"],
+        "scala_collection_immutable_Range$Inclusive": ["toList__Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_Some"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_collection_immutable_List", "scala_Predef", "scala_None"],
+      "accessedClassData": ["java_lang_CharSequence", "scala_util_matching_Regex$Match"]
+    },
+    "runMatcher__Ljava_util_regex_Matcher__Z": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["matches__Z"]
+      }
+    },
+    "findAllIn__Ljava_lang_CharSequence__Lscala_util_matching_Regex$MatchIterator": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchIterator": ["init___Ljava_lang_CharSequence__Lscala_util_matching_Regex__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_util_matching_Regex$MatchIterator"]
+    },
+    "findAllMatchIn__Ljava_lang_CharSequence__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["findAllIn__Ljava_lang_CharSequence__Lscala_util_matching_Regex$MatchIterator"],
+        "scala_util_matching_Regex$$anon$4": ["init___Lscala_util_matching_Regex__Lscala_util_matching_Regex$MatchIterator"]
+      },
+      "instantiatedClasses": ["scala_util_matching_Regex$$anon$4"]
+    },
+    "findFirstIn__Ljava_lang_CharSequence__Lscala_Option": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["find__Z", "group__T"],
+        "scala_util_matching_Regex": ["pattern__Ljava_util_regex_Pattern"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "findFirstMatchIn__Ljava_lang_CharSequence__Lscala_Option": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["init___Ljava_lang_CharSequence__Ljava_util_regex_Matcher__Lscala_collection_Seq"],
+        "scala_util_matching_Regex": ["pattern__Ljava_util_regex_Pattern"],
+        "java_util_regex_Matcher": ["find__Z"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some", "scala_util_matching_Regex$Match"],
+      "accessedModules": ["scala_None"]
+    },
+    "findPrefixOf__Ljava_lang_CharSequence__Lscala_Option": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["lookingAt__Z", "group__T"],
+        "scala_util_matching_Regex": ["pattern__Ljava_util_regex_Pattern"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "findPrefixMatchOf__Ljava_lang_CharSequence__Lscala_Option": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["init___Ljava_lang_CharSequence__Ljava_util_regex_Matcher__Lscala_collection_Seq"],
+        "scala_util_matching_Regex": ["pattern__Ljava_util_regex_Pattern"],
+        "java_util_regex_Matcher": ["lookingAt__Z"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some", "scala_util_matching_Regex$Match"],
+      "accessedModules": ["scala_None"]
+    },
+    "replaceAllIn__Ljava_lang_CharSequence__T__T": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["replaceAll__T__T"],
+        "scala_util_matching_Regex": ["pattern__Ljava_util_regex_Pattern"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"]
+      }
+    },
+    "replaceAllIn__Ljava_lang_CharSequence__Lscala_Function1__T": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchIterator": ["init___Ljava_lang_CharSequence__Lscala_util_matching_Regex__Lscala_collection_Seq", "replacementData__Lscala_collection_AbstractIterator"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_AbstractIterator": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_matching_Regex$Replacement": ["replaced__T", "replace__T__Ljava_util_regex_Matcher"]
+      },
+      "instantiatedClasses": ["scala_util_matching_Regex$MatchIterator", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_util_matching_Regex$Replacement", "java_lang_String"]
+    },
+    "replaceSomeIn__Ljava_lang_CharSequence__Lscala_Function1__T": {
+      "calledMethods": {
+        "scala_collection_AbstractIterator": ["foreach__Lscala_Function1__V"],
+        "scala_util_matching_Regex$MatchIterator": ["init___Ljava_lang_CharSequence__Lscala_util_matching_Regex__Lscala_collection_Seq", "replacementData__Lscala_collection_AbstractIterator"],
+        "scala_util_matching_Regex$$anonfun$replaceSomeIn$1": ["init___Lscala_util_matching_Regex__Lscala_Function1__Lscala_collection_AbstractIterator"],
+        "scala_util_matching_Regex$Replacement": ["replaced__T"]
+      },
+      "instantiatedClasses": ["scala_util_matching_Regex$MatchIterator", "scala_util_matching_Regex$$anonfun$replaceSomeIn$1"],
+      "accessedClassData": ["scala_util_matching_Regex$Replacement"]
+    },
+    "replaceFirstIn__Ljava_lang_CharSequence__T__T": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["replaceFirst__T__T"],
+        "scala_util_matching_Regex": ["pattern__Ljava_util_regex_Pattern"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"]
+      }
+    },
+    "split__Ljava_lang_CharSequence__AT": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["pattern__Ljava_util_regex_Pattern"],
+        "java_util_regex_Pattern": ["split__Ljava_lang_CharSequence__AT"]
+      }
+    },
+    "unanchored__Lscala_util_matching_UnanchoredRegex": {
+      "calledMethods": {
+        "scala_util_matching_Regex$$anon$2": ["init___Lscala_util_matching_Regex"]
+      },
+      "instantiatedClasses": ["scala_util_matching_Regex$$anon$2"]
+    },
+    "anchored__Lscala_util_matching_Regex": {},
+    "toString__T": {},
+    "init___T__Lscala_collection_Seq": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["compile__T__Ljava_util_regex_Pattern"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["java_util_regex_Pattern"]
+    },
+    "anchored__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["anchored__Lscala_util_matching_Regex"]
+      }
+    },
+    "unanchored__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["unanchored__Lscala_util_matching_UnanchoredRegex"]
+      }
+    },
+    "split__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["split__Ljava_lang_CharSequence__AT"]
+      }
+    },
+    "replaceFirstIn__Ljava_lang_CharSequence__T__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["replaceFirstIn__Ljava_lang_CharSequence__T__T"]
+      }
+    },
+    "replaceSomeIn__Ljava_lang_CharSequence__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["replaceSomeIn__Ljava_lang_CharSequence__Lscala_Function1__T"]
+      }
+    },
+    "replaceAllIn__Ljava_lang_CharSequence__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["replaceAllIn__Ljava_lang_CharSequence__Lscala_Function1__T"]
+      }
+    },
+    "replaceAllIn__Ljava_lang_CharSequence__T__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["replaceAllIn__Ljava_lang_CharSequence__T__T"]
+      }
+    },
+    "findPrefixMatchOf__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["findPrefixMatchOf__Ljava_lang_CharSequence__Lscala_Option"]
+      }
+    },
+    "findPrefixOf__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["findPrefixOf__Ljava_lang_CharSequence__Lscala_Option"]
+      }
+    },
+    "findFirstMatchIn__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["findFirstMatchIn__Ljava_lang_CharSequence__Lscala_Option"]
+      }
+    },
+    "findFirstIn__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["findFirstIn__Ljava_lang_CharSequence__Lscala_Option"]
+      }
+    },
+    "findAllMatchIn__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["findAllMatchIn__Ljava_lang_CharSequence__Lscala_collection_Iterator"]
+      }
+    },
+    "findAllIn__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["findAllIn__Ljava_lang_CharSequence__Lscala_util_matching_Regex$MatchIterator"]
+      }
+    },
+    "runMatcher__Ljava_util_regex_Matcher__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["runMatcher__Ljava_util_regex_Matcher__Z"]
+      }
+    },
+    "unapplySeq__O__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["unapplySeq__O__Lscala_Option"]
+      }
+    },
+    "pattern__": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["pattern__Ljava_util_regex_Pattern"]
+      }
+    }
+  }
+}

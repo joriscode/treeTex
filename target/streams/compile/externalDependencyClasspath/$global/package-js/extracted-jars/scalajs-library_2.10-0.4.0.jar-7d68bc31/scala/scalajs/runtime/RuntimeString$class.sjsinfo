@@ -1,0 +1,126 @@
+{
+  "name": "scala.scalajs.runtime.RuntimeString$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_scalajs_runtime_RuntimeString$class",
+  "superClass": "",
+  "ancestors": ["scala_scalajs_runtime_RuntimeString$class"],
+  "isExported": false,
+  "methods": {
+    "scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C": {},
+    "scala_scalajs_runtime_RuntimeString$class__codePointAt__Lscala_scalajs_runtime_RuntimeString__I__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__compareTo__Lscala_scalajs_runtime_RuntimeString__T__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__compareToIgnoreCase__Lscala_scalajs_runtime_RuntimeString__T__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__equalsIgnoreCase__Lscala_scalajs_runtime_RuntimeString__T__Z": {},
+    "scala_scalajs_runtime_RuntimeString$class__concat__Lscala_scalajs_runtime_RuntimeString__T__T": {},
+    "scala_scalajs_runtime_RuntimeString$class__contains__Lscala_scalajs_runtime_RuntimeString__Ljava_lang_CharSequence__Z": {
+      "calledMethods": {
+        "java_lang_CharSequence": ["toString__T"]
+      }
+    },
+    "scala_scalajs_runtime_RuntimeString$class__endsWith__Lscala_scalajs_runtime_RuntimeString__T__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "scala_scalajs_runtime_RuntimeString$class__getBytes__Lscala_scalajs_runtime_RuntimeString__AB": {
+      "calledMethods": {
+        "scala_Predef$": ["$$qmark$qmark$qmark__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "scala_scalajs_runtime_RuntimeString$class__getBytes__Lscala_scalajs_runtime_RuntimeString__T__AB": {
+      "calledMethods": {
+        "scala_Predef$": ["$$qmark$qmark$qmark__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "scala_scalajs_runtime_RuntimeString$class__getChars__Lscala_scalajs_runtime_RuntimeString__I__I__AC__I__V": {
+      "calledMethods": {
+        "java_lang_StringIndexOutOfBoundsException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_StringIndexOutOfBoundsException"]
+    },
+    "scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__I__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__I__I__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__T__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__T__I__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__intern__Lscala_scalajs_runtime_RuntimeString__T": {},
+    "scala_scalajs_runtime_RuntimeString$class__isEmpty__Lscala_scalajs_runtime_RuntimeString__Z": {},
+    "scala_scalajs_runtime_RuntimeString$class__lastIndexOf__Lscala_scalajs_runtime_RuntimeString__I__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__lastIndexOf__Lscala_scalajs_runtime_RuntimeString__I__I__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__lastIndexOf__Lscala_scalajs_runtime_RuntimeString__T__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__lastIndexOf__Lscala_scalajs_runtime_RuntimeString__T__I__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I": {},
+    "scala_scalajs_runtime_RuntimeString$class__matches__Lscala_scalajs_runtime_RuntimeString__T__Z": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["matches__T__Ljava_lang_CharSequence__Z"]
+      },
+      "accessedModules": ["java_util_regex_Pattern"]
+    },
+    "scala_scalajs_runtime_RuntimeString$class__replace__Lscala_scalajs_runtime_RuntimeString__C__C__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__replace__Lscala_scalajs_runtime_RuntimeString__Ljava_lang_CharSequence__Ljava_lang_CharSequence__T"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "scala_scalajs_runtime_RuntimeString$class__replace__Lscala_scalajs_runtime_RuntimeString__Ljava_lang_CharSequence__Ljava_lang_CharSequence__T": {
+      "calledMethods": {
+        "java_lang_CharSequence": ["toString__T"]
+      }
+    },
+    "scala_scalajs_runtime_RuntimeString$class__replaceAll__Lscala_scalajs_runtime_RuntimeString__T__T__T": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["compile__T__Ljava_util_regex_Pattern"],
+        "java_util_regex_Matcher": ["replaceAll__T__T"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"]
+      },
+      "accessedModules": ["java_util_regex_Pattern"]
+    },
+    "scala_scalajs_runtime_RuntimeString$class__replaceFirst__Lscala_scalajs_runtime_RuntimeString__T__T__T": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["compile__T__Ljava_util_regex_Pattern"],
+        "java_util_regex_Matcher": ["replaceFirst__T__T"],
+        "java_util_regex_Pattern": ["matcher__Ljava_lang_CharSequence__Ljava_util_regex_Matcher"]
+      },
+      "accessedModules": ["java_util_regex_Pattern"]
+    },
+    "scala_scalajs_runtime_RuntimeString$class__split__Lscala_scalajs_runtime_RuntimeString__T__AT": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__split__Lscala_scalajs_runtime_RuntimeString__T__I__AT"]
+      }
+    },
+    "scala_scalajs_runtime_RuntimeString$class__split__Lscala_scalajs_runtime_RuntimeString__T__I__AT": {
+      "calledMethods": {
+        "java_util_regex_Pattern$": ["compile__T__Ljava_util_regex_Pattern"],
+        "java_util_regex_Pattern": ["split__Ljava_lang_CharSequence__I__AT"]
+      },
+      "accessedModules": ["java_util_regex_Pattern"]
+    },
+    "scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__I__Z"]
+      }
+    },
+    "scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__I__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "scala_scalajs_runtime_RuntimeString$class__subSequence__Lscala_scalajs_runtime_RuntimeString__I__I__Ljava_lang_CharSequence": {},
+    "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__T": {},
+    "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T": {},
+    "scala_scalajs_runtime_RuntimeString$class__toCharArray__Lscala_scalajs_runtime_RuntimeString__AC": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C"]
+      }
+    },
+    "scala_scalajs_runtime_RuntimeString$class__toLowerCase__Lscala_scalajs_runtime_RuntimeString__T": {},
+    "scala_scalajs_runtime_RuntimeString$class__toUpperCase__Lscala_scalajs_runtime_RuntimeString__T": {},
+    "scala_scalajs_runtime_RuntimeString$class__trim__Lscala_scalajs_runtime_RuntimeString__T": {},
+    "scala_scalajs_runtime_RuntimeString$class__$init$__Lscala_scalajs_runtime_RuntimeString__V": {}
+  }
+}

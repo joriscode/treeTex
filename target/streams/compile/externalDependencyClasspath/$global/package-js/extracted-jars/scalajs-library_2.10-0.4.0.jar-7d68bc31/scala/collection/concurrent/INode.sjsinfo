@@ -1,0 +1,269 @@
+{
+  "name": "scala.collection.concurrent.INode",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_INode",
+  "superClass": "scala_collection_concurrent_INodeBase",
+  "ancestors": ["scala_collection_concurrent_INode", "scala_collection_concurrent_INodeBase", "scala_collection_concurrent_BasicNode", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "WRITE__Lscala_collection_concurrent_MainNode__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReferenceFieldUpdater": ["set__O__O__V"],
+        "scala_collection_concurrent_INodeBase$": ["updater__Ljava_util_concurrent_atomic_AtomicReferenceFieldUpdater"]
+      },
+      "accessedModules": ["scala_collection_concurrent_INodeBase"]
+    },
+    "CAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Z": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReferenceFieldUpdater": ["compareAndSet__O__O__O__Z"],
+        "scala_collection_concurrent_INodeBase$": ["updater__Ljava_util_concurrent_atomic_AtomicReferenceFieldUpdater"]
+      },
+      "accessedModules": ["scala_collection_concurrent_INodeBase"]
+    },
+    "gcasRead__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"]
+      }
+    },
+    "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["GCAS$undComplete__p3__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"]
+      }
+    },
+    "GCAS$undComplete__p3__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_concurrent_MainNode": ["CAS$undPREV__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Z"],
+        "scala_collection_concurrent_TrieMap": ["readRoot__Z__Lscala_collection_concurrent_INode", "nonReadOnly__Z"],
+        "scala_collection_concurrent_INode": ["CAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Z"],
+        "scala_collection_concurrent_FailedNode": ["init___Lscala_collection_concurrent_MainNode"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_FailedNode", "scala_MatchError"],
+      "accessedClassData": ["scala_collection_concurrent_FailedNode"]
+    },
+    "GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["GCAS$undComplete__p3__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode", "CAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Z"],
+        "scala_collection_concurrent_MainNode": ["WRITE$undPREV__Lscala_collection_concurrent_MainNode__V"]
+      }
+    },
+    "equal__p3__O__O__Lscala_collection_concurrent_TrieMap__Z": {
+      "calledMethods": {
+        "scala_collection_concurrent_TrieMap": ["equality__Lscala_math_Equiv"],
+        "scala_math_Equiv": ["equiv__O__O__Z"]
+      }
+    },
+    "inode__p3__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_INode": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["WRITE__Lscala_collection_concurrent_MainNode__V", "init___Lscala_collection_concurrent_Gen"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_INode"]
+    },
+    "copyToGen__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_INode": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["WRITE__Lscala_collection_concurrent_MainNode__V", "init___Lscala_collection_concurrent_Gen", "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_INode"]
+    },
+    "rec$undinsert__O__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Z": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_concurrent_CNode$": ["dual__Lscala_collection_concurrent_SNode__I__Lscala_collection_concurrent_SNode__I__I__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_MainNode"],
+        "scala_collection_concurrent_CNode": ["renewed__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_CNode", "updatedAt__I__Lscala_collection_concurrent_BasicNode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_CNode", "insertedAt__I__I__Lscala_collection_concurrent_BasicNode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_CNode", "array__ALscala_collection_concurrent_BasicNode", "gen__Lscala_collection_concurrent_Gen", "bitmap__I"],
+        "scala_collection_concurrent_INode": ["equal__p3__O__O__Lscala_collection_concurrent_TrieMap__Z", "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode", "clean__p3__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_TrieMap__I__V", "GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z", "inode__p3__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_INode"],
+        "scala_collection_concurrent_LNode": ["inserted__O__O__Lscala_collection_concurrent_LNode"],
+        "scala_collection_concurrent_SNode": ["hc__I", "init___O__O__I", "k__O"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_SNode", "scala_MatchError"],
+      "accessedModules": ["scala_collection_concurrent_CNode", "java_lang_Integer"],
+      "accessedClassData": ["scala_collection_concurrent_SNode", "scala_collection_concurrent_CNode", "scala_collection_concurrent_INode", "scala_collection_concurrent_TNode", "scala_collection_concurrent_LNode"]
+    },
+    "rec$undinsertif__O__O__I__O__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_Option": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_concurrent_CNode$": ["dual__Lscala_collection_concurrent_SNode__I__Lscala_collection_concurrent_SNode__I__I__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_MainNode"],
+        "scala_collection_concurrent_CNode": ["renewed__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_CNode", "updatedAt__I__Lscala_collection_concurrent_BasicNode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_CNode", "insertedAt__I__I__Lscala_collection_concurrent_BasicNode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_CNode", "array__ALscala_collection_concurrent_BasicNode", "gen__Lscala_collection_concurrent_Gen", "bitmap__I"],
+        "scala_collection_concurrent_INode": ["equal__p3__O__O__Lscala_collection_concurrent_TrieMap__Z", "insertln$1__p3__O__O__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_LNode__Z", "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode", "clean__p3__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_TrieMap__I__V", "GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z", "inode__p3__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_INode"],
+        "scala_collection_concurrent_LNode": ["get__O__Lscala_Option"],
+        "scala_collection_concurrent_SNode": ["hc__I", "v__O", "init___O__O__I", "k__O"],
+        "scala_Some": ["init___O", "x__O"],
+        "scala_collection_concurrent_INode$": ["KEY$undABSENT__O", "KEY$undPRESENT__O"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_SNode", "scala_MatchError", "scala_Some"],
+      "accessedModules": ["scala_collection_concurrent_CNode", "java_lang_Integer", "scala_None", "scala_collection_concurrent_INode"],
+      "accessedClassData": ["scala_collection_concurrent_SNode", "scala_collection_concurrent_CNode", "scala_Some", "scala_collection_concurrent_INode", "scala_collection_concurrent_TNode", "scala_collection_concurrent_LNode"]
+    },
+    "rec$undlookup__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__O": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"],
+        "scala_Predef$": ["conforms__Lscala_Predef$$less$colon$less"],
+        "scala_Option": ["orNull__Lscala_Predef$$less$colon$less__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_concurrent_TrieMap": ["isReadOnly__Z"],
+        "scala_collection_concurrent_CNode": ["renewed__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_CNode", "array__ALscala_collection_concurrent_BasicNode", "bitmap__I"],
+        "scala_collection_concurrent_INode": ["equal__p3__O__O__Lscala_collection_concurrent_TrieMap__Z", "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode", "GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z", "cleanReadOnly$1__p3__Lscala_collection_concurrent_TNode__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_TrieMap__O"],
+        "scala_collection_concurrent_LNode": ["get__O__Lscala_Option"],
+        "scala_collection_concurrent_INodeBase$": ["RESTART__O"],
+        "scala_collection_concurrent_SNode": ["hc__I", "v__O", "k__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["java_lang_Integer", "scala_Predef", "scala_collection_concurrent_INodeBase"],
+      "accessedClassData": ["scala_collection_concurrent_SNode", "scala_collection_concurrent_CNode", "scala_collection_concurrent_INode", "scala_collection_concurrent_TNode", "scala_collection_concurrent_LNode"]
+    },
+    "rec$undremove__O__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_Option": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_concurrent_CNode": ["removedAt__I__I__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_CNode", "renewed__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_CNode", "toContracted__I__Lscala_collection_concurrent_MainNode", "array__ALscala_collection_concurrent_BasicNode", "bitmap__I"],
+        "scala_collection_concurrent_INode": ["equal__p3__O__O__Lscala_collection_concurrent_TrieMap__Z", "rec$undremove__O__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_Option", "cleanParent$1__p3__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__V", "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode", "clean__p3__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_TrieMap__I__V", "GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z"],
+        "scala_collection_concurrent_LNode": ["removed__O__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode", "get__O__Lscala_Option"],
+        "scala_collection_concurrent_SNode": ["hc__I", "v__O", "k__O"],
+        "scala_Some": ["init___O", "x__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_Some"],
+      "accessedModules": ["java_lang_Integer", "scala_None"],
+      "accessedClassData": ["scala_collection_concurrent_SNode", "scala_collection_concurrent_CNode", "scala_Some", "scala_collection_concurrent_INode", "scala_collection_concurrent_TNode", "scala_collection_concurrent_LNode"]
+    },
+    "clean__p3__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_TrieMap__I__V": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z", "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_concurrent_CNode": ["toCompressed__Lscala_collection_concurrent_TrieMap__I__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_MainNode"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_concurrent_CNode"]
+    },
+    "isNullInode__Lscala_collection_concurrent_TrieMap__Z": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"]
+      }
+    },
+    "cachedSize__Lscala_collection_concurrent_TrieMap__I": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"],
+        "scala_collection_concurrent_MainNode": ["cachedSize__O__I"]
+      }
+    },
+    "string__I__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["$$times__I__T", "format__Lscala_collection_Seq__T", "init___T"],
+        "scala_collection_concurrent_CNode": ["string__I__T"],
+        "scala_collection_concurrent_LNode": ["string__I__T"],
+        "scala_collection_concurrent_TNode": ["v__O", "k__O", "hc__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_collection_concurrent_CNode", "java_lang_Object", "scala_collection_concurrent_TNode", "scala_collection_concurrent_LNode"]
+    },
+    "insertln$1__p3__O__O__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_LNode__Z": {
+      "calledMethods": {
+        "scala_collection_concurrent_LNode": ["inserted__O__O__Lscala_collection_concurrent_LNode"],
+        "scala_collection_concurrent_INode": ["GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z"]
+      }
+    },
+    "cleanReadOnly$1__p3__Lscala_collection_concurrent_TNode__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_TrieMap__O": {
+      "calledMethods": {
+        "scala_collection_concurrent_TNode": ["v__O", "hc__I", "k__O"],
+        "scala_collection_concurrent_INode": ["clean__p3__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_TrieMap__I__V"],
+        "scala_collection_concurrent_INodeBase$": ["RESTART__O"],
+        "scala_collection_concurrent_TrieMap": ["nonReadOnly__Z"]
+      },
+      "accessedModules": ["scala_collection_concurrent_INodeBase"]
+    },
+    "cleanParent$1__p3__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__V": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_concurrent_TrieMap": ["readRoot__Z__Lscala_collection_concurrent_INode", "readRoot$default$1__Z"],
+        "scala_collection_concurrent_CNode": ["updatedAt__I__Lscala_collection_concurrent_BasicNode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_CNode", "toContracted__I__Lscala_collection_concurrent_MainNode", "array__ALscala_collection_concurrent_BasicNode", "bitmap__I"],
+        "scala_collection_concurrent_INode": ["GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z", "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"],
+        "scala_collection_concurrent_TNode": ["copyUntombed__Lscala_collection_concurrent_SNode"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["java_lang_Integer", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_concurrent_CNode", "scala_collection_concurrent_TNode"]
+    },
+    "init___Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_Gen": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["WRITE__Lscala_collection_concurrent_MainNode__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_concurrent_INodeBase": ["init___Lscala_collection_concurrent_Gen"]
+      }
+    },
+    "init___Lscala_collection_concurrent_Gen": {
+      "calledMethodsStatic": {
+        "scala_collection_concurrent_INode": ["init___Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_Gen"]
+      }
+    },
+    "cachedSize__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["cachedSize__Lscala_collection_concurrent_TrieMap__I"]
+      }
+    },
+    "isNullInode__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["isNullInode__Lscala_collection_concurrent_TrieMap__Z"]
+      }
+    },
+    "rec$undremove__O__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["rec$undremove__O__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_Option"]
+      }
+    },
+    "rec$undlookup__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["rec$undlookup__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__O"]
+      }
+    },
+    "rec$undinsertif__O__O__I__O__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["rec$undinsertif__O__O__I__O__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_Option"]
+      }
+    },
+    "rec$undinsert__O__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["rec$undinsert__O__O__I__I__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Z"]
+      }
+    },
+    "copyToGen__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["copyToGen__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_INode"]
+      }
+    },
+    "GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["GCAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_TrieMap__Z"]
+      }
+    },
+    "GCAS$undREAD__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["GCAS$undREAD__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"]
+      }
+    },
+    "gcasRead__Lscala_collection_concurrent_TrieMap__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["gcasRead__Lscala_collection_concurrent_TrieMap__Lscala_collection_concurrent_MainNode"]
+      }
+    },
+    "CAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["CAS__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_MainNode__Z"]
+      }
+    },
+    "WRITE__Lscala_collection_concurrent_MainNode__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["WRITE__Lscala_collection_concurrent_MainNode__V"]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "scala.util.hashing.MurmurHash3$$anon$3",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_hashing_MurmurHash3$$anon$3",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_hashing_MurmurHash3$$anon$3", "scala_util_hashing_Hashing", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hash__Lscala_Product__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["productHash__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_util_hashing_MurmurHash3"]
+    },
+    "hash__O__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$3": ["hash__Lscala_Product__I"]
+      },
+      "accessedClassData": ["scala_Product"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "hash__Lscala_Product__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$3": ["hash__Lscala_Product__I"]
+      }
+    },
+    "hash__O__": {
+      "calledMethods": {
+        "scala_util_hashing_Hashing": ["hash__O__I"]
+      }
+    }
+  }
+}

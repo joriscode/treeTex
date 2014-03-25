@@ -1,0 +1,78 @@
+{
+  "name": "scala.collection.SeqLike$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SeqLike$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_SeqLike$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "kmpOptimizeWord__p1__Lscala_collection_Seq__I__I__Z__Lscala_collection_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_SeqLike$$anon$4": ["init___I__I__Lscala_collection_IndexedSeq"],
+        "scala_collection_SeqLike$$anon$3": ["init___I__I__Lscala_collection_IndexedSeq"],
+        "scala_collection_SeqLike$$anon$5": ["init___Lscala_collection_Seq__I__I__Z"],
+        "scala_collection_Seq": ["length__I"]
+      },
+      "instantiatedClasses": ["scala_collection_SeqLike$$anon$3", "scala_collection_SeqLike$$anon$4", "scala_collection_SeqLike$$anon$5"],
+      "accessedClassData": ["scala_collection_IndexedSeq"]
+    },
+    "kmpJumpTable__p1__Lscala_collection_IndexedSeq__I__AI": {
+      "calledMethods": {
+        "scala_collection_IndexedSeq": ["apply__I__O"]
+      }
+    },
+    "scala$collection$SeqLike$$kmpSearch__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__Z__I": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["drop__I__Lscala_collection_Iterator", "next__O"],
+        "scala_collection_Seq": ["iterator__Lscala_collection_Iterator", "apply__I__O", "indexOf__O__I__I", "lastIndexOf__O__I__I", "view__Lscala_collection_SeqView"],
+        "scala_collection_SeqView": ["slice__I__I__Lscala_collection_TraversableView"],
+        "scala_collection_SeqLike$": ["clipR$1__p1__I__I__I", "clipL$1__p1__I__I__I", "kmpOptimizeWord__p1__Lscala_collection_Seq__I__I__Z__Lscala_collection_IndexedSeq", "kmpJumpTable__p1__Lscala_collection_IndexedSeq__I__AI"],
+        "scala_collection_IndexedSeq": ["apply__I__O"]
+      },
+      "accessedClassData": ["java_lang_Object", "scala_collection_IndexedSeq"]
+    },
+    "indexOf__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__I__I": {
+      "calledMethods": {
+        "scala_math_package$": ["min__I__I__I", "max__I__I__I"],
+        "scala_collection_SeqLike$": ["scala$collection$SeqLike$$kmpSearch__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__Z__I"],
+        "scala_collection_Seq": ["length__I"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "lastIndexOf__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__I__I": {
+      "calledMethods": {
+        "scala_math_package$": ["min__I__I__I"],
+        "scala_collection_SeqLike$": ["scala$collection$SeqLike$$kmpSearch__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__Z__I"],
+        "scala_collection_Seq": ["length__I"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "clipR$1__p1__I__I__I": {},
+    "clipL$1__p1__I__I__I": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "lastIndexOf__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_SeqLike$": ["lastIndexOf__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__I__I"]
+      }
+    },
+    "indexOf__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_SeqLike$": ["indexOf__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__I__I"]
+      }
+    },
+    "scala$collection$SeqLike$$kmpSearch__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__Z__": {
+      "calledMethods": {
+        "scala_collection_SeqLike$": ["scala$collection$SeqLike$$kmpSearch__Lscala_collection_Seq__I__I__Lscala_collection_Seq__I__I__Z__I"]
+      }
+    }
+  }
+}

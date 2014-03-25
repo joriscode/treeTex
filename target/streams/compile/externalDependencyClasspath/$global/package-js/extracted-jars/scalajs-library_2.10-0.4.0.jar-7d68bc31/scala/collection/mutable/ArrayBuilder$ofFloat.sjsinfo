@@ -1,0 +1,105 @@
+{
+  "name": "scala.collection.mutable.ArrayBuilder$ofFloat",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayBuilder$ofFloat",
+  "superClass": "scala_collection_mutable_ArrayBuilder",
+  "ancestors": ["scala_collection_mutable_ArrayBuilder$ofFloat", "scala_collection_mutable_ArrayBuilder", "scala_Serializable", "java_io_Serializable", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elems__p2__AF": {},
+    "elems$und$eq__p2__AF__V": {},
+    "capacity__p2__I": {},
+    "capacity$und$eq__p2__I__V": {},
+    "size__p2__I": {},
+    "size$und$eq__p2__I__V": {},
+    "mkArray__p2__I__AF": {
+      "calledMethods": {
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["size__p2__I", "elems__p2__AF"]
+      },
+      "accessedModules": ["scala_Array"]
+    },
+    "resize__p2__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["mkArray__p2__I__AF", "capacity$und$eq__p2__I__V", "elems$und$eq__p2__AF__V"]
+      }
+    },
+    "sizeHint__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["capacity__p2__I", "resize__p2__I__V"]
+      }
+    },
+    "ensureSize__p2__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["capacity__p2__I", "resize__p2__I__V"]
+      }
+    },
+    "$$plus$eq__F__Lscala_collection_mutable_ArrayBuilder$ofFloat": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["size__p2__I", "size$und$eq__p2__I__V", "ensureSize__p2__I__V", "elems__p2__AF"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuilder$ofFloat": {
+      "calledMethods": {
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_mutable_WrappedArray$ofFloat": ["length__I", "array__AF"],
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$plus$plus$eq__Lscala_collection_generic_Growable__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["size__p2__I", "size$und$eq__p2__I__V", "ensureSize__p2__I__V", "elems__p2__AF"]
+      },
+      "accessedModules": ["scala_Array"],
+      "accessedClassData": ["scala_collection_mutable_ArrayBuilder$ofFloat", "scala_collection_mutable_WrappedArray$ofFloat"]
+    },
+    "clear__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["size$und$eq__p2__I__V"]
+      }
+    },
+    "result__AF": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["capacity__p2__I", "mkArray__p2__I__AF", "size__p2__I", "elems__p2__AF"]
+      }
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["size__p2__I", "elems__p2__AF"]
+      },
+      "accessedClassData": ["scala_collection_mutable_ArrayBuilder$ofFloat"]
+    },
+    "toString__T": {},
+    "result__O": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["result__AF"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuilder$ofFloat"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["$$plus$eq__F__Lscala_collection_mutable_ArrayBuilder$ofFloat"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["$$plus$eq__F__Lscala_collection_mutable_ArrayBuilder$ofFloat"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_collection_mutable_ArrayBuilder": ["init___"]
+      }
+    },
+    "$$plus$eq__F__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["$$plus$eq__F__Lscala_collection_mutable_ArrayBuilder$ofFloat"]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "scala.concurrent.duration.package$DurationDouble$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_duration_package$DurationDouble$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_duration_package$DurationDouble$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "durationIn$extension__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_Duration"],
+        "java_lang_IllegalArgumentException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedModules": ["scala_concurrent_duration_Duration"],
+      "accessedClassData": ["scala_concurrent_duration_FiniteDuration"]
+    },
+    "hashCode$extension__D__I": {
+      "calledMethods": {
+        "java_lang_Object": ["hashCode__I"]
+      }
+    },
+    "equals$extension__D__O__Z": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$DurationDouble": ["d__D"]
+      },
+      "accessedClassData": ["scala_concurrent_duration_package$DurationDouble"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__D__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$DurationDouble$": ["equals$extension__D__O__Z"]
+      }
+    },
+    "hashCode$extension__D__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$DurationDouble$": ["hashCode$extension__D__I"]
+      }
+    },
+    "durationIn$extension__D__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$DurationDouble$": ["durationIn$extension__D__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    }
+  }
+}

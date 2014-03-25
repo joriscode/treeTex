@@ -1,0 +1,53 @@
+{
+  "name": "scala.collection.generic.GenericCompanion",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_GenericCompanion",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "isAbstract": true
+    },
+    "empty__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O"],
+        "scala_collection_generic_GenericCompanion": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_GenTraversable"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_generic_GenericCompanion": ["empty__Lscala_collection_GenTraversable", "newBuilder__Lscala_collection_mutable_Builder"],
+        "scala_collection_Seq": ["isEmpty__Z"]
+      },
+      "accessedClassData": ["scala_collection_GenTraversable"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_generic_GenericCompanion": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_generic_GenericCompanion": ["empty__Lscala_collection_GenTraversable"]
+      }
+    },
+    "newBuilder__": {
+      "calledMethods": {
+        "scala_collection_generic_GenericCompanion": ["newBuilder__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

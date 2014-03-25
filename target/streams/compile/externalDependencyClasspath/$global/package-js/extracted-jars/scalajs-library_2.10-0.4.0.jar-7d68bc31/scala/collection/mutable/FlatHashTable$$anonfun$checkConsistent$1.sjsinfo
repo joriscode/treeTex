@@ -1,0 +1,53 @@
+{
+  "name": "scala.collection.mutable.FlatHashTable$$anonfun$checkConsistent$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_FlatHashTable$$anonfun$checkConsistent$1",
+  "superClass": "scala_runtime_AbstractFunction1$mcVI$sp",
+  "ancestors": ["scala_collection_mutable_FlatHashTable$$anonfun$checkConsistent$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1$mcVI$sp", "scala_Function1$mcVI$sp", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$$anonfun$checkConsistent$1": ["apply$mcVI$sp__I__V"]
+      }
+    },
+    "apply$mcVI$sp__I__V": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "assert__Z__Lscala_Function0__V"],
+        "scala_collection_mutable_ArrayOps": ["mkString__T"],
+        "scala_collection_mutable_FlatHashTable$$anonfun$checkConsistent$1": ["scala$collection$mutable$FlatHashTable$$anonfun$$$outer__Lscala_collection_mutable_FlatHashTable"],
+        "scala_collection_mutable_FlatHashTable": ["containsEntry__O__Z", "table__AO"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "scala$collection$mutable$FlatHashTable$$anonfun$$$outer__Lscala_collection_mutable_FlatHashTable": {},
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_FlatHashTable$$anonfun$checkConsistent$1": ["apply__I__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "init___Lscala_collection_mutable_FlatHashTable": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1$mcVI$sp": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$mutable$FlatHashTable$$anonfun$$$outer__": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$$anonfun$checkConsistent$1": ["scala$collection$mutable$FlatHashTable$$anonfun$$$outer__Lscala_collection_mutable_FlatHashTable"]
+      }
+    }
+  }
+}

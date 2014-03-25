@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.immutable.$colon$colon$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_$colon$colon$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_$colon$colon$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__O__Lscala_collection_immutable_List__Lscala_collection_immutable_$colon$colon": {
+      "calledMethods": {
+        "scala_collection_immutable_$colon$colon": ["init___O__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_$colon$colon"]
+    },
+    "unapply__Lscala_collection_immutable_$colon$colon__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_immutable_$colon$colon": ["tl__Lscala_collection_immutable_List", "scala$collection$immutable$$colon$colon$$hd__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_immutable_$colon$colon"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_collection_immutable_$colon$colon__": {
+      "calledMethods": {
+        "scala_collection_immutable_$colon$colon$": ["unapply__Lscala_collection_immutable_$colon$colon__Lscala_Option"]
+      }
+    },
+    "apply__O__Lscala_collection_immutable_List__": {
+      "calledMethods": {
+        "scala_collection_immutable_$colon$colon$": ["apply__O__Lscala_collection_immutable_List__Lscala_collection_immutable_$colon$colon"]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "scala.xml.Node$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_Node$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_Node$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "NoAttributes__Lscala_xml_MetaData": {
+      "accessedModules": ["scala_xml_Null"]
+    },
+    "EmptyNamespace__T": {},
+    "unapplySeq__Lscala_xml_Node__Lscala_Some": {
+      "calledMethods": {
+        "scala_Tuple3": ["init___O__O__O"],
+        "scala_Some": ["init___O"],
+        "scala_xml_Node": ["attributes__Lscala_xml_MetaData", "child__Lscala_collection_Seq", "label__T"]
+      },
+      "instantiatedClasses": ["scala_Tuple3", "scala_Some"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapplySeq__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_Node$": ["unapplySeq__Lscala_xml_Node__Lscala_Some"]
+      }
+    },
+    "EmptyNamespace__": {
+      "calledMethods": {
+        "scala_xml_Node$": ["EmptyNamespace__T"]
+      }
+    },
+    "NoAttributes__": {
+      "calledMethods": {
+        "scala_xml_Node$": ["NoAttributes__Lscala_xml_MetaData"]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "scala.xml.parsing.ConstructingParser$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_ConstructingParser$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_parsing_ConstructingParser$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "fromFile__Ljava_io_File__Z__Lscala_xml_parsing_ConstructingParser": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingParser": ["initialize__Lscala_xml_parsing_MarkupHandler", "init___Lscala_io_Source__Z"],
+        "scala_io_Source$": ["fromFile__Ljava_io_File__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_io_Codec$": ["fallbackSystemCodec__Lscala_io_Codec"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_ConstructingParser"],
+      "accessedModules": ["scala_io_Source", "scala_io_Codec"],
+      "accessedClassData": ["scala_xml_parsing_ConstructingParser"]
+    },
+    "fromSource__Lscala_io_Source__Z__Lscala_xml_parsing_ConstructingParser": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingParser": ["initialize__Lscala_xml_parsing_MarkupHandler", "init___Lscala_io_Source__Z"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_ConstructingParser"],
+      "accessedClassData": ["scala_xml_parsing_ConstructingParser"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "fromSource__Lscala_io_Source__Z__": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingParser$": ["fromSource__Lscala_io_Source__Z__Lscala_xml_parsing_ConstructingParser"]
+      }
+    },
+    "fromFile__Ljava_io_File__Z__": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingParser$": ["fromFile__Ljava_io_File__Z__Lscala_xml_parsing_ConstructingParser"]
+      }
+    }
+  }
+}

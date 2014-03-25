@@ -1,0 +1,37 @@
+{
+  "name": "scala.concurrent.ExecutionContext$Implicits$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_ExecutionContext$Implicits$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_ExecutionContext$Implicits$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "global$lzycompute__p1__Lscala_concurrent_ExecutionContextExecutor": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$": ["fromExecutor$default$2__Lscala_Function1", "fromExecutor__Ljava_util_concurrent_Executor__Lscala_Function1__Lscala_concurrent_impl_ExecutionContextImpl"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_concurrent_impl_ExecutionContextImpl", "scala_runtime_BoxedUnit"]
+    },
+    "global__Lscala_concurrent_ExecutionContextExecutor": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$Implicits$": ["global$lzycompute__p1__Lscala_concurrent_ExecutionContextExecutor"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "global__": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$Implicits$": ["global__Lscala_concurrent_ExecutionContextExecutor"]
+      }
+    }
+  }
+}

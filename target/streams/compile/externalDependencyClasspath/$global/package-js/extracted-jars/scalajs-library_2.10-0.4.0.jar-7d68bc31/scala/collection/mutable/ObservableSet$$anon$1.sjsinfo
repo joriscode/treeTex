@@ -1,0 +1,35 @@
+{
+  "name": "scala.collection.mutable.ObservableSet$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ObservableSet$$anon$1",
+  "superClass": "scala_collection_script_Include",
+  "ancestors": ["scala_collection_mutable_ObservableSet$$anon$1", "scala_collection_mutable_Undoable", "scala_collection_script_Include", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_collection_script_Message", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "undo__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ObservableSet$$anon$1": ["elem__O"],
+        "scala_collection_mutable_ObservableSet": ["$$minus$eq__O__Lscala_collection_mutable_ObservableSet"]
+      }
+    },
+    "init___Lscala_collection_mutable_ObservableSet__O": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_script_Include": ["init___O"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "undo__": {
+      "calledMethods": {
+        "scala_collection_mutable_ObservableSet$$anon$1": ["undo__V"]
+      }
+    }
+  }
+}

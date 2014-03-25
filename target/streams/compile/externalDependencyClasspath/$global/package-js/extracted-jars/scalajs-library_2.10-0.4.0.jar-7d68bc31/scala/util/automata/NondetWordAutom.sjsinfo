@@ -1,0 +1,191 @@
+{
+  "name": "scala.util.automata.NondetWordAutom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_automata_NondetWordAutom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_automata_NondetWordAutom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "nstates__I": {
+      "isAbstract": true
+    },
+    "labels__Lscala_collection_Seq": {
+      "isAbstract": true
+    },
+    "finals__AI": {
+      "isAbstract": true
+    },
+    "delta__ALscala_collection_mutable_Map": {
+      "isAbstract": true
+    },
+    "$default__ALscala_collection_immutable_BitSet": {
+      "isAbstract": true
+    },
+    "isFinal__I__Z": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["finals__AI"]
+      }
+    },
+    "finalTag__I__I": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["finals__AI"]
+      }
+    },
+    "containsFinal__Lscala_collection_immutable_BitSet__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_BitSet": ["exists__Lscala_Function1__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_automata_NondetWordAutom": ["isFinal__I__Z"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "isEmpty__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_util_automata_NondetWordAutom": ["nstates__I", "isFinal__I__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Range": ["forall__Lscala_Function1__Z"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "next__I__O__Lscala_collection_immutable_BitSet": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_mutable_Map": ["getOrElse__O__Lscala_Function0__O"],
+        "scala_util_automata_NondetWordAutom": ["$default__ALscala_collection_immutable_BitSet", "delta__ALscala_collection_mutable_Map"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["scala_collection_immutable_BitSet"]
+    },
+    "next__Lscala_collection_immutable_BitSet__O__Lscala_collection_immutable_BitSet": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_automata_NondetWordAutom": ["next__I__O__Lscala_collection_immutable_BitSet", "next__p1__Lscala_collection_immutable_BitSet__Lscala_Function1__Lscala_collection_immutable_BitSet"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "nextDefault__Lscala_collection_immutable_BitSet__Lscala_collection_immutable_BitSet": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_util_automata_NondetWordAutom": ["$default__ALscala_collection_immutable_BitSet", "next__p1__Lscala_collection_immutable_BitSet__Lscala_Function1__Lscala_collection_immutable_BitSet"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "next__p1__Lscala_collection_immutable_BitSet__Lscala_Function1__Lscala_collection_immutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_immutable_BitSet$": ["empty__Lscala_collection_immutable_BitSet"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_immutable_BitSet": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_Set", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_Set$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_collection_immutable_BitSet", "scala_collection_immutable_Set"],
+      "accessedClassData": ["scala_collection_immutable_BitSet", "scala_collection_TraversableOnce"]
+    },
+    "finalStates__p1__Lscala_collection_immutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_util_automata_NondetWordAutom": ["nstates__I", "isFinal__I__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Range": ["filter__Lscala_Function1__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"],
+      "accessedClassData": ["scala_collection_immutable_IndexedSeq"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T", "any2ArrowAssoc__O__O", "Map__Lscala_collection_immutable_Map$", "intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_MapLike": ["toString__T"],
+        "scala_util_automata_NondetWordAutom": ["$default__ALscala_collection_immutable_BitSet", "delta__ALscala_collection_mutable_Map", "finals__AI", "finalStates__p1__Lscala_collection_immutable_IndexedSeq", "nstates__I"],
+        "scala_collection_immutable_StringOps": ["init___T", "format__Lscala_collection_Seq__T"],
+        "scala_collection_immutable_IndexedSeq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_collection_immutable_IndexedSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_Range": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_Predef$ArrowAssoc$": ["$$minus$greater$extension__O__O__Lscala_Tuple2"],
+        "scala_collection_TraversableOnce": ["mkString__T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef$ArrowAssoc", "scala_Predef", "scala_collection_immutable_IndexedSeq"],
+      "accessedClassData": ["scala_collection_MapLike", "java_lang_Object", "scala_collection_Seq", "scala_collection_TraversableOnce"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "nextDefault__Lscala_collection_immutable_BitSet__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["nextDefault__Lscala_collection_immutable_BitSet__Lscala_collection_immutable_BitSet"]
+      }
+    },
+    "next__Lscala_collection_immutable_BitSet__O__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["next__Lscala_collection_immutable_BitSet__O__Lscala_collection_immutable_BitSet"]
+      }
+    },
+    "next__I__O__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["next__I__O__Lscala_collection_immutable_BitSet"]
+      }
+    },
+    "isEmpty__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["isEmpty__Z"]
+      }
+    },
+    "containsFinal__Lscala_collection_immutable_BitSet__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["containsFinal__Lscala_collection_immutable_BitSet__Z"]
+      }
+    },
+    "finalTag__I__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["finalTag__I__I"]
+      }
+    },
+    "isFinal__I__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["isFinal__I__Z"]
+      }
+    },
+    "$default__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["$default__ALscala_collection_immutable_BitSet"]
+      }
+    },
+    "delta__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["delta__ALscala_collection_mutable_Map"]
+      }
+    },
+    "finals__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["finals__AI"]
+      }
+    },
+    "labels__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["labels__Lscala_collection_Seq"]
+      }
+    },
+    "nstates__": {
+      "calledMethods": {
+        "scala_util_automata_NondetWordAutom": ["nstates__I"]
+      }
+    }
+  }
+}

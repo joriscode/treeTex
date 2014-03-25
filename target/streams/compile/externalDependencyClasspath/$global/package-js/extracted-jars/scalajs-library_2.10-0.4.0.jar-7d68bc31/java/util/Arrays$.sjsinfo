@@ -1,0 +1,545 @@
+{
+  "name": "java.util.Arrays$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_Arrays$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_Arrays$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "sort__AO__Ljava_util_Comparator__V": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "java_util_Arrays$": ["java$util$Arrays$$compareFn$1__O__O__Ljava_util_Comparator__Lscala_scalajs_js_Number"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["java_util_Arrays"]
+    },
+    "fill__AZ__Z__V": {},
+    "fill__AZ__I__I__Z__V": {},
+    "fill__AB__B__V": {},
+    "fill__AB__I__I__B__V": {},
+    "fill__AC__C__V": {},
+    "fill__AC__I__I__C__V": {},
+    "fill__AS__S__V": {},
+    "fill__AS__I__I__S__V": {},
+    "fill__AI__I__V": {},
+    "fill__AI__I__I__I__V": {},
+    "fill__AJ__J__V": {},
+    "fill__AJ__I__I__J__V": {},
+    "fill__AF__F__V": {},
+    "fill__AF__I__I__F__V": {},
+    "fill__AD__D__V": {},
+    "fill__AD__I__I__D__V": {},
+    "fill__AO__O__V": {},
+    "fill__AO__I__I__O__V": {},
+    "checkIndexForBinarySearch__p1__I__I__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"]
+    },
+    "binarySearch__AJ__J__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AJ__I__I__J__I"]
+      }
+    },
+    "binarySearch__AJ__I__I__J__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z", "$$greater__Lscala_scalajs_runtime_Long__Z"],
+        "java_util_Arrays$": ["checkIndexForBinarySearch__p1__I__I__I__V"]
+      }
+    },
+    "binarySearch__AI__I__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AI__I__I__I__I"]
+      }
+    },
+    "binarySearch__AI__I__I__I__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["checkIndexForBinarySearch__p1__I__I__I__V"]
+      }
+    },
+    "binarySearch__AS__S__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AS__I__I__S__I"]
+      }
+    },
+    "binarySearch__AS__I__I__S__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["checkIndexForBinarySearch__p1__I__I__I__V"]
+      }
+    },
+    "binarySearch__AC__C__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AC__I__I__C__I"]
+      }
+    },
+    "binarySearch__AC__I__I__C__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["checkIndexForBinarySearch__p1__I__I__I__V"]
+      }
+    },
+    "binarySearch__AF__F__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AF__I__I__F__I"]
+      }
+    },
+    "binarySearch__AF__I__I__F__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["checkIndexForBinarySearch__p1__I__I__I__V"]
+      }
+    },
+    "binarySearch__AD__D__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AD__I__I__D__I"]
+      }
+    },
+    "binarySearch__AD__I__I__D__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["checkIndexForBinarySearch__p1__I__I__I__V"]
+      }
+    },
+    "binarySearch__AO__O__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AO__I__I__O__I"]
+      }
+    },
+    "binarySearch__AO__I__I__O__I": {
+      "calledMethods": {
+        "java_util_Arrays$": ["checkIndexForBinarySearch__p1__I__I__I__V"],
+        "java_lang_Comparable": ["compareTo__O__I"]
+      },
+      "accessedClassData": ["java_lang_Comparable"]
+    },
+    "copyOf__AI__I__AI": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AI__I__I__AI"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AI__I__I__AI": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"]
+    },
+    "copyOf__AJ__I__AJ": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AJ__I__I__AJ"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AJ__I__I__AJ": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"]
+    },
+    "copyOf__AS__I__AS": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AS__I__I__AS"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AS__I__I__AS": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"]
+    },
+    "copyOf__AB__I__AB": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AB__I__I__AB"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AB__I__I__AB": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"]
+    },
+    "copyOf__AC__I__AC": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AC__I__I__AC"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AC__I__I__AC": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"]
+    },
+    "copyOf__AF__I__AF": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AF__I__I__AF"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AF__I__I__AF": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"]
+    },
+    "copyOf__AD__I__AD": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AD__I__I__AD"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AD__I__I__AD": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"]
+    },
+    "copyOf__AZ__I__AZ": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AZ__I__I__AZ"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AZ__I__I__AZ": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"]
+    },
+    "copyOf__AO__I__AO": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AO__I__I__AO"],
+        "java_lang_NegativeArraySizeException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NegativeArraySizeException"]
+    },
+    "copyOfRange__AO__I__I__AO": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"],
+        "java_lang_IllegalArgumentException": ["init___"],
+        "java_lang_Math$": ["min__I__I__I"],
+        "java_lang_ArrayIndexOutOfBoundsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ArrayIndexOutOfBoundsException", "java_lang_IllegalArgumentException"],
+      "accessedModules": ["java_lang_Math", "java_lang_System"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "java$util$Arrays$$compareFn$1__O__O__Ljava_util_Comparator__Lscala_scalajs_js_Number": {
+      "calledMethods": {
+        "java_util_Comparator": ["compare__O__O__I"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "java$util$Arrays$$compareFn$1__O__O__Ljava_util_Comparator__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["java$util$Arrays$$compareFn$1__O__O__Ljava_util_Comparator__Lscala_scalajs_js_Number"]
+      }
+    },
+    "copyOfRange__AO__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AO__I__I__AO"]
+      }
+    },
+    "copyOf__AO__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AO__I__AO"]
+      }
+    },
+    "copyOfRange__AZ__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AZ__I__I__AZ"]
+      }
+    },
+    "copyOf__AZ__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AZ__I__AZ"]
+      }
+    },
+    "copyOfRange__AD__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AD__I__I__AD"]
+      }
+    },
+    "copyOf__AD__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AD__I__AD"]
+      }
+    },
+    "copyOfRange__AF__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AF__I__I__AF"]
+      }
+    },
+    "copyOf__AF__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AF__I__AF"]
+      }
+    },
+    "copyOfRange__AC__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AC__I__I__AC"]
+      }
+    },
+    "copyOf__AC__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AC__I__AC"]
+      }
+    },
+    "copyOfRange__AB__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AB__I__I__AB"]
+      }
+    },
+    "copyOf__AB__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AB__I__AB"]
+      }
+    },
+    "copyOfRange__AS__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AS__I__I__AS"]
+      }
+    },
+    "copyOf__AS__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AS__I__AS"]
+      }
+    },
+    "copyOfRange__AJ__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AJ__I__I__AJ"]
+      }
+    },
+    "copyOf__AJ__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AJ__I__AJ"]
+      }
+    },
+    "copyOfRange__AI__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOfRange__AI__I__I__AI"]
+      }
+    },
+    "copyOf__AI__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["copyOf__AI__I__AI"]
+      }
+    },
+    "binarySearch__AO__I__I__O__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AO__I__I__O__I"]
+      }
+    },
+    "binarySearch__AO__O__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AO__O__I"]
+      }
+    },
+    "binarySearch__AD__I__I__D__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AD__I__I__D__I"]
+      }
+    },
+    "binarySearch__AD__D__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AD__D__I"]
+      }
+    },
+    "binarySearch__AF__I__I__F__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AF__I__I__F__I"]
+      }
+    },
+    "binarySearch__AF__F__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AF__F__I"]
+      }
+    },
+    "binarySearch__AC__I__I__C__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AC__I__I__C__I"]
+      }
+    },
+    "binarySearch__AC__C__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AC__C__I"]
+      }
+    },
+    "binarySearch__AS__I__I__S__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AS__I__I__S__I"]
+      }
+    },
+    "binarySearch__AS__S__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AS__S__I"]
+      }
+    },
+    "binarySearch__AI__I__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AI__I__I__I__I"]
+      }
+    },
+    "binarySearch__AI__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AI__I__I"]
+      }
+    },
+    "binarySearch__AJ__I__I__J__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AJ__I__I__J__I"]
+      }
+    },
+    "binarySearch__AJ__J__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["binarySearch__AJ__J__I"]
+      }
+    },
+    "fill__AO__I__I__O__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AO__I__I__O__V"]
+      }
+    },
+    "fill__AO__O__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AO__O__V"]
+      }
+    },
+    "fill__AD__I__I__D__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AD__I__I__D__V"]
+      }
+    },
+    "fill__AD__D__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AD__D__V"]
+      }
+    },
+    "fill__AF__I__I__F__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AF__I__I__F__V"]
+      }
+    },
+    "fill__AF__F__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AF__F__V"]
+      }
+    },
+    "fill__AJ__I__I__J__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AJ__I__I__J__V"]
+      }
+    },
+    "fill__AJ__J__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AJ__J__V"]
+      }
+    },
+    "fill__AI__I__I__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AI__I__I__I__V"]
+      }
+    },
+    "fill__AI__I__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AI__I__V"]
+      }
+    },
+    "fill__AS__I__I__S__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AS__I__I__S__V"]
+      }
+    },
+    "fill__AS__S__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AS__S__V"]
+      }
+    },
+    "fill__AC__I__I__C__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AC__I__I__C__V"]
+      }
+    },
+    "fill__AC__C__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AC__C__V"]
+      }
+    },
+    "fill__AB__I__I__B__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AB__I__I__B__V"]
+      }
+    },
+    "fill__AB__B__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AB__B__V"]
+      }
+    },
+    "fill__AZ__I__I__Z__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AZ__I__I__Z__V"]
+      }
+    },
+    "fill__AZ__Z__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AZ__Z__V"]
+      }
+    },
+    "sort__AO__Ljava_util_Comparator__": {
+      "calledMethods": {
+        "java_util_Arrays$": ["sort__AO__Ljava_util_Comparator__V"]
+      }
+    }
+  }
+}

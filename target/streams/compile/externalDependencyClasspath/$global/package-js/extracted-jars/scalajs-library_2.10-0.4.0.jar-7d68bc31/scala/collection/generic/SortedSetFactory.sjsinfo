@@ -1,0 +1,63 @@
+{
+  "name": "scala.collection.generic.SortedSetFactory",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_SortedSetFactory",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_SortedSetFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "empty__Lscala_math_Ordering__Lscala_collection_SortedSet": {
+      "isAbstract": true
+    },
+    "apply__Lscala_collection_Seq__Lscala_math_Ordering__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_generic_SortedSetFactory": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_SortedSet", "scala_collection_mutable_Builder"]
+    },
+    "newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory": ["empty__Lscala_math_Ordering__Lscala_collection_SortedSet"],
+        "scala_collection_mutable_SetBuilder": ["init___Lscala_collection_Set"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_SetBuilder"]
+    },
+    "newCanBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom": ["init___Lscala_collection_generic_SortedSetFactory__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_SortedSetFactory$SortedSetCanBuildFrom"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "newCanBuildFrom__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory": ["newCanBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_Seq__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory": ["apply__Lscala_collection_Seq__Lscala_math_Ordering__Lscala_collection_SortedSet"]
+      }
+    },
+    "empty__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedSetFactory": ["empty__Lscala_math_Ordering__Lscala_collection_SortedSet"]
+      }
+    }
+  }
+}

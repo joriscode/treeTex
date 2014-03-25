@@ -1,0 +1,38 @@
+{
+  "name": "scala.io.UTF8Codec$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_UTF8Codec$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_UTF8Codec$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "UNI$undREPLACEMENT$undCHAR__I": {},
+    "UNI$undREPLACEMENT$undBYTES__AB": {},
+    "init___": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapByteArray__AB__Lscala_collection_mutable_WrappedArray"],
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"],
+        "scala_Array$": ["apply__Lscala_collection_Seq__Lscala_reflect_ClassTag__O"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef"]
+    },
+    "UNI$undREPLACEMENT$undBYTES__": {
+      "calledMethods": {
+        "scala_io_UTF8Codec$": ["UNI$undREPLACEMENT$undBYTES__AB"]
+      }
+    },
+    "UNI$undREPLACEMENT$undCHAR__": {
+      "calledMethods": {
+        "scala_io_UTF8Codec$": ["UNI$undREPLACEMENT$undCHAR__I"]
+      }
+    }
+  }
+}

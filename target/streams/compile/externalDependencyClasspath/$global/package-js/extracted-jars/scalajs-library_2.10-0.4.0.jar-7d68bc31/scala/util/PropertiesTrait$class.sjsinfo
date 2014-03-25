@@ -1,0 +1,293 @@
+{
+  "name": "scala.util.PropertiesTrait$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_util_PropertiesTrait$class",
+  "superClass": "",
+  "ancestors": ["scala_util_PropertiesTrait$class"],
+  "isExported": false,
+  "methods": {
+    "scala_util_PropertiesTrait$class__scalaProps__Lscala_util_PropertiesTrait__Ljava_util_Properties": {
+      "calledMethods": {
+        "java_lang_Class": ["getResourceAsStream__T__Ljava_io_InputStream"],
+        "java_io_InputStream": ["close__V"],
+        "scala_util_PropertiesTrait": ["propFilename__T", "pickJarBasedOn__Ljava_lang_Class"],
+        "scala_util_PropertiesTrait$class": ["scala_util_PropertiesTrait$class__quietlyDispose__Lscala_util_PropertiesTrait__Lscala_Function0__Lscala_Function0__V"],
+        "java_util_Properties": ["load__Ljava_io_InputStream__V", "init___"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "java_util_Properties"]
+    },
+    "scala_util_PropertiesTrait$class__quietlyDispose__Lscala_util_PropertiesTrait__Lscala_Function0__Lscala_Function0__V": {
+      "calledMethods": {
+        "scala_Function0": ["apply$mcV$sp__V"]
+      },
+      "accessedClassData": ["java_io_IOException"]
+    },
+    "scala_util_PropertiesTrait$class__propIsSet__Lscala_util_PropertiesTrait__T__Z": {
+      "calledMethods": {
+        "java_lang_System$": ["getProperty__T__T"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "scala_util_PropertiesTrait$class__propIsSetTo__Lscala_util_PropertiesTrait__T__T__Z": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrNull__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__propOrElse__Lscala_util_PropertiesTrait__T__T__T": {
+      "calledMethods": {
+        "java_lang_System$": ["getProperty__T__T__T"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "scala_util_PropertiesTrait$class__propOrEmpty__Lscala_util_PropertiesTrait__T__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrElse__T__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__propOrNull__Lscala_util_PropertiesTrait__T__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrElse__T__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__propOrNone__Lscala_util_PropertiesTrait__T__Lscala_Option": {
+      "calledMethods": {
+        "scala_Option$": ["apply__O__Lscala_Option"],
+        "scala_util_PropertiesTrait": ["propOrNull__T__T"]
+      },
+      "accessedModules": ["scala_Option"]
+    },
+    "scala_util_PropertiesTrait$class__propOrFalse__Lscala_util_PropertiesTrait__T__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_Option": ["exists__Lscala_Function1__Z"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__toLowerCase__Lscala_scalajs_runtime_RuntimeString__T"],
+        "scala_collection_immutable_List": ["contains__O__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"],
+        "scala_util_PropertiesTrait": ["propOrNone__T__Lscala_Option"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "scala_util_PropertiesTrait$class__setProp__Lscala_util_PropertiesTrait__T__T__T": {
+      "calledMethods": {
+        "java_lang_System$": ["setProperty__T__T__T"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "scala_util_PropertiesTrait$class__clearProp__Lscala_util_PropertiesTrait__T__T": {
+      "calledMethods": {
+        "java_lang_System$": ["clearProperty__T__T"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "scala_util_PropertiesTrait$class__envOrElse__Lscala_util_PropertiesTrait__T__T__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_lang_System$": ["getenv__T__T"],
+        "scala_Option$": ["apply__O__Lscala_Option"],
+        "scala_Option": ["getOrElse__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["java_lang_System", "scala_Option"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "scala_util_PropertiesTrait$class__envOrNone__Lscala_util_PropertiesTrait__T__Lscala_Option": {
+      "calledMethods": {
+        "java_lang_System$": ["getenv__T__T"],
+        "scala_Option$": ["apply__O__Lscala_Option"]
+      },
+      "accessedModules": ["java_lang_System", "scala_Option"]
+    },
+    "scala_util_PropertiesTrait$class__scalaPropOrElse__Lscala_util_PropertiesTrait__T__T__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["scalaProps__Ljava_util_Properties"],
+        "java_util_Properties": ["getProperty__T__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__scalaPropOrEmpty__Lscala_util_PropertiesTrait__T__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["scalaPropOrElse__T__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__scalaPropOrNone__Lscala_util_PropertiesTrait__T__Lscala_Option": {
+      "calledMethods": {
+        "scala_Option$": ["apply__O__Lscala_Option"],
+        "scala_util_PropertiesTrait": ["scalaProps__Ljava_util_Properties"],
+        "java_util_Properties": ["getProperty__T__T"]
+      },
+      "accessedModules": ["scala_Option"]
+    },
+    "scala_util_PropertiesTrait$class__versionNumberString__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["scalaPropOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__sourceEncoding__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["scalaPropOrElse__T__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__sourceReader__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["scalaPropOrElse__T__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__encodingString__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrElse__T__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__lineSeparator__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrElse__T__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__javaClassPath__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__javaHome__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__javaVendor__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__javaVersion__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__javaVmInfo__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__javaVmName__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__javaVmVendor__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__javaVmVersion__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__osName__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__scalaHome__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__tmpDir__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__userDir__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__userHome__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__userName__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["propOrEmpty__T__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__isWin__Lscala_util_PropertiesTrait__Z": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["osName__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__isMac__Lscala_util_PropertiesTrait__Z": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["javaVendor__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__jdkHome__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["envOrElse__T__T__T", "javaHome__T"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__versionMsg__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_util_PropertiesTrait": ["copyrightString__T", "propCategory__T", "versionString__T"],
+        "scala_collection_immutable_StringOps": ["format__Lscala_collection_Seq__T", "init___T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_util_PropertiesTrait$class__scalaCmd__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["isWin__Z"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__scalacCmd__Lscala_util_PropertiesTrait__T": {
+      "calledMethods": {
+        "scala_util_PropertiesTrait": ["isWin__Z"]
+      }
+    },
+    "scala_util_PropertiesTrait$class__isJavaAtLeast__Lscala_util_PropertiesTrait__T__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z"],
+        "scala_collection_immutable_List": ["exists__Lscala_Function1__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"],
+        "scala_util_PropertiesTrait": ["javaVersion__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "scala_util_PropertiesTrait$class__main__Lscala_util_PropertiesTrait__AT__V": {
+      "calledMethods": {
+        "scala_Console$": ["err__Ljava_io_PrintStream"],
+        "scala_util_PropertiesTrait": ["versionMsg__T"],
+        "java_io_PrintWriter": ["println__T__V", "init___Ljava_io_OutputStream__Z"]
+      },
+      "instantiatedClasses": ["java_io_PrintWriter"],
+      "accessedModules": ["scala_Console"]
+    },
+    "scala_util_PropertiesTrait$class__$init$__Lscala_util_PropertiesTrait__V": {
+      "calledMethods": {
+        "scala_Option": ["withFilter__Lscala_Function1__Lscala_Option$WithFilter", "map__Lscala_Function1__Lscala_Option"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__endsWith__Lscala_scalajs_runtime_RuntimeString__T__Z"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_PropertiesTrait": ["scala$util$PropertiesTrait$$undsetter$und$copyrightString$und$eq__T__V", "scala$util$PropertiesTrait$$undsetter$und$versionString$und$eq__T__V", "scalaPropOrNone__T__Lscala_Option", "scala$util$PropertiesTrait$$undsetter$und$developmentVersion$und$eq__Lscala_Option__V", "scalaPropOrElse__T__T__T", "scala$util$PropertiesTrait$$undsetter$und$releaseVersion$und$eq__Lscala_Option__V", "scala$util$PropertiesTrait$$undsetter$und$propFilename$und$eq__T__V", "propCategory__T"],
+        "scala_Option$WithFilter": ["map__Lscala_Function1__Lscala_Option", "flatMap__Lscala_Function1__Lscala_Option"],
+        "scala_util_PropertiesTrait$$anonfun$4$$anonfun$apply$1": ["init___Lscala_util_PropertiesTrait$$anonfun$4"]
+      },
+      "instantiatedClasses": ["scala_util_PropertiesTrait$$anonfun$4$$anonfun$apply$1", "scala_scalajs_runtime_AnonFunction1"]
+    }
+  }
+}

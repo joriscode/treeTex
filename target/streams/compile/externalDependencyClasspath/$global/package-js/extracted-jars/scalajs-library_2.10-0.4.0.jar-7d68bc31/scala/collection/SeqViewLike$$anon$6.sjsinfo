@@ -1,0 +1,101 @@
+{
+  "name": "scala.collection.SeqViewLike$$anon$6",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SeqViewLike$$anon$6",
+  "superClass": "scala_collection_SeqViewLike$AbstractTransformed",
+  "ancestors": ["scala_collection_SeqViewLike$$anon$6", "scala_collection_SeqViewLike$Sliced", "scala_collection_GenSeqViewLike$Sliced", "scala_collection_IterableViewLike$Sliced", "scala_collection_GenIterableViewLike$Sliced", "scala_collection_TraversableViewLike$Sliced", "scala_collection_GenTraversableViewLike$Sliced", "scala_collection_SeqViewLike$AbstractTransformed", "scala_collection_SeqViewLike$Transformed", "scala_collection_GenSeqViewLike$Transformed", "scala_collection_SeqView", "scala_collection_GenSeqView", "scala_collection_SeqViewLike", "scala_collection_GenSeqViewLike", "scala_collection_IterableViewLike$Transformed", "scala_collection_GenIterableViewLike$Transformed", "scala_collection_TraversableViewLike$Transformed", "scala_collection_GenTraversableViewLike$Transformed", "scala_collection_IterableView", "scala_collection_GenIterableView", "scala_collection_IterableViewLike", "scala_collection_GenIterableViewLike", "scala_collection_TraversableView", "scala_collection_GenTraversableView", "scala_collection_TraversableViewLike", "scala_collection_GenTraversableViewLike", "scala_collection_ViewMkString", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "scala_PartialFunction", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "length__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Sliced$class": ["scala_collection_GenSeqViewLike$Sliced$class__length__Lscala_collection_GenSeqViewLike$Sliced__I"]
+      }
+    },
+    "apply__I__O": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Sliced$class": ["scala_collection_GenSeqViewLike$Sliced$class__apply__Lscala_collection_GenSeqViewLike$Sliced__I__O"]
+      }
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Sliced$class": ["scala_collection_GenSeqViewLike$Sliced$class__foreach__Lscala_collection_GenSeqViewLike$Sliced__Lscala_Function1__V"]
+      }
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Sliced$class": ["scala_collection_GenSeqViewLike$Sliced$class__iterator__Lscala_collection_GenSeqViewLike$Sliced__Lscala_collection_Iterator"]
+      }
+    },
+    "from__I": {
+      "calledMethods": {
+        "scala_collection_GenTraversableViewLike$Sliced$class": ["scala_collection_GenTraversableViewLike$Sliced$class__from__Lscala_collection_GenTraversableViewLike$Sliced__I"]
+      }
+    },
+    "until__I": {
+      "calledMethods": {
+        "scala_collection_GenTraversableViewLike$Sliced$class": ["scala_collection_GenTraversableViewLike$Sliced$class__until__Lscala_collection_GenTraversableViewLike$Sliced__I"]
+      }
+    },
+    "viewIdentifier__T": {
+      "calledMethods": {
+        "scala_collection_GenTraversableViewLike$Sliced$class": ["scala_collection_GenTraversableViewLike$Sliced$class__viewIdentifier__Lscala_collection_GenTraversableViewLike$Sliced__T"]
+      }
+    },
+    "endpoints__Lscala_collection_generic_SliceInterval": {},
+    "scala$collection$GenSeqViewLike$Sliced$$$outer__Lscala_collection_GenSeqViewLike": {},
+    "scala$collection$GenIterableViewLike$Sliced$$$outer__Lscala_collection_GenIterableViewLike": {},
+    "scala$collection$GenTraversableViewLike$Sliced$$$outer__Lscala_collection_GenTraversableViewLike": {},
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_SeqViewLike$$anon$6": ["apply__I__O"]
+      }
+    },
+    "init___Lscala_collection_SeqViewLike__Lscala_collection_generic_SliceInterval": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_GenTraversableViewLike$Sliced$class": ["scala_collection_GenTraversableViewLike$Sliced$class__$init$__Lscala_collection_GenTraversableViewLike$Sliced__V"],
+        "scala_collection_GenSeqViewLike$Sliced$class": ["scala_collection_GenSeqViewLike$Sliced$class__$init$__Lscala_collection_GenSeqViewLike$Sliced__V"],
+        "scala_collection_GenIterableViewLike$Sliced$class": ["scala_collection_GenIterableViewLike$Sliced$class__$init$__Lscala_collection_GenIterableViewLike$Sliced__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_SeqViewLike$AbstractTransformed": ["init___Lscala_collection_SeqViewLike"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "until__": {
+      "calledMethods": {
+        "scala_collection_SeqViewLike$$anon$6": ["until__I"]
+      }
+    },
+    "from__": {
+      "calledMethods": {
+        "scala_collection_SeqViewLike$$anon$6": ["from__I"]
+      }
+    },
+    "scala$collection$GenTraversableViewLike$Sliced$$$outer__": {
+      "calledMethods": {
+        "scala_collection_SeqViewLike$$anon$6": ["scala$collection$GenTraversableViewLike$Sliced$$$outer__Lscala_collection_GenTraversableViewLike"]
+      }
+    },
+    "scala$collection$GenIterableViewLike$Sliced$$$outer__": {
+      "calledMethods": {
+        "scala_collection_SeqViewLike$$anon$6": ["scala$collection$GenIterableViewLike$Sliced$$$outer__Lscala_collection_GenIterableViewLike"]
+      }
+    },
+    "scala$collection$GenSeqViewLike$Sliced$$$outer__": {
+      "calledMethods": {
+        "scala_collection_SeqViewLike$$anon$6": ["scala$collection$GenSeqViewLike$Sliced$$$outer__Lscala_collection_GenSeqViewLike"]
+      }
+    },
+    "endpoints__": {
+      "calledMethods": {
+        "scala_collection_SeqViewLike$$anon$6": ["endpoints__Lscala_collection_generic_SliceInterval"]
+      }
+    }
+  }
+}

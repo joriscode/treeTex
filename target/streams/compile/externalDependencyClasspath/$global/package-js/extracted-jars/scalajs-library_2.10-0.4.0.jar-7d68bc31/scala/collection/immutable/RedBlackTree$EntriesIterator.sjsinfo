@@ -1,0 +1,32 @@
+{
+  "name": "scala.collection.immutable.RedBlackTree$EntriesIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_RedBlackTree$EntriesIterator",
+  "superClass": "scala_collection_immutable_RedBlackTree$TreeIterator",
+  "ancestors": ["scala_collection_immutable_RedBlackTree$EntriesIterator", "scala_collection_immutable_RedBlackTree$TreeIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "nextResult__Lscala_collection_immutable_RedBlackTree$Tree__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["value__O", "key__O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "nextResult__Lscala_collection_immutable_RedBlackTree$Tree__O": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$EntriesIterator": ["nextResult__Lscala_collection_immutable_RedBlackTree$Tree__Lscala_Tuple2"]
+      }
+    },
+    "init___Lscala_collection_immutable_RedBlackTree$Tree": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$TreeIterator": ["init___Lscala_collection_immutable_RedBlackTree$Tree"]
+      }
+    }
+  }
+}

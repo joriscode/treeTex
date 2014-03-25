@@ -1,0 +1,335 @@
+{
+  "name": "scala.collection.TraversableOnce$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableOnce$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_TraversableOnce$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_TraversableOnce$class__reversed__Lscala_collection_TraversableOnce__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V", "seq__Lscala_collection_TraversableOnce"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "scala_collection_TraversableOnce$class__size__Lscala_collection_TraversableOnce__I": {
+      "calledMethods": {
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_TraversableOnce$class__nonEmpty__Lscala_collection_TraversableOnce__Z": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["isEmpty__Z"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__count__Lscala_collection_TraversableOnce__Lscala_Function1__I": {
+      "calledMethods": {
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_TraversableOnce$class__collectFirst__Lscala_collection_TraversableOnce__Lscala_PartialFunction__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["foreach__Lscala_Function1__V"],
+        "java_lang_Object": ["init___"],
+        "scala_runtime_NonLocalReturnControl": ["value__O", "key__O", "init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_PartialFunction": ["isDefinedAt__O__Z", "apply__O__O"],
+        "scala_Some": ["init___O"],
+        "scala_collection_TraversableOnce": ["toIterator__Lscala_collection_Iterator"]
+      },
+      "instantiatedClasses": ["java_lang_Object", "scala_runtime_NonLocalReturnControl", "scala_scalajs_runtime_AnonFunction1", "scala_Some"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_runtime_NonLocalReturnControl", "scala_Option"]
+    },
+    "scala_collection_TraversableOnce$class__$div$colon__Lscala_collection_TraversableOnce__O__Lscala_Function2__O": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__$colon$bslash__Lscala_collection_TraversableOnce__O__Lscala_Function2__O": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["foldRight__O__Lscala_Function2__O"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__foldLeft__Lscala_collection_TraversableOnce__O__Lscala_Function2__O": {
+      "calledMethods": {
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V", "seq__Lscala_collection_TraversableOnce"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"]
+    },
+    "scala_collection_TraversableOnce$class__foldRight__Lscala_collection_TraversableOnce__O__Lscala_Function2__O": {
+      "calledMethods": {
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_immutable_List": ["foldLeft__O__Lscala_Function2__O"],
+        "scala_collection_TraversableOnce": ["reversed__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"]
+    },
+    "scala_collection_TraversableOnce$class__reduceLeft__Lscala_collection_TraversableOnce__Lscala_Function2__O": {
+      "calledMethods": {
+        "java_lang_UnsupportedOperationException": ["init___T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_runtime_BooleanRef": ["init___Z"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V", "isEmpty__Z"]
+      },
+      "instantiatedClasses": ["scala_runtime_BooleanRef", "java_lang_UnsupportedOperationException", "scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"]
+    },
+    "scala_collection_TraversableOnce$class__reduceRight__Lscala_collection_TraversableOnce__Lscala_Function2__O": {
+      "calledMethods": {
+        "java_lang_UnsupportedOperationException": ["init___T"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_immutable_List": ["reduceLeft__Lscala_Function2__O"],
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_collection_TraversableOnce": ["reversed__Lscala_collection_immutable_List", "isEmpty__Z"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException", "scala_scalajs_runtime_AnonFunction2"]
+    },
+    "scala_collection_TraversableOnce$class__reduceLeftOption__Lscala_collection_TraversableOnce__Lscala_Function2__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["isEmpty__Z", "reduceLeft__Lscala_Function2__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_TraversableOnce$class__reduceRightOption__Lscala_collection_TraversableOnce__Lscala_Function2__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["reduceRight__Lscala_Function2__O", "isEmpty__Z"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_TraversableOnce$class__reduce__Lscala_collection_TraversableOnce__Lscala_Function2__O": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["reduceLeft__Lscala_Function2__O"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__reduceOption__Lscala_collection_TraversableOnce__Lscala_Function2__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["reduceLeftOption__Lscala_Function2__Lscala_Option"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__fold__Lscala_collection_TraversableOnce__O__Lscala_Function2__O": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__aggregate__Lscala_collection_TraversableOnce__O__Lscala_Function2__Lscala_Function2__O": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__sum__Lscala_collection_TraversableOnce__Lscala_math_Numeric__O": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_math_Numeric": ["zero__O", "plus__O__O__O"],
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"]
+    },
+    "scala_collection_TraversableOnce$class__product__Lscala_collection_TraversableOnce__Lscala_math_Numeric__O": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_math_Numeric": ["one__O", "times__O__O__O"],
+        "scala_collection_TraversableOnce": ["foldLeft__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"]
+    },
+    "scala_collection_TraversableOnce$class__min__Lscala_collection_TraversableOnce__Lscala_math_Ordering__O": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_TraversableOnce": ["isEmpty__Z", "reduceLeft__Lscala_Function2__O"],
+        "scala_math_Ordering": ["lteq__O__O__Z"],
+        "java_lang_UnsupportedOperationException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException", "scala_scalajs_runtime_AnonFunction2"]
+    },
+    "scala_collection_TraversableOnce$class__max__Lscala_collection_TraversableOnce__Lscala_math_Ordering__O": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_TraversableOnce": ["isEmpty__Z", "reduceLeft__Lscala_Function2__O"],
+        "scala_math_Ordering": ["gteq__O__O__Z"],
+        "java_lang_UnsupportedOperationException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException", "scala_scalajs_runtime_AnonFunction2"]
+    },
+    "scala_collection_TraversableOnce$class__maxBy__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_math_Ordering__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "java_lang_UnsupportedOperationException": ["init___T"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_math_Ordering": ["gteq__O__O__Z"],
+        "scala_collection_TraversableOnce": ["isEmpty__Z", "reduceLeft__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException", "scala_scalajs_runtime_AnonFunction2"]
+    },
+    "scala_collection_TraversableOnce$class__minBy__Lscala_collection_TraversableOnce__Lscala_Function1__Lscala_math_Ordering__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "java_lang_UnsupportedOperationException": ["init___T"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_math_Ordering": ["lteq__O__O__Z"],
+        "scala_collection_TraversableOnce": ["isEmpty__Z", "reduceLeft__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException", "scala_scalajs_runtime_AnonFunction2"]
+    },
+    "scala_collection_TraversableOnce$class__copyToBuffer__Lscala_collection_TraversableOnce__Lscala_collection_mutable_Buffer__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Buffer": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_TraversableOnce": ["seq__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__copyToArray__Lscala_collection_TraversableOnce__O__I__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"],
+        "scala_collection_TraversableOnce": ["copyToArray__O__I__I__V"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "scala_collection_TraversableOnce$class__copyToArray__Lscala_collection_TraversableOnce__O__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"],
+        "scala_collection_TraversableOnce": ["copyToArray__O__I__I__V"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "scala_collection_TraversableOnce$class__toArray__Lscala_collection_TraversableOnce__Lscala_reflect_ClassTag__O": {
+      "calledMethods": {
+        "scala_collection_mutable_Buffer": ["toArray__Lscala_reflect_ClassTag__O"],
+        "scala_collection_TraversableOnce": ["toBuffer__Lscala_collection_mutable_Buffer", "isTraversableAgain__Z", "size__I", "copyToArray__O__I__V"],
+        "scala_reflect_ClassTag": ["newArray__I__O"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__toList__Lscala_collection_TraversableOnce__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["to__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_List$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      },
+      "accessedModules": ["scala_collection_immutable_List"],
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "scala_collection_TraversableOnce$class__toIterable__Lscala_collection_TraversableOnce__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["toStream__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__toSeq__Lscala_collection_TraversableOnce__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["toStream__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__toIndexedSeq__Lscala_collection_TraversableOnce__Lscala_collection_immutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_Predef$": ["fallbackStringCanBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_TraversableOnce": ["to__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_collection_immutable_IndexedSeq"]
+    },
+    "scala_collection_TraversableOnce$class__toBuffer__Lscala_collection_TraversableOnce__Lscala_collection_mutable_Buffer": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["to__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_mutable_ArrayBuffer$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      },
+      "accessedModules": ["scala_collection_mutable_ArrayBuffer"],
+      "accessedClassData": ["scala_collection_mutable_Buffer"]
+    },
+    "scala_collection_TraversableOnce$class__toSet__Lscala_collection_TraversableOnce__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["to__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_Set$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      },
+      "accessedModules": ["scala_collection_immutable_Set"],
+      "accessedClassData": ["scala_collection_immutable_Set"]
+    },
+    "scala_collection_TraversableOnce$class__toVector__Lscala_collection_TraversableOnce__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_TraversableOnce": ["to__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "accessedModules": ["scala_collection_immutable_Vector"],
+      "accessedClassData": ["scala_collection_immutable_Vector"]
+    },
+    "scala_collection_TraversableOnce$class__to__Lscala_collection_TraversableOnce__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"],
+        "scala_collection_generic_CanBuildFrom": ["apply__Lscala_collection_mutable_Builder"],
+        "scala_collection_TraversableOnce": ["seq__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__toMap__Lscala_collection_TraversableOnce__Lscala_Predef$$less$colon$less__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Map$": ["newBuilder__Lscala_collection_mutable_Builder"],
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_Predef$$less$colon$less": ["apply__O__O"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_Map"],
+      "accessedClassData": ["scala_collection_immutable_Map"]
+    },
+    "scala_collection_TraversableOnce$class__mkString__Lscala_collection_TraversableOnce__T__T__T__T": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["addString__Lscala_collection_mutable_StringBuilder__T__T__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_mutable_StringBuilder": ["init___", "toString__T"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_StringBuilder"]
+    },
+    "scala_collection_TraversableOnce$class__mkString__Lscala_collection_TraversableOnce__T__T": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["mkString__T__T__T__T"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__mkString__Lscala_collection_TraversableOnce__T": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["mkString__T__T"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__addString__Lscala_collection_TraversableOnce__Lscala_collection_mutable_StringBuilder__T__T__T__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_StringBuilder": ["append__O__Lscala_collection_mutable_StringBuilder", "append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_runtime_BooleanRef": ["init___Z"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_runtime_BooleanRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_collection_TraversableOnce$class__addString__Lscala_collection_TraversableOnce__Lscala_collection_mutable_StringBuilder__T__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["addString__Lscala_collection_mutable_StringBuilder__T__T__T__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__addString__Lscala_collection_TraversableOnce__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["addString__Lscala_collection_mutable_StringBuilder__T__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "scala_collection_TraversableOnce$class__$init$__Lscala_collection_TraversableOnce__V": {}
+  }
+}

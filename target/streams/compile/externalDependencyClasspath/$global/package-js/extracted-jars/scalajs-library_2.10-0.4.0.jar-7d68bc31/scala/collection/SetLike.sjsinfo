@@ -1,0 +1,71 @@
+{
+  "name": "scala.collection.SetLike",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SetLike",
+  "superClass": "",
+  "ancestors": ["scala_collection_SetLike", "scala_collection_generic_Subtractable", "scala_collection_GenSetLike", "scala_Function1", "scala_collection_IterableLike", "scala_collection_GenIterableLike", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "scala$collection$SetLike$$super$map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "empty__Lscala_collection_Set": {
+      "isAbstract": true
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "isAbstract": true
+    },
+    "parCombiner__Lscala_collection_parallel_Combiner": {
+      "isAbstract": true
+    },
+    "toSeq__Lscala_collection_Seq": {
+      "isAbstract": true
+    },
+    "toBuffer__Lscala_collection_mutable_Buffer": {
+      "isAbstract": true
+    },
+    "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "contains__O__Z": {
+      "isAbstract": true
+    },
+    "$$plus__O__Lscala_collection_Set": {
+      "isAbstract": true
+    },
+    "$$plus__O__O__Lscala_collection_Seq__Lscala_collection_Set": {
+      "isAbstract": true
+    },
+    "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_Set": {
+      "isAbstract": true
+    },
+    "$$minus__O__Lscala_collection_Set": {
+      "isAbstract": true
+    },
+    "isEmpty__Z": {
+      "isAbstract": true
+    },
+    "union__Lscala_collection_GenSet__Lscala_collection_Set": {
+      "isAbstract": true
+    },
+    "diff__Lscala_collection_GenSet__Lscala_collection_Set": {
+      "isAbstract": true
+    },
+    "subsets__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "subsets__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "stringPrefix__T": {
+      "isAbstract": true
+    },
+    "toString__T": {
+      "isAbstract": true
+    }
+  }
+}

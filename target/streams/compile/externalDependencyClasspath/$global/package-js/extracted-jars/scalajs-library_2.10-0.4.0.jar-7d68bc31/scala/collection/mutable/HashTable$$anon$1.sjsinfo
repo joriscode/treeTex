@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.mutable.HashTable$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_HashTable$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_mutable_HashTable$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "iterTable__p2__ALscala_collection_mutable_HashEntry": {},
+    "idx__p2__I": {},
+    "idx$und$eq__p2__I__V": {},
+    "es__p2__Lscala_collection_mutable_HashEntry": {},
+    "es$und$eq__p2__Lscala_collection_mutable_HashEntry__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$$anon$1": ["es__p2__Lscala_collection_mutable_HashEntry"]
+      }
+    },
+    "next__Lscala_collection_mutable_HashEntry": {
+      "calledMethods": {
+        "scala_collection_mutable_HashEntry": ["next__O"],
+        "scala_collection_mutable_HashTable$$anon$1": ["es__p2__Lscala_collection_mutable_HashEntry", "idx$und$eq__p2__I__V", "es$und$eq__p2__Lscala_collection_mutable_HashEntry__V", "iterTable__p2__ALscala_collection_mutable_HashEntry", "idx__p2__I"]
+      },
+      "accessedClassData": ["scala_collection_mutable_HashEntry"]
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$$anon$1": ["next__Lscala_collection_mutable_HashEntry"]
+      }
+    },
+    "init___Lscala_collection_mutable_HashTable": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$$anon$1": ["iterTable__p2__ALscala_collection_mutable_HashEntry", "idx__p2__I"],
+        "scala_collection_mutable_HashTable": ["table__ALscala_collection_mutable_HashEntry"],
+        "scala_collection_mutable_HashTable$class": ["scala_collection_mutable_HashTable$class__scala$collection$mutable$HashTable$$lastPopulatedIndex__Lscala_collection_mutable_HashTable__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

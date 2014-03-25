@@ -1,0 +1,107 @@
+{
+  "name": "scala.collection.immutable.RedBlack",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_RedBlack",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_RedBlack", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "Empty$lzycompute__p1__Lscala_collection_immutable_RedBlack$Empty$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_immutable_RedBlack$Empty$": ["init___Lscala_collection_immutable_RedBlack"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_RedBlack$Empty$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "RedTree$lzycompute__p1__Lscala_collection_immutable_RedBlack$RedTree$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_immutable_RedBlack$RedTree$": ["init___Lscala_collection_immutable_RedBlack"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_RedBlack$RedTree$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "BlackTree$lzycompute__p1__Lscala_collection_immutable_RedBlack$BlackTree$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_immutable_RedBlack$BlackTree$": ["init___Lscala_collection_immutable_RedBlack"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_RedBlack$BlackTree$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "isSmaller__O__O__Z": {
+      "isAbstract": true
+    },
+    "scala$collection$immutable$RedBlack$$blacken__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$RedTree": ["left__Lscala_collection_immutable_RedBlack$Tree", "key__O", "value__O", "right__Lscala_collection_immutable_RedBlack$Tree"],
+        "scala_collection_immutable_RedBlack$BlackTree": ["init___Lscala_collection_immutable_RedBlack__O__O__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_RedBlack$BlackTree"],
+      "accessedClassData": ["scala_collection_immutable_RedBlack$RedTree"]
+    },
+    "scala$collection$immutable$RedBlack$$mkTree__Z__O__O__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$NonEmpty": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack$RedTree": ["init___Lscala_collection_immutable_RedBlack__O__O__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree"],
+        "scala_collection_immutable_RedBlack$BlackTree": ["init___Lscala_collection_immutable_RedBlack__O__O__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_RedBlack$BlackTree", "scala_collection_immutable_RedBlack$RedTree"]
+    },
+    "Empty__Lscala_collection_immutable_RedBlack$Empty$": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["Empty$lzycompute__p1__Lscala_collection_immutable_RedBlack$Empty$"]
+      }
+    },
+    "RedTree__Lscala_collection_immutable_RedBlack$RedTree$": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["RedTree$lzycompute__p1__Lscala_collection_immutable_RedBlack$RedTree$"]
+      }
+    },
+    "BlackTree__Lscala_collection_immutable_RedBlack$BlackTree$": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["BlackTree$lzycompute__p1__Lscala_collection_immutable_RedBlack$BlackTree$"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "BlackTree__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["BlackTree__Lscala_collection_immutable_RedBlack$BlackTree$"]
+      }
+    },
+    "RedTree__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["RedTree__Lscala_collection_immutable_RedBlack$RedTree$"]
+      }
+    },
+    "Empty__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["Empty__Lscala_collection_immutable_RedBlack$Empty$"]
+      }
+    },
+    "scala$collection$immutable$RedBlack$$mkTree__Z__O__O__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["scala$collection$immutable$RedBlack$$mkTree__Z__O__O__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$NonEmpty"]
+      }
+    },
+    "scala$collection$immutable$RedBlack$$blacken__Lscala_collection_immutable_RedBlack$Tree__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["scala$collection$immutable$RedBlack$$blacken__Lscala_collection_immutable_RedBlack$Tree__Lscala_collection_immutable_RedBlack$Tree"]
+      }
+    },
+    "isSmaller__O__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlack": ["isSmaller__O__O__Z"]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "scala.collection.Iterator$$anon$12",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$$anon$12",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_Iterator$$anon$12", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "it$lzycompute__p2__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_GenTraversableOnce": ["toIterator__Lscala_collection_Iterator"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_GenTraversableOnce"]
+    },
+    "cur__p2__Lscala_collection_Iterator": {},
+    "cur$und$eq__p2__Lscala_collection_Iterator__V": {},
+    "selfExhausted__p2__Z": {},
+    "selfExhausted$und$eq__p2__Z__V": {},
+    "it__p2__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$12": ["it$lzycompute__p2__Lscala_collection_Iterator"]
+      }
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$12": ["selfExhausted$und$eq__p2__Z__V", "it__p2__Lscala_collection_Iterator", "selfExhausted__p2__Z", "cur__p2__Lscala_collection_Iterator", "cur$und$eq__p2__Lscala_collection_Iterator__V"],
+        "scala_collection_Iterator": ["hasNext__Z"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$12": ["hasNext__Z", "cur__p2__Lscala_collection_Iterator"],
+        "scala_collection_Iterator": ["next__O"]
+      }
+    },
+    "init___Lscala_collection_Iterator__Lscala_Function0": {
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

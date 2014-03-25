@@ -1,0 +1,135 @@
+{
+  "name": "scala.io.Codec",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_Codec",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_Codec", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "charSet__Ljava_nio_charset_Charset": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_io_Codec": ["name__T"]
+      }
+    },
+    "onMalformedInput__Ljava_nio_charset_CodingErrorAction__Lscala_io_Codec": {},
+    "onUnmappableCharacter__Ljava_nio_charset_CodingErrorAction__Lscala_io_Codec": {},
+    "decodingReplaceWith__T__Lscala_io_Codec": {},
+    "encodingReplaceWith__AB__Lscala_io_Codec": {},
+    "onCodingException__Lscala_Function1__Lscala_io_Codec": {},
+    "name__T": {
+      "calledMethods": {
+        "scala_io_Codec": ["charSet__Ljava_nio_charset_Charset"],
+        "java_nio_charset_Charset": ["name__T"]
+      }
+    },
+    "encoder__Ljava_nio_charset_CharsetEncoder": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_io_Codec": ["charSet__Ljava_nio_charset_Charset", "applyFunctions__p1__O__Lscala_collection_Seq__O"],
+        "java_nio_charset_CharsetEncoder": ["onUnmappableCharacter__Ljava_nio_charset_CodingErrorAction__Ljava_nio_charset_CharsetEncoder", "replaceWith__AB__Ljava_nio_charset_CharsetEncoder", "onMalformedInput__Ljava_nio_charset_CodingErrorAction__Ljava_nio_charset_CharsetEncoder"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "java_nio_charset_Charset": ["newEncoder__Ljava_nio_charset_CharsetEncoder"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_Tuple2", "java_nio_charset_CharsetEncoder", "java_lang_Object"]
+    },
+    "decoder__Ljava_nio_charset_CharsetDecoder": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_io_Codec": ["charSet__Ljava_nio_charset_Charset", "applyFunctions__p1__O__Lscala_collection_Seq__O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "java_nio_charset_CharsetDecoder": ["onMalformedInput__Ljava_nio_charset_CodingErrorAction__Ljava_nio_charset_CharsetDecoder", "replaceWith__T__Ljava_nio_charset_CharsetDecoder", "onUnmappableCharacter__Ljava_nio_charset_CodingErrorAction__Ljava_nio_charset_CharsetDecoder"],
+        "java_nio_charset_Charset": ["newDecoder__Ljava_nio_charset_CharsetDecoder"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_Tuple2", "java_lang_Object", "java_nio_charset_CharsetDecoder"]
+    },
+    "wrap__Lscala_Function0__I": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Function0": ["apply$mcI$sp__I"]
+      },
+      "accessedClassData": ["java_nio_charset_CharacterCodingException"]
+    },
+    "applyFunctions__p1__O__Lscala_collection_Seq__O": {
+      "calledMethods": {
+        "scala_collection_Seq": ["foldLeft__O__Lscala_Function2__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_Tuple2": ["$$und1__O", "$$und2$mcZ$sp__Z"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction2"],
+      "accessedClassData": ["scala_Function1"]
+    },
+    "init___Ljava_nio_charset_Charset": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "wrap__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_io_Codec": ["wrap__Lscala_Function0__I"]
+      }
+    },
+    "decoder__": {
+      "calledMethods": {
+        "scala_io_Codec": ["decoder__Ljava_nio_charset_CharsetDecoder"]
+      }
+    },
+    "encoder__": {
+      "calledMethods": {
+        "scala_io_Codec": ["encoder__Ljava_nio_charset_CharsetEncoder"]
+      }
+    },
+    "name__": {
+      "calledMethods": {
+        "scala_io_Codec": ["name__T"]
+      }
+    },
+    "onCodingException__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_io_Codec": ["onCodingException__Lscala_Function1__Lscala_io_Codec"]
+      }
+    },
+    "encodingReplaceWith__AB__": {
+      "calledMethods": {
+        "scala_io_Codec": ["encodingReplaceWith__AB__Lscala_io_Codec"]
+      }
+    },
+    "decodingReplaceWith__T__": {
+      "calledMethods": {
+        "scala_io_Codec": ["decodingReplaceWith__T__Lscala_io_Codec"]
+      }
+    },
+    "onUnmappableCharacter__Ljava_nio_charset_CodingErrorAction__": {
+      "calledMethods": {
+        "scala_io_Codec": ["onUnmappableCharacter__Ljava_nio_charset_CodingErrorAction__Lscala_io_Codec"]
+      }
+    },
+    "onMalformedInput__Ljava_nio_charset_CodingErrorAction__": {
+      "calledMethods": {
+        "scala_io_Codec": ["onMalformedInput__Ljava_nio_charset_CodingErrorAction__Lscala_io_Codec"]
+      }
+    },
+    "charSet__": {
+      "calledMethods": {
+        "scala_io_Codec": ["charSet__Ljava_nio_charset_Charset"]
+      }
+    }
+  }
+}

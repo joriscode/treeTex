@@ -1,0 +1,71 @@
+{
+  "name": "scala.collection.SetLike$SubsetsItr",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SetLike$SubsetsItr",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_SetLike$SubsetsItr", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$collection$SetLike$SubsetsItr$$idxs__AI": {},
+    "$$undhasNext__p2__Z": {},
+    "$$undhasNext$und$eq__p2__Z__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_SetLike$SubsetsItr": ["$$undhasNext__p2__Z"]
+      }
+    },
+    "next__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_Predef$": ["intArrayOps__AI__Lscala_collection_mutable_ArrayOps", "intWrapper__I__I"],
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_mutable_ArrayOps": ["foreach__Lscala_Function1__V", "slice__I__I__O"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_SetLike": ["newBuilder__Lscala_collection_mutable_Builder"],
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_SetLike$SubsetsItr": ["scala$collection$SetLike$SubsetsItr$$$outer__Lscala_collection_SetLike", "$$undhasNext$und$eq__p2__Z__V", "hasNext__Z", "scala$collection$SetLike$SubsetsItr$$idxs__AI"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_IndexedSeq": ["apply__I__O"],
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_collection_Iterator", "scala_Predef", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_Set"]
+    },
+    "scala$collection$SetLike$SubsetsItr$$$outer__Lscala_collection_SetLike": {},
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_SetLike$SubsetsItr": ["next__Lscala_collection_Set"]
+      }
+    },
+    "init___Lscala_collection_SetLike__Lscala_collection_IndexedSeq__I": {
+      "calledMethods": {
+        "scala_collection_IndexedSeq": ["size__I"],
+        "java_lang_NullPointerException": ["init___"],
+        "scala_Array$": ["range__I__I__AI"],
+        "scala_collection_SetLike$SubsetsItr": ["scala$collection$SetLike$SubsetsItr$$idxs__AI"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"],
+      "accessedModules": ["scala_Array"]
+    },
+    "scala$collection$SetLike$SubsetsItr$$$outer__": {
+      "calledMethods": {
+        "scala_collection_SetLike$SubsetsItr": ["scala$collection$SetLike$SubsetsItr$$$outer__Lscala_collection_SetLike"]
+      }
+    },
+    "scala$collection$SetLike$SubsetsItr$$idxs__": {
+      "calledMethods": {
+        "scala_collection_SetLike$SubsetsItr": ["scala$collection$SetLike$SubsetsItr$$idxs__AI"]
+      }
+    }
+  }
+}

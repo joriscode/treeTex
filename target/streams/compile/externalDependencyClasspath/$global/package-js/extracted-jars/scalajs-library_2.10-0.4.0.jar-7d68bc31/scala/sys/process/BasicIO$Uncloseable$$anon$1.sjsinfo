@@ -1,0 +1,28 @@
+{
+  "name": "scala.sys.process.BasicIO$Uncloseable$$anon$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_BasicIO$Uncloseable$$anon$1",
+  "superClass": "java_io_FilterOutputStream",
+  "ancestors": ["scala_sys_process_BasicIO$Uncloseable$$anon$1", "scala_sys_process_BasicIO$Uncloseable", "java_io_FilterOutputStream", "java_io_OutputStream", "java_io_Flushable", "java_io_Closeable", "java_lang_AutoCloseable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "close__V": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Uncloseable$class": ["scala_sys_process_BasicIO$Uncloseable$class__close__Lscala_sys_process_BasicIO$Uncloseable__V"]
+      }
+    },
+    "init___Ljava_io_OutputStream": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Uncloseable$class": ["scala_sys_process_BasicIO$Uncloseable$class__$init$__Lscala_sys_process_BasicIO$Uncloseable__V"]
+      },
+      "calledMethodsStatic": {
+        "java_io_FilterOutputStream": ["init___Ljava_io_OutputStream"]
+      }
+    }
+  }
+}

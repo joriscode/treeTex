@@ -1,0 +1,37 @@
+{
+  "name": "scala.xml.dtd.ContentModel",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_ContentModel",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_dtd_ContentModel", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_dtd_ContentModel": ["buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"],
+        "scala_xml_Utility$": ["sbToString__Lscala_Function1__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder": {
+      "isAbstract": true
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "buildString__Lscala_collection_mutable_StringBuilder__": {
+      "calledMethods": {
+        "scala_xml_dtd_ContentModel": ["buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"]
+      }
+    }
+  }
+}

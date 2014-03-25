@@ -1,0 +1,52 @@
+{
+  "name": "scala.util.MurmurHash$mcI$sp",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_MurmurHash$mcI$sp",
+  "superClass": "scala_util_MurmurHash",
+  "ancestors": ["scala_util_MurmurHash$mcI$sp", "scala_Function1$mcVI$sp", "scala_util_MurmurHash", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__I__V": {
+      "calledMethods": {
+        "scala_util_MurmurHash$mcI$sp": ["apply$mcI$sp__I__V"]
+      }
+    },
+    "apply$mcI$sp__I__V": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "nextMagicA__I__I", "extendHash__I__I__I__I__I"],
+        "scala_util_MurmurHash$mcI$sp": ["scala$util$MurmurHash$$h__I", "scala$util$MurmurHash$$k__I", "scala$util$MurmurHash$$k$und$eq__I__V", "scala$util$MurmurHash$$c$und$eq__I__V", "scala$util$MurmurHash$$h$und$eq__I__V", "scala$util$MurmurHash$$hashed$und$eq__Z__V", "scala$util$MurmurHash$$c__I"]
+      },
+      "accessedModules": ["scala_util_MurmurHash"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_util_MurmurHash$mcI$sp": ["apply__I__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "apply__O__V": {
+      "calledMethods": {
+        "scala_util_MurmurHash$mcI$sp": ["apply__I__V"]
+      }
+    },
+    "init___I": {
+      "calledMethods": {
+        "scala_Function1$mcVI$sp$class": ["scala_Function1$mcVI$sp$class__$init$__Lscala_Function1$mcVI$sp__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_MurmurHash": ["init___I"]
+      }
+    },
+    "apply__I__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$mcI$sp": ["apply__I__V"]
+      }
+    }
+  }
+}

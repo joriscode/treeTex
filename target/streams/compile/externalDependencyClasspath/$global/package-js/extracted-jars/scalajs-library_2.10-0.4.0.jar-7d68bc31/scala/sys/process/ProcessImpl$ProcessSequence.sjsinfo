@@ -1,0 +1,30 @@
+{
+  "name": "scala.sys.process.ProcessImpl$ProcessSequence",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$ProcessSequence",
+  "superClass": "scala_sys_process_ProcessImpl$SequentialProcess",
+  "ancestors": ["scala_sys_process_ProcessImpl$ProcessSequence", "scala_sys_process_ProcessImpl$SequentialProcess", "scala_sys_process_ProcessImpl$CompoundProcess", "scala_sys_process_ProcessImpl$BasicProcess", "scala_sys_process_Process", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$sys$process$ProcessImpl$ProcessSequence$$$outer__Lscala_sys_process_Process$": {},
+    "init___Lscala_sys_process_Process$__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessIO": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessImpl$SequentialProcess": ["init___Lscala_sys_process_Process$__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessIO__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala$sys$process$ProcessImpl$ProcessSequence$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$ProcessSequence": ["scala$sys$process$ProcessImpl$ProcessSequence$$$outer__Lscala_sys_process_Process$"]
+      }
+    }
+  }
+}

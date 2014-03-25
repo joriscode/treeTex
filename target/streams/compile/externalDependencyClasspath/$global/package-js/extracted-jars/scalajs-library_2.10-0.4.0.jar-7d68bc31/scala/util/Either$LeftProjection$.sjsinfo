@@ -1,0 +1,48 @@
+{
+  "name": "scala.util.Either$LeftProjection$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Either$LeftProjection$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Either$LeftProjection$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_util_Either__Lscala_util_Either$LeftProjection": {
+      "calledMethods": {
+        "scala_util_Either$LeftProjection": ["init___Lscala_util_Either"]
+      },
+      "instantiatedClasses": ["scala_util_Either$LeftProjection"]
+    },
+    "unapply__Lscala_util_Either$LeftProjection__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_util_Either$LeftProjection": ["e__Lscala_util_Either"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_util_Either$LeftProjection"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_util_Either$LeftProjection__": {
+      "calledMethods": {
+        "scala_util_Either$LeftProjection$": ["unapply__Lscala_util_Either$LeftProjection__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_util_Either__": {
+      "calledMethods": {
+        "scala_util_Either$LeftProjection$": ["apply__Lscala_util_Either__Lscala_util_Either$LeftProjection"]
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "scala.Float$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Float$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Float$", "scala_AnyValCompanion", "scala_Specializable", "scala_SpecializableCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "MinPositiveValue__F": {},
+    "NaN__F": {},
+    "PositiveInfinity__F": {},
+    "NegativeInfinity__F": {},
+    "MinValue__F": {},
+    "MaxValue__F": {},
+    "box__F__Ljava_lang_Float": {
+      "calledMethods": {
+        "java_lang_Float$": ["valueOf__F__Ljava_lang_Float"]
+      },
+      "accessedModules": ["java_lang_Float"]
+    },
+    "unbox__O__F": {
+      "calledMethods": {
+        "java_lang_Float": ["floatValue__F"]
+      },
+      "accessedClassData": ["java_lang_Float"]
+    },
+    "toString__T": {},
+    "float2double__F__D": {},
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "float2double__F__": {
+      "calledMethods": {
+        "scala_Float$": ["float2double__F__D"]
+      }
+    },
+    "unbox__O__": {
+      "calledMethods": {
+        "scala_Float$": ["unbox__O__F"]
+      }
+    },
+    "box__F__": {
+      "calledMethods": {
+        "scala_Float$": ["box__F__Ljava_lang_Float"]
+      }
+    },
+    "MaxValue__": {
+      "calledMethods": {
+        "scala_Float$": ["MaxValue__F"]
+      }
+    },
+    "MinValue__": {
+      "calledMethods": {
+        "scala_Float$": ["MinValue__F"]
+      }
+    },
+    "NegativeInfinity__": {
+      "calledMethods": {
+        "scala_Float$": ["NegativeInfinity__F"]
+      }
+    },
+    "PositiveInfinity__": {
+      "calledMethods": {
+        "scala_Float$": ["PositiveInfinity__F"]
+      }
+    },
+    "NaN__": {
+      "calledMethods": {
+        "scala_Float$": ["NaN__F"]
+      }
+    },
+    "MinPositiveValue__": {
+      "calledMethods": {
+        "scala_Float$": ["MinPositiveValue__F"]
+      }
+    }
+  }
+}

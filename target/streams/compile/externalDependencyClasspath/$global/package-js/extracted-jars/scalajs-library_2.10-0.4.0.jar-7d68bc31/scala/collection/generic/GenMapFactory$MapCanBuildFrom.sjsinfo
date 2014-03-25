@@ -1,0 +1,63 @@
+{
+  "name": "scala.collection.generic.GenMapFactory$MapCanBuildFrom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_GenMapFactory$MapCanBuildFrom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_GenMapFactory$MapCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_GenMap__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory": ["newBuilder__Lscala_collection_mutable_Builder"],
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["scala$collection$generic$GenMapFactory$MapCanBuildFrom$$$outer__Lscala_collection_generic_GenMapFactory"]
+      }
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory": ["newBuilder__Lscala_collection_mutable_Builder"],
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["scala$collection$generic$GenMapFactory$MapCanBuildFrom$$$outer__Lscala_collection_generic_GenMapFactory"]
+      }
+    },
+    "scala$collection$generic$GenMapFactory$MapCanBuildFrom$$$outer__Lscala_collection_generic_GenMapFactory": {},
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["apply__Lscala_collection_GenMap__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_GenMap"]
+    },
+    "init___Lscala_collection_generic_GenMapFactory": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$generic$GenMapFactory$MapCanBuildFrom$$$outer__": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["scala$collection$generic$GenMapFactory$MapCanBuildFrom$$$outer__Lscala_collection_generic_GenMapFactory"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_GenMap__": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["apply__Lscala_collection_GenMap__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

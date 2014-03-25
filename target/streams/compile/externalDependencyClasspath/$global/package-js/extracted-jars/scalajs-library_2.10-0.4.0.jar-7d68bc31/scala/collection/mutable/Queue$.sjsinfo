@@ -1,0 +1,40 @@
+{
+  "name": "scala.collection.mutable.Queue$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_Queue$",
+  "superClass": "scala_collection_generic_SeqFactory",
+  "ancestors": ["scala_collection_mutable_Queue$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_SeqFactory", "scala_collection_generic_TraversableFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenSeqFactory", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_mutable_Queue$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_MutableList": ["init___", "toQueue__Lscala_collection_mutable_Queue", "mapResult__Lscala_Function1__Lscala_collection_mutable_Builder"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_collection_mutable_MutableList"]
+    },
+    "readResolve__p5__O": {
+      "accessedModules": ["scala_collection_mutable_Queue"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_SeqFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_mutable_Queue$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "name": "scala.xml.PrettyPrinter",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_PrettyPrinter",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_PrettyPrinter", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "Break$lzycompute__p1__Lscala_xml_PrettyPrinter$Break$": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Break$": ["init___Lscala_xml_PrettyPrinter"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$Break$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "Box$lzycompute__p1__Lscala_xml_PrettyPrinter$Box$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_PrettyPrinter$Box$": ["init___Lscala_xml_PrettyPrinter"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$Box$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "Para$lzycompute__p1__Lscala_xml_PrettyPrinter$Para$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_PrettyPrinter$Para$": ["init___Lscala_xml_PrettyPrinter"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$Para$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "Break__Lscala_xml_PrettyPrinter$Break$": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["Break$lzycompute__p1__Lscala_xml_PrettyPrinter$Break$"]
+      }
+    },
+    "Box__Lscala_xml_PrettyPrinter$Box$": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["Box$lzycompute__p1__Lscala_xml_PrettyPrinter$Box$"]
+      }
+    },
+    "Para__Lscala_xml_PrettyPrinter$Para$": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["Para$lzycompute__p1__Lscala_xml_PrettyPrinter$Para$"]
+      }
+    },
+    "items__Lscala_collection_immutable_List": {},
+    "items$und$eq__Lscala_collection_immutable_List__V": {},
+    "cur__I": {},
+    "cur$und$eq__I__V": {},
+    "reset__V": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["items$und$eq__Lscala_collection_immutable_List__V", "cur$und$eq__I__V"]
+      },
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "cut__T__I__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__I__I", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I", "scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__I__I__I", "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List", "head__O", "tail__O"],
+        "scala_xml_PrettyPrinter$BrokenException": ["init___Lscala_xml_PrettyPrinter"],
+        "scala_xml_PrettyPrinter$Box": ["init___Lscala_xml_PrettyPrinter__I__T"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"],
+        "scala_collection_mutable_StringBuilder": ["init___"],
+        "scala_xml_PrettyPrinter": ["cur__I", "Break__Lscala_xml_PrettyPrinter$Break$", "cut__T__I__Lscala_collection_immutable_List", "cur$und$eq__I__V"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$BrokenException", "scala_xml_PrettyPrinter$Box", "scala_collection_mutable_StringBuilder"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_xml_PrettyPrinter$BrokenException", "scala_collection_immutable_List", "scala_xml_PrettyPrinter$Box", "java_lang_Object"]
+    },
+    "makeBox__I__T__V": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List", "foreach__Lscala_Function1__V"],
+        "scala_xml_PrettyPrinter$Box": ["init___Lscala_xml_PrettyPrinter__I__T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_PrettyPrinter": ["items__Lscala_collection_immutable_List", "makePara__I__T__V", "items$und$eq__Lscala_collection_immutable_List__V", "cut__T__I__Lscala_collection_immutable_List", "cur$und$eq__I__V", "cur__I"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$Box", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_xml_PrettyPrinter$BrokenException"]
+    },
+    "makePara__I__T__V": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["items__Lscala_collection_immutable_List", "Break__Lscala_xml_PrettyPrinter$Break$", "items$und$eq__Lscala_collection_immutable_List__V", "cur$und$eq__I__V"],
+        "scala_xml_PrettyPrinter$Para": ["init___Lscala_xml_PrettyPrinter__T"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$Para"]
+    },
+    "makeBreak__V": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["items__Lscala_collection_immutable_List", "Break__Lscala_xml_PrettyPrinter$Break$", "items$und$eq__Lscala_collection_immutable_List__V", "cur$und$eq__I__V"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"]
+      }
+    },
+    "leafTag__Lscala_xml_Node__T": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["scala$xml$PrettyPrinter$$mkLeaf$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Utility$": ["sbToString__Lscala_Function1__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "startTag__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_xml_PrettyPrinter": ["scala$xml$PrettyPrinter$$mkStart$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_runtime_IntRef__V"],
+        "scala_xml_Utility$": ["sbToString__Lscala_Function1__T"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "endTag__Lscala_xml_Node__T": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["scala$xml$PrettyPrinter$$mkEnd$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Utility$": ["sbToString__Lscala_Function1__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "childrenAreLeaves__Lscala_xml_Node__Z": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["scala$xml$PrettyPrinter$$isLeaf$1__Lscala_xml_Node__Z"],
+        "scala_xml_Node": ["child__Lscala_collection_Seq"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_Seq": ["forall__Lscala_Function1__Z"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "fits__T__Z": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["cur__I"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "doPreserve__p1__Lscala_xml_Node__Z": {
+      "calledMethods": {
+        "scala_collection_Seq": ["toString__T"],
+        "scala_Option": ["getOrElse__Lscala_Function0__O", "map__Lscala_Function1__Lscala_Option"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Node": ["attribute__T__T__Lscala_Option"],
+        "scala_xml_XML$": ["space__T", "namespace__T", "preserve__T"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_XML"]
+    },
+    "traverse__Lscala_xml_Node__Lscala_xml_NamespaceBinding__I__V": {
+      "calledMethods": {
+        "scala_collection_Seq": ["iterator__Lscala_collection_Iterator", "apply__I__O"],
+        "scala_Option": ["get__O", "isEmpty__Z"],
+        "scala_MatchError": ["init___O"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__trim__Lscala_scalajs_runtime_RuntimeString__T", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I", "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T"],
+        "scala_Tuple2": ["$$und2$mcI$sp__I", "init___O__O", "$$und1__O"],
+        "scala_xml_TextBuffer$": ["fromString__T__Lscala_xml_TextBuffer"],
+        "scala_xml_Atom": ["data__O"],
+        "scala_collection_mutable_StringBuilder": ["init___", "toString__T"],
+        "scala_xml_Node": ["child__Lscala_collection_Seq", "scope__Lscala_xml_NamespaceBinding", "toString__T"],
+        "scala_xml_Text$": ["unapply__O__Lscala_Option"],
+        "scala_xml_Group": ["nodes__Lscala_collection_Seq"],
+        "scala_xml_PrettyPrinter": ["makeBreak__V", "childrenAreLeaves__Lscala_xml_Node__Z", "endTag__Lscala_xml_Node__T", "doPreserve__p1__Lscala_xml_Node__Z", "traverse__Lscala_collection_Iterator__Lscala_xml_NamespaceBinding__I__V", "makeBox__I__T__V", "fits__T__Z", "startTag__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_Tuple2", "cur__I"],
+        "scala_xml_Utility$": ["serialize$default$7__Lscala_Enumeration$Value", "serialize$default$6__Z", "serialize__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__Z__Z__Z__Lscala_Enumeration$Value__Lscala_collection_mutable_StringBuilder", "serialize$default$5__Z"],
+        "scala_xml_TextBuffer": ["toText__Lscala_collection_Seq"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_collection_mutable_StringBuilder"],
+      "accessedModules": ["scala_xml_TextBuffer", "scala_xml_Utility", "scala_xml_Text", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_Comment", "scala_xml_Atom", "scala_xml_ProcInstr", "scala_xml_EntityRef", "java_lang_String", "scala_xml_Group"]
+    },
+    "traverse__Lscala_collection_Iterator__Lscala_xml_NamespaceBinding__I__V": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["traverse__Lscala_xml_Node__Lscala_xml_NamespaceBinding__I__V", "makeBreak__V"],
+        "scala_collection_Iterator": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "format__Lscala_xml_Node__Lscala_collection_mutable_StringBuilder__V": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__V"]
+      }
+    },
+    "format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_List": ["foreach__Lscala_Function1__V", "reverse__Lscala_collection_immutable_List"],
+        "scala_xml_PrettyPrinter$Box": ["col__I", "s__T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_StringBuilder": ["append__C__Lscala_collection_mutable_StringBuilder", "append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_xml_PrettyPrinter$Para": ["s__T"],
+        "scala_runtime_BooleanRef": ["init___Z"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_xml_PrettyPrinter": ["reset__V", "items__Lscala_collection_immutable_List", "traverse__Lscala_xml_Node__Lscala_xml_NamespaceBinding__I__V", "Break__Lscala_xml_PrettyPrinter$Break$"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_runtime_BooleanRef", "scala_MatchError", "scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_PrettyPrinter$Box", "scala_xml_PrettyPrinter$Para"]
+    },
+    "format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__T": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Utility$": ["sbToString__Lscala_Function1__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "format$default$2__Lscala_xml_NamespaceBinding": {},
+    "formatNodes__Lscala_collection_Seq__Lscala_xml_NamespaceBinding__T": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["formatNodes__Lscala_collection_Seq__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Utility$": ["sbToString__Lscala_Function1__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "formatNodes__Lscala_collection_Seq__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__V": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__T"],
+        "scala_collection_mutable_StringBuilder": ["append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "formatNodes$default$2__Lscala_xml_NamespaceBinding": {},
+    "scala$xml$PrettyPrinter$$mkLeaf$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__V": {
+      "calledMethods": {
+        "scala_xml_Node": ["attributes__Lscala_xml_MetaData", "nameToString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_mutable_StringBuilder": ["append__C__Lscala_collection_mutable_StringBuilder", "append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_xml_MetaData": ["buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "scala$xml$PrettyPrinter$$mkStart$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_runtime_IntRef__V": {
+      "calledMethods": {
+        "scala_xml_NamespaceBinding": ["buildString__Lscala_collection_mutable_StringBuilder__Lscala_xml_NamespaceBinding__V"],
+        "scala_xml_Node": ["attributes__Lscala_xml_MetaData", "scope__Lscala_xml_NamespaceBinding", "nameToString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_mutable_StringBuilder": ["append__C__Lscala_collection_mutable_StringBuilder", "length__I"],
+        "scala_xml_MetaData": ["buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "scala$xml$PrettyPrinter$$mkEnd$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__V": {
+      "calledMethods": {
+        "scala_xml_Node": ["nameToString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_mutable_StringBuilder": ["append__C__Lscala_collection_mutable_StringBuilder", "append__T__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "scala$xml$PrettyPrinter$$isLeaf$1__Lscala_xml_Node__Z": {
+      "accessedClassData": ["scala_xml_Comment", "scala_xml_Atom", "scala_xml_ProcInstr", "scala_xml_EntityRef"]
+    },
+    "init___I__I": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "scala$xml$PrettyPrinter$$isLeaf$1__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["scala$xml$PrettyPrinter$$isLeaf$1__Lscala_xml_Node__Z"]
+      }
+    },
+    "scala$xml$PrettyPrinter$$mkEnd$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["scala$xml$PrettyPrinter$$mkEnd$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__V"]
+      }
+    },
+    "scala$xml$PrettyPrinter$$mkStart$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_runtime_IntRef__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["scala$xml$PrettyPrinter$$mkStart$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_runtime_IntRef__V"]
+      }
+    },
+    "scala$xml$PrettyPrinter$$mkLeaf$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["scala$xml$PrettyPrinter$$mkLeaf$1__Lscala_collection_mutable_StringBuilder__Lscala_xml_Node__V"]
+      }
+    },
+    "formatNodes__Lscala_collection_Seq__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["formatNodes__Lscala_collection_Seq__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__V"]
+      }
+    },
+    "formatNodes__Lscala_collection_Seq__Lscala_xml_NamespaceBinding__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["formatNodes__Lscala_collection_Seq__Lscala_xml_NamespaceBinding__T"]
+      }
+    },
+    "format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__T"]
+      }
+    },
+    "format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["format__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_collection_mutable_StringBuilder__V"]
+      }
+    },
+    "format__Lscala_xml_Node__Lscala_collection_mutable_StringBuilder__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["format__Lscala_xml_Node__Lscala_collection_mutable_StringBuilder__V"]
+      }
+    },
+    "traverse__Lscala_collection_Iterator__Lscala_xml_NamespaceBinding__I__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["traverse__Lscala_collection_Iterator__Lscala_xml_NamespaceBinding__I__V"]
+      }
+    },
+    "traverse__Lscala_xml_Node__Lscala_xml_NamespaceBinding__I__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["traverse__Lscala_xml_Node__Lscala_xml_NamespaceBinding__I__V"]
+      }
+    },
+    "fits__T__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["fits__T__Z"]
+      }
+    },
+    "childrenAreLeaves__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["childrenAreLeaves__Lscala_xml_Node__Z"]
+      }
+    },
+    "endTag__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["endTag__Lscala_xml_Node__T"]
+      }
+    },
+    "startTag__Lscala_xml_Node__Lscala_xml_NamespaceBinding__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["startTag__Lscala_xml_Node__Lscala_xml_NamespaceBinding__Lscala_Tuple2"]
+      }
+    },
+    "leafTag__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["leafTag__Lscala_xml_Node__T"]
+      }
+    },
+    "makeBreak__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["makeBreak__V"]
+      }
+    },
+    "makePara__I__T__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["makePara__I__T__V"]
+      }
+    },
+    "makeBox__I__T__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["makeBox__I__T__V"]
+      }
+    },
+    "cut__T__I__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["cut__T__I__Lscala_collection_immutable_List"]
+      }
+    },
+    "reset__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["reset__V"]
+      }
+    },
+    "cur$und$eq__I__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["cur$und$eq__I__V"]
+      }
+    },
+    "cur__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["cur__I"]
+      }
+    },
+    "items$und$eq__Lscala_collection_immutable_List__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["items$und$eq__Lscala_collection_immutable_List__V"]
+      }
+    },
+    "items__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["items__Lscala_collection_immutable_List"]
+      }
+    },
+    "Para__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["Para__Lscala_xml_PrettyPrinter$Para$"]
+      }
+    },
+    "Box__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["Box__Lscala_xml_PrettyPrinter$Box$"]
+      }
+    },
+    "Break__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["Break__Lscala_xml_PrettyPrinter$Break$"]
+      }
+    }
+  }
+}

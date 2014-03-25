@@ -1,0 +1,48 @@
+{
+  "name": "scala.collection.TraversableLike$$anonfun$takeWhile$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableLike$$anonfun$takeWhile$1",
+  "superClass": "scala_runtime_AbstractFunction0$mcV$sp",
+  "ancestors": ["scala_collection_TraversableLike$$anonfun$takeWhile$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0$mcV$sp", "scala_Function0$mcV$sp", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__V": {
+      "calledMethods": {
+        "scala_collection_TraversableLike$$anonfun$takeWhile$1": ["apply$mcV$sp__V"]
+      }
+    },
+    "apply$mcV$sp__V": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_TraversableLike": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_Builder": ["$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_Traversable$": ["breaks__Lscala_util_control_Breaks"],
+        "scala_util_control_Breaks": ["$break__Lscala_Nothing"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_Traversable"]
+    },
+    "apply__O": {
+      "calledMethods": {
+        "scala_collection_TraversableLike$$anonfun$takeWhile$1": ["apply__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "init___Lscala_collection_TraversableLike__Lscala_collection_mutable_Builder__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction0$mcV$sp": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

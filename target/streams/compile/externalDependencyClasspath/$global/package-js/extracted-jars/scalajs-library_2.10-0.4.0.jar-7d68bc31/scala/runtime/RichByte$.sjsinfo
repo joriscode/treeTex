@@ -1,0 +1,57 @@
+{
+  "name": "scala.runtime.RichByte$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichByte$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichByte$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "num$extension__B__Lscala_math_Numeric$ByteIsIntegral$": {
+      "accessedModules": ["scala_math_Numeric$ByteIsIntegral"]
+    },
+    "ord$extension__B__Lscala_math_Ordering$Byte$": {
+      "accessedModules": ["scala_math_Ordering$Byte"]
+    },
+    "hashCode$extension__B__I": {
+      "calledMethods": {
+        "java_lang_Object": ["hashCode__I"]
+      }
+    },
+    "equals$extension__B__O__Z": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["self__B"]
+      },
+      "accessedClassData": ["scala_runtime_RichByte"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__B__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["equals$extension__B__O__Z"]
+      }
+    },
+    "hashCode$extension__B__": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["hashCode$extension__B__I"]
+      }
+    },
+    "ord$extension__B__": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["ord$extension__B__Lscala_math_Ordering$Byte$"]
+      }
+    },
+    "num$extension__B__": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["num$extension__B__Lscala_math_Numeric$ByteIsIntegral$"]
+      }
+    }
+  }
+}

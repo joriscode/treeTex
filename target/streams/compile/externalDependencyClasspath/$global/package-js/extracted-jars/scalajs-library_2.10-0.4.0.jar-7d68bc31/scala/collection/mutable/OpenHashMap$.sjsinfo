@@ -1,0 +1,54 @@
+{
+  "name": "scala.collection.mutable.OpenHashMap$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_OpenHashMap$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_OpenHashMap$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_Seq__Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable", "init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_OpenHashMap"],
+      "accessedClassData": ["scala_collection_mutable_OpenHashMap"]
+    },
+    "empty__Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_OpenHashMap"]
+    },
+    "nextPowerOfTwo__I__I": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$": ["highestOneBit__I__I"]
+      },
+      "accessedModules": ["scala_collection_generic_BitOperations$Int"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "nextPowerOfTwo__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$": ["nextPowerOfTwo__I__I"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$": ["empty__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$": ["apply__Lscala_collection_Seq__Lscala_collection_mutable_OpenHashMap"]
+      }
+    }
+  }
+}

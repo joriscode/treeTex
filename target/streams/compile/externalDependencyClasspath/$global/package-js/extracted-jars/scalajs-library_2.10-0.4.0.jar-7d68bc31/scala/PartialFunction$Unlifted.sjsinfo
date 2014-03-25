@@ -1,0 +1,35 @@
+{
+  "name": "scala.PartialFunction$Unlifted",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_PartialFunction$Unlifted",
+  "superClass": "scala_runtime_AbstractPartialFunction",
+  "ancestors": ["scala_PartialFunction$Unlifted", "scala_runtime_AbstractPartialFunction", "scala_PartialFunction", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isDefinedAt__O__Z": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isDefined__Z"]
+      },
+      "accessedClassData": ["scala_Option"]
+    },
+    "applyOrElse__O__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      },
+      "accessedClassData": ["scala_Option"]
+    },
+    "lift__Lscala_Function1": {},
+    "init___Lscala_Function1": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractPartialFunction": ["init___"]
+      }
+    }
+  }
+}

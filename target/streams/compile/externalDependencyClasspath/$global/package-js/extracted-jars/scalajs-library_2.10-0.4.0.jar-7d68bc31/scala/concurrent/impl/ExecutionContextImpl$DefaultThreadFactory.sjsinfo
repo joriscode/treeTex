@@ -1,0 +1,66 @@
+{
+  "name": "scala.concurrent.impl.ExecutionContextImpl$DefaultThreadFactory",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory", "scala_concurrent_forkjoin_ForkJoinPool$ForkJoinWorkerThreadFactory", "java_util_concurrent_ThreadFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "wire__Ljava_lang_Thread__Ljava_lang_Thread": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory": ["scala$concurrent$impl$ExecutionContextImpl$DefaultThreadFactory$$$outer__Lscala_concurrent_impl_ExecutionContextImpl"],
+        "java_lang_Thread": ["setUncaughtExceptionHandler__Ljava_lang_Thread$UncaughtExceptionHandler__V", "setDaemon__Z__V"]
+      }
+    },
+    "newThread__Ljava_lang_Runnable__Ljava_lang_Thread": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory": ["wire__Ljava_lang_Thread__Ljava_lang_Thread"],
+        "java_lang_Thread": ["init___Ljava_lang_Runnable"]
+      },
+      "instantiatedClasses": ["java_lang_Thread"]
+    },
+    "newThread__Lscala_concurrent_forkjoin_ForkJoinPool__Lscala_concurrent_forkjoin_ForkJoinWorkerThread": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory": ["wire__Ljava_lang_Thread__Ljava_lang_Thread"],
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2": ["init___Lscala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory__Lscala_concurrent_forkjoin_ForkJoinPool"]
+      },
+      "instantiatedClasses": ["scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory$$anon$2"],
+      "accessedClassData": ["scala_concurrent_forkjoin_ForkJoinWorkerThread"]
+    },
+    "scala$concurrent$impl$ExecutionContextImpl$DefaultThreadFactory$$$outer__Lscala_concurrent_impl_ExecutionContextImpl": {},
+    "init___Lscala_concurrent_impl_ExecutionContextImpl__Z": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$concurrent$impl$ExecutionContextImpl$DefaultThreadFactory$$$outer__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory": ["scala$concurrent$impl$ExecutionContextImpl$DefaultThreadFactory$$$outer__Lscala_concurrent_impl_ExecutionContextImpl"]
+      }
+    },
+    "newThread__Lscala_concurrent_forkjoin_ForkJoinPool__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory": ["newThread__Lscala_concurrent_forkjoin_ForkJoinPool__Lscala_concurrent_forkjoin_ForkJoinWorkerThread"]
+      }
+    },
+    "newThread__Ljava_lang_Runnable__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory": ["newThread__Ljava_lang_Runnable__Ljava_lang_Thread"]
+      }
+    },
+    "wire__Ljava_lang_Thread__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$DefaultThreadFactory": ["wire__Ljava_lang_Thread__Ljava_lang_Thread"]
+      }
+    }
+  }
+}

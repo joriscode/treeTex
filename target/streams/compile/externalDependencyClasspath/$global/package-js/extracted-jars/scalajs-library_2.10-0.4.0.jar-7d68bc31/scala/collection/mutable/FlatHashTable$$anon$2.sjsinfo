@@ -1,0 +1,31 @@
+{
+  "name": "scala.collection.mutable.FlatHashTable$$anon$2",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_FlatHashTable$$anon$2",
+  "superClass": "java_lang_ThreadLocal",
+  "ancestors": ["scala_collection_mutable_FlatHashTable$$anon$2", "java_lang_ThreadLocal", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "initialValue__Lscala_util_Random": {
+      "calledMethods": {
+        "scala_util_Random": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_Random"]
+    },
+    "initialValue__O": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$$anon$2": ["initialValue__Lscala_util_Random"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["init___"]
+      }
+    }
+  }
+}

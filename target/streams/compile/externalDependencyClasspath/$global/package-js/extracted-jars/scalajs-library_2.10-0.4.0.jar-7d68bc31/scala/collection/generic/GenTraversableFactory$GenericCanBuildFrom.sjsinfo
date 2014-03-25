@@ -1,0 +1,62 @@
+{
+  "name": "scala.collection.generic.GenTraversableFactory$GenericCanBuildFrom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_GenTraversable__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_GenTraversable": ["genericBuilder__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": ["scala$collection$generic$GenTraversableFactory$GenericCanBuildFrom$$$outer__Lscala_collection_generic_GenTraversableFactory"],
+        "scala_collection_generic_GenTraversableFactory": ["newBuilder__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "scala$collection$generic$GenTraversableFactory$GenericCanBuildFrom$$$outer__Lscala_collection_generic_GenTraversableFactory": {},
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": ["apply__Lscala_collection_GenTraversable__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_GenTraversable"]
+    },
+    "init___Lscala_collection_generic_GenTraversableFactory": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$generic$GenTraversableFactory$GenericCanBuildFrom$$$outer__": {
+      "calledMethods": {
+        "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": ["scala$collection$generic$GenTraversableFactory$GenericCanBuildFrom$$$outer__Lscala_collection_generic_GenTraversableFactory"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_GenTraversable__": {
+      "calledMethods": {
+        "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": ["apply__Lscala_collection_GenTraversable__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

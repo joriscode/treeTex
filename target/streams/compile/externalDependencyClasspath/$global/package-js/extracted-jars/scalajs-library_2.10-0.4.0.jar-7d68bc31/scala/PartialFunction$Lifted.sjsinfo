@@ -1,0 +1,41 @@
+{
+  "name": "scala.PartialFunction$Lifted",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_PartialFunction$Lifted",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_PartialFunction$Lifted", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pf__Lscala_PartialFunction": {},
+    "apply__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["scala$PartialFunction$$checkFallback__Lscala_PartialFunction", "scala$PartialFunction$$fallbackOccurred__O__Z"],
+        "scala_PartialFunction": ["applyOrElse__O__Lscala_Function1__O"],
+        "scala_PartialFunction$Lifted": ["pf__Lscala_PartialFunction"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None", "scala_PartialFunction"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_PartialFunction$Lifted": ["apply__O__Lscala_Option"]
+      }
+    },
+    "init___Lscala_PartialFunction": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "pf__": {
+      "calledMethods": {
+        "scala_PartialFunction$Lifted": ["pf__Lscala_PartialFunction"]
+      }
+    }
+  }
+}

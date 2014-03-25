@@ -1,0 +1,92 @@
+{
+  "name": "scala.collection.convert.Wrappers$ConcurrentMapWrapper",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$ConcurrentMapWrapper",
+  "superClass": "scala_collection_convert_Wrappers$MutableMapWrapper",
+  "ancestors": ["scala_collection_convert_Wrappers$ConcurrentMapWrapper", "java_util_concurrent_ConcurrentMap", "scala_collection_convert_Wrappers$MutableMapWrapper", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_collection_convert_Wrappers$MapWrapper", "java_util_AbstractMap", "java_util_Map", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "underlying__Lscala_collection_concurrent_Map": {
+      "calledMethodsStatic": {
+        "scala_collection_convert_Wrappers$MutableMapWrapper": ["underlying__Lscala_collection_mutable_Map"]
+      },
+      "accessedClassData": ["scala_collection_concurrent_Map"]
+    },
+    "putIfAbsent__O__O__O": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_concurrent_Map": ["putIfAbsent__O__O__Lscala_Option"],
+        "scala_Some": ["x__O"],
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["underlying__Lscala_collection_concurrent_Map"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Some"]
+    },
+    "remove__O__O__Z": {
+      "calledMethods": {
+        "scala_collection_concurrent_Map": ["remove__O__O__Z"],
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["underlying__Lscala_collection_concurrent_Map"]
+      },
+      "accessedClassData": ["java_lang_ClassCastException"]
+    },
+    "replace__O__O__O": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_concurrent_Map": ["replace__O__O__Lscala_Option"],
+        "scala_Some": ["x__O"],
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["underlying__Lscala_collection_concurrent_Map"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Some"]
+    },
+    "replace__O__O__O__Z": {
+      "calledMethods": {
+        "scala_collection_concurrent_Map": ["replace__O__O__O__Z"],
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["underlying__Lscala_collection_concurrent_Map"]
+      }
+    },
+    "scala$collection$convert$Wrappers$ConcurrentMapWrapper$$$outer__Lscala_collection_convert_Wrappers": {},
+    "underlying__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["underlying__Lscala_collection_concurrent_Map"]
+      }
+    },
+    "init___Lscala_collection_convert_Wrappers__Lscala_collection_concurrent_Map": {
+      "calledMethodsStatic": {
+        "scala_collection_convert_Wrappers$MutableMapWrapper": ["init___Lscala_collection_convert_Wrappers__Lscala_collection_mutable_Map"]
+      }
+    },
+    "scala$collection$convert$Wrappers$ConcurrentMapWrapper$$$outer__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["scala$collection$convert$Wrappers$ConcurrentMapWrapper$$$outer__Lscala_collection_convert_Wrappers"]
+      }
+    },
+    "replace__O__O__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["replace__O__O__O__Z"]
+      }
+    },
+    "replace__O__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["replace__O__O__O"]
+      }
+    },
+    "remove__O__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["remove__O__O__Z"]
+      }
+    },
+    "putIfAbsent__O__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$ConcurrentMapWrapper": ["putIfAbsent__O__O__O"]
+      }
+    }
+  }
+}

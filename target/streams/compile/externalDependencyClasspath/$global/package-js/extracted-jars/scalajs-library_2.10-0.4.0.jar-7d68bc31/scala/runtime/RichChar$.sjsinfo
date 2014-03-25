@@ -1,0 +1,320 @@
+{
+  "name": "scala.runtime.RichChar$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichChar$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichChar$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "num$extension__C__Lscala_math_Numeric$CharIsIntegral$": {
+      "accessedModules": ["scala_math_Numeric$CharIsIntegral"]
+    },
+    "ord$extension__C__Lscala_math_Ordering$Char$": {
+      "accessedModules": ["scala_math_Ordering$Char"]
+    },
+    "asDigit$extension__C__I": {
+      "calledMethods": {
+        "java_lang_Character$": ["digit__C__I__I"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isControl$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isISOControl__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isDigit$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isDigit__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isLetter$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLetter__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isLetterOrDigit$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLetterOrDigit__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isWhitespace$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isWhitespace__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isSpaceChar$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isSpaceChar__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isHighSurrogate$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isHighSurrogate__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isLowSurrogate$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLowSurrogate__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isSurrogate$extension__C__Z": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isLowSurrogate$extension__C__Z", "isHighSurrogate$extension__C__Z"]
+      }
+    },
+    "isUnicodeIdentifierStart$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isUnicodeIdentifierStart__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isUnicodeIdentifierPart$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isUnicodeIdentifierPart__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isIdentifierIgnorable$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isIdentifierIgnorable__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isMirrored$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isMirrored__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isLower$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLowerCase__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isUpper$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isUpperCase__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "isTitleCase$extension__C__Z": {
+      "calledMethods": {
+        "java_lang_Character$": ["isTitleCase__C__Z"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "toLower$extension__C__C": {
+      "calledMethods": {
+        "java_lang_Character$": ["toLowerCase__C__C"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "toUpper$extension__C__C": {
+      "calledMethods": {
+        "java_lang_Character$": ["toUpperCase__C__C"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "toTitleCase$extension__C__C": {
+      "calledMethods": {
+        "java_lang_Character$": ["toTitleCase__C__C"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "getType$extension__C__I": {
+      "calledMethods": {
+        "java_lang_Character$": ["getType__C__I"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "getNumericValue$extension__C__I": {
+      "calledMethods": {
+        "java_lang_Character$": ["getNumericValue__C__I"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "getDirectionality$extension__C__B": {
+      "calledMethods": {
+        "java_lang_Character$": ["getDirectionality__C__B"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "reverseBytes$extension__C__C": {
+      "calledMethods": {
+        "java_lang_Character$": ["reverseBytes__C__C"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "hashCode$extension__C__I": {
+      "calledMethods": {
+        "java_lang_Object": ["hashCode__I"]
+      }
+    },
+    "equals$extension__C__O__Z": {
+      "calledMethods": {
+        "scala_runtime_RichChar": ["self__C"]
+      },
+      "accessedClassData": ["scala_runtime_RichChar"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__C__O__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["equals$extension__C__O__Z"]
+      }
+    },
+    "hashCode$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["hashCode$extension__C__I"]
+      }
+    },
+    "reverseBytes$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["reverseBytes$extension__C__C"]
+      }
+    },
+    "getDirectionality$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["getDirectionality$extension__C__B"]
+      }
+    },
+    "getNumericValue$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["getNumericValue$extension__C__I"]
+      }
+    },
+    "getType$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["getType$extension__C__I"]
+      }
+    },
+    "toTitleCase$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["toTitleCase$extension__C__C"]
+      }
+    },
+    "toUpper$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["toUpper$extension__C__C"]
+      }
+    },
+    "toLower$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["toLower$extension__C__C"]
+      }
+    },
+    "isTitleCase$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isTitleCase$extension__C__Z"]
+      }
+    },
+    "isUpper$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isUpper$extension__C__Z"]
+      }
+    },
+    "isLower$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isLower$extension__C__Z"]
+      }
+    },
+    "isMirrored$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isMirrored$extension__C__Z"]
+      }
+    },
+    "isIdentifierIgnorable$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isIdentifierIgnorable$extension__C__Z"]
+      }
+    },
+    "isUnicodeIdentifierPart$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isUnicodeIdentifierPart$extension__C__Z"]
+      }
+    },
+    "isUnicodeIdentifierStart$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isUnicodeIdentifierStart$extension__C__Z"]
+      }
+    },
+    "isSurrogate$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isSurrogate$extension__C__Z"]
+      }
+    },
+    "isLowSurrogate$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isLowSurrogate$extension__C__Z"]
+      }
+    },
+    "isHighSurrogate$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isHighSurrogate$extension__C__Z"]
+      }
+    },
+    "isSpaceChar$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isSpaceChar$extension__C__Z"]
+      }
+    },
+    "isWhitespace$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isWhitespace$extension__C__Z"]
+      }
+    },
+    "isLetterOrDigit$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isLetterOrDigit$extension__C__Z"]
+      }
+    },
+    "isLetter$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isLetter$extension__C__Z"]
+      }
+    },
+    "isDigit$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isDigit$extension__C__Z"]
+      }
+    },
+    "isControl$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["isControl$extension__C__Z"]
+      }
+    },
+    "asDigit$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["asDigit$extension__C__I"]
+      }
+    },
+    "ord$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["ord$extension__C__Lscala_math_Ordering$Char$"]
+      }
+    },
+    "num$extension__C__": {
+      "calledMethods": {
+        "scala_runtime_RichChar$": ["num$extension__C__Lscala_math_Numeric$CharIsIntegral$"]
+      }
+    }
+  }
+}

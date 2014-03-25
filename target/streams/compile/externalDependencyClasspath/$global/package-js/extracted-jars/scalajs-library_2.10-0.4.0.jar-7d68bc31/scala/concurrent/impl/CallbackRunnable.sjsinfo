@@ -1,0 +1,79 @@
+{
+  "name": "scala.concurrent.impl.CallbackRunnable",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_CallbackRunnable",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_impl_CallbackRunnable", "scala_concurrent_OnCompleteRunnable", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "executor__Lscala_concurrent_ExecutionContext": {},
+    "onComplete__Lscala_Function1": {},
+    "value__Lscala_util_Try": {},
+    "value$und$eq__Lscala_util_Try__V": {},
+    "run__V": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__V"],
+        "scala_concurrent_ExecutionContext": ["reportFailure__Ljava_lang_Throwable__V"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"],
+        "scala_concurrent_impl_CallbackRunnable": ["onComplete__Lscala_Function1", "value__Lscala_util_Try", "executor__Lscala_concurrent_ExecutionContext"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_Predef", "scala_util_control_NonFatal", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "executeWithValue__Lscala_util_Try__V": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__V"],
+        "scala_concurrent_ExecutionContext": ["reportFailure__Ljava_lang_Throwable__V", "execute__Ljava_lang_Runnable__V"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"],
+        "scala_concurrent_impl_CallbackRunnable": ["value__Lscala_util_Try", "value$und$eq__Lscala_util_Try__V", "executor__Lscala_concurrent_ExecutionContext"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_Predef", "scala_util_control_NonFatal", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "init___Lscala_concurrent_ExecutionContext__Lscala_Function1": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "executeWithValue__Lscala_util_Try__": {
+      "calledMethods": {
+        "scala_concurrent_impl_CallbackRunnable": ["executeWithValue__Lscala_util_Try__V"]
+      }
+    },
+    "run__": {
+      "calledMethods": {
+        "scala_concurrent_impl_CallbackRunnable": ["run__V"]
+      }
+    },
+    "value$und$eq__Lscala_util_Try__": {
+      "calledMethods": {
+        "scala_concurrent_impl_CallbackRunnable": ["value$und$eq__Lscala_util_Try__V"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "scala_concurrent_impl_CallbackRunnable": ["value__Lscala_util_Try"]
+      }
+    },
+    "onComplete__": {
+      "calledMethods": {
+        "scala_concurrent_impl_CallbackRunnable": ["onComplete__Lscala_Function1"]
+      }
+    },
+    "executor__": {
+      "calledMethods": {
+        "scala_concurrent_impl_CallbackRunnable": ["executor__Lscala_concurrent_ExecutionContext"]
+      }
+    }
+  }
+}

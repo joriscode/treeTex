@@ -1,0 +1,23 @@
+{
+  "name": "scala.concurrent.ExecutionContext",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_ExecutionContext",
+  "superClass": "",
+  "ancestors": ["scala_concurrent_ExecutionContext", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "execute__Ljava_lang_Runnable__V": {
+      "isAbstract": true
+    },
+    "reportFailure__Ljava_lang_Throwable__V": {
+      "isAbstract": true
+    },
+    "prepare__Lscala_concurrent_ExecutionContext": {
+      "isAbstract": true
+    }
+  }
+}

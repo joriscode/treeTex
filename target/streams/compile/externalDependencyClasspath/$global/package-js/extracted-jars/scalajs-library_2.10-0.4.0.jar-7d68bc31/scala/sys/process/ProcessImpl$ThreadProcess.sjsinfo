@@ -1,0 +1,41 @@
+{
+  "name": "scala.sys.process.ProcessImpl$ThreadProcess",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$ThreadProcess",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_ProcessImpl$ThreadProcess", "scala_sys_process_Process", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "exitValue__I": {
+      "calledMethods": {
+        "java_lang_Thread": ["join__V"],
+        "scala_concurrent_SyncVar": ["get__O"]
+      }
+    },
+    "destroy__V": {
+      "calledMethods": {
+        "java_lang_Thread": ["interrupt__V"]
+      }
+    },
+    "init___Lscala_sys_process_Process$__Ljava_lang_Thread__Lscala_concurrent_SyncVar": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "destroy__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$ThreadProcess": ["destroy__V"]
+      }
+    },
+    "exitValue__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$ThreadProcess": ["exitValue__I"]
+      }
+    }
+  }
+}

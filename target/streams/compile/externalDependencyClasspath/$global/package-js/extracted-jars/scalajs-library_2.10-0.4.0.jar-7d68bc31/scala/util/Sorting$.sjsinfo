@@ -1,0 +1,258 @@
+{
+  "name": "scala.util.Sorting$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Sorting$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Sorting$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "quickSort__AD__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["sort1__p1__AD__I__I__V"]
+      }
+    },
+    "quickSort__O__Lscala_math_Ordering__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"],
+        "scala_util_Sorting$": ["sort1__p1__O__I__I__Lscala_math_Ordering__V"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "quickSort__AI__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["sort1__p1__AI__I__I__V"]
+      }
+    },
+    "quickSort__AF__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["sort1__p1__AF__I__I__V"]
+      }
+    },
+    "stableSort__O__Lscala_reflect_ClassTag__Lscala_math_Ordering__V": {
+      "calledMethods": {
+        "scala_reflect_ClassTag": ["newArray__I__O"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_math_Ordering": ["lt__O__O__Z"],
+        "scala_util_Sorting$": ["stableSort__p1__O__I__I__O__Lscala_Function2__Lscala_reflect_ClassTag__V"],
+        "scala_math_Ordering$": ["apply__Lscala_math_Ordering__Lscala_math_Ordering"],
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_runtime_ScalaRunTime", "scala_math_Ordering"]
+    },
+    "stableSort__O__Lscala_Function2__Lscala_reflect_ClassTag__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"],
+        "scala_reflect_ClassTag": ["newArray__I__O"],
+        "scala_util_Sorting$": ["stableSort__p1__O__I__I__O__Lscala_Function2__Lscala_reflect_ClassTag__V"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "stableSort__Lscala_collection_Seq__Lscala_Function2__Lscala_reflect_ClassTag__O": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["stableSort__O__Lscala_Function2__Lscala_reflect_ClassTag__V"],
+        "scala_collection_Seq": ["toArray__Lscala_reflect_ClassTag__O"]
+      }
+    },
+    "stableSort__Lscala_collection_Seq__Lscala_reflect_ClassTag__Lscala_math_Ordering__O": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_math_Ordering": ["lt__O__O__Z"],
+        "scala_util_Sorting$": ["stableSort__Lscala_collection_Seq__Lscala_Function2__Lscala_reflect_ClassTag__O"],
+        "scala_math_Ordering$": ["apply__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_math_Ordering"]
+    },
+    "stableSort__Lscala_collection_Seq__Lscala_Function1__Lscala_reflect_ClassTag__Lscala_math_Ordering__O": {
+      "calledMethods": {
+        "scala_Predef$": ["implicitly__O__O"],
+        "scala_math_Ordering": ["on__Lscala_Function1__Lscala_math_Ordering"],
+        "scala_util_Sorting$": ["stableSort__Lscala_collection_Seq__Lscala_reflect_ClassTag__Lscala_math_Ordering__O"],
+        "scala_math_Ordering$": ["apply__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "accessedModules": ["scala_Predef", "scala_math_Ordering"],
+      "accessedClassData": ["scala_reflect_ClassTag"]
+    },
+    "sort1__p1__O__I__I__Lscala_math_Ordering__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["sort2$1__p1__I__I__O__Lscala_math_Ordering__V"],
+        "scala_math_Ordering$": ["apply__Lscala_math_Ordering__Lscala_math_Ordering"]
+      },
+      "accessedModules": ["scala_math_Ordering"]
+    },
+    "sort1__p1__AI__I__I__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["sort2$2__p1__I__I__AI__V"]
+      }
+    },
+    "sort1__p1__AD__I__I__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["sort2$3__p1__I__I__AD__V"]
+      }
+    },
+    "sort1__p1__AF__I__I__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["sort2$4__p1__I__I__AF__V"]
+      }
+    },
+    "stableSort__p1__O__I__I__O__Lscala_Function2__Lscala_reflect_ClassTag__V": {
+      "calledMethods": {
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O", "array$undupdate__O__I__O__V"],
+        "scala_util_Sorting$": ["stableSort__p1__O__I__I__O__Lscala_Function2__Lscala_reflect_ClassTag__V"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "swap$1__p1__I__I__O__V": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O", "array$undupdate__O__I__O__V"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "vecswap$1__p1__I__I__I__O__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["swap$1__p1__I__I__O__V"]
+      }
+    },
+    "med3$1__p1__I__I__I__O__Lscala_math_Ordering__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O"],
+        "scala_math_Ordering": ["mkOrderingOps__O__Lscala_math_Ordering$Ops"],
+        "scala_math_Ordering$Ops": ["$$less__O__Z", "$$greater__O__Z"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "sort2$1__p1__I__I__O__Lscala_math_Ordering__V": {
+      "calledMethods": {
+        "scala_math_package$": ["min__I__I__I"],
+        "scala_math_Ordering": ["mkOrderingOps__O__Lscala_math_Ordering$Ops"],
+        "scala_util_Sorting$": ["sort2$1__p1__I__I__O__Lscala_math_Ordering__V", "med3$1__p1__I__I__I__O__Lscala_math_Ordering__I", "swap$1__p1__I__I__O__V", "vecswap$1__p1__I__I__I__O__V"],
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O"],
+        "scala_math_Ordering$Ops": ["$$less$eq__O__Z", "$$greater$eq__O__Z", "$$greater__O__Z"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_math_package", "scala_runtime_ScalaRunTime", "scala_runtime_BoxedUnit"]
+    },
+    "swap$2__p1__I__I__AI__V": {},
+    "vecswap$2__p1__I__I__I__AI__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["swap$2__p1__I__I__AI__V"]
+      }
+    },
+    "med3$2__p1__I__I__I__AI__I": {},
+    "sort2$2__p1__I__I__AI__V": {
+      "calledMethods": {
+        "scala_math_package$": ["min__I__I__I"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_util_Sorting$": ["sort2$2__p1__I__I__AI__V", "vecswap$2__p1__I__I__I__AI__V", "med3$2__p1__I__I__I__AI__I", "swap$2__p1__I__I__AI__V"]
+      },
+      "accessedModules": ["scala_math_package", "scala_runtime_BoxedUnit"]
+    },
+    "swap$3__p1__I__I__AD__V": {},
+    "vecswap$3__p1__I__I__I__AD__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["swap$3__p1__I__I__AD__V"]
+      }
+    },
+    "med3$3__p1__I__I__I__AD__I": {
+      "calledMethods": {
+        "scala_Predef$": ["doubleWrapper__D__D"],
+        "scala_runtime_RichDouble": ["compare__O__I", "init___D"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichDouble"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "sort2$3__p1__I__I__AD__V": {
+      "calledMethods": {
+        "scala_Predef$": ["doubleWrapper__D__D"],
+        "scala_math_package$": ["min__I__I__I"],
+        "scala_util_Sorting$": ["swap$3__p1__I__I__AD__V", "sort2$3__p1__I__I__AD__V", "med3$3__p1__I__I__I__AD__I", "vecswap$3__p1__I__I__I__AD__V"],
+        "scala_runtime_RichDouble": ["compare__O__I", "init___D"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichDouble"],
+      "accessedModules": ["scala_math_package", "scala_Predef", "scala_runtime_BoxedUnit"]
+    },
+    "swap$4__p1__I__I__AF__V": {},
+    "vecswap$4__p1__I__I__I__AF__V": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["swap$4__p1__I__I__AF__V"]
+      }
+    },
+    "med3$4__p1__I__I__I__AF__I": {
+      "calledMethods": {
+        "scala_Predef$": ["floatWrapper__F__F"],
+        "scala_runtime_RichFloat": ["init___F", "compare__O__I"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichFloat"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "sort2$4__p1__I__I__AF__V": {
+      "calledMethods": {
+        "scala_Predef$": ["floatWrapper__F__F"],
+        "scala_math_package$": ["min__I__I__I"],
+        "scala_runtime_RichFloat": ["init___F", "compare__O__I"],
+        "scala_util_Sorting$": ["sort2$4__p1__I__I__AF__V", "vecswap$4__p1__I__I__I__AF__V", "swap$4__p1__I__I__AF__V", "med3$4__p1__I__I__I__AF__I"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichFloat"],
+      "accessedModules": ["scala_math_package", "scala_Predef", "scala_runtime_BoxedUnit"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "stableSort__Lscala_collection_Seq__Lscala_Function1__Lscala_reflect_ClassTag__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["stableSort__Lscala_collection_Seq__Lscala_Function1__Lscala_reflect_ClassTag__Lscala_math_Ordering__O"]
+      }
+    },
+    "stableSort__Lscala_collection_Seq__Lscala_reflect_ClassTag__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["stableSort__Lscala_collection_Seq__Lscala_reflect_ClassTag__Lscala_math_Ordering__O"]
+      }
+    },
+    "stableSort__Lscala_collection_Seq__Lscala_Function2__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["stableSort__Lscala_collection_Seq__Lscala_Function2__Lscala_reflect_ClassTag__O"]
+      }
+    },
+    "stableSort__O__Lscala_Function2__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["stableSort__O__Lscala_Function2__Lscala_reflect_ClassTag__V"]
+      }
+    },
+    "stableSort__O__Lscala_reflect_ClassTag__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["stableSort__O__Lscala_reflect_ClassTag__Lscala_math_Ordering__V"]
+      }
+    },
+    "quickSort__AF__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["quickSort__AF__V"]
+      }
+    },
+    "quickSort__AI__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["quickSort__AI__V"]
+      }
+    },
+    "quickSort__O__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["quickSort__O__Lscala_math_Ordering__V"]
+      }
+    },
+    "quickSort__AD__": {
+      "calledMethods": {
+        "scala_util_Sorting$": ["quickSort__AD__V"]
+      }
+    }
+  }
+}

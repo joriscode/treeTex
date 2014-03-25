@@ -1,0 +1,38 @@
+{
+  "name": "scala.util.control.BreakControl",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_BreakControl",
+  "superClass": "java_lang_Throwable",
+  "ancestors": ["scala_util_control_BreakControl", "scala_util_control_ControlThrowable", "scala_util_control_NoStackTrace", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$util$control$NoStackTrace$$super$fillInStackTrace__Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_Throwable": ["fillInStackTrace__Ljava_lang_Throwable"]
+      }
+    },
+    "fillInStackTrace__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "scala_util_control_NoStackTrace$class": ["scala_util_control_NoStackTrace$class__fillInStackTrace__Lscala_util_control_NoStackTrace__Ljava_lang_Throwable"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_control_NoStackTrace$class": ["scala_util_control_NoStackTrace$class__$init$__Lscala_util_control_NoStackTrace__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Throwable": ["init___"]
+      }
+    },
+    "scala$util$control$NoStackTrace$$super$fillInStackTrace__": {
+      "calledMethods": {
+        "scala_util_control_BreakControl": ["scala$util$control$NoStackTrace$$super$fillInStackTrace__Ljava_lang_Throwable"]
+      }
+    }
+  }
+}

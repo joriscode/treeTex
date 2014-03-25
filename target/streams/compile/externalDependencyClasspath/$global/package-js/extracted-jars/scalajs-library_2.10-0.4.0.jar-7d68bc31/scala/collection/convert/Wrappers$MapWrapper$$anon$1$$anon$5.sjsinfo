@@ -1,0 +1,88 @@
+{
+  "name": "scala.collection.convert.Wrappers$MapWrapper$$anon$1$$anon$5",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5", "java_util_Iterator", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ui__p1__Lscala_collection_Iterator": {},
+    "prev__p1__Lscala_Option": {},
+    "prev$und$eq__p1__Lscala_Option__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z"],
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["ui__p1__Lscala_collection_Iterator"]
+      }
+    },
+    "next__Ljava_util_Map$Entry": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["init___O__O", "$$und1__O", "$$und2__O"],
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6": ["init___Lscala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5__O__O"],
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["ui__p1__Lscala_collection_Iterator", "prev$und$eq__p1__Lscala_Option__V"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6", "scala_Some"],
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "remove__V": {
+      "calledMethods": {
+        "java_lang_IllegalStateException": ["init___T"],
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1": ["scala$collection$convert$Wrappers$MapWrapper$$anon$$$outer__Lscala_collection_convert_Wrappers$MapWrapper"],
+        "java_lang_UnsupportedOperationException": ["init___T"],
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["prev__p1__Lscala_Option", "prev$und$eq__p1__Lscala_Option__V"],
+        "scala_Some": ["x__O"],
+        "scala_collection_mutable_Map": ["remove__O__Lscala_Option"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException", "java_lang_IllegalStateException"],
+      "accessedModules": ["scala_None", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_mutable_Map", "scala_Some"]
+    },
+    "scala$collection$convert$Wrappers$MapWrapper$$anon$$anon$$$outer__Lscala_collection_convert_Wrappers$MapWrapper$$anon$1": {},
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["next__Ljava_util_Map$Entry"]
+      }
+    },
+    "init___Lscala_collection_convert_Wrappers$MapWrapper$$anon$1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_Map": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1": ["scala$collection$convert$Wrappers$MapWrapper$$anon$$$outer__Lscala_collection_convert_Wrappers$MapWrapper"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala$collection$convert$Wrappers$MapWrapper$$anon$$anon$$$outer__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["scala$collection$convert$Wrappers$MapWrapper$$anon$$anon$$$outer__Lscala_collection_convert_Wrappers$MapWrapper$$anon$1"]
+      }
+    },
+    "remove__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["remove__V"]
+      }
+    },
+    "next__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["next__Ljava_util_Map$Entry"]
+      }
+    },
+    "hasNext__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["hasNext__Z"]
+      }
+    }
+  }
+}

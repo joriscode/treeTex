@@ -1,0 +1,25 @@
+{
+  "name": "scala.xml.include.CircularIncludeException",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_include_CircularIncludeException",
+  "superClass": "scala_xml_include_XIncludeException",
+  "ancestors": ["scala_xml_include_CircularIncludeException", "scala_xml_include_XIncludeException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "init___T": {
+      "calledMethodsStatic": {
+        "scala_xml_include_XIncludeException": ["init___"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_xml_include_CircularIncludeException": ["init___T"]
+      }
+    }
+  }
+}

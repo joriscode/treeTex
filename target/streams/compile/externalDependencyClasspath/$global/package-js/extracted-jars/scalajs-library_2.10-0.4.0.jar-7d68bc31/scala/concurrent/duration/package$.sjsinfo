@@ -1,0 +1,184 @@
+{
+  "name": "scala.concurrent.duration.package$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_duration_package$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_duration_package$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "DAYS__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["DAYS__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedModules": ["java_util_concurrent_TimeUnit"]
+    },
+    "HOURS__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["HOURS__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedModules": ["java_util_concurrent_TimeUnit"]
+    },
+    "MICROSECONDS__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MICROSECONDS__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedModules": ["java_util_concurrent_TimeUnit"]
+    },
+    "MILLISECONDS__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MILLISECONDS__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedModules": ["java_util_concurrent_TimeUnit"]
+    },
+    "MINUTES__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MINUTES__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedModules": ["java_util_concurrent_TimeUnit"]
+    },
+    "NANOSECONDS__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["NANOSECONDS__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedModules": ["java_util_concurrent_TimeUnit"]
+    },
+    "SECONDS__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["SECONDS__Ljava_util_concurrent_TimeUnit"]
+      },
+      "accessedModules": ["java_util_concurrent_TimeUnit"]
+    },
+    "pairIntToDuration__Lscala_Tuple2__Lscala_concurrent_duration_Duration": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_duration_Duration$": ["apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"],
+        "scala_Tuple2": ["$$und2__O", "$$und1$mcI$sp__I"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "scala_concurrent_duration_Duration"],
+      "accessedClassData": ["java_util_concurrent_TimeUnit"]
+    },
+    "pairLongToDuration__Lscala_Tuple2__Lscala_concurrent_duration_FiniteDuration": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"],
+        "scala_Tuple2": ["$$und1$mcJ$sp__J", "$$und2__O"]
+      },
+      "accessedModules": ["scala_concurrent_duration_Duration"],
+      "accessedClassData": ["java_util_concurrent_TimeUnit"]
+    },
+    "durationToPair__Lscala_concurrent_duration_Duration__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration": ["unit__Ljava_util_concurrent_TimeUnit", "length__J"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "DurationInt__I__I": {},
+    "DurationLong__J__J": {},
+    "DurationDouble__D__D": {},
+    "IntMult__I__I": {},
+    "LongMult__J__J": {},
+    "DoubleMult__D__D": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "DoubleMult__D__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$DoubleMult": ["init___D"],
+        "scala_concurrent_duration_package$": ["DoubleMult__D__D"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_package$DoubleMult"]
+    },
+    "LongMult__J__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["LongMult__J__J"],
+        "scala_concurrent_duration_package$LongMult": ["init___J"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_package$LongMult"]
+    },
+    "IntMult__I__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["IntMult__I__I"],
+        "scala_concurrent_duration_package$IntMult": ["init___I"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_package$IntMult"]
+    },
+    "DurationDouble__D__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["DurationDouble__D__D"],
+        "scala_concurrent_duration_package$DurationDouble": ["init___D"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_package$DurationDouble"]
+    },
+    "DurationLong__J__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$DurationLong": ["init___J"],
+        "scala_concurrent_duration_package$": ["DurationLong__J__J"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_package$DurationLong"]
+    },
+    "DurationInt__I__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$DurationInt": ["init___I"],
+        "scala_concurrent_duration_package$": ["DurationInt__I__I"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_package$DurationInt"]
+    },
+    "durationToPair__Lscala_concurrent_duration_Duration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["durationToPair__Lscala_concurrent_duration_Duration__Lscala_Tuple2"]
+      }
+    },
+    "pairLongToDuration__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["pairLongToDuration__Lscala_Tuple2__Lscala_concurrent_duration_FiniteDuration"]
+      }
+    },
+    "pairIntToDuration__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["pairIntToDuration__Lscala_Tuple2__Lscala_concurrent_duration_Duration"]
+      }
+    },
+    "SECONDS__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["SECONDS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "NANOSECONDS__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["NANOSECONDS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "MINUTES__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["MINUTES__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "MILLISECONDS__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["MILLISECONDS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "MICROSECONDS__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["MICROSECONDS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "HOURS__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["HOURS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "DAYS__": {
+      "calledMethods": {
+        "scala_concurrent_duration_package$": ["DAYS__Ljava_util_concurrent_TimeUnit"]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "scala.io.BytePickle$Def$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$Def$",
+  "superClass": "scala_runtime_AbstractFunction0",
+  "ancestors": ["scala_io_BytePickle$Def$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_io_BytePickle$Def": {
+      "calledMethods": {
+        "scala_io_BytePickle$Def": ["init___"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$Def"]
+    },
+    "unapply__Lscala_io_BytePickle$Def__Z": {},
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_io_BytePickle$Def"]
+    },
+    "apply__O": {
+      "calledMethods": {
+        "scala_io_BytePickle$Def$": ["apply__Lscala_io_BytePickle$Def"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction0": ["init___"]
+      }
+    },
+    "unapply__Lscala_io_BytePickle$Def__": {
+      "calledMethods": {
+        "scala_io_BytePickle$Def$": ["unapply__Lscala_io_BytePickle$Def__Z"]
+      }
+    }
+  }
+}

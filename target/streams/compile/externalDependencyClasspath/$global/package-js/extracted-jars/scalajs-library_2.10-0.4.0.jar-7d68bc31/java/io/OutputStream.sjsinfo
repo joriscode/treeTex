@@ -1,0 +1,60 @@
+{
+  "name": "java.io.OutputStream",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_io_OutputStream",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_io_OutputStream", "java_io_Flushable", "java_io_Closeable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "close__V": {},
+    "flush__V": {},
+    "write__AB__V": {
+      "calledMethods": {
+        "java_io_OutputStream": ["write__AB__I__I__V"]
+      }
+    },
+    "write__AB__I__I__V": {
+      "calledMethods": {
+        "java_io_OutputStream": ["write__I__V"]
+      }
+    },
+    "write__I__V": {
+      "isAbstract": true
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "write__AB__I__I__": {
+      "calledMethods": {
+        "java_io_OutputStream": ["write__AB__I__I__V"]
+      }
+    },
+    "write__AB__": {
+      "calledMethods": {
+        "java_io_OutputStream": ["write__AB__V"]
+      }
+    },
+    "flush__": {
+      "calledMethods": {
+        "java_io_OutputStream": ["flush__V"]
+      }
+    },
+    "close__": {
+      "calledMethods": {
+        "java_io_OutputStream": ["close__V"]
+      }
+    },
+    "write__I__": {
+      "calledMethods": {
+        "java_io_OutputStream": ["write__I__V"]
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "scala.collection.mutable.Leaf$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_Leaf$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_Leaf$", "scala_Product", "scala_Equals", "scala_collection_mutable_AVLTree", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__iterator__Lscala_collection_mutable_AVLTree__Lscala_collection_Iterator"]
+      }
+    },
+    "contains__O__Lscala_math_Ordering__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__contains__Lscala_collection_mutable_AVLTree__O__Lscala_math_Ordering__Z"]
+      }
+    },
+    "insert__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__insert__Lscala_collection_mutable_AVLTree__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree"]
+      }
+    },
+    "remove__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__remove__Lscala_collection_mutable_AVLTree__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree"]
+      }
+    },
+    "removeMin__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__removeMin__Lscala_collection_mutable_AVLTree__Lscala_Tuple2"]
+      }
+    },
+    "removeMax__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__removeMax__Lscala_collection_mutable_AVLTree__Lscala_Tuple2"]
+      }
+    },
+    "rebalance__Lscala_collection_mutable_AVLTree": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__rebalance__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_AVLTree"]
+      }
+    },
+    "leftRotation__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__leftRotation__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node"]
+      }
+    },
+    "rightRotation__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__rightRotation__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node"]
+      }
+    },
+    "doubleLeftRotation__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__doubleLeftRotation__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node"]
+      }
+    },
+    "doubleRightRotation__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__doubleRightRotation__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node"]
+      }
+    },
+    "balance__I": {},
+    "depth__I": {},
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_collection_mutable_Leaf$"]
+    },
+    "hashCode__I": {},
+    "toString__T": {},
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_mutable_Leaf"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_mutable_AVLTree$class": ["scala_collection_mutable_AVLTree$class__$init$__Lscala_collection_mutable_AVLTree__V"],
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "doubleRightRotation__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["doubleRightRotation__Lscala_collection_mutable_Node"]
+      }
+    },
+    "doubleLeftRotation__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["doubleLeftRotation__Lscala_collection_mutable_Node"]
+      }
+    },
+    "rightRotation__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["rightRotation__Lscala_collection_mutable_Node"]
+      }
+    },
+    "leftRotation__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["leftRotation__Lscala_collection_mutable_Node"]
+      }
+    },
+    "rebalance__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["rebalance__Lscala_collection_mutable_AVLTree"]
+      }
+    },
+    "removeMax__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["removeMax__Lscala_Tuple2"]
+      }
+    },
+    "removeMin__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["removeMin__Lscala_Tuple2"]
+      }
+    },
+    "remove__O__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["remove__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree"]
+      }
+    },
+    "insert__O__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["insert__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree"]
+      }
+    },
+    "contains__O__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["contains__O__Lscala_math_Ordering__Z"]
+      }
+    },
+    "iterator__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["productPrefix__T"]
+      }
+    },
+    "depth__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["depth__I"]
+      }
+    },
+    "balance__": {
+      "calledMethods": {
+        "scala_collection_mutable_Leaf$": ["balance__I"]
+      }
+    }
+  }
+}

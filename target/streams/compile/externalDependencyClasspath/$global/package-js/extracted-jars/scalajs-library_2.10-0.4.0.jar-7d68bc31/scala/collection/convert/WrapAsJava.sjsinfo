@@ -1,0 +1,56 @@
+{
+  "name": "scala.collection.convert.WrapAsJava",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_WrapAsJava",
+  "superClass": "",
+  "ancestors": ["scala_collection_convert_WrapAsJava", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "asJavaIterator__Lscala_collection_Iterator__Ljava_util_Iterator": {
+      "isAbstract": true
+    },
+    "asJavaEnumeration__Lscala_collection_Iterator__Ljava_util_Enumeration": {
+      "isAbstract": true
+    },
+    "asJavaIterable__Lscala_collection_Iterable__Ljava_lang_Iterable": {
+      "isAbstract": true
+    },
+    "asJavaCollection__Lscala_collection_Iterable__Ljava_util_Collection": {
+      "isAbstract": true
+    },
+    "bufferAsJavaList__Lscala_collection_mutable_Buffer__Ljava_util_List": {
+      "isAbstract": true
+    },
+    "mutableSeqAsJavaList__Lscala_collection_mutable_Seq__Ljava_util_List": {
+      "isAbstract": true
+    },
+    "seqAsJavaList__Lscala_collection_Seq__Ljava_util_List": {
+      "isAbstract": true
+    },
+    "mutableSetAsJavaSet__Lscala_collection_mutable_Set__Ljava_util_Set": {
+      "isAbstract": true
+    },
+    "setAsJavaSet__Lscala_collection_Set__Ljava_util_Set": {
+      "isAbstract": true
+    },
+    "mutableMapAsJavaMap__Lscala_collection_mutable_Map__Ljava_util_Map": {
+      "isAbstract": true
+    },
+    "asJavaDictionary__Lscala_collection_mutable_Map__Ljava_util_Dictionary": {
+      "isAbstract": true
+    },
+    "mapAsJavaMap__Lscala_collection_Map__Ljava_util_Map": {
+      "isAbstract": true
+    },
+    "asJavaConcurrentMap__Lscala_collection_mutable_ConcurrentMap__Ljava_util_concurrent_ConcurrentMap": {
+      "isAbstract": true
+    },
+    "mapAsJavaConcurrentMap__Lscala_collection_concurrent_Map__Ljava_util_concurrent_ConcurrentMap": {
+      "isAbstract": true
+    }
+  }
+}

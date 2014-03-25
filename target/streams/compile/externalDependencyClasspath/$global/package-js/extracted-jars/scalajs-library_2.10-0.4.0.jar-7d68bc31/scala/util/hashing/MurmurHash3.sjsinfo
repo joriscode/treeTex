@@ -1,0 +1,243 @@
+{
+  "name": "scala.util.hashing.MurmurHash3",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_hashing_MurmurHash3",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_hashing_MurmurHash3", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "mix__I__I__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["rotateLeft__I__I__I"],
+        "scala_util_hashing_MurmurHash3": ["mixLast__I__I__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "mixLast__I__I__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["rotateLeft__I__I__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "finalizeHash__I__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["avalanche__p1__I__I"]
+      }
+    },
+    "avalanche__p1__I__I": {},
+    "productHash__Lscala_Product__I__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "java_lang_String": ["hashCode__I"],
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"],
+        "scala_Product": ["productPrefix__T", "productElement__I__O", "productArity__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "stringHash__T__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I", "mixLast__I__I__I"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "unorderedHash__Lscala_collection_TraversableOnce__I__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I", "mixLast__I__I__I"],
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "orderedHash__Lscala_collection_TraversableOnce__I__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"],
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "arrayHash__O__I__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O", "hash__O__I", "array$undlength__O__I"],
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "bytesHash__AB__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I", "mixLast__I__I__I"]
+      }
+    },
+    "listHash__Lscala_collection_immutable_List__I__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_collection_immutable_List": ["isEmpty__Z", "tail__O", "head__O"],
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"],
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "arrayHash$mZc$sp__AZ__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      }
+    },
+    "arrayHash$mBc$sp__AB__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      }
+    },
+    "arrayHash$mCc$sp__AC__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      }
+    },
+    "arrayHash$mDc$sp__AD__I__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__D__I"],
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "arrayHash$mFc$sp__AF__I__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__F__I"],
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "arrayHash$mIc$sp__AI__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      }
+    },
+    "arrayHash$mJc$sp__AJ__I__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__J__I"],
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "arrayHash$mSc$sp__AS__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      }
+    },
+    "arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I", "finalizeHash__I__I__I"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "listHash__Lscala_collection_immutable_List__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["listHash__Lscala_collection_immutable_List__I__I"]
+      }
+    },
+    "bytesHash__AB__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["bytesHash__AB__I__I"]
+      }
+    },
+    "arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__I__I"]
+      }
+    },
+    "arrayHash$mSc$sp__AS__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mSc$sp__AS__I__I"]
+      }
+    },
+    "arrayHash$mJc$sp__AJ__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mJc$sp__AJ__I__I"]
+      }
+    },
+    "arrayHash$mIc$sp__AI__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mIc$sp__AI__I__I"]
+      }
+    },
+    "arrayHash$mFc$sp__AF__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mFc$sp__AF__I__I"]
+      }
+    },
+    "arrayHash$mDc$sp__AD__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mDc$sp__AD__I__I"]
+      }
+    },
+    "arrayHash$mCc$sp__AC__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mCc$sp__AC__I__I"]
+      }
+    },
+    "arrayHash$mBc$sp__AB__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mBc$sp__AB__I__I"]
+      }
+    },
+    "arrayHash$mZc$sp__AZ__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash$mZc$sp__AZ__I__I"]
+      }
+    },
+    "arrayHash__O__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["arrayHash__O__I__I"]
+      }
+    },
+    "orderedHash__Lscala_collection_TraversableOnce__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["orderedHash__Lscala_collection_TraversableOnce__I__I"]
+      }
+    },
+    "unorderedHash__Lscala_collection_TraversableOnce__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["unorderedHash__Lscala_collection_TraversableOnce__I__I"]
+      }
+    },
+    "stringHash__T__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["stringHash__T__I__I"]
+      }
+    },
+    "productHash__Lscala_Product__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["productHash__Lscala_Product__I__I"]
+      }
+    },
+    "finalizeHash__I__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["finalizeHash__I__I__I"]
+      }
+    },
+    "mixLast__I__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mixLast__I__I__I"]
+      }
+    },
+    "mix__I__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3": ["mix__I__I__I"]
+      }
+    }
+  }
+}

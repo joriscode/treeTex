@@ -1,0 +1,37 @@
+{
+  "name": "scala.collection.SortedMap$Default$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SortedMap$Default$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_SortedMap$Default$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_SortedMap$Default$class__$plus__Lscala_collection_SortedMap$Default__Lscala_Tuple2__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable", "$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_SortedMap$": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"],
+        "scala_Tuple2": ["init___O__O", "$$und1__O", "$$und2__O"],
+        "scala_collection_SortedMap$Default": ["ordering__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"],
+      "accessedModules": ["scala_collection_SortedMap"],
+      "accessedClassData": ["scala_collection_SortedMap"]
+    },
+    "scala_collection_SortedMap$Default$class__$minus__Lscala_collection_SortedMap$Default__O__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_SortedMap$Default": ["newBuilder__Lscala_collection_mutable_Builder", "withFilter__Lscala_Function1__Lscala_collection_generic_FilterMonadic"],
+        "scala_Tuple2": ["$$und1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_generic_FilterMonadic": ["foreach__Lscala_Function1__V"],
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$eq__O__Lscala_collection_mutable_Builder"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_SortedMap"]
+    },
+    "scala_collection_SortedMap$Default$class__$init$__Lscala_collection_SortedMap$Default__V": {}
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "java.util.concurrent.atomic.AtomicInteger",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_concurrent_atomic_AtomicInteger",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_concurrent_atomic_AtomicInteger", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "value__I": {},
+    "value$und$eq__I__V": {},
+    "get__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value__I"]
+      }
+    },
+    "set__I__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V"]
+      }
+    },
+    "lazySet__I__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["set__I__V"]
+      }
+    },
+    "compareAndSet__I__I__Z": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V", "value__I"]
+      }
+    },
+    "weakCompareAndSet__I__I__Z": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["compareAndSet__I__I__Z"]
+      }
+    },
+    "getAndSet__I__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V", "value__I"]
+      }
+    },
+    "getAndIncrement__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V", "value__I"]
+      }
+    },
+    "getAndDecrement__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V", "value__I"]
+      }
+    },
+    "getAndAdd__I__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V", "value__I"]
+      }
+    },
+    "incrementAndGet__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V", "value__I"]
+      }
+    },
+    "decrementAndGet__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V", "value__I"]
+      }
+    },
+    "addAndGet__I__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V", "value__I"]
+      }
+    },
+    "intValue__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value__I"]
+      }
+    },
+    "longValue__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "java_util_concurrent_atomic_AtomicInteger": ["value__I"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "floatValue__F": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value__I"]
+      }
+    },
+    "doubleValue__D": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value__I"]
+      }
+    },
+    "init___I": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "doubleValue__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["doubleValue__D"]
+      }
+    },
+    "floatValue__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["floatValue__F"]
+      }
+    },
+    "longValue__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["longValue__J"]
+      }
+    },
+    "intValue__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["intValue__I"]
+      }
+    },
+    "addAndGet__I__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["addAndGet__I__I"]
+      }
+    },
+    "decrementAndGet__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["decrementAndGet__I"]
+      }
+    },
+    "incrementAndGet__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["incrementAndGet__I"]
+      }
+    },
+    "getAndAdd__I__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["getAndAdd__I__I"]
+      }
+    },
+    "getAndDecrement__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["getAndDecrement__I"]
+      }
+    },
+    "getAndIncrement__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["getAndIncrement__I"]
+      }
+    },
+    "getAndSet__I__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["getAndSet__I__I"]
+      }
+    },
+    "weakCompareAndSet__I__I__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["weakCompareAndSet__I__I__Z"]
+      }
+    },
+    "compareAndSet__I__I__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["compareAndSet__I__I__Z"]
+      }
+    },
+    "lazySet__I__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["lazySet__I__V"]
+      }
+    },
+    "set__I__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["set__I__V"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["get__I"]
+      }
+    },
+    "value$und$eq__I__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value$und$eq__I__V"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["value__I"]
+      }
+    }
+  }
+}

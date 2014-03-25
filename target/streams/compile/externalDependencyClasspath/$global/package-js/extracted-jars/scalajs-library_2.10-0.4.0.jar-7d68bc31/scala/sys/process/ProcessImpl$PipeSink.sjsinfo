@@ -1,0 +1,38 @@
+{
+  "name": "scala.sys.process.ProcessImpl$PipeSink",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$PipeSink",
+  "superClass": "scala_sys_process_ProcessImpl$PipeThread",
+  "ancestors": ["scala_sys_process_ProcessImpl$PipeSink", "scala_sys_process_ProcessImpl$PipeThread", "java_lang_Thread", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "run__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_SyncVar": ["get__O", "unset__V"],
+        "scala_sys_process_ProcessImpl$PipeSink": ["runloop__Ljava_io_InputStream__Ljava_io_OutputStream__V"],
+        "scala_Some": ["x__O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_io_OutputStream", "scala_Option", "scala_Some"]
+    },
+    "scala$sys$process$ProcessImpl$PipeSink$$$outer__Lscala_sys_process_Process$": {},
+    "init___Lscala_sys_process_Process$__Ljava_io_PipedInputStream__Lscala_concurrent_SyncVar__Lscala_Function0": {
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessImpl$PipeThread": ["init___Lscala_sys_process_Process$__Z__Lscala_Function0"]
+      }
+    },
+    "scala$sys$process$ProcessImpl$PipeSink$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$PipeSink": ["scala$sys$process$ProcessImpl$PipeSink$$$outer__Lscala_sys_process_Process$"]
+      }
+    }
+  }
+}

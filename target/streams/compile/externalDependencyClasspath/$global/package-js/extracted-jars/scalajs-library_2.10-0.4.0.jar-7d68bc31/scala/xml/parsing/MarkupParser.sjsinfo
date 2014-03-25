@@ -1,0 +1,224 @@
+{
+  "name": "scala.xml.parsing.MarkupParser",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_MarkupParser",
+  "superClass": "",
+  "ancestors": ["scala_xml_parsing_MarkupParser", "scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_TokenTests", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "scala$xml$parsing$MarkupParser$$undsetter$und$scala$xml$parsing$MarkupParser$$handle$und$eq__Lscala_xml_parsing_MarkupHandler__V": {
+      "isAbstract": true
+    },
+    "scala$xml$parsing$MarkupParser$$undsetter$und$cbuf$und$eq__Lscala_collection_mutable_StringBuilder__V": {
+      "isAbstract": true
+    },
+    "truncatedError__T__Lscala_Nothing": {
+      "isAbstract": true
+    },
+    "errorNoEnd__T__Lscala_Nothing": {
+      "isAbstract": true
+    },
+    "xHandleError__C__T__V": {
+      "isAbstract": true
+    },
+    "input__Lscala_io_Source": {
+      "isAbstract": true
+    },
+    "preserveWS__Z": {
+      "isAbstract": true
+    },
+    "externalSource__T__Lscala_io_Source": {
+      "isAbstract": true
+    },
+    "curInput__Lscala_io_Source": {
+      "isAbstract": true
+    },
+    "curInput$und$eq__Lscala_io_Source__V": {
+      "isAbstract": true
+    },
+    "lookahead__Lscala_collection_BufferedIterator": {
+      "isAbstract": true
+    },
+    "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler": {
+      "isAbstract": true
+    },
+    "inpStack__Lscala_collection_immutable_List": {
+      "isAbstract": true
+    },
+    "inpStack$und$eq__Lscala_collection_immutable_List__V": {
+      "isAbstract": true
+    },
+    "pos__I": {
+      "isAbstract": true
+    },
+    "pos$und$eq__I__V": {
+      "isAbstract": true
+    },
+    "extIndex__I": {
+      "isAbstract": true
+    },
+    "extIndex$und$eq__I__V": {
+      "isAbstract": true
+    },
+    "tmppos__I": {
+      "isAbstract": true
+    },
+    "tmppos$und$eq__I__V": {
+      "isAbstract": true
+    },
+    "nextChNeeded__Z": {
+      "isAbstract": true
+    },
+    "nextChNeeded$und$eq__Z__V": {
+      "isAbstract": true
+    },
+    "reachedEof__Z": {
+      "isAbstract": true
+    },
+    "reachedEof$und$eq__Z__V": {
+      "isAbstract": true
+    },
+    "lastChRead__C": {
+      "isAbstract": true
+    },
+    "lastChRead$und$eq__C__V": {
+      "isAbstract": true
+    },
+    "ch__C": {
+      "isAbstract": true
+    },
+    "cbuf__Lscala_collection_mutable_StringBuilder": {
+      "isAbstract": true
+    },
+    "dtd__Lscala_xml_dtd_DTD": {
+      "isAbstract": true
+    },
+    "dtd$und$eq__Lscala_xml_dtd_DTD__V": {
+      "isAbstract": true
+    },
+    "doc__Lscala_xml_Document": {
+      "isAbstract": true
+    },
+    "doc$und$eq__Lscala_xml_Document__V": {
+      "isAbstract": true
+    },
+    "eof__Z": {
+      "isAbstract": true
+    },
+    "xmlProcInstr__Lscala_xml_MetaData": {
+      "isAbstract": true
+    },
+    "prolog__Lscala_Tuple3": {
+      "isAbstract": true
+    },
+    "textDecl__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "document__Lscala_xml_Document": {
+      "isAbstract": true
+    },
+    "putChar__C__Lscala_collection_mutable_StringBuilder": {
+      "isAbstract": true
+    },
+    "initialize__Lscala_xml_parsing_MarkupHandler": {
+      "isAbstract": true
+    },
+    "ch$undreturning$undnextch__C": {
+      "isAbstract": true
+    },
+    "mkAttributes__T__Lscala_xml_NamespaceBinding__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "mkProcInstr__I__T__T__Lscala_xml_NodeSeq": {
+      "isAbstract": true
+    },
+    "nextch__V": {
+      "isAbstract": true
+    },
+    "xAttributes__Lscala_xml_NamespaceBinding__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "xEntityValue__T": {
+      "isAbstract": true
+    },
+    "xCharData__Lscala_xml_NodeSeq": {
+      "isAbstract": true
+    },
+    "xComment__Lscala_xml_NodeSeq": {
+      "isAbstract": true
+    },
+    "appendText__I__Lscala_xml_NodeBuffer__T__V": {
+      "isAbstract": true
+    },
+    "content1__Lscala_xml_NamespaceBinding__Lscala_xml_NodeBuffer__V": {
+      "isAbstract": true
+    },
+    "content__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq": {
+      "isAbstract": true
+    },
+    "externalID__Lscala_xml_dtd_ExternalID": {
+      "isAbstract": true
+    },
+    "parseDTD__V": {
+      "isAbstract": true
+    },
+    "element__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq": {
+      "isAbstract": true
+    },
+    "element1__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq": {
+      "isAbstract": true
+    },
+    "systemLiteral__T": {
+      "isAbstract": true
+    },
+    "pubidLiteral__T": {
+      "isAbstract": true
+    },
+    "extSubset__V": {
+      "isAbstract": true
+    },
+    "markupDecl1__O": {
+      "isAbstract": true
+    },
+    "markupDecl__V": {
+      "isAbstract": true
+    },
+    "intSubset__V": {
+      "isAbstract": true
+    },
+    "elementDecl__V": {
+      "isAbstract": true
+    },
+    "attrDecl__V": {
+      "isAbstract": true
+    },
+    "entityDecl__V": {
+      "isAbstract": true
+    },
+    "notationDecl__V": {
+      "isAbstract": true
+    },
+    "reportSyntaxError__I__T__V": {
+      "isAbstract": true
+    },
+    "reportSyntaxError__T__V": {
+      "isAbstract": true
+    },
+    "reportValidationError__I__T__V": {
+      "isAbstract": true
+    },
+    "push__T__V": {
+      "isAbstract": true
+    },
+    "pushExternal__T__V": {
+      "isAbstract": true
+    },
+    "pop__V": {
+      "isAbstract": true
+    }
+  }
+}

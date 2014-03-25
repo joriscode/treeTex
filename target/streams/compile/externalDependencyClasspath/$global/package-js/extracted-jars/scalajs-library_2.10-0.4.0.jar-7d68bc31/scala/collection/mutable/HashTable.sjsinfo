@@ -1,0 +1,131 @@
+{
+  "name": "scala.collection.mutable.HashTable",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_HashTable",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_HashTable", "scala_collection_mutable_HashTable$HashUtils", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "$$undloadFactor__I": {
+      "isAbstract": true
+    },
+    "$$undloadFactor$und$eq__I__V": {
+      "isAbstract": true
+    },
+    "table__ALscala_collection_mutable_HashEntry": {
+      "isAbstract": true
+    },
+    "table$und$eq__ALscala_collection_mutable_HashEntry__V": {
+      "isAbstract": true
+    },
+    "tableSize__I": {
+      "isAbstract": true
+    },
+    "tableSize$und$eq__I__V": {
+      "isAbstract": true
+    },
+    "threshold__I": {
+      "isAbstract": true
+    },
+    "threshold$und$eq__I__V": {
+      "isAbstract": true
+    },
+    "sizemap__AI": {
+      "isAbstract": true
+    },
+    "sizemap$und$eq__AI__V": {
+      "isAbstract": true
+    },
+    "seedvalue__I": {
+      "isAbstract": true
+    },
+    "seedvalue$und$eq__I__V": {
+      "isAbstract": true
+    },
+    "tableSizeSeed__I": {
+      "isAbstract": true
+    },
+    "initialSize__I": {
+      "isAbstract": true
+    },
+    "init__Ljava_io_ObjectInputStream__Lscala_Function0__V": {
+      "isAbstract": true
+    },
+    "serializeTo__Ljava_io_ObjectOutputStream__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "findEntry__O__Lscala_collection_mutable_HashEntry": {
+      "isAbstract": true
+    },
+    "addEntry__Lscala_collection_mutable_HashEntry__V": {
+      "isAbstract": true
+    },
+    "findOrAddEntry__O__O__Lscala_collection_mutable_HashEntry": {
+      "isAbstract": true
+    },
+    "createNewEntry__O__O__Lscala_collection_mutable_HashEntry": {
+      "isAbstract": true
+    },
+    "removeEntry__O__Lscala_collection_mutable_HashEntry": {
+      "isAbstract": true
+    },
+    "entriesIterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "foreachEntry__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "clearTable__V": {
+      "isAbstract": true
+    },
+    "nnSizeMapAdd__I__V": {
+      "isAbstract": true
+    },
+    "nnSizeMapRemove__I__V": {
+      "isAbstract": true
+    },
+    "nnSizeMapReset__I__V": {
+      "isAbstract": true
+    },
+    "totalSizeMapBuckets__I": {
+      "isAbstract": true
+    },
+    "calcSizeMapSize__I__I": {
+      "isAbstract": true
+    },
+    "sizeMapInit__I__V": {
+      "isAbstract": true
+    },
+    "sizeMapInitAndRebuild__V": {
+      "isAbstract": true
+    },
+    "printSizeMap__V": {
+      "isAbstract": true
+    },
+    "sizeMapDisable__V": {
+      "isAbstract": true
+    },
+    "isSizeMapDefined__Z": {
+      "isAbstract": true
+    },
+    "alwaysInitSizeMap__Z": {
+      "isAbstract": true
+    },
+    "elemEquals__O__O__Z": {
+      "isAbstract": true
+    },
+    "index__I__I": {
+      "isAbstract": true
+    },
+    "initWithContents__Lscala_collection_mutable_HashTable$Contents__V": {
+      "isAbstract": true
+    },
+    "hashTableContents__Lscala_collection_mutable_HashTable$Contents": {
+      "isAbstract": true
+    }
+  }
+}

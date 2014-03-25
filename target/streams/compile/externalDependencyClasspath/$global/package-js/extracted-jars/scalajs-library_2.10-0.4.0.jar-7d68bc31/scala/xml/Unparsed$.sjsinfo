@@ -1,0 +1,46 @@
+{
+  "name": "scala.xml.Unparsed$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_Unparsed$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_Unparsed$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__T__Lscala_xml_Unparsed": {
+      "calledMethods": {
+        "scala_xml_Unparsed": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_Unparsed"]
+    },
+    "unapply__Lscala_xml_Unparsed__Lscala_Some": {
+      "calledMethods": {
+        "scala_xml_Unparsed": ["data__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_xml_Unparsed"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_xml_Unparsed__": {
+      "calledMethods": {
+        "scala_xml_Unparsed$": ["unapply__Lscala_xml_Unparsed__Lscala_Some"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_xml_Unparsed$": ["apply__T__Lscala_xml_Unparsed"]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "scala.concurrent.BlockContext$DefaultBlockContext$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_BlockContext$DefaultBlockContext$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_BlockContext$DefaultBlockContext$", "scala_concurrent_BlockContext", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "blockOn__Lscala_Function0__Lscala_concurrent_CanAwait__O": {
+      "calledMethods": {
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "blockOn__Lscala_Function0__Lscala_concurrent_CanAwait__": {
+      "calledMethods": {
+        "scala_concurrent_BlockContext$DefaultBlockContext$": ["blockOn__Lscala_Function0__Lscala_concurrent_CanAwait__O"]
+      }
+    }
+  }
+}

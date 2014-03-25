@@ -1,0 +1,42 @@
+{
+  "name": "scala.concurrent.impl.AbstractPromise",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_AbstractPromise",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_impl_AbstractPromise", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "state__p1__O": {},
+    "state$und$eq__p1__O__V": {},
+    "updateState__O__O__Z": {
+      "calledMethods": {
+        "scala_concurrent_impl_AbstractPromise": ["state__p1__O", "state$und$eq__p1__O__V"]
+      }
+    },
+    "getState__O": {
+      "calledMethods": {
+        "scala_concurrent_impl_AbstractPromise": ["state__p1__O"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "getState__": {
+      "calledMethods": {
+        "scala_concurrent_impl_AbstractPromise": ["getState__O"]
+      }
+    },
+    "updateState__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_impl_AbstractPromise": ["updateState__O__O__Z"]
+      }
+    }
+  }
+}

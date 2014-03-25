@@ -1,0 +1,33 @@
+{
+  "name": "scala.io.BytePickle$$anonfun$pair$2$$anonfun$apply$4",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$$anonfun$pair$2$$anonfun$apply$4",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_io_BytePickle$$anonfun$pair$2$$anonfun$apply$4", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__O__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_Tuple2": ["init___O__O"],
+        "scala_io_BytePickle$": ["lift__O__Lscala_io_BytePickle$SPU"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anonfun$pair$2$$anonfun$apply$4": ["apply__O__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "init___Lscala_io_BytePickle$$anonfun$pair$2__O": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    }
+  }
+}

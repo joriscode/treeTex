@@ -1,0 +1,139 @@
+{
+  "name": "scala.runtime.RichLong$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichLong$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichLong$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "num$extension__J__Lscala_math_Numeric$LongIsIntegral$": {
+      "accessedModules": ["scala_math_Numeric$LongIsIntegral"]
+    },
+    "ord$extension__J__Lscala_math_Ordering$Long$": {
+      "accessedModules": ["scala_math_Ordering$Long"]
+    },
+    "toBinaryString$extension__J__T": {
+      "calledMethods": {
+        "java_lang_Long$": ["toBinaryString__J__T"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "toHexString$extension__J__T": {
+      "calledMethods": {
+        "java_lang_Long$": ["toHexString__J__T"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "toOctalString$extension__J__T": {
+      "calledMethods": {
+        "java_lang_Long$": ["toOctalString__J__T"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "isValidByte$extension__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z", "toByte__B"],
+        "scala_scalajs_runtime_Long$": ["fromByte__B__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "isValidShort$extension__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z", "toShort__S"],
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "isValidChar$extension__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z", "toChar__C"],
+        "scala_scalajs_runtime_Long$": ["fromChar__C__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "isValidInt$extension__J__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z", "toInt__I"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "hashCode$extension__J__I": {
+      "calledMethods": {
+        "java_lang_Object": ["hashCode__I"]
+      }
+    },
+    "equals$extension__J__O__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_runtime_RichLong": ["self__J"]
+      },
+      "accessedClassData": ["scala_runtime_RichLong"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__J__O__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["equals$extension__J__O__Z"]
+      }
+    },
+    "hashCode$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["hashCode$extension__J__I"]
+      }
+    },
+    "isValidInt$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["isValidInt$extension__J__Z"]
+      }
+    },
+    "isValidChar$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["isValidChar$extension__J__Z"]
+      }
+    },
+    "isValidShort$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["isValidShort$extension__J__Z"]
+      }
+    },
+    "isValidByte$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["isValidByte$extension__J__Z"]
+      }
+    },
+    "toOctalString$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["toOctalString$extension__J__T"]
+      }
+    },
+    "toHexString$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["toHexString$extension__J__T"]
+      }
+    },
+    "toBinaryString$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["toBinaryString$extension__J__T"]
+      }
+    },
+    "ord$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["ord$extension__J__Lscala_math_Ordering$Long$"]
+      }
+    },
+    "num$extension__J__": {
+      "calledMethods": {
+        "scala_runtime_RichLong$": ["num$extension__J__Lscala_math_Numeric$LongIsIntegral$"]
+      }
+    }
+  }
+}

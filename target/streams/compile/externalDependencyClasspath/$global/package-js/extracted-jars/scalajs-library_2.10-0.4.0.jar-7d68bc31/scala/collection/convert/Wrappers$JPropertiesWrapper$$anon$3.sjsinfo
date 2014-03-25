@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.convert.Wrappers$JPropertiesWrapper$$anon$3",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$JPropertiesWrapper$$anon$3",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_convert_Wrappers$JPropertiesWrapper$$anon$3", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ui__p2__Ljava_util_Iterator": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JPropertiesWrapper$$anon$3": ["ui__p2__Ljava_util_Iterator"],
+        "java_util_Iterator": ["hasNext__Z"]
+      }
+    },
+    "next__Lscala_Tuple2": {
+      "calledMethods": {
+        "java_util_Map$Entry": ["getValue__O", "getKey__O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_convert_Wrappers$JPropertiesWrapper$$anon$3": ["ui__p2__Ljava_util_Iterator"],
+        "java_util_Iterator": ["next__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"],
+      "accessedClassData": ["java_util_Map$Entry", "java_lang_String"]
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JPropertiesWrapper$$anon$3": ["next__Lscala_Tuple2"]
+      }
+    },
+    "init___Lscala_collection_convert_Wrappers$JPropertiesWrapper": {
+      "calledMethods": {
+        "java_util_Set": ["iterator__Ljava_util_Iterator"],
+        "scala_collection_convert_Wrappers$JPropertiesWrapper": ["underlying__Ljava_util_Properties"],
+        "java_util_Properties": ["entrySet__Ljava_util_Set"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

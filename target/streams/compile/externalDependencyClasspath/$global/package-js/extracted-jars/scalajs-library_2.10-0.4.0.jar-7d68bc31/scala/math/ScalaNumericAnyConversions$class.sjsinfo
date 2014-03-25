@@ -1,0 +1,89 @@
+{
+  "name": "scala.math.ScalaNumericAnyConversions$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_math_ScalaNumericAnyConversions$class",
+  "superClass": "",
+  "ancestors": ["scala_math_ScalaNumericAnyConversions$class"],
+  "isExported": false,
+  "methods": {
+    "scala_math_ScalaNumericAnyConversions$class__toChar__Lscala_math_ScalaNumericAnyConversions__C": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["intValue__I"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__toByte__Lscala_math_ScalaNumericAnyConversions__B": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["byteValue__B"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__toShort__Lscala_math_ScalaNumericAnyConversions__S": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["shortValue__S"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__toInt__Lscala_math_ScalaNumericAnyConversions__I": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["intValue__I"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__toLong__Lscala_math_ScalaNumericAnyConversions__J": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["longValue__J"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__toFloat__Lscala_math_ScalaNumericAnyConversions__F": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["floatValue__F"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__toDouble__Lscala_math_ScalaNumericAnyConversions__D": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["doubleValue__D"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__isValidByte__Lscala_math_ScalaNumericAnyConversions__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["isWhole__Z", "toInt__I", "toByte__B"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__isValidShort__Lscala_math_ScalaNumericAnyConversions__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["isWhole__Z", "toInt__I", "toShort__S"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__isValidInt__Lscala_math_ScalaNumericAnyConversions__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_math_ScalaNumericAnyConversions": ["isWhole__Z", "toInt__I", "toLong__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "scala_math_ScalaNumericAnyConversions$class__isValidChar__Lscala_math_ScalaNumericAnyConversions__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions": ["isWhole__Z", "toInt__I"]
+      }
+    },
+    "scala_math_ScalaNumericAnyConversions$class__unifiedPrimitiveHashcode__Lscala_math_ScalaNumericAnyConversions__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less$eq__Lscala_scalajs_runtime_Long__Z", "$$greater$eq__Lscala_scalajs_runtime_Long__Z", "toInt__I"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_runtime_ScalaRunTime$": ["hash__J__I"],
+        "scala_math_ScalaNumericAnyConversions": ["toLong__J"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "scala_runtime_ScalaRunTime"]
+    },
+    "scala_math_ScalaNumericAnyConversions$class__unifiedPrimitiveEquals__Lscala_math_ScalaNumericAnyConversions__O__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["equals__O__Z"],
+        "scala_math_ScalaNumericAnyConversions": ["isValidByte__Z", "isValidInt__Z", "isValidChar__Z", "toInt__I", "toShort__S", "isValidShort__Z", "toDouble__D", "toLong__J", "toFloat__F", "toByte__B"]
+      },
+      "accessedClassData": ["java_lang_Float", "java_lang_Byte", "java_lang_Integer", "java_lang_Long", "java_lang_Character", "java_lang_Double", "java_lang_Short"]
+    },
+    "scala_math_ScalaNumericAnyConversions$class__$init$__Lscala_math_ScalaNumericAnyConversions__V": {}
+  }
+}

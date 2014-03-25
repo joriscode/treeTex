@@ -1,0 +1,58 @@
+{
+  "name": "scala.collection.mutable.UnrolledBuffer$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_UnrolledBuffer$",
+  "superClass": "scala_collection_generic_ClassTagTraversableFactory",
+  "ancestors": ["scala_collection_mutable_UnrolledBuffer$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_ClassTagTraversableFactory", "scala_collection_generic_GenericClassTagCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_ClassTagTraversableFactory$GenericCanBuildFrom": ["init___Lscala_collection_generic_ClassTagTraversableFactory__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_ClassTagTraversableFactory$GenericCanBuildFrom"]
+    },
+    "newBuilder__Lscala_reflect_ClassTag__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer": ["init___Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_UnrolledBuffer"]
+    },
+    "waterline__I": {},
+    "waterlineDelim__I": {},
+    "unrolledlength__I": {},
+    "readResolve__p3__O": {
+      "accessedModules": ["scala_collection_mutable_UnrolledBuffer"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_collection_generic_ClassTagTraversableFactory": ["init___"]
+      }
+    },
+    "unrolledlength__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$": ["unrolledlength__I"]
+      }
+    },
+    "waterlineDelim__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$": ["waterlineDelim__I"]
+      }
+    },
+    "waterline__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$": ["waterline__I"]
+      }
+    },
+    "canBuildFrom__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_collection_mutable_UnrolledBuffer$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

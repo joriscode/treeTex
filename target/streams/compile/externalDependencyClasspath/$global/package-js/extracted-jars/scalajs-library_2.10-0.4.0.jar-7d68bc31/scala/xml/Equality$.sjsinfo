@@ -1,0 +1,60 @@
+{
+  "name": "scala.xml.Equality$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_Equality$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_Equality$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "asRef__O__O": {},
+    "compareBlithely__O__T__Z": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["text__T"],
+        "scala_xml_Atom": ["data__O"]
+      },
+      "accessedClassData": ["scala_xml_Atom", "scala_xml_NodeSeq"]
+    },
+    "compareBlithely__O__Lscala_xml_Node__Z": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["apply__I__Lscala_xml_Node", "length__I"]
+      },
+      "accessedClassData": ["scala_xml_NodeSeq"]
+    },
+    "compareBlithely__O__O__Z": {
+      "calledMethods": {
+        "scala_xml_Equality$": ["compareBlithely__O__T__Z", "compareBlithely__O__Lscala_xml_Node__Z"]
+      },
+      "accessedClassData": ["scala_xml_Node", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "compareBlithely__O__O__": {
+      "calledMethods": {
+        "scala_xml_Equality$": ["compareBlithely__O__O__Z"]
+      }
+    },
+    "compareBlithely__O__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_Equality$": ["compareBlithely__O__Lscala_xml_Node__Z"]
+      }
+    },
+    "compareBlithely__O__T__": {
+      "calledMethods": {
+        "scala_xml_Equality$": ["compareBlithely__O__T__Z"]
+      }
+    },
+    "asRef__O__": {
+      "calledMethods": {
+        "scala_xml_Equality$": ["asRef__O__O"]
+      }
+    }
+  }
+}

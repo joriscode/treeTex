@@ -1,0 +1,59 @@
+{
+  "name": "scala.collection.IterableViewLike$$anon$7",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_IterableViewLike$$anon$7",
+  "superClass": "scala_collection_IterableViewLike$AbstractTransformed",
+  "ancestors": ["scala_collection_IterableViewLike$$anon$7", "scala_collection_IterableViewLike$DroppedWhile", "scala_collection_GenIterableViewLike$DroppedWhile", "scala_collection_TraversableViewLike$DroppedWhile", "scala_collection_GenTraversableViewLike$DroppedWhile", "scala_collection_IterableViewLike$AbstractTransformed", "scala_collection_IterableViewLike$Transformed", "scala_collection_GenIterableViewLike$Transformed", "scala_collection_IterableView", "scala_collection_GenIterableView", "scala_collection_IterableViewLike", "scala_collection_GenIterableViewLike", "scala_collection_TraversableViewLike$Transformed", "scala_collection_GenTraversableViewLike$Transformed", "scala_collection_TraversableView", "scala_collection_GenTraversableView", "scala_collection_TraversableViewLike", "scala_collection_GenTraversableViewLike", "scala_collection_ViewMkString", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_GenIterableViewLike$DroppedWhile$class": ["scala_collection_GenIterableViewLike$DroppedWhile$class__iterator__Lscala_collection_GenIterableViewLike$DroppedWhile__Lscala_collection_Iterator"]
+      }
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_GenTraversableViewLike$DroppedWhile$class": ["scala_collection_GenTraversableViewLike$DroppedWhile$class__foreach__Lscala_collection_GenTraversableViewLike$DroppedWhile__Lscala_Function1__V"]
+      }
+    },
+    "viewIdentifier__T": {
+      "calledMethods": {
+        "scala_collection_GenTraversableViewLike$DroppedWhile$class": ["scala_collection_GenTraversableViewLike$DroppedWhile$class__viewIdentifier__Lscala_collection_GenTraversableViewLike$DroppedWhile__T"]
+      }
+    },
+    "pred__Lscala_Function1": {},
+    "scala$collection$GenIterableViewLike$DroppedWhile$$$outer__Lscala_collection_GenIterableViewLike": {},
+    "scala$collection$GenTraversableViewLike$DroppedWhile$$$outer__Lscala_collection_GenTraversableViewLike": {},
+    "init___Lscala_collection_IterableViewLike__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_GenIterableViewLike$DroppedWhile$class": ["scala_collection_GenIterableViewLike$DroppedWhile$class__$init$__Lscala_collection_GenIterableViewLike$DroppedWhile__V"],
+        "scala_collection_GenTraversableViewLike$DroppedWhile$class": ["scala_collection_GenTraversableViewLike$DroppedWhile$class__$init$__Lscala_collection_GenTraversableViewLike$DroppedWhile__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_IterableViewLike$AbstractTransformed": ["init___Lscala_collection_IterableViewLike"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$GenTraversableViewLike$DroppedWhile$$$outer__": {
+      "calledMethods": {
+        "scala_collection_IterableViewLike$$anon$7": ["scala$collection$GenTraversableViewLike$DroppedWhile$$$outer__Lscala_collection_GenTraversableViewLike"]
+      }
+    },
+    "scala$collection$GenIterableViewLike$DroppedWhile$$$outer__": {
+      "calledMethods": {
+        "scala_collection_IterableViewLike$$anon$7": ["scala$collection$GenIterableViewLike$DroppedWhile$$$outer__Lscala_collection_GenIterableViewLike"]
+      }
+    },
+    "pred__": {
+      "calledMethods": {
+        "scala_collection_IterableViewLike$$anon$7": ["pred__Lscala_Function1"]
+      }
+    }
+  }
+}

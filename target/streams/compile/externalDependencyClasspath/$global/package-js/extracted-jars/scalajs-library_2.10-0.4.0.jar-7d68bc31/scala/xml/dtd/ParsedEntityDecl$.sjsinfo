@@ -1,0 +1,55 @@
+{
+  "name": "scala.xml.dtd.ParsedEntityDecl$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_ParsedEntityDecl$",
+  "superClass": "scala_runtime_AbstractFunction2",
+  "ancestors": ["scala_xml_dtd_ParsedEntityDecl$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction2", "scala_Function2", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__Lscala_xml_dtd_EntityDef__Lscala_xml_dtd_ParsedEntityDecl": {
+      "calledMethods": {
+        "scala_xml_dtd_ParsedEntityDecl": ["init___T__Lscala_xml_dtd_EntityDef"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_ParsedEntityDecl"]
+    },
+    "unapply__Lscala_xml_dtd_ParsedEntityDecl__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_xml_dtd_ParsedEntityDecl": ["name__T", "entdef__Lscala_xml_dtd_EntityDef"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_xml_dtd_ParsedEntityDecl"]
+    },
+    "apply__O__O__O": {
+      "calledMethods": {
+        "scala_xml_dtd_ParsedEntityDecl$": ["apply__T__Lscala_xml_dtd_EntityDef__Lscala_xml_dtd_ParsedEntityDecl"]
+      },
+      "accessedClassData": ["scala_xml_dtd_EntityDef", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction2": ["init___"]
+      }
+    },
+    "unapply__Lscala_xml_dtd_ParsedEntityDecl__": {
+      "calledMethods": {
+        "scala_xml_dtd_ParsedEntityDecl$": ["unapply__Lscala_xml_dtd_ParsedEntityDecl__Lscala_Option"]
+      }
+    },
+    "apply__T__Lscala_xml_dtd_EntityDef__": {
+      "calledMethods": {
+        "scala_xml_dtd_ParsedEntityDecl$": ["apply__T__Lscala_xml_dtd_EntityDef__Lscala_xml_dtd_ParsedEntityDecl"]
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "name": "scala.collection.mutable.BitSet$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_BitSet$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_BitSet$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_BitSetFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_Seq__Lscala_collection_BitSet": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory$class": ["scala_collection_generic_BitSetFactory$class__apply__Lscala_collection_generic_BitSetFactory__Lscala_collection_Seq__Lscala_collection_BitSet"]
+      }
+    },
+    "bitsetCanBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory$class": ["scala_collection_generic_BitSetFactory$class__bitsetCanBuildFrom__Lscala_collection_generic_BitSetFactory__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "empty__Lscala_collection_mutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_BitSet"]
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_GrowingBuilder": ["init___Lscala_collection_generic_Growable"],
+        "scala_collection_mutable_BitSet$": ["empty__Lscala_collection_mutable_BitSet"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_GrowingBuilder"]
+    },
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["bitsetCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "fromBitMask__AJ__Lscala_collection_mutable_BitSet": {
+      "calledMethods": {
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_collection_mutable_BitSet": ["init___AJ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_BitSet"],
+      "accessedModules": ["scala_Array"]
+    },
+    "fromBitMaskNoCopy__AJ__Lscala_collection_mutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet": ["init___AJ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_BitSet"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_mutable_BitSet"]
+    },
+    "empty__Lscala_collection_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["empty__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory$class": ["scala_collection_generic_BitSetFactory$class__$init$__Lscala_collection_generic_BitSetFactory__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "bitsetCanBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["bitsetCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["apply__Lscala_collection_Seq__Lscala_collection_BitSet"]
+      }
+    },
+    "fromBitMaskNoCopy__AJ__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["fromBitMaskNoCopy__AJ__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "fromBitMask__AJ__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["fromBitMask__AJ__Lscala_collection_mutable_BitSet"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "newBuilder__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_mutable_BitSet$": ["empty__Lscala_collection_mutable_BitSet"]
+      }
+    }
+  }
+}

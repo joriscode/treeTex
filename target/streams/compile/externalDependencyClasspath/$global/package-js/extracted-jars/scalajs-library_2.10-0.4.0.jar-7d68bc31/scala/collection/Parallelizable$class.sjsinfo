@@ -1,0 +1,25 @@
+{
+  "name": "scala.collection.Parallelizable$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Parallelizable$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_Parallelizable$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_Parallelizable$class__par__Lscala_collection_Parallelizable__Lscala_collection_Parallel": {
+      "calledMethods": {
+        "scala_collection_Parallelizable": ["seq__Lscala_collection_TraversableOnce", "parCombiner__Lscala_collection_parallel_Combiner"],
+        "scala_collection_parallel_Combiner": ["$$plus$eq__O__Lscala_collection_mutable_Builder", "result__O"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_collection_Parallel", "scala_collection_parallel_Combiner"]
+    },
+    "scala_collection_Parallelizable$class__$init$__Lscala_collection_Parallelizable__V": {}
+  }
+}

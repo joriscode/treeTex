@@ -1,0 +1,40 @@
+{
+  "name": "scala.collection.mutable.RevertibleHistory",
+  "ancestorCount": 5,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_RevertibleHistory",
+  "superClass": "scala_collection_mutable_History",
+  "ancestors": ["scala_collection_mutable_RevertibleHistory", "scala_collection_mutable_Undoable", "scala_collection_mutable_History", "scala_Serializable", "java_io_Serializable", "scala_collection_mutable_Subscriber", "scala_collection_mutable_AbstractIterable", "scala_collection_mutable_Iterable", "scala_collection_mutable_Traversable", "scala_Mutable", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "undo__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Undoable": ["undo__V"],
+        "scala_collection_mutable_Queue": ["toList__Lscala_collection_immutable_List"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_List": ["reverse__Lscala_collection_immutable_List", "foreach__Lscala_Function1__V"],
+        "scala_Tuple2": ["$$und2__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_RevertibleHistory": ["log__Lscala_collection_mutable_Queue", "clear__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_mutable_Undoable"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_mutable_History": ["init___"]
+      }
+    },
+    "undo__": {
+      "calledMethods": {
+        "scala_collection_mutable_RevertibleHistory": ["undo__V"]
+      }
+    }
+  }
+}

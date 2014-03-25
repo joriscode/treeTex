@@ -1,0 +1,75 @@
+{
+  "name": "scala.xml.pull.XMLEventReader$POISON$",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_pull_XMLEventReader$POISON$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_pull_XMLEventReader$POISON$", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_xml_pull_XMLEvent", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_xml_pull_XMLEventReader$POISON$"]
+    },
+    "hashCode__I": {},
+    "toString__T": {},
+    "readResolve__p1__O": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["POISON__Lscala_xml_pull_XMLEventReader$POISON$"]
+      }
+    },
+    "init___Lscala_xml_pull_XMLEventReader": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader$POISON$": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader$POISON$": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader$POISON$": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader$POISON$": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader$POISON$": ["productPrefix__T"]
+      }
+    }
+  }
+}

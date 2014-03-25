@@ -1,0 +1,66 @@
+{
+  "name": "scala.sys.process.BasicIO$Uncloseable$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_BasicIO$Uncloseable$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_BasicIO$Uncloseable$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Ljava_io_InputStream__Ljava_io_InputStream": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Uncloseable$$anon$2": ["init___Ljava_io_InputStream"]
+      },
+      "instantiatedClasses": ["scala_sys_process_BasicIO$Uncloseable$$anon$2"]
+    },
+    "apply__Ljava_io_OutputStream__Ljava_io_OutputStream": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Uncloseable$$anon$1": ["init___Ljava_io_OutputStream"]
+      },
+      "instantiatedClasses": ["scala_sys_process_BasicIO$Uncloseable$$anon$1"]
+    },
+    "protect__Ljava_io_InputStream__Ljava_io_InputStream": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stdin__Ljava_io_InputStream"],
+        "scala_sys_process_BasicIO$Uncloseable$": ["apply__Ljava_io_InputStream__Ljava_io_InputStream"]
+      },
+      "accessedModules": ["scala_sys_process_BasicIO$Uncloseable", "scala_sys_process_package"]
+    },
+    "protect__Ljava_io_OutputStream__Ljava_io_OutputStream": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stderr__Ljava_io_PrintStream", "stdout__Ljava_io_PrintStream"],
+        "scala_sys_process_BasicIO$Uncloseable$": ["apply__Ljava_io_OutputStream__Ljava_io_OutputStream"]
+      },
+      "accessedModules": ["scala_sys_process_BasicIO$Uncloseable", "scala_sys_process_package"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "protect__Ljava_io_OutputStream__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Uncloseable$": ["protect__Ljava_io_OutputStream__Ljava_io_OutputStream"]
+      }
+    },
+    "protect__Ljava_io_InputStream__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Uncloseable$": ["protect__Ljava_io_InputStream__Ljava_io_InputStream"]
+      }
+    },
+    "apply__Ljava_io_OutputStream__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Uncloseable$": ["apply__Ljava_io_OutputStream__Ljava_io_OutputStream"]
+      }
+    },
+    "apply__Ljava_io_InputStream__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Uncloseable$": ["apply__Ljava_io_InputStream__Ljava_io_InputStream"]
+      }
+    }
+  }
+}

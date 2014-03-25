@@ -1,0 +1,92 @@
+{
+  "name": "scala.collection.mutable.ArrayOps$ofChar$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayOps$ofChar$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_ArrayOps$ofChar$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "thisCollection$extension__AC__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofChar": ["init___AC"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofChar"]
+    },
+    "toCollection$extension__AC__AC__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofChar": ["init___AC"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofChar"]
+    },
+    "newBuilder$extension__AC__Lscala_collection_mutable_ArrayBuilder$ofChar": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofChar": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuilder$ofChar"]
+    },
+    "length$extension__AC__I": {},
+    "apply$extension__AC__I__C": {},
+    "update$extension__AC__I__C__V": {},
+    "hashCode$extension__AC__I": {
+      "calledMethods": {
+        "scala_Array": ["hashCode__I"]
+      }
+    },
+    "equals$extension__AC__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar": ["repr__AC"]
+      },
+      "accessedClassData": ["scala_collection_mutable_ArrayOps$ofChar"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__AC__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar$": ["equals$extension__AC__O__Z"]
+      }
+    },
+    "hashCode$extension__AC__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar$": ["hashCode$extension__AC__I"]
+      }
+    },
+    "update$extension__AC__I__C__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar$": ["update$extension__AC__I__C__V"]
+      }
+    },
+    "apply$extension__AC__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar$": ["apply$extension__AC__I__C"]
+      }
+    },
+    "length$extension__AC__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar$": ["length$extension__AC__I"]
+      }
+    },
+    "newBuilder$extension__AC__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar$": ["newBuilder$extension__AC__Lscala_collection_mutable_ArrayBuilder$ofChar"]
+      }
+    },
+    "toCollection$extension__AC__AC__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar$": ["toCollection$extension__AC__AC__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "thisCollection$extension__AC__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar$": ["thisCollection$extension__AC__Lscala_collection_mutable_WrappedArray"]
+      }
+    }
+  }
+}

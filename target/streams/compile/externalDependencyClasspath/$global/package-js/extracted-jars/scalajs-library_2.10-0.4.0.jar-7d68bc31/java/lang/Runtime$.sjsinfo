@@ -1,0 +1,35 @@
+{
+  "name": "java.lang.Runtime$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Runtime$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Runtime$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "currentRuntime__p1__Ljava_lang_Runtime": {},
+    "getRuntime__Ljava_lang_Runtime": {
+      "calledMethods": {
+        "java_lang_Runtime$": ["currentRuntime__p1__Ljava_lang_Runtime"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Runtime": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Runtime"]
+    },
+    "getRuntime__": {
+      "calledMethods": {
+        "java_lang_Runtime$": ["getRuntime__Ljava_lang_Runtime"]
+      }
+    }
+  }
+}

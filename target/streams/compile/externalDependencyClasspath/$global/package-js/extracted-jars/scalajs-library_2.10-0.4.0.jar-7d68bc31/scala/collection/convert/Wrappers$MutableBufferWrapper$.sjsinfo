@@ -1,0 +1,54 @@
+{
+  "name": "scala.collection.convert.Wrappers$MutableBufferWrapper$",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$MutableBufferWrapper$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Wrappers$MutableBufferWrapper$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_collection_mutable_Buffer__Lscala_collection_convert_Wrappers$MutableBufferWrapper": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MutableBufferWrapper": ["init___Lscala_collection_convert_Wrappers__Lscala_collection_mutable_Buffer"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$MutableBufferWrapper"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$MutableBufferWrapper__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_collection_convert_Wrappers$MutableBufferWrapper": ["underlying__Lscala_collection_mutable_Buffer"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers": ["MutableBufferWrapper__Lscala_collection_convert_Wrappers$MutableBufferWrapper$"]
+      }
+    },
+    "init___Lscala_collection_convert_Wrappers": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$MutableBufferWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MutableBufferWrapper$": ["unapply__Lscala_collection_convert_Wrappers$MutableBufferWrapper__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_collection_mutable_Buffer__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MutableBufferWrapper$": ["apply__Lscala_collection_mutable_Buffer__Lscala_collection_convert_Wrappers$MutableBufferWrapper"]
+      }
+    }
+  }
+}

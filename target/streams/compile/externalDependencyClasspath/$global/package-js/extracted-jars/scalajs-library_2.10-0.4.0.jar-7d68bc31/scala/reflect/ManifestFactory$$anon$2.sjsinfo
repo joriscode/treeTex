@@ -1,0 +1,45 @@
+{
+  "name": "scala.reflect.ManifestFactory$$anon$2",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_reflect_ManifestFactory$$anon$2",
+  "superClass": "scala_reflect_ManifestFactory$PhantomManifest",
+  "ancestors": ["scala_reflect_ManifestFactory$$anon$2", "scala_reflect_ManifestFactory$PhantomManifest", "scala_reflect_ManifestFactory$ClassTypeManifest", "scala_reflect_Manifest", "scala_reflect_ClassTag", "scala_Equals", "scala_reflect_ClassManifestDeprecatedApis", "scala_reflect_OptManifest", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "newArray__I__AO": {
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "$$less$colon$less__Lscala_reflect_ClassTag__Z": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$": ["Any__Lscala_reflect_Manifest"]
+      },
+      "accessedModules": ["scala_reflect_ManifestFactory"]
+    },
+    "readResolve__p3__O": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$": ["Object__Lscala_reflect_Manifest"],
+        "scala_reflect_package$": ["Manifest__Lscala_reflect_ManifestFactory$"]
+      },
+      "accessedModules": ["scala_reflect_package"]
+    },
+    "newArray__I__O": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$$anon$2": ["newArray__I__AO"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$": ["scala$reflect$ManifestFactory$$ObjectTYPE__Ljava_lang_Class"]
+      },
+      "calledMethodsStatic": {
+        "scala_reflect_ManifestFactory$PhantomManifest": ["init___Ljava_lang_Class__T"]
+      },
+      "accessedModules": ["scala_reflect_ManifestFactory"]
+    }
+  }
+}

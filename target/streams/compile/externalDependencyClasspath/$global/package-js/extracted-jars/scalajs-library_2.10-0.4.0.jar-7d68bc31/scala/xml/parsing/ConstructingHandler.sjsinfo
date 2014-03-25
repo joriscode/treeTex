@@ -1,0 +1,78 @@
+{
+  "name": "scala.xml.parsing.ConstructingHandler",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_ConstructingHandler",
+  "superClass": "scala_xml_parsing_MarkupHandler",
+  "ancestors": ["scala_xml_parsing_ConstructingHandler", "scala_xml_parsing_MarkupHandler", "scala_util_logging_Logged", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "preserveWS__Z": {
+      "isAbstract": true
+    },
+    "elem__I__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Z__Lscala_xml_NodeSeq__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_Elem$": ["apply__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Z__Lscala_collection_Seq__Lscala_xml_Elem"]
+      },
+      "accessedModules": ["scala_xml_Elem"]
+    },
+    "procInstr__I__T__T__Lscala_xml_ProcInstr": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["init___T__T"]
+      },
+      "instantiatedClasses": ["scala_xml_ProcInstr"]
+    },
+    "comment__I__T__Lscala_xml_Comment": {
+      "calledMethods": {
+        "scala_xml_Comment": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_Comment"]
+    },
+    "entityRef__I__T__Lscala_xml_EntityRef": {
+      "calledMethods": {
+        "scala_xml_EntityRef": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_EntityRef"]
+    },
+    "text__I__T__Lscala_xml_Text": {
+      "calledMethods": {
+        "scala_xml_Text$": ["apply__T__Lscala_xml_Text"]
+      },
+      "accessedModules": ["scala_xml_Text"]
+    },
+    "text__I__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingHandler": ["text__I__T__Lscala_xml_Text"]
+      }
+    },
+    "entityRef__I__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingHandler": ["entityRef__I__T__Lscala_xml_EntityRef"]
+      }
+    },
+    "comment__I__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingHandler": ["comment__I__T__Lscala_xml_Comment"]
+      }
+    },
+    "procInstr__I__T__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingHandler": ["procInstr__I__T__T__Lscala_xml_ProcInstr"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupHandler": ["init___"]
+      }
+    },
+    "preserveWS__": {
+      "calledMethods": {
+        "scala_xml_parsing_ConstructingHandler": ["preserveWS__Z"]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "scala.text.DocNest$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_text_DocNest$",
+  "superClass": "scala_runtime_AbstractFunction2",
+  "ancestors": ["scala_text_DocNest$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction2", "scala_Function2", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__I__Lscala_text_Document__Lscala_text_DocNest": {
+      "calledMethods": {
+        "scala_text_DocNest": ["init___I__Lscala_text_Document"]
+      },
+      "instantiatedClasses": ["scala_text_DocNest"]
+    },
+    "unapply__Lscala_text_DocNest__Lscala_Option": {
+      "calledMethods": {
+        "scala_text_DocNest": ["doc__Lscala_text_Document", "indent__I"],
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_text_DocNest"]
+    },
+    "apply__O__O__O": {
+      "calledMethods": {
+        "scala_text_DocNest$": ["apply__I__Lscala_text_Document__Lscala_text_DocNest"]
+      },
+      "accessedClassData": ["scala_text_Document"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction2": ["init___"]
+      }
+    },
+    "unapply__Lscala_text_DocNest__": {
+      "calledMethods": {
+        "scala_text_DocNest$": ["unapply__Lscala_text_DocNest__Lscala_Option"]
+      }
+    },
+    "apply__I__Lscala_text_Document__": {
+      "calledMethods": {
+        "scala_text_DocNest$": ["apply__I__Lscala_text_Document__Lscala_text_DocNest"]
+      }
+    }
+  }
+}

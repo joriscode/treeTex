@@ -1,0 +1,26 @@
+{
+  "name": "java.lang.ref.PhantomReference",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_ref_PhantomReference",
+  "superClass": "java_lang_ref_Reference",
+  "ancestors": ["java_lang_ref_PhantomReference", "java_lang_ref_Reference", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "get__O": {},
+    "init___O__Ljava_lang_ref_ReferenceQueue": {
+      "calledMethodsStatic": {
+        "java_lang_ref_Reference": ["init___O"]
+      }
+    },
+    "init___O": {
+      "calledMethodsStatic": {
+        "java_lang_ref_PhantomReference": ["init___O__Ljava_lang_ref_ReferenceQueue"]
+      }
+    }
+  }
+}

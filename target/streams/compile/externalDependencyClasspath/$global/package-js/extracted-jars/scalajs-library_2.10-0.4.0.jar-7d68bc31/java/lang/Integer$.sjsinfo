@@ -1,0 +1,172 @@
+{
+  "name": "java.lang.Integer$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Integer$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Integer$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "TYPE__Ljava_lang_Class": {},
+    "MIN$undVALUE__I": {},
+    "MAX$undVALUE__I": {},
+    "SIZE__I": {},
+    "valueOf__I__Ljava_lang_Integer": {
+      "calledMethods": {
+        "java_lang_Integer": ["init___I"]
+      },
+      "instantiatedClasses": ["java_lang_Integer"]
+    },
+    "parseInt__T__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["parseInt__T__I__I"]
+      }
+    },
+    "parseInt__T__I__I": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "java_lang_NumberFormatException": ["init___T"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["java_lang_NumberFormatException", "scala_StringContext"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "toString__I__T": {
+      "calledMethods": {
+        "java_lang_Integer": ["toString__T"],
+        "java_lang_Integer$": ["valueOf__I__Ljava_lang_Integer"]
+      }
+    },
+    "bitCount__I__I": {},
+    "reverseBytes__I__I": {},
+    "rotateLeft__I__I__I": {},
+    "rotateRight__I__I__I": {},
+    "signum__I__I": {},
+    "numberOfLeadingZeros__I__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"]
+      }
+    },
+    "numberOfTrailingZeros__I__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"]
+      }
+    },
+    "toBinaryString__I__T": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toStringBase__p1__I__I__T"]
+      }
+    },
+    "toHexString__I__T": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toStringBase__p1__I__I__T"]
+      }
+    },
+    "toOctalString__I__T": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toStringBase__p1__I__I__T"]
+      }
+    },
+    "toStringBase__p1__I__I__T": {},
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "toOctalString__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toOctalString__I__T"]
+      }
+    },
+    "toHexString__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toHexString__I__T"]
+      }
+    },
+    "toBinaryString__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toBinaryString__I__T"]
+      }
+    },
+    "numberOfTrailingZeros__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["numberOfTrailingZeros__I__I"]
+      }
+    },
+    "numberOfLeadingZeros__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["numberOfLeadingZeros__I__I"]
+      }
+    },
+    "signum__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["signum__I__I"]
+      }
+    },
+    "rotateRight__I__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["rotateRight__I__I__I"]
+      }
+    },
+    "rotateLeft__I__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["rotateLeft__I__I__I"]
+      }
+    },
+    "reverseBytes__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["reverseBytes__I__I"]
+      }
+    },
+    "bitCount__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"]
+      }
+    },
+    "toString__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toString__I__T"]
+      }
+    },
+    "parseInt__T__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["parseInt__T__I__I"]
+      }
+    },
+    "parseInt__T__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["parseInt__T__I"]
+      }
+    },
+    "valueOf__I__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["valueOf__I__Ljava_lang_Integer"]
+      }
+    },
+    "SIZE__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["SIZE__I"]
+      }
+    },
+    "MAX$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["MAX$undVALUE__I"]
+      }
+    },
+    "MIN$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["MIN$undVALUE__I"]
+      }
+    },
+    "TYPE__": {
+      "calledMethods": {
+        "java_lang_Integer$": ["TYPE__Ljava_lang_Class"]
+      }
+    }
+  }
+}

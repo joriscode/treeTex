@@ -1,0 +1,33 @@
+{
+  "name": "scala.collection.Iterator$$anon$8",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$$anon$8",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_Iterator$$anon$8", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "i__p2__I": {},
+    "i$und$eq__p2__I__V": {},
+    "hasNext__Z": {},
+    "next__I": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$8": ["i$und$eq__p2__I__V", "i__p2__I"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$8": ["next__I"]
+      }
+    },
+    "init___I__I": {
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

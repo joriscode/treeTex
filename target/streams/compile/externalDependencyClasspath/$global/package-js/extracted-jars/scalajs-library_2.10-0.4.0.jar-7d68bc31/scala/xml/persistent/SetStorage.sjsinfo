@@ -1,0 +1,52 @@
+{
+  "name": "scala.xml.persistent.SetStorage",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_persistent_SetStorage",
+  "superClass": "scala_xml_persistent_CachedFileStorage",
+  "ancestors": ["scala_xml_persistent_SetStorage", "scala_xml_persistent_CachedFileStorage", "scala_util_logging_Logged", "java_lang_Thread", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$xml$persistent$SetStorage$$theSet__Lscala_collection_mutable_HashSet": {},
+    "scala$xml$persistent$SetStorage$$theSet$und$eq__p3__Lscala_collection_mutable_HashSet__V": {},
+    "$$plus$eq__Lscala_xml_Node__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["$$plus$eq__O__Lscala_collection_mutable_HashSet"],
+        "scala_xml_persistent_SetStorage": ["scala$xml$persistent$SetStorage$$theSet__Lscala_collection_mutable_HashSet", "dirty$und$eq__Z__V"]
+      }
+    },
+    "$$minus$eq__Lscala_xml_Node__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["$$minus$eq__O__Lscala_collection_mutable_HashSet"],
+        "scala_xml_persistent_SetStorage": ["scala$xml$persistent$SetStorage$$theSet__Lscala_collection_mutable_HashSet", "dirty$und$eq__Z__V"]
+      }
+    },
+    "nodes__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["iterator__Lscala_collection_Iterator"],
+        "scala_xml_persistent_SetStorage": ["scala$xml$persistent$SetStorage$$theSet__Lscala_collection_mutable_HashSet"]
+      }
+    },
+    "init___Ljava_io_File": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["init___", "$$plus$eq__O__Lscala_collection_mutable_HashSet"],
+        "scala_collection_Iterator": ["hasNext__Z", "foreach__Lscala_Function1__V"],
+        "scala_xml_persistent_SetStorage": ["scala$xml$persistent$SetStorage$$theSet__Lscala_collection_mutable_HashSet", "dirty$und$eq__Z__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_persistent_CachedFileStorage": ["init___Ljava_io_File", "initialNodes__Lscala_collection_Iterator"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_collection_mutable_HashSet"]
+    },
+    "scala$xml$persistent$SetStorage$$theSet__": {
+      "calledMethods": {
+        "scala_xml_persistent_SetStorage": ["scala$xml$persistent$SetStorage$$theSet__Lscala_collection_mutable_HashSet"]
+      }
+    }
+  }
+}

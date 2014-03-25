@@ -1,0 +1,57 @@
+{
+  "name": "scala.runtime.RichShort$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichShort$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichShort$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "num$extension__S__Lscala_math_Numeric$ShortIsIntegral$": {
+      "accessedModules": ["scala_math_Numeric$ShortIsIntegral"]
+    },
+    "ord$extension__S__Lscala_math_Ordering$Short$": {
+      "accessedModules": ["scala_math_Ordering$Short"]
+    },
+    "hashCode$extension__S__I": {
+      "calledMethods": {
+        "java_lang_Object": ["hashCode__I"]
+      }
+    },
+    "equals$extension__S__O__Z": {
+      "calledMethods": {
+        "scala_runtime_RichShort": ["self__S"]
+      },
+      "accessedClassData": ["scala_runtime_RichShort"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__S__O__": {
+      "calledMethods": {
+        "scala_runtime_RichShort$": ["equals$extension__S__O__Z"]
+      }
+    },
+    "hashCode$extension__S__": {
+      "calledMethods": {
+        "scala_runtime_RichShort$": ["hashCode$extension__S__I"]
+      }
+    },
+    "ord$extension__S__": {
+      "calledMethods": {
+        "scala_runtime_RichShort$": ["ord$extension__S__Lscala_math_Ordering$Short$"]
+      }
+    },
+    "num$extension__S__": {
+      "calledMethods": {
+        "scala_runtime_RichShort$": ["num$extension__S__Lscala_math_Numeric$ShortIsIntegral$"]
+      }
+    }
+  }
+}

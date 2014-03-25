@@ -1,0 +1,36 @@
+{
+  "name": "scala.util.matching.Regex$$anon$2",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_matching_Regex$$anon$2",
+  "superClass": "scala_util_matching_Regex",
+  "ancestors": ["scala_util_matching_Regex$$anon$2", "scala_util_matching_UnanchoredRegex", "scala_util_matching_Regex", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "runMatcher__Ljava_util_regex_Matcher__Z": {
+      "calledMethods": {
+        "scala_util_matching_UnanchoredRegex$class": ["scala_util_matching_UnanchoredRegex$class__runMatcher__Lscala_util_matching_UnanchoredRegex__Ljava_util_regex_Matcher__Z"]
+      }
+    },
+    "unanchored__Lscala_util_matching_UnanchoredRegex": {
+      "calledMethods": {
+        "scala_util_matching_UnanchoredRegex$class": ["scala_util_matching_UnanchoredRegex$class__unanchored__Lscala_util_matching_UnanchoredRegex__Lscala_util_matching_UnanchoredRegex"]
+      }
+    },
+    "anchored__Lscala_util_matching_Regex": {},
+    "init___Lscala_util_matching_Regex": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_util_matching_UnanchoredRegex$class": ["scala_util_matching_UnanchoredRegex$class__$init$__Lscala_util_matching_UnanchoredRegex__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_matching_Regex": ["init___T__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

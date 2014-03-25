@@ -1,0 +1,192 @@
+{
+  "name": "scala.collection.immutable.TrieIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_TrieIterator",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_immutable_TrieIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "getElem__O__O": {
+      "isAbstract": true
+    },
+    "initDepth__I": {},
+    "initArrayStack__AALscala_collection_immutable_Iterable": {
+      "accessedClassData": ["scala_collection_immutable_Iterable"]
+    },
+    "initPosStack__AI": {},
+    "initArrayD__ALscala_collection_immutable_Iterable": {},
+    "initPosD__I": {},
+    "initSubIter__Lscala_collection_Iterator": {},
+    "getElems__p2__Lscala_collection_immutable_Iterable__ALscala_collection_immutable_Iterable": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_HashSet$HashTrieSet": ["elems__ALscala_collection_immutable_HashSet"],
+        "scala_collection_immutable_HashMap$HashTrieMap": ["elems__ALscala_collection_immutable_HashMap"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedClassData": ["scala_collection_AbstractIterable", "scala_collection_immutable_HashSet$HashTrieSet", "scala_collection_immutable_HashMap$HashTrieMap", "scala_collection_immutable_Iterable"]
+    },
+    "collisionToArray__p2__Lscala_collection_immutable_Iterable__ALscala_collection_immutable_Iterable": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_HashSet$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_collection_immutable_ListMap": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_HashMap$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_collection_immutable_HashSet$HashSetCollision1": ["ks__Lscala_collection_immutable_ListSet"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Iterable$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_ListSet$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_HashMap$HashMapCollision1": ["kvs__Lscala_collection_immutable_ListMap"],
+        "scala_collection_immutable_ListSet": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_collection_TraversableOnce": ["toArray__Lscala_reflect_ClassTag__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_collection_immutable_HashSet", "scala_Predef", "scala_collection_immutable_Iterable", "scala_collection_immutable_ListSet", "scala_collection_immutable_HashMap"],
+      "accessedClassData": ["scala_collection_immutable_HashMap$HashMapCollision1", "scala_Tuple2", "scala_collection_AbstractIterable", "scala_collection_immutable_HashSet", "java_lang_Object", "scala_collection_immutable_HashSet$HashSetCollision1", "scala_collection_TraversableOnce", "scala_collection_immutable_Iterable", "scala_collection_immutable_HashMap"]
+    },
+    "isTrie__p2__O__Z": {
+      "accessedClassData": ["scala_collection_immutable_HashSet$HashTrieSet", "scala_collection_immutable_HashMap$HashTrieMap"]
+    },
+    "isContainer__p2__O__Z": {
+      "accessedClassData": ["scala_collection_immutable_HashSet$HashSet1", "scala_collection_immutable_HashMap$HashMap1"]
+    },
+    "dupIterator__Lscala_collection_immutable_TrieIterator": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator$DupIterator": ["init___Lscala_collection_immutable_TrieIterator__ALscala_collection_immutable_Iterable"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_TrieIterator$DupIterator"]
+    },
+    "newIterator__p2__ALscala_collection_immutable_Iterable__Lscala_collection_immutable_TrieIterator": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator$$anon$1": ["init___Lscala_collection_immutable_TrieIterator__ALscala_collection_immutable_Iterable"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_TrieIterator$$anon$1"]
+    },
+    "iteratorWithSize__p2__ALscala_collection_immutable_Iterable__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Predef$": ["intArrayOps__AI__Lscala_collection_mutable_ArrayOps", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["sum__Lscala_math_Numeric__O", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_Array$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_Iterable": ["size__I"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_TrieIterator": ["newIterator__p2__ALscala_collection_immutable_Iterable__Lscala_collection_immutable_TrieIterator"],
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef", "scala_math_Numeric$IntIsIntegral"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "arrayToIterators__p2__ALscala_collection_immutable_Iterable__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["splitAt__I__Lscala_Tuple2"],
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["init___O__O", "$$und1__O", "$$und2__O"],
+        "scala_collection_immutable_TrieIterator": ["iteratorWithSize__p2__ALscala_collection_immutable_Iterable__Lscala_Tuple2", "newIterator__p2__ALscala_collection_immutable_Iterable__Lscala_collection_immutable_TrieIterator"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "scala_collection_immutable_Iterable"]
+    },
+    "splitArray__p2__ALscala_collection_immutable_Iterable__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["getElems__p2__Lscala_collection_immutable_Iterable__ALscala_collection_immutable_Iterable", "collisionToArray__p2__Lscala_collection_immutable_Iterable__ALscala_collection_immutable_Iterable", "arrayToIterators__p2__ALscala_collection_immutable_Iterable__Lscala_Tuple2"]
+      },
+      "accessedClassData": ["scala_collection_immutable_HashMap$HashMapCollision1", "scala_collection_immutable_HashSet$HashSetCollision1"]
+    },
+    "hasNext__Z": {},
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_immutable_TrieIterator": ["next0__p2__ALscala_collection_immutable_Iterable__I__O"]
+      }
+    },
+    "next0__p2__ALscala_collection_immutable_Iterable__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["next__O", "getElem__O__O", "getElems__p2__Lscala_collection_immutable_Iterable__ALscala_collection_immutable_Iterable", "isTrie__p2__O__Z", "isContainer__p2__O__Z"],
+        "scala_collection_immutable_Iterable": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "split__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "intArrayOps__AI__Lscala_collection_mutable_ArrayOps", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray", "intWrapper__I__I", "wrapIntArray__AI__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_Iterator": ["toBuffer__Lscala_collection_mutable_Buffer"],
+        "scala_collection_mutable_ArrayOps": ["tail__O", "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_CanBuildFrom__O", "last__O", "splitAt__I__Lscala_Tuple2"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_MatchError": ["init___O"],
+        "scala_Array$": ["apply__Lscala_collection_Seq__Lscala_reflect_ClassTag__O", "canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_Iterable": ["size__I"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_TrieIterator": ["splitArray__p2__ALscala_collection_immutable_Iterable__Lscala_Tuple2", "newIterator__p2__ALscala_collection_immutable_Iterable__Lscala_collection_immutable_TrieIterator", "iteratorWithSize__p2__ALscala_collection_immutable_Iterable__Lscala_Tuple2", "collisionToArray__p2__Lscala_collection_immutable_Iterable__ALscala_collection_immutable_Iterable", "arrayToIterators__p2__ALscala_collection_immutable_Iterable__Lscala_Tuple2", "getElems__p2__Lscala_collection_immutable_Iterable__ALscala_collection_immutable_Iterable", "isTrie__p2__O__Z"],
+        "scala_collection_mutable_Buffer": ["iterator__Lscala_collection_Iterator", "length__I"],
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag", "apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_reflect_ClassTag", "scala_Array", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "scala_collection_immutable_Iterable"]
+    },
+    "init___ALscala_collection_immutable_Iterable": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["initDepth__I", "initPosStack__AI", "initSubIter__Lscala_collection_Iterator", "initArrayD__ALscala_collection_immutable_Iterable", "initArrayStack__AALscala_collection_immutable_Iterable", "initPosD__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    },
+    "split__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["split__Lscala_Tuple2"]
+      }
+    },
+    "dupIterator__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["dupIterator__Lscala_collection_immutable_TrieIterator"]
+      }
+    },
+    "initSubIter__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["initSubIter__Lscala_collection_Iterator"]
+      }
+    },
+    "initPosD__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["initPosD__I"]
+      }
+    },
+    "initArrayD__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["initArrayD__ALscala_collection_immutable_Iterable"]
+      }
+    },
+    "initPosStack__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["initPosStack__AI"]
+      }
+    },
+    "initArrayStack__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["initArrayStack__AALscala_collection_immutable_Iterable"]
+      }
+    },
+    "initDepth__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["initDepth__I"]
+      }
+    },
+    "getElem__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_TrieIterator": ["getElem__O__O"]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "scala.io.BufferedSource$$anonfun$iter$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BufferedSource$$anonfun$iter$1",
+  "superClass": "scala_runtime_AbstractFunction0$mcI$sp",
+  "ancestors": ["scala_io_BufferedSource$$anonfun$iter$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0$mcI$sp", "scala_Function0$mcI$sp", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__I": {
+      "calledMethods": {
+        "scala_io_BufferedSource$$anonfun$iter$1": ["apply$mcI$sp__I"]
+      }
+    },
+    "apply$mcI$sp__I": {
+      "calledMethods": {
+        "scala_io_Codec": ["wrap__Lscala_Function0__I"],
+        "java_io_BufferedReader": ["read__I"],
+        "scala_io_BufferedSource": ["scala$io$BufferedSource$$charReader__Ljava_io_BufferedReader", "codec__Lscala_io_Codec"],
+        "scala_io_BufferedSource$$anonfun$iter$1": ["scala$io$BufferedSource$$anonfun$$$outer__Lscala_io_BufferedSource"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "scala$io$BufferedSource$$anonfun$$$outer__Lscala_io_BufferedSource": {},
+    "apply__O": {
+      "calledMethods": {
+        "scala_io_BufferedSource$$anonfun$iter$1": ["apply__I"]
+      }
+    },
+    "init___Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction0$mcI$sp": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$io$BufferedSource$$anonfun$$$outer__": {
+      "calledMethods": {
+        "scala_io_BufferedSource$$anonfun$iter$1": ["scala$io$BufferedSource$$anonfun$$$outer__Lscala_io_BufferedSource"]
+      }
+    }
+  }
+}

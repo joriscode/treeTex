@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.mutable.Stack$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_Stack$",
+  "superClass": "scala_collection_generic_SeqFactory",
+  "ancestors": ["scala_collection_mutable_Stack$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_SeqFactory", "scala_collection_generic_TraversableFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenSeqFactory", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_mutable_Stack$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_Stack$StackBuilder": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_Stack$StackBuilder"]
+    },
+    "empty__Lscala_collection_mutable_Stack": {},
+    "readResolve__p5__O": {
+      "accessedModules": ["scala_collection_mutable_Stack"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_mutable_Stack": ["init___Lscala_collection_immutable_List"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_generic_SeqFactory": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_Stack"],
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_mutable_Stack$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

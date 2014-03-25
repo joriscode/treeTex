@@ -1,0 +1,327 @@
+{
+  "name": "scala.LowPriorityImplicits",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_LowPriorityImplicits",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_LowPriorityImplicits", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "byteWrapper__B__B": {},
+    "shortWrapper__S__S": {},
+    "intWrapper__I__I": {},
+    "charWrapper__C__C": {},
+    "longWrapper__J__J": {},
+    "floatWrapper__F__F": {},
+    "doubleWrapper__D__D": {},
+    "booleanWrapper__Z__Z": {},
+    "Byte2byteNullConflict__Lscala_Null__B": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "Short2shortNullConflict__Lscala_Null__S": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "Character2charNullConflict__Lscala_Null__C": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "Integer2intNullConflict__Lscala_Null__I": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "Long2longNullConflict__Lscala_Null__J": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "Float2floatNullConflict__Lscala_Null__F": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "Double2doubleNullConflict__Lscala_Null__D": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "Boolean2booleanNullConflict__Lscala_Null__Z": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "genericWrapArray__O__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$": ["make__O__Lscala_collection_mutable_WrappedArray"]
+      },
+      "accessedModules": ["scala_collection_mutable_WrappedArray"]
+    },
+    "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofRef": ["init___AO"],
+        "scala_collection_mutable_WrappedArray$": ["empty__Lscala_collection_mutable_WrappedArray"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofRef"],
+      "accessedModules": ["scala_collection_mutable_WrappedArray"]
+    },
+    "wrapIntArray__AI__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofInt": ["init___AI"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofInt"]
+    },
+    "wrapDoubleArray__AD__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofDouble": ["init___AD"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofDouble"]
+    },
+    "wrapLongArray__AJ__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofLong": ["init___AJ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofLong"]
+    },
+    "wrapFloatArray__AF__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofFloat": ["init___AF"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofFloat"]
+    },
+    "wrapCharArray__AC__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofChar": ["init___AC"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofChar"]
+    },
+    "wrapByteArray__AB__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofByte": ["init___AB"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofByte"]
+    },
+    "wrapShortArray__AS__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofShort": ["init___AS"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofShort"]
+    },
+    "wrapBooleanArray__AZ__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofBoolean": ["init___AZ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofBoolean"]
+    },
+    "wrapUnitArray__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofUnit": ["init___ALscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofUnit"]
+    },
+    "wrapString__T__Lscala_collection_immutable_WrappedString": {
+      "calledMethods": {
+        "scala_collection_immutable_WrappedString": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_WrappedString"]
+    },
+    "unwrapString__Lscala_collection_immutable_WrappedString__T": {
+      "calledMethods": {
+        "scala_collection_immutable_WrappedString": ["self__T"]
+      }
+    },
+    "fallbackStringCanBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits$$anon$1": ["init___Lscala_LowPriorityImplicits"]
+      },
+      "instantiatedClasses": ["scala_LowPriorityImplicits$$anon$1"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "fallbackStringCanBuildFrom__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["fallbackStringCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "unwrapString__Lscala_collection_immutable_WrappedString__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["unwrapString__Lscala_collection_immutable_WrappedString__T"]
+      }
+    },
+    "wrapString__T__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapString__T__Lscala_collection_immutable_WrappedString"]
+      }
+    },
+    "wrapUnitArray__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapUnitArray__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapBooleanArray__AZ__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapBooleanArray__AZ__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapShortArray__AS__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapShortArray__AS__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapByteArray__AB__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapByteArray__AB__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapCharArray__AC__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapCharArray__AC__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapFloatArray__AF__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapFloatArray__AF__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapLongArray__AJ__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapLongArray__AJ__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapDoubleArray__AD__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapDoubleArray__AD__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapIntArray__AI__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapIntArray__AI__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "wrapRefArray__AO__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "genericWrapArray__O__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "Boolean2booleanNullConflict__Lscala_Null__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["Boolean2booleanNullConflict__Lscala_Null__Z"]
+      }
+    },
+    "Double2doubleNullConflict__Lscala_Null__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["Double2doubleNullConflict__Lscala_Null__D"]
+      }
+    },
+    "Float2floatNullConflict__Lscala_Null__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["Float2floatNullConflict__Lscala_Null__F"]
+      }
+    },
+    "Long2longNullConflict__Lscala_Null__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["Long2longNullConflict__Lscala_Null__J"]
+      }
+    },
+    "Integer2intNullConflict__Lscala_Null__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["Integer2intNullConflict__Lscala_Null__I"]
+      }
+    },
+    "Character2charNullConflict__Lscala_Null__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["Character2charNullConflict__Lscala_Null__C"]
+      }
+    },
+    "Short2shortNullConflict__Lscala_Null__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["Short2shortNullConflict__Lscala_Null__S"]
+      }
+    },
+    "Byte2byteNullConflict__Lscala_Null__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["Byte2byteNullConflict__Lscala_Null__B"]
+      }
+    },
+    "booleanWrapper__Z__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["booleanWrapper__Z__Z"],
+        "scala_runtime_RichBoolean": ["init___Z"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichBoolean"]
+    },
+    "doubleWrapper__D__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["doubleWrapper__D__D"],
+        "scala_runtime_RichDouble": ["init___D"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichDouble"]
+    },
+    "floatWrapper__F__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["floatWrapper__F__F"],
+        "scala_runtime_RichFloat": ["init___F"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichFloat"]
+    },
+    "longWrapper__J__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["longWrapper__J__J"],
+        "scala_runtime_RichLong": ["init___J"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichLong"]
+    },
+    "charWrapper__C__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["charWrapper__C__C"],
+        "scala_runtime_RichChar": ["init___C"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichChar"]
+    },
+    "intWrapper__I__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["intWrapper__I__I"],
+        "scala_runtime_RichInt": ["init___I"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichInt"]
+    },
+    "shortWrapper__S__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["shortWrapper__S__S"],
+        "scala_runtime_RichShort": ["init___S"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichShort"]
+    },
+    "byteWrapper__B__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits": ["byteWrapper__B__B"],
+        "scala_runtime_RichByte": ["init___B"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichByte"]
+    }
+  }
+}

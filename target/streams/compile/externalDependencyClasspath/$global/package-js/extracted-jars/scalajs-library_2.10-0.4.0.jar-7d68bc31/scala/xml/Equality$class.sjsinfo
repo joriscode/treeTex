@@ -1,0 +1,53 @@
+{
+  "name": "scala.xml.Equality$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_Equality$class",
+  "superClass": "",
+  "ancestors": ["scala_xml_Equality$class"],
+  "isExported": false,
+  "methods": {
+    "scala_xml_Equality$class__strict$und$bang$eq__Lscala_xml_Equality__Lscala_xml_Equality__Z": {
+      "calledMethods": {
+        "scala_xml_Equality": ["strict$und$eq$eq__Lscala_xml_Equality__Z"]
+      }
+    },
+    "scala_xml_Equality$class__canEqual__Lscala_xml_Equality__O__Z": {
+      "accessedClassData": ["scala_xml_Equality"]
+    },
+    "scala_xml_Equality$class__hashCode__Lscala_xml_Equality__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_xml_Equality": ["basisForHashCode__Lscala_collection_Seq"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "scala_xml_Equality$class__equals__Lscala_xml_Equality__O__Z": {
+      "calledMethods": {
+        "scala_xml_Equality$class": ["scala_xml_Equality$class__doComparison__Lscala_xml_Equality__O__Z__Z"]
+      }
+    },
+    "scala_xml_Equality$class__xml$und$eq$eq__Lscala_xml_Equality__O__Z": {
+      "calledMethods": {
+        "scala_xml_Equality$class": ["scala_xml_Equality$class__doComparison__Lscala_xml_Equality__O__Z__Z"]
+      }
+    },
+    "scala_xml_Equality$class__xml$und$bang$eq__Lscala_xml_Equality__O__Z": {
+      "calledMethods": {
+        "scala_xml_Equality": ["xml$und$eq$eq__O__Z"]
+      }
+    },
+    "scala_xml_Equality$class__doComparison__Lscala_xml_Equality__O__Z__Z": {
+      "calledMethods": {
+        "scala_xml_Equality$": ["compareBlithely__O__O__Z", "asRef__O__O"],
+        "scala_xml_Equality": ["canEqual__O__Z", "strict$und$eq$eq__Lscala_xml_Equality__Z"]
+      },
+      "accessedModules": ["scala_xml_Equality"],
+      "accessedClassData": ["java_lang_Object", "scala_xml_Equality"]
+    },
+    "scala_xml_Equality$class__$init$__Lscala_xml_Equality__V": {}
+  }
+}

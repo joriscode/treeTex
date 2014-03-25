@@ -1,0 +1,53 @@
+{
+  "name": "scala.concurrent.impl.Future$PromiseCompletingRunnable",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_Future$PromiseCompletingRunnable",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_impl_Future$PromiseCompletingRunnable", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "promise__Lscala_concurrent_impl_Promise$DefaultPromise": {},
+    "run__V": {
+      "calledMethods": {
+        "scala_concurrent_impl_Future$PromiseCompletingRunnable": ["promise__Lscala_concurrent_impl_Promise$DefaultPromise", "liftedTree1$1__p1__Lscala_util_Try"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["complete__Lscala_util_Try__Lscala_concurrent_Promise"]
+      }
+    },
+    "liftedTree1$1__p1__Lscala_util_Try": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_util_Success": ["init___O"],
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"],
+        "scala_util_Failure": ["init___Ljava_lang_Throwable"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_util_Success", "scala_util_Failure"],
+      "accessedModules": ["scala_util_control_NonFatal"],
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "init___Lscala_Function0": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_concurrent_impl_Promise$DefaultPromise"]
+    },
+    "run__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Future$PromiseCompletingRunnable": ["run__V"]
+      }
+    },
+    "promise__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Future$PromiseCompletingRunnable": ["promise__Lscala_concurrent_impl_Promise$DefaultPromise"]
+      }
+    }
+  }
+}

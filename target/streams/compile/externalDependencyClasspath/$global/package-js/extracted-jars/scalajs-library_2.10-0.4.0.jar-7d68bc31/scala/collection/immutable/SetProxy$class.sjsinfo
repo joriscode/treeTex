@@ -1,0 +1,46 @@
+{
+  "name": "scala.collection.immutable.SetProxy$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_SetProxy$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_immutable_SetProxy$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_immutable_SetProxy$class__repr__Lscala_collection_immutable_SetProxy__Lscala_collection_immutable_SetProxy": {},
+    "scala_collection_immutable_SetProxy$class__newProxy__Lscala_collection_immutable_SetProxy__Lscala_collection_immutable_Set__Lscala_collection_immutable_SetProxy": {
+      "calledMethods": {
+        "scala_collection_immutable_SetProxy$$anon$1": ["init___Lscala_collection_immutable_SetProxy__Lscala_collection_immutable_Set"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_SetProxy$$anon$1"]
+    },
+    "scala_collection_immutable_SetProxy$class__empty__Lscala_collection_immutable_SetProxy__Lscala_collection_immutable_SetProxy": {
+      "calledMethods": {
+        "scala_collection_immutable_SetProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_generic_GenericSetTemplate": ["empty__Lscala_collection_GenSet"],
+        "scala_collection_immutable_SetProxy$class": ["scala_collection_immutable_SetProxy$class__newProxy__Lscala_collection_immutable_SetProxy__Lscala_collection_immutable_Set__Lscala_collection_immutable_SetProxy"]
+      },
+      "accessedClassData": ["scala_collection_generic_GenericSetTemplate", "scala_collection_immutable_Set"]
+    },
+    "scala_collection_immutable_SetProxy$class__$plus__Lscala_collection_immutable_SetProxy__O__Lscala_collection_immutable_SetProxy": {
+      "calledMethods": {
+        "scala_collection_SetLike": ["$$plus__O__Lscala_collection_Set"],
+        "scala_collection_immutable_SetProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_immutable_SetProxy$class": ["scala_collection_immutable_SetProxy$class__newProxy__Lscala_collection_immutable_SetProxy__Lscala_collection_immutable_Set__Lscala_collection_immutable_SetProxy"]
+      },
+      "accessedClassData": ["scala_collection_immutable_Set", "scala_collection_SetLike"]
+    },
+    "scala_collection_immutable_SetProxy$class__$minus__Lscala_collection_immutable_SetProxy__O__Lscala_collection_immutable_SetProxy": {
+      "calledMethods": {
+        "scala_collection_SetLike": ["$$minus__O__Lscala_collection_Set"],
+        "scala_collection_immutable_SetProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_immutable_SetProxy$class": ["scala_collection_immutable_SetProxy$class__newProxy__Lscala_collection_immutable_SetProxy__Lscala_collection_immutable_Set__Lscala_collection_immutable_SetProxy"]
+      },
+      "accessedClassData": ["scala_collection_immutable_Set", "scala_collection_SetLike"]
+    },
+    "scala_collection_immutable_SetProxy$class__$init$__Lscala_collection_immutable_SetProxy__V": {}
+  }
+}

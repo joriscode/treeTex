@@ -1,0 +1,38 @@
+{
+  "name": "java.util.IllegalFormatPrecisionException",
+  "ancestorCount": 6,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_IllegalFormatPrecisionException",
+  "superClass": "java_util_IllegalFormatException",
+  "ancestors": ["java_util_IllegalFormatPrecisionException", "java_util_IllegalFormatException", "java_lang_IllegalArgumentException", "java_lang_RuntimeException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "p__p6__I": {},
+    "getPrecision__I": {
+      "calledMethods": {
+        "java_util_IllegalFormatPrecisionException": ["p__p6__I"]
+      }
+    },
+    "getMessage__T": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toString__I__T"],
+        "java_util_IllegalFormatPrecisionException": ["p__p6__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "init___I": {
+      "calledMethodsStatic": {
+        "java_util_IllegalFormatException": ["init___"]
+      }
+    },
+    "getPrecision__": {
+      "calledMethods": {
+        "java_util_IllegalFormatPrecisionException": ["getPrecision__I"]
+      }
+    }
+  }
+}

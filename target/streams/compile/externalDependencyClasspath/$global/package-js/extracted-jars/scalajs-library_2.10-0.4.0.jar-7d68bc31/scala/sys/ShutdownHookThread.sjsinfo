@@ -1,0 +1,32 @@
+{
+  "name": "scala.sys.ShutdownHookThread",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_ShutdownHookThread",
+  "superClass": "java_lang_Thread",
+  "ancestors": ["scala_sys_ShutdownHookThread", "java_lang_Thread", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "remove__Z": {
+      "calledMethods": {
+        "java_lang_Runtime": ["removeShutdownHook__Ljava_lang_Thread__Z"],
+        "scala_sys_package$": ["runtime__Ljava_lang_Runtime"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "init___T": {
+      "calledMethods": {
+        "java_lang_Thread": ["init___T"]
+      }
+    },
+    "remove__": {
+      "calledMethods": {
+        "scala_sys_ShutdownHookThread": ["remove__Z"]
+      }
+    }
+  }
+}

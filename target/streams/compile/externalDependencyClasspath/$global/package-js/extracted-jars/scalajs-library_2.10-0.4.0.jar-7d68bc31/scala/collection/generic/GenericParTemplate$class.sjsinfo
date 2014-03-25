@@ -1,0 +1,39 @@
+{
+  "name": "scala.collection.generic.GenericParTemplate$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_GenericParTemplate$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_generic_GenericParTemplate$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_generic_GenericParTemplate$class__newBuilder__Lscala_collection_generic_GenericParTemplate__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_GenericParTemplate": ["newCombiner__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "scala_collection_generic_GenericParTemplate$class__newCombiner__Lscala_collection_generic_GenericParTemplate__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_GenericParCompanion": ["newCombiner__Lscala_collection_parallel_Combiner"],
+        "scala_collection_generic_GenericParTemplate": ["companion__Lscala_collection_generic_GenericCompanion"]
+      },
+      "accessedClassData": ["scala_collection_generic_GenericParCompanion"]
+    },
+    "scala_collection_generic_GenericParTemplate$class__genericBuilder__Lscala_collection_generic_GenericParTemplate__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_GenericParTemplate": ["genericCombiner__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "scala_collection_generic_GenericParTemplate$class__genericCombiner__Lscala_collection_generic_GenericParTemplate__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_GenericParCompanion": ["newCombiner__Lscala_collection_parallel_Combiner"],
+        "scala_collection_generic_GenericParTemplate": ["companion__Lscala_collection_generic_GenericCompanion"]
+      },
+      "accessedClassData": ["scala_collection_generic_GenericParCompanion"]
+    },
+    "scala_collection_generic_GenericParTemplate$class__$init$__Lscala_collection_generic_GenericParTemplate__V": {}
+  }
+}

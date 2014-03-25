@@ -1,0 +1,512 @@
+{
+  "name": "scala.Function2",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Function2",
+  "superClass": "",
+  "ancestors": ["scala_Function2", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "apply__O__O__O": {
+      "isAbstract": true
+    },
+    "curried__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "toString__T": {
+      "isAbstract": true
+    },
+    "apply$mcZDD$sp__D__D__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDDD$sp__D__D__D": {
+      "isAbstract": true
+    },
+    "apply$mcFDD$sp__D__D__F": {
+      "isAbstract": true
+    },
+    "apply$mcIDD$sp__D__D__I": {
+      "isAbstract": true
+    },
+    "apply$mcJDD$sp__D__D__J": {
+      "isAbstract": true
+    },
+    "apply$mcVDD$sp__D__D__V": {
+      "isAbstract": true
+    },
+    "apply$mcZDI$sp__D__I__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDDI$sp__D__I__D": {
+      "isAbstract": true
+    },
+    "apply$mcFDI$sp__D__I__F": {
+      "isAbstract": true
+    },
+    "apply$mcIDI$sp__D__I__I": {
+      "isAbstract": true
+    },
+    "apply$mcJDI$sp__D__I__J": {
+      "isAbstract": true
+    },
+    "apply$mcVDI$sp__D__I__V": {
+      "isAbstract": true
+    },
+    "apply$mcZDJ$sp__D__J__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDDJ$sp__D__J__D": {
+      "isAbstract": true
+    },
+    "apply$mcFDJ$sp__D__J__F": {
+      "isAbstract": true
+    },
+    "apply$mcIDJ$sp__D__J__I": {
+      "isAbstract": true
+    },
+    "apply$mcJDJ$sp__D__J__J": {
+      "isAbstract": true
+    },
+    "apply$mcVDJ$sp__D__J__V": {
+      "isAbstract": true
+    },
+    "apply$mcZID$sp__I__D__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDID$sp__I__D__D": {
+      "isAbstract": true
+    },
+    "apply$mcFID$sp__I__D__F": {
+      "isAbstract": true
+    },
+    "apply$mcIID$sp__I__D__I": {
+      "isAbstract": true
+    },
+    "apply$mcJID$sp__I__D__J": {
+      "isAbstract": true
+    },
+    "apply$mcVID$sp__I__D__V": {
+      "isAbstract": true
+    },
+    "apply$mcZII$sp__I__I__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDII$sp__I__I__D": {
+      "isAbstract": true
+    },
+    "apply$mcFII$sp__I__I__F": {
+      "isAbstract": true
+    },
+    "apply$mcIII$sp__I__I__I": {
+      "isAbstract": true
+    },
+    "apply$mcJII$sp__I__I__J": {
+      "isAbstract": true
+    },
+    "apply$mcVII$sp__I__I__V": {
+      "isAbstract": true
+    },
+    "apply$mcZIJ$sp__I__J__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDIJ$sp__I__J__D": {
+      "isAbstract": true
+    },
+    "apply$mcFIJ$sp__I__J__F": {
+      "isAbstract": true
+    },
+    "apply$mcIIJ$sp__I__J__I": {
+      "isAbstract": true
+    },
+    "apply$mcJIJ$sp__I__J__J": {
+      "isAbstract": true
+    },
+    "apply$mcVIJ$sp__I__J__V": {
+      "isAbstract": true
+    },
+    "apply$mcZJD$sp__J__D__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDJD$sp__J__D__D": {
+      "isAbstract": true
+    },
+    "apply$mcFJD$sp__J__D__F": {
+      "isAbstract": true
+    },
+    "apply$mcIJD$sp__J__D__I": {
+      "isAbstract": true
+    },
+    "apply$mcJJD$sp__J__D__J": {
+      "isAbstract": true
+    },
+    "apply$mcVJD$sp__J__D__V": {
+      "isAbstract": true
+    },
+    "apply$mcZJI$sp__J__I__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDJI$sp__J__I__D": {
+      "isAbstract": true
+    },
+    "apply$mcFJI$sp__J__I__F": {
+      "isAbstract": true
+    },
+    "apply$mcIJI$sp__J__I__I": {
+      "isAbstract": true
+    },
+    "apply$mcJJI$sp__J__I__J": {
+      "isAbstract": true
+    },
+    "apply$mcVJI$sp__J__I__V": {
+      "isAbstract": true
+    },
+    "apply$mcZJJ$sp__J__J__Z": {
+      "isAbstract": true
+    },
+    "apply$mcDJJ$sp__J__J__D": {
+      "isAbstract": true
+    },
+    "apply$mcFJJ$sp__J__J__F": {
+      "isAbstract": true
+    },
+    "apply$mcIJJ$sp__J__J__I": {
+      "isAbstract": true
+    },
+    "apply$mcJJJ$sp__J__J__J": {
+      "isAbstract": true
+    },
+    "apply$mcVJJ$sp__J__J__V": {
+      "isAbstract": true
+    },
+    "curried$mcZDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcZDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcZDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcZID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcZII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcZIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcZJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcZJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcZJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcDJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcFJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcIJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcJJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "curried$mcVJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVDD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVDI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVDJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVID$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVII$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVIJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVJD$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVJI$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcZJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcDJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcFJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcIJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcJJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    },
+    "tupled$mcVJJ$sp__Lscala_Function1": {
+      "isAbstract": true
+    }
+  }
+}

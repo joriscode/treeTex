@@ -1,0 +1,88 @@
+{
+  "name": "scala.StringContext$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_StringContext$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_StringContext$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "treatEscapes__T__T": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "java_lang_StringBuilder": ["append__Ljava_lang_CharSequence__I__I__Ljava_lang_StringBuilder", "toString__T"],
+        "scala_collection_immutable_StringOps$": ["apply$extension__T__I__C"],
+        "scala_StringContext$InvalidEscapeException": ["init___T__I"],
+        "scala_StringContext$": ["output$1__p1__C__T__Lscala_runtime_ObjectRef__Lscala_runtime_IntRef__Lscala_runtime_IntRef__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__V", "bldr$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Ljava_lang_StringBuilder"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_runtime_VolatileByteRef": ["init___B"]
+      },
+      "instantiatedClasses": ["scala_runtime_VolatileByteRef", "scala_runtime_IntRef", "scala_StringContext$InvalidEscapeException", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_collection_immutable_StringOps", "scala_Predef"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_StringContext": {
+      "calledMethods": {
+        "scala_StringContext": ["init___Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_StringContext"]
+    },
+    "unapplySeq__Lscala_StringContext__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_StringContext": ["parts__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_StringContext"]
+    },
+    "bldr$lzycompute$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_lang_StringBuilder": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_StringBuilder"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_StringBuilder"]
+    },
+    "bldr$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "scala_StringContext$": ["bldr$lzycompute$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Ljava_lang_StringBuilder"]
+      },
+      "accessedClassData": ["java_lang_StringBuilder"]
+    },
+    "output$1__p1__C__T__Lscala_runtime_ObjectRef__Lscala_runtime_IntRef__Lscala_runtime_IntRef__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__V": {
+      "calledMethods": {
+        "scala_StringContext$": ["bldr$1__p1__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Ljava_lang_StringBuilder"],
+        "java_lang_StringBuilder": ["append__C__Ljava_lang_StringBuilder", "append__Ljava_lang_CharSequence__I__I__Ljava_lang_StringBuilder"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapplySeq__Lscala_StringContext__": {
+      "calledMethods": {
+        "scala_StringContext$": ["unapplySeq__Lscala_StringContext__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_StringContext$": ["apply__Lscala_collection_Seq__Lscala_StringContext"]
+      }
+    },
+    "treatEscapes__T__": {
+      "calledMethods": {
+        "scala_StringContext$": ["treatEscapes__T__T"]
+      }
+    }
+  }
+}

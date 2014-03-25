@@ -1,0 +1,58 @@
+{
+  "name": "scala.collection.generic.Sorted$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_Sorted$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_generic_Sorted$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_generic_Sorted$class__compare__Lscala_collection_generic_Sorted__O__O__I": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"],
+        "scala_collection_generic_Sorted": ["ordering__Lscala_math_Ordering"]
+      }
+    },
+    "scala_collection_generic_Sorted$class__from__Lscala_collection_generic_Sorted__O__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_collection_generic_Sorted": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_generic_Sorted"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_generic_Sorted$class__until__Lscala_collection_generic_Sorted__O__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_collection_generic_Sorted": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_generic_Sorted"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_generic_Sorted$class__range__Lscala_collection_generic_Sorted__O__O__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_collection_generic_Sorted": ["rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_generic_Sorted"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "scala_collection_generic_Sorted$class__to__Lscala_collection_generic_Sorted__O__Lscala_collection_generic_Sorted": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["isEmpty__Z", "next__O"],
+        "scala_collection_SortedSet": ["from__O__Lscala_collection_SortedSet", "iterator__Lscala_collection_Iterator"],
+        "scala_collection_generic_Sorted": ["until__O__Lscala_collection_generic_Sorted", "keySet__Lscala_collection_SortedSet", "repr__Lscala_collection_generic_Sorted", "compare__O__O__I"]
+      }
+    },
+    "scala_collection_generic_Sorted$class__hasAll__Lscala_collection_generic_Sorted__Lscala_collection_Iterator__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "isEmpty__Z", "next__O"],
+        "scala_collection_SortedSet": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_generic_Sorted": ["keySet__Lscala_collection_SortedSet", "compare__O__O__I"]
+      }
+    },
+    "scala_collection_generic_Sorted$class__$init$__Lscala_collection_generic_Sorted__V": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "scala.concurrent.Future$$anonfun$sequence$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Future$$anonfun$sequence$1",
+  "superClass": "scala_runtime_AbstractFunction2",
+  "ancestors": ["scala_concurrent_Future$$anonfun$sequence$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction2", "scala_Function2", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_concurrent_Future__O__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_concurrent_Future$$anonfun$sequence$1$$anonfun$apply$4$$anonfun$apply$5": ["init___Lscala_concurrent_Future$$anonfun$sequence$1$$anonfun$apply$4__Lscala_collection_mutable_Builder"],
+        "scala_concurrent_Future": ["map__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future", "flatMap__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      },
+      "instantiatedClasses": ["scala_concurrent_Future$$anonfun$sequence$1$$anonfun$apply$4$$anonfun$apply$5", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_concurrent_Future"]
+    },
+    "apply__O__O__O": {
+      "calledMethods": {
+        "scala_concurrent_Future$$anonfun$sequence$1": ["apply__Lscala_concurrent_Future__O__Lscala_concurrent_Future"]
+      },
+      "accessedClassData": ["scala_concurrent_Future"]
+    },
+    "init___Lscala_concurrent_ExecutionContext": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction2": ["init___"]
+      }
+    },
+    "apply__Lscala_concurrent_Future__O__": {
+      "calledMethods": {
+        "scala_concurrent_Future$$anonfun$sequence$1": ["apply__Lscala_concurrent_Future__O__Lscala_concurrent_Future"]
+      }
+    }
+  }
+}

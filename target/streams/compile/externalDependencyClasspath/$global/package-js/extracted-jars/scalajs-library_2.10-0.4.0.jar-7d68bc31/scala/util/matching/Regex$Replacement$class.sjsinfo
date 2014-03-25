@@ -1,0 +1,35 @@
+{
+  "name": "scala.util.matching.Regex$Replacement$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_util_matching_Regex$Replacement$class",
+  "superClass": "",
+  "ancestors": ["scala_util_matching_Regex$Replacement$class"],
+  "isExported": false,
+  "methods": {
+    "scala_util_matching_Regex$Replacement$class__replaced__Lscala_util_matching_Regex$Replacement__T": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["appendTail__Ljava_lang_StringBuffer__Ljava_lang_StringBuffer"],
+        "java_lang_StringBuffer": ["toString__T", "init___Ljava_lang_CharSequence"],
+        "scala_util_matching_Regex$Replacement": ["scala$util$matching$Regex$Replacement$$sb__Ljava_lang_StringBuffer", "matcher__Ljava_util_regex_Matcher"]
+      },
+      "instantiatedClasses": ["java_lang_StringBuffer"]
+    },
+    "scala_util_matching_Regex$Replacement$class__replace__Lscala_util_matching_Regex$Replacement__T__Ljava_util_regex_Matcher": {
+      "calledMethods": {
+        "java_util_regex_Matcher": ["appendReplacement__Ljava_lang_StringBuffer__T__Ljava_util_regex_Matcher"],
+        "scala_util_matching_Regex$Replacement": ["scala$util$matching$Regex$Replacement$$sb__Ljava_lang_StringBuffer", "matcher__Ljava_util_regex_Matcher"]
+      }
+    },
+    "scala_util_matching_Regex$Replacement$class__$init$__Lscala_util_matching_Regex$Replacement__V": {
+      "calledMethods": {
+        "java_lang_StringBuffer": ["init___"],
+        "scala_util_matching_Regex$Replacement": ["scala$util$matching$Regex$Replacement$$sb$und$eq__Ljava_lang_StringBuffer__V"]
+      },
+      "instantiatedClasses": ["java_lang_StringBuffer"]
+    }
+  }
+}

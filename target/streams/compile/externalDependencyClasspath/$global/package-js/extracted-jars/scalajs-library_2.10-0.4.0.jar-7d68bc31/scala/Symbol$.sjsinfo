@@ -1,0 +1,63 @@
+{
+  "name": "scala.Symbol$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Symbol$",
+  "superClass": "scala_JSUniquenessCache",
+  "ancestors": ["scala_Symbol$", "scala_Serializable", "java_io_Serializable", "scala_JSUniquenessCache", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__T__Lscala_Symbol": {
+      "calledMethodsStatic": {
+        "scala_JSUniquenessCache": ["apply__T__O"]
+      },
+      "accessedClassData": ["scala_Symbol"]
+    },
+    "valueFromKey__T__Lscala_Symbol": {
+      "calledMethods": {
+        "scala_Symbol": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_Symbol"]
+    },
+    "keyFromValue__Lscala_Symbol__Lscala_Option": {
+      "calledMethods": {
+        "scala_Symbol": ["name__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_Symbol"]
+    },
+    "keyFromValue__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_Symbol$": ["keyFromValue__Lscala_Symbol__Lscala_Option"]
+      },
+      "accessedClassData": ["scala_Symbol"]
+    },
+    "valueFromKey__T__O": {
+      "calledMethods": {
+        "scala_Symbol$": ["valueFromKey__T__Lscala_Symbol"]
+      }
+    },
+    "apply__T__O": {
+      "calledMethods": {
+        "scala_Symbol$": ["apply__T__Lscala_Symbol"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_JSUniquenessCache": ["init___"]
+      }
+    },
+    "keyFromValue__Lscala_Symbol__": {
+      "calledMethods": {
+        "scala_Symbol$": ["keyFromValue__Lscala_Symbol__Lscala_Option"]
+      }
+    }
+  }
+}

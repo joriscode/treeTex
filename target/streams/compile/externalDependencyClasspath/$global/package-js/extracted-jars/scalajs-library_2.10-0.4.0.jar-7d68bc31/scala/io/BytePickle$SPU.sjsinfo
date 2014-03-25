@@ -1,0 +1,36 @@
+{
+  "name": "scala.io.BytePickle$SPU",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$SPU",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_BytePickle$SPU", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "appP__O__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState": {
+      "isAbstract": true
+    },
+    "appU__Lscala_io_BytePickle$UnPicklerState__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "appU__Lscala_io_BytePickle$UnPicklerState__": {
+      "calledMethods": {
+        "scala_io_BytePickle$SPU": ["appU__Lscala_io_BytePickle$UnPicklerState__Lscala_Tuple2"]
+      }
+    },
+    "appP__O__Lscala_io_BytePickle$PicklerState__": {
+      "calledMethods": {
+        "scala_io_BytePickle$SPU": ["appP__O__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState"]
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "scala.xml.factory.XMLLoader$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_factory_XMLLoader$class",
+  "superClass": "",
+  "ancestors": ["scala_xml_factory_XMLLoader$class"],
+  "isExported": false,
+  "methods": {
+    "scala_xml_factory_XMLLoader$class__adapter__Lscala_xml_factory_XMLLoader__Lscala_xml_parsing_FactoryAdapter": {
+      "calledMethods": {
+        "scala_xml_parsing_NoBindingFactoryAdapter": ["init___"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_NoBindingFactoryAdapter"]
+    },
+    "scala_xml_factory_XMLLoader$class__parser__Lscala_xml_factory_XMLLoader__Ljavax_xml_parsers_SAXParser": {
+      "calledMethods": {
+        "javax_xml_parsers_SAXParserFactory$": ["newInstance__Ljavax_xml_parsers_SAXParserFactory"],
+        "javax_xml_parsers_SAXParserFactory": ["newSAXParser__Ljavax_xml_parsers_SAXParser", "setNamespaceAware__Z__V"]
+      },
+      "accessedModules": ["javax_xml_parsers_SAXParserFactory"]
+    },
+    "scala_xml_factory_XMLLoader$class__loadXML__Lscala_xml_factory_XMLLoader__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node": {
+      "calledMethods": {
+        "javax_xml_parsers_SAXParser": ["parse__Lorg_xml_sax_InputSource__Lorg_xml_sax_helpers_DefaultHandler__V"],
+        "scala_xml_factory_XMLLoader": ["adapter__Lscala_xml_parsing_FactoryAdapter"],
+        "scala_collection_mutable_Stack": ["push__O__Lscala_collection_mutable_Stack", "pop__O"],
+        "scala_xml_parsing_FactoryAdapter": ["scopeStack__Lscala_collection_mutable_Stack", "rootElem__Lscala_xml_Node"]
+      },
+      "accessedModules": ["scala_xml_TopScope"]
+    },
+    "scala_xml_factory_XMLLoader$class__loadFile__Lscala_xml_factory_XMLLoader__Ljava_io_File__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"],
+        "scala_xml_Source$": ["fromFile__Ljava_io_File__Lorg_xml_sax_InputSource"]
+      },
+      "accessedModules": ["scala_xml_Source"]
+    },
+    "scala_xml_factory_XMLLoader$class__loadFile__Lscala_xml_factory_XMLLoader__Ljava_io_FileDescriptor__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"],
+        "scala_xml_Source$": ["fromFile__Ljava_io_FileDescriptor__Lorg_xml_sax_InputSource"]
+      },
+      "accessedModules": ["scala_xml_Source"]
+    },
+    "scala_xml_factory_XMLLoader$class__loadFile__Lscala_xml_factory_XMLLoader__T__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"],
+        "scala_xml_Source$": ["fromFile__T__Lorg_xml_sax_InputSource"]
+      },
+      "accessedModules": ["scala_xml_Source"]
+    },
+    "scala_xml_factory_XMLLoader$class__load__Lscala_xml_factory_XMLLoader__Ljava_io_InputStream__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"],
+        "scala_xml_Source$": ["fromInputStream__Ljava_io_InputStream__Lorg_xml_sax_InputSource"]
+      },
+      "accessedModules": ["scala_xml_Source"]
+    },
+    "scala_xml_factory_XMLLoader$class__load__Lscala_xml_factory_XMLLoader__Ljava_io_Reader__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"],
+        "scala_xml_Source$": ["fromReader__Ljava_io_Reader__Lorg_xml_sax_InputSource"]
+      },
+      "accessedModules": ["scala_xml_Source"]
+    },
+    "scala_xml_factory_XMLLoader$class__load__Lscala_xml_factory_XMLLoader__T__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"],
+        "scala_xml_Source$": ["fromSysId__T__Lorg_xml_sax_InputSource"]
+      },
+      "accessedModules": ["scala_xml_Source"]
+    },
+    "scala_xml_factory_XMLLoader$class__load__Lscala_xml_factory_XMLLoader__Lorg_xml_sax_InputSource__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"]
+      }
+    },
+    "scala_xml_factory_XMLLoader$class__load__Lscala_xml_factory_XMLLoader__Ljava_net_URL__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"],
+        "java_net_URL": ["openStream__Ljava_io_InputStream"],
+        "scala_xml_Source$": ["fromInputStream__Ljava_io_InputStream__Lorg_xml_sax_InputSource"]
+      },
+      "accessedModules": ["scala_xml_Source"]
+    },
+    "scala_xml_factory_XMLLoader$class__loadString__Lscala_xml_factory_XMLLoader__T__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_factory_XMLLoader": ["loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node", "parser__Ljavax_xml_parsers_SAXParser"],
+        "scala_xml_Source$": ["fromString__T__Lorg_xml_sax_InputSource"]
+      },
+      "accessedModules": ["scala_xml_Source"]
+    },
+    "scala_xml_factory_XMLLoader$class__$init$__Lscala_xml_factory_XMLLoader__V": {}
+  }
+}

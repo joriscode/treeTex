@@ -1,0 +1,45 @@
+{
+  "name": "scala.runtime.IntegralProxy$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_IntegralProxy$class",
+  "superClass": "",
+  "ancestors": ["scala_runtime_IntegralProxy$class"],
+  "isExported": false,
+  "methods": {
+    "scala_runtime_IntegralProxy$class__until__Lscala_runtime_IntegralProxy__O__Lscala_collection_immutable_NumericRange$Exclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["apply__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Exclusive"],
+        "scala_math_Integral": ["one__O"],
+        "scala_runtime_IntegralProxy": ["self__O", "num__Lscala_math_Integral"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "scala_runtime_IntegralProxy$class__until__Lscala_runtime_IntegralProxy__O__O__Lscala_collection_immutable_NumericRange$Exclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["apply__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Exclusive"],
+        "scala_runtime_IntegralProxy": ["self__O", "num__Lscala_math_Integral"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "scala_runtime_IntegralProxy$class__to__Lscala_runtime_IntegralProxy__O__Lscala_collection_immutable_NumericRange$Inclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["inclusive__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Inclusive"],
+        "scala_math_Integral": ["one__O"],
+        "scala_runtime_IntegralProxy": ["self__O", "num__Lscala_math_Integral"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "scala_runtime_IntegralProxy$class__to__Lscala_runtime_IntegralProxy__O__O__Lscala_collection_immutable_NumericRange$Inclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["inclusive__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Inclusive"],
+        "scala_runtime_IntegralProxy": ["self__O", "num__Lscala_math_Integral"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "scala_runtime_IntegralProxy$class__$init$__Lscala_runtime_IntegralProxy__V": {}
+  }
+}

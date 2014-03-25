@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.convert.WrapAsScala",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_WrapAsScala",
+  "superClass": "",
+  "ancestors": ["scala_collection_convert_WrapAsScala", "scala_collection_convert_LowPriorityWrapAsScala", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "asScalaIterator__Ljava_util_Iterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "enumerationAsScalaIterator__Ljava_util_Enumeration__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "iterableAsScalaIterable__Ljava_lang_Iterable__Lscala_collection_Iterable": {
+      "isAbstract": true
+    },
+    "collectionAsScalaIterable__Ljava_util_Collection__Lscala_collection_Iterable": {
+      "isAbstract": true
+    },
+    "asScalaBuffer__Ljava_util_List__Lscala_collection_mutable_Buffer": {
+      "isAbstract": true
+    },
+    "asScalaSet__Ljava_util_Set__Lscala_collection_mutable_Set": {
+      "isAbstract": true
+    },
+    "mapAsScalaMap__Ljava_util_Map__Lscala_collection_mutable_Map": {
+      "isAbstract": true
+    },
+    "asScalaConcurrentMap__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_mutable_ConcurrentMap": {
+      "isAbstract": true
+    },
+    "mapAsScalaConcurrentMap__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_concurrent_Map": {
+      "isAbstract": true
+    },
+    "dictionaryAsScalaMap__Ljava_util_Dictionary__Lscala_collection_mutable_Map": {
+      "isAbstract": true
+    },
+    "propertiesAsScalaMap__Ljava_util_Properties__Lscala_collection_mutable_Map": {
+      "isAbstract": true
+    }
+  }
+}

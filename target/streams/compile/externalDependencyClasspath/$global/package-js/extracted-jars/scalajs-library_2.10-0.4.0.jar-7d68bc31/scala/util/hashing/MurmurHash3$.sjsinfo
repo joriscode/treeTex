@@ -1,0 +1,441 @@
+{
+  "name": "scala.util.hashing.MurmurHash3$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_hashing_MurmurHash3$",
+  "superClass": "scala_util_hashing_MurmurHash3",
+  "ancestors": ["scala_util_hashing_MurmurHash3$", "scala_util_hashing_MurmurHash3", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "arraySeed__I": {},
+    "stringSeed__I": {},
+    "productSeed__I": {},
+    "symmetricSeed__I": {},
+    "traversableSeed__I": {},
+    "seqSeed__I": {},
+    "mapSeed__I": {},
+    "setSeed__I": {},
+    "arrayHash__O__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash__O__I__I"]
+      }
+    },
+    "bytesHash__AB__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["bytesHash__AB__I__I"]
+      }
+    },
+    "orderedHash__Lscala_collection_TraversableOnce__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["orderedHash__Lscala_collection_TraversableOnce__I__I"]
+      }
+    },
+    "productHash__Lscala_Product__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["productHash__Lscala_Product__I__I"]
+      }
+    },
+    "stringHash__T__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["stringHash__T__I__I"]
+      }
+    },
+    "unorderedHash__Lscala_collection_TraversableOnce__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["unorderedHash__Lscala_collection_TraversableOnce__I__I"]
+      }
+    },
+    "seqHash__Lscala_collection_Seq__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["orderedHash__Lscala_collection_TraversableOnce__I__I", "listHash__Lscala_collection_immutable_List__I__I", "seqSeed__I"]
+      },
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "mapHash__Lscala_collection_Map__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["unorderedHash__Lscala_collection_TraversableOnce__I__I", "mapSeed__I"]
+      }
+    },
+    "setHash__Lscala_collection_Set__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["unorderedHash__Lscala_collection_TraversableOnce__I__I", "setSeed__I"]
+      }
+    },
+    "arrayHashing__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing"]
+    },
+    "bytesHashing__Lscala_util_hashing_Hashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$1": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$$anon$1"]
+    },
+    "orderedHashing__Lscala_util_hashing_Hashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$2": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$$anon$2"]
+    },
+    "productHashing__Lscala_util_hashing_Hashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$3": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$$anon$3"]
+    },
+    "stringHashing__Lscala_util_hashing_Hashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$4": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$$anon$4"]
+    },
+    "unorderedHashing__Lscala_util_hashing_Hashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$5": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$$anon$5"]
+    },
+    "symmetricHash__Lscala_collection_GenTraversableOnce__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["unorderedHash__Lscala_collection_TraversableOnce__I__I"],
+        "scala_collection_GenTraversableOnce": ["seq__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "symmetricHash$default$2__I": {},
+    "traversableHash__Lscala_collection_GenTraversableOnce__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["orderedHash__Lscala_collection_TraversableOnce__I__I"],
+        "scala_collection_GenTraversableOnce": ["seq__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "traversableHash$default$2__I": {},
+    "arrayHash$mZc$sp__AZ__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mZc$sp__AZ__I__I"]
+      }
+    },
+    "arrayHash$mBc$sp__AB__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mBc$sp__AB__I__I"]
+      }
+    },
+    "arrayHash$mCc$sp__AC__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mCc$sp__AC__I__I"]
+      }
+    },
+    "arrayHash$mDc$sp__AD__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mDc$sp__AD__I__I"]
+      }
+    },
+    "arrayHash$mFc$sp__AF__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mFc$sp__AF__I__I"]
+      }
+    },
+    "arrayHash$mIc$sp__AI__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mIc$sp__AI__I__I"]
+      }
+    },
+    "arrayHash$mJc$sp__AJ__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mJc$sp__AJ__I__I"]
+      }
+    },
+    "arrayHash$mSc$sp__AS__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mSc$sp__AS__I__I"]
+      }
+    },
+    "arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__I__I"]
+      }
+    },
+    "arrayHashing$mZc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcZ$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcZ$sp"]
+    },
+    "arrayHashing$mBc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcB$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcB$sp"]
+    },
+    "arrayHashing$mCc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcC$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcC$sp"]
+    },
+    "arrayHashing$mDc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcD$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcD$sp"]
+    },
+    "arrayHashing$mFc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcF$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcF$sp"]
+    },
+    "arrayHashing$mIc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcI$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcI$sp"]
+    },
+    "arrayHashing$mJc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcJ$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcJ$sp"]
+    },
+    "arrayHashing$mSc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcS$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcS$sp"]
+    },
+    "arrayHashing$mVc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcV$sp": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcV$sp"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_String": ["hashCode__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_hashing_MurmurHash3": ["init___"]
+      }
+    },
+    "traversableHash__Lscala_collection_GenTraversableOnce__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["traversableHash__Lscala_collection_GenTraversableOnce__I__I"]
+      }
+    },
+    "symmetricHash__Lscala_collection_GenTraversableOnce__I__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["symmetricHash__Lscala_collection_GenTraversableOnce__I__I"]
+      }
+    },
+    "unorderedHashing__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["unorderedHashing__Lscala_util_hashing_Hashing"]
+      }
+    },
+    "stringHashing__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["stringHashing__Lscala_util_hashing_Hashing"]
+      }
+    },
+    "productHashing__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["productHashing__Lscala_util_hashing_Hashing"]
+      }
+    },
+    "orderedHashing__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["orderedHashing__Lscala_util_hashing_Hashing"]
+      }
+    },
+    "bytesHashing__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["bytesHashing__Lscala_util_hashing_Hashing"]
+      }
+    },
+    "arrayHashing$mVc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mVc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing$mSc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mSc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing$mJc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mJc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing$mIc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mIc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing$mFc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mFc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing$mDc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mDc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing$mCc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mCc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing$mBc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mBc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing$mZc$sp__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing$mZc$sp__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "arrayHashing__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHashing__Lscala_util_hashing_MurmurHash3$ArrayHashing"]
+      }
+    },
+    "setHash__Lscala_collection_Set__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["setHash__Lscala_collection_Set__I"]
+      }
+    },
+    "mapHash__Lscala_collection_Map__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["mapHash__Lscala_collection_Map__I"]
+      }
+    },
+    "seqHash__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["seqHash__Lscala_collection_Seq__I"]
+      }
+    },
+    "unorderedHash__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["unorderedHash__Lscala_collection_TraversableOnce__I"]
+      }
+    },
+    "stringHash__T__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["stringHash__T__I"]
+      }
+    },
+    "productHash__Lscala_Product__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["productHash__Lscala_Product__I"]
+      }
+    },
+    "orderedHash__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["orderedHash__Lscala_collection_TraversableOnce__I"]
+      }
+    },
+    "bytesHash__AB__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["bytesHash__AB__I"]
+      }
+    },
+    "arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__I"]
+      }
+    },
+    "arrayHash$mSc$sp__AS__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mSc$sp__AS__I"]
+      }
+    },
+    "arrayHash$mJc$sp__AJ__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mJc$sp__AJ__I"]
+      }
+    },
+    "arrayHash$mIc$sp__AI__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mIc$sp__AI__I"]
+      }
+    },
+    "arrayHash$mFc$sp__AF__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mFc$sp__AF__I"]
+      }
+    },
+    "arrayHash$mDc$sp__AD__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mDc$sp__AD__I"]
+      }
+    },
+    "arrayHash$mCc$sp__AC__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mCc$sp__AC__I"]
+      }
+    },
+    "arrayHash$mBc$sp__AB__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mBc$sp__AB__I"]
+      }
+    },
+    "arrayHash$mZc$sp__AZ__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mZc$sp__AZ__I"]
+      }
+    },
+    "arrayHash__O__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash__O__I"]
+      }
+    },
+    "setSeed__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["setSeed__I"]
+      }
+    },
+    "mapSeed__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["mapSeed__I"]
+      }
+    },
+    "seqSeed__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["seqSeed__I"]
+      }
+    },
+    "traversableSeed__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["traversableSeed__I"]
+      }
+    },
+    "symmetricSeed__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["symmetricSeed__I"]
+      }
+    },
+    "productSeed__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["productSeed__I"]
+      }
+    },
+    "stringSeed__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["stringSeed__I"]
+      }
+    },
+    "arraySeed__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arraySeed__I"]
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "scala.collection.concurrent.RDCSS_Descriptor",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_RDCSS$undDescriptor",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_concurrent_RDCSS$undDescriptor", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "old__Lscala_collection_concurrent_INode": {},
+    "expectedmain__Lscala_collection_concurrent_MainNode": {},
+    "nv__Lscala_collection_concurrent_INode": {},
+    "committed__Z": {},
+    "committed$und$eq__Z__V": {},
+    "copy__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_RDCSS$undDescriptor": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["init___Lscala_collection_concurrent_INode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_INode"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_RDCSS$undDescriptor"]
+    },
+    "copy$default$1__Lscala_collection_concurrent_INode": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["old__Lscala_collection_concurrent_INode"]
+      }
+    },
+    "copy$default$2__Lscala_collection_concurrent_MainNode": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["expectedmain__Lscala_collection_concurrent_MainNode"]
+      }
+    },
+    "copy$default$3__Lscala_collection_concurrent_INode": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["nv__Lscala_collection_concurrent_INode"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["old__Lscala_collection_concurrent_INode", "nv__Lscala_collection_concurrent_INode", "expectedmain__Lscala_collection_concurrent_MainNode"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_collection_concurrent_RDCSS$undDescriptor"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["old__Lscala_collection_concurrent_INode", "nv__Lscala_collection_concurrent_INode", "expectedmain__Lscala_collection_concurrent_MainNode", "canEqual__O__Z"]
+      },
+      "accessedClassData": ["scala_collection_concurrent_RDCSS$undDescriptor"]
+    },
+    "init___Lscala_collection_concurrent_INode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_INode": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["productPrefix__T"]
+      }
+    },
+    "copy__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_INode__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["copy__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_INode__Lscala_collection_concurrent_RDCSS$undDescriptor"]
+      }
+    },
+    "committed$und$eq__Z__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["committed$und$eq__Z__V"]
+      }
+    },
+    "committed__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["committed__Z"]
+      }
+    },
+    "nv__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["nv__Lscala_collection_concurrent_INode"]
+      }
+    },
+    "expectedmain__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["expectedmain__Lscala_collection_concurrent_MainNode"]
+      }
+    },
+    "old__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RDCSS$undDescriptor": ["old__Lscala_collection_concurrent_INode"]
+      }
+    }
+  }
+}

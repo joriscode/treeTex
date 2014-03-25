@@ -1,0 +1,68 @@
+{
+  "name": "scala.io.BufferedSource$BufferedLineIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BufferedSource$BufferedLineIterator",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_io_BufferedSource$BufferedLineIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "lineReader__p2__Ljava_io_BufferedReader": {},
+    "nextLine__T": {},
+    "nextLine$und$eq__T__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "java_io_BufferedReader": ["readLine__T"],
+        "scala_io_BufferedSource$BufferedLineIterator": ["lineReader__p2__Ljava_io_BufferedReader", "nextLine__T", "nextLine$und$eq__T__V"]
+      }
+    },
+    "next__T": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "java_io_BufferedReader": ["readLine__T"],
+        "scala_collection_Iterator": ["next__O"],
+        "scala_io_BufferedSource$BufferedLineIterator": ["lineReader__p2__Ljava_io_BufferedReader", "nextLine__T", "nextLine$und$eq__T__V"]
+      },
+      "accessedModules": ["scala_collection_Iterator"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "scala$io$BufferedSource$BufferedLineIterator$$$outer__Lscala_io_BufferedSource": {},
+    "next__O": {
+      "calledMethods": {
+        "scala_io_BufferedSource$BufferedLineIterator": ["next__T"]
+      }
+    },
+    "init___Lscala_io_BufferedSource": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "java_io_BufferedReader": ["init___Ljava_io_Reader__I"],
+        "java_lang_NullPointerException": ["init___"],
+        "scala_io_BufferedSource": ["iter__Lscala_collection_Iterator", "scala$io$BufferedSource$$charReader__Ljava_io_BufferedReader", "scala$io$BufferedSource$$charReaderCreated__Z"],
+        "java_io_PushbackReader": ["init___Ljava_io_Reader", "unread__I__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_io_PushbackReader", "java_io_BufferedReader", "java_lang_NullPointerException"]
+    },
+    "scala$io$BufferedSource$BufferedLineIterator$$$outer__": {
+      "calledMethods": {
+        "scala_io_BufferedSource$BufferedLineIterator": ["scala$io$BufferedSource$BufferedLineIterator$$$outer__Lscala_io_BufferedSource"]
+      }
+    },
+    "nextLine$und$eq__T__": {
+      "calledMethods": {
+        "scala_io_BufferedSource$BufferedLineIterator": ["nextLine$und$eq__T__V"]
+      }
+    },
+    "nextLine__": {
+      "calledMethods": {
+        "scala_io_BufferedSource$BufferedLineIterator": ["nextLine__T"]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "scala.Option$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Option$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Option$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "option2Iterable__Lscala_Option__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_Option": ["toList__Lscala_collection_immutable_List"]
+      }
+    },
+    "apply__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "empty__Lscala_Option": {
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_Option"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_Option$": ["empty__Lscala_Option"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_Option$": ["apply__O__Lscala_Option"]
+      }
+    },
+    "option2Iterable__Lscala_Option__": {
+      "calledMethods": {
+        "scala_Option$": ["option2Iterable__Lscala_Option__Lscala_collection_Iterable"]
+      }
+    }
+  }
+}

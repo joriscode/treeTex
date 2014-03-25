@@ -1,0 +1,155 @@
+{
+  "name": "scala.collection.Iterator",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator",
+  "superClass": "",
+  "ancestors": ["scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "seq__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "hasNext__Z": {
+      "isAbstract": true
+    },
+    "next__O": {
+      "isAbstract": true
+    },
+    "isEmpty__Z": {
+      "isAbstract": true
+    },
+    "isTraversableAgain__Z": {
+      "isAbstract": true
+    },
+    "hasDefiniteSize__Z": {
+      "isAbstract": true
+    },
+    "take__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "drop__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "slice__I__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "map__Lscala_Function1__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "$$plus$plus__Lscala_Function0__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "flatMap__Lscala_Function1__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "filter__Lscala_Function1__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "corresponds__Lscala_collection_GenTraversableOnce__Lscala_Function2__Z": {
+      "isAbstract": true
+    },
+    "withFilter__Lscala_Function1__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "filterNot__Lscala_Function1__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "collect__Lscala_PartialFunction__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "scanLeft__O__Lscala_Function2__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "scanRight__O__Lscala_Function2__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "takeWhile__Lscala_Function1__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "partition__Lscala_Function1__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "span__Lscala_Function1__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "dropWhile__Lscala_Function1__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "zip__Lscala_collection_Iterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "padTo__I__O__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "zipWithIndex__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "zipAll__Lscala_collection_Iterator__O__O__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "foreach__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "forall__Lscala_Function1__Z": {
+      "isAbstract": true
+    },
+    "exists__Lscala_Function1__Z": {
+      "isAbstract": true
+    },
+    "contains__O__Z": {
+      "isAbstract": true
+    },
+    "find__Lscala_Function1__Lscala_Option": {
+      "isAbstract": true
+    },
+    "indexWhere__Lscala_Function1__I": {
+      "isAbstract": true
+    },
+    "indexOf__O__I": {
+      "isAbstract": true
+    },
+    "buffered__Lscala_collection_BufferedIterator": {
+      "isAbstract": true
+    },
+    "grouped__I__Lscala_collection_Iterator$GroupedIterator": {
+      "isAbstract": true
+    },
+    "sliding__I__I__Lscala_collection_Iterator$GroupedIterator": {
+      "isAbstract": true
+    },
+    "sliding$default$2__I": {
+      "isAbstract": true
+    },
+    "length__I": {
+      "isAbstract": true
+    },
+    "duplicate__Lscala_Tuple2": {
+      "isAbstract": true
+    },
+    "patch__I__Lscala_collection_Iterator__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "copyToArray__O__I__I__V": {
+      "isAbstract": true
+    },
+    "sameElements__Lscala_collection_Iterator__Z": {
+      "isAbstract": true
+    },
+    "toTraversable__Lscala_collection_Traversable": {
+      "isAbstract": true
+    },
+    "toIterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "toStream__Lscala_collection_immutable_Stream": {
+      "isAbstract": true
+    },
+    "toString__T": {
+      "isAbstract": true
+    }
+  }
+}

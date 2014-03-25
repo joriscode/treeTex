@@ -1,0 +1,92 @@
+{
+  "name": "java.util.concurrent.atomic.AtomicReference",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_concurrent_atomic_AtomicReference",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_concurrent_atomic_AtomicReference", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "value__O": {},
+    "value$und$eq__O__V": {},
+    "get__O": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["value__O"]
+      }
+    },
+    "set__O__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["value$und$eq__O__V"]
+      }
+    },
+    "lazySet__O__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["set__O__V"]
+      }
+    },
+    "compareAndSet__O__O__Z": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["value__O", "value$und$eq__O__V"]
+      }
+    },
+    "weakCompareAndSet__O__O__Z": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["compareAndSet__O__O__Z"]
+      }
+    },
+    "getAndSet__O__O": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["value__O", "value$und$eq__O__V"]
+      }
+    },
+    "init___O": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "getAndSet__O__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["getAndSet__O__O"]
+      }
+    },
+    "weakCompareAndSet__O__O__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["weakCompareAndSet__O__O__Z"]
+      }
+    },
+    "compareAndSet__O__O__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["compareAndSet__O__O__Z"]
+      }
+    },
+    "lazySet__O__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["lazySet__O__V"]
+      }
+    },
+    "set__O__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["set__O__V"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["get__O"]
+      }
+    },
+    "value$und$eq__O__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["value$und$eq__O__V"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReference": ["value__O"]
+      }
+    }
+  }
+}

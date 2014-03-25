@@ -1,0 +1,57 @@
+{
+  "name": "scala.collection.generic.DelegatedSignalling$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_DelegatedSignalling$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_generic_DelegatedSignalling$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_generic_DelegatedSignalling$class__isAborted__Lscala_collection_generic_DelegatedSignalling__Z": {
+      "calledMethods": {
+        "scala_collection_generic_DelegatedSignalling": ["signalDelegate__Lscala_collection_generic_Signalling"],
+        "scala_collection_generic_Signalling": ["isAborted__Z"]
+      }
+    },
+    "scala_collection_generic_DelegatedSignalling$class__abort__Lscala_collection_generic_DelegatedSignalling__V": {
+      "calledMethods": {
+        "scala_collection_generic_DelegatedSignalling": ["signalDelegate__Lscala_collection_generic_Signalling"],
+        "scala_collection_generic_Signalling": ["abort__V"]
+      }
+    },
+    "scala_collection_generic_DelegatedSignalling$class__indexFlag__Lscala_collection_generic_DelegatedSignalling__I": {
+      "calledMethods": {
+        "scala_collection_generic_DelegatedSignalling": ["signalDelegate__Lscala_collection_generic_Signalling"],
+        "scala_collection_generic_Signalling": ["indexFlag__I"]
+      }
+    },
+    "scala_collection_generic_DelegatedSignalling$class__setIndexFlag__Lscala_collection_generic_DelegatedSignalling__I__V": {
+      "calledMethods": {
+        "scala_collection_generic_DelegatedSignalling": ["signalDelegate__Lscala_collection_generic_Signalling"],
+        "scala_collection_generic_Signalling": ["setIndexFlag__I__V"]
+      }
+    },
+    "scala_collection_generic_DelegatedSignalling$class__setIndexFlagIfGreater__Lscala_collection_generic_DelegatedSignalling__I__V": {
+      "calledMethods": {
+        "scala_collection_generic_DelegatedSignalling": ["signalDelegate__Lscala_collection_generic_Signalling"],
+        "scala_collection_generic_Signalling": ["setIndexFlagIfGreater__I__V"]
+      }
+    },
+    "scala_collection_generic_DelegatedSignalling$class__setIndexFlagIfLesser__Lscala_collection_generic_DelegatedSignalling__I__V": {
+      "calledMethods": {
+        "scala_collection_generic_DelegatedSignalling": ["signalDelegate__Lscala_collection_generic_Signalling"],
+        "scala_collection_generic_Signalling": ["setIndexFlagIfLesser__I__V"]
+      }
+    },
+    "scala_collection_generic_DelegatedSignalling$class__tag__Lscala_collection_generic_DelegatedSignalling__I": {
+      "calledMethods": {
+        "scala_collection_generic_DelegatedSignalling": ["signalDelegate__Lscala_collection_generic_Signalling"],
+        "scala_collection_generic_Signalling": ["tag__I"]
+      }
+    },
+    "scala_collection_generic_DelegatedSignalling$class__$init$__Lscala_collection_generic_DelegatedSignalling__V": {}
+  }
+}

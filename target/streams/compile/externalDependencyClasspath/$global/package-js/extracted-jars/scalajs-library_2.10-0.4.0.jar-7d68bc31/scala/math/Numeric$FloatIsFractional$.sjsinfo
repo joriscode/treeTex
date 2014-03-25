@@ -1,0 +1,492 @@
+{
+  "name": "scala.math.Numeric$FloatIsFractional$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_Numeric$FloatIsFractional$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_math_Numeric$FloatIsFractional$", "scala_math_Ordering$FloatOrdering", "scala_math_Numeric$FloatIsFractional", "scala_math_Fractional", "scala_math_Numeric$FloatIsConflicted", "scala_math_Numeric", "scala_math_Ordering", "scala_math_PartialOrdering", "scala_math_Equiv", "scala_Serializable", "java_io_Serializable", "java_util_Comparator", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "compare__F__F__I": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__compare__Lscala_math_Ordering$FloatOrdering__F__F__I"]
+      }
+    },
+    "lteq__F__F__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__lteq__Lscala_math_Ordering$FloatOrdering__F__F__Z"]
+      }
+    },
+    "gteq__F__F__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__gteq__Lscala_math_Ordering$FloatOrdering__F__F__Z"]
+      }
+    },
+    "lt__F__F__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__lt__Lscala_math_Ordering$FloatOrdering__F__F__Z"]
+      }
+    },
+    "gt__F__F__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__gt__Lscala_math_Ordering$FloatOrdering__F__F__Z"]
+      }
+    },
+    "equiv__F__F__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__equiv__Lscala_math_Ordering$FloatOrdering__F__F__Z"]
+      }
+    },
+    "max__F__F__F": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__max__Lscala_math_Ordering$FloatOrdering__F__F__F"]
+      }
+    },
+    "min__F__F__F": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__min__Lscala_math_Ordering$FloatOrdering__F__F__F"]
+      }
+    },
+    "reverse__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__reverse__Lscala_math_Ordering$FloatOrdering__Lscala_math_Ordering"]
+      }
+    },
+    "div__F__F__F": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$class": ["scala_math_Numeric$FloatIsFractional$class__div__Lscala_math_Numeric$FloatIsFractional__F__F__F"]
+      }
+    },
+    "mkNumericOps__O__Lscala_math_Fractional$FractionalOps": {
+      "calledMethods": {
+        "scala_math_Fractional$class": ["scala_math_Fractional$class__mkNumericOps__Lscala_math_Fractional__O__Lscala_math_Fractional$FractionalOps"]
+      }
+    },
+    "plus__F__F__F": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__plus__Lscala_math_Numeric$FloatIsConflicted__F__F__F"]
+      }
+    },
+    "minus__F__F__F": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__minus__Lscala_math_Numeric$FloatIsConflicted__F__F__F"]
+      }
+    },
+    "times__F__F__F": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__times__Lscala_math_Numeric$FloatIsConflicted__F__F__F"]
+      }
+    },
+    "negate__F__F": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__negate__Lscala_math_Numeric$FloatIsConflicted__F__F"]
+      }
+    },
+    "fromInt__I__F": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__fromInt__Lscala_math_Numeric$FloatIsConflicted__I__F"]
+      }
+    },
+    "toInt__F__I": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__toInt__Lscala_math_Numeric$FloatIsConflicted__F__I"]
+      }
+    },
+    "toLong__F__J": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__toLong__Lscala_math_Numeric$FloatIsConflicted__F__J"]
+      }
+    },
+    "toFloat__F__F": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__toFloat__Lscala_math_Numeric$FloatIsConflicted__F__F"]
+      }
+    },
+    "toDouble__F__D": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__toDouble__Lscala_math_Numeric$FloatIsConflicted__F__D"]
+      }
+    },
+    "zero__O": {
+      "calledMethods": {
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__zero__Lscala_math_Numeric__O"]
+      }
+    },
+    "one__O": {
+      "calledMethods": {
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__one__Lscala_math_Numeric__O"]
+      }
+    },
+    "abs__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__abs__Lscala_math_Numeric__O__O"]
+      }
+    },
+    "signum__O__I": {
+      "calledMethods": {
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__signum__Lscala_math_Numeric__O__I"]
+      }
+    },
+    "tryCompare__O__O__Lscala_Some": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__tryCompare__Lscala_math_Ordering__O__O__Lscala_Some"]
+      }
+    },
+    "on__Lscala_Function1__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__on__Lscala_math_Ordering__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "mkOrderingOps__O__Lscala_math_Ordering$Ops": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__mkOrderingOps__Lscala_math_Ordering__O__Lscala_math_Ordering$Ops"]
+      }
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_math_Numeric$FloatIsFractional"]
+    },
+    "tryCompare__O__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["tryCompare__O__O__Lscala_Some"]
+      }
+    },
+    "toDouble__O__D": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["toDouble__F__D"]
+      }
+    },
+    "toFloat__O__F": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["toFloat__F__F"]
+      }
+    },
+    "toLong__O__J": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["toLong__F__J"]
+      }
+    },
+    "toInt__O__I": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["toInt__F__I"]
+      }
+    },
+    "fromInt__I__O": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["fromInt__I__F"]
+      }
+    },
+    "negate__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["negate__F__F"]
+      }
+    },
+    "times__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["times__F__F__F"]
+      }
+    },
+    "minus__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["minus__F__F__F"]
+      }
+    },
+    "plus__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["plus__F__F__F"]
+      }
+    },
+    "mkNumericOps__O__Lscala_math_Numeric$Ops": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["mkNumericOps__O__Lscala_math_Fractional$FractionalOps"]
+      }
+    },
+    "div__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["div__F__F__F"]
+      }
+    },
+    "reverse__Lscala_math_PartialOrdering": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["reverse__Lscala_math_Ordering"]
+      }
+    },
+    "min__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["min__F__F__F"]
+      }
+    },
+    "max__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["max__F__F__F"]
+      }
+    },
+    "equiv__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["equiv__F__F__Z"]
+      }
+    },
+    "gt__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["gt__F__F__Z"]
+      }
+    },
+    "lt__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["lt__F__F__Z"]
+      }
+    },
+    "gteq__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["gteq__F__F__Z"]
+      }
+    },
+    "lteq__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["lteq__F__F__Z"]
+      }
+    },
+    "compare__O__O__I": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["compare__F__F__I"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_math_Ordering$FloatOrdering$class": ["scala_math_Ordering$FloatOrdering$class__$init$__Lscala_math_Ordering$FloatOrdering__V"],
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__$init$__Lscala_math_Ordering__V"],
+        "scala_math_Numeric$FloatIsFractional$class": ["scala_math_Numeric$FloatIsFractional$class__$init$__Lscala_math_Numeric$FloatIsFractional__V"],
+        "scala_math_Numeric$FloatIsConflicted$class": ["scala_math_Numeric$FloatIsConflicted$class__$init$__Lscala_math_Numeric$FloatIsConflicted__V"],
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__$init$__Lscala_math_Numeric__V"],
+        "scala_math_Fractional$class": ["scala_math_Fractional$class__$init$__Lscala_math_Fractional__V"],
+        "scala_math_PartialOrdering$class": ["scala_math_PartialOrdering$class__$init$__Lscala_math_PartialOrdering__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "mkOrderingOps__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["mkOrderingOps__O__Lscala_math_Ordering$Ops"]
+      }
+    },
+    "on__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["on__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "tryCompare__O__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["tryCompare__O__O__Lscala_Some"]
+      }
+    },
+    "signum__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["signum__O__I"]
+      }
+    },
+    "abs__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["abs__O__O"]
+      }
+    },
+    "one__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["one__O"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["zero__O"]
+      }
+    },
+    "toDouble__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["toDouble__F__D"]
+      }
+    },
+    "toFloat__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["toFloat__F__F"]
+      }
+    },
+    "toLong__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["toLong__F__J"]
+      }
+    },
+    "toInt__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["toInt__F__I"]
+      }
+    },
+    "fromInt__I__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["fromInt__I__F"]
+      }
+    },
+    "negate__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["negate__F__F"]
+      }
+    },
+    "times__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["times__F__F__F"]
+      }
+    },
+    "minus__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["minus__F__F__F"]
+      }
+    },
+    "plus__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["plus__F__F__F"]
+      }
+    },
+    "mkNumericOps__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["mkNumericOps__O__Lscala_math_Fractional$FractionalOps"]
+      }
+    },
+    "div__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["div__F__F__F"]
+      }
+    },
+    "reverse__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["reverse__Lscala_math_Ordering"]
+      }
+    },
+    "min__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["min__F__F__F"]
+      }
+    },
+    "max__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["max__F__F__F"]
+      }
+    },
+    "equiv__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["equiv__F__F__Z"]
+      }
+    },
+    "gt__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["gt__F__F__Z"]
+      }
+    },
+    "lt__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["lt__F__F__Z"]
+      }
+    },
+    "gteq__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["gteq__F__F__Z"]
+      }
+    },
+    "lteq__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["lteq__F__F__Z"]
+      }
+    },
+    "compare__F__F__": {
+      "calledMethods": {
+        "scala_math_Numeric$FloatIsFractional$": ["compare__F__F__I"]
+      }
+    },
+    "div__O__O__": {
+      "calledMethods": {
+        "scala_math_Fractional": ["div__O__O__O"]
+      }
+    },
+    "toDouble__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["toDouble__O__D"]
+      }
+    },
+    "toFloat__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["toFloat__O__F"]
+      }
+    },
+    "toLong__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["toLong__O__J"]
+      }
+    },
+    "toInt__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["toInt__O__I"]
+      }
+    },
+    "negate__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["negate__O__O"]
+      }
+    },
+    "times__O__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["times__O__O__O"]
+      }
+    },
+    "minus__O__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["minus__O__O__O"]
+      }
+    },
+    "plus__O__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["plus__O__O__O"]
+      }
+    },
+    "min__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["min__O__O__O"]
+      }
+    },
+    "max__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["max__O__O__O"]
+      }
+    },
+    "equiv__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["equiv__O__O__Z"]
+      }
+    },
+    "gt__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["gt__O__O__Z"]
+      }
+    },
+    "lt__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["lt__O__O__Z"]
+      }
+    },
+    "gteq__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["gteq__O__O__Z"]
+      }
+    },
+    "lteq__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["lteq__O__O__Z"]
+      }
+    },
+    "compare__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    }
+  }
+}

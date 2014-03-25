@@ -1,0 +1,125 @@
+{
+  "name": "scala.xml.dtd.AttListDecl",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_AttListDecl",
+  "superClass": "scala_xml_dtd_MarkupDecl",
+  "ancestors": ["scala_xml_dtd_AttListDecl", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_xml_dtd_MarkupDecl", "scala_xml_dtd_Decl", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "name__T": {},
+    "attrs__Lscala_collection_immutable_List": {},
+    "buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["attrs__Lscala_collection_immutable_List", "name__T"],
+        "scala_collection_immutable_List": ["mkString__T__T__T__T"],
+        "scala_collection_mutable_StringBuilder": ["append__C__Lscala_collection_mutable_StringBuilder", "append__T__Lscala_collection_mutable_StringBuilder"]
+      }
+    },
+    "copy__T__Lscala_collection_immutable_List__Lscala_xml_dtd_AttListDecl": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["init___T__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_AttListDecl"]
+    },
+    "copy$default$1__T": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["name__T"]
+      }
+    },
+    "copy$default$2__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["attrs__Lscala_collection_immutable_List"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["attrs__Lscala_collection_immutable_List", "name__T"],
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_xml_dtd_AttListDecl"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["attrs__Lscala_collection_immutable_List", "canEqual__O__Z", "name__T"]
+      },
+      "accessedClassData": ["scala_xml_dtd_AttListDecl"]
+    },
+    "init___T__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_dtd_MarkupDecl": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["productPrefix__T"]
+      }
+    },
+    "copy__T__Lscala_collection_immutable_List__": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["copy__T__Lscala_collection_immutable_List__Lscala_xml_dtd_AttListDecl"]
+      }
+    },
+    "attrs__": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["attrs__Lscala_collection_immutable_List"]
+      }
+    },
+    "name__": {
+      "calledMethods": {
+        "scala_xml_dtd_AttListDecl": ["name__T"]
+      }
+    }
+  }
+}

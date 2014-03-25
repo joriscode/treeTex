@@ -1,0 +1,52 @@
+{
+  "name": "scala.concurrent.BlockContext$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_BlockContext$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_BlockContext$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "contextLocal__p1__Ljava_lang_ThreadLocal": {},
+    "current__Lscala_concurrent_BlockContext": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["get__O"],
+        "java_lang_Thread$": ["currentThread__Ljava_lang_Thread"],
+        "scala_concurrent_BlockContext$": ["contextLocal__p1__Ljava_lang_ThreadLocal"]
+      },
+      "accessedModules": ["java_lang_Thread", "scala_concurrent_BlockContext$DefaultBlockContext"],
+      "accessedClassData": ["scala_concurrent_BlockContext"]
+    },
+    "withBlockContext__Lscala_concurrent_BlockContext__Lscala_Function0__O": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["set__O__V", "get__O"],
+        "scala_Function0": ["apply__O"],
+        "scala_concurrent_BlockContext$": ["contextLocal__p1__Ljava_lang_ThreadLocal"]
+      },
+      "accessedClassData": ["scala_concurrent_BlockContext"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ThreadLocal"]
+    },
+    "withBlockContext__Lscala_concurrent_BlockContext__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_concurrent_BlockContext$": ["withBlockContext__Lscala_concurrent_BlockContext__Lscala_Function0__O"]
+      }
+    },
+    "current__": {
+      "calledMethods": {
+        "scala_concurrent_BlockContext$": ["current__Lscala_concurrent_BlockContext"]
+      }
+    }
+  }
+}

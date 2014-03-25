@@ -1,0 +1,61 @@
+{
+  "name": "scala.collection.convert.Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6", "java_util_Map$Entry", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "getKey__O": {},
+    "getValue__O": {},
+    "setValue__O__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper": ["put__O__O__O"],
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1": ["scala$collection$convert$Wrappers$MapWrapper$$anon$$$outer__Lscala_collection_convert_Wrappers$MapWrapper"],
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5": ["scala$collection$convert$Wrappers$MapWrapper$$anon$$anon$$$outer__Lscala_collection_convert_Wrappers$MapWrapper$$anon$1"]
+      }
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_util_hashing_package$": ["byteswap32__I__I"],
+        "java_lang_Object": ["hashCode__I"]
+      },
+      "accessedModules": ["scala_util_hashing_package"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "java_util_Map$Entry": ["getValue__O", "getKey__O"]
+      },
+      "accessedClassData": ["java_util_Map$Entry"]
+    },
+    "init___Lscala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5__O__O": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "setValue__O__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6": ["setValue__O__O"]
+      }
+    },
+    "getValue__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6": ["getValue__O"]
+      }
+    },
+    "getKey__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1$$anon$5$$anon$6": ["getKey__O"]
+      }
+    }
+  }
+}

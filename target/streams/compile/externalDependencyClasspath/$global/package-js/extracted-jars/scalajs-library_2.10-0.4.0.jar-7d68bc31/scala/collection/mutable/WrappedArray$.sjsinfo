@@ -1,0 +1,80 @@
+{
+  "name": "scala.collection.mutable.WrappedArray$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_WrappedArray$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_WrappedArray$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "EmptyWrappedArray__p1__Lscala_collection_mutable_WrappedArray$ofRef": {},
+    "empty__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$": ["EmptyWrappedArray__p1__Lscala_collection_mutable_WrappedArray$ofRef"]
+      }
+    },
+    "make__O__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_mutable_WrappedArray$ofShort": ["init___AS"],
+        "scala_collection_mutable_WrappedArray$ofUnit": ["init___ALscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_WrappedArray$ofFloat": ["init___AF"],
+        "scala_collection_mutable_WrappedArray$ofInt": ["init___AI"],
+        "scala_collection_mutable_WrappedArray$ofDouble": ["init___AD"],
+        "scala_collection_mutable_WrappedArray$ofChar": ["init___AC"],
+        "scala_collection_mutable_WrappedArray$ofRef": ["init___AO"],
+        "scala_collection_mutable_WrappedArray$ofBoolean": ["init___AZ"],
+        "scala_collection_mutable_WrappedArray$ofLong": ["init___AJ"],
+        "scala_collection_mutable_WrappedArray$ofByte": ["init___AB"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofBoolean", "scala_MatchError", "scala_collection_mutable_WrappedArray$ofShort", "scala_collection_mutable_WrappedArray$ofUnit", "scala_collection_mutable_WrappedArray$ofInt", "scala_collection_mutable_WrappedArray$ofByte", "scala_collection_mutable_WrappedArray$ofFloat", "scala_collection_mutable_WrappedArray$ofLong", "scala_collection_mutable_WrappedArray$ofChar", "scala_collection_mutable_WrappedArray$ofDouble", "scala_collection_mutable_WrappedArray$ofRef"],
+      "accessedClassData": ["java_lang_Object", "scala_runtime_BoxedUnit"]
+    },
+    "canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$$anon$1": ["init___Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$$anon$1"]
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuffer": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuffer"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofRef": ["init___AO"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofRef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "newBuilder__": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "canBuildFrom__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "make__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$": ["make__O__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$": ["empty__Lscala_collection_mutable_WrappedArray"]
+      }
+    }
+  }
+}

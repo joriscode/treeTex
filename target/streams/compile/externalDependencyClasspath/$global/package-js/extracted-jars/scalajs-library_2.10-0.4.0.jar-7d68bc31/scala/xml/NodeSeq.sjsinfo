@@ -1,0 +1,400 @@
+{
+  "name": "scala.xml.NodeSeq",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_NodeSeq",
+  "superClass": "scala_collection_AbstractSeq",
+  "ancestors": ["scala_xml_NodeSeq", "scala_xml_Equality", "scala_collection_immutable_Seq", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSeq", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_PartialFunction", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "strict$und$bang$eq__Lscala_xml_Equality__Z": {
+      "calledMethods": {
+        "scala_xml_Equality$class": ["scala_xml_Equality$class__strict$und$bang$eq__Lscala_xml_Equality__Lscala_xml_Equality__Z"]
+      }
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_xml_Equality$class": ["scala_xml_Equality$class__hashCode__Lscala_xml_Equality__I"]
+      }
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_xml_Equality$class": ["scala_xml_Equality$class__equals__Lscala_xml_Equality__O__Z"]
+      }
+    },
+    "xml$und$eq$eq__O__Z": {
+      "calledMethods": {
+        "scala_xml_Equality$class": ["scala_xml_Equality$class__xml$und$eq$eq__Lscala_xml_Equality__O__Z"]
+      }
+    },
+    "xml$und$bang$eq__O__Z": {
+      "calledMethods": {
+        "scala_xml_Equality$class": ["scala_xml_Equality$class__xml$und$bang$eq__Lscala_xml_Equality__O__Z"]
+      }
+    },
+    "companion__Lscala_collection_generic_GenericCompanion": {
+      "calledMethods": {
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__companion__Lscala_collection_immutable_Seq__Lscala_collection_generic_GenericCompanion"]
+      }
+    },
+    "toSeq__Lscala_collection_immutable_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__toSeq__Lscala_collection_immutable_Seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__seq__Lscala_collection_immutable_Seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "parCombiner__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__parCombiner__Lscala_collection_immutable_Seq__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_xml_NodeSeq$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_xml_NodeSeq"]
+    },
+    "theSeq__Lscala_collection_Seq": {
+      "isAbstract": true
+    },
+    "length__I": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["theSeq__Lscala_collection_Seq"],
+        "scala_collection_Seq": ["length__I"]
+      }
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["theSeq__Lscala_collection_Seq"],
+        "scala_collection_Seq": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "apply__I__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["theSeq__Lscala_collection_Seq"],
+        "scala_collection_Seq": ["apply__I__O"]
+      },
+      "accessedClassData": ["scala_xml_Node"]
+    },
+    "apply__Lscala_Function1__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["filter__Lscala_Function1__O"]
+      },
+      "accessedClassData": ["scala_xml_NodeSeq"]
+    },
+    "xml$undsameElements__Lscala_collection_Iterable__Z": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_xml_Equality": ["xml$und$bang$eq__O__Z"],
+        "scala_collection_Iterable": ["iterator__Lscala_collection_Iterator"]
+      },
+      "accessedClassData": ["scala_xml_Equality"]
+    },
+    "basisForHashCode__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["theSeq__Lscala_collection_Seq"]
+      }
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_xml_NodeSeq"]
+    },
+    "strict$und$eq$eq__Lscala_xml_Equality__Z": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["theSeq__Lscala_collection_Seq", "length__I"],
+        "scala_collection_Seq": ["sameElements__Lscala_collection_GenIterable__Z"]
+      },
+      "accessedClassData": ["scala_xml_NodeSeq"]
+    },
+    "$$bslash__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["makeSeq$1__p4__Lscala_Function1__Lscala_xml_NodeSeq", "length__I", "fail$1__p4__T__Lscala_Nothing", "atResult$1__p4__T__Lscala_xml_NodeSeq"],
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_collection_immutable_StringOps$": ["apply$extension__T__I__C"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Node": ["isAtom__Z", "label__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_StringOps", "scala_Predef"]
+    },
+    "$$bslash$bslash__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["filt$1__p4__Lscala_Function1__Lscala_xml_NodeSeq", "flatMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_xml_NodeSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_StringOps$": ["apply$extension__T__I__C"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Node": ["isAtom__Z", "$$bslash__T__Lscala_xml_NodeSeq", "label__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_StringOps", "scala_Predef", "scala_xml_NodeSeq"],
+      "accessedClassData": ["scala_xml_NodeSeq"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["theSeq__Lscala_collection_Seq"],
+        "scala_collection_Seq": ["mkString__T"]
+      }
+    },
+    "text__T": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Node": ["text__T"],
+        "scala_collection_TraversableOnce": ["mkString__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_Seq"],
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "toTraversable__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["toTraversable__Lscala_collection_Traversable"]
+      }
+    },
+    "groupBy__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["groupBy__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "toIterable__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["toIterable__Lscala_collection_Iterable"]
+      }
+    },
+    "isDefinedAt__O__Z": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["isDefinedAt__I__Z"]
+      }
+    },
+    "view__I__I__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["view__I__I__Lscala_collection_SeqView"]
+      }
+    },
+    "view__I__I__Lscala_collection_IterableView": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["view__I__I__Lscala_collection_SeqView"]
+      }
+    },
+    "view__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["view__Lscala_collection_SeqView"]
+      }
+    },
+    "view__Lscala_collection_IterableView": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["view__Lscala_collection_SeqView"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["toCollection__O__Lscala_collection_Seq"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["toCollection__O__Lscala_collection_Seq"]
+      }
+    },
+    "thisCollection__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["thisCollection__Lscala_collection_Seq"]
+      }
+    },
+    "thisCollection__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["thisCollection__Lscala_collection_Seq"]
+      }
+    },
+    "seq__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "seq__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "seq__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "seq__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Traversable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "seq__Lscala_collection_immutable_Iterable": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["seq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "toSeq__Lscala_collection_GenSeq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["toSeq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "toSeq__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["toSeq__Lscala_collection_immutable_Seq"]
+      }
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["apply__I__Lscala_xml_Node"]
+      }
+    },
+    "apply__I__O": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["apply__I__Lscala_xml_Node"]
+      }
+    },
+    "fail$1__p4__T__Lscala_Nothing": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "y$lzycompute$1__p4__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["apply__I__Lscala_xml_Node"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_Node"]
+    },
+    "y$1__p4__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Lscala_xml_Node": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["y$lzycompute$1__p4__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Lscala_xml_Node"]
+      },
+      "accessedClassData": ["scala_xml_Node"]
+    },
+    "atResult$1__p4__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["fail$1__p4__T__Lscala_Nothing", "y$1__p4__Lscala_runtime_ObjectRef__Lscala_runtime_VolatileByteRef__Lscala_xml_Node"],
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_xml_NodeSeq$": ["Empty__Lscala_xml_NodeSeq"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_StringOps": ["init___T", "drop__I__O"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__I__I", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I", "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T"],
+        "scala_collection_immutable_StringOps$": ["apply$extension__T__I__C"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_Some": ["x__O"],
+        "scala_xml_Node": ["attribute__T__T__Lscala_Option", "attribute__T__Lscala_Option"],
+        "scala_xml_Group": ["init___Lscala_collection_Seq"],
+        "scala_runtime_VolatileByteRef": ["init___B"]
+      },
+      "instantiatedClasses": ["scala_runtime_VolatileByteRef", "scala_Tuple2", "scala_MatchError", "scala_collection_immutable_StringOps", "scala_runtime_ObjectRef", "scala_xml_Group"],
+      "accessedModules": ["scala_collection_immutable_StringOps", "scala_Predef", "scala_xml_NodeSeq"],
+      "accessedClassData": ["scala_collection_Seq", "scala_Some", "java_lang_String"]
+    },
+    "makeSeq$1__p4__Lscala_Function1__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["flatMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_xml_NodeSeq$": ["fromSeq__Lscala_collection_Seq__Lscala_xml_NodeSeq", "canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_TraversableLike": ["filter__Lscala_Function1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Node": ["child__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_NodeSeq"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_Seq"]
+    },
+    "filt$1__p4__Lscala_Function1__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["flatMap__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_xml_NodeSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_TraversableLike": ["filter__Lscala_Function1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Node": ["descendant$undor$undself__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_NodeSeq"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_xml_NodeSeq"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_xml_Equality$class": ["scala_xml_Equality$class__$init$__Lscala_xml_Equality__V"],
+        "scala_collection_immutable_Traversable$class": ["scala_collection_immutable_Traversable$class__$init$__Lscala_collection_immutable_Traversable__V"],
+        "scala_collection_immutable_Seq$class": ["scala_collection_immutable_Seq$class__$init$__Lscala_collection_immutable_Seq__V"],
+        "scala_collection_immutable_Iterable$class": ["scala_collection_immutable_Iterable$class__$init$__Lscala_collection_immutable_Iterable__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractSeq": ["init___"]
+      }
+    },
+    "xml$und$bang$eq__O__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["xml$und$bang$eq__O__Z"]
+      }
+    },
+    "xml$und$eq$eq__O__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["xml$und$eq$eq__O__Z"]
+      }
+    },
+    "strict$und$bang$eq__Lscala_xml_Equality__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["strict$und$bang$eq__Lscala_xml_Equality__Z"]
+      }
+    },
+    "text__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["text__T"]
+      }
+    },
+    "$$bslash$bslash__T__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["$$bslash$bslash__T__Lscala_xml_NodeSeq"]
+      }
+    },
+    "$$bslash__T__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["$$bslash__T__Lscala_xml_NodeSeq"]
+      }
+    },
+    "strict$und$eq$eq__Lscala_xml_Equality__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["strict$und$eq$eq__Lscala_xml_Equality__Z"]
+      }
+    },
+    "basisForHashCode__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["basisForHashCode__Lscala_collection_Seq"]
+      }
+    },
+    "xml$undsameElements__Lscala_collection_Iterable__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["xml$undsameElements__Lscala_collection_Iterable__Z"]
+      }
+    },
+    "apply__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["apply__Lscala_Function1__Lscala_xml_NodeSeq"]
+      }
+    },
+    "theSeq__": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["theSeq__Lscala_collection_Seq"]
+      }
+    }
+  }
+}

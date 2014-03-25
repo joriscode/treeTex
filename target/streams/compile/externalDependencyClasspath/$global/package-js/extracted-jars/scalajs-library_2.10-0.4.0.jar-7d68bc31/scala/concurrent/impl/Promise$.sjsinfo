@@ -1,0 +1,42 @@
+{
+  "name": "scala.concurrent.impl.Promise$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_Promise$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_impl_Promise$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$concurrent$impl$Promise$$resolveTry__Lscala_util_Try__Lscala_util_Try": {
+      "calledMethods": {
+        "scala_util_Failure": ["exception__Ljava_lang_Throwable"],
+        "scala_concurrent_impl_Promise$": ["resolver__p1__Ljava_lang_Throwable__Lscala_util_Try"]
+      },
+      "accessedClassData": ["scala_util_Failure"]
+    },
+    "resolver__p1__Ljava_lang_Throwable__Lscala_util_Try": {
+      "calledMethods": {
+        "scala_util_Failure": ["init___Ljava_lang_Throwable"],
+        "scala_util_Success": ["init___O"],
+        "java_util_concurrent_ExecutionException": ["init___T__Ljava_lang_Throwable"],
+        "scala_runtime_NonLocalReturnControl": ["value__O"]
+      },
+      "instantiatedClasses": ["java_util_concurrent_ExecutionException", "scala_util_Success", "scala_util_Failure"],
+      "accessedClassData": ["scala_runtime_NonLocalReturnControl", "java_lang_Throwable", "java_lang_InterruptedException", "scala_util_control_ControlThrowable", "java_lang_Error"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "scala$concurrent$impl$Promise$$resolveTry__Lscala_util_Try__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$": ["scala$concurrent$impl$Promise$$resolveTry__Lscala_util_Try__Lscala_util_Try"]
+      }
+    }
+  }
+}

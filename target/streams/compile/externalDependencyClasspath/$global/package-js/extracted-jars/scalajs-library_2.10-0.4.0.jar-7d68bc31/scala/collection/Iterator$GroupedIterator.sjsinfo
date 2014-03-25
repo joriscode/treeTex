@@ -1,0 +1,161 @@
+{
+  "name": "scala.collection.Iterator$GroupedIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$GroupedIterator",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_Iterator$GroupedIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "withPadding__Lscala_Function0__Lscala_collection_Iterator$GroupedIterator": {
+      "calledMethods": {
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "withPartial__Z__Lscala_collection_Iterator$GroupedIterator": {
+      "accessedModules": ["scala_None"]
+    },
+    "takeDestructively__p2__I__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_mutable_ArrayBuffer": ["$$plus$eq__O__Lscala_collection_mutable_ArrayBuffer", "init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuffer"]
+    },
+    "padding__p2__I__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Option": ["get__O"],
+        "scala_Function0": ["apply__O"],
+        "scala_collection_immutable_List$": ["fill__I__Lscala_Function0__Lscala_collection_GenTraversable"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_collection_immutable_List"],
+      "accessedClassData": ["scala_collection_immutable_List", "scala_Function0"]
+    },
+    "gap__p2__I": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["max$extension__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "go__p2__I__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_Iterator": ["hasNext__Z"],
+        "scala_collection_Seq": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_CanBuildFrom__O", "isEmpty__Z", "length__I"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I"],
+        "scala_Option": ["isDefined__Z"],
+        "scala_runtime_BooleanRef": ["init___Z"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_Iterator$GroupedIterator": ["isFirst$1__p2__I__Z", "deliver$1__p2__I__I__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__Z", "len$2__p2__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__I", "takeDestructively__p2__I__Lscala_collection_Seq", "padding__p2__I__Lscala_collection_immutable_List", "incomplete$1__p2__I__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_BooleanRef__Lscala_runtime_VolatileByteRef__Z"],
+        "scala_runtime_VolatileByteRef": ["init___B"],
+        "scala_collection_mutable_ArrayBuffer": ["size__I"]
+      },
+      "instantiatedClasses": ["scala_runtime_BooleanRef", "scala_runtime_VolatileByteRef", "scala_runtime_IntRef"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_collection_Seq"],
+      "accessedClassData": ["scala_collection_Seq"]
+    },
+    "fill__p2__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z"],
+        "scala_collection_Iterator$GroupedIterator": ["go__p2__I__Z"],
+        "scala_collection_mutable_ArrayBuffer": ["isEmpty__Z"]
+      }
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator$GroupedIterator": ["fill__p2__Z"]
+      }
+    },
+    "next__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_util_NoSuchElementException": ["init___T"],
+        "scala_collection_Iterator$GroupedIterator": ["fill__p2__Z"],
+        "scala_collection_mutable_ArrayBuffer": ["toList__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala$collection$Iterator$GroupedIterator$$$outer__Lscala_collection_Iterator": {},
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$GroupedIterator": ["next__Lscala_collection_immutable_List"]
+      }
+    },
+    "isFirst$1__p2__I__Z": {},
+    "len$lzycompute$1__p2__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__I": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_Seq": ["length__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "len$2__p2__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__I": {
+      "calledMethods": {
+        "scala_collection_Iterator$GroupedIterator": ["len$lzycompute$1__p2__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__I"]
+      }
+    },
+    "incomplete$lzycompute$1__p2__I__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_BooleanRef__Lscala_runtime_VolatileByteRef__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_Iterator$GroupedIterator": ["len$2__p2__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__I"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "incomplete$1__p2__I__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_BooleanRef__Lscala_runtime_VolatileByteRef__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator$GroupedIterator": ["incomplete$lzycompute$1__p2__I__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_BooleanRef__Lscala_runtime_VolatileByteRef__Z"]
+      }
+    },
+    "deliver$1__p2__I__I__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__Z": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_Seq": ["takeRight__I__O"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I"],
+        "scala_collection_Iterator$GroupedIterator": ["isFirst$1__p2__I__Z", "len$2__p2__Lscala_collection_Seq__Lscala_runtime_IntRef__Lscala_runtime_VolatileByteRef__I", "gap__p2__I"],
+        "scala_collection_mutable_ArrayBuffer": ["trimStart__I__V", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuffer"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"],
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "init___Lscala_collection_Iterator__Lscala_collection_Iterator__I__I": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__Lscala_Function0__V", "genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_collection_mutable_ArrayBuffer$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_collection_immutable_StringOps": ["format__Lscala_collection_Seq__T", "init___T"],
+        "java_lang_NullPointerException": ["init___"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps", "scala_scalajs_runtime_AnonFunction0", "java_lang_NullPointerException"],
+      "accessedModules": ["scala_Predef", "scala_collection_mutable_ArrayBuffer", "scala_None", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["java_lang_Object", "scala_collection_mutable_ArrayBuffer"]
+    },
+    "scala$collection$Iterator$GroupedIterator$$$outer__": {
+      "calledMethods": {
+        "scala_collection_Iterator$GroupedIterator": ["scala$collection$Iterator$GroupedIterator$$$outer__Lscala_collection_Iterator"]
+      }
+    },
+    "withPartial__Z__": {
+      "calledMethods": {
+        "scala_collection_Iterator$GroupedIterator": ["withPartial__Z__Lscala_collection_Iterator$GroupedIterator"]
+      }
+    },
+    "withPadding__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_collection_Iterator$GroupedIterator": ["withPadding__Lscala_Function0__Lscala_collection_Iterator$GroupedIterator"]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.convert.DecorateAsScala",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_DecorateAsScala",
+  "superClass": "",
+  "ancestors": ["scala_collection_convert_DecorateAsScala", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "asScalaIteratorConverter__Ljava_util_Iterator__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "enumerationAsScalaIteratorConverter__Ljava_util_Enumeration__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "iterableAsScalaIterableConverter__Ljava_lang_Iterable__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "collectionAsScalaIterableConverter__Ljava_util_Collection__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "asScalaBufferConverter__Ljava_util_List__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "asScalaSetConverter__Ljava_util_Set__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "mapAsScalaMapConverter__Ljava_util_Map__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "asScalaConcurrentMapConverter__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "mapAsScalaConcurrentMapConverter__Ljava_util_concurrent_ConcurrentMap__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "dictionaryAsScalaMapConverter__Ljava_util_Dictionary__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    },
+    "propertiesAsScalaMapConverter__Ljava_util_Properties__Lscala_collection_convert_Decorators$AsScala": {
+      "isAbstract": true
+    }
+  }
+}

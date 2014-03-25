@@ -1,0 +1,156 @@
+{
+  "name": "scala.reflect.ClassTag$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_reflect_ClassTag$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_reflect_ClassTag$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ObjectTYPE__p1__Ljava_lang_Class": {},
+    "NothingTYPE__p1__Ljava_lang_Class": {},
+    "NullTYPE__p1__Ljava_lang_Class": {},
+    "Byte__Lscala_reflect_ClassTag": {},
+    "Short__Lscala_reflect_ClassTag": {},
+    "Char__Lscala_reflect_ClassTag": {},
+    "Int__Lscala_reflect_ClassTag": {},
+    "Long__Lscala_reflect_ClassTag": {},
+    "Float__Lscala_reflect_ClassTag": {},
+    "Double__Lscala_reflect_ClassTag": {},
+    "Boolean__Lscala_reflect_ClassTag": {},
+    "Unit__Lscala_reflect_ClassTag": {},
+    "Any__Lscala_reflect_ClassTag": {},
+    "Object__Lscala_reflect_ClassTag": {},
+    "AnyVal__Lscala_reflect_ClassTag": {},
+    "AnyRef__Lscala_reflect_ClassTag": {},
+    "Nothing__Lscala_reflect_ClassTag": {},
+    "Null__Lscala_reflect_ClassTag": {},
+    "apply__Ljava_lang_Class__Lscala_reflect_ClassTag": {
+      "calledMethods": {
+        "java_lang_Integer$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Short$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Byte$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Boolean$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Float$": ["TYPE__Ljava_lang_Class"],
+        "scala_reflect_ClassTag$$anon$1": ["init___Ljava_lang_Class"],
+        "java_lang_Void$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Character$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Long$": ["TYPE__Ljava_lang_Class"],
+        "scala_reflect_ClassTag$": ["NullTYPE__p1__Ljava_lang_Class", "Float__Lscala_reflect_ClassTag", "Double__Lscala_reflect_ClassTag", "Nothing__Lscala_reflect_ClassTag", "Boolean__Lscala_reflect_ClassTag", "Unit__Lscala_reflect_ClassTag", "Object__Lscala_reflect_ClassTag", "Byte__Lscala_reflect_ClassTag", "Short__Lscala_reflect_ClassTag", "ObjectTYPE__p1__Ljava_lang_Class", "NothingTYPE__p1__Ljava_lang_Class", "Long__Lscala_reflect_ClassTag", "Int__Lscala_reflect_ClassTag", "Null__Lscala_reflect_ClassTag", "Char__Lscala_reflect_ClassTag"],
+        "java_lang_Double$": ["TYPE__Ljava_lang_Class"]
+      },
+      "instantiatedClasses": ["scala_reflect_ClassTag$$anon$1"],
+      "accessedModules": ["java_lang_Boolean", "java_lang_Float", "scala_reflect_ClassTag", "java_lang_Byte", "java_lang_Integer", "java_lang_Long", "java_lang_Void", "java_lang_Character", "java_lang_Double", "java_lang_Short"]
+    },
+    "unapply__Lscala_reflect_ClassTag__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$": ["Char__Lscala_reflect_AnyValManifest", "AnyRef__Lscala_reflect_Manifest", "Boolean__Lscala_reflect_AnyValManifest", "Null__Lscala_reflect_Manifest", "Byte__Lscala_reflect_AnyValManifest", "Int__Lscala_reflect_AnyValManifest", "Unit__Lscala_reflect_AnyValManifest", "Any__Lscala_reflect_Manifest", "AnyVal__Lscala_reflect_Manifest", "Long__Lscala_reflect_AnyValManifest", "Float__Lscala_reflect_AnyValManifest", "Nothing__Lscala_reflect_Manifest", "Short__Lscala_reflect_AnyValManifest", "Double__Lscala_reflect_AnyValManifest", "Object__Lscala_reflect_Manifest"],
+        "scala_reflect_package$": ["Manifest__Lscala_reflect_ManifestFactory$"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_reflect_package"],
+      "accessedClassData": ["scala_runtime_Nothing$", "java_lang_Object", "scala_runtime_Null$"]
+    },
+    "unapply__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["unapply__Lscala_reflect_ClassTag__Lscala_Option"]
+      }
+    },
+    "apply__Ljava_lang_Class__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Null__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Null__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Nothing__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Nothing__Lscala_reflect_ClassTag"]
+      }
+    },
+    "AnyRef__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["AnyRef__Lscala_reflect_ClassTag"]
+      }
+    },
+    "AnyVal__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["AnyVal__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Object__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Object__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Any__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Any__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Unit__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Unit__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Boolean__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Boolean__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Double__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Double__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Float__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Float__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Long__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Long__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Int__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Char__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Char__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Short__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Short__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Byte__": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"]
+      }
+    }
+  }
+}

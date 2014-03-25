@@ -1,0 +1,57 @@
+{
+  "name": "scala.sys.process.ProcessImpl$PipedProcesses",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$PipedProcesses",
+  "superClass": "scala_sys_process_ProcessImpl$CompoundProcess",
+  "ancestors": ["scala_sys_process_ProcessImpl$PipedProcesses", "scala_sys_process_ProcessImpl$CompoundProcess", "scala_sys_process_ProcessImpl$BasicProcess", "scala_sys_process_Process", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "runAndExitValue__Lscala_Option": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["withInput__Lscala_Function1__Lscala_sys_process_ProcessIO", "withOutput__Lscala_Function1__Lscala_sys_process_ProcessIO", "withError__Lscala_Function1__Lscala_sys_process_ProcessIO"],
+        "scala_sys_process_BasicIO$": ["close__Ljava_io_Closeable__V"],
+        "scala_sys_process_Process": ["exitValue__I", "destroy__V"],
+        "scala_sys_process_ProcessImpl$PipedProcesses": ["runInterruptible__Lscala_Function0__Lscala_Function0__Lscala_Option", "scala$sys$process$ProcessImpl$PipedProcesses$$handleOutOrError$1__Ljava_io_InputStream__Lscala_concurrent_SyncVar__V", "scala$sys$process$ProcessImpl$PipedProcesses$$$outer__Lscala_sys_process_Process$"],
+        "scala_sys_process_ProcessImpl$PipeSource": ["init___Lscala_sys_process_Process$__Lscala_concurrent_SyncVar__Ljava_io_PipedOutputStream__Lscala_Function0", "start__V"],
+        "java_io_PipedInputStream": ["init___Ljava_io_PipedOutputStream"],
+        "scala_concurrent_SyncVar": ["init___", "put__O__V"],
+        "scala_sys_process_ProcessImpl$PipeSink": ["init___Lscala_sys_process_Process$__Ljava_io_PipedInputStream__Lscala_concurrent_SyncVar__Lscala_Function0", "start__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Some": ["init___O"],
+        "scala_sys_process_ProcessBuilder": ["toString__T", "hasExitValue__Z", "run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process"],
+        "java_io_PipedOutputStream": ["init___"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessImpl$PipeSink", "scala_concurrent_SyncVar", "scala_scalajs_runtime_AnonFunction0", "scala_sys_process_ProcessImpl$PipeSource", "java_io_PipedOutputStream", "java_io_PipedInputStream", "scala_scalajs_runtime_AnonFunction1", "scala_Some"],
+      "accessedModules": ["scala_None", "scala_sys_process_BasicIO"]
+    },
+    "scala$sys$process$ProcessImpl$PipedProcesses$$$outer__Lscala_sys_process_Process$": {},
+    "scala$sys$process$ProcessImpl$PipedProcesses$$handleOutOrError$1__Ljava_io_InputStream__Lscala_concurrent_SyncVar__V": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["put__O__V"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "init___Lscala_sys_process_Process$__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessBuilder__Lscala_sys_process_ProcessIO__Z": {
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["init___Lscala_sys_process_Process$"]
+      }
+    },
+    "scala$sys$process$ProcessImpl$PipedProcesses$$handleOutOrError$1__Ljava_io_InputStream__Lscala_concurrent_SyncVar__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$PipedProcesses": ["scala$sys$process$ProcessImpl$PipedProcesses$$handleOutOrError$1__Ljava_io_InputStream__Lscala_concurrent_SyncVar__V"]
+      }
+    },
+    "scala$sys$process$ProcessImpl$PipedProcesses$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$PipedProcesses": ["scala$sys$process$ProcessImpl$PipedProcesses$$$outer__Lscala_sys_process_Process$"]
+      }
+    }
+  }
+}

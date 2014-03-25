@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.concurrent.FailedNode",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_FailedNode",
+  "superClass": "scala_collection_concurrent_MainNode",
+  "ancestors": ["scala_collection_concurrent_FailedNode", "scala_collection_concurrent_MainNode", "scala_collection_concurrent_BasicNode", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "string__I__Lscala_Nothing": {
+      "calledMethods": {
+        "java_lang_UnsupportedOperationException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException"]
+    },
+    "cachedSize__O__I": {
+      "calledMethods": {
+        "java_lang_UnsupportedOperationException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["format__Lscala_collection_Seq__T", "init___T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "string__I__T": {
+      "calledMethods": {
+        "scala_collection_concurrent_FailedNode": ["string__I__Lscala_Nothing"]
+      }
+    },
+    "init___Lscala_collection_concurrent_MainNode": {
+      "calledMethods": {
+        "scala_collection_concurrent_FailedNode": ["WRITE$undPREV__Lscala_collection_concurrent_MainNode__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_concurrent_MainNode": ["init___"]
+      }
+    }
+  }
+}

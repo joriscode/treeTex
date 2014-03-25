@@ -1,0 +1,271 @@
+{
+  "name": "scala.util.automata.WordBerrySethi",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_automata_WordBerrySethi",
+  "superClass": "scala_util_automata_BaseBerrySethi",
+  "ancestors": ["scala_util_automata_WordBerrySethi", "scala_util_automata_BaseBerrySethi", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "lang__Lscala_util_regexp_WordExp": {
+      "isAbstract": true
+    },
+    "labels__Lscala_collection_mutable_HashSet": {},
+    "labels$und$eq__Lscala_collection_mutable_HashSet__V": {},
+    "labelAt__Lscala_collection_immutable_Map": {},
+    "labelAt$und$eq__Lscala_collection_immutable_Map__V": {},
+    "deltaq__ALscala_collection_mutable_HashMap": {},
+    "deltaq$und$eq__ALscala_collection_mutable_HashMap__V": {},
+    "defaultq__ALscala_collection_immutable_List": {},
+    "defaultq$und$eq__ALscala_collection_immutable_List__V": {},
+    "initials__Lscala_collection_immutable_Set": {},
+    "initials$und$eq__Lscala_collection_immutable_Set__V": {},
+    "compFirst__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$", "wrapIntArray__AI__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_immutable_Set$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_util_regexp_WordExp$Letter": ["pos__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_automata_BaseBerrySethi": ["compFirst__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_util_regexp_WordExp$Letter", "scala_collection_immutable_Set"]
+    },
+    "compLast__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$", "wrapIntArray__AI__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_immutable_Set$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_util_regexp_WordExp$Letter": ["pos__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_automata_BaseBerrySethi": ["compLast__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_util_regexp_WordExp$Letter", "scala_collection_immutable_Set"]
+    },
+    "compFollow1__Lscala_collection_immutable_Set__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$", "wrapIntArray__AI__Lscala_collection_mutable_WrappedArray"],
+        "scala_util_regexp_WordExp$Letter": ["pos__I"],
+        "scala_util_regexp_WordExp": ["Eps__Lscala_util_regexp_Base$Eps$"],
+        "scala_collection_immutable_Set$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_util_automata_WordBerrySethi": ["lang__Lscala_util_regexp_WordExp", "follow__Lscala_collection_mutable_HashMap", "emptySet__Lscala_collection_immutable_Set"],
+        "scala_collection_mutable_HashMap": ["update__O__O__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_automata_BaseBerrySethi": ["compFollow1__Lscala_collection_immutable_Set__Lscala_util_regexp_Base$RegExp__Lscala_collection_immutable_Set"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_util_regexp_WordExp$Letter", "scala_collection_immutable_Set"]
+    },
+    "seenLabel__Lscala_util_regexp_Base$RegExp__I__Lscala_util_regexp_WordExp$Label__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["$$plus$eq__O__Lscala_collection_mutable_HashSet"],
+        "scala_collection_immutable_Map": ["updated__O__O__Lscala_collection_immutable_Map"],
+        "scala_util_automata_WordBerrySethi": ["labels__Lscala_collection_mutable_HashSet", "labelAt$und$eq__Lscala_collection_immutable_Map__V", "labelAt__Lscala_collection_immutable_Map"]
+      }
+    },
+    "seenLabel__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_WordExp$Label__I": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["pos__I", "seenLabel__Lscala_util_regexp_Base$RegExp__I__Lscala_util_regexp_WordExp$Label__V", "pos$und$eq__I__V"]
+      }
+    },
+    "traverse__Lscala_util_regexp_Base$RegExp__V": {
+      "calledMethods": {
+        "scala_util_regexp_WordExp": ["Eps__Lscala_util_regexp_Base$Eps$"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_util_regexp_WordExp$Letter": ["pos$und$eq__I__V", "a__Lscala_util_regexp_WordExp$Label"],
+        "scala_util_automata_WordBerrySethi": ["lang__Lscala_util_regexp_WordExp", "seenLabel__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_WordExp$Label__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_automata_BaseBerrySethi": ["traverse__Lscala_util_regexp_Base$RegExp__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_util_regexp_WordExp$Letter"]
+    },
+    "makeTransition__I__I__Lscala_util_regexp_WordExp$Label__V": {
+      "calledMethods": {
+        "scala_collection_mutable_HashMap": ["getOrElse__O__Lscala_Function0__O", "update__O__O__V"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_util_automata_WordBerrySethi": ["deltaq__ALscala_collection_mutable_HashMap"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "initialize__Lscala_collection_Seq__V": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$", "wrapIntArray__AI__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V"],
+        "scala_collection_mutable_HashSet$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_collection_immutable_Set$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_util_automata_WordBerrySethi": ["labels$und$eq__Lscala_collection_mutable_HashSet__V", "traverse__Lscala_util_regexp_Base$RegExp__V", "follow$und$eq__Lscala_collection_mutable_HashMap__V", "initials$und$eq__Lscala_collection_immutable_Set__V", "labelAt$und$eq__Lscala_collection_immutable_Map__V", "pos$und$eq__I__V"],
+        "scala_collection_mutable_HashMap$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef", "scala_collection_immutable_Nil", "scala_collection_immutable_Map", "scala_collection_mutable_HashSet", "scala_collection_mutable_HashMap"],
+      "accessedClassData": ["scala_collection_immutable_Set", "scala_collection_immutable_Map", "scala_collection_mutable_HashSet", "scala_collection_mutable_HashMap"]
+    },
+    "initializeAutom__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Map$": ["empty__Lscala_collection_immutable_Map"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"],
+        "scala_util_automata_WordBerrySethi": ["pos__I", "deltaq$und$eq__ALscala_collection_mutable_HashMap__V", "deltaq__ALscala_collection_mutable_HashMap", "defaultq$und$eq__ALscala_collection_immutable_List__V", "finals$und$eq__Lscala_collection_immutable_Map__V", "defaultq__ALscala_collection_immutable_List"],
+        "scala_collection_mutable_HashMap$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_collection_immutable_Nil", "scala_collection_immutable_Map", "scala_collection_mutable_HashMap"],
+      "accessedClassData": ["scala_collection_immutable_List", "scala_collection_mutable_HashMap"]
+    },
+    "collectTransitions__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_util_automata_WordBerrySethi$$anonfun$collectTransitions$2": ["init___Lscala_util_automata_WordBerrySethi"],
+        "scala_collection_IterableLike": ["foreach__Lscala_Function1__V"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_IndexedSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_Range": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_util_automata_WordBerrySethi": ["pos__I", "follow__Lscala_collection_mutable_HashMap"],
+        "scala_collection_mutable_HashMap": ["apply__O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_util_automata_WordBerrySethi$$anonfun$collectTransitions$2", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_collection_immutable_IndexedSeq"],
+      "accessedClassData": ["scala_collection_IterableLike", "scala_collection_immutable_Set"]
+    },
+    "automatonFrom__Lscala_util_regexp_Base$RegExp__I__Lscala_util_automata_NondetWordAutom": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray", "intWrapper__I__I"],
+        "scala_collection_mutable_ArrayOps": ["zipWithIndex__Lscala_collection_generic_CanBuildFrom__O", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_Seq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_MapLike": ["toSeq__Lscala_collection_Seq"],
+        "scala_util_regexp_Base$Sequ": ["isNullable__Z", "rs__Lscala_collection_Seq"],
+        "scala_collection_immutable_BitSet$": ["apply__Lscala_collection_Seq__Lscala_collection_BitSet"],
+        "scala_util_regexp_WordExp": ["Sequ__Lscala_util_regexp_Base$Sequ$"],
+        "scala_Array$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_util_automata_WordBerrySethi$$anonfun$1$$anonfun$apply$mcII$sp$1": ["init___Lscala_util_automata_WordBerrySethi$$anonfun$1"],
+        "scala_util_automata_WordBerrySethi$$anonfun$3$$anonfun$apply$2": ["init___Lscala_util_automata_WordBerrySethi$$anonfun$3"],
+        "scala_Tuple2": ["swap__Lscala_Tuple2"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_util_regexp_Base$Sequ$": ["apply__Lscala_collection_Seq__Lscala_util_regexp_Base$RegExp"],
+        "scala_collection_immutable_IndexedSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_util_automata_WordBerrySethi$$anon$1": ["init___Lscala_util_automata_WordBerrySethi__AI__AI__ALscala_collection_mutable_Map__ALscala_collection_immutable_BitSet"],
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag", "apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_collection_immutable_Map": ["apply__O__O", "updated__O__O__Lscala_collection_immutable_Map", "getOrElse__O__Lscala_Function0__O"],
+        "scala_collection_immutable_Range": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_Set": ["toArray__Lscala_reflect_ClassTag__O"],
+        "scala_util_automata_WordBerrySethi": ["pos__I", "initials__Lscala_collection_immutable_Set", "finals__Lscala_collection_immutable_Map", "finals$und$eq__Lscala_collection_immutable_Map__V", "initializeAutom__V", "compFollow__Lscala_collection_Seq__Lscala_collection_immutable_Set", "initialize__Lscala_collection_Seq__V", "collectTransitions__V", "finalTag$und$eq__I__V", "deltaq__ALscala_collection_mutable_HashMap", "lang__Lscala_util_regexp_WordExp", "defaultq__ALscala_collection_immutable_List", "automatonFrom__Lscala_util_regexp_Base$RegExp__I__Lscala_util_automata_NondetWordAutom", "pos$und$eq__I__V"],
+        "scala_collection_mutable_HashMap$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_collection_TraversableOnce": ["toArray__Lscala_reflect_ClassTag__O"]
+      },
+      "instantiatedClasses": ["scala_util_automata_WordBerrySethi$$anon$1", "scala_util_automata_WordBerrySethi$$anonfun$3$$anonfun$apply$2", "scala_scalajs_runtime_AnonFunction1", "scala_util_automata_WordBerrySethi$$anonfun$1$$anonfun$apply$mcII$sp$1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_reflect_ClassTag", "scala_collection_immutable_BitSet", "scala_Array", "scala_Predef", "scala_collection_immutable_IndexedSeq", "scala_collection_Seq", "scala_collection_immutable_Map", "scala_collection_mutable_HashMap"],
+      "accessedClassData": ["scala_util_regexp_Base$Sequ", "scala_Tuple2", "scala_collection_immutable_BitSet", "scala_collection_mutable_Map", "scala_collection_MapLike", "scala_util_regexp_Base$RegExp", "java_lang_Object", "scala_collection_Seq", "scala_collection_TraversableOnce", "scala_collection_immutable_Map", "scala_collection_mutable_HashMap"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_automata_BaseBerrySethi": ["init___"]
+      }
+    },
+    "automatonFrom__Lscala_util_regexp_Base$RegExp__I__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["automatonFrom__Lscala_util_regexp_Base$RegExp__I__Lscala_util_automata_NondetWordAutom"]
+      }
+    },
+    "collectTransitions__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["collectTransitions__V"]
+      }
+    },
+    "initializeAutom__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["initializeAutom__V"]
+      }
+    },
+    "initialize__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["initialize__Lscala_collection_Seq__V"]
+      }
+    },
+    "makeTransition__I__I__Lscala_util_regexp_WordExp$Label__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["makeTransition__I__I__Lscala_util_regexp_WordExp$Label__V"]
+      }
+    },
+    "seenLabel__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_WordExp$Label__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["seenLabel__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_WordExp$Label__I"]
+      }
+    },
+    "seenLabel__Lscala_util_regexp_Base$RegExp__I__Lscala_util_regexp_WordExp$Label__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["seenLabel__Lscala_util_regexp_Base$RegExp__I__Lscala_util_regexp_WordExp$Label__V"]
+      }
+    },
+    "initials$und$eq__Lscala_collection_immutable_Set__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["initials$und$eq__Lscala_collection_immutable_Set__V"]
+      }
+    },
+    "initials__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["initials__Lscala_collection_immutable_Set"]
+      }
+    },
+    "defaultq$und$eq__ALscala_collection_immutable_List__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["defaultq$und$eq__ALscala_collection_immutable_List__V"]
+      }
+    },
+    "defaultq__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["defaultq__ALscala_collection_immutable_List"]
+      }
+    },
+    "deltaq$und$eq__ALscala_collection_mutable_HashMap__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["deltaq$und$eq__ALscala_collection_mutable_HashMap__V"]
+      }
+    },
+    "deltaq__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["deltaq__ALscala_collection_mutable_HashMap"]
+      }
+    },
+    "labelAt$und$eq__Lscala_collection_immutable_Map__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["labelAt$und$eq__Lscala_collection_immutable_Map__V"]
+      }
+    },
+    "labelAt__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["labelAt__Lscala_collection_immutable_Map"]
+      }
+    },
+    "labels$und$eq__Lscala_collection_mutable_HashSet__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["labels$und$eq__Lscala_collection_mutable_HashSet__V"]
+      }
+    },
+    "labels__": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi": ["labels__Lscala_collection_mutable_HashSet"]
+      }
+    }
+  }
+}

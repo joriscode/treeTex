@@ -1,0 +1,30 @@
+{
+  "name": "java.lang.Thread$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Thread$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Thread$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "currentThread__Ljava_lang_Thread": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Thread": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Thread"]
+    },
+    "currentThread__": {
+      "calledMethods": {
+        "java_lang_Thread$": ["currentThread__Ljava_lang_Thread"]
+      }
+    }
+  }
+}

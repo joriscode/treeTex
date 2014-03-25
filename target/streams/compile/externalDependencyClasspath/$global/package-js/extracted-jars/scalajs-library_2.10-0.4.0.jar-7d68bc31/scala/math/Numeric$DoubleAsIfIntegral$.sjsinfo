@@ -1,0 +1,512 @@
+{
+  "name": "scala.math.Numeric$DoubleAsIfIntegral$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_Numeric$DoubleAsIfIntegral$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_math_Numeric$DoubleAsIfIntegral$", "scala_math_Ordering$DoubleOrdering", "scala_math_Numeric$DoubleAsIfIntegral", "scala_math_Integral", "scala_math_Numeric$DoubleIsConflicted", "scala_math_Numeric", "scala_math_Ordering", "scala_math_PartialOrdering", "scala_math_Equiv", "scala_Serializable", "java_io_Serializable", "java_util_Comparator", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "compare__D__D__I": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__compare__Lscala_math_Ordering$DoubleOrdering__D__D__I"]
+      }
+    },
+    "lteq__D__D__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__lteq__Lscala_math_Ordering$DoubleOrdering__D__D__Z"]
+      }
+    },
+    "gteq__D__D__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__gteq__Lscala_math_Ordering$DoubleOrdering__D__D__Z"]
+      }
+    },
+    "lt__D__D__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__lt__Lscala_math_Ordering$DoubleOrdering__D__D__Z"]
+      }
+    },
+    "gt__D__D__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__gt__Lscala_math_Ordering$DoubleOrdering__D__D__Z"]
+      }
+    },
+    "equiv__D__D__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__equiv__Lscala_math_Ordering$DoubleOrdering__D__D__Z"]
+      }
+    },
+    "max__D__D__D": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__max__Lscala_math_Ordering$DoubleOrdering__D__D__D"]
+      }
+    },
+    "min__D__D__D": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__min__Lscala_math_Ordering$DoubleOrdering__D__D__D"]
+      }
+    },
+    "reverse__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__reverse__Lscala_math_Ordering$DoubleOrdering__Lscala_math_Ordering"]
+      }
+    },
+    "quot__D__D__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$class": ["scala_math_Numeric$DoubleAsIfIntegral$class__quot__Lscala_math_Numeric$DoubleAsIfIntegral__D__D__D"]
+      }
+    },
+    "rem__D__D__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$class": ["scala_math_Numeric$DoubleAsIfIntegral$class__rem__Lscala_math_Numeric$DoubleAsIfIntegral__D__D__D"]
+      }
+    },
+    "mkNumericOps__O__Lscala_math_Integral$IntegralOps": {
+      "calledMethods": {
+        "scala_math_Integral$class": ["scala_math_Integral$class__mkNumericOps__Lscala_math_Integral__O__Lscala_math_Integral$IntegralOps"]
+      }
+    },
+    "plus__D__D__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__plus__Lscala_math_Numeric$DoubleIsConflicted__D__D__D"]
+      }
+    },
+    "minus__D__D__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__minus__Lscala_math_Numeric$DoubleIsConflicted__D__D__D"]
+      }
+    },
+    "times__D__D__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__times__Lscala_math_Numeric$DoubleIsConflicted__D__D__D"]
+      }
+    },
+    "negate__D__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__negate__Lscala_math_Numeric$DoubleIsConflicted__D__D"]
+      }
+    },
+    "fromInt__I__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__fromInt__Lscala_math_Numeric$DoubleIsConflicted__I__D"]
+      }
+    },
+    "toInt__D__I": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__toInt__Lscala_math_Numeric$DoubleIsConflicted__D__I"]
+      }
+    },
+    "toLong__D__J": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__toLong__Lscala_math_Numeric$DoubleIsConflicted__D__J"]
+      }
+    },
+    "toFloat__D__F": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__toFloat__Lscala_math_Numeric$DoubleIsConflicted__D__F"]
+      }
+    },
+    "toDouble__D__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__toDouble__Lscala_math_Numeric$DoubleIsConflicted__D__D"]
+      }
+    },
+    "zero__O": {
+      "calledMethods": {
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__zero__Lscala_math_Numeric__O"]
+      }
+    },
+    "one__O": {
+      "calledMethods": {
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__one__Lscala_math_Numeric__O"]
+      }
+    },
+    "abs__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__abs__Lscala_math_Numeric__O__O"]
+      }
+    },
+    "signum__O__I": {
+      "calledMethods": {
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__signum__Lscala_math_Numeric__O__I"]
+      }
+    },
+    "tryCompare__O__O__Lscala_Some": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__tryCompare__Lscala_math_Ordering__O__O__Lscala_Some"]
+      }
+    },
+    "on__Lscala_Function1__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__on__Lscala_math_Ordering__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "mkOrderingOps__O__Lscala_math_Ordering$Ops": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__mkOrderingOps__Lscala_math_Ordering__O__Lscala_math_Ordering$Ops"]
+      }
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_math_Numeric$DoubleAsIfIntegral"]
+    },
+    "tryCompare__O__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["tryCompare__O__O__Lscala_Some"]
+      }
+    },
+    "toDouble__O__D": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["toDouble__D__D"]
+      }
+    },
+    "toFloat__O__F": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["toFloat__D__F"]
+      }
+    },
+    "toLong__O__J": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["toLong__D__J"]
+      }
+    },
+    "toInt__O__I": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["toInt__D__I"]
+      }
+    },
+    "fromInt__I__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["fromInt__I__D"]
+      }
+    },
+    "negate__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["negate__D__D"]
+      }
+    },
+    "times__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["times__D__D__D"]
+      }
+    },
+    "minus__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["minus__D__D__D"]
+      }
+    },
+    "plus__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["plus__D__D__D"]
+      }
+    },
+    "mkNumericOps__O__Lscala_math_Numeric$Ops": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["mkNumericOps__O__Lscala_math_Integral$IntegralOps"]
+      }
+    },
+    "rem__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["rem__D__D__D"]
+      }
+    },
+    "quot__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["quot__D__D__D"]
+      }
+    },
+    "reverse__Lscala_math_PartialOrdering": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["reverse__Lscala_math_Ordering"]
+      }
+    },
+    "min__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["min__D__D__D"]
+      }
+    },
+    "max__O__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["max__D__D__D"]
+      }
+    },
+    "equiv__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["equiv__D__D__Z"]
+      }
+    },
+    "gt__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["gt__D__D__Z"]
+      }
+    },
+    "lt__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["lt__D__D__Z"]
+      }
+    },
+    "gteq__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["gteq__D__D__Z"]
+      }
+    },
+    "lteq__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["lteq__D__D__Z"]
+      }
+    },
+    "compare__O__O__I": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["compare__D__D__I"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_math_Ordering$DoubleOrdering$class": ["scala_math_Ordering$DoubleOrdering$class__$init$__Lscala_math_Ordering$DoubleOrdering__V"],
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__$init$__Lscala_math_Ordering__V"],
+        "scala_math_Numeric$class": ["scala_math_Numeric$class__$init$__Lscala_math_Numeric__V"],
+        "scala_math_PartialOrdering$class": ["scala_math_PartialOrdering$class__$init$__Lscala_math_PartialOrdering__V"],
+        "scala_math_Numeric$DoubleAsIfIntegral$class": ["scala_math_Numeric$DoubleAsIfIntegral$class__$init$__Lscala_math_Numeric$DoubleAsIfIntegral__V"],
+        "scala_math_Numeric$DoubleIsConflicted$class": ["scala_math_Numeric$DoubleIsConflicted$class__$init$__Lscala_math_Numeric$DoubleIsConflicted__V"],
+        "scala_math_Integral$class": ["scala_math_Integral$class__$init$__Lscala_math_Integral__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "mkOrderingOps__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["mkOrderingOps__O__Lscala_math_Ordering$Ops"]
+      }
+    },
+    "on__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["on__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "tryCompare__O__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["tryCompare__O__O__Lscala_Some"]
+      }
+    },
+    "signum__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["signum__O__I"]
+      }
+    },
+    "abs__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["abs__O__O"]
+      }
+    },
+    "one__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["one__O"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["zero__O"]
+      }
+    },
+    "toDouble__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["toDouble__D__D"]
+      }
+    },
+    "toFloat__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["toFloat__D__F"]
+      }
+    },
+    "toLong__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["toLong__D__J"]
+      }
+    },
+    "toInt__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["toInt__D__I"]
+      }
+    },
+    "fromInt__I__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["fromInt__I__D"]
+      }
+    },
+    "negate__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["negate__D__D"]
+      }
+    },
+    "times__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["times__D__D__D"]
+      }
+    },
+    "minus__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["minus__D__D__D"]
+      }
+    },
+    "plus__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["plus__D__D__D"]
+      }
+    },
+    "mkNumericOps__O__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["mkNumericOps__O__Lscala_math_Integral$IntegralOps"]
+      }
+    },
+    "rem__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["rem__D__D__D"]
+      }
+    },
+    "quot__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["quot__D__D__D"]
+      }
+    },
+    "reverse__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["reverse__Lscala_math_Ordering"]
+      }
+    },
+    "min__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["min__D__D__D"]
+      }
+    },
+    "max__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["max__D__D__D"]
+      }
+    },
+    "equiv__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["equiv__D__D__Z"]
+      }
+    },
+    "gt__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["gt__D__D__Z"]
+      }
+    },
+    "lt__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["lt__D__D__Z"]
+      }
+    },
+    "gteq__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["gteq__D__D__Z"]
+      }
+    },
+    "lteq__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["lteq__D__D__Z"]
+      }
+    },
+    "compare__D__D__": {
+      "calledMethods": {
+        "scala_math_Numeric$DoubleAsIfIntegral$": ["compare__D__D__I"]
+      }
+    },
+    "rem__O__O__": {
+      "calledMethods": {
+        "scala_math_Integral": ["rem__O__O__O"]
+      }
+    },
+    "quot__O__O__": {
+      "calledMethods": {
+        "scala_math_Integral": ["quot__O__O__O"]
+      }
+    },
+    "toDouble__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["toDouble__O__D"]
+      }
+    },
+    "toFloat__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["toFloat__O__F"]
+      }
+    },
+    "toLong__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["toLong__O__J"]
+      }
+    },
+    "toInt__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["toInt__O__I"]
+      }
+    },
+    "negate__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["negate__O__O"]
+      }
+    },
+    "times__O__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["times__O__O__O"]
+      }
+    },
+    "minus__O__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["minus__O__O__O"]
+      }
+    },
+    "plus__O__O__": {
+      "calledMethods": {
+        "scala_math_Numeric": ["plus__O__O__O"]
+      }
+    },
+    "min__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["min__O__O__O"]
+      }
+    },
+    "max__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["max__O__O__O"]
+      }
+    },
+    "equiv__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["equiv__O__O__Z"]
+      }
+    },
+    "gt__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["gt__O__O__Z"]
+      }
+    },
+    "lt__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["lt__O__O__Z"]
+      }
+    },
+    "gteq__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["gteq__O__O__Z"]
+      }
+    },
+    "lteq__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["lteq__O__O__Z"]
+      }
+    },
+    "compare__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    }
+  }
+}

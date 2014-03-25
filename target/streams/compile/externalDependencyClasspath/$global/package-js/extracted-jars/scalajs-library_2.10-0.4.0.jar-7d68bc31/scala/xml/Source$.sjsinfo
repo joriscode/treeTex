@@ -1,0 +1,101 @@
+{
+  "name": "scala.xml.Source$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_Source$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_Source$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "fromFile__Ljava_io_File__Lorg_xml_sax_InputSource": {
+      "calledMethods": {
+        "java_io_FileInputStream": ["init___Ljava_io_File"],
+        "org_xml_sax_InputSource": ["init___Ljava_io_InputStream"]
+      },
+      "instantiatedClasses": ["java_io_FileInputStream", "org_xml_sax_InputSource"]
+    },
+    "fromFile__Ljava_io_FileDescriptor__Lorg_xml_sax_InputSource": {
+      "calledMethods": {
+        "java_io_FileInputStream": ["init___Ljava_io_FileDescriptor"],
+        "org_xml_sax_InputSource": ["init___Ljava_io_InputStream"]
+      },
+      "instantiatedClasses": ["java_io_FileInputStream", "org_xml_sax_InputSource"]
+    },
+    "fromFile__T__Lorg_xml_sax_InputSource": {
+      "calledMethods": {
+        "java_io_FileInputStream": ["init___T"],
+        "org_xml_sax_InputSource": ["init___Ljava_io_InputStream"]
+      },
+      "instantiatedClasses": ["java_io_FileInputStream", "org_xml_sax_InputSource"]
+    },
+    "fromInputStream__Ljava_io_InputStream__Lorg_xml_sax_InputSource": {
+      "calledMethods": {
+        "org_xml_sax_InputSource": ["init___Ljava_io_InputStream"]
+      },
+      "instantiatedClasses": ["org_xml_sax_InputSource"]
+    },
+    "fromReader__Ljava_io_Reader__Lorg_xml_sax_InputSource": {
+      "calledMethods": {
+        "org_xml_sax_InputSource": ["init___Ljava_io_Reader"]
+      },
+      "instantiatedClasses": ["org_xml_sax_InputSource"]
+    },
+    "fromSysId__T__Lorg_xml_sax_InputSource": {
+      "calledMethods": {
+        "org_xml_sax_InputSource": ["init___T"]
+      },
+      "instantiatedClasses": ["org_xml_sax_InputSource"]
+    },
+    "fromString__T__Lorg_xml_sax_InputSource": {
+      "calledMethods": {
+        "java_io_StringReader": ["init___T"],
+        "scala_xml_Source$": ["fromReader__Ljava_io_Reader__Lorg_xml_sax_InputSource"]
+      },
+      "instantiatedClasses": ["java_io_StringReader"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "fromString__T__": {
+      "calledMethods": {
+        "scala_xml_Source$": ["fromString__T__Lorg_xml_sax_InputSource"]
+      }
+    },
+    "fromSysId__T__": {
+      "calledMethods": {
+        "scala_xml_Source$": ["fromSysId__T__Lorg_xml_sax_InputSource"]
+      }
+    },
+    "fromReader__Ljava_io_Reader__": {
+      "calledMethods": {
+        "scala_xml_Source$": ["fromReader__Ljava_io_Reader__Lorg_xml_sax_InputSource"]
+      }
+    },
+    "fromInputStream__Ljava_io_InputStream__": {
+      "calledMethods": {
+        "scala_xml_Source$": ["fromInputStream__Ljava_io_InputStream__Lorg_xml_sax_InputSource"]
+      }
+    },
+    "fromFile__T__": {
+      "calledMethods": {
+        "scala_xml_Source$": ["fromFile__T__Lorg_xml_sax_InputSource"]
+      }
+    },
+    "fromFile__Ljava_io_FileDescriptor__": {
+      "calledMethods": {
+        "scala_xml_Source$": ["fromFile__Ljava_io_FileDescriptor__Lorg_xml_sax_InputSource"]
+      }
+    },
+    "fromFile__Ljava_io_File__": {
+      "calledMethods": {
+        "scala_xml_Source$": ["fromFile__Ljava_io_File__Lorg_xml_sax_InputSource"]
+      }
+    }
+  }
+}

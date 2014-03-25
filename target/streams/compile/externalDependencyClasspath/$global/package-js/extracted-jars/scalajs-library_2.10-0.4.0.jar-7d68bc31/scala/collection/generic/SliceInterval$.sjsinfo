@@ -1,0 +1,34 @@
+{
+  "name": "scala.collection.generic.SliceInterval$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_SliceInterval$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_SliceInterval$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__I__I__Lscala_collection_generic_SliceInterval": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_generic_SliceInterval": ["init___I__I"],
+        "scala_runtime_RichInt$": ["max$extension__I__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_SliceInterval"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__I__I__": {
+      "calledMethods": {
+        "scala_collection_generic_SliceInterval$": ["apply__I__I__Lscala_collection_generic_SliceInterval"]
+      }
+    }
+  }
+}

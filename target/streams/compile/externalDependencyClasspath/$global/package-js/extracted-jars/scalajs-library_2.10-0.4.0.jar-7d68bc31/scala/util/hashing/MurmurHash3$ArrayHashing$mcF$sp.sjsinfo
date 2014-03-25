@@ -1,0 +1,41 @@
+{
+  "name": "scala.util.hashing.MurmurHash3$ArrayHashing$mcF$sp",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_hashing_MurmurHash3$ArrayHashing$mcF$sp",
+  "superClass": "scala_util_hashing_MurmurHash3$ArrayHashing",
+  "ancestors": ["scala_util_hashing_MurmurHash3$ArrayHashing$mcF$sp", "scala_util_hashing_MurmurHash3$ArrayHashing", "scala_util_hashing_Hashing", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hash__AF__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcF$sp": ["hash$mcF$sp__AF__I"]
+      }
+    },
+    "hash$mcF$sp__AF__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["arrayHash$mFc$sp__AF__I"]
+      },
+      "accessedModules": ["scala_util_hashing_MurmurHash3"]
+    },
+    "hash__O__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcF$sp": ["hash__AF__I"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing": ["init___"]
+      }
+    },
+    "hash__AF__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$ArrayHashing$mcF$sp": ["hash__AF__I"]
+      }
+    }
+  }
+}

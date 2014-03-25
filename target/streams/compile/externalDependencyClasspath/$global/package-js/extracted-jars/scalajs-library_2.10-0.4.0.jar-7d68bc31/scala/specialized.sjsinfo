@@ -1,0 +1,39 @@
+{
+  "name": "scala.specialized",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_specialized",
+  "superClass": "scala_annotation_Annotation",
+  "ancestors": ["scala_specialized", "scala_annotation_StaticAnnotation", "scala_annotation_Annotation", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "init___Lscala_Specializable$SpecializedGroup": {
+      "calledMethodsStatic": {
+        "scala_annotation_Annotation": ["init___"]
+      }
+    },
+    "init___Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_Specializable$Group": ["init___O"],
+        "scala_collection_Seq": ["toList__Lscala_collection_immutable_List"]
+      },
+      "calledMethodsStatic": {
+        "scala_specialized": ["init___Lscala_Specializable$SpecializedGroup"]
+      },
+      "instantiatedClasses": ["scala_Specializable$Group"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Specializable$": ["Primitives__Lscala_Specializable$Group"]
+      },
+      "calledMethodsStatic": {
+        "scala_specialized": ["init___Lscala_Specializable$SpecializedGroup"]
+      },
+      "accessedModules": ["scala_Specializable"]
+    }
+  }
+}

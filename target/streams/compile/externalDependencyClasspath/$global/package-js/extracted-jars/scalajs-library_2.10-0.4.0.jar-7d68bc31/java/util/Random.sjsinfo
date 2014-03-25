@@ -1,0 +1,124 @@
+{
+  "name": "java.util.Random",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_Random",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_Random", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "nextNextGaussian__p1__D": {},
+    "nextNextGaussian$und$eq__p1__D__V": {},
+    "haveNextNextGaussian__p1__Z": {},
+    "haveNextNextGaussian$und$eq__p1__Z__V": {},
+    "setSeed__J__V": {},
+    "next__I__I": {
+      "calledMethods": {
+        "java_util_Random": ["nextInt__I", "nextInt__I__I"]
+      }
+    },
+    "nextDouble__D": {},
+    "nextBoolean__Z": {
+      "calledMethods": {
+        "java_util_Random": ["nextDouble__D"]
+      }
+    },
+    "nextInt__I": {
+      "calledMethods": {
+        "java_util_Random": ["nextDouble__D"]
+      }
+    },
+    "nextInt__I__I": {
+      "calledMethods": {
+        "java_util_Random": ["nextDouble__D"]
+      }
+    },
+    "nextLong__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less$less__I__Lscala_scalajs_runtime_Long", "$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$bar__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long", "apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_util_Random": ["nextInt__I"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "nextFloat__F": {
+      "calledMethods": {
+        "java_util_Random": ["nextDouble__D"]
+      }
+    },
+    "nextBytes__AB__V": {
+      "calledMethods": {
+        "java_util_Random": ["nextInt__I__I"]
+      }
+    },
+    "nextGaussian__D": {
+      "calledMethods": {
+        "java_util_Random": ["nextNextGaussian__p1__D", "haveNextNextGaussian$und$eq__p1__Z__V", "haveNextNextGaussian__p1__Z", "nextDouble__D", "nextNextGaussian$und$eq__p1__D__V"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "init___J": {
+      "calledMethodsStatic": {
+        "java_util_Random": ["init___"]
+      }
+    },
+    "nextGaussian__": {
+      "calledMethods": {
+        "java_util_Random": ["nextGaussian__D"]
+      }
+    },
+    "nextBytes__AB__": {
+      "calledMethods": {
+        "java_util_Random": ["nextBytes__AB__V"]
+      }
+    },
+    "nextFloat__": {
+      "calledMethods": {
+        "java_util_Random": ["nextFloat__F"]
+      }
+    },
+    "nextLong__": {
+      "calledMethods": {
+        "java_util_Random": ["nextLong__J"]
+      }
+    },
+    "nextInt__I__": {
+      "calledMethods": {
+        "java_util_Random": ["nextInt__I__I"]
+      }
+    },
+    "nextInt__": {
+      "calledMethods": {
+        "java_util_Random": ["nextInt__I"]
+      }
+    },
+    "nextBoolean__": {
+      "calledMethods": {
+        "java_util_Random": ["nextBoolean__Z"]
+      }
+    },
+    "nextDouble__": {
+      "calledMethods": {
+        "java_util_Random": ["nextDouble__D"]
+      }
+    },
+    "next__I__": {
+      "calledMethods": {
+        "java_util_Random": ["next__I__I"]
+      }
+    },
+    "setSeed__J__": {
+      "calledMethods": {
+        "java_util_Random": ["setSeed__J__V"]
+      }
+    }
+  }
+}

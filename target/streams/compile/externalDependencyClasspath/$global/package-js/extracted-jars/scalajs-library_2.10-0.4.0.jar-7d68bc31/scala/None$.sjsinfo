@@ -1,0 +1,55 @@
+{
+  "name": "scala.None$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_None$",
+  "superClass": "scala_Option",
+  "ancestors": ["scala_None$", "scala_Option", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isEmpty__Z": {},
+    "get__Lscala_Nothing": {
+      "calledMethods": {
+        "java_util_NoSuchElementException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"]
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_None$"]
+    },
+    "hashCode__I": {},
+    "toString__T": {},
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_None"]
+    },
+    "get__O": {
+      "calledMethods": {
+        "scala_None$": ["get__Lscala_Nothing"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Option": ["init___"]
+      }
+    }
+  }
+}

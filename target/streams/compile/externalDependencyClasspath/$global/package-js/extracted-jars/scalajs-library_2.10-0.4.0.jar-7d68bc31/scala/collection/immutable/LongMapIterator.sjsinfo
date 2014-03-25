@@ -1,0 +1,93 @@
+{
+  "name": "scala.collection.immutable.LongMapIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_LongMapIterator",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_immutable_LongMapIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "index__I": {},
+    "index$und$eq__I__V": {},
+    "buffer__AO": {},
+    "buffer$und$eq__AO__V": {},
+    "pop__Lscala_collection_immutable_LongMap": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["index__I", "index$und$eq__I__V", "buffer__AO"]
+      },
+      "accessedClassData": ["scala_collection_immutable_LongMap"]
+    },
+    "push__Lscala_collection_immutable_LongMap__V": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["index__I", "index$und$eq__I__V", "buffer__AO"]
+      }
+    },
+    "valueOf__Lscala_collection_immutable_LongMap$Tip__O": {
+      "isAbstract": true
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["index__I"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["pop__Lscala_collection_immutable_LongMap", "push__Lscala_collection_immutable_LongMap__V", "valueOf__Lscala_collection_immutable_LongMap$Tip__O"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_LongMap$Bin": ["left__Lscala_collection_immutable_LongMap", "right__Lscala_collection_immutable_LongMap"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_sys_package", "scala_collection_immutable_LongMap$Nil"],
+      "accessedClassData": ["scala_collection_immutable_LongMap$Bin", "scala_collection_immutable_LongMap$Tip"]
+    },
+    "init___Lscala_collection_immutable_LongMap": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["push__Lscala_collection_immutable_LongMap__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "push__Lscala_collection_immutable_LongMap__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["push__Lscala_collection_immutable_LongMap__V"]
+      }
+    },
+    "pop__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["pop__Lscala_collection_immutable_LongMap"]
+      }
+    },
+    "buffer$und$eq__AO__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["buffer$und$eq__AO__V"]
+      }
+    },
+    "buffer__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["buffer__AO"]
+      }
+    },
+    "index$und$eq__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["index$und$eq__I__V"]
+      }
+    },
+    "index__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["index__I"]
+      }
+    },
+    "valueOf__Lscala_collection_immutable_LongMap$Tip__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMapIterator": ["valueOf__Lscala_collection_immutable_LongMap$Tip__O"]
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "scala.collection.mutable.ArrayOps$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayOps$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_ArrayOps$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_ArrayOps$class__elementClass__Lscala_collection_mutable_ArrayOps__Ljava_lang_Class": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["repr__O"],
+        "scala_runtime_ScalaRunTime$": ["arrayElementClass__O__Ljava_lang_Class"],
+        "java_lang_Object": ["getClass__Ljava_lang_Class"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "scala_collection_mutable_ArrayOps$class__copyToArray__Lscala_collection_mutable_ArrayOps__O__I__I__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_mutable_ArrayOps": ["repr__O"],
+        "scala_runtime_RichInt$": ["max$extension__I__I__I"],
+        "scala_math_package$": ["min__I__I__I"],
+        "scala_Array$": ["copy__O__I__O__I__I__V"],
+        "scala_runtime_ScalaRunTime$": ["array$undlength__O__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_math_package", "scala_Array", "scala_Predef", "scala_runtime_ScalaRunTime"]
+    },
+    "scala_collection_mutable_ArrayOps$class__toArray__Lscala_collection_mutable_ArrayOps__Lscala_reflect_ClassTag__O": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["repr__O", "scala$collection$mutable$ArrayOps$$super$toArray__Lscala_reflect_ClassTag__O"],
+        "scala_Predef$": ["implicitly__O__O"],
+        "scala_runtime_ScalaRunTime$": ["arrayElementClass__O__Ljava_lang_Class"],
+        "scala_collection_mutable_ArrayOps$class": ["scala_collection_mutable_ArrayOps$class__elementClass__Lscala_collection_mutable_ArrayOps__Ljava_lang_Class"]
+      },
+      "accessedModules": ["scala_Predef", "scala_runtime_ScalaRunTime"]
+    },
+    "scala_collection_mutable_ArrayOps$class__par__Lscala_collection_mutable_ArrayOps__Lscala_collection_parallel_mutable_ParArray": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["repr__O"],
+        "scala_collection_parallel_mutable_ParArray$": ["handoff__O__Lscala_collection_parallel_mutable_ParArray"]
+      },
+      "accessedModules": ["scala_collection_parallel_mutable_ParArray"]
+    },
+    "scala_collection_mutable_ArrayOps$class__flatten__Lscala_collection_mutable_ArrayOps__Lscala_Function1__Lscala_reflect_ClassTag__O": {
+      "calledMethods": {
+        "scala_Predef$": ["intArrayOps__AI__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["sum__Lscala_math_Numeric__O", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O", "foreach__Lscala_Function1__V"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_Array$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom", "newBuilder__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayBuilder"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_SeqLike": ["size__I"],
+        "scala_collection_mutable_ArrayBuilder": ["sizeHint__I__V", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable", "result__O"],
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef", "scala_math_Numeric$IntIsIntegral"],
+      "accessedClassData": ["scala_collection_mutable_ArrayBuilder", "scala_collection_TraversableOnce", "scala_collection_SeqLike", "scala_collection_IndexedSeq"]
+    },
+    "scala_collection_mutable_ArrayOps$class__transpose__Lscala_collection_mutable_ArrayOps__Lscala_Function1__AO": {
+      "calledMethods": {
+        "scala_Predef$": ["genericArrayOps__O__Lscala_collection_mutable_ArrayOps", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps$class": ["scala_collection_mutable_ArrayOps$class__mkRowBuilder$1__Lscala_collection_mutable_ArrayOps__Lscala_collection_mutable_ArrayBuilder", "scala_collection_mutable_ArrayOps$class__elementClass__Lscala_collection_mutable_ArrayOps__Ljava_lang_Class"],
+        "scala_collection_mutable_ArrayOps": ["head__O", "foreach__Lscala_Function1__V", "isEmpty__Z", "map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_Array$": ["newBuilder__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayBuilder", "canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_mutable_ArrayOps$$anonfun$transpose$1": ["init___Lscala_collection_mutable_ArrayOps__ALscala_collection_mutable_ArrayBuilder__Lscala_Function1"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_mutable_ArrayBuilder": ["result__O"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$$anonfun$transpose$1", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef"],
+      "accessedClassData": ["scala_collection_mutable_ArrayBuilder", "java_lang_Object"]
+    },
+    "scala_collection_mutable_ArrayOps$class__seq__Lscala_collection_mutable_ArrayOps__Lscala_collection_mutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["thisCollection__Lscala_collection_mutable_IndexedSeq"]
+      }
+    },
+    "scala_collection_mutable_ArrayOps$class__mkRowBuilder$1__Lscala_collection_mutable_ArrayOps__Lscala_collection_mutable_ArrayBuilder": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["arrayElementClass__O__Ljava_lang_Class"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_Array$": ["newBuilder__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayBuilder"],
+        "scala_collection_mutable_ArrayOps$class": ["scala_collection_mutable_ArrayOps$class__elementClass__Lscala_collection_mutable_ArrayOps__Ljava_lang_Class"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_runtime_ScalaRunTime"]
+    },
+    "scala_collection_mutable_ArrayOps$class__$init$__Lscala_collection_mutable_ArrayOps__V": {}
+  }
+}

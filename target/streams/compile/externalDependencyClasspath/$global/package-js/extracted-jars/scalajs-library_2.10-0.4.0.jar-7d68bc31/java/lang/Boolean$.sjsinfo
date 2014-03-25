@@ -1,0 +1,58 @@
+{
+  "name": "java.lang.Boolean$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Boolean$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Boolean$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "TYPE__Ljava_lang_Class": {},
+    "TRUE__Ljava_lang_Boolean": {},
+    "FALSE__Ljava_lang_Boolean": {},
+    "valueOf__Z__Ljava_lang_Boolean": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["FALSE__Ljava_lang_Boolean", "TRUE__Ljava_lang_Boolean"]
+      }
+    },
+    "toString__Z__T": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Boolean": ["init___Z"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Boolean"]
+    },
+    "toString__Z__": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["toString__Z__T"]
+      }
+    },
+    "valueOf__Z__": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["valueOf__Z__Ljava_lang_Boolean"]
+      }
+    },
+    "FALSE__": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["FALSE__Ljava_lang_Boolean"]
+      }
+    },
+    "TRUE__": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["TRUE__Ljava_lang_Boolean"]
+      }
+    },
+    "TYPE__": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["TYPE__Ljava_lang_Class"]
+      }
+    }
+  }
+}

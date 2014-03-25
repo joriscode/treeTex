@@ -1,0 +1,61 @@
+{
+  "name": "scala.collection.concurrent.TrieMap$",
+  "ancestorCount": 4,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_TrieMap$",
+  "superClass": "scala_collection_generic_MutableMapFactory",
+  "ancestors": ["scala_collection_concurrent_TrieMap$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_MutableMapFactory", "scala_collection_generic_MapFactory", "scala_collection_generic_GenMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "inodeupdater__Ljava_util_concurrent_atomic_AtomicReferenceFieldUpdater": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["init___Lscala_collection_generic_GenMapFactory"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_GenMapFactory$MapCanBuildFrom"]
+    },
+    "empty__Lscala_collection_concurrent_TrieMap": {
+      "calledMethods": {
+        "scala_collection_concurrent_TrieMap": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_TrieMap"]
+    },
+    "readResolve__p4__O": {
+      "accessedModules": ["scala_collection_concurrent_TrieMap"]
+    },
+    "empty__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_concurrent_TrieMap$": ["empty__Lscala_collection_concurrent_TrieMap"]
+      }
+    },
+    "empty__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_concurrent_TrieMap$": ["empty__Lscala_collection_concurrent_TrieMap"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicReferenceFieldUpdater$": ["newUpdater__Ljava_lang_Class__Ljava_lang_Class__T__Ljava_util_concurrent_atomic_AtomicReferenceFieldUpdater"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_generic_MutableMapFactory": ["init___"]
+      },
+      "accessedModules": ["java_util_concurrent_atomic_AtomicReferenceFieldUpdater"],
+      "accessedClassData": ["scala_collection_concurrent_INodeBase", "scala_collection_concurrent_MainNode"]
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_concurrent_TrieMap$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "inodeupdater__": {
+      "calledMethods": {
+        "scala_collection_concurrent_TrieMap$": ["inodeupdater__Ljava_util_concurrent_atomic_AtomicReferenceFieldUpdater"]
+      }
+    }
+  }
+}

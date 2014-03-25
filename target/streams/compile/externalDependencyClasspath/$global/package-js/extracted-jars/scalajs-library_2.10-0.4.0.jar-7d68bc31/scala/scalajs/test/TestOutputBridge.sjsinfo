@@ -1,0 +1,202 @@
+{
+  "name": "scala.scalajs.test.TestOutputBridge",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_scalajs_test_TestOutputBridge",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_scalajs_test_TestOutputBridge", "scala_scalajs_test_TestOutput", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "errorColor__T": {},
+    "successColor__T": {},
+    "infoColor__T": {},
+    "reset__T": {},
+    "color__T__T__T": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["mkString__T__T__T__T"],
+        "scala_Predef$": ["augmentString__T__T", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_immutable_StringOps": ["split__C__AT", "init___T"],
+        "scala_scalajs_test_TestOutputBridge": ["reset__T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "error__T__ALscala_scalajs_test_ScriptStackElement__V": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["toJsArray__p1__ALscala_scalajs_test_ScriptStackElement__Lscala_scalajs_js_Array"]
+      }
+    },
+    "error__T__V": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_Array$": ["empty__Lscala_reflect_ClassTag__O"],
+        "scala_scalajs_test_TestOutputBridge": ["error__T__ALscala_scalajs_test_ScriptStackElement__V"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array"],
+      "accessedClassData": ["scala_scalajs_test_ScriptStackElement"]
+    },
+    "failure__T__ALscala_scalajs_test_ScriptStackElement__V": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["toJsArray__p1__ALscala_scalajs_test_ScriptStackElement__Lscala_scalajs_js_Array"]
+      }
+    },
+    "failure__T__V": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_Array$": ["empty__Lscala_reflect_ClassTag__O"],
+        "scala_scalajs_test_TestOutputBridge": ["failure__T__ALscala_scalajs_test_ScriptStackElement__V"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array"],
+      "accessedClassData": ["scala_scalajs_test_ScriptStackElement"]
+    },
+    "succeeded__T__V": {},
+    "skipped__T__V": {},
+    "pending__T__V": {},
+    "ignored__T__V": {},
+    "canceled__T__V": {},
+    "log__Lscala_scalajs_test_TestOutputLog": {},
+    "getCurrentStack__ALscala_scalajs_test_ScriptStackElement": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_immutable_IndexedSeq": ["toArray__Lscala_reflect_ClassTag__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_IndexedSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_scalajs_test_ScriptStackElement$": ["apply__T__T__I__Lscala_scalajs_test_ScriptStackElement"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_collection_immutable_Range": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_reflect_ClassTag", "scala_scalajs_test_ScriptStackElement", "scala_Predef", "scala_collection_immutable_IndexedSeq"],
+      "accessedClassData": ["scala_scalajs_test_ScriptStackElement", "scala_collection_immutable_IndexedSeq"]
+    },
+    "toJsArray__p1__ALscala_scalajs_test_ScriptStackElement__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_scalajs_test_TestOutputBridge": ["elementToJS__p1__Lscala_collection_Seq__ALscala_scalajs_js_Any"],
+        "scala_scalajs_js_Any$": ["fromArray__O__Lscala_scalajs_js_Array"]
+      },
+      "accessedModules": ["scala_scalajs_js_Any", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "elementToJS__p1__Lscala_collection_Seq__ALscala_scalajs_js_Any": {
+      "calledMethods": {
+        "scala_collection_Seq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_scalajs_test_TestOutputBridge": ["scala$scalajs$test$TestOutputBridge$$stackElementToJS__Lscala_scalajs_test_ScriptStackElement__Lscala_scalajs_js_Any"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_collection_TraversableOnce": ["toArray__Lscala_reflect_ClassTag__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_collection_Seq"],
+      "accessedClassData": ["scala_scalajs_js_Any", "scala_collection_TraversableOnce"]
+    },
+    "scala$scalajs$test$TestOutputBridge$$stackElementToJS__Lscala_scalajs_test_ScriptStackElement__Lscala_scalajs_js_Any": {
+      "calledMethods": {
+        "scala_scalajs_test_ScriptStackElement": ["functionName__T", "fileName__T", "lineNumber__I"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "init___Lscala_scalajs_test_EventProxy": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge$$anon$1": ["init___Lscala_scalajs_test_TestOutputBridge"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_scalajs_test_TestOutputBridge$$anon$1"]
+    },
+    "scala$scalajs$test$TestOutputBridge$$stackElementToJS__Lscala_scalajs_test_ScriptStackElement__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["scala$scalajs$test$TestOutputBridge$$stackElementToJS__Lscala_scalajs_test_ScriptStackElement__Lscala_scalajs_js_Any"]
+      }
+    },
+    "getCurrentStack__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["getCurrentStack__ALscala_scalajs_test_ScriptStackElement"]
+      }
+    },
+    "log__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["log__Lscala_scalajs_test_TestOutputLog"]
+      }
+    },
+    "canceled__T__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["canceled__T__V"]
+      }
+    },
+    "ignored__T__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["ignored__T__V"]
+      }
+    },
+    "pending__T__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["pending__T__V"]
+      }
+    },
+    "skipped__T__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["skipped__T__V"]
+      }
+    },
+    "succeeded__T__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["succeeded__T__V"]
+      }
+    },
+    "failure__T__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["failure__T__V"]
+      }
+    },
+    "failure__T__ALscala_scalajs_test_ScriptStackElement__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["failure__T__ALscala_scalajs_test_ScriptStackElement__V"]
+      }
+    },
+    "error__T__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["error__T__V"]
+      }
+    },
+    "error__T__ALscala_scalajs_test_ScriptStackElement__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["error__T__ALscala_scalajs_test_ScriptStackElement__V"]
+      }
+    },
+    "color__T__T__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["color__T__T__T"]
+      }
+    },
+    "reset__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["reset__T"]
+      }
+    },
+    "infoColor__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["infoColor__T"]
+      }
+    },
+    "successColor__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["successColor__T"]
+      }
+    },
+    "errorColor__": {
+      "calledMethods": {
+        "scala_scalajs_test_TestOutputBridge": ["errorColor__T"]
+      }
+    }
+  }
+}

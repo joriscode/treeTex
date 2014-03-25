@@ -1,0 +1,112 @@
+{
+  "name": "scala.xml.ProcInstr",
+  "ancestorCount": 7,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_ProcInstr",
+  "superClass": "scala_xml_SpecialNode",
+  "ancestors": ["scala_xml_ProcInstr", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_xml_SpecialNode", "scala_xml_pull_XMLEvent", "scala_xml_Node", "scala_xml_NodeSeq", "scala_xml_Equality", "scala_collection_immutable_Seq", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSeq", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_PartialFunction", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "target__T": {},
+    "proctext__T": {},
+    "doCollectNamespaces__Z": {},
+    "doTransform__Z": {},
+    "label__T": {},
+    "text__T": {},
+    "buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["format__Lscala_collection_Seq__T", "init___T"],
+        "scala_xml_ProcInstr": ["proctext__T", "target__T"],
+        "scala_collection_mutable_StringBuilder": ["append__T__Lscala_collection_mutable_StringBuilder"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "copy__T__T__Lscala_xml_ProcInstr": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["init___T__T"]
+      },
+      "instantiatedClasses": ["scala_xml_ProcInstr"]
+    },
+    "copy$default$1__T": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["target__T"]
+      }
+    },
+    "copy$default$2__T": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["proctext__T"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_xml_ProcInstr": ["proctext__T", "target__T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "init___T__T": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_xml_Utility$": ["isName__T__Z"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__contains__Lscala_scalajs_runtime_RuntimeString__Ljava_lang_CharSequence__Z", "scala_scalajs_runtime_RuntimeString$class__toLowerCase__Lscala_scalajs_runtime_RuntimeString__T"],
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_SpecialNode": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["productPrefix__T"]
+      }
+    },
+    "copy__T__T__": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["copy__T__T__Lscala_xml_ProcInstr"]
+      }
+    },
+    "proctext__": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["proctext__T"]
+      }
+    },
+    "target__": {
+      "calledMethods": {
+        "scala_xml_ProcInstr": ["target__T"]
+      }
+    }
+  }
+}

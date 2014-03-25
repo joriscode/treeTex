@@ -1,0 +1,44 @@
+{
+  "name": "scala.Function11$$anonfun$curried$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Function11$$anonfun$curried$1",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_Function11$$anonfun$curried$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__O__Lscala_Function1": {
+      "calledMethods": {
+        "scala_Function10": ["curried__Lscala_Function1"],
+        "scala_scalajs_runtime_AnonFunction10": ["init___Lscala_scalajs_js_Function10"],
+        "scala_Function11$$anonfun$curried$1": ["scala$Function11$$anonfun$$$outer__Lscala_Function11"],
+        "scala_Function11": ["apply__O__O__O__O__O__O__O__O__O__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction10"]
+    },
+    "scala$Function11$$anonfun$$$outer__Lscala_Function11": {},
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_Function11$$anonfun$curried$1": ["apply__O__Lscala_Function1"]
+      }
+    },
+    "init___Lscala_Function11": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$Function11$$anonfun$$$outer__": {
+      "calledMethods": {
+        "scala_Function11$$anonfun$curried$1": ["scala$Function11$$anonfun$$$outer__Lscala_Function11"]
+      }
+    }
+  }
+}

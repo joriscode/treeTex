@@ -1,0 +1,63 @@
+{
+  "name": "scala.math.Integral$IntegralOps",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_Integral$IntegralOps",
+  "superClass": "scala_math_Numeric$Ops",
+  "ancestors": ["scala_math_Integral$IntegralOps", "scala_math_Numeric$Ops", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "$$div__O__O": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["scala$math$Integral$IntegralOps$$$outer__Lscala_math_Integral"],
+        "scala_math_Integral": ["quot__O__O__O"]
+      }
+    },
+    "$$percent__O__O": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["scala$math$Integral$IntegralOps$$$outer__Lscala_math_Integral"],
+        "scala_math_Integral": ["rem__O__O__O"]
+      }
+    },
+    "$$div$percent__O__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["scala$math$Integral$IntegralOps$$$outer__Lscala_math_Integral"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_math_Integral": ["quot__O__O__O", "rem__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "scala$math$Integral$IntegralOps$$$outer__Lscala_math_Integral": {
+      "accessedClassData": ["scala_math_Integral"]
+    },
+    "init___Lscala_math_Integral__O": {
+      "calledMethodsStatic": {
+        "scala_math_Numeric$Ops": ["init___Lscala_math_Numeric__O"]
+      }
+    },
+    "scala$math$Integral$IntegralOps$$$outer__": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["scala$math$Integral$IntegralOps$$$outer__Lscala_math_Integral"]
+      }
+    },
+    "$$div$percent__O__": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["$$div$percent__O__Lscala_Tuple2"]
+      }
+    },
+    "$$percent__O__": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["$$percent__O__O"]
+      }
+    },
+    "$$div__O__": {
+      "calledMethods": {
+        "scala_math_Integral$IntegralOps": ["$$div__O__O"]
+      }
+    }
+  }
+}

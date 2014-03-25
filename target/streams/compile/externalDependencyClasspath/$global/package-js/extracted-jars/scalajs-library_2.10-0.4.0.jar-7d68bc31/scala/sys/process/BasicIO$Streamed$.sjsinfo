@@ -1,0 +1,60 @@
+{
+  "name": "scala.sys.process.BasicIO$Streamed$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_BasicIO$Streamed$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_BasicIO$Streamed$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Z__Lscala_sys_process_BasicIO$Streamed": {
+      "calledMethods": {
+        "scala_util_Right$": ["apply__O__Lscala_util_Right"],
+        "java_util_concurrent_LinkedBlockingQueue": ["init___", "put__O__V"],
+        "scala_sys_process_BasicIO$Streamed$": ["scala$sys$process$BasicIO$Streamed$$next$1__Z__Ljava_util_concurrent_LinkedBlockingQueue__Lscala_collection_immutable_Stream"],
+        "scala_package$": ["Left__Lscala_util_Left$", "Right__Lscala_util_Right$"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_sys_process_BasicIO$Streamed": ["init___Lscala_Function1__Lscala_Function1__Lscala_Function0"],
+        "scala_util_Left$": ["apply__O__Lscala_util_Left"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_BasicIO$Streamed", "scala_scalajs_runtime_AnonFunction0", "scala_scalajs_runtime_AnonFunction1", "java_util_concurrent_LinkedBlockingQueue"],
+      "accessedModules": ["scala_package", "scala_sys_process_BasicIO$Streamed"]
+    },
+    "scala$sys$process$BasicIO$Streamed$$next$1__Z__Ljava_util_concurrent_LinkedBlockingQueue__Lscala_collection_immutable_Stream": {
+      "calledMethods": {
+        "java_util_concurrent_LinkedBlockingQueue": ["take__O"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_MatchError": ["init___O"],
+        "scala_sys_process_BasicIO$Streamed$": ["scala$sys$process$BasicIO$Streamed$$next$1__Z__Ljava_util_concurrent_LinkedBlockingQueue__Lscala_collection_immutable_Stream"],
+        "scala_util_Left": ["a__O"],
+        "scala_collection_immutable_Stream$cons$": ["apply__O__Lscala_Function0__Lscala_collection_immutable_Stream$Cons"],
+        "scala_collection_immutable_Stream$": ["empty__Lscala_collection_immutable_Stream"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_util_Right": ["b__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_sys_process_BasicIO$Streamed", "scala_sys_package", "scala_collection_immutable_Stream$cons", "scala_collection_immutable_Stream"],
+      "accessedClassData": ["scala_util_Left", "scala_util_Right", "scala_util_Either"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "scala$sys$process$BasicIO$Streamed$$next$1__Z__Ljava_util_concurrent_LinkedBlockingQueue__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Streamed$": ["scala$sys$process$BasicIO$Streamed$$next$1__Z__Ljava_util_concurrent_LinkedBlockingQueue__Lscala_collection_immutable_Stream"]
+      }
+    },
+    "apply__Z__": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$Streamed$": ["apply__Z__Lscala_sys_process_BasicIO$Streamed"]
+      }
+    }
+  }
+}

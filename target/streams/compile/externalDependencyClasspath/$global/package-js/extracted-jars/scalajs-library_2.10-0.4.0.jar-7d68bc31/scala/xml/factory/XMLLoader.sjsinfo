@@ -1,0 +1,50 @@
+{
+  "name": "scala.xml.factory.XMLLoader",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_factory_XMLLoader",
+  "superClass": "",
+  "ancestors": ["scala_xml_factory_XMLLoader", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "adapter__Lscala_xml_parsing_FactoryAdapter": {
+      "isAbstract": true
+    },
+    "parser__Ljavax_xml_parsers_SAXParser": {
+      "isAbstract": true
+    },
+    "loadXML__Lorg_xml_sax_InputSource__Ljavax_xml_parsers_SAXParser__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "loadFile__Ljava_io_File__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "loadFile__Ljava_io_FileDescriptor__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "loadFile__T__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "load__Ljava_io_InputStream__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "load__Ljava_io_Reader__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "load__T__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "load__Lorg_xml_sax_InputSource__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "load__Ljava_net_URL__Lscala_xml_Node": {
+      "isAbstract": true
+    },
+    "loadString__T__Lscala_xml_Node": {
+      "isAbstract": true
+    }
+  }
+}

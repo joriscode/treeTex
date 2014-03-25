@@ -1,0 +1,94 @@
+{
+  "name": "scala.collection.concurrent.SNode",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_SNode",
+  "superClass": "scala_collection_concurrent_BasicNode",
+  "ancestors": ["scala_collection_concurrent_SNode", "scala_collection_concurrent_KVNode", "scala_collection_concurrent_BasicNode", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "k__O": {},
+    "v__O": {},
+    "hc__I": {},
+    "copy__Lscala_collection_concurrent_SNode": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["hc__I", "v__O", "init___O__O__I", "k__O"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_SNode"]
+    },
+    "copyTombed__Lscala_collection_concurrent_TNode": {
+      "calledMethods": {
+        "scala_collection_concurrent_TNode": ["init___O__O__I"],
+        "scala_collection_concurrent_SNode": ["hc__I", "v__O", "k__O"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_TNode"]
+    },
+    "copyUntombed__Lscala_collection_concurrent_SNode": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["hc__I", "v__O", "init___O__O__I", "k__O"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_SNode"]
+    },
+    "kvPair__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_concurrent_SNode": ["v__O", "k__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "string__I__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["$$times__I__T", "format__Lscala_collection_Seq__T", "init___T"],
+        "scala_collection_concurrent_SNode": ["hc__I", "v__O", "k__O"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "init___O__O__I": {
+      "calledMethodsStatic": {
+        "scala_collection_concurrent_BasicNode": ["init___"]
+      }
+    },
+    "kvPair__": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["kvPair__Lscala_Tuple2"]
+      }
+    },
+    "copyUntombed__": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["copyUntombed__Lscala_collection_concurrent_SNode"]
+      }
+    },
+    "copyTombed__": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["copyTombed__Lscala_collection_concurrent_TNode"]
+      }
+    },
+    "copy__": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["copy__Lscala_collection_concurrent_SNode"]
+      }
+    },
+    "hc__": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["hc__I"]
+      }
+    },
+    "v__": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["v__O"]
+      }
+    },
+    "k__": {
+      "calledMethods": {
+        "scala_collection_concurrent_SNode": ["k__O"]
+      }
+    }
+  }
+}

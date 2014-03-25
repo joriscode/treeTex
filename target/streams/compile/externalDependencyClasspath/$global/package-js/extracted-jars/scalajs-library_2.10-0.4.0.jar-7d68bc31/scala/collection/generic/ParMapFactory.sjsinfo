@@ -1,0 +1,33 @@
+{
+  "name": "scala.collection.generic.ParMapFactory",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_ParMapFactory",
+  "superClass": "scala_collection_generic_GenMapFactory",
+  "ancestors": ["scala_collection_generic_ParMapFactory", "scala_collection_generic_GenericParMapCompanion", "scala_collection_generic_GenMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory": ["newCombiner__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "newCombiner__Lscala_collection_parallel_Combiner": {
+      "isAbstract": true
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory": ["init___"]
+      }
+    },
+    "newCombiner__": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory": ["newCombiner__Lscala_collection_parallel_Combiner"]
+      }
+    }
+  }
+}

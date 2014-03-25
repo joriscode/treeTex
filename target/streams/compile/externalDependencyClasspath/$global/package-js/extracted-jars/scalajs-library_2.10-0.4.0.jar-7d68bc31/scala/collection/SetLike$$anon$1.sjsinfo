@@ -1,0 +1,57 @@
+{
+  "name": "scala.collection.SetLike$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SetLike$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_SetLike$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elms__p2__Lscala_collection_immutable_IndexedSeq": {},
+    "len__p2__I": {},
+    "len$und$eq__p2__I__V": {},
+    "itr__p2__Lscala_collection_Iterator": {},
+    "itr$und$eq__p2__Lscala_collection_Iterator__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z"],
+        "scala_collection_SetLike$$anon$1": ["len__p2__I", "itr__p2__Lscala_collection_Iterator", "elms__p2__Lscala_collection_immutable_IndexedSeq"],
+        "scala_collection_immutable_IndexedSeq": ["size__I"]
+      }
+    },
+    "next__Lscala_collection_Set": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z", "next__O"],
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_SetLike$SubsetsItr": ["init___Lscala_collection_SetLike__Lscala_collection_IndexedSeq__I"],
+        "scala_collection_SetLike$$anon$1": ["len__p2__I", "itr__p2__Lscala_collection_Iterator", "len$und$eq__p2__I__V", "elms__p2__Lscala_collection_immutable_IndexedSeq", "itr$und$eq__p2__Lscala_collection_Iterator__V"],
+        "scala_collection_immutable_IndexedSeq": ["size__I"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_SetLike$SubsetsItr"],
+      "accessedModules": ["scala_collection_Iterator", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_Set"]
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_SetLike$$anon$1": ["next__Lscala_collection_Set"]
+      }
+    },
+    "init___Lscala_collection_SetLike": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_SetLike": ["toIndexedSeq__Lscala_collection_immutable_IndexedSeq"],
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"],
+      "accessedModules": ["scala_collection_Iterator"]
+    }
+  }
+}

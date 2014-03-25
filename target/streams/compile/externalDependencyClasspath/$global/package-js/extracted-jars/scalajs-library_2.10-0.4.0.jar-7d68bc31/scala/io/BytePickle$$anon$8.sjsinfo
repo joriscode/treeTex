@@ -1,0 +1,59 @@
+{
+  "name": "scala.io.BytePickle$$anon$8",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$$anon$8",
+  "superClass": "scala_io_BytePickle$SPU",
+  "ancestors": ["scala_io_BytePickle$$anon$8", "scala_io_BytePickle$SPU", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "appP__I__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_Array$": ["concat__Lscala_collection_Seq__Lscala_reflect_ClassTag__O"],
+        "scala_io_BytePickle$": ["nat2Bytes__I__AB"],
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"],
+        "scala_io_BytePickle$PicklerState": ["dict__Lscala_io_BytePickle$PicklerEnv", "stream__AB", "init___AB__Lscala_io_BytePickle$PicklerEnv"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$PicklerState"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef", "scala_io_BytePickle"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "appU__Lscala_io_BytePickle$UnPicklerState__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Predef$": ["byteArrayOps__AB__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["slice__I__I__O"],
+        "scala_io_BytePickle$UnPicklerState": ["dict__Lscala_io_BytePickle$UnPicklerEnv", "init___AB__Lscala_io_BytePickle$UnPicklerEnv", "stream__AB"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_io_BytePickle$$anon$8": ["readNat$2__p2__Lscala_io_BytePickle$UnPicklerState__Lscala_runtime_IntRef__I"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_runtime_IntRef", "scala_io_BytePickle$UnPicklerState"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "appP__O__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$8": ["appP__I__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState"]
+      }
+    },
+    "readNat$2__p2__Lscala_io_BytePickle$UnPicklerState__Lscala_runtime_IntRef__I": {
+      "calledMethods": {
+        "scala_io_BytePickle$UnPicklerState": ["stream__AB"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_io_BytePickle$SPU": ["init___"]
+      }
+    },
+    "appP__I__Lscala_io_BytePickle$PicklerState__": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$8": ["appP__I__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState"]
+      }
+    }
+  }
+}

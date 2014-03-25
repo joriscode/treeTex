@@ -1,0 +1,45 @@
+{
+  "name": "scala.runtime.ShortRef$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_ShortRef$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_ShortRef$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "create__S__Lscala_runtime_ShortRef": {
+      "calledMethods": {
+        "scala_runtime_ShortRef": ["init___S"]
+      },
+      "instantiatedClasses": ["scala_runtime_ShortRef"]
+    },
+    "zero__Lscala_runtime_ShortRef": {
+      "calledMethods": {
+        "scala_runtime_ShortRef": ["init___S"]
+      },
+      "instantiatedClasses": ["scala_runtime_ShortRef"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_runtime_ShortRef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_runtime_ShortRef$": ["zero__Lscala_runtime_ShortRef"]
+      }
+    },
+    "create__S__": {
+      "calledMethods": {
+        "scala_runtime_ShortRef$": ["create__S__Lscala_runtime_ShortRef"]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "scala.xml.dtd.IntDef$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_IntDef$",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_xml_dtd_IntDef$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__Lscala_xml_dtd_IntDef": {
+      "calledMethods": {
+        "scala_xml_dtd_IntDef": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_IntDef"]
+    },
+    "unapply__Lscala_xml_dtd_IntDef__Lscala_Option": {
+      "calledMethods": {
+        "scala_xml_dtd_IntDef": ["value__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_xml_dtd_IntDef"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_xml_dtd_IntDef$": ["apply__T__Lscala_xml_dtd_IntDef"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "unapply__Lscala_xml_dtd_IntDef__": {
+      "calledMethods": {
+        "scala_xml_dtd_IntDef$": ["unapply__Lscala_xml_dtd_IntDef__Lscala_Option"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_xml_dtd_IntDef$": ["apply__T__Lscala_xml_dtd_IntDef"]
+      }
+    }
+  }
+}

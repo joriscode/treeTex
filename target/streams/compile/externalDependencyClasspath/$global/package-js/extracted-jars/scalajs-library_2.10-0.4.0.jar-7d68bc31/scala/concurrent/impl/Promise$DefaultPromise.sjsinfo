@@ -1,0 +1,414 @@
+{
+  "name": "scala.concurrent.impl.Promise$DefaultPromise",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_Promise$DefaultPromise",
+  "superClass": "scala_concurrent_impl_AbstractPromise",
+  "ancestors": ["scala_concurrent_impl_Promise$DefaultPromise", "scala_concurrent_impl_Promise", "scala_concurrent_Future", "scala_concurrent_Awaitable", "scala_concurrent_Promise", "scala_concurrent_impl_AbstractPromise", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "future__Lscala_concurrent_impl_Promise": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$class": ["scala_concurrent_impl_Promise$class__future__Lscala_concurrent_impl_Promise__Lscala_concurrent_impl_Promise"]
+      }
+    },
+    "onSuccess__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__V": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__onSuccess__Lscala_concurrent_Future__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__V"]
+      }
+    },
+    "onFailure__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__V": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__onFailure__Lscala_concurrent_Future__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__V"]
+      }
+    },
+    "failed__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__failed__Lscala_concurrent_Future__Lscala_concurrent_Future"]
+      }
+    },
+    "foreach__Lscala_Function1__Lscala_concurrent_ExecutionContext__V": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__foreach__Lscala_concurrent_Future__Lscala_Function1__Lscala_concurrent_ExecutionContext__V"]
+      }
+    },
+    "transform__Lscala_Function1__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__transform__Lscala_concurrent_Future__Lscala_Function1__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "map__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__map__Lscala_concurrent_Future__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "flatMap__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__flatMap__Lscala_concurrent_Future__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "filter__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__filter__Lscala_concurrent_Future__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "withFilter__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__withFilter__Lscala_concurrent_Future__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "collect__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__collect__Lscala_concurrent_Future__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "recover__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__recover__Lscala_concurrent_Future__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "recoverWith__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__recoverWith__Lscala_concurrent_Future__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "zip__Lscala_concurrent_Future__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__zip__Lscala_concurrent_Future__Lscala_concurrent_Future__Lscala_concurrent_Future"]
+      }
+    },
+    "fallbackTo__Lscala_concurrent_Future__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__fallbackTo__Lscala_concurrent_Future__Lscala_concurrent_Future__Lscala_concurrent_Future"]
+      }
+    },
+    "mapTo__Lscala_reflect_ClassTag__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__mapTo__Lscala_concurrent_Future__Lscala_reflect_ClassTag__Lscala_concurrent_Future"]
+      }
+    },
+    "andThen__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__andThen__Lscala_concurrent_Future__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "complete__Lscala_util_Try__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__complete__Lscala_concurrent_Promise__Lscala_util_Try__Lscala_concurrent_Promise"]
+      }
+    },
+    "completeWith__Lscala_concurrent_Future__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__completeWith__Lscala_concurrent_Promise__Lscala_concurrent_Future__Lscala_concurrent_Promise"]
+      }
+    },
+    "tryCompleteWith__Lscala_concurrent_Future__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__tryCompleteWith__Lscala_concurrent_Promise__Lscala_concurrent_Future__Lscala_concurrent_Promise"]
+      }
+    },
+    "success__O__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__success__Lscala_concurrent_Promise__O__Lscala_concurrent_Promise"]
+      }
+    },
+    "trySuccess__O__Z": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__trySuccess__Lscala_concurrent_Promise__O__Z"]
+      }
+    },
+    "failure__Ljava_lang_Throwable__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__failure__Lscala_concurrent_Promise__Ljava_lang_Throwable__Lscala_concurrent_Promise"]
+      }
+    },
+    "tryFailure__Ljava_lang_Throwable__Z": {
+      "calledMethods": {
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__tryFailure__Lscala_concurrent_Promise__Ljava_lang_Throwable__Z"]
+      }
+    },
+    "tryAwait__Lscala_concurrent_duration_Duration__Z": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["MinusInf__Lscala_concurrent_duration_Duration$Infinite", "Undefined__Lscala_concurrent_duration_Duration$Infinite", "Inf__Lscala_concurrent_duration_Duration$Infinite", "Zero__Lscala_concurrent_duration_FiniteDuration"],
+        "scala_concurrent_duration_FiniteDuration": ["$$greater__O__Z", "fromNow__Lscala_concurrent_duration_Deadline"],
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["awaitUnsafe$1__p2__Lscala_concurrent_duration_Deadline__Lscala_concurrent_duration_FiniteDuration__Z", "awaitUnbounded$1__p2__Z", "isCompleted__Z"],
+        "java_lang_IllegalArgumentException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException", "scala_MatchError"],
+      "accessedModules": ["scala_concurrent_duration_Duration"],
+      "accessedClassData": ["scala_concurrent_duration_FiniteDuration"]
+    },
+    "ready__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__Lscala_concurrent_impl_Promise$DefaultPromise": {
+      "calledMethods": {
+        "java_util_concurrent_TimeoutException": ["init___T"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["tryAwait__Lscala_concurrent_duration_Duration__Z", "isCompleted__Z"]
+      },
+      "instantiatedClasses": ["java_util_concurrent_TimeoutException"]
+    },
+    "result__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__O": {
+      "calledMethods": {
+        "scala_Option": ["get__O"],
+        "scala_util_Success": ["value__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["value__Lscala_Option", "ready__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__Lscala_concurrent_impl_Promise$DefaultPromise"],
+        "scala_util_Failure": ["exception__Ljava_lang_Throwable"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedClassData": ["scala_util_Try", "scala_util_Success", "scala_util_Failure"]
+    },
+    "value__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["getState__O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_util_Try"]
+    },
+    "isCompleted__Z": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["getState__O"]
+      },
+      "accessedClassData": ["scala_util_Try"]
+    },
+    "tryComplete__Lscala_util_Try__Z": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["notifyAll__V", "tryComplete$1__p2__Lscala_util_Try__Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List": ["isEmpty__Z", "foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_concurrent_impl_Promise$": ["scala$concurrent$impl$Promise$$resolveTry__Lscala_util_Try__Lscala_util_Try"],
+        "scala_concurrent_impl_CallbackRunnable": ["executeWithValue__Lscala_util_Try__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_concurrent_impl_Promise", "scala_runtime_BoxedUnit"]
+    },
+    "onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__V": {
+      "calledMethods": {
+        "scala_concurrent_impl_CallbackRunnable": ["init___Lscala_concurrent_ExecutionContext__Lscala_Function1"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["dispatchOrAddCallback$1__p2__Lscala_concurrent_impl_CallbackRunnable__V"],
+        "scala_concurrent_ExecutionContext": ["prepare__Lscala_concurrent_ExecutionContext"]
+      },
+      "instantiatedClasses": ["scala_concurrent_impl_CallbackRunnable"]
+    },
+    "future__Lscala_concurrent_Future": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["future__Lscala_concurrent_impl_Promise"]
+      }
+    },
+    "ready__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__Lscala_concurrent_Awaitable": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["ready__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__Lscala_concurrent_impl_Promise$DefaultPromise"]
+      }
+    },
+    "awaitUnsafe$1__p2__Lscala_concurrent_duration_Deadline__Lscala_concurrent_duration_FiniteDuration__Z": {
+      "calledMethods": {
+        "scala_concurrent_duration_Duration$": ["Zero__Lscala_concurrent_duration_FiniteDuration"],
+        "scala_concurrent_duration_FiniteDuration": ["$$greater__O__Z", "toNanos__J", "toMillis__J"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["wait__J__I__V", "isCompleted__Z"],
+        "scala_concurrent_duration_Deadline": ["timeLeft__Lscala_concurrent_duration_FiniteDuration"],
+        "scala_scalajs_runtime_Long": ["$$percent__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "toInt__I"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "scala_concurrent_duration_Duration", "scala_runtime_BoxedUnit"]
+    },
+    "awaitUnbounded$1__p2__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["wait__V", "isCompleted__Z"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "tryComplete$1__p2__Lscala_util_Try__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["updateState__O__O__Z", "getState__O"]
+      },
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "dispatchOrAddCallback$1__p2__Lscala_concurrent_impl_CallbackRunnable__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["updateState__O__O__Z", "getState__O"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_concurrent_impl_CallbackRunnable": ["executeWithValue__Lscala_util_Try__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_immutable_List", "scala_util_Try"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$class": ["scala_concurrent_impl_Promise$class__$init$__Lscala_concurrent_impl_Promise__V"],
+        "scala_concurrent_Future$class": ["scala_concurrent_Future$class__$init$__Lscala_concurrent_Future__V"],
+        "scala_concurrent_Promise$class": ["scala_concurrent_Promise$class__$init$__Lscala_concurrent_Promise__V"],
+        "scala_concurrent_impl_Promise$DefaultPromise": ["updateState__O__O__Z"]
+      },
+      "calledMethodsStatic": {
+        "scala_concurrent_impl_AbstractPromise": ["init___"]
+      },
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "tryFailure__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["tryFailure__Ljava_lang_Throwable__Z"]
+      }
+    },
+    "failure__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["failure__Ljava_lang_Throwable__Lscala_concurrent_Promise"]
+      }
+    },
+    "trySuccess__O__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["trySuccess__O__Z"]
+      }
+    },
+    "success__O__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["success__O__Lscala_concurrent_Promise"]
+      }
+    },
+    "tryCompleteWith__Lscala_concurrent_Future__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["tryCompleteWith__Lscala_concurrent_Future__Lscala_concurrent_Promise"]
+      }
+    },
+    "completeWith__Lscala_concurrent_Future__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["completeWith__Lscala_concurrent_Future__Lscala_concurrent_Promise"]
+      }
+    },
+    "complete__Lscala_util_Try__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["complete__Lscala_util_Try__Lscala_concurrent_Promise"]
+      }
+    },
+    "andThen__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["andThen__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "mapTo__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["mapTo__Lscala_reflect_ClassTag__Lscala_concurrent_Future"]
+      }
+    },
+    "fallbackTo__Lscala_concurrent_Future__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["fallbackTo__Lscala_concurrent_Future__Lscala_concurrent_Future"]
+      }
+    },
+    "zip__Lscala_concurrent_Future__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["zip__Lscala_concurrent_Future__Lscala_concurrent_Future"]
+      }
+    },
+    "recoverWith__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["recoverWith__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "recover__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["recover__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "collect__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["collect__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "withFilter__Lscala_Function1__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["withFilter__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "filter__Lscala_Function1__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["filter__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "flatMap__Lscala_Function1__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["flatMap__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "map__Lscala_Function1__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["map__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "transform__Lscala_Function1__Lscala_Function1__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["transform__Lscala_Function1__Lscala_Function1__Lscala_concurrent_ExecutionContext__Lscala_concurrent_Future"]
+      }
+    },
+    "foreach__Lscala_Function1__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["foreach__Lscala_Function1__Lscala_concurrent_ExecutionContext__V"]
+      }
+    },
+    "failed__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["failed__Lscala_concurrent_Future"]
+      }
+    },
+    "onFailure__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["onFailure__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__V"]
+      }
+    },
+    "onSuccess__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["onSuccess__Lscala_PartialFunction__Lscala_concurrent_ExecutionContext__V"]
+      }
+    },
+    "future__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["future__Lscala_concurrent_impl_Promise"]
+      }
+    },
+    "onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["onComplete__Lscala_Function1__Lscala_concurrent_ExecutionContext__V"]
+      }
+    },
+    "tryComplete__Lscala_util_Try__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["tryComplete__Lscala_util_Try__Z"]
+      }
+    },
+    "isCompleted__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["isCompleted__Z"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["value__Lscala_Option"]
+      }
+    },
+    "result__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["result__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__O"]
+      }
+    },
+    "ready__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["ready__Lscala_concurrent_duration_Duration__Lscala_concurrent_CanAwait__Lscala_concurrent_impl_Promise$DefaultPromise"]
+      }
+    },
+    "tryAwait__Lscala_concurrent_duration_Duration__": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["tryAwait__Lscala_concurrent_duration_Duration__Z"]
+      }
+    }
+  }
+}

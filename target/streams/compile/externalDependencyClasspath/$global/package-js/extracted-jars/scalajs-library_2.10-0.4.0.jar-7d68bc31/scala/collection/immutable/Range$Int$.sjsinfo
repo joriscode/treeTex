@@ -1,0 +1,42 @@
+{
+  "name": "scala.collection.immutable.Range$Int$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Range$Int$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_Range$Int$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__I__I__I__Lscala_collection_immutable_NumericRange$Exclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["apply__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Exclusive"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange", "scala_math_Numeric$IntIsIntegral"]
+    },
+    "inclusive__I__I__I__Lscala_collection_immutable_NumericRange$Inclusive": {
+      "calledMethods": {
+        "scala_collection_immutable_NumericRange$": ["inclusive__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Inclusive"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange", "scala_math_Numeric$IntIsIntegral"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "inclusive__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$Int$": ["inclusive__I__I__I__Lscala_collection_immutable_NumericRange$Inclusive"]
+      }
+    },
+    "apply__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Range$Int$": ["apply__I__I__I__Lscala_collection_immutable_NumericRange$Exclusive"]
+      }
+    }
+  }
+}

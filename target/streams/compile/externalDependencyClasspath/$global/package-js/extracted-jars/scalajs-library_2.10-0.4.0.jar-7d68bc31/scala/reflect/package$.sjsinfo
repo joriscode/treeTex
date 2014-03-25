@@ -1,0 +1,39 @@
+{
+  "name": "scala.reflect.package$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_reflect_package$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_reflect_package$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ClassManifest__Lscala_reflect_ClassManifestFactory$": {},
+    "Manifest__Lscala_reflect_ManifestFactory$": {},
+    "classTag__Lscala_reflect_ClassTag__Lscala_reflect_ClassTag": {},
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_reflect_ManifestFactory", "scala_reflect_ClassManifestFactory"]
+    },
+    "classTag__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_reflect_package$": ["classTag__Lscala_reflect_ClassTag__Lscala_reflect_ClassTag"]
+      }
+    },
+    "Manifest__": {
+      "calledMethods": {
+        "scala_reflect_package$": ["Manifest__Lscala_reflect_ManifestFactory$"]
+      }
+    },
+    "ClassManifest__": {
+      "calledMethods": {
+        "scala_reflect_package$": ["ClassManifest__Lscala_reflect_ClassManifestFactory$"]
+      }
+    }
+  }
+}

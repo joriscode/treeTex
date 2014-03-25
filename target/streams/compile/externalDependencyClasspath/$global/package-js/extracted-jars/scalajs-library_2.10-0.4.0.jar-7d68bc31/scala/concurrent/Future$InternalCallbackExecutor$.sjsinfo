@@ -1,0 +1,81 @@
+{
+  "name": "scala.concurrent.Future$InternalCallbackExecutor$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Future$InternalCallbackExecutor$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_Future$InternalCallbackExecutor$", "java_util_concurrent_Executor", "scala_concurrent_ExecutionContext", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "prepare__Lscala_concurrent_ExecutionContext": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$class": ["scala_concurrent_ExecutionContext$class__prepare__Lscala_concurrent_ExecutionContext__Lscala_concurrent_ExecutionContext"]
+      }
+    },
+    "reportFailure__Ljava_lang_Throwable__V": {
+      "calledMethods": {
+        "java_lang_IllegalStateException": ["init___T__Ljava_lang_Throwable"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalStateException"]
+    },
+    "scala$concurrent$Future$InternalCallbackExecutor$$$undtasksLocal__Ljava_lang_ThreadLocal": {},
+    "execute__Ljava_lang_Runnable__V": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_concurrent_Future$InternalCallbackExecutor$Batch": ["init___Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_concurrent_Future$InternalCallbackExecutor$": ["scala$concurrent$Future$InternalCallbackExecutor$$unbatchedExecute__Ljava_lang_Runnable__V", "scala$concurrent$Future$InternalCallbackExecutor$$$undtasksLocal__Ljava_lang_ThreadLocal"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List"],
+        "java_lang_ThreadLocal": ["set__O__V", "get__O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_concurrent_Future$InternalCallbackExecutor$Batch"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_concurrent_OnCompleteRunnable", "scala_collection_immutable_List", "java_lang_Runnable", "java_lang_Object"]
+    },
+    "scala$concurrent$Future$InternalCallbackExecutor$$unbatchedExecute__Ljava_lang_Runnable__V": {
+      "calledMethods": {
+        "java_lang_Runnable": ["run__V"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$class": ["scala_concurrent_ExecutionContext$class__$init$__Lscala_concurrent_ExecutionContext__V"],
+        "java_lang_ThreadLocal": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ThreadLocal"]
+    },
+    "prepare__": {
+      "calledMethods": {
+        "scala_concurrent_Future$InternalCallbackExecutor$": ["prepare__Lscala_concurrent_ExecutionContext"]
+      }
+    },
+    "scala$concurrent$Future$InternalCallbackExecutor$$unbatchedExecute__Ljava_lang_Runnable__": {
+      "calledMethods": {
+        "scala_concurrent_Future$InternalCallbackExecutor$": ["scala$concurrent$Future$InternalCallbackExecutor$$unbatchedExecute__Ljava_lang_Runnable__V"]
+      }
+    },
+    "execute__Ljava_lang_Runnable__": {
+      "calledMethods": {
+        "scala_concurrent_Future$InternalCallbackExecutor$": ["execute__Ljava_lang_Runnable__V"]
+      }
+    },
+    "scala$concurrent$Future$InternalCallbackExecutor$$$undtasksLocal__": {
+      "calledMethods": {
+        "scala_concurrent_Future$InternalCallbackExecutor$": ["scala$concurrent$Future$InternalCallbackExecutor$$$undtasksLocal__Ljava_lang_ThreadLocal"]
+      }
+    },
+    "reportFailure__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_concurrent_Future$InternalCallbackExecutor$": ["reportFailure__Ljava_lang_Throwable__V"]
+      }
+    }
+  }
+}

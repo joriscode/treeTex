@@ -1,0 +1,118 @@
+{
+  "name": "scala.xml.pull.EvElemEnd",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_pull_EvElemEnd",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_pull_EvElemEnd", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_xml_pull_XMLEvent", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pre__T": {},
+    "label__T": {},
+    "copy__T__T__Lscala_xml_pull_EvElemEnd": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["init___T__T"]
+      },
+      "instantiatedClasses": ["scala_xml_pull_EvElemEnd"]
+    },
+    "copy$default$1__T": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["pre__T"]
+      }
+    },
+    "copy$default$2__T": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["label__T"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"],
+        "scala_xml_pull_EvElemEnd": ["pre__T", "label__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_xml_pull_EvElemEnd"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["pre__T", "canEqual__O__Z", "label__T"]
+      },
+      "accessedClassData": ["scala_xml_pull_EvElemEnd"]
+    },
+    "init___T__T": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["productPrefix__T"]
+      }
+    },
+    "copy__T__T__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["copy__T__T__Lscala_xml_pull_EvElemEnd"]
+      }
+    },
+    "label__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["label__T"]
+      }
+    },
+    "pre__": {
+      "calledMethods": {
+        "scala_xml_pull_EvElemEnd": ["pre__T"]
+      }
+    }
+  }
+}

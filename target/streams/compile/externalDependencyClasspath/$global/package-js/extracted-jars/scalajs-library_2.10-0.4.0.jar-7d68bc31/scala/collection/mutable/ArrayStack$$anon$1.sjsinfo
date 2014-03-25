@@ -1,0 +1,38 @@
+{
+  "name": "scala.collection.mutable.ArrayStack$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayStack$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_mutable_ArrayStack$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "currentIndex__p2__I": {},
+    "currentIndex$und$eq__p2__I__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack$$anon$1": ["currentIndex__p2__I"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayStack$$anon$1": ["currentIndex$und$eq__p2__I__V", "currentIndex__p2__I"],
+        "scala_collection_mutable_ArrayStack": ["scala$collection$mutable$ArrayStack$$table__AO"]
+      }
+    },
+    "init___Lscala_collection_mutable_ArrayStack": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_mutable_ArrayStack": ["scala$collection$mutable$ArrayStack$$index__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

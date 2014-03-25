@@ -1,0 +1,99 @@
+{
+  "name": "scala.xml.include.sax.Main$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_include_sax_Main$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_include_sax_Main$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "namespacePrefixes__p1__T": {},
+    "scala$xml$include$sax$Main$$lexicalHandler__T": {},
+    "main__AT__V": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray", "augmentString__T__T"],
+        "scala_collection_mutable_ArrayOps": ["foreach__Lscala_Function1__V", "drop__I__O", "isEmpty__Z"],
+        "org_xml_sax_helpers_XMLReaderFactory$": ["createXMLReader__Lorg_xml_sax_XMLReader"],
+        "scala_Option": ["orElse__Lscala_Function0__Lscala_Option", "map__Lscala_Function1__Lscala_Option", "getOrElse__Lscala_Function0__O"],
+        "java_lang_Class": ["newInstance__O"],
+        "scala_collection_immutable_StringOps": ["init___T", "format__Lscala_collection_Seq__T"],
+        "java_lang_Object": ["init___"],
+        "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$4": ["init___Lscala_xml_include_sax_Main$$anonfun$main$1__Lscala_xml_include_sax_XIncludeFilter"],
+        "org_xml_sax_XMLReader": ["setFeature__T__Z__V", "setEntityResolver__Lorg_xml_sax_EntityResolver__V"],
+        "scala_runtime_NonLocalReturnControl": ["value$mcV$sp__V", "key__O"],
+        "scala_xml_include_sax_XIncludeFilter": ["setContentHandler__Lorg_xml_sax_ContentHandler__V", "init___", "setParent__Lorg_xml_sax_XMLReader__V", "parse__T__V"],
+        "java_io_PrintStream": ["println__O__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "org_xml_sax_SAXParseException": ["getSystemId__T", "getLineNumber__I", "toString__T"],
+        "scala_xml_include_sax_XIncluder": ["init___Ljava_io_OutputStream__T"],
+        "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$1": ["init___Lscala_xml_include_sax_Main$$anonfun$main$1__Lscala_xml_include_sax_XIncludeFilter__Lscala_xml_include_sax_XIncluder"],
+        "scala_xml_include_sax_Main$$anonfun$2": ["init___O"],
+        "java_lang_Class$": ["forName__T__Ljava_lang_Class"],
+        "scala_runtime_NonLocalReturnControl$mcV$sp": ["init___O__Lscala_runtime_BoxedUnit"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_xml_include_sax_Main$": ["scala$xml$include$sax$Main$$saxe$1__Lscala_Function0__Lscala_Option", "scala$xml$include$sax$Main$$fail$1__T__V", "dashR$1__p1__AT__Z", "namespacePrefixes__p1__T"],
+        "java_lang_System$": ["out__Ljava_io_PrintStream", "err__Ljava_io_PrintStream"],
+        "scala_util_control_Exception$Catch": ["opt__Lscala_Function0__Lscala_Option", "apply__Lscala_Function0__O"],
+        "scala_util_control_Exception$": ["catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch", "ignoring__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "org_xml_sax_SAXException": ["toString__T"]
+      },
+      "instantiatedClasses": ["scala_xml_include_sax_XIncluder", "scala_collection_immutable_StringOps", "scala_scalajs_runtime_AnonFunction0", "scala_xml_include_sax_XIncludeFilter", "java_lang_Object", "scala_runtime_NonLocalReturnControl$mcV$sp", "scala_scalajs_runtime_AnonFunction1", "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$4", "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$1", "scala_xml_include_sax_Main$$anonfun$2"],
+      "accessedModules": ["scala_Predef", "scala_util_control_Exception", "scala_None", "java_lang_System", "org_xml_sax_helpers_XMLReaderFactory", "java_lang_Class", "scala_xml_include_sax_Main", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_Exception", "org_xml_sax_SAXException", "org_xml_sax_SAXParseException", "java_lang_Object", "org_xml_sax_EntityResolver", "org_xml_sax_XMLReader", "scala_runtime_NonLocalReturnControl", "java_lang_Class", "java_lang_String"]
+    },
+    "scala$xml$include$sax$Main$$saxe$1__Lscala_Function0__Lscala_Option": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_util_control_Exception$": ["catching__Lscala_collection_Seq__Lscala_util_control_Exception$Catch"],
+        "scala_util_control_Exception$Catch": ["opt__Lscala_Function0__Lscala_Option"]
+      },
+      "accessedModules": ["scala_util_control_Exception", "scala_Predef"],
+      "accessedClassData": ["org_xml_sax_SAXException", "java_lang_Object", "java_lang_Class"]
+    },
+    "scala$xml$include$sax$Main$$fail$1__T__V": {
+      "calledMethods": {
+        "java_lang_System$": ["err__Ljava_io_PrintStream"],
+        "java_io_PrintStream": ["println__T__V"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "dashR$1__p1__AT__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["size__I"],
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "scala$xml$include$sax$Main$$fail$1__T__": {
+      "calledMethods": {
+        "scala_xml_include_sax_Main$": ["scala$xml$include$sax$Main$$fail$1__T__V"]
+      }
+    },
+    "scala$xml$include$sax$Main$$saxe$1__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_xml_include_sax_Main$": ["scala$xml$include$sax$Main$$saxe$1__Lscala_Function0__Lscala_Option"]
+      }
+    },
+    "main__AT__": {
+      "calledMethods": {
+        "scala_xml_include_sax_Main$": ["main__AT__V"]
+      }
+    },
+    "scala$xml$include$sax$Main$$lexicalHandler__": {
+      "calledMethods": {
+        "scala_xml_include_sax_Main$": ["scala$xml$include$sax$Main$$lexicalHandler__T"]
+      }
+    }
+  }
+}

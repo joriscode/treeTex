@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.generic.AtomicIndexFlag$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_AtomicIndexFlag$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_generic_AtomicIndexFlag$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_generic_AtomicIndexFlag$class__indexFlag__Lscala_collection_generic_AtomicIndexFlag__I": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["get__I"],
+        "scala_collection_generic_AtomicIndexFlag": ["scala$collection$generic$AtomicIndexFlag$$intflag__Ljava_util_concurrent_atomic_AtomicInteger"]
+      }
+    },
+    "scala_collection_generic_AtomicIndexFlag$class__setIndexFlag__Lscala_collection_generic_AtomicIndexFlag__I__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["set__I__V"],
+        "scala_collection_generic_AtomicIndexFlag": ["scala$collection$generic$AtomicIndexFlag$$intflag__Ljava_util_concurrent_atomic_AtomicInteger"]
+      }
+    },
+    "scala_collection_generic_AtomicIndexFlag$class__setIndexFlagIfGreater__Lscala_collection_generic_AtomicIndexFlag__I__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["compareAndSet__I__I__Z", "get__I"],
+        "scala_collection_generic_AtomicIndexFlag": ["scala$collection$generic$AtomicIndexFlag$$intflag__Ljava_util_concurrent_atomic_AtomicInteger"]
+      }
+    },
+    "scala_collection_generic_AtomicIndexFlag$class__setIndexFlagIfLesser__Lscala_collection_generic_AtomicIndexFlag__I__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["compareAndSet__I__I__Z", "get__I"],
+        "scala_collection_generic_AtomicIndexFlag": ["scala$collection$generic$AtomicIndexFlag$$intflag__Ljava_util_concurrent_atomic_AtomicInteger"]
+      }
+    },
+    "scala_collection_generic_AtomicIndexFlag$class__$init$__Lscala_collection_generic_AtomicIndexFlag__V": {
+      "calledMethods": {
+        "java_util_concurrent_atomic_AtomicInteger": ["init___I"],
+        "scala_collection_generic_AtomicIndexFlag": ["scala$collection$generic$AtomicIndexFlag$$undsetter$und$scala$collection$generic$AtomicIndexFlag$$intflag$und$eq__Ljava_util_concurrent_atomic_AtomicInteger__V"]
+      },
+      "instantiatedClasses": ["java_util_concurrent_atomic_AtomicInteger"]
+    }
+  }
+}

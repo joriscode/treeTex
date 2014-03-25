@@ -1,0 +1,92 @@
+{
+  "name": "scala.xml.Attribute$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_Attribute$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_Attribute$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "unapply__Lscala_xml_Attribute__Lscala_Option": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_Tuple3": ["$$und3__O", "init___O__O__O", "$$und1__O", "$$und2__O"],
+        "scala_Some": ["init___O"],
+        "scala_xml_UnprefixedAttribute$": ["unapply__Lscala_xml_UnprefixedAttribute__Lscala_Some"],
+        "scala_xml_PrefixedAttribute$": ["unapply__Lscala_xml_PrefixedAttribute__Lscala_Some"],
+        "scala_Tuple4": ["$$und3__O", "$$und4__O", "$$und2__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple3", "scala_Some"],
+      "accessedModules": ["scala_xml_UnprefixedAttribute", "scala_xml_PrefixedAttribute", "scala_None"],
+      "accessedClassData": ["scala_xml_UnprefixedAttribute", "scala_xml_PrefixedAttribute", "scala_Tuple3", "scala_xml_MetaData", "scala_collection_Seq", "java_lang_String", "scala_Tuple4"]
+    },
+    "apply__T__Lscala_collection_Seq__Lscala_xml_MetaData__Lscala_xml_Attribute": {
+      "calledMethods": {
+        "scala_xml_UnprefixedAttribute": ["init___T__Lscala_collection_Seq__Lscala_xml_MetaData"]
+      },
+      "instantiatedClasses": ["scala_xml_UnprefixedAttribute"]
+    },
+    "apply__T__T__T__Lscala_xml_MetaData__Lscala_xml_Attribute": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["init___T__T__T__Lscala_xml_MetaData"],
+        "scala_xml_UnprefixedAttribute": ["init___T__T__Lscala_xml_MetaData"]
+      },
+      "instantiatedClasses": ["scala_xml_UnprefixedAttribute", "scala_xml_PrefixedAttribute"]
+    },
+    "apply__T__T__Lscala_collection_Seq__Lscala_xml_MetaData__Lscala_xml_Attribute": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["init___T__T__Lscala_collection_Seq__Lscala_xml_MetaData"],
+        "scala_xml_UnprefixedAttribute": ["init___T__Lscala_collection_Seq__Lscala_xml_MetaData"]
+      },
+      "instantiatedClasses": ["scala_xml_UnprefixedAttribute", "scala_xml_PrefixedAttribute"]
+    },
+    "apply__Lscala_Option__T__Lscala_collection_Seq__Lscala_xml_MetaData__Lscala_xml_Attribute": {
+      "calledMethods": {
+        "scala_xml_PrefixedAttribute": ["init___T__T__Lscala_collection_Seq__Lscala_xml_MetaData"],
+        "scala_MatchError": ["init___O"],
+        "scala_Some": ["x__O"],
+        "scala_xml_UnprefixedAttribute": ["init___T__Lscala_collection_Seq__Lscala_xml_MetaData"]
+      },
+      "instantiatedClasses": ["scala_xml_UnprefixedAttribute", "scala_MatchError", "scala_xml_PrefixedAttribute"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Some", "java_lang_String"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_xml_Attribute"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_Option__T__Lscala_collection_Seq__Lscala_xml_MetaData__": {
+      "calledMethods": {
+        "scala_xml_Attribute$": ["apply__Lscala_Option__T__Lscala_collection_Seq__Lscala_xml_MetaData__Lscala_xml_Attribute"]
+      }
+    },
+    "apply__T__T__Lscala_collection_Seq__Lscala_xml_MetaData__": {
+      "calledMethods": {
+        "scala_xml_Attribute$": ["apply__T__T__Lscala_collection_Seq__Lscala_xml_MetaData__Lscala_xml_Attribute"]
+      }
+    },
+    "apply__T__T__T__Lscala_xml_MetaData__": {
+      "calledMethods": {
+        "scala_xml_Attribute$": ["apply__T__T__T__Lscala_xml_MetaData__Lscala_xml_Attribute"]
+      }
+    },
+    "apply__T__Lscala_collection_Seq__Lscala_xml_MetaData__": {
+      "calledMethods": {
+        "scala_xml_Attribute$": ["apply__T__Lscala_collection_Seq__Lscala_xml_MetaData__Lscala_xml_Attribute"]
+      }
+    },
+    "unapply__Lscala_xml_Attribute__": {
+      "calledMethods": {
+        "scala_xml_Attribute$": ["unapply__Lscala_xml_Attribute__Lscala_Option"]
+      }
+    }
+  }
+}

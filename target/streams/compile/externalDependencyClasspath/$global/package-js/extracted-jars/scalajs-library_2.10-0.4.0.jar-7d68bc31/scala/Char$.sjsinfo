@@ -1,0 +1,84 @@
+{
+  "name": "scala.Char$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Char$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Char$", "scala_AnyValCompanion", "scala_Specializable", "scala_SpecializableCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "MinValue__C": {},
+    "MaxValue__C": {},
+    "box__C__Ljava_lang_Character": {
+      "calledMethods": {
+        "java_lang_Character$": ["valueOf__C__Ljava_lang_Character"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "unbox__O__C": {
+      "calledMethods": {
+        "java_lang_Character": ["charValue__C"]
+      },
+      "accessedClassData": ["java_lang_Character"]
+    },
+    "toString__T": {},
+    "char2int__C__I": {},
+    "char2long__C__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromChar__C__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "char2float__C__F": {},
+    "char2double__C__D": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "char2double__C__": {
+      "calledMethods": {
+        "scala_Char$": ["char2double__C__D"]
+      }
+    },
+    "char2float__C__": {
+      "calledMethods": {
+        "scala_Char$": ["char2float__C__F"]
+      }
+    },
+    "char2long__C__": {
+      "calledMethods": {
+        "scala_Char$": ["char2long__C__J"]
+      }
+    },
+    "char2int__C__": {
+      "calledMethods": {
+        "scala_Char$": ["char2int__C__I"]
+      }
+    },
+    "unbox__O__": {
+      "calledMethods": {
+        "scala_Char$": ["unbox__O__C"]
+      }
+    },
+    "box__C__": {
+      "calledMethods": {
+        "scala_Char$": ["box__C__Ljava_lang_Character"]
+      }
+    },
+    "MaxValue__": {
+      "calledMethods": {
+        "scala_Char$": ["MaxValue__C"]
+      }
+    },
+    "MinValue__": {
+      "calledMethods": {
+        "scala_Char$": ["MinValue__C"]
+      }
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "name": "scala.Option",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Option",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Option", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__productIterator__Lscala_Product__Lscala_collection_Iterator"]
+      }
+    },
+    "productPrefix__T": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__productPrefix__Lscala_Product__T"]
+      }
+    },
+    "isEmpty__Z": {
+      "isAbstract": true
+    },
+    "isDefined__Z": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z"]
+      }
+    },
+    "get__O": {
+      "isAbstract": true
+    },
+    "getOrElse__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "orNull__Lscala_Predef$$less$colon$less__O": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Predef$$less$colon$less": ["apply__O__O"],
+        "scala_Option": ["getOrElse__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "map__Lscala_Function1__Lscala_Option": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Some": ["init___O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "fold__Lscala_Function0__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "flatMap__Lscala_Function1__Lscala_Option": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      },
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Option"]
+    },
+    "flatten__Lscala_Predef$$less$colon$less__Lscala_Option": {
+      "calledMethods": {
+        "scala_Predef$$less$colon$less": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      },
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_Option"]
+    },
+    "filter__Lscala_Function1__Lscala_Option": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "filterNot__Lscala_Function1__Lscala_Option": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "nonEmpty__Z": {
+      "calledMethods": {
+        "scala_Option": ["isDefined__Z"]
+      }
+    },
+    "withFilter__Lscala_Function1__Lscala_Option$WithFilter": {
+      "calledMethods": {
+        "scala_Option$WithFilter": ["init___Lscala_Option__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_Option$WithFilter"]
+    },
+    "exists__Lscala_Function1__Z": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      }
+    },
+    "forall__Lscala_Function1__Z": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      }
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      }
+    },
+    "collect__Lscala_PartialFunction__Lscala_Option": {
+      "calledMethods": {
+        "scala_PartialFunction": ["isDefinedAt__O__Z", "apply__O__O"],
+        "scala_Some": ["init___O"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "orElse__Lscala_Function0__Lscala_Option": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedClassData": ["scala_Option"]
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["single__O__Lscala_collection_Iterator", "empty__Lscala_collection_Iterator"],
+        "scala_Option": ["isEmpty__Z", "get__O"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "toList__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_collection_immutable_$colon$colon": ["init___O__Lscala_collection_immutable_List"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_$colon$colon"],
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "toRight__Lscala_Function0__Lscala_util_Either": {
+      "calledMethods": {
+        "scala_util_Right$": ["apply__O__Lscala_util_Right"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_package$": ["Left__Lscala_util_Left$", "Right__Lscala_util_Right$"],
+        "scala_util_Left$": ["apply__O__Lscala_util_Left"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_package"]
+    },
+    "toLeft__Lscala_Function0__Lscala_util_Either": {
+      "calledMethods": {
+        "scala_util_Right$": ["apply__O__Lscala_util_Right"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_package$": ["Left__Lscala_util_Left$", "Right__Lscala_util_Right$"],
+        "scala_util_Left$": ["apply__O__Lscala_util_Left"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_package"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_Option": ["productPrefix__T"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_Option": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "toLeft__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_Option": ["toLeft__Lscala_Function0__Lscala_util_Either"]
+      }
+    },
+    "toRight__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_Option": ["toRight__Lscala_Function0__Lscala_util_Either"]
+      }
+    },
+    "toList__": {
+      "calledMethods": {
+        "scala_Option": ["toList__Lscala_collection_immutable_List"]
+      }
+    },
+    "iterator__": {
+      "calledMethods": {
+        "scala_Option": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "orElse__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_Option": ["orElse__Lscala_Function0__Lscala_Option"]
+      }
+    },
+    "collect__Lscala_PartialFunction__": {
+      "calledMethods": {
+        "scala_Option": ["collect__Lscala_PartialFunction__Lscala_Option"]
+      }
+    },
+    "foreach__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["foreach__Lscala_Function1__V"]
+      }
+    },
+    "forall__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["forall__Lscala_Function1__Z"]
+      }
+    },
+    "exists__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["exists__Lscala_Function1__Z"]
+      }
+    },
+    "withFilter__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["withFilter__Lscala_Function1__Lscala_Option$WithFilter"]
+      }
+    },
+    "nonEmpty__": {
+      "calledMethods": {
+        "scala_Option": ["nonEmpty__Z"]
+      }
+    },
+    "filterNot__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["filterNot__Lscala_Function1__Lscala_Option"]
+      }
+    },
+    "filter__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["filter__Lscala_Function1__Lscala_Option"]
+      }
+    },
+    "flatten__Lscala_Predef$$less$colon$less__": {
+      "calledMethods": {
+        "scala_Option": ["flatten__Lscala_Predef$$less$colon$less__Lscala_Option"]
+      }
+    },
+    "flatMap__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["flatMap__Lscala_Function1__Lscala_Option"]
+      }
+    },
+    "fold__Lscala_Function0__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["fold__Lscala_Function0__Lscala_Function1__O"]
+      }
+    },
+    "map__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Option": ["map__Lscala_Function1__Lscala_Option"]
+      }
+    },
+    "orNull__Lscala_Predef$$less$colon$less__": {
+      "calledMethods": {
+        "scala_Option": ["orNull__Lscala_Predef$$less$colon$less__O"]
+      }
+    },
+    "getOrElse__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_Option": ["getOrElse__Lscala_Function0__O"]
+      }
+    },
+    "isDefined__": {
+      "calledMethods": {
+        "scala_Option": ["isDefined__Z"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "scala_Option": ["get__O"]
+      }
+    },
+    "isEmpty__": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_Product": ["productArity__I"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_Product": ["productElement__I__O"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_Equals": ["canEqual__O__Z"]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "scala.util.Try$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Try$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Try$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_Function0__Lscala_util_Try": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_util_Success": ["init___O"],
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"],
+        "scala_util_Failure": ["init___Ljava_lang_Throwable"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_util_Success", "scala_util_Failure"],
+      "accessedModules": ["scala_util_control_NonFatal"],
+      "accessedClassData": ["java_lang_Throwable"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_Try$": ["apply__Lscala_Function0__Lscala_util_Try"]
+      }
+    }
+  }
+}

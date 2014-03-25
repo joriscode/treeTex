@@ -1,0 +1,35 @@
+{
+  "name": "scala.sys.process.ProcessBuilderImpl$Dummy",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessBuilderImpl$Dummy",
+  "superClass": "scala_sys_process_ProcessBuilderImpl$AbstractBuilder",
+  "ancestors": ["scala_sys_process_ProcessBuilderImpl$Dummy", "scala_sys_process_ProcessBuilderImpl$AbstractBuilder", "scala_sys_process_ProcessBuilder", "scala_sys_process_ProcessBuilder$Sink", "scala_sys_process_ProcessBuilder$Source", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$DummyProcess": ["init___Lscala_sys_process_Process$__Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessImpl$DummyProcess"],
+      "accessedModules": ["scala_sys_process_Process"]
+    },
+    "canPipeTo__Z": {},
+    "scala$sys$process$ProcessBuilderImpl$Dummy$$$outer__Lscala_sys_process_ProcessBuilder$": {},
+    "init___Lscala_sys_process_ProcessBuilder$__T__Lscala_Function0": {
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["init___Lscala_sys_process_ProcessBuilder$"]
+      }
+    },
+    "scala$sys$process$ProcessBuilderImpl$Dummy$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$Dummy": ["scala$sys$process$ProcessBuilderImpl$Dummy$$$outer__Lscala_sys_process_ProcessBuilder$"]
+      }
+    }
+  }
+}

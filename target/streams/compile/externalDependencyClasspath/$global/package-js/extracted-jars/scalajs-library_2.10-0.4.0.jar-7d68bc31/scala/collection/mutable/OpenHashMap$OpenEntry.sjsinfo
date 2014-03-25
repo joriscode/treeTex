@@ -1,0 +1,59 @@
+{
+  "name": "scala.collection.mutable.OpenHashMap$OpenEntry",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_OpenHashMap$OpenEntry",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_OpenHashMap$OpenEntry", "scala_collection_mutable_HashEntry", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "next__O": {},
+    "next$und$eq__O__V": {},
+    "key__O": {},
+    "hash__I": {},
+    "value__Lscala_Option": {},
+    "value$und$eq__Lscala_Option__V": {},
+    "init___O__I__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_mutable_HashEntry$class": ["scala_collection_mutable_HashEntry$class__$init$__Lscala_collection_mutable_HashEntry__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "next$und$eq__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["next$und$eq__O__V"]
+      }
+    },
+    "next__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["next__O"]
+      }
+    },
+    "value$und$eq__Lscala_Option__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value$und$eq__Lscala_Option__V"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option"]
+      }
+    },
+    "hash__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["hash__I"]
+      }
+    },
+    "key__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["key__O"]
+      }
+    }
+  }
+}

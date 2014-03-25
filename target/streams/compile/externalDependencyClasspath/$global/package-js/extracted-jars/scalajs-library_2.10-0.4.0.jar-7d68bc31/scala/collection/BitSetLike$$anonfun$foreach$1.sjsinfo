@@ -1,0 +1,52 @@
+{
+  "name": "scala.collection.BitSetLike$$anonfun$foreach$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_BitSetLike$$anonfun$foreach$1",
+  "superClass": "scala_runtime_AbstractFunction1$mcVI$sp",
+  "ancestors": ["scala_collection_BitSetLike$$anonfun$foreach$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1$mcVI$sp", "scala_Function1$mcVI$sp", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__I__V": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$$anonfun$foreach$1": ["apply$mcVI$sp__I__V"]
+      }
+    },
+    "apply$mcVI$sp__I__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_BitSetLike": ["word__I__J"],
+        "scala_collection_BitSetLike$": ["scala$collection$BitSetLike$$WordLength__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_Long": ["$$less$less__I__Lscala_scalajs_runtime_Long", "$$amp__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "notEquals__O__Z"],
+        "scala_collection_immutable_Range": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long", "fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_scalajs_runtime_Long", "scala_collection_BitSetLike", "scala_runtime_BoxedUnit"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_BitSetLike$$anonfun$foreach$1": ["apply__I__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "init___Lscala_collection_BitSetLike__Lscala_Function1": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1$mcVI$sp": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

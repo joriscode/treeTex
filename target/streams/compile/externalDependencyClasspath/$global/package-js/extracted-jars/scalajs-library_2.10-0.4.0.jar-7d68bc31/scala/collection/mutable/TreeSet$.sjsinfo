@@ -1,0 +1,34 @@
+{
+  "name": "scala.collection.mutable.TreeSet$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_TreeSet$",
+  "superClass": "scala_collection_generic_MutableSortedSetFactory",
+  "ancestors": ["scala_collection_mutable_TreeSet$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_MutableSortedSetFactory", "scala_collection_generic_SortedSetFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "empty__Lscala_math_Ordering__Lscala_collection_mutable_TreeSet": {
+      "calledMethods": {
+        "scala_collection_mutable_TreeSet": ["init___Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_TreeSet"]
+    },
+    "readResolve__p3__O": {
+      "accessedModules": ["scala_collection_mutable_TreeSet"]
+    },
+    "empty__Lscala_math_Ordering__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_mutable_TreeSet$": ["empty__Lscala_math_Ordering__Lscala_collection_mutable_TreeSet"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_MutableSortedSetFactory": ["init___"]
+      }
+    }
+  }
+}

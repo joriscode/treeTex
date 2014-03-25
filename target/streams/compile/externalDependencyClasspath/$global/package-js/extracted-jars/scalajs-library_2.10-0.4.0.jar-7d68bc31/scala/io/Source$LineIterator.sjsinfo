@@ -1,0 +1,87 @@
+{
+  "name": "scala.io.Source$LineIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_Source$LineIterator",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_io_Source$LineIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "iter$lzycompute__p2__Lscala_collection_BufferedIterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["buffered__Lscala_collection_BufferedIterator"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_io_Source$LineIterator": ["scala$io$Source$LineIterator$$$outer__Lscala_io_Source"],
+        "scala_io_Source": ["iter__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "iter__Lscala_collection_BufferedIterator": {
+      "calledMethods": {
+        "scala_io_Source$LineIterator": ["iter$lzycompute__p2__Lscala_collection_BufferedIterator"]
+      }
+    },
+    "isNewline__C__Z": {},
+    "getc__Z": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_io_Source$LineIterator": ["iter__Lscala_collection_BufferedIterator"],
+        "scala_collection_mutable_StringBuilder": ["append__C__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_BufferedIterator": ["head__O", "hasNext__Z", "next__O"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_io_Source$LineIterator": ["iter__Lscala_collection_BufferedIterator"],
+        "scala_collection_BufferedIterator": ["hasNext__Z"]
+      }
+    },
+    "next__T": {
+      "calledMethods": {
+        "scala_io_Source$LineIterator": ["getc__Z"],
+        "scala_collection_mutable_StringBuilder": ["toString__T", "clear__V"]
+      }
+    },
+    "scala$io$Source$LineIterator$$$outer__Lscala_io_Source": {},
+    "next__O": {
+      "calledMethods": {
+        "scala_io_Source$LineIterator": ["next__T"]
+      }
+    },
+    "init___Lscala_io_Source": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_mutable_StringBuilder": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_StringBuilder", "java_lang_NullPointerException"]
+    },
+    "scala$io$Source$LineIterator$$$outer__": {
+      "calledMethods": {
+        "scala_io_Source$LineIterator": ["scala$io$Source$LineIterator$$$outer__Lscala_io_Source"]
+      }
+    },
+    "getc__": {
+      "calledMethods": {
+        "scala_io_Source$LineIterator": ["getc__Z"]
+      }
+    },
+    "isNewline__C__": {
+      "calledMethods": {
+        "scala_io_Source$LineIterator": ["isNewline__C__Z"]
+      }
+    },
+    "iter__": {
+      "calledMethods": {
+        "scala_io_Source$LineIterator": ["iter__Lscala_collection_BufferedIterator"]
+      }
+    }
+  }
+}

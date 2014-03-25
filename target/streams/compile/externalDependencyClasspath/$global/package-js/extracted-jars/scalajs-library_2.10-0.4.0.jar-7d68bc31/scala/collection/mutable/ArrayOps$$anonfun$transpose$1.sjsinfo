@@ -1,0 +1,39 @@
+{
+  "name": "scala.collection.mutable.ArrayOps$$anonfun$transpose$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayOps$$anonfun$transpose$1",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_collection_mutable_ArrayOps$$anonfun$transpose$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__O__V": {
+      "calledMethods": {
+        "scala_Predef$": ["genericArrayOps__O__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["foreach__Lscala_Function1__V"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_collection_mutable_ArrayBuilder": ["$$plus$eq__O__Lscala_collection_mutable_Builder"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$$anonfun$transpose$1": ["apply__O__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "init___Lscala_collection_mutable_ArrayOps__ALscala_collection_mutable_ArrayBuilder__Lscala_Function1": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    }
+  }
+}

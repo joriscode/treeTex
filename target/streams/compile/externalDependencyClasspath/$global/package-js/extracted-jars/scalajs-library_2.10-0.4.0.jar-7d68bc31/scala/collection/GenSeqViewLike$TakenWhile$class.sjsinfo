@@ -1,0 +1,35 @@
+{
+  "name": "scala.collection.GenSeqViewLike$TakenWhile$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqViewLike$TakenWhile$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqViewLike$TakenWhile$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqViewLike$TakenWhile$class__len__Lscala_collection_GenSeqViewLike$TakenWhile__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$TakenWhile": ["scala$collection$GenSeqViewLike$TakenWhile$$$outer__Lscala_collection_GenSeqViewLike", "pred__Lscala_Function1"],
+        "scala_collection_GenSeqViewLike": ["prefixLength__Lscala_Function1__I"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$TakenWhile$class__length__Lscala_collection_GenSeqViewLike$TakenWhile__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$TakenWhile": ["len__I"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$TakenWhile$class__apply__Lscala_collection_GenSeqViewLike$TakenWhile__I__O": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$TakenWhile": ["len__I", "scala$collection$GenSeqViewLike$TakenWhile$$$outer__Lscala_collection_GenSeqViewLike"],
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_GenSeqViewLike": ["apply__I__O"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "scala_collection_GenSeqViewLike$TakenWhile$class__$init$__Lscala_collection_GenSeqViewLike$TakenWhile__V": {}
+  }
+}

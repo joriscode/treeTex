@@ -1,0 +1,512 @@
+{
+  "name": "scala.scalajs.js.Any$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_scalajs_js_Any$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_scalajs_js_Any$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "fromLong__J__Lscala_scalajs_js_Number": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D"]
+      }
+    },
+    "fromArray__O__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O", "array$undlength__O__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "toArray__Lscala_scalajs_js_Array__Lscala_reflect_ClassTag__O": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undupdate__O__I__O__V"],
+        "scala_reflect_ClassTag": ["newArray__I__O"],
+        "scala_scalajs_js_Any$": ["richDouble__Lscala_scalajs_js_Number__D"],
+        "scala_runtime_RichDouble": ["init___D", "toInt__I"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichDouble"],
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "fromTraversableOnce__Lscala_collection_TraversableOnce__Lscala_scalajs_js_Array": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "arrayOps__Lscala_scalajs_js_Array__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_Predef$": ["genericArrayOps__O__Lscala_collection_mutable_ArrayOps"],
+        "scala_scalajs_js_Any$": ["toArray__Lscala_scalajs_js_Array__Lscala_reflect_ClassTag__O"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "stringOps__Lscala_scalajs_js_String__T": {},
+    "richDouble__Lscala_scalajs_js_Number__D": {},
+    "richBoolean__Lscala_scalajs_js_Boolean__Z": {},
+    "toFunction0__Lscala_scalajs_js_Function0__Lscala_Function0": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "toFunction1__Lscala_scalajs_js_Function1__Lscala_Function1": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "toFunction2__Lscala_scalajs_js_Function2__Lscala_Function2": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"]
+    },
+    "toFunction3__Lscala_scalajs_js_Function3__Lscala_Function3": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3"]
+    },
+    "toFunction4__Lscala_scalajs_js_Function4__Lscala_Function4": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction4": ["init___Lscala_scalajs_js_Function4"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction4"]
+    },
+    "toFunction5__Lscala_scalajs_js_Function5__Lscala_Function5": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction5": ["init___Lscala_scalajs_js_Function5"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction5"]
+    },
+    "toFunction6__Lscala_scalajs_js_Function6__Lscala_Function6": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction6": ["init___Lscala_scalajs_js_Function6"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction6"]
+    },
+    "toFunction7__Lscala_scalajs_js_Function7__Lscala_Function7": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction7": ["init___Lscala_scalajs_js_Function7"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction7"]
+    },
+    "toFunction8__Lscala_scalajs_js_Function8__Lscala_Function8": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction8": ["init___Lscala_scalajs_js_Function8"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction8"]
+    },
+    "toFunction9__Lscala_scalajs_js_Function9__Lscala_Function9": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction9": ["init___Lscala_scalajs_js_Function9"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction9"]
+    },
+    "toFunction10__Lscala_scalajs_js_Function10__Lscala_Function10": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction10": ["init___Lscala_scalajs_js_Function10"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction10"]
+    },
+    "toFunction11__Lscala_scalajs_js_Function11__Lscala_Function11": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction11": ["init___Lscala_scalajs_js_Function11"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction11"]
+    },
+    "toFunction12__Lscala_scalajs_js_Function12__Lscala_Function12": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction12": ["init___Lscala_scalajs_js_Function12"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction12"]
+    },
+    "toFunction13__Lscala_scalajs_js_Function13__Lscala_Function13": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction13": ["init___Lscala_scalajs_js_Function13"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction13"]
+    },
+    "toFunction14__Lscala_scalajs_js_Function14__Lscala_Function14": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction14": ["init___Lscala_scalajs_js_Function14"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction14"]
+    },
+    "toFunction15__Lscala_scalajs_js_Function15__Lscala_Function15": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction15": ["init___Lscala_scalajs_js_Function15"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction15"]
+    },
+    "toFunction16__Lscala_scalajs_js_Function16__Lscala_Function16": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction16": ["init___Lscala_scalajs_js_Function16"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction16"]
+    },
+    "toFunction17__Lscala_scalajs_js_Function17__Lscala_Function17": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction17": ["init___Lscala_scalajs_js_Function17"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction17"]
+    },
+    "toFunction18__Lscala_scalajs_js_Function18__Lscala_Function18": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction18": ["init___Lscala_scalajs_js_Function18"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction18"]
+    },
+    "toFunction19__Lscala_scalajs_js_Function19__Lscala_Function19": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction19": ["init___Lscala_scalajs_js_Function19"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction19"]
+    },
+    "toFunction20__Lscala_scalajs_js_Function20__Lscala_Function20": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction20": ["init___Lscala_scalajs_js_Function20"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction20"]
+    },
+    "toFunction21__Lscala_scalajs_js_Function21__Lscala_Function21": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction21": ["init___Lscala_scalajs_js_Function21"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction21"]
+    },
+    "toFunction22__Lscala_scalajs_js_Function22__Lscala_Function22": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction22": ["init___Lscala_scalajs_js_Function22"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction22"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "toFunction22__Lscala_scalajs_js_Function22__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction22__Lscala_scalajs_js_Function22__Lscala_Function22"]
+      }
+    },
+    "toFunction21__Lscala_scalajs_js_Function21__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction21__Lscala_scalajs_js_Function21__Lscala_Function21"]
+      }
+    },
+    "toFunction20__Lscala_scalajs_js_Function20__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction20__Lscala_scalajs_js_Function20__Lscala_Function20"]
+      }
+    },
+    "toFunction19__Lscala_scalajs_js_Function19__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction19__Lscala_scalajs_js_Function19__Lscala_Function19"]
+      }
+    },
+    "toFunction18__Lscala_scalajs_js_Function18__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction18__Lscala_scalajs_js_Function18__Lscala_Function18"]
+      }
+    },
+    "toFunction17__Lscala_scalajs_js_Function17__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction17__Lscala_scalajs_js_Function17__Lscala_Function17"]
+      }
+    },
+    "toFunction16__Lscala_scalajs_js_Function16__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction16__Lscala_scalajs_js_Function16__Lscala_Function16"]
+      }
+    },
+    "toFunction15__Lscala_scalajs_js_Function15__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction15__Lscala_scalajs_js_Function15__Lscala_Function15"]
+      }
+    },
+    "toFunction14__Lscala_scalajs_js_Function14__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction14__Lscala_scalajs_js_Function14__Lscala_Function14"]
+      }
+    },
+    "toFunction13__Lscala_scalajs_js_Function13__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction13__Lscala_scalajs_js_Function13__Lscala_Function13"]
+      }
+    },
+    "toFunction12__Lscala_scalajs_js_Function12__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction12__Lscala_scalajs_js_Function12__Lscala_Function12"]
+      }
+    },
+    "toFunction11__Lscala_scalajs_js_Function11__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction11__Lscala_scalajs_js_Function11__Lscala_Function11"]
+      }
+    },
+    "toFunction10__Lscala_scalajs_js_Function10__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction10__Lscala_scalajs_js_Function10__Lscala_Function10"]
+      }
+    },
+    "toFunction9__Lscala_scalajs_js_Function9__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction9__Lscala_scalajs_js_Function9__Lscala_Function9"]
+      }
+    },
+    "toFunction8__Lscala_scalajs_js_Function8__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction8__Lscala_scalajs_js_Function8__Lscala_Function8"]
+      }
+    },
+    "toFunction7__Lscala_scalajs_js_Function7__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction7__Lscala_scalajs_js_Function7__Lscala_Function7"]
+      }
+    },
+    "toFunction6__Lscala_scalajs_js_Function6__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction6__Lscala_scalajs_js_Function6__Lscala_Function6"]
+      }
+    },
+    "toFunction5__Lscala_scalajs_js_Function5__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction5__Lscala_scalajs_js_Function5__Lscala_Function5"]
+      }
+    },
+    "toFunction4__Lscala_scalajs_js_Function4__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction4__Lscala_scalajs_js_Function4__Lscala_Function4"]
+      }
+    },
+    "toFunction3__Lscala_scalajs_js_Function3__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction3__Lscala_scalajs_js_Function3__Lscala_Function3"]
+      }
+    },
+    "toFunction2__Lscala_scalajs_js_Function2__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction2__Lscala_scalajs_js_Function2__Lscala_Function2"]
+      }
+    },
+    "toFunction1__Lscala_scalajs_js_Function1__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction1__Lscala_scalajs_js_Function1__Lscala_Function1"]
+      }
+    },
+    "toFunction0__Lscala_scalajs_js_Function0__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toFunction0__Lscala_scalajs_js_Function0__Lscala_Function0"]
+      }
+    },
+    "fromFunction22__Lscala_Function22__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction22__Lscala_Function22__Lscala_scalajs_js_Function22"]
+      }
+    },
+    "fromFunction21__Lscala_Function21__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction21__Lscala_Function21__Lscala_scalajs_js_Function21"]
+      }
+    },
+    "fromFunction20__Lscala_Function20__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction20__Lscala_Function20__Lscala_scalajs_js_Function20"]
+      }
+    },
+    "fromFunction19__Lscala_Function19__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction19__Lscala_Function19__Lscala_scalajs_js_Function19"]
+      }
+    },
+    "fromFunction18__Lscala_Function18__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction18__Lscala_Function18__Lscala_scalajs_js_Function18"]
+      }
+    },
+    "fromFunction17__Lscala_Function17__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction17__Lscala_Function17__Lscala_scalajs_js_Function17"]
+      }
+    },
+    "fromFunction16__Lscala_Function16__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction16__Lscala_Function16__Lscala_scalajs_js_Function16"]
+      }
+    },
+    "fromFunction15__Lscala_Function15__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction15__Lscala_Function15__Lscala_scalajs_js_Function15"]
+      }
+    },
+    "fromFunction14__Lscala_Function14__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction14__Lscala_Function14__Lscala_scalajs_js_Function14"]
+      }
+    },
+    "fromFunction13__Lscala_Function13__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction13__Lscala_Function13__Lscala_scalajs_js_Function13"]
+      }
+    },
+    "fromFunction12__Lscala_Function12__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction12__Lscala_Function12__Lscala_scalajs_js_Function12"]
+      }
+    },
+    "fromFunction11__Lscala_Function11__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction11__Lscala_Function11__Lscala_scalajs_js_Function11"]
+      }
+    },
+    "fromFunction10__Lscala_Function10__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction10__Lscala_Function10__Lscala_scalajs_js_Function10"]
+      }
+    },
+    "fromFunction9__Lscala_Function9__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction9__Lscala_Function9__Lscala_scalajs_js_Function9"]
+      }
+    },
+    "fromFunction8__Lscala_Function8__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction8__Lscala_Function8__Lscala_scalajs_js_Function8"]
+      }
+    },
+    "fromFunction7__Lscala_Function7__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction7__Lscala_Function7__Lscala_scalajs_js_Function7"]
+      }
+    },
+    "fromFunction6__Lscala_Function6__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction6__Lscala_Function6__Lscala_scalajs_js_Function6"]
+      }
+    },
+    "fromFunction5__Lscala_Function5__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction5__Lscala_Function5__Lscala_scalajs_js_Function5"]
+      }
+    },
+    "fromFunction4__Lscala_Function4__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction4__Lscala_Function4__Lscala_scalajs_js_Function4"]
+      }
+    },
+    "fromFunction3__Lscala_Function3__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction3__Lscala_Function3__Lscala_scalajs_js_Function3"]
+      }
+    },
+    "fromFunction2__Lscala_Function2__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction2__Lscala_Function2__Lscala_scalajs_js_Function2"]
+      }
+    },
+    "fromFunction1__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction1__Lscala_Function1__Lscala_scalajs_js_Function1"]
+      }
+    },
+    "fromFunction0__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFunction0__Lscala_Function0__Lscala_scalajs_js_Function0"]
+      }
+    },
+    "richBoolean__Lscala_scalajs_js_Boolean__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["init___Z"],
+        "scala_scalajs_js_Any$": ["richBoolean__Lscala_scalajs_js_Boolean__Z"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichBoolean"]
+    },
+    "richDouble__Lscala_scalajs_js_Number__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["richDouble__Lscala_scalajs_js_Number__D"],
+        "scala_runtime_RichDouble": ["init___D"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichDouble"]
+    },
+    "stringOps__Lscala_scalajs_js_String__": {
+      "calledMethods": {
+        "scala_collection_immutable_StringOps": ["init___T"],
+        "scala_scalajs_js_Any$": ["stringOps__Lscala_scalajs_js_String__T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"]
+    },
+    "arrayOps__Lscala_scalajs_js_Array__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["arrayOps__Lscala_scalajs_js_Array__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "fromTraversableOnce__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromTraversableOnce__Lscala_collection_TraversableOnce__Lscala_scalajs_js_Array"]
+      }
+    },
+    "toArray__Lscala_scalajs_js_Array__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["toArray__Lscala_scalajs_js_Array__Lscala_reflect_ClassTag__O"]
+      }
+    },
+    "fromArray__O__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromArray__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "fromString__T__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromString__T__Lscala_scalajs_js_String"]
+      }
+    },
+    "fromDouble__D__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromDouble__D__Lscala_scalajs_js_Number"]
+      }
+    },
+    "fromFloat__F__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromFloat__F__Lscala_scalajs_js_Number"]
+      }
+    },
+    "fromLong__J__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromLong__J__Lscala_scalajs_js_Number"]
+      }
+    },
+    "fromInt__I__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromInt__I__Lscala_scalajs_js_Number"]
+      }
+    },
+    "fromShort__S__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromShort__S__Lscala_scalajs_js_Number"]
+      }
+    },
+    "fromByte__B__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromByte__B__Lscala_scalajs_js_Number"]
+      }
+    },
+    "fromBoolean__Z__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromBoolean__Z__Lscala_scalajs_js_Boolean"]
+      }
+    },
+    "fromUnit__Lscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_scalajs_js_Any$": ["fromUnit__Lscala_runtime_BoxedUnit__Lscala_scalajs_js_Undefined"]
+      }
+    }
+  }
+}

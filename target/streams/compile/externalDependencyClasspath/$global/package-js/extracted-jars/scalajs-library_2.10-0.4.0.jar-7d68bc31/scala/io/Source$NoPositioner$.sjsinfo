@@ -1,0 +1,34 @@
+{
+  "name": "scala.io.Source$NoPositioner$",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_Source$NoPositioner$",
+  "superClass": "scala_io_Source$Positioner",
+  "ancestors": ["scala_io_Source$NoPositioner$", "scala_io_Source$Positioner", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "next__C": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_io_Source": ["iter__Lscala_collection_Iterator"],
+        "scala_io_Source$NoPositioner$": ["scala$io$Source$NoPositioner$$$outer__Lscala_io_Source"]
+      }
+    },
+    "scala$io$Source$NoPositioner$$$outer__Lscala_io_Source": {},
+    "init___Lscala_io_Source": {
+      "calledMethodsStatic": {
+        "scala_io_Source$Positioner": ["init___Lscala_io_Source__Lscala_io_Position"]
+      },
+      "accessedModules": ["scala_io_Position"]
+    },
+    "scala$io$Source$NoPositioner$$$outer__": {
+      "calledMethods": {
+        "scala_io_Source$NoPositioner$": ["scala$io$Source$NoPositioner$$$outer__Lscala_io_Source"]
+      }
+    }
+  }
+}

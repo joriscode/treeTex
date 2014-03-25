@@ -1,0 +1,81 @@
+{
+  "name": "scala.collection.immutable.Map$EmptyMap$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Map$EmptyMap$",
+  "superClass": "scala_collection_immutable_AbstractMap",
+  "ancestors": ["scala_collection_immutable_Map$EmptyMap$", "scala_Serializable", "java_io_Serializable", "scala_collection_immutable_AbstractMap", "scala_collection_immutable_Map", "scala_collection_immutable_MapLike", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractMap", "scala_collection_Map", "scala_collection_MapLike", "scala_collection_generic_Subtractable", "scala_PartialFunction", "scala_Function1", "scala_collection_GenMap", "scala_collection_GenMapLike", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "size__I": {},
+    "get__O__Lscala_Option": {
+      "accessedModules": ["scala_None"]
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "updated__O__O__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$Map1": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Map$Map1"]
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_immutable_Map": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"],
+        "scala_collection_immutable_Map$EmptyMap$": ["updated__O__O__Lscala_collection_immutable_Map"]
+      }
+    },
+    "$$minus__O__Lscala_collection_immutable_Map": {},
+    "readResolve__p5__O": {
+      "accessedModules": ["scala_collection_immutable_Map$EmptyMap"]
+    },
+    "$$minus__O__O": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$EmptyMap$": ["$$minus__O__Lscala_collection_immutable_Map"]
+      }
+    },
+    "$$minus__O__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$EmptyMap$": ["$$minus__O__Lscala_collection_immutable_Map"]
+      }
+    },
+    "$$minus__O__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$EmptyMap$": ["$$minus__O__Lscala_collection_immutable_Map"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$EmptyMap$": ["$$plus__Lscala_Tuple2__Lscala_collection_immutable_Map"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$EmptyMap$": ["$$plus__Lscala_Tuple2__Lscala_collection_immutable_Map"]
+      }
+    },
+    "updated__O__O__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$EmptyMap$": ["updated__O__O__Lscala_collection_immutable_Map"]
+      }
+    },
+    "updated__O__O__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_Map$EmptyMap$": ["updated__O__O__Lscala_collection_immutable_Map"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_immutable_AbstractMap": ["init___"]
+      }
+    }
+  }
+}

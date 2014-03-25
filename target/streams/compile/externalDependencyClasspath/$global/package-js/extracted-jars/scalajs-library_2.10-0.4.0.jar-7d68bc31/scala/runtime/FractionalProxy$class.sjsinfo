@@ -1,0 +1,50 @@
+{
+  "name": "scala.runtime.FractionalProxy$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_FractionalProxy$class",
+  "superClass": "",
+  "ancestors": ["scala_runtime_FractionalProxy$class"],
+  "isExported": false,
+  "methods": {
+    "scala_runtime_FractionalProxy$class__isWhole__Lscala_runtime_FractionalProxy__Z": {},
+    "scala_runtime_FractionalProxy$class__until__Lscala_runtime_FractionalProxy__O__Lscala_collection_immutable_Range$Partial": {
+      "calledMethods": {
+        "scala_runtime_FractionalProxy": ["integralNum__Lscala_math_Integral", "self__O"],
+        "scala_collection_immutable_Range$Partial": ["init___Lscala_Function1"],
+        "scala_collection_immutable_NumericRange$": ["apply__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Exclusive"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Range$Partial", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "scala_runtime_FractionalProxy$class__until__Lscala_runtime_FractionalProxy__O__O__Lscala_collection_immutable_NumericRange$Exclusive": {
+      "calledMethods": {
+        "scala_runtime_FractionalProxy": ["integralNum__Lscala_math_Integral", "self__O"],
+        "scala_collection_immutable_NumericRange$": ["apply__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Exclusive"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "scala_runtime_FractionalProxy$class__to__Lscala_runtime_FractionalProxy__O__Lscala_collection_immutable_Range$Partial": {
+      "calledMethods": {
+        "scala_runtime_FractionalProxy": ["integralNum__Lscala_math_Integral", "self__O"],
+        "scala_collection_immutable_Range$Partial": ["init___Lscala_Function1"],
+        "scala_collection_immutable_NumericRange$": ["inclusive__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Inclusive"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Range$Partial", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "scala_runtime_FractionalProxy$class__to__Lscala_runtime_FractionalProxy__O__O__Lscala_collection_immutable_NumericRange$Inclusive": {
+      "calledMethods": {
+        "scala_runtime_FractionalProxy": ["integralNum__Lscala_math_Integral", "self__O"],
+        "scala_collection_immutable_NumericRange$": ["inclusive__O__O__O__Lscala_math_Integral__Lscala_collection_immutable_NumericRange$Inclusive"]
+      },
+      "accessedModules": ["scala_collection_immutable_NumericRange"]
+    },
+    "scala_runtime_FractionalProxy$class__$init$__Lscala_runtime_FractionalProxy__V": {}
+  }
+}

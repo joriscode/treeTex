@@ -1,0 +1,35 @@
+{
+  "name": "java.io.FilterOutputStream",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_io_FilterOutputStream",
+  "superClass": "java_io_OutputStream",
+  "ancestors": ["java_io_FilterOutputStream", "java_io_OutputStream", "java_io_Flushable", "java_io_Closeable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "close__V": {
+      "calledMethods": {
+        "java_io_OutputStream": ["close__V"]
+      }
+    },
+    "flush__V": {
+      "calledMethods": {
+        "java_io_OutputStream": ["flush__V"]
+      }
+    },
+    "write__I__V": {
+      "calledMethods": {
+        "java_io_OutputStream": ["write__I__V"]
+      }
+    },
+    "init___Ljava_io_OutputStream": {
+      "calledMethodsStatic": {
+        "java_io_OutputStream": ["init___"]
+      }
+    }
+  }
+}

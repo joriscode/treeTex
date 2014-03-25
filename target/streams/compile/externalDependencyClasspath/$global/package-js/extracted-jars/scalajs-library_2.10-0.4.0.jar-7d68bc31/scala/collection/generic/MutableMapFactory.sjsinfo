@@ -1,0 +1,26 @@
+{
+  "name": "scala.collection.generic.MutableMapFactory",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_MutableMapFactory",
+  "superClass": "scala_collection_generic_MapFactory",
+  "ancestors": ["scala_collection_generic_MutableMapFactory", "scala_collection_generic_MapFactory", "scala_collection_generic_GenMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_MutableMapFactory": ["empty__Lscala_collection_Map"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Builder"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_MapFactory": ["init___"]
+      }
+    }
+  }
+}

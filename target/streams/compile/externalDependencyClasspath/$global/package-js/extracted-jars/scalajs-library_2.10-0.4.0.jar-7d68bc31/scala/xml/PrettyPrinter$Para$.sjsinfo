@@ -1,0 +1,60 @@
+{
+  "name": "scala.xml.PrettyPrinter$Para$",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_PrettyPrinter$Para$",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_xml_PrettyPrinter$Para$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__T__Lscala_xml_PrettyPrinter$Para": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Para": ["init___Lscala_xml_PrettyPrinter__T"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$Para"]
+    },
+    "unapply__Lscala_xml_PrettyPrinter$Para__Lscala_Option": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Para": ["s__T"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["Para__Lscala_xml_PrettyPrinter$Para$"]
+      }
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Para$": ["apply__T__Lscala_xml_PrettyPrinter$Para"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___Lscala_xml_PrettyPrinter": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_xml_PrettyPrinter$Para__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Para$": ["unapply__Lscala_xml_PrettyPrinter$Para__Lscala_Option"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Para$": ["apply__T__Lscala_xml_PrettyPrinter$Para"]
+      }
+    }
+  }
+}

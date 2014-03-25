@@ -1,0 +1,54 @@
+{
+  "name": "scala.beans.ScalaBeanInfo",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_beans_ScalaBeanInfo",
+  "superClass": "java_beans_SimpleBeanInfo",
+  "ancestors": ["scala_beans_ScalaBeanInfo", "java_beans_SimpleBeanInfo", "java_beans_BeanInfo", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pd__p2__ALjava_beans_PropertyDescriptor": {},
+    "md__p2__ALjava_beans_MethodDescriptor": {},
+    "getPropertyDescriptors__ALjava_beans_PropertyDescriptor": {
+      "calledMethods": {
+        "scala_beans_ScalaBeanInfo": ["pd__p2__ALjava_beans_PropertyDescriptor"]
+      }
+    },
+    "getMethodDescriptors__ALjava_beans_MethodDescriptor": {
+      "calledMethods": {
+        "scala_beans_ScalaBeanInfo": ["md__p2__ALjava_beans_MethodDescriptor"]
+      }
+    },
+    "init__p2__V": {
+      "calledMethods": {
+        "java_beans_PropertyDescriptor": ["init___T__Ljava_lang_Class__T__T"],
+        "scala_beans_ScalaBeanInfo": ["pd__p2__ALjava_beans_PropertyDescriptor"]
+      },
+      "instantiatedClasses": ["java_beans_PropertyDescriptor"]
+    },
+    "init___Ljava_lang_Class__AT__AT": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["withFilter__Lscala_Function1__Lscala_collection_generic_FilterMonadic", "exists__Lscala_Function1__Z"],
+        "java_lang_Class": ["getMethods__ALjava_lang_reflect_Method"],
+        "scala_Array$": ["canBuildFrom__Lscala_reflect_ClassTag__Lscala_collection_generic_CanBuildFrom"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_generic_FilterMonadic": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "java_beans_MethodDescriptor": ["init___Ljava_lang_reflect_Method"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_beans_ScalaBeanInfo$$anonfun$1$$anonfun$apply$1": ["init___Lscala_beans_ScalaBeanInfo$$anonfun$1__Ljava_lang_reflect_Method"],
+        "scala_beans_ScalaBeanInfo": ["init__p2__V"]
+      },
+      "calledMethodsStatic": {
+        "java_beans_SimpleBeanInfo": ["init___"]
+      },
+      "instantiatedClasses": ["scala_beans_ScalaBeanInfo$$anonfun$1$$anonfun$apply$1", "scala_scalajs_runtime_AnonFunction1", "java_beans_MethodDescriptor"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_beans_PropertyDescriptor", "java_beans_MethodDescriptor"]
+    }
+  }
+}

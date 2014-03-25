@@ -1,0 +1,74 @@
+{
+  "name": "scala.collection.mutable.AVLTree$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_AVLTree$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_AVLTree$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_AVLTree$class__iterator__Lscala_collection_mutable_AVLTree__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "scala_collection_mutable_AVLTree$class__contains__Lscala_collection_mutable_AVLTree__O__Lscala_math_Ordering__Z": {},
+    "scala_collection_mutable_AVLTree$class__insert__Lscala_collection_mutable_AVLTree__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree": {
+      "calledMethods": {
+        "scala_collection_mutable_Node": ["init___O__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_AVLTree"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_Node"],
+      "accessedModules": ["scala_collection_mutable_Leaf"]
+    },
+    "scala_collection_mutable_AVLTree$class__remove__Lscala_collection_mutable_AVLTree__O__Lscala_math_Ordering__Lscala_collection_mutable_AVLTree": {
+      "calledMethods": {
+        "java_util_NoSuchElementException": ["init___T"],
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__O__T"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"],
+      "accessedModules": ["scala_scalajs_runtime_RuntimeString"]
+    },
+    "scala_collection_mutable_AVLTree$class__removeMin__Lscala_collection_mutable_AVLTree__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "scala_collection_mutable_AVLTree$class__removeMax__Lscala_collection_mutable_AVLTree__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "scala_collection_mutable_AVLTree$class__rebalance__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_AVLTree": {},
+    "scala_collection_mutable_AVLTree$class__leftRotation__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "scala_collection_mutable_AVLTree$class__rightRotation__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "scala_collection_mutable_AVLTree$class__doubleLeftRotation__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "scala_collection_mutable_AVLTree$class__doubleRightRotation__Lscala_collection_mutable_AVLTree__Lscala_collection_mutable_Node": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "scala_collection_mutable_AVLTree$class__$init$__Lscala_collection_mutable_AVLTree__V": {}
+  }
+}

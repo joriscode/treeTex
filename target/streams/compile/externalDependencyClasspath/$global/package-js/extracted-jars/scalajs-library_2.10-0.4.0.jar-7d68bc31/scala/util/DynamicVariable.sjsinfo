@@ -1,0 +1,64 @@
+{
+  "name": "scala.util.DynamicVariable",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_DynamicVariable",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_DynamicVariable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "tl__p1__Ljava_lang_InheritableThreadLocal": {},
+    "value__O": {
+      "calledMethods": {
+        "scala_util_DynamicVariable": ["tl__p1__Ljava_lang_InheritableThreadLocal"],
+        "java_lang_InheritableThreadLocal": ["get__O"]
+      }
+    },
+    "withValue__O__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_util_DynamicVariable": ["tl__p1__Ljava_lang_InheritableThreadLocal", "value__O"],
+        "java_lang_InheritableThreadLocal": ["set__O__V"],
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "value$und$eq__O__V": {
+      "calledMethods": {
+        "scala_util_DynamicVariable": ["tl__p1__Ljava_lang_InheritableThreadLocal"],
+        "java_lang_InheritableThreadLocal": ["set__O__V"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_util_DynamicVariable": ["value__O"]
+      }
+    },
+    "init___O": {
+      "calledMethods": {
+        "scala_util_DynamicVariable$$anon$1": ["init___Lscala_util_DynamicVariable"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_util_DynamicVariable$$anon$1"]
+    },
+    "value$und$eq__O__": {
+      "calledMethods": {
+        "scala_util_DynamicVariable": ["value$und$eq__O__V"]
+      }
+    },
+    "withValue__O__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_DynamicVariable": ["withValue__O__Lscala_Function0__O"]
+      }
+    },
+    "value__": {
+      "calledMethods": {
+        "scala_util_DynamicVariable": ["value__O"]
+      }
+    }
+  }
+}

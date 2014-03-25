@@ -1,0 +1,48 @@
+{
+  "name": "scala.Tuple6$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Tuple6$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Tuple6$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__O__O__O__O__O__O__Lscala_Tuple6": {
+      "calledMethods": {
+        "scala_Tuple6": ["init___O__O__O__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple6"]
+    },
+    "unapply__Lscala_Tuple6__Lscala_Option": {
+      "calledMethods": {
+        "scala_Tuple6": ["$$und4__O", "$$und6__O", "$$und3__O", "$$und5__O", "$$und1__O", "init___O__O__O__O__O__O", "$$und2__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Tuple6", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_Tuple6"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_Tuple6__": {
+      "calledMethods": {
+        "scala_Tuple6$": ["unapply__Lscala_Tuple6__Lscala_Option"]
+      }
+    },
+    "apply__O__O__O__O__O__O__": {
+      "calledMethods": {
+        "scala_Tuple6$": ["apply__O__O__O__O__O__O__Lscala_Tuple6"]
+      }
+    }
+  }
+}

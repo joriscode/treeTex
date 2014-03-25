@@ -1,0 +1,51 @@
+{
+  "name": "java.lang.ExceptionInInitializerError",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_ExceptionInInitializerError",
+  "superClass": "java_lang_LinkageError",
+  "ancestors": ["java_lang_ExceptionInInitializerError", "java_lang_LinkageError", "java_lang_Error", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "e__p4__Ljava_lang_Throwable": {},
+    "getException__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "java_lang_ExceptionInInitializerError": ["e__p4__Ljava_lang_Throwable"]
+      }
+    },
+    "getCause__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "java_lang_ExceptionInInitializerError": ["e__p4__Ljava_lang_Throwable"]
+      }
+    },
+    "init___T__Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_LinkageError": ["init___T"]
+      }
+    },
+    "init___Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_ExceptionInInitializerError": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "init___T": {
+      "calledMethodsStatic": {
+        "java_lang_ExceptionInInitializerError": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_ExceptionInInitializerError": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "getException__": {
+      "calledMethods": {
+        "java_lang_ExceptionInInitializerError": ["getException__Ljava_lang_Throwable"]
+      }
+    }
+  }
+}

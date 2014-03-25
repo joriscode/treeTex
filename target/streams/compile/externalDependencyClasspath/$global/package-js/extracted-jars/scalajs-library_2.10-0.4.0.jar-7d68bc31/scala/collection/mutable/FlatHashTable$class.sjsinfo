@@ -1,0 +1,230 @@
+{
+  "name": "scala.collection.mutable.FlatHashTable$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_FlatHashTable$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_FlatHashTable$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_FlatHashTable$class__tableDebug__Lscala_collection_mutable_FlatHashTable__Z": {},
+    "scala_collection_mutable_FlatHashTable$class__capacity__Lscala_collection_mutable_FlatHashTable__I__I": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$": ["powerOfTwo__I__I"]
+      },
+      "accessedModules": ["scala_collection_mutable_HashTable"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__initialSize__Lscala_collection_mutable_FlatHashTable__I": {},
+    "scala_collection_mutable_FlatHashTable$class__initialCapacity__Lscala_collection_mutable_FlatHashTable__I": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["initialSize__I", "capacity__I__I"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__randomSeed__Lscala_collection_mutable_FlatHashTable__I": {
+      "calledMethods": {
+        "java_lang_ThreadLocal": ["get__O"],
+        "scala_collection_mutable_FlatHashTable$": ["seedGenerator__Ljava_lang_ThreadLocal"],
+        "scala_util_Random": ["nextInt__I"]
+      },
+      "accessedModules": ["scala_collection_mutable_FlatHashTable"],
+      "accessedClassData": ["scala_util_Random"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__tableSizeSeed__Lscala_collection_mutable_FlatHashTable__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"],
+        "scala_collection_mutable_FlatHashTable": ["table__AO"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__init__Lscala_collection_mutable_FlatHashTable__Ljava_io_ObjectInputStream__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Predef$": ["assert__Z__V", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["size__I"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_mutable_FlatHashTable$": ["sizeForThreshold__I__I__I", "newThreshold__I__I__I"],
+        "scala_collection_mutable_FlatHashTable": ["capacity__I__I", "$$undloadFactor$und$eq__I__V", "table__AO", "tableSize$und$eq__I__V", "seedvalue$und$eq__I__V", "sizemap$und$eq__AI__V", "addEntry__O__Z", "$$undloadFactor__I", "table$und$eq__AO__V", "threshold$und$eq__I__V", "sizeMapInit__I__V"],
+        "java_io_ObjectInputStream": ["readInt__I", "readObject__O", "defaultReadObject__V", "readBoolean__Z"]
+      },
+      "accessedModules": ["scala_Predef", "scala_collection_mutable_FlatHashTable"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__serializeTo__Lscala_collection_mutable_FlatHashTable__Ljava_io_ObjectOutputStream__V": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["foreach__Lscala_Function1__V"],
+        "java_io_ObjectOutputStream": ["defaultWriteObject__V", "writeObject__O__V", "writeInt__I__V", "writeBoolean__Z__V"],
+        "scala_collection_mutable_FlatHashTable": ["isSizeMapDefined__Z", "tableSize__I", "seedvalue__I", "iterator__Lscala_collection_Iterator", "$$undloadFactor__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__findEntry__Lscala_collection_mutable_FlatHashTable__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$class": ["scala_collection_mutable_FlatHashTable$class__findEntryImpl__Lscala_collection_mutable_FlatHashTable__O__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__containsEntry__Lscala_collection_mutable_FlatHashTable__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$class": ["scala_collection_mutable_FlatHashTable$class__findEntryImpl__Lscala_collection_mutable_FlatHashTable__O__O"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__findEntryImpl__Lscala_collection_mutable_FlatHashTable__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["elemHashCode__O__I", "index__I__I", "table__AO"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__addEntry__Lscala_collection_mutable_FlatHashTable__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$class": ["scala_collection_mutable_FlatHashTable$class__growTable__Lscala_collection_mutable_FlatHashTable__V"],
+        "scala_collection_mutable_FlatHashTable": ["nnSizeMapAdd__I__V", "tableSize__I", "elemHashCode__O__I", "index__I__I", "table__AO", "threshold__I", "tableSize$und$eq__I__V"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__removeEntry__Lscala_collection_mutable_FlatHashTable__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$class": ["scala_collection_mutable_FlatHashTable$class__tableDebug__Lscala_collection_mutable_FlatHashTable__Z", "scala_collection_mutable_FlatHashTable$class__precedes$1__Lscala_collection_mutable_FlatHashTable__I__I__Z", "scala_collection_mutable_FlatHashTable$class__checkConsistent__Lscala_collection_mutable_FlatHashTable__V"],
+        "scala_collection_mutable_FlatHashTable": ["tableSize__I", "elemHashCode__O__I", "index__I__I", "table__AO", "tableSize$und$eq__I__V", "nnSizeMapRemove__I__V"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__iterator__Lscala_collection_mutable_FlatHashTable__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$$anon$1": ["init___Lscala_collection_mutable_FlatHashTable"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_FlatHashTable$$anon$1"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__growTable__Lscala_collection_mutable_FlatHashTable__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$": ["newThreshold__I__I__I"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_FlatHashTable$class": ["scala_collection_mutable_FlatHashTable$class__tableDebug__Lscala_collection_mutable_FlatHashTable__Z", "scala_collection_mutable_FlatHashTable$class__checkConsistent__Lscala_collection_mutable_FlatHashTable__V"],
+        "scala_collection_mutable_FlatHashTable": ["nnSizeMapReset__I__V", "threshold$und$eq__I__V", "table__AO", "tableSize$und$eq__I__V", "seedvalue$und$eq__I__V", "addEntry__O__Z", "table$und$eq__AO__V", "tableSizeSeed__I", "$$undloadFactor__I"]
+      },
+      "accessedModules": ["scala_collection_mutable_FlatHashTable", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__checkConsistent__Lscala_collection_mutable_FlatHashTable__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_collection_mutable_FlatHashTable$$anonfun$checkConsistent$1": ["init___Lscala_collection_mutable_FlatHashTable"],
+        "scala_collection_mutable_FlatHashTable": ["table__AO"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_FlatHashTable$$anonfun$checkConsistent$1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__nnSizeMapAdd__Lscala_collection_mutable_FlatHashTable__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["sizeMapBucketBitSize__I", "sizemap__AI"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__nnSizeMapRemove__Lscala_collection_mutable_FlatHashTable__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["sizeMapBucketBitSize__I", "sizemap__AI"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__nnSizeMapReset__Lscala_collection_mutable_FlatHashTable__I__V": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AI__I__V"],
+        "scala_collection_mutable_FlatHashTable": ["calcSizeMapSize__I__I", "sizemap__AI", "sizemap$und$eq__AI__V"]
+      },
+      "accessedModules": ["java_util_Arrays"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__totalSizeMapBuckets__Lscala_collection_mutable_FlatHashTable__I": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["sizeMapBucketSize__I", "table__AO"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__calcSizeMapSize__Lscala_collection_mutable_FlatHashTable__I__I": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["sizeMapBucketBitSize__I"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__sizeMapInit__Lscala_collection_mutable_FlatHashTable__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["calcSizeMapSize__I__I", "sizemap$und$eq__AI__V"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__sizeMapInitAndRebuild__Lscala_collection_mutable_FlatHashTable__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_mutable_FlatHashTable": ["sizeMapBucketSize__I", "table__AO", "sizeMapInit__I__V", "totalSizeMapBuckets__I", "sizemap__AI"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__printSizeMap__Lscala_collection_mutable_FlatHashTable__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["mkString__T__T__T__T"],
+        "scala_Predef$": ["intArrayOps__AI__Lscala_collection_mutable_ArrayOps", "println__O__V"],
+        "scala_collection_mutable_FlatHashTable": ["sizemap__AI"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__printContents__Lscala_collection_mutable_FlatHashTable__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps": ["mkString__T__T__T__T"],
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "println__O__V"],
+        "scala_collection_mutable_FlatHashTable": ["table__AO"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__sizeMapDisable__Lscala_collection_mutable_FlatHashTable__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["sizemap$und$eq__AI__V"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__isSizeMapDefined__Lscala_collection_mutable_FlatHashTable__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["sizemap__AI"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__alwaysInitSizeMap__Lscala_collection_mutable_FlatHashTable__Z": {},
+    "scala_collection_mutable_FlatHashTable$class__index__Lscala_collection_mutable_FlatHashTable__I__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["bitCount__I__I"],
+        "scala_collection_mutable_FlatHashTable": ["seedvalue__I", "table__AO", "improve__I__I__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__clearTable__Lscala_collection_mutable_FlatHashTable__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["nnSizeMapReset__I__V", "table__AO", "tableSize$und$eq__I__V"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__hashTableContents__Lscala_collection_mutable_FlatHashTable__Lscala_collection_mutable_FlatHashTable$Contents": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["tableSize__I", "seedvalue__I", "table__AO", "threshold__I", "sizemap__AI", "$$undloadFactor__I"],
+        "scala_collection_mutable_FlatHashTable$Contents": ["init___I__AO__I__I__I__AI"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_FlatHashTable$Contents"]
+    },
+    "scala_collection_mutable_FlatHashTable$class__initWithContents__Lscala_collection_mutable_FlatHashTable__Lscala_collection_mutable_FlatHashTable$Contents__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["$$undloadFactor$und$eq__I__V", "tableSize$und$eq__I__V", "seedvalue$und$eq__I__V", "sizemap__AI", "sizemap$und$eq__AI__V", "sizeMapInitAndRebuild__V", "table$und$eq__AO__V", "alwaysInitSizeMap__Z", "threshold$und$eq__I__V"],
+        "scala_collection_mutable_FlatHashTable$Contents": ["sizemap__AI", "table__AO", "loadFactor__I", "threshold__I", "tableSize__I", "seedvalue__I"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__precedes$1__Lscala_collection_mutable_FlatHashTable__I__I__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable": ["table__AO"]
+      }
+    },
+    "scala_collection_mutable_FlatHashTable$class__$init$__Lscala_collection_mutable_FlatHashTable__V": {
+      "calledMethods": {
+        "scala_collection_mutable_FlatHashTable$": ["newThreshold__I__I__I", "defaultLoadFactor__I"],
+        "scala_collection_mutable_FlatHashTable$class": ["scala_collection_mutable_FlatHashTable$class__initialCapacity__Lscala_collection_mutable_FlatHashTable__I"],
+        "scala_collection_mutable_FlatHashTable": ["threshold$und$eq__I__V", "$$undloadFactor$und$eq__I__V", "tableSize$und$eq__I__V", "seedvalue$und$eq__I__V", "sizemap$und$eq__AI__V", "table$und$eq__AO__V", "$$undloadFactor__I", "tableSizeSeed__I"]
+      },
+      "accessedModules": ["scala_collection_mutable_FlatHashTable"],
+      "accessedClassData": ["java_lang_Object"]
+    }
+  }
+}

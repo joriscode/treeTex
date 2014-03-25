@@ -1,0 +1,41 @@
+{
+  "name": "scala.io.Position$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_Position$",
+  "superClass": "scala_io_Position",
+  "ancestors": ["scala_io_Position$", "scala_io_Position", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "NOPOS__I": {},
+    "FIRSTPOS__I": {},
+    "checkInput__I__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_io_Position$": ["encode__I__I__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_io_Position": ["init___"]
+      }
+    },
+    "FIRSTPOS__": {
+      "calledMethods": {
+        "scala_io_Position$": ["FIRSTPOS__I"]
+      }
+    },
+    "NOPOS__": {
+      "calledMethods": {
+        "scala_io_Position$": ["NOPOS__I"]
+      }
+    }
+  }
+}

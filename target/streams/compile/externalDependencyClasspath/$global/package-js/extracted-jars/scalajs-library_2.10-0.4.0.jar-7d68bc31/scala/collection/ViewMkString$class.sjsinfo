@@ -1,0 +1,54 @@
+{
+  "name": "scala.collection.ViewMkString$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_ViewMkString$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_ViewMkString$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_ViewMkString$class__thisSeq__Lscala_collection_ViewMkString__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuffer": ["result__Lscala_collection_mutable_ArrayBuffer", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_ArrayBuffer", "init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuffer"],
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "scala_collection_ViewMkString$class__mkString__Lscala_collection_ViewMkString__T": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["mkString__T__T"]
+      },
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "scala_collection_ViewMkString$class__mkString__Lscala_collection_ViewMkString__T__T": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce": ["mkString__T__T__T__T"]
+      },
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "scala_collection_ViewMkString$class__mkString__Lscala_collection_ViewMkString__T__T__T__T": {
+      "calledMethods": {
+        "scala_collection_mutable_StringBuilder": ["init___", "toString__T"],
+        "scala_collection_Seq": ["addString__Lscala_collection_mutable_StringBuilder__T__T__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_ViewMkString": ["thisSeq__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_StringBuilder"]
+    },
+    "scala_collection_ViewMkString$class__addString__Lscala_collection_ViewMkString__Lscala_collection_mutable_StringBuilder__T__T__T__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_generic_GenericTraversableTemplate": ["foreach__Lscala_Function1__V"],
+        "scala_collection_mutable_StringBuilder": ["append__O__Lscala_collection_mutable_StringBuilder", "append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_runtime_BooleanRef": ["init___Z"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_runtime_BooleanRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_generic_GenericTraversableTemplate"]
+    },
+    "scala_collection_ViewMkString$class__$init$__Lscala_collection_ViewMkString__V": {}
+  }
+}

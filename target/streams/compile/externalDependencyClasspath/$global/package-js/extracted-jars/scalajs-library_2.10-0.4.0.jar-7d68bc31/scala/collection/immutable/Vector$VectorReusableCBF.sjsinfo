@@ -1,0 +1,27 @@
+{
+  "name": "scala.collection.immutable.Vector$VectorReusableCBF",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Vector$VectorReusableCBF",
+  "superClass": "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom",
+  "ancestors": ["scala_collection_immutable_Vector$VectorReusableCBF", "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_immutable_Vector"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": ["init___Lscala_collection_generic_GenTraversableFactory"]
+      },
+      "accessedModules": ["scala_collection_immutable_Vector"]
+    }
+  }
+}

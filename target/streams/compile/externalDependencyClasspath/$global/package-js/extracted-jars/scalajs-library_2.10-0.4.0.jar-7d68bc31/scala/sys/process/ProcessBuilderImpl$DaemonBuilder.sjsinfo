@@ -1,0 +1,32 @@
+{
+  "name": "scala.sys.process.ProcessBuilderImpl$DaemonBuilder",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessBuilderImpl$DaemonBuilder",
+  "superClass": "scala_sys_process_ProcessBuilderImpl$AbstractBuilder",
+  "ancestors": ["scala_sys_process_ProcessBuilderImpl$DaemonBuilder", "scala_sys_process_ProcessBuilderImpl$AbstractBuilder", "scala_sys_process_ProcessBuilder", "scala_sys_process_ProcessBuilder$Sink", "scala_sys_process_ProcessBuilder$Source", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process": {
+      "calledMethods": {
+        "scala_sys_process_ProcessIO": ["daemonized__Lscala_sys_process_ProcessIO"],
+        "scala_sys_process_ProcessBuilder": ["run__Lscala_sys_process_ProcessIO__Lscala_sys_process_Process"]
+      }
+    },
+    "scala$sys$process$ProcessBuilderImpl$DaemonBuilder$$$outer__Lscala_sys_process_ProcessBuilder$": {},
+    "init___Lscala_sys_process_ProcessBuilder$__Lscala_sys_process_ProcessBuilder": {
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessBuilderImpl$AbstractBuilder": ["init___Lscala_sys_process_ProcessBuilder$"]
+      }
+    },
+    "scala$sys$process$ProcessBuilderImpl$DaemonBuilder$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$DaemonBuilder": ["scala$sys$process$ProcessBuilderImpl$DaemonBuilder$$$outer__Lscala_sys_process_ProcessBuilder$"]
+      }
+    }
+  }
+}

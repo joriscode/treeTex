@@ -1,0 +1,35 @@
+{
+  "name": "scala.util.automata.WordBerrySethi$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_automata_WordBerrySethi$$anon$1",
+  "superClass": "scala_util_automata_NondetWordAutom",
+  "ancestors": ["scala_util_automata_WordBerrySethi$$anon$1", "scala_util_automata_NondetWordAutom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "nstates__I": {},
+    "labels__Lscala_collection_immutable_List": {},
+    "initials__p2__AI": {},
+    "finals__AI": {},
+    "delta__ALscala_collection_mutable_Map": {},
+    "$default__ALscala_collection_immutable_BitSet": {},
+    "labels__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_util_automata_WordBerrySethi$$anon$1": ["labels__Lscala_collection_immutable_List"]
+      }
+    },
+    "init___Lscala_util_automata_WordBerrySethi__AI__AI__ALscala_collection_mutable_Map__ALscala_collection_immutable_BitSet": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["toList__Lscala_collection_immutable_List"],
+        "scala_util_automata_WordBerrySethi": ["pos__I", "labels__Lscala_collection_mutable_HashSet"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_automata_NondetWordAutom": ["init___"]
+      }
+    }
+  }
+}

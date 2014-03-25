@@ -1,0 +1,133 @@
+{
+  "name": "scala.concurrent.SyncVar",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_SyncVar",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_SyncVar", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isDefined__p1__Z": {},
+    "isDefined$und$eq__p1__Z__V": {},
+    "value__p1__Lscala_Option": {},
+    "value$und$eq__p1__Lscala_Option__V": {},
+    "get__O": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["value__p1__Lscala_Option", "wait__V", "isDefined__p1__Z"],
+        "scala_Option": ["get__O"]
+      }
+    },
+    "waitMeasuringElapsed__p1__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less__Lscala_scalajs_runtime_Long__Z", "$$less$eq__Lscala_scalajs_runtime_Long__Z", "$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long", "apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_lang_System$": ["currentTimeMillis__J"],
+        "scala_concurrent_SyncVar": ["wait__J__V"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_lang_System"]
+    },
+    "get__J__Lscala_Option": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$greater__Lscala_scalajs_runtime_Long__Z", "$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_concurrent_SyncVar": ["value__p1__Lscala_Option", "waitMeasuringElapsed__p1__J__J", "isDefined__p1__Z"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "take__O": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["get__O", "unsetVal__p1__V"]
+      }
+    },
+    "take__J__O": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["get__J__Lscala_Option", "unsetVal__p1__V"],
+        "scala_Option": ["get__O"]
+      }
+    },
+    "set__O__V": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["setVal__p1__O__V"]
+      }
+    },
+    "put__O__V": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["setVal__p1__O__V", "wait__V", "isDefined__p1__Z"]
+      }
+    },
+    "isSet__Z": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["isDefined__p1__Z"]
+      }
+    },
+    "unset__V": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["notifyAll__V", "isDefined$und$eq__p1__Z__V", "value$und$eq__p1__Lscala_Option__V"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "setVal__p1__O__V": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["notifyAll__V", "isDefined$und$eq__p1__Z__V", "value$und$eq__p1__Lscala_Option__V"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "unsetVal__p1__V": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["notifyAll__V", "isDefined$und$eq__p1__Z__V", "value$und$eq__p1__Lscala_Option__V"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "unset__": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["unset__V"]
+      }
+    },
+    "isSet__": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["isSet__Z"]
+      }
+    },
+    "put__O__": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["put__O__V"]
+      }
+    },
+    "set__O__": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["set__O__V"]
+      }
+    },
+    "take__J__": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["take__J__O"]
+      }
+    },
+    "take__": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["take__O"]
+      }
+    },
+    "get__J__": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["get__J__Lscala_Option"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "scala_concurrent_SyncVar": ["get__O"]
+      }
+    }
+  }
+}

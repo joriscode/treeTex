@@ -1,0 +1,61 @@
+{
+  "name": "scala.xml.PrettyPrinter$Box$",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_PrettyPrinter$Box$",
+  "superClass": "scala_runtime_AbstractFunction2",
+  "ancestors": ["scala_xml_PrettyPrinter$Box$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction2", "scala_Function2", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__I__T__Lscala_xml_PrettyPrinter$Box": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["init___Lscala_xml_PrettyPrinter__I__T"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$Box"]
+    },
+    "unapply__Lscala_xml_PrettyPrinter$Box__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_xml_PrettyPrinter$Box": ["col__I", "s__T"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter": ["Box__Lscala_xml_PrettyPrinter$Box$"]
+      }
+    },
+    "apply__O__O__O": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box$": ["apply__I__T__Lscala_xml_PrettyPrinter$Box"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___Lscala_xml_PrettyPrinter": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction2": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_xml_PrettyPrinter$Box__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box$": ["unapply__Lscala_xml_PrettyPrinter$Box__Lscala_Option"]
+      }
+    },
+    "apply__I__T__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box$": ["apply__I__T__Lscala_xml_PrettyPrinter$Box"]
+      }
+    }
+  }
+}

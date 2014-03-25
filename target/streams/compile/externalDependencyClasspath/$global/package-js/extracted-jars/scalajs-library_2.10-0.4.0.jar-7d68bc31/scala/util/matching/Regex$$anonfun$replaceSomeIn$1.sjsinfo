@@ -1,0 +1,43 @@
+{
+  "name": "scala.util.matching.Regex$$anonfun$replaceSomeIn$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_matching_Regex$$anonfun$replaceSomeIn$1",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_util_matching_Regex$$anonfun$replaceSomeIn$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_util_matching_Regex$Match__V": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_matching_Regex$Replacement": ["replace__T__Ljava_util_regex_Matcher"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_util_matching_Regex$Replacement", "scala_Option"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_util_matching_Regex$$anonfun$replaceSomeIn$1": ["apply__Lscala_util_matching_Regex$Match__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_util_matching_Regex$Match"]
+    },
+    "init___Lscala_util_matching_Regex__Lscala_Function1__Lscala_collection_AbstractIterator": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "apply__Lscala_util_matching_Regex$Match__": {
+      "calledMethods": {
+        "scala_util_matching_Regex$$anonfun$replaceSomeIn$1": ["apply__Lscala_util_matching_Regex$Match__V"]
+      }
+    }
+  }
+}

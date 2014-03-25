@@ -1,0 +1,36 @@
+{
+  "name": "scala.math.ScalaNumber",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_ScalaNumber",
+  "superClass": "java_lang_Number",
+  "ancestors": ["scala_math_ScalaNumber", "java_lang_Number", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isWhole__Z": {
+      "isAbstract": true
+    },
+    "underlying__O": {
+      "isAbstract": true
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Number": ["init___"]
+      }
+    },
+    "underlying__": {
+      "calledMethods": {
+        "scala_math_ScalaNumber": ["underlying__O"]
+      }
+    },
+    "isWhole__": {
+      "calledMethods": {
+        "scala_math_ScalaNumber": ["isWhole__Z"]
+      }
+    }
+  }
+}

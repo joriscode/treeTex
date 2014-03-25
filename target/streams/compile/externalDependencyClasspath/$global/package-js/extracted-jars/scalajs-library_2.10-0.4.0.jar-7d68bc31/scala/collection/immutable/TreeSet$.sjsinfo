@@ -1,0 +1,51 @@
+{
+  "name": "scala.collection.immutable.TreeSet$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_TreeSet$",
+  "superClass": "scala_collection_generic_ImmutableSortedSetFactory",
+  "ancestors": ["scala_collection_immutable_TreeSet$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_ImmutableSortedSetFactory", "scala_collection_generic_SortedSetFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "implicitBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_TreeSet$": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_SetBuilder": ["init___Lscala_collection_Set"],
+        "scala_collection_immutable_TreeSet$": ["empty__Lscala_math_Ordering__Lscala_collection_immutable_TreeSet"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_SetBuilder"]
+    },
+    "empty__Lscala_math_Ordering__Lscala_collection_immutable_TreeSet": {
+      "calledMethods": {
+        "scala_collection_immutable_TreeSet": ["init___Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_TreeSet"]
+    },
+    "readResolve__p3__O": {
+      "accessedModules": ["scala_collection_immutable_TreeSet"]
+    },
+    "empty__Lscala_math_Ordering__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_immutable_TreeSet$": ["empty__Lscala_math_Ordering__Lscala_collection_immutable_TreeSet"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_ImmutableSortedSetFactory": ["init___"]
+      }
+    },
+    "implicitBuilder__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_immutable_TreeSet$": ["implicitBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

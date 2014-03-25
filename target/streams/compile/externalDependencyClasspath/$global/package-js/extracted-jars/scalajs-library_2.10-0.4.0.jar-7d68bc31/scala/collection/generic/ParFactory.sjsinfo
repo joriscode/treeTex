@@ -1,0 +1,25 @@
+{
+  "name": "scala.collection.generic.ParFactory",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_ParFactory",
+  "superClass": "scala_collection_generic_GenTraversableFactory",
+  "ancestors": ["scala_collection_generic_ParFactory", "scala_collection_generic_GenericParCompanion", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_GenTraversableFactory": ["init___"]
+      }
+    },
+    "newCombiner__": {
+      "calledMethods": {
+        "scala_collection_generic_GenericParCompanion": ["newCombiner__Lscala_collection_parallel_Combiner"]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "scala.collection.convert.Wrappers$SetWrapper$$anon$4",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$SetWrapper$$anon$4",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Wrappers$SetWrapper$$anon$4", "java_util_Iterator", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ui__p1__Lscala_collection_Iterator": {},
+    "prev__p1__Lscala_Option": {},
+    "prev$und$eq__p1__Lscala_Option__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z"],
+        "scala_collection_convert_Wrappers$SetWrapper$$anon$4": ["ui__p1__Lscala_collection_Iterator"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_Some": ["init___O"],
+        "scala_collection_convert_Wrappers$SetWrapper$$anon$4": ["ui__p1__Lscala_collection_Iterator", "prev$und$eq__p1__Lscala_Option__V"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "remove__V": {
+      "calledMethods": {
+        "java_lang_IllegalStateException": ["init___T"],
+        "java_lang_UnsupportedOperationException": ["init___T"],
+        "scala_collection_mutable_Set": ["remove__O__Z"],
+        "scala_collection_convert_Wrappers$SetWrapper$$anon$4": ["prev__p1__Lscala_Option", "prev$und$eq__p1__Lscala_Option__V"],
+        "scala_Some": ["x__O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["java_lang_UnsupportedOperationException", "java_lang_IllegalStateException"],
+      "accessedModules": ["scala_None", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_mutable_Set", "scala_Some"]
+    },
+    "init___Lscala_collection_convert_Wrappers$SetWrapper": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_Set": ["iterator__Lscala_collection_Iterator"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"],
+      "accessedModules": ["scala_None"]
+    },
+    "remove__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$SetWrapper$$anon$4": ["remove__V"]
+      }
+    },
+    "next__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$SetWrapper$$anon$4": ["next__O"]
+      }
+    },
+    "hasNext__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$SetWrapper$$anon$4": ["hasNext__Z"]
+      }
+    }
+  }
+}

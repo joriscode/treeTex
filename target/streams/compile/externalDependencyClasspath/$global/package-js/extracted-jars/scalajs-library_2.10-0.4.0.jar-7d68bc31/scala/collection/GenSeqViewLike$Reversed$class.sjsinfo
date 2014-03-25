@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.GenSeqViewLike$Reversed$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqViewLike$Reversed$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqViewLike$Reversed$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqViewLike$Reversed$class__iterator__Lscala_collection_GenSeqViewLike$Reversed__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Reversed$class": ["scala_collection_GenSeqViewLike$Reversed$class__createReversedIterator__Lscala_collection_GenSeqViewLike$Reversed__Lscala_collection_Iterator"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Reversed$class__length__Lscala_collection_GenSeqViewLike$Reversed__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike": ["length__I"],
+        "scala_collection_GenSeqViewLike$Reversed": ["scala$collection$GenSeqViewLike$Reversed$$$outer__Lscala_collection_GenSeqViewLike"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Reversed$class__apply__Lscala_collection_GenSeqViewLike$Reversed__I__O": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike": ["apply__I__O"],
+        "scala_collection_GenSeqViewLike$Reversed": ["length__I", "scala$collection$GenSeqViewLike$Reversed$$$outer__Lscala_collection_GenSeqViewLike"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Reversed$class__viewIdentifier__Lscala_collection_GenSeqViewLike$Reversed__T": {},
+    "scala_collection_GenSeqViewLike$Reversed$class__createReversedIterator__Lscala_collection_GenSeqViewLike$Reversed__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Reversed": ["scala$collection$GenSeqViewLike$Reversed$$$outer__Lscala_collection_GenSeqViewLike"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List", "iterator__Lscala_collection_Iterator"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_GenSeqViewLike": ["foreach__Lscala_Function1__V"],
+        "scala_runtime_ObjectRef": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "scala_collection_GenSeqViewLike$Reversed$class__$init$__Lscala_collection_GenSeqViewLike$Reversed__V": {}
+  }
+}

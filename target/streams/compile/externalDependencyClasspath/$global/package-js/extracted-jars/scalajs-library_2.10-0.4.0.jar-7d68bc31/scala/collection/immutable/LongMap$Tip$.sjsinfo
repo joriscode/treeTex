@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.immutable.LongMap$Tip$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_LongMap$Tip$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_LongMap$Tip$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__J__O__Lscala_collection_immutable_LongMap$Tip": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$Tip": ["init___J__O"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_LongMap$Tip"]
+    },
+    "unapply__Lscala_collection_immutable_LongMap$Tip__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$Tip": ["key__J", "value__O"],
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_immutable_LongMap$Tip"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_collection_immutable_LongMap$Tip__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$Tip$": ["unapply__Lscala_collection_immutable_LongMap$Tip__Lscala_Option"]
+      }
+    },
+    "apply__J__O__": {
+      "calledMethods": {
+        "scala_collection_immutable_LongMap$Tip$": ["apply__J__O__Lscala_collection_immutable_LongMap$Tip"]
+      }
+    }
+  }
+}

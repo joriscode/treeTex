@@ -1,0 +1,41 @@
+{
+  "name": "scala.collection.immutable.Vector$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Vector$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_immutable_Vector$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "i__p2__I": {},
+    "i$und$eq__p2__I__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$$anon$1": ["i__p2__I"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_immutable_Vector$$anon$1": ["i__p2__I", "i$und$eq__p2__I__V"],
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_immutable_Vector": ["apply__I__O"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "init___Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_immutable_Vector": ["length__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "scala.collection.mutable.IndexedSeqView$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_IndexedSeqView$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_IndexedSeqView$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_IndexedSeqView$class__newFiltered__Lscala_collection_mutable_IndexedSeqView__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView$Transformed": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView$$anon$1": ["init___Lscala_collection_mutable_IndexedSeqView__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_IndexedSeqView$$anon$1"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__newSliced__Lscala_collection_mutable_IndexedSeqView__Lscala_collection_generic_SliceInterval__Lscala_collection_mutable_IndexedSeqView$Transformed": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView$$anon$2": ["init___Lscala_collection_mutable_IndexedSeqView__Lscala_collection_generic_SliceInterval"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_IndexedSeqView$$anon$2"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__newDroppedWhile__Lscala_collection_mutable_IndexedSeqView__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView$Transformed": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView$$anon$3": ["init___Lscala_collection_mutable_IndexedSeqView__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_IndexedSeqView$$anon$3"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__newTakenWhile__Lscala_collection_mutable_IndexedSeqView__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView$Transformed": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView$$anon$4": ["init___Lscala_collection_mutable_IndexedSeqView__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_IndexedSeqView$$anon$4"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__newReversed__Lscala_collection_mutable_IndexedSeqView__Lscala_collection_mutable_IndexedSeqView$Transformed": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView$$anon$5": ["init___Lscala_collection_mutable_IndexedSeqView"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_IndexedSeqView$$anon$5"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__asThis__Lscala_collection_mutable_IndexedSeqView__Lscala_collection_mutable_IndexedSeqView$Transformed__Lscala_collection_mutable_IndexedSeqView": {},
+    "scala_collection_mutable_IndexedSeqView$class__filter__Lscala_collection_mutable_IndexedSeqView__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newFiltered__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView$Transformed"]
+      }
+    },
+    "scala_collection_mutable_IndexedSeqView$class__init__Lscala_collection_mutable_IndexedSeqView__Lscala_collection_mutable_IndexedSeqView": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newSliced__Lscala_collection_generic_SliceInterval__Lscala_collection_mutable_IndexedSeqView$Transformed", "length__I"],
+        "scala_collection_generic_SliceInterval$": ["apply__I__I__Lscala_collection_generic_SliceInterval"]
+      },
+      "accessedModules": ["scala_collection_generic_SliceInterval"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__drop__Lscala_collection_mutable_IndexedSeqView__I__Lscala_collection_mutable_IndexedSeqView": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newSliced__Lscala_collection_generic_SliceInterval__Lscala_collection_mutable_IndexedSeqView$Transformed", "length__I"],
+        "scala_collection_generic_SliceInterval$": ["apply__I__I__Lscala_collection_generic_SliceInterval"]
+      },
+      "accessedModules": ["scala_collection_generic_SliceInterval"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__take__Lscala_collection_mutable_IndexedSeqView__I__Lscala_collection_mutable_IndexedSeqView": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newSliced__Lscala_collection_generic_SliceInterval__Lscala_collection_mutable_IndexedSeqView$Transformed", "length__I"],
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_generic_SliceInterval$": ["apply__I__I__Lscala_collection_generic_SliceInterval"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_collection_generic_SliceInterval"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__slice__Lscala_collection_mutable_IndexedSeqView__I__I__Lscala_collection_mutable_IndexedSeqView": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newSliced__Lscala_collection_generic_SliceInterval__Lscala_collection_mutable_IndexedSeqView$Transformed", "length__I"],
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_generic_SliceInterval$": ["apply__I__I__Lscala_collection_generic_SliceInterval"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef", "scala_collection_generic_SliceInterval"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__dropWhile__Lscala_collection_mutable_IndexedSeqView__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newDroppedWhile__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView$Transformed"]
+      }
+    },
+    "scala_collection_mutable_IndexedSeqView$class__takeWhile__Lscala_collection_mutable_IndexedSeqView__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newTakenWhile__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView$Transformed"]
+      }
+    },
+    "scala_collection_mutable_IndexedSeqView$class__span__Lscala_collection_mutable_IndexedSeqView__Lscala_Function1__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newDroppedWhile__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView$Transformed", "newTakenWhile__Lscala_Function1__Lscala_collection_mutable_IndexedSeqView$Transformed"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__splitAt__Lscala_collection_mutable_IndexedSeqView__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["drop__I__Lscala_collection_mutable_IndexedSeqView", "take__I__Lscala_collection_mutable_IndexedSeqView"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "scala_collection_mutable_IndexedSeqView$class__reverse__Lscala_collection_mutable_IndexedSeqView__Lscala_collection_mutable_IndexedSeqView": {
+      "calledMethods": {
+        "scala_collection_mutable_IndexedSeqView": ["newReversed__Lscala_collection_mutable_IndexedSeqView$Transformed"]
+      }
+    },
+    "scala_collection_mutable_IndexedSeqView$class__$init$__Lscala_collection_mutable_IndexedSeqView__V": {}
+  }
+}

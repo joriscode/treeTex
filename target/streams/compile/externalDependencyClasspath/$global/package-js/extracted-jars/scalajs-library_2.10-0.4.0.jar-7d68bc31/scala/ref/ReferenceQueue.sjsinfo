@@ -1,0 +1,83 @@
+{
+  "name": "scala.ref.ReferenceQueue",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_ref_ReferenceQueue",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_ref_ReferenceQueue", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "underlying__Ljava_lang_ref_ReferenceQueue": {},
+    "toString__T": {
+      "calledMethods": {
+        "java_lang_ref_ReferenceQueue": ["toString__T"],
+        "scala_ref_ReferenceQueue": ["underlying__Ljava_lang_ref_ReferenceQueue"]
+      }
+    },
+    "Wrapper__Ljava_lang_ref_Reference__Lscala_Option": {
+      "calledMethods": {
+        "scala_ref_ReferenceWithWrapper": ["wrapper__Lscala_ref_ReferenceWrapper"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_ref_ReferenceWithWrapper"]
+    },
+    "poll__Lscala_Option": {
+      "calledMethods": {
+        "java_lang_ref_ReferenceQueue": ["poll__Ljava_lang_ref_Reference"],
+        "scala_ref_ReferenceQueue": ["Wrapper__Ljava_lang_ref_Reference__Lscala_Option", "underlying__Ljava_lang_ref_ReferenceQueue"]
+      }
+    },
+    "remove__Lscala_Option": {
+      "calledMethods": {
+        "java_lang_ref_ReferenceQueue": ["remove__Ljava_lang_ref_Reference"],
+        "scala_ref_ReferenceQueue": ["Wrapper__Ljava_lang_ref_Reference__Lscala_Option", "underlying__Ljava_lang_ref_ReferenceQueue"]
+      }
+    },
+    "remove__J__Lscala_Option": {
+      "calledMethods": {
+        "java_lang_ref_ReferenceQueue": ["remove__J__Ljava_lang_ref_Reference"],
+        "scala_ref_ReferenceQueue": ["Wrapper__Ljava_lang_ref_Reference__Lscala_Option", "underlying__Ljava_lang_ref_ReferenceQueue"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_ref_ReferenceQueue": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_ref_ReferenceQueue"]
+    },
+    "remove__J__": {
+      "calledMethods": {
+        "scala_ref_ReferenceQueue": ["remove__J__Lscala_Option"]
+      }
+    },
+    "remove__": {
+      "calledMethods": {
+        "scala_ref_ReferenceQueue": ["remove__Lscala_Option"]
+      }
+    },
+    "poll__": {
+      "calledMethods": {
+        "scala_ref_ReferenceQueue": ["poll__Lscala_Option"]
+      }
+    },
+    "Wrapper__Ljava_lang_ref_Reference__": {
+      "calledMethods": {
+        "scala_ref_ReferenceQueue": ["Wrapper__Ljava_lang_ref_Reference__Lscala_Option"]
+      }
+    },
+    "underlying__": {
+      "calledMethods": {
+        "scala_ref_ReferenceQueue": ["underlying__Ljava_lang_ref_ReferenceQueue"]
+      }
+    }
+  }
+}

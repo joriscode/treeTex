@@ -1,0 +1,65 @@
+{
+  "name": "scala.xml.parsing.XhtmlEntities$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_XhtmlEntities$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_parsing_XhtmlEntities$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "entList__Lscala_collection_immutable_List": {},
+    "entMap__Lscala_collection_immutable_Map": {},
+    "entities__Lscala_collection_immutable_List": {},
+    "apply__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_xml_parsing_XhtmlEntities$": ["entities__Lscala_collection_immutable_List"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_Predef$": ["Map__Lscala_collection_immutable_Map$", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_xml_dtd_ParsedEntityDecl": ["init___T__Lscala_xml_dtd_EntityDef"],
+        "scala_MatchError": ["init___O"],
+        "scala_xml_dtd_IntDef": ["init___T"],
+        "scala_xml_parsing_XhtmlEntities$": ["entList__Lscala_collection_immutable_List"],
+        "java_lang_Object": ["toString__T"],
+        "scala_collection_immutable_List": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_Tuple2": ["init___O__O", "$$und2$mcI$sp__I", "$$und1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["apply__Lscala_collection_Seq__Lscala_collection_immutable_List", "canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_Map$": ["empty__Lscala_collection_immutable_Map"],
+        "scala_collection_immutable_Map": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_immutable_Map"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_xml_dtd_IntDef", "scala_scalajs_runtime_AnonFunction1", "scala_xml_dtd_ParsedEntityDecl"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef"],
+      "accessedClassData": ["scala_collection_GenTraversableOnce", "scala_Tuple2", "scala_collection_immutable_List", "java_lang_Object", "java_lang_String"]
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_xml_parsing_XhtmlEntities$": ["apply__Lscala_collection_immutable_List"]
+      }
+    },
+    "entities__": {
+      "calledMethods": {
+        "scala_xml_parsing_XhtmlEntities$": ["entities__Lscala_collection_immutable_List"]
+      }
+    },
+    "entMap__": {
+      "calledMethods": {
+        "scala_xml_parsing_XhtmlEntities$": ["entMap__Lscala_collection_immutable_Map"]
+      }
+    },
+    "entList__": {
+      "calledMethods": {
+        "scala_xml_parsing_XhtmlEntities$": ["entList__Lscala_collection_immutable_List"]
+      }
+    }
+  }
+}

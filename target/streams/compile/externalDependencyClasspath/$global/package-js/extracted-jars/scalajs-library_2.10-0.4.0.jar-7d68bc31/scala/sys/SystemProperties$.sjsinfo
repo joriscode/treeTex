@@ -1,0 +1,154 @@
+{
+  "name": "scala.sys.SystemProperties$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_SystemProperties$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_SystemProperties$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "propertyHelp$lzycompute__p1__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_collection_mutable_Map", "scala_collection_immutable_Nil", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_mutable_Map"]
+    },
+    "headless$lzycompute__p1__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_sys_SystemProperties$": ["bool__p1__T__T__Lscala_sys_BooleanProp"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "preferIPv4Stack$lzycompute__p1__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_sys_SystemProperties$": ["bool__p1__T__T__Lscala_sys_BooleanProp"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "preferIPv6Addresses$lzycompute__p1__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_sys_SystemProperties$": ["bool__p1__T__T__Lscala_sys_BooleanProp"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "noTraceSupression$lzycompute__p1__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_sys_SystemProperties$": ["bool__p1__T__T__Lscala_sys_BooleanProp"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "exclusively__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_Function0": ["apply__O"]
+      }
+    },
+    "systemPropertiesToCompanion__Lscala_sys_SystemProperties__Lscala_sys_SystemProperties$": {},
+    "propertyHelp__p1__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["propertyHelp$lzycompute__p1__Lscala_collection_mutable_Map"]
+      }
+    },
+    "addHelp__p1__Lscala_sys_Prop__T__Lscala_sys_Prop": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["update__O__O__V"],
+        "scala_sys_Prop": ["key__T"],
+        "scala_sys_SystemProperties$": ["propertyHelp__p1__Lscala_collection_mutable_Map"]
+      }
+    },
+    "str__p1__T__T__Lscala_sys_Prop": {
+      "calledMethods": {
+        "scala_sys_Prop$": ["apply__T__Lscala_sys_Prop$Creator__Lscala_sys_Prop"],
+        "scala_sys_SystemProperties$": ["addHelp__p1__Lscala_sys_Prop__T__Lscala_sys_Prop"]
+      },
+      "accessedModules": ["scala_sys_Prop", "scala_sys_Prop$StringProp"]
+    },
+    "bool__p1__T__T__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$": ["keyExists__T__Lscala_sys_BooleanProp", "valueIsTrue__T__Lscala_sys_BooleanProp"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z"],
+        "scala_sys_SystemProperties$": ["addHelp__p1__Lscala_sys_Prop__T__Lscala_sys_Prop"]
+      },
+      "accessedModules": ["scala_sys_BooleanProp"],
+      "accessedClassData": ["scala_sys_BooleanProp"]
+    },
+    "help__T__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_collection_mutable_Map": ["getOrElse__O__Lscala_Function0__O"],
+        "scala_sys_SystemProperties$": ["propertyHelp__p1__Lscala_collection_mutable_Map"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "headless__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["headless$lzycompute__p1__Lscala_sys_BooleanProp"]
+      }
+    },
+    "preferIPv4Stack__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["preferIPv4Stack$lzycompute__p1__Lscala_sys_BooleanProp"]
+      }
+    },
+    "preferIPv6Addresses__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["preferIPv6Addresses$lzycompute__p1__Lscala_sys_BooleanProp"]
+      }
+    },
+    "noTraceSupression__Lscala_sys_BooleanProp": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["noTraceSupression$lzycompute__p1__Lscala_sys_BooleanProp"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "noTraceSupression__": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["noTraceSupression__Lscala_sys_BooleanProp"]
+      }
+    },
+    "preferIPv6Addresses__": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["preferIPv6Addresses__Lscala_sys_BooleanProp"]
+      }
+    },
+    "preferIPv4Stack__": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["preferIPv4Stack__Lscala_sys_BooleanProp"]
+      }
+    },
+    "headless__": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["headless__Lscala_sys_BooleanProp"]
+      }
+    },
+    "help__T__": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["help__T__T"]
+      }
+    },
+    "systemPropertiesToCompanion__Lscala_sys_SystemProperties__": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["systemPropertiesToCompanion__Lscala_sys_SystemProperties__Lscala_sys_SystemProperties$"]
+      }
+    },
+    "exclusively__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_SystemProperties$": ["exclusively__Lscala_Function0__O"]
+      }
+    }
+  }
+}

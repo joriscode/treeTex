@@ -1,0 +1,42 @@
+{
+  "name": "scala.util.hashing.MurmurHash3$$anon$5",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_hashing_MurmurHash3$$anon$5",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_hashing_MurmurHash3$$anon$5", "scala_util_hashing_Hashing", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hash__Lscala_collection_TraversableOnce__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$": ["unorderedHash__Lscala_collection_TraversableOnce__I"]
+      },
+      "accessedModules": ["scala_util_hashing_MurmurHash3"]
+    },
+    "hash__O__I": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$5": ["hash__Lscala_collection_TraversableOnce__I"]
+      },
+      "accessedClassData": ["scala_collection_TraversableOnce"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "hash__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_util_hashing_MurmurHash3$$anon$5": ["hash__Lscala_collection_TraversableOnce__I"]
+      }
+    },
+    "hash__O__": {
+      "calledMethods": {
+        "scala_util_hashing_Hashing": ["hash__O__I"]
+      }
+    }
+  }
+}

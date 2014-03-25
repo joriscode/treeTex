@@ -1,0 +1,97 @@
+{
+  "name": "scala.collection.IndexedSeqLike$Elements",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_IndexedSeqLike$Elements",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_IndexedSeqLike$Elements", "scala_Serializable", "java_io_Serializable", "scala_collection_BufferedIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "buffered__Lscala_collection_BufferedIterator": {
+      "calledMethods": {
+        "scala_collection_BufferedIterator$class": ["scala_collection_BufferedIterator$class__buffered__Lscala_collection_BufferedIterator__Lscala_collection_BufferedIterator"]
+      }
+    },
+    "initialSize__p2__I": {},
+    "index__p2__I": {},
+    "index$und$eq__p2__I__V": {},
+    "available__p2__I": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["max$extension__I__I__I"],
+        "scala_collection_IndexedSeqLike$Elements": ["index__p2__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$Elements": ["index__p2__I"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_IndexedSeqLike": ["apply__I__O"],
+        "scala_collection_IndexedSeqLike$Elements": ["index$und$eq__p2__I__V", "scala$collection$IndexedSeqLike$Elements$$$outer__Lscala_collection_IndexedSeqLike", "index__p2__I"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_collection_Iterator", "scala_runtime_BoxedUnit"]
+    },
+    "head__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_IndexedSeqLike": ["apply__I__O"],
+        "scala_collection_IndexedSeqLike$Elements": ["scala$collection$IndexedSeqLike$Elements$$$outer__Lscala_collection_IndexedSeqLike", "index__p2__I"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_collection_Iterator", "scala_runtime_BoxedUnit"]
+    },
+    "drop__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$Elements": ["init___Lscala_collection_IndexedSeqLike__I__I", "scala$collection$IndexedSeqLike$Elements$$$outer__Lscala_collection_IndexedSeqLike", "index__p2__I"]
+      },
+      "instantiatedClasses": ["scala_collection_IndexedSeqLike$Elements"]
+    },
+    "take__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_IndexedSeqLike$Elements": ["available__p2__I", "init___Lscala_collection_IndexedSeqLike__I__I", "scala$collection$IndexedSeqLike$Elements$$$outer__Lscala_collection_IndexedSeqLike", "index__p2__I"]
+      },
+      "instantiatedClasses": ["scala_collection_IndexedSeqLike$Elements"],
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "slice__I__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["drop__I__Lscala_collection_Iterator"],
+        "scala_collection_IndexedSeqLike$Elements": ["take__I__Lscala_collection_Iterator"]
+      }
+    },
+    "scala$collection$IndexedSeqLike$Elements$$$outer__Lscala_collection_IndexedSeqLike": {},
+    "init___Lscala_collection_IndexedSeqLike__I__I": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_BufferedIterator$class": ["scala_collection_BufferedIterator$class__$init$__Lscala_collection_BufferedIterator__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$IndexedSeqLike$Elements$$$outer__": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$Elements": ["scala$collection$IndexedSeqLike$Elements$$$outer__Lscala_collection_IndexedSeqLike"]
+      }
+    },
+    "head__": {
+      "calledMethods": {
+        "scala_collection_IndexedSeqLike$Elements": ["head__O"]
+      }
+    }
+  }
+}

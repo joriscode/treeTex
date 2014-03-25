@@ -1,0 +1,90 @@
+{
+  "name": "scala.Long$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Long$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Long$", "scala_AnyValCompanion", "scala_Specializable", "scala_SpecializableCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["zero__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "MinValue__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "MaxValue__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "box__J__Ljava_lang_Long": {
+      "calledMethods": {
+        "java_lang_Long$": ["valueOf__J__Ljava_lang_Long"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "unbox__O__J": {
+      "calledMethods": {
+        "java_lang_Long": ["longValue__J"]
+      },
+      "accessedClassData": ["java_lang_Long"]
+    },
+    "toString__T": {},
+    "long2float__J__F": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toFloat__F"]
+      }
+    },
+    "long2double__J__D": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "long2double__J__": {
+      "calledMethods": {
+        "scala_Long$": ["long2double__J__D"]
+      }
+    },
+    "long2float__J__": {
+      "calledMethods": {
+        "scala_Long$": ["long2float__J__F"]
+      }
+    },
+    "unbox__O__": {
+      "calledMethods": {
+        "scala_Long$": ["unbox__O__J"]
+      }
+    },
+    "box__J__": {
+      "calledMethods": {
+        "scala_Long$": ["box__J__Ljava_lang_Long"]
+      }
+    },
+    "MaxValue__": {
+      "calledMethods": {
+        "scala_Long$": ["MaxValue__J"]
+      }
+    },
+    "MinValue__": {
+      "calledMethods": {
+        "scala_Long$": ["MinValue__J"]
+      }
+    }
+  }
+}

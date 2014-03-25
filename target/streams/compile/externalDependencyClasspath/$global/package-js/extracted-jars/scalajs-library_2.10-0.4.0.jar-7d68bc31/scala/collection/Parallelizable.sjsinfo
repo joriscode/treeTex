@@ -1,0 +1,23 @@
+{
+  "name": "scala.collection.Parallelizable",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Parallelizable",
+  "superClass": "",
+  "ancestors": ["scala_collection_Parallelizable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "seq__Lscala_collection_TraversableOnce": {
+      "isAbstract": true
+    },
+    "par__Lscala_collection_Parallel": {
+      "isAbstract": true
+    },
+    "parCombiner__Lscala_collection_parallel_Combiner": {
+      "isAbstract": true
+    }
+  }
+}

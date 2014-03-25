@@ -1,0 +1,56 @@
+{
+  "name": "scala.collection.mutable.ArrayBuilder$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayBuilder$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_ArrayBuilder$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "make__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayBuilder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofUnit": ["init___"],
+        "java_lang_Integer$": ["TYPE__Ljava_lang_Class"],
+        "scala_collection_mutable_ArrayBuilder$ofChar": ["init___"],
+        "scala_Predef$": ["implicitly__O__O"],
+        "scala_collection_mutable_ArrayBuilder$ofDouble": ["init___"],
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"],
+        "java_lang_Short$": ["TYPE__Ljava_lang_Class"],
+        "scala_collection_mutable_ArrayBuilder$ofLong": ["init___"],
+        "java_lang_Byte$": ["TYPE__Ljava_lang_Class"],
+        "scala_collection_mutable_ArrayBuilder$ofRef": ["init___Lscala_reflect_ClassTag"],
+        "java_lang_Boolean$": ["TYPE__Ljava_lang_Class"],
+        "scala_collection_mutable_ArrayBuilder$ofFloat": ["init___"],
+        "scala_collection_mutable_ArrayBuilder$ofShort": ["init___"],
+        "java_lang_Float$": ["TYPE__Ljava_lang_Class"],
+        "scala_collection_mutable_ArrayBuilder$ofInt": ["init___"],
+        "scala_collection_mutable_ArrayBuilder$ofBoolean": ["init___"],
+        "java_lang_Void$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Character$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Long$": ["TYPE__Ljava_lang_Class"],
+        "scala_collection_mutable_ArrayBuilder$ofByte": ["init___"],
+        "java_lang_Double$": ["TYPE__Ljava_lang_Class"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuilder$ofRef", "scala_collection_mutable_ArrayBuilder$ofByte", "scala_collection_mutable_ArrayBuilder$ofChar", "scala_collection_mutable_ArrayBuilder$ofLong", "scala_collection_mutable_ArrayBuilder$ofShort", "scala_collection_mutable_ArrayBuilder$ofBoolean", "scala_collection_mutable_ArrayBuilder$ofFloat", "scala_collection_mutable_ArrayBuilder$ofInt", "scala_collection_mutable_ArrayBuilder$ofUnit", "scala_collection_mutable_ArrayBuilder$ofDouble"],
+      "accessedModules": ["java_lang_Boolean", "java_lang_Float", "java_lang_Byte", "java_lang_Integer", "scala_Predef", "java_lang_Long", "java_lang_Void", "java_lang_Character", "java_lang_Double", "java_lang_Short"],
+      "accessedClassData": ["scala_reflect_ClassTag"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_mutable_ArrayBuilder"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "make__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$": ["make__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayBuilder"]
+      }
+    }
+  }
+}

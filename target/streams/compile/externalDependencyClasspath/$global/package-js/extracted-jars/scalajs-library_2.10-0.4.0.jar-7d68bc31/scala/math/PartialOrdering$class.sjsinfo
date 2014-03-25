@@ -1,0 +1,41 @@
+{
+  "name": "scala.math.PartialOrdering$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_math_PartialOrdering$class",
+  "superClass": "",
+  "ancestors": ["scala_math_PartialOrdering$class"],
+  "isExported": false,
+  "methods": {
+    "scala_math_PartialOrdering$class__gteq__Lscala_math_PartialOrdering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_PartialOrdering": ["lteq__O__O__Z"]
+      }
+    },
+    "scala_math_PartialOrdering$class__lt__Lscala_math_PartialOrdering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_PartialOrdering": ["lteq__O__O__Z", "equiv__O__O__Z"]
+      }
+    },
+    "scala_math_PartialOrdering$class__gt__Lscala_math_PartialOrdering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_PartialOrdering": ["equiv__O__O__Z", "gteq__O__O__Z"]
+      }
+    },
+    "scala_math_PartialOrdering$class__equiv__Lscala_math_PartialOrdering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_PartialOrdering": ["lteq__O__O__Z"]
+      }
+    },
+    "scala_math_PartialOrdering$class__reverse__Lscala_math_PartialOrdering__Lscala_math_PartialOrdering": {
+      "calledMethods": {
+        "scala_math_PartialOrdering$$anon$1": ["init___Lscala_math_PartialOrdering"]
+      },
+      "instantiatedClasses": ["scala_math_PartialOrdering$$anon$1"]
+    },
+    "scala_math_PartialOrdering$class__$init$__Lscala_math_PartialOrdering__V": {}
+  }
+}

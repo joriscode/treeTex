@@ -1,0 +1,33 @@
+{
+  "name": "scala.runtime.NonLocalReturnControl$mcV$sp",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_NonLocalReturnControl$mcV$sp",
+  "superClass": "scala_runtime_NonLocalReturnControl",
+  "ancestors": ["scala_runtime_NonLocalReturnControl$mcV$sp", "scala_runtime_NonLocalReturnControl", "scala_util_control_ControlThrowable", "scala_util_control_NoStackTrace", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "value$mcV$sp__V": {},
+    "value__V": {
+      "calledMethods": {
+        "scala_runtime_NonLocalReturnControl$mcV$sp": ["value$mcV$sp__V"]
+      }
+    },
+    "specInstance$__Z": {},
+    "value__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "init___O__Lscala_runtime_BoxedUnit": {
+      "calledMethodsStatic": {
+        "scala_runtime_NonLocalReturnControl": ["init___O__O"]
+      }
+    }
+  }
+}

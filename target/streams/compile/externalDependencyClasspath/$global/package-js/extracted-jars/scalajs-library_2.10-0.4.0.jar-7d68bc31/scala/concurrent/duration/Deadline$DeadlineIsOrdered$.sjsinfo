@@ -1,0 +1,168 @@
+{
+  "name": "scala.concurrent.duration.Deadline$DeadlineIsOrdered$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_duration_Deadline$DeadlineIsOrdered$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_duration_Deadline$DeadlineIsOrdered$", "scala_math_Ordering", "scala_math_PartialOrdering", "scala_math_Equiv", "scala_Serializable", "java_io_Serializable", "java_util_Comparator", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "tryCompare__O__O__Lscala_Some": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__tryCompare__Lscala_math_Ordering__O__O__Lscala_Some"]
+      }
+    },
+    "lteq__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__lteq__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "gteq__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__gteq__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "lt__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__lt__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "gt__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__gt__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "equiv__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__equiv__Lscala_math_Ordering__O__O__Z"]
+      }
+    },
+    "max__O__O__O": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__max__Lscala_math_Ordering__O__O__O"]
+      }
+    },
+    "min__O__O__O": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__min__Lscala_math_Ordering__O__O__O"]
+      }
+    },
+    "reverse__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__reverse__Lscala_math_Ordering__Lscala_math_Ordering"]
+      }
+    },
+    "on__Lscala_Function1__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__on__Lscala_math_Ordering__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "mkOrderingOps__O__Lscala_math_Ordering$Ops": {
+      "calledMethods": {
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__mkOrderingOps__Lscala_math_Ordering__O__Lscala_math_Ordering$Ops"]
+      }
+    },
+    "compare__Lscala_concurrent_duration_Deadline__Lscala_concurrent_duration_Deadline__I": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline": ["compare__Lscala_concurrent_duration_Deadline__I"]
+      }
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_concurrent_duration_Deadline$DeadlineIsOrdered"]
+    },
+    "reverse__Lscala_math_PartialOrdering": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["reverse__Lscala_math_Ordering"]
+      }
+    },
+    "tryCompare__O__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["tryCompare__O__O__Lscala_Some"]
+      }
+    },
+    "compare__O__O__I": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["compare__Lscala_concurrent_duration_Deadline__Lscala_concurrent_duration_Deadline__I"]
+      },
+      "accessedClassData": ["scala_concurrent_duration_Deadline"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_math_PartialOrdering$class": ["scala_math_PartialOrdering$class__$init$__Lscala_math_PartialOrdering__V"],
+        "scala_math_Ordering$class": ["scala_math_Ordering$class__$init$__Lscala_math_Ordering__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "mkOrderingOps__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["mkOrderingOps__O__Lscala_math_Ordering$Ops"]
+      }
+    },
+    "on__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["on__Lscala_Function1__Lscala_math_Ordering"]
+      }
+    },
+    "reverse__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["reverse__Lscala_math_Ordering"]
+      }
+    },
+    "min__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["min__O__O__O"]
+      }
+    },
+    "max__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["max__O__O__O"]
+      }
+    },
+    "equiv__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["equiv__O__O__Z"]
+      }
+    },
+    "gt__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["gt__O__O__Z"]
+      }
+    },
+    "lt__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["lt__O__O__Z"]
+      }
+    },
+    "gteq__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["gteq__O__O__Z"]
+      }
+    },
+    "lteq__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["lteq__O__O__Z"]
+      }
+    },
+    "tryCompare__O__O__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["tryCompare__O__O__Lscala_Some"]
+      }
+    },
+    "compare__Lscala_concurrent_duration_Deadline__Lscala_concurrent_duration_Deadline__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$DeadlineIsOrdered$": ["compare__Lscala_concurrent_duration_Deadline__Lscala_concurrent_duration_Deadline__I"]
+      }
+    },
+    "compare__O__O__": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    }
+  }
+}

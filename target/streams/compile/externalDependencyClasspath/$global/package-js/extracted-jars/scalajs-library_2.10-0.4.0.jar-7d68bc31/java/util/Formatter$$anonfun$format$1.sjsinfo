@@ -1,0 +1,108 @@
+{
+  "name": "java.util.Formatter$$anonfun$format$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_Formatter$$anonfun$format$1",
+  "superClass": "scala_runtime_AbstractFunction0",
+  "ancestors": ["java_util_Formatter$$anonfun$format$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Ljava_util_Formatter": {
+      "calledMethods": {
+        "java_lang_Integer$": ["toOctalString__I__T", "toHexString__I__T"],
+        "scala_Predef$": ["Long2long__Ljava_lang_Long__J", "charWrapper__C__C", "Integer2int__Ljava_lang_Integer__I"],
+        "java_util_FormattableFlags$": ["LEFT$undJUSTIFY__I", "ALTERNATE__I", "UPPERCASE__I"],
+        "java_util_Formatter$RegExpExtractor": ["unapply__Lscala_scalajs_js_String__Lscala_Option"],
+        "scala_Option": ["get__O", "isEmpty__Z"],
+        "java_util_Formatter$$anonfun$format$1": ["sciNotation$1__p2__Lscala_scalajs_js_Number__Lscala_scalajs_js_String__O__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable", "with$und$plus$1__p2__Lscala_scalajs_js_String__Z__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable", "pad$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Ljava_lang_Boolean__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable", "pad$default$2$1__p2__Lscala_scalajs_js_String", "hasFlag$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Lscala_scalajs_js_Boolean", "pseudoUnsignedArgStr$1__p2__Lscala_scalajs_js_Number__Lscala_scalajs_js_Number__Lscala_scalajs_js_Number__Lscala_scalajs_js_String", "numberArg$1__p2__O__Lscala_scalajs_js_Number", "pad$default$3$1__p2__Ljava_lang_Boolean", "with$und$plus$default$2$1__p2__Z", "padCaptureSign$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable"],
+        "java_util_FormatFlagsConversionMismatchException": ["init___T__C"],
+        "scala_MatchError": ["init___O"],
+        "java_lang_Appendable": ["append__C__Ljava_lang_Appendable", "append__Ljava_lang_CharSequence__Ljava_lang_Appendable"],
+        "java_lang_Object": ["hashCode__I", "toString__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C"],
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__O__T"],
+        "java_util_Formatter": ["java$util$Formatter$$dest__Ljava_lang_Appendable", "java$util$Formatter$$EOLChunk__Ljava_util_Formatter$RegExpExtractor", "java$util$Formatter$$DoublePercent__Ljava_util_Formatter$RegExpExtractor", "java$util$Formatter$$RegularChunk__Ljava_util_Formatter$RegExpExtractor", "java$util$Formatter$$FormattedChunk__Ljava_util_Formatter$RegExpExtractor"],
+        "java_util_MissingFormatArgumentException": ["init___T"],
+        "java_lang_Short": ["shortValue__S"],
+        "java_lang_Byte": ["byteValue__B"],
+        "java_util_Formattable": ["formatTo__Ljava_util_Formatter__I__I__I__V"],
+        "scala_scalajs_js_Any$": ["fromArray__O__Lscala_scalajs_js_Array"],
+        "java_lang_Long$": ["toHexString__J__T", "toOctalString__J__T"],
+        "scala_runtime_RichChar$": ["isUpper$extension__C__Z"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "java_util_MissingFormatArgumentException", "java_util_FormatFlagsConversionMismatchException"],
+      "accessedModules": ["scala_scalajs_js_Any", "java_lang_Integer", "scala_Predef", "java_lang_Long", "scala_None", "java_util_FormattableFlags", "scala_runtime_RichChar", "scala_runtime_BoxedUnit", "scala_scalajs_runtime_RuntimeString"],
+      "accessedClassData": ["java_lang_Boolean", "java_lang_Byte", "java_lang_Integer", "java_lang_Long", "java_util_Formattable", "java_lang_Short"]
+    },
+    "apply__O": {
+      "calledMethods": {
+        "java_util_Formatter$$anonfun$format$1": ["apply__Ljava_util_Formatter"]
+      }
+    },
+    "hasFlag$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Lscala_scalajs_js_Boolean": {},
+    "numberArg$1__p2__O__Lscala_scalajs_js_Number": {
+      "calledMethods": {
+        "java_lang_Number": ["doubleValue__D"],
+        "scala_MatchError": ["init___O"],
+        "java_lang_Character": ["charValue__C"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedClassData": ["java_lang_Number", "java_lang_Character"]
+    },
+    "pseudoUnsignedArgStr$1__p2__Lscala_scalajs_js_Number__Lscala_scalajs_js_Number__Lscala_scalajs_js_Number__Lscala_scalajs_js_String": {},
+    "padCaptureSign$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_util_Formatter$$anonfun$format$1": ["pad$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Ljava_lang_Boolean__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable", "pad$default$3$1__p2__Ljava_lang_Boolean"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C"]
+      }
+    },
+    "strRepeat$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__Lscala_scalajs_js_String": {},
+    "with$und$plus$1__p2__Lscala_scalajs_js_String__Z__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "scala_Predef$": ["boolean2Boolean__Z__Ljava_lang_Boolean"],
+        "java_util_Formatter$$anonfun$format$1": ["hasFlag$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Lscala_scalajs_js_Boolean", "pad$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Ljava_lang_Boolean__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "with$und$plus$default$2$1__p2__Z": {},
+    "pad$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Ljava_lang_Boolean__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "scala_Predef$": ["Boolean2boolean__Ljava_lang_Boolean__Z", "charWrapper__C__C"],
+        "java_util_IllegalFormatFlagsException": ["init___T"],
+        "java_util_Formatter$$anonfun$format$1": ["hasFlag$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_String__Lscala_scalajs_js_Boolean", "strRepeat$1__p2__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__Lscala_scalajs_js_String"],
+        "java_lang_Appendable": ["append__Ljava_lang_CharSequence__Ljava_lang_Appendable"],
+        "java_util_Formatter": ["java$util$Formatter$$dest__Ljava_lang_Appendable"],
+        "scala_runtime_RichChar$": ["isUpper$extension__C__Z"]
+      },
+      "instantiatedClasses": ["java_util_IllegalFormatFlagsException"],
+      "accessedModules": ["scala_Predef", "scala_runtime_RichChar"]
+    },
+    "pad$default$2$1__p2__Lscala_scalajs_js_String": {},
+    "pad$default$3$1__p2__Ljava_lang_Boolean": {
+      "calledMethods": {
+        "scala_Predef$": ["boolean2Boolean__Z__Ljava_lang_Boolean"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "sciNotation$1__p2__Lscala_scalajs_js_Number__Lscala_scalajs_js_String__O__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_util_Formatter$$anonfun$format$1": ["numberArg$1__p2__O__Lscala_scalajs_js_Number", "with$und$plus$1__p2__Lscala_scalajs_js_String__Z__Lscala_scalajs_js_String__Lscala_scalajs_js_Number__C__Ljava_lang_Appendable"]
+      }
+    },
+    "init___Ljava_util_Formatter__T__AO": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction0": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

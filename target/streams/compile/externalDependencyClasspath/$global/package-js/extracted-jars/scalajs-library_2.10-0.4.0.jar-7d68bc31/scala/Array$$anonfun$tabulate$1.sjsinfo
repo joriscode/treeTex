@@ -1,0 +1,39 @@
+{
+  "name": "scala.Array$$anonfun$tabulate$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Array$$anonfun$tabulate$1",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_Array$$anonfun$tabulate$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__I__O": {
+      "calledMethods": {
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_Array$": ["tabulate__I__Lscala_Function1__Lscala_reflect_ClassTag__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Array"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_Array$$anonfun$tabulate$1": ["apply__I__O"]
+      }
+    },
+    "init___I__Lscala_Function2__Lscala_reflect_ClassTag": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "apply__I__": {
+      "calledMethods": {
+        "scala_Array$$anonfun$tabulate$1": ["apply__I__O"]
+      }
+    }
+  }
+}

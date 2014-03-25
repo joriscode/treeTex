@@ -1,0 +1,54 @@
+{
+  "name": "scala.ref.ReferenceWrapper$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_ref_ReferenceWrapper$class",
+  "superClass": "",
+  "ancestors": ["scala_ref_ReferenceWrapper$class"],
+  "isExported": false,
+  "methods": {
+    "scala_ref_ReferenceWrapper$class__get__Lscala_ref_ReferenceWrapper__Lscala_Option": {
+      "calledMethods": {
+        "scala_Option$": ["apply__O__Lscala_Option"],
+        "scala_ref_ReferenceWrapper": ["underlying__Ljava_lang_ref_Reference"],
+        "java_lang_ref_Reference": ["get__O"]
+      },
+      "accessedModules": ["scala_Option"]
+    },
+    "scala_ref_ReferenceWrapper$class__apply__Lscala_ref_ReferenceWrapper__O": {
+      "calledMethods": {
+        "scala_ref_ReferenceWrapper": ["underlying__Ljava_lang_ref_Reference"],
+        "java_lang_ref_Reference": ["get__O"],
+        "java_util_NoSuchElementException": ["init___"]
+      },
+      "instantiatedClasses": ["java_util_NoSuchElementException"]
+    },
+    "scala_ref_ReferenceWrapper$class__clear__Lscala_ref_ReferenceWrapper__V": {
+      "calledMethods": {
+        "scala_ref_ReferenceWrapper": ["underlying__Ljava_lang_ref_Reference"],
+        "java_lang_ref_Reference": ["clear__V"]
+      }
+    },
+    "scala_ref_ReferenceWrapper$class__enqueue__Lscala_ref_ReferenceWrapper__Z": {
+      "calledMethods": {
+        "scala_ref_ReferenceWrapper": ["underlying__Ljava_lang_ref_Reference"],
+        "java_lang_ref_Reference": ["enqueue__Z"]
+      }
+    },
+    "scala_ref_ReferenceWrapper$class__isEnqueued__Lscala_ref_ReferenceWrapper__Z": {
+      "calledMethods": {
+        "scala_ref_ReferenceWrapper": ["underlying__Ljava_lang_ref_Reference"],
+        "java_lang_ref_Reference": ["isEnqueued__Z"]
+      }
+    },
+    "scala_ref_ReferenceWrapper$class__self__Lscala_ref_ReferenceWrapper__Ljava_lang_ref_Reference": {
+      "calledMethods": {
+        "scala_ref_ReferenceWrapper": ["underlying__Ljava_lang_ref_Reference"]
+      }
+    },
+    "scala_ref_ReferenceWrapper$class__$init$__Lscala_ref_ReferenceWrapper__V": {}
+  }
+}

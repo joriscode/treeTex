@@ -1,0 +1,92 @@
+{
+  "name": "scala.collection.mutable.ArrayOps$ofUnit$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_ArrayOps$ofUnit$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_ArrayOps$ofUnit$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "thisCollection$extension__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofUnit": ["init___ALscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofUnit"]
+    },
+    "toCollection$extension__ALscala_runtime_BoxedUnit__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofUnit": ["init___ALscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofUnit"]
+    },
+    "newBuilder$extension__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_ArrayBuilder$ofUnit": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofUnit": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuilder$ofUnit"]
+    },
+    "length$extension__ALscala_runtime_BoxedUnit__I": {},
+    "apply$extension__ALscala_runtime_BoxedUnit__I__V": {},
+    "update$extension__ALscala_runtime_BoxedUnit__I__Lscala_runtime_BoxedUnit__V": {},
+    "hashCode$extension__ALscala_runtime_BoxedUnit__I": {
+      "calledMethods": {
+        "scala_Array": ["hashCode__I"]
+      }
+    },
+    "equals$extension__ALscala_runtime_BoxedUnit__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit": ["repr__ALscala_runtime_BoxedUnit"]
+      },
+      "accessedClassData": ["scala_collection_mutable_ArrayOps$ofUnit"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__ALscala_runtime_BoxedUnit__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit$": ["equals$extension__ALscala_runtime_BoxedUnit__O__Z"]
+      }
+    },
+    "hashCode$extension__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit$": ["hashCode$extension__ALscala_runtime_BoxedUnit__I"]
+      }
+    },
+    "update$extension__ALscala_runtime_BoxedUnit__I__Lscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit$": ["update$extension__ALscala_runtime_BoxedUnit__I__Lscala_runtime_BoxedUnit__V"]
+      }
+    },
+    "apply$extension__ALscala_runtime_BoxedUnit__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit$": ["apply$extension__ALscala_runtime_BoxedUnit__I__V"]
+      }
+    },
+    "length$extension__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit$": ["length$extension__ALscala_runtime_BoxedUnit__I"]
+      }
+    },
+    "newBuilder$extension__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit$": ["newBuilder$extension__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_ArrayBuilder$ofUnit"]
+      }
+    },
+    "toCollection$extension__ALscala_runtime_BoxedUnit__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit$": ["toCollection$extension__ALscala_runtime_BoxedUnit__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_WrappedArray"]
+      }
+    },
+    "thisCollection$extension__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit$": ["thisCollection$extension__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_WrappedArray"]
+      }
+    }
+  }
+}

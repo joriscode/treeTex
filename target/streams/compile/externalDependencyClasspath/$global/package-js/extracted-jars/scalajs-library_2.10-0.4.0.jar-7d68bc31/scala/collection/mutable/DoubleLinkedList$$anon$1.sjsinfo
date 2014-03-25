@@ -1,0 +1,152 @@
+{
+  "name": "scala.collection.mutable.DoubleLinkedList$$anon$1",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_DoubleLinkedList$$anon$1",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_DoubleLinkedList$$anon$1", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "sizeHint__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__I__V"]
+      }
+    },
+    "sizeHint__Lscala_collection_TraversableLike__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__Lscala_collection_TraversableLike__V"]
+      }
+    },
+    "sizeHint__Lscala_collection_TraversableLike__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__Lscala_collection_TraversableLike__I__V"]
+      }
+    },
+    "sizeHintBounded__I__Lscala_collection_TraversableLike__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__sizeHintBounded__Lscala_collection_mutable_Builder__I__Lscala_collection_TraversableLike__V"]
+      }
+    },
+    "mapResult__Lscala_Function1__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__mapResult__Lscala_collection_mutable_Builder__Lscala_Function1__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "$$plus$eq__O__O__Lscala_collection_Seq__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$plus$eq__Lscala_collection_generic_Growable__O__O__Lscala_collection_Seq__Lscala_collection_generic_Growable"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$plus$plus$eq__Lscala_collection_generic_Growable__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      }
+    },
+    "emptyList__p1__Lscala_collection_mutable_DoubleLinkedList": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_DoubleLinkedList"]
+    },
+    "current__p1__Lscala_collection_mutable_DoubleLinkedList": {},
+    "current$und$eq__p1__Lscala_collection_mutable_DoubleLinkedList__V": {},
+    "$$plus$eq__O__Lscala_collection_mutable_DoubleLinkedList$$anon$1": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList": ["isEmpty__Z", "append__Lscala_collection_mutable_Seq__Lscala_collection_mutable_Seq", "init___O__Lscala_collection_mutable_DoubleLinkedList"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["current$und$eq__p1__Lscala_collection_mutable_DoubleLinkedList__V", "emptyList__p1__Lscala_collection_mutable_DoubleLinkedList", "current__p1__Lscala_collection_mutable_DoubleLinkedList"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_DoubleLinkedList"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "clear__V": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["current$und$eq__p1__Lscala_collection_mutable_DoubleLinkedList__V", "emptyList__p1__Lscala_collection_mutable_DoubleLinkedList"]
+      }
+    },
+    "result__Lscala_collection_mutable_DoubleLinkedList": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["current__p1__Lscala_collection_mutable_DoubleLinkedList"]
+      }
+    },
+    "result__O": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["result__Lscala_collection_mutable_DoubleLinkedList"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["$$plus$eq__O__Lscala_collection_mutable_DoubleLinkedList$$anon$1"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["$$plus$eq__O__Lscala_collection_mutable_DoubleLinkedList$$anon$1"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$class": ["scala_collection_mutable_Builder$class__$init$__Lscala_collection_mutable_Builder__V"],
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["emptyList__p1__Lscala_collection_mutable_DoubleLinkedList"],
+        "scala_collection_generic_Growable$class": ["scala_collection_generic_Growable$class__$init$__Lscala_collection_generic_Growable__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      }
+    },
+    "$$plus$eq__O__O__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["$$plus$eq__O__O__Lscala_collection_Seq__Lscala_collection_generic_Growable"]
+      }
+    },
+    "mapResult__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["mapResult__Lscala_Function1__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "sizeHintBounded__I__Lscala_collection_TraversableLike__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["sizeHintBounded__I__Lscala_collection_TraversableLike__V"]
+      }
+    },
+    "sizeHint__Lscala_collection_TraversableLike__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["sizeHint__Lscala_collection_TraversableLike__I__V"]
+      }
+    },
+    "sizeHint__Lscala_collection_TraversableLike__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["sizeHint__Lscala_collection_TraversableLike__V"]
+      }
+    },
+    "sizeHint__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["sizeHint__I__V"]
+      }
+    },
+    "result__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["result__Lscala_collection_mutable_DoubleLinkedList"]
+      }
+    },
+    "clear__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["clear__V"]
+      }
+    },
+    "$$plus$eq__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_DoubleLinkedList$$anon$1": ["$$plus$eq__O__Lscala_collection_mutable_DoubleLinkedList$$anon$1"]
+      }
+    }
+  }
+}

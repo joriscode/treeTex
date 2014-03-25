@@ -1,0 +1,105 @@
+{
+  "name": "scala.runtime.WorksheetSupport$FlushedOutputStream",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_WorksheetSupport$FlushedOutputStream",
+  "superClass": "java_io_OutputStream",
+  "ancestors": ["scala_runtime_WorksheetSupport$FlushedOutputStream", "java_io_OutputStream", "java_io_Flushable", "java_io_Closeable", "java_lang_AutoCloseable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["zero__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "flushInterval__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "width__I": {},
+    "tabInc__I": {},
+    "lastFlush__p2__J": {},
+    "lastFlush$und$eq__p2__J__V": {},
+    "col__p2__I": {},
+    "col$und$eq__p2__I__V": {},
+    "write__AB__I__I__V": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range", "min$extension__I__I__I"],
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["flush__V", "writeOne__I__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "write__I__V": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["flush__V", "writeOne__I__V"]
+      }
+    },
+    "flush__V": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$greater$eq__Lscala_scalajs_runtime_Long__Z", "$$minus__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "java_lang_System$": ["nanoTime__J"],
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["flushInterval__J", "lastFlush__p2__J", "lastFlush$und$eq__p2__J__V"],
+        "java_io_OutputStream": ["flush__V"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "writeOne__I__V": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$": ["scala$runtime$WorksheetSupport$$currentOffset__I"],
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["tabInc__I", "width__I", "writeOne__I__V", "col$und$eq__p2__I__V", "write__AB__V", "col__p2__I"],
+        "java_io_OutputStream": ["write__I__V"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__getBytes__Lscala_scalajs_runtime_RuntimeString__AB"]
+      },
+      "accessedModules": ["scala_runtime_WorksheetSupport"]
+    },
+    "ensureNewLine__V": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["writeOne__I__V", "col__p2__I"]
+      }
+    },
+    "init___Ljava_io_OutputStream": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "calledMethodsStatic": {
+        "java_io_OutputStream": ["init___"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "ensureNewLine__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["ensureNewLine__V"]
+      }
+    },
+    "writeOne__I__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["writeOne__I__V"]
+      }
+    },
+    "tabInc__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["tabInc__I"]
+      }
+    },
+    "width__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["width__I"]
+      }
+    },
+    "flushInterval__": {
+      "calledMethods": {
+        "scala_runtime_WorksheetSupport$FlushedOutputStream": ["flushInterval__J"]
+      }
+    }
+  }
+}

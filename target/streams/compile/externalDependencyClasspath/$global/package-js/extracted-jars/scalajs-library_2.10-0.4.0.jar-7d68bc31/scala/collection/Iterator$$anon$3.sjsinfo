@@ -1,0 +1,35 @@
+{
+  "name": "scala.collection.Iterator$$anon$3",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$$anon$3",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_Iterator$$anon$3", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hasnext__p2__Z": {},
+    "hasnext$und$eq__p2__Z__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$3": ["hasnext__p2__Z"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_Iterator$$anon$3": ["hasnext$und$eq__p2__Z__V", "hasnext__p2__Z"],
+        "scala_collection_Iterator": ["next__O"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "init___O": {
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

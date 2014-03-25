@@ -1,0 +1,91 @@
+{
+  "name": "scala.collection.immutable.StreamViewLike$$anon$9",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_StreamViewLike$$anon$9",
+  "superClass": "scala_collection_immutable_StreamViewLike$AbstractTransformed",
+  "ancestors": ["scala_collection_immutable_StreamViewLike$$anon$9", "scala_collection_immutable_StreamViewLike$Zipped", "scala_collection_SeqViewLike$Zipped", "scala_collection_GenSeqViewLike$Zipped", "scala_collection_IterableViewLike$Zipped", "scala_collection_GenIterableViewLike$Zipped", "scala_collection_immutable_StreamViewLike$AbstractTransformed", "scala_collection_immutable_StreamViewLike$Transformed", "scala_collection_immutable_StreamView", "scala_collection_immutable_StreamViewLike", "scala_collection_SeqViewLike$AbstractTransformed", "scala_collection_SeqViewLike$Transformed", "scala_collection_GenSeqViewLike$Transformed", "scala_collection_SeqView", "scala_collection_GenSeqView", "scala_collection_SeqViewLike", "scala_collection_GenSeqViewLike", "scala_collection_IterableViewLike$Transformed", "scala_collection_GenIterableViewLike$Transformed", "scala_collection_TraversableViewLike$Transformed", "scala_collection_GenTraversableViewLike$Transformed", "scala_collection_IterableView", "scala_collection_GenIterableView", "scala_collection_IterableViewLike", "scala_collection_GenIterableViewLike", "scala_collection_TraversableView", "scala_collection_GenTraversableView", "scala_collection_TraversableViewLike", "scala_collection_GenTraversableViewLike", "scala_collection_ViewMkString", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "scala_PartialFunction", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "thatSeq$lzycompute__p3__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Zipped$class": ["scala_collection_GenSeqViewLike$Zipped$class__thatSeq__Lscala_collection_GenSeqViewLike$Zipped__Lscala_collection_Seq"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "thatSeq__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamViewLike$$anon$9": ["thatSeq$lzycompute__p3__Lscala_collection_Seq"]
+      }
+    },
+    "length__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Zipped$class": ["scala_collection_GenSeqViewLike$Zipped$class__length__Lscala_collection_GenSeqViewLike$Zipped__I"]
+      }
+    },
+    "apply__I__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Zipped$class": ["scala_collection_GenSeqViewLike$Zipped$class__apply__Lscala_collection_GenSeqViewLike$Zipped__I__Lscala_Tuple2"]
+      }
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_GenIterableViewLike$Zipped$class": ["scala_collection_GenIterableViewLike$Zipped$class__iterator__Lscala_collection_GenIterableViewLike$Zipped__Lscala_collection_Iterator"]
+      }
+    },
+    "viewIdentifier__T": {
+      "calledMethods": {
+        "scala_collection_GenIterableViewLike$Zipped$class": ["scala_collection_GenIterableViewLike$Zipped$class__viewIdentifier__Lscala_collection_GenIterableViewLike$Zipped__T"]
+      }
+    },
+    "other__Lscala_collection_GenIterable": {},
+    "scala$collection$GenSeqViewLike$Zipped$$$outer__Lscala_collection_GenSeqViewLike": {},
+    "scala$collection$GenIterableViewLike$Zipped$$$outer__Lscala_collection_GenIterableViewLike": {},
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamViewLike$$anon$9": ["apply__I__Lscala_Tuple2"]
+      }
+    },
+    "apply__I__O": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamViewLike$$anon$9": ["apply__I__Lscala_Tuple2"]
+      }
+    },
+    "init___Lscala_collection_immutable_StreamViewLike__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Zipped$class": ["scala_collection_GenSeqViewLike$Zipped$class__$init$__Lscala_collection_GenSeqViewLike$Zipped__V"],
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_GenIterableViewLike$Zipped$class": ["scala_collection_GenIterableViewLike$Zipped$class__$init$__Lscala_collection_GenIterableViewLike$Zipped__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_immutable_StreamViewLike$AbstractTransformed": ["init___Lscala_collection_immutable_StreamViewLike"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "thatSeq__": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamViewLike$$anon$9": ["thatSeq__Lscala_collection_Seq"]
+      }
+    },
+    "scala$collection$GenIterableViewLike$Zipped$$$outer__": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamViewLike$$anon$9": ["scala$collection$GenIterableViewLike$Zipped$$$outer__Lscala_collection_GenIterableViewLike"]
+      }
+    },
+    "scala$collection$GenSeqViewLike$Zipped$$$outer__": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamViewLike$$anon$9": ["scala$collection$GenSeqViewLike$Zipped$$$outer__Lscala_collection_GenSeqViewLike"]
+      }
+    },
+    "other__": {
+      "calledMethods": {
+        "scala_collection_immutable_StreamViewLike$$anon$9": ["other__Lscala_collection_GenIterable"]
+      }
+    }
+  }
+}

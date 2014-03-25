@@ -1,0 +1,31 @@
+{
+  "name": "scala.Product8$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Product8$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Product8$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "unapply__Lscala_Product8__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_Product8__": {
+      "calledMethods": {
+        "scala_Product8$": ["unapply__Lscala_Product8__Lscala_Option"]
+      }
+    }
+  }
+}

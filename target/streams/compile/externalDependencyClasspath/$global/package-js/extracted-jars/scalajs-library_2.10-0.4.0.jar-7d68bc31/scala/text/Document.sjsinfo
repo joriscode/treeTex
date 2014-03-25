@@ -1,0 +1,125 @@
+{
+  "name": "scala.text.Document",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_text_Document",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_text_Document", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "$$colon$colon__Lscala_text_Document__Lscala_text_Document": {
+      "calledMethods": {
+        "scala_text_DocCons": ["init___Lscala_text_Document__Lscala_text_Document"]
+      },
+      "instantiatedClasses": ["scala_text_DocCons"]
+    },
+    "$$colon$colon__T__Lscala_text_Document": {
+      "calledMethods": {
+        "scala_text_DocText": ["init___T"],
+        "scala_text_DocCons": ["init___Lscala_text_Document__Lscala_text_Document"]
+      },
+      "instantiatedClasses": ["scala_text_DocCons", "scala_text_DocText"]
+    },
+    "$$colon$div$colon__Lscala_text_Document__Lscala_text_Document": {
+      "calledMethods": {
+        "scala_text_Document": ["$$colon$colon__Lscala_text_Document__Lscala_text_Document"]
+      },
+      "accessedModules": ["scala_text_DocBreak"]
+    },
+    "$$colon$div$colon__T__Lscala_text_Document": {
+      "calledMethods": {
+        "scala_text_Document": ["$$colon$colon__Lscala_text_Document__Lscala_text_Document", "$$colon$colon__T__Lscala_text_Document"]
+      },
+      "accessedModules": ["scala_text_DocBreak"]
+    },
+    "format__I__Ljava_io_Writer__V": {
+      "calledMethods": {
+        "scala_Tuple3": ["init___O__O__O"],
+        "scala_text_DocGroup": ["init___Lscala_text_Document"],
+        "scala_collection_immutable_Nil$": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_text_Document": ["fmt$1__p1__I__Lscala_collection_immutable_List__I__Ljava_io_Writer__V"]
+      },
+      "instantiatedClasses": ["scala_text_DocGroup", "scala_Tuple3"],
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "fits$1__p1__I__Lscala_collection_immutable_List__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_$colon$colon": ["tl$1__Lscala_collection_immutable_List", "hd$1__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_text_DocCons": ["tl__Lscala_text_Document", "hd__Lscala_text_Document"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_text_DocNest": ["indent__I", "doc__Lscala_text_Document"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List$": ["unapplySeq__Lscala_collection_Seq__Lscala_Some"],
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "init___O__O__O", "$$und2__O"],
+        "scala_collection_LinearSeqOptimized": ["lengthCompare__I__I"],
+        "scala_text_DocText": ["txt__T"],
+        "scala_text_DocGroup": ["doc__Lscala_text_Document"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_Tuple3"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_text_DocBreak", "scala_text_DocNil"],
+      "accessedClassData": ["scala_collection_immutable_$colon$colon", "scala_text_Document", "scala_text_DocCons", "scala_text_DocGroup", "scala_text_DocNest", "scala_Tuple3", "scala_text_DocText", "scala_collection_LinearSeqOptimized"]
+    },
+    "spaces$1__p1__I__Ljava_io_Writer__V": {
+      "calledMethods": {
+        "java_io_Writer": ["write__T__V"]
+      }
+    },
+    "fmt$1__p1__I__Lscala_collection_immutable_List__I__Ljava_io_Writer__V": {
+      "calledMethods": {
+        "scala_collection_immutable_$colon$colon": ["tl$1__Lscala_collection_immutable_List", "hd$1__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_text_DocCons": ["tl__Lscala_text_Document", "hd__Lscala_text_Document"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_text_DocNest": ["indent__I", "doc__Lscala_text_Document"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List$": ["unapplySeq__Lscala_collection_Seq__Lscala_Some"],
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "init___O__O__O", "$$und2__O"],
+        "scala_text_Document": ["spaces$1__p1__I__Ljava_io_Writer__V", "fits$1__p1__I__Lscala_collection_immutable_List__Z"],
+        "scala_collection_LinearSeqOptimized": ["lengthCompare__I__I"],
+        "java_io_Writer": ["write__T__V"],
+        "scala_text_DocText": ["txt__T"],
+        "scala_text_DocGroup": ["doc__Lscala_text_Document"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Tuple3"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_text_DocBreak", "scala_text_DocNil", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_immutable_$colon$colon", "scala_text_Document", "scala_text_DocCons", "scala_text_DocGroup", "scala_text_DocNest", "scala_Tuple3", "scala_text_DocText", "scala_collection_LinearSeqOptimized"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "format__I__Ljava_io_Writer__": {
+      "calledMethods": {
+        "scala_text_Document": ["format__I__Ljava_io_Writer__V"]
+      }
+    },
+    "$$colon$div$colon__T__": {
+      "calledMethods": {
+        "scala_text_Document": ["$$colon$div$colon__T__Lscala_text_Document"]
+      }
+    },
+    "$$colon$div$colon__Lscala_text_Document__": {
+      "calledMethods": {
+        "scala_text_Document": ["$$colon$div$colon__Lscala_text_Document__Lscala_text_Document"]
+      }
+    },
+    "$$colon$colon__T__": {
+      "calledMethods": {
+        "scala_text_Document": ["$$colon$colon__T__Lscala_text_Document"]
+      }
+    },
+    "$$colon$colon__Lscala_text_Document__": {
+      "calledMethods": {
+        "scala_text_Document": ["$$colon$colon__Lscala_text_Document__Lscala_text_Document"]
+      }
+    }
+  }
+}

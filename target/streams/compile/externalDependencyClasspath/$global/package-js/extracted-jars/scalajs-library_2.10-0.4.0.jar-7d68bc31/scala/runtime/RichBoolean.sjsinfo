@@ -1,0 +1,134 @@
+{
+  "name": "scala.runtime.RichBoolean",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichBoolean",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichBoolean", "scala_runtime_OrderedProxy", "scala_Proxy$Typed", "scala_Proxy", "scala_math_Ordered", "java_lang_Comparable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "compare__O__I": {
+      "calledMethods": {
+        "scala_runtime_OrderedProxy$class": ["scala_runtime_OrderedProxy$class__compare__Lscala_runtime_OrderedProxy__O__I"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Proxy$class": ["scala_Proxy$class__toString__Lscala_Proxy__T"]
+      }
+    },
+    "$$less__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$less__Lscala_math_Ordered__O__Z"]
+      }
+    },
+    "$$greater__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$greater__Lscala_math_Ordered__O__Z"]
+      }
+    },
+    "$$less$eq__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$less$eq__Lscala_math_Ordered__O__Z"]
+      }
+    },
+    "$$greater$eq__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$greater$eq__Lscala_math_Ordered__O__Z"]
+      }
+    },
+    "compareTo__O__I": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__compareTo__Lscala_math_Ordered__O__I"]
+      }
+    },
+    "self__Z": {},
+    "ord__Lscala_math_Ordering$Boolean$": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["self__Z"],
+        "scala_runtime_RichBoolean$": ["ord$extension__Z__Lscala_math_Ordering$Boolean$"]
+      },
+      "accessedModules": ["scala_runtime_RichBoolean"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["self__Z"],
+        "scala_runtime_RichBoolean$": ["hashCode$extension__Z__I"]
+      },
+      "accessedModules": ["scala_runtime_RichBoolean"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["self__Z"],
+        "scala_runtime_RichBoolean$": ["equals$extension__Z__O__Z"]
+      },
+      "accessedModules": ["scala_runtime_RichBoolean"]
+    },
+    "ord__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["self__Z"],
+        "scala_runtime_RichBoolean$": ["ord$extension__Z__Lscala_math_Ordering$Boolean$"]
+      },
+      "accessedModules": ["scala_runtime_RichBoolean"]
+    },
+    "self__O": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["self__Z"]
+      }
+    },
+    "init___Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$init$__Lscala_math_Ordered__V"],
+        "scala_Proxy$class": ["scala_Proxy$class__$init$__Lscala_Proxy__V"],
+        "scala_runtime_OrderedProxy$class": ["scala_runtime_OrderedProxy$class__$init$__Lscala_runtime_OrderedProxy__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "compareTo__O__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["compareTo__O__I"]
+      }
+    },
+    "$$greater$eq__O__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["$$greater$eq__O__Z"]
+      }
+    },
+    "$$less$eq__O__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["$$less$eq__O__Z"]
+      }
+    },
+    "$$greater__O__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["$$greater__O__Z"]
+      }
+    },
+    "$$less__O__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["$$less__O__Z"]
+      }
+    },
+    "compare__O__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["compare__O__I"]
+      }
+    },
+    "ord__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["ord__Lscala_math_Ordering$Boolean$"]
+      }
+    },
+    "self__": {
+      "calledMethods": {
+        "scala_runtime_RichBoolean": ["self__Z"]
+      }
+    }
+  }
+}

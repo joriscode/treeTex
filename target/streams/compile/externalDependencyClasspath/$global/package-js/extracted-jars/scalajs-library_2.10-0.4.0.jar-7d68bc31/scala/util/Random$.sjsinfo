@@ -1,0 +1,31 @@
+{
+  "name": "scala.util.Random$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Random$",
+  "superClass": "scala_util_Random",
+  "ancestors": ["scala_util_Random$", "scala_util_Random", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "javaRandomToRandom__Ljava_util_Random__Lscala_util_Random": {
+      "calledMethods": {
+        "scala_util_Random": ["init___Ljava_util_Random"]
+      },
+      "instantiatedClasses": ["scala_util_Random"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_Random": ["init___"]
+      }
+    },
+    "javaRandomToRandom__Ljava_util_Random__": {
+      "calledMethods": {
+        "scala_util_Random$": ["javaRandomToRandom__Ljava_util_Random__Lscala_util_Random"]
+      }
+    }
+  }
+}

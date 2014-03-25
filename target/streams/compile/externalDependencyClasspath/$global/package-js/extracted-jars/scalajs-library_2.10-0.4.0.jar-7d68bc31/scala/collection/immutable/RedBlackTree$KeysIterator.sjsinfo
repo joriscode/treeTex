@@ -1,0 +1,25 @@
+{
+  "name": "scala.collection.immutable.RedBlackTree$KeysIterator",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_RedBlackTree$KeysIterator",
+  "superClass": "scala_collection_immutable_RedBlackTree$TreeIterator",
+  "ancestors": ["scala_collection_immutable_RedBlackTree$KeysIterator", "scala_collection_immutable_RedBlackTree$TreeIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "nextResult__Lscala_collection_immutable_RedBlackTree$Tree__O": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$Tree": ["key__O"]
+      }
+    },
+    "init___Lscala_collection_immutable_RedBlackTree$Tree": {
+      "calledMethods": {
+        "scala_collection_immutable_RedBlackTree$TreeIterator": ["init___Lscala_collection_immutable_RedBlackTree$Tree"]
+      }
+    }
+  }
+}

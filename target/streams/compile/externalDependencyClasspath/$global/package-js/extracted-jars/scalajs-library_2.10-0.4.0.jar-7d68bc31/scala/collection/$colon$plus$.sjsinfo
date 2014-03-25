@@ -1,0 +1,35 @@
+{
+  "name": "scala.collection.$colon$plus$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_$colon$plus$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_$colon$plus$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "unapply__Lscala_collection_SeqLike__Lscala_Option": {
+      "calledMethods": {
+        "scala_Predef$": ["any2ArrowAssoc__O__O"],
+        "scala_collection_SeqLike": ["isEmpty__Z", "last__O", "init__O"],
+        "scala_Some": ["init___O"],
+        "scala_Predef$ArrowAssoc$": ["$$minus$greater$extension__O__O__Lscala_Tuple2"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_Predef$ArrowAssoc", "scala_Predef", "scala_None"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_collection_SeqLike__": {
+      "calledMethods": {
+        "scala_collection_$colon$plus$": ["unapply__Lscala_collection_SeqLike__Lscala_Option"]
+      }
+    }
+  }
+}

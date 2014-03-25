@@ -1,0 +1,251 @@
+{
+  "name": "java.lang.reflect.Array$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_reflect_Array$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_reflect_Array$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "getUnderlying__O__Lscala_scalajs_js_Array": {},
+    "newInstance__Ljava_lang_Class__I__O": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["newArray__p1__Ljava_lang_Class__I__O"]
+      }
+    },
+    "newInstance__Ljava_lang_Class__AI__O": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["multiNewArray__p1__Ljava_lang_Class__AI__O"]
+      }
+    },
+    "getLength__O__I": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "get__O__I__O": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "getBoolean__O__I__Z": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "getByte__O__I__B": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "getChar__O__I__C": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "getShort__O__I__S": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "getInt__O__I__I": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "getLong__O__I__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"],
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "getFloat__O__I__F": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "getDouble__O__I__D": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "set__O__I__O__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "setBoolean__O__I__Z__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "setByte__O__I__B__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "setChar__O__I__C__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "setShort__O__I__S__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "setInt__O__I__I__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "setLong__O__I__J__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"],
+        "scala_scalajs_js_Any$": ["fromLong__J__Lscala_scalajs_js_Number"]
+      },
+      "accessedModules": ["scala_scalajs_js_Any"]
+    },
+    "setFloat__O__I__F__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "setDouble__O__I__D__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    },
+    "newArray__p1__Ljava_lang_Class__I__O": {
+      "calledMethods": {
+        "java_lang_Class": ["data__Lscala_scalajs_js_Dynamic"]
+      }
+    },
+    "multiNewArray__p1__Ljava_lang_Class__AI__O": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"],
+        "java_lang_Class": ["data__Lscala_scalajs_js_Dynamic"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "setDouble__O__I__D__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["setDouble__O__I__D__V"]
+      }
+    },
+    "setFloat__O__I__F__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["setFloat__O__I__F__V"]
+      }
+    },
+    "setLong__O__I__J__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["setLong__O__I__J__V"]
+      }
+    },
+    "setInt__O__I__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["setInt__O__I__I__V"]
+      }
+    },
+    "setShort__O__I__S__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["setShort__O__I__S__V"]
+      }
+    },
+    "setChar__O__I__C__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["setChar__O__I__C__V"]
+      }
+    },
+    "setByte__O__I__B__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["setByte__O__I__B__V"]
+      }
+    },
+    "setBoolean__O__I__Z__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["setBoolean__O__I__Z__V"]
+      }
+    },
+    "set__O__I__O__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["set__O__I__O__V"]
+      }
+    },
+    "getDouble__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getDouble__O__I__D"]
+      }
+    },
+    "getFloat__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getFloat__O__I__F"]
+      }
+    },
+    "getLong__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getLong__O__I__J"]
+      }
+    },
+    "getInt__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getInt__O__I__I"]
+      }
+    },
+    "getShort__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getShort__O__I__S"]
+      }
+    },
+    "getChar__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getChar__O__I__C"]
+      }
+    },
+    "getByte__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getByte__O__I__B"]
+      }
+    },
+    "getBoolean__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getBoolean__O__I__Z"]
+      }
+    },
+    "get__O__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["get__O__I__O"]
+      }
+    },
+    "getLength__O__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getLength__O__I"]
+      }
+    },
+    "newInstance__Ljava_lang_Class__AI__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["newInstance__Ljava_lang_Class__AI__O"]
+      }
+    },
+    "newInstance__Ljava_lang_Class__I__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["newInstance__Ljava_lang_Class__I__O"]
+      }
+    },
+    "getUnderlying__O__": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      }
+    }
+  }
+}

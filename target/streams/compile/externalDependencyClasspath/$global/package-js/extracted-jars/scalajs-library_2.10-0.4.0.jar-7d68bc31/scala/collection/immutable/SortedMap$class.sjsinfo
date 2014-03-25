@@ -1,0 +1,75 @@
+{
+  "name": "scala.collection.immutable.SortedMap$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_SortedMap$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_immutable_SortedMap$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_immutable_SortedMap$class__newBuilder__Lscala_collection_immutable_SortedMap__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_SortedMap": ["ordering__Lscala_math_Ordering"],
+        "scala_collection_immutable_SortedMap$": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_immutable_SortedMap"]
+    },
+    "scala_collection_immutable_SortedMap$class__empty__Lscala_collection_immutable_SortedMap__Lscala_collection_immutable_SortedMap": {
+      "calledMethods": {
+        "scala_collection_immutable_SortedMap": ["ordering__Lscala_math_Ordering"],
+        "scala_collection_immutable_SortedMap$": ["empty__Lscala_math_Ordering__Lscala_collection_immutable_SortedMap"]
+      },
+      "accessedModules": ["scala_collection_immutable_SortedMap"]
+    },
+    "scala_collection_immutable_SortedMap$class__updated__Lscala_collection_immutable_SortedMap__O__O__Lscala_collection_immutable_SortedMap": {
+      "calledMethods": {
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_immutable_SortedMap": ["$$plus__Lscala_Tuple2__Lscala_collection_immutable_SortedMap"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "scala_collection_immutable_SortedMap$class__keySet__Lscala_collection_immutable_SortedMap__Lscala_collection_immutable_SortedSet": {
+      "calledMethods": {
+        "scala_collection_immutable_SortedMap$DefaultKeySortedSet": ["init___Lscala_collection_immutable_SortedMap"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_SortedMap$DefaultKeySortedSet"]
+    },
+    "scala_collection_immutable_SortedMap$class__$plus__Lscala_collection_immutable_SortedMap__Lscala_Tuple2__Lscala_collection_immutable_SortedMap": {
+      "calledMethods": {
+        "java_lang_AbstractMethodError": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_AbstractMethodError"]
+    },
+    "scala_collection_immutable_SortedMap$class__$plus__Lscala_collection_immutable_SortedMap__Lscala_Tuple2__Lscala_Tuple2__Lscala_collection_Seq__Lscala_collection_immutable_SortedMap": {
+      "calledMethods": {
+        "scala_collection_immutable_SortedMap": ["$$plus__Lscala_Tuple2__Lscala_collection_immutable_SortedMap", "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_immutable_SortedMap"]
+      }
+    },
+    "scala_collection_immutable_SortedMap$class__$plus$plus__Lscala_collection_immutable_SortedMap__Lscala_collection_GenTraversableOnce__Lscala_collection_immutable_SortedMap": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_TraversableOnce": ["$$div$colon__O__Lscala_Function2__O"],
+        "scala_collection_GenTraversableOnce": ["seq__Lscala_collection_TraversableOnce"],
+        "scala_collection_immutable_SortedMap": ["$$plus__Lscala_Tuple2__Lscala_collection_immutable_SortedMap", "repr__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedClassData": ["scala_collection_immutable_SortedMap"]
+    },
+    "scala_collection_immutable_SortedMap$class__filterKeys__Lscala_collection_immutable_SortedMap__Lscala_Function1__Lscala_collection_immutable_SortedMap": {
+      "calledMethods": {
+        "scala_collection_immutable_SortedMap$$anon$1": ["init___Lscala_collection_immutable_SortedMap__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_SortedMap$$anon$1"]
+    },
+    "scala_collection_immutable_SortedMap$class__mapValues__Lscala_collection_immutable_SortedMap__Lscala_Function1__Lscala_collection_immutable_SortedMap": {
+      "calledMethods": {
+        "scala_collection_immutable_SortedMap$$anon$2": ["init___Lscala_collection_immutable_SortedMap__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_SortedMap$$anon$2"]
+    },
+    "scala_collection_immutable_SortedMap$class__$init$__Lscala_collection_immutable_SortedMap__V": {}
+  }
+}

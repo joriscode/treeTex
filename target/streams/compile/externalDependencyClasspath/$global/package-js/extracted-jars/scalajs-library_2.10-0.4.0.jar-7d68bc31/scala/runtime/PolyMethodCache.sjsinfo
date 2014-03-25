@@ -1,0 +1,40 @@
+{
+  "name": "scala.runtime.PolyMethodCache",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_PolyMethodCache",
+  "superClass": "scala_runtime_MethodCache",
+  "ancestors": ["scala_runtime_PolyMethodCache", "scala_runtime_MethodCache", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "findInternal__p2__Ljava_lang_Class__Ljava_lang_reflect_Method": {
+      "calledMethods": {
+        "scala_runtime_MethodCache": ["find__Ljava_lang_Class__Ljava_lang_reflect_Method"]
+      },
+      "accessedClassData": ["scala_runtime_PolyMethodCache"]
+    },
+    "find__Ljava_lang_Class__Ljava_lang_reflect_Method": {
+      "calledMethods": {
+        "scala_runtime_PolyMethodCache": ["findInternal__p2__Ljava_lang_Class__Ljava_lang_reflect_Method"]
+      }
+    },
+    "MaxComplexity__p2__I": {},
+    "add__Ljava_lang_Class__Ljava_lang_reflect_Method__Lscala_runtime_MethodCache": {
+      "calledMethods": {
+        "java_lang_reflect_Method": ["getName__T", "getParameterTypes__ALjava_lang_Class"],
+        "scala_runtime_PolyMethodCache": ["init___Lscala_runtime_MethodCache__Ljava_lang_Class__Ljava_lang_reflect_Method__I"],
+        "scala_runtime_MegaMethodCache": ["init___T__ALjava_lang_Class"]
+      },
+      "instantiatedClasses": ["scala_runtime_MegaMethodCache", "scala_runtime_PolyMethodCache"]
+    },
+    "init___Lscala_runtime_MethodCache__Ljava_lang_Class__Ljava_lang_reflect_Method__I": {
+      "calledMethodsStatic": {
+        "scala_runtime_MethodCache": ["init___"]
+      }
+    }
+  }
+}

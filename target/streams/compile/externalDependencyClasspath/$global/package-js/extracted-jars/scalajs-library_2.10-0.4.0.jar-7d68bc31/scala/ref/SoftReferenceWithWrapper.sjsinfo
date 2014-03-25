@@ -1,0 +1,34 @@
+{
+  "name": "scala.ref.SoftReferenceWithWrapper",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_ref_SoftReferenceWithWrapper",
+  "superClass": "java_lang_ref_SoftReference",
+  "ancestors": ["scala_ref_SoftReferenceWithWrapper", "scala_ref_ReferenceWithWrapper", "java_lang_ref_SoftReference", "java_lang_ref_Reference", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "wrapper__Lscala_ref_SoftReference": {},
+    "wrapper__Lscala_ref_ReferenceWrapper": {
+      "calledMethods": {
+        "scala_ref_SoftReferenceWithWrapper": ["wrapper__Lscala_ref_SoftReference"]
+      }
+    },
+    "init___O__Lscala_ref_ReferenceQueue__Lscala_ref_SoftReference": {
+      "calledMethods": {
+        "scala_ref_ReferenceQueue": ["underlying__Ljava_lang_ref_ReferenceQueue"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_ref_SoftReference": ["init___O__Ljava_lang_ref_ReferenceQueue"]
+      }
+    },
+    "wrapper__": {
+      "calledMethods": {
+        "scala_ref_SoftReferenceWithWrapper": ["wrapper__Lscala_ref_SoftReference"]
+      }
+    }
+  }
+}

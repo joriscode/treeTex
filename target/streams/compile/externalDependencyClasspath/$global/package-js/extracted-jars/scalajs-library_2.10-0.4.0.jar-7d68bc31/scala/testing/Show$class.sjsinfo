@@ -1,0 +1,64 @@
+{
+  "name": "scala.testing.Show$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_testing_Show$class",
+  "superClass": "",
+  "ancestors": ["scala_testing_Show$class"],
+  "isExported": false,
+  "methods": {
+    "scala_testing_Show$class__SymApply__Lscala_testing_Show__Lscala_Symbol__Lscala_testing_Show$SymApply": {
+      "calledMethods": {
+        "scala_testing_Show$SymApply": ["init___Lscala_testing_Show__Lscala_Symbol"]
+      },
+      "instantiatedClasses": ["scala_testing_Show$SymApply"]
+    },
+    "scala_testing_Show$class__symApply__Lscala_testing_Show__Lscala_Symbol__Lscala_testing_Show$SymApply": {
+      "calledMethods": {
+        "scala_testing_Show$SymApply": ["init___Lscala_testing_Show__Lscala_Symbol"]
+      },
+      "instantiatedClasses": ["scala_testing_Show$SymApply"]
+    },
+    "scala_testing_Show$class__test__Lscala_testing_Show__Lscala_Symbol__Lscala_collection_Seq__T": {
+      "calledMethods": {
+        "scala_testing_Show": ["getClass__Ljava_lang_Class"],
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["toList__Lscala_collection_immutable_List"],
+        "scala_collection_Seq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O", "length__I"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "java_lang_Class": ["getMethods__ALjava_lang_reflect_Method"],
+        "scala_collection_immutable_List": ["head__O", "filter__Lscala_Function1__O"],
+        "scala_testing_Show$class": ["scala_testing_Show$class__testMethod$1__Lscala_testing_Show__Ljava_lang_reflect_Method__Lscala_collection_Seq__Lscala_Symbol__Lscala_collection_Seq__T"],
+        "java_lang_reflect_Method": ["getName__T", "getParameterTypes__ALjava_lang_Class"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_List$": ["unapplySeq__Lscala_collection_Seq__Lscala_Some"],
+        "scala_collection_LinearSeqOptimized": ["apply__I__O", "lengthCompare__I__I"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_Symbol": ["name__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_List", "scala_Predef", "scala_collection_Seq"],
+      "accessedClassData": ["scala_collection_immutable_List", "java_lang_Object", "scala_collection_Seq", "scala_collection_LinearSeqOptimized", "java_lang_reflect_Method"]
+    },
+    "scala_testing_Show$class__liftedTree1$1__Lscala_testing_Show__Lscala_collection_Seq__Ljava_lang_reflect_Method__O": {
+      "calledMethods": {
+        "java_lang_reflect_Method": ["invoke__O__AO__O"],
+        "scala_reflect_ClassTag$": ["AnyRef__Lscala_reflect_ClassTag"],
+        "scala_collection_Seq": ["toArray__Lscala_reflect_ClassTag__O"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"],
+      "accessedClassData": ["java_lang_IllegalArgumentException", "java_lang_reflect_InvocationTargetException", "java_lang_Object", "java_lang_IllegalAccessException"]
+    },
+    "scala_testing_Show$class__testMethod$1__Lscala_testing_Show__Ljava_lang_reflect_Method__Lscala_collection_Seq__Lscala_Symbol__Lscala_collection_Seq__T": {
+      "calledMethods": {
+        "scala_Symbol": ["name__T"],
+        "scala_testing_Show$class": ["scala_testing_Show$class__liftedTree1$1__Lscala_testing_Show__Lscala_collection_Seq__Ljava_lang_reflect_Method__O"],
+        "scala_collection_Seq": ["mkString__T__T"]
+      }
+    },
+    "scala_testing_Show$class__$init$__Lscala_testing_Show__V": {}
+  }
+}

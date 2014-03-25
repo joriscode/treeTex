@@ -1,0 +1,45 @@
+{
+  "name": "scala.Symbol",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Symbol",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Symbol", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "name__T": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_Symbol": ["name__T"]
+      }
+    },
+    "readResolve__p1__O": {
+      "calledMethods": {
+        "scala_Symbol$": ["apply__T__Lscala_Symbol"],
+        "scala_Symbol": ["name__T"]
+      },
+      "accessedModules": ["scala_Symbol"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "java_lang_String": ["hashCode__I"],
+        "scala_Symbol": ["name__T"]
+      }
+    },
+    "equals__O__Z": {},
+    "init___T": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "name__": {
+      "calledMethods": {
+        "scala_Symbol": ["name__T"]
+      }
+    }
+  }
+}

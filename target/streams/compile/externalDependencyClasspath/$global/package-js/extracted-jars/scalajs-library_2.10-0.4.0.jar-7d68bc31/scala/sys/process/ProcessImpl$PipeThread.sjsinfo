@@ -1,0 +1,62 @@
+{
+  "name": "scala.sys.process.ProcessImpl$PipeThread",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$PipeThread",
+  "superClass": "java_lang_Thread",
+  "ancestors": ["scala_sys_process_ProcessImpl$PipeThread", "java_lang_Thread", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "run__V": {
+      "isAbstract": true
+    },
+    "runloop__Ljava_io_InputStream__Ljava_io_OutputStream__V": {
+      "calledMethods": {
+        "scala_sys_process_BasicIO$": ["close__Ljava_io_Closeable__V", "transferFully__Ljava_io_InputStream__Ljava_io_OutputStream__V"],
+        "scala_sys_process_processInternal$": ["ioFailure__Lscala_Function1__Lscala_PartialFunction"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_sys_process_ProcessImpl$PipeThread": ["scala$sys$process$ProcessImpl$PipeThread$$ioHandler__Ljava_io_IOException__V"],
+        "scala_PartialFunction": ["isDefinedAt__O__Z", "apply__O__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_sys_process_processInternal", "scala_sys_process_BasicIO"]
+    },
+    "scala$sys$process$ProcessImpl$PipeThread$$ioHandler__Ljava_io_IOException__V": {
+      "calledMethods": {
+        "scala_Predef$": ["println__O__V"],
+        "java_io_IOException": ["getMessage__T", "printStackTrace__V"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "scala$sys$process$ProcessImpl$PipeThread$$$outer__Lscala_sys_process_Process$": {},
+    "init___Lscala_sys_process_Process$__Z__Lscala_Function0": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Thread": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$sys$process$ProcessImpl$PipeThread$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$PipeThread": ["scala$sys$process$ProcessImpl$PipeThread$$$outer__Lscala_sys_process_Process$"]
+      }
+    },
+    "scala$sys$process$ProcessImpl$PipeThread$$ioHandler__Ljava_io_IOException__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$PipeThread": ["scala$sys$process$ProcessImpl$PipeThread$$ioHandler__Ljava_io_IOException__V"]
+      }
+    },
+    "runloop__Ljava_io_InputStream__Ljava_io_OutputStream__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$PipeThread": ["runloop__Ljava_io_InputStream__Ljava_io_OutputStream__V"]
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "scala.collection.convert.Wrappers$JMapWrapperLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$JMapWrapperLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_convert_Wrappers$JMapWrapperLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__size__Lscala_collection_convert_Wrappers$JMapWrapperLike__I": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike": ["underlying__Ljava_util_Map"],
+        "java_util_Map": ["size__I"]
+      }
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__get__Lscala_collection_convert_Wrappers$JMapWrapperLike__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike": ["underlying__Ljava_util_Map"],
+        "scala_Some": ["init___O"],
+        "java_util_Map": ["get__O__O", "containsKey__O__Z"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__$plus$eq__Lscala_collection_convert_Wrappers$JMapWrapperLike__Lscala_Tuple2__Lscala_collection_convert_Wrappers$JMapWrapperLike": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike": ["underlying__Ljava_util_Map"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"],
+        "java_util_Map": ["put__O__O__O"]
+      }
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__$minus$eq__Lscala_collection_convert_Wrappers$JMapWrapperLike__O__Lscala_collection_convert_Wrappers$JMapWrapperLike": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike": ["underlying__Ljava_util_Map"],
+        "java_util_Map": ["remove__O__O"]
+      }
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__put__Lscala_collection_convert_Wrappers$JMapWrapperLike__O__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike": ["underlying__Ljava_util_Map"],
+        "scala_Some": ["init___O"],
+        "java_util_Map": ["put__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__update__Lscala_collection_convert_Wrappers$JMapWrapperLike__O__O__V": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike": ["underlying__Ljava_util_Map"],
+        "java_util_Map": ["put__O__O__O"]
+      }
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__remove__Lscala_collection_convert_Wrappers$JMapWrapperLike__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike": ["underlying__Ljava_util_Map"],
+        "scala_Some": ["init___O"],
+        "java_util_Map": ["remove__O__O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__iterator__Lscala_collection_convert_Wrappers$JMapWrapperLike__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike$$anon$2": ["init___Lscala_collection_convert_Wrappers$JMapWrapperLike"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JMapWrapperLike$$anon$2"]
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__clear__Lscala_collection_convert_Wrappers$JMapWrapperLike__V": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JMapWrapperLike": ["underlying__Ljava_util_Map"],
+        "java_util_Map": ["clear__V"]
+      }
+    },
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__empty__Lscala_collection_convert_Wrappers$JMapWrapperLike__Lscala_collection_mutable_Map": {},
+    "scala_collection_convert_Wrappers$JMapWrapperLike$class__$init$__Lscala_collection_convert_Wrappers$JMapWrapperLike__V": {}
+  }
+}

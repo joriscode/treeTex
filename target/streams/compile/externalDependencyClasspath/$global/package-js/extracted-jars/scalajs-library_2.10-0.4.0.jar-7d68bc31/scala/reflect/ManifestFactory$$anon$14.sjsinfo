@@ -1,0 +1,54 @@
+{
+  "name": "scala.reflect.ManifestFactory$$anon$14",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_reflect_ManifestFactory$$anon$14",
+  "superClass": "scala_reflect_AnyValManifest",
+  "ancestors": ["scala_reflect_ManifestFactory$$anon$14", "scala_reflect_AnyValManifest", "scala_reflect_Manifest", "scala_reflect_ClassTag", "scala_Equals", "scala_reflect_ClassManifestDeprecatedApis", "scala_reflect_OptManifest", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "runtimeClass__Ljava_lang_Class": {
+      "calledMethods": {
+        "java_lang_Void$": ["TYPE__Ljava_lang_Class"]
+      },
+      "accessedModules": ["java_lang_Void"]
+    },
+    "newArray__I__ALscala_runtime_BoxedUnit": {
+      "accessedClassData": ["scala_runtime_BoxedUnit"]
+    },
+    "newWrappedArray__I__Lscala_collection_mutable_WrappedArray": {
+      "calledMethods": {
+        "scala_collection_mutable_WrappedArray$ofUnit": ["init___ALscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_WrappedArray$ofUnit"],
+      "accessedClassData": ["scala_runtime_BoxedUnit"]
+    },
+    "newArrayBuilder__Lscala_collection_mutable_ArrayBuilder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$ofUnit": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuilder$ofUnit"]
+    },
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$": ["Unit__Lscala_reflect_AnyValManifest"],
+        "scala_reflect_package$": ["Manifest__Lscala_reflect_ManifestFactory$"]
+      },
+      "accessedModules": ["scala_reflect_package"]
+    },
+    "newArray__I__O": {
+      "calledMethods": {
+        "scala_reflect_ManifestFactory$$anon$14": ["newArray__I__ALscala_runtime_BoxedUnit"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_reflect_AnyValManifest": ["init___T"]
+      }
+    }
+  }
+}

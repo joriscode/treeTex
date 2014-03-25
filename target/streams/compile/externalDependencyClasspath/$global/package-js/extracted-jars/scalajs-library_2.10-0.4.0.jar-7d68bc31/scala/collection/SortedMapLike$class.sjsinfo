@@ -1,0 +1,76 @@
+{
+  "name": "scala.collection.SortedMapLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SortedMapLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_SortedMapLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_SortedMapLike$class__firstKey__Lscala_collection_SortedMapLike__O": {
+      "calledMethods": {
+        "scala_collection_SortedMapLike": ["head__O"],
+        "scala_Tuple2": ["$$und1__O"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "scala_collection_SortedMapLike$class__lastKey__Lscala_collection_SortedMapLike__O": {
+      "calledMethods": {
+        "scala_collection_SortedMapLike": ["last__O"],
+        "scala_Tuple2": ["$$und1__O"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "scala_collection_SortedMapLike$class__keySet__Lscala_collection_SortedMapLike__Lscala_collection_SortedSet": {
+      "calledMethods": {
+        "scala_collection_SortedMapLike$DefaultKeySortedSet": ["init___Lscala_collection_SortedMapLike"]
+      },
+      "instantiatedClasses": ["scala_collection_SortedMapLike$DefaultKeySortedSet"]
+    },
+    "scala_collection_SortedMapLike$class__updated__Lscala_collection_SortedMapLike__O__O__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_SortedMapLike": ["$$plus__Lscala_Tuple2__Lscala_collection_SortedMap"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "scala_collection_SortedMapLike$class__$plus__Lscala_collection_SortedMapLike__Lscala_Tuple2__Lscala_Tuple2__Lscala_collection_Seq__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V"],
+        "scala_collection_SortedMapLike": ["$$plus__Lscala_Tuple2__Lscala_collection_SortedMap"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_collection_SortedMap": ["$$plus__Lscala_Tuple2__Lscala_collection_SortedMap"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"],
+      "accessedClassData": ["scala_collection_SortedMap"]
+    },
+    "scala_collection_SortedMapLike$class__filterKeys__Lscala_collection_SortedMapLike__Lscala_Function1__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_SortedMapLike$$anon$1": ["init___Lscala_collection_SortedMapLike__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_SortedMapLike$$anon$1"]
+    },
+    "scala_collection_SortedMapLike$class__mapValues__Lscala_collection_SortedMapLike__Lscala_Function1__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_SortedMapLike$$anon$2": ["init___Lscala_collection_SortedMapLike__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_SortedMapLike$$anon$2"]
+    },
+    "scala_collection_SortedMapLike$class__$plus$plus__Lscala_collection_SortedMapLike__Lscala_collection_GenTraversableOnce__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_GenTraversableOnce": ["seq__Lscala_collection_TraversableOnce"],
+        "scala_collection_SortedMapLike": ["repr__O"],
+        "scala_collection_SortedMap": ["$$plus__Lscala_Tuple2__Lscala_collection_SortedMap"],
+        "scala_collection_TraversableOnce": ["$$div$colon__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedClassData": ["scala_collection_SortedMap"]
+    },
+    "scala_collection_SortedMapLike$class__$init$__Lscala_collection_SortedMapLike__V": {}
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "scala.collection.immutable.HashSet$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_HashSet$",
+  "superClass": "scala_collection_generic_ImmutableSetFactory",
+  "ancestors": ["scala_collection_immutable_HashSet$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_ImmutableSetFactory", "scala_collection_generic_SetFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenSetFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$": ["setCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "empty__Lscala_collection_immutable_HashSet": {
+      "accessedModules": ["scala_collection_immutable_HashSet$EmptyHashSet"]
+    },
+    "scala$collection$immutable$HashSet$$makeHashTrieSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet$HashTrieSet": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$": ["scala$collection$immutable$HashSet$$makeHashTrieSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet$HashTrieSet"],
+        "scala_collection_immutable_HashSet": ["size__I"],
+        "scala_collection_immutable_HashSet$HashTrieSet": ["size__I", "init___I__ALscala_collection_immutable_HashSet__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_HashSet$HashTrieSet"],
+      "accessedClassData": ["scala_collection_immutable_HashSet"]
+    },
+    "readResolve__p5__O": {
+      "accessedModules": ["scala_collection_immutable_HashSet"]
+    },
+    "empty__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$": ["empty__Lscala_collection_immutable_HashSet"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_ImmutableSetFactory": ["init___"]
+      }
+    },
+    "scala$collection$immutable$HashSet$$makeHashTrieSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$": ["scala$collection$immutable$HashSet$$makeHashTrieSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet__I__Lscala_collection_immutable_HashSet$HashTrieSet"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashSet$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

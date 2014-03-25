@@ -1,0 +1,391 @@
+{
+  "name": "java.lang.Math$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Math$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Math$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "E__D": {},
+    "PI__D": {},
+    "abs__I__I": {},
+    "abs__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_js_Any$": ["fromLong__J__Lscala_scalajs_js_Number"]
+      },
+      "accessedModules": ["scala_scalajs_js_Any", "scala_scalajs_runtime_Long"]
+    },
+    "abs__F__F": {},
+    "abs__D__D": {},
+    "max__I__I__I": {},
+    "max__J__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_js_Any$": ["fromLong__J__Lscala_scalajs_js_Number"]
+      },
+      "accessedModules": ["scala_scalajs_js_Any", "scala_scalajs_runtime_Long"]
+    },
+    "max__F__F__F": {},
+    "max__D__D__D": {},
+    "min__I__I__I": {},
+    "min__J__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_js_Any$": ["fromLong__J__Lscala_scalajs_js_Number"]
+      },
+      "accessedModules": ["scala_scalajs_js_Any", "scala_scalajs_runtime_Long"]
+    },
+    "min__F__F__F": {},
+    "min__D__D__D": {},
+    "ceil__D__D": {},
+    "floor__D__D": {},
+    "round__F__I": {},
+    "round__D__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "sqrt__D__D": {},
+    "pow__D__D__D": {},
+    "exp__D__D": {},
+    "log__D__D": {},
+    "log10__D__D": {
+      "calledMethods": {
+        "java_lang_Math$": ["log__D__D"]
+      }
+    },
+    "log1p__D__D": {
+      "calledMethods": {
+        "java_lang_Math$": ["log__D__D"]
+      }
+    },
+    "sin__D__D": {},
+    "cos__D__D": {},
+    "tan__D__D": {},
+    "asin__D__D": {},
+    "acos__D__D": {},
+    "atan__D__D": {},
+    "atan2__D__D__D": {},
+    "random__D": {},
+    "toDegrees__D__D": {
+      "calledMethods": {
+        "java_lang_Math$": ["PI__D"]
+      }
+    },
+    "toRadians__D__D": {
+      "calledMethods": {
+        "java_lang_Math$": ["PI__D"]
+      }
+    },
+    "signum__D__D": {},
+    "signum__F__F": {},
+    "cbrt__D__D": {
+      "calledMethods": {
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "java_lang_Double": ["isNaN__Z"],
+        "java_lang_Math$": ["pow__D__D__D", "abs__D__D"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "nextUp__D__D": {
+      "calledMethods": {
+        "scala_Double$": ["MinValue__D"],
+        "java_lang_Math$": ["iter$1__p1__D__D__D__D__D", "max__D__D__D", "abs__D__D"]
+      },
+      "accessedModules": ["java_lang_Math", "scala_Double"]
+    },
+    "nextAfter__D__D__D": {
+      "calledMethods": {
+        "java_lang_Math$": ["nextUp__D__D"]
+      }
+    },
+    "ulp__D__D": {
+      "calledMethods": {
+        "java_lang_Math$": ["pow__D__D__D", "nextAfter__D__D__D", "abs__D__D"]
+      }
+    },
+    "hypot__D__D__D": {
+      "calledMethods": {
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "java_lang_Double": ["isNaN__Z"],
+        "java_lang_Math$": ["max__D__D__D", "sqrt__D__D", "min__D__D__D", "abs__D__D"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "expm1__D__D": {
+      "calledMethods": {
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "java_lang_Double": ["isNaN__Z"],
+        "java_lang_Math$": ["exp__D__D", "abs__D__D"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "sinh__D__D": {
+      "calledMethods": {
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "java_lang_Double": ["isNaN__Z"],
+        "java_lang_Math$": ["exp__D__D", "abs__D__D"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "cosh__D__D": {
+      "calledMethods": {
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "java_lang_Double": ["isNaN__Z"],
+        "java_lang_Math$": ["exp__D__D", "abs__D__D"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "tanh__D__D": {
+      "calledMethods": {
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"],
+        "java_lang_Double": ["isNaN__Z"],
+        "java_lang_Math$": ["exp__D__D", "signum__D__D", "abs__D__D"]
+      },
+      "accessedModules": ["scala_Predef"]
+    },
+    "iter$1__p1__D__D__D__D__D": {
+      "calledMethods": {
+        "java_lang_Math$": ["abs__D__D"]
+      },
+      "accessedModules": ["java_lang_Math"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "tanh__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["tanh__D__D"]
+      }
+    },
+    "cosh__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["cosh__D__D"]
+      }
+    },
+    "sinh__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["sinh__D__D"]
+      }
+    },
+    "expm1__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["expm1__D__D"]
+      }
+    },
+    "hypot__D__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["hypot__D__D__D"]
+      }
+    },
+    "ulp__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["ulp__D__D"]
+      }
+    },
+    "nextAfter__D__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["nextAfter__D__D__D"]
+      }
+    },
+    "nextUp__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["nextUp__D__D"]
+      }
+    },
+    "cbrt__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["cbrt__D__D"]
+      }
+    },
+    "signum__F__": {
+      "calledMethods": {
+        "java_lang_Math$": ["signum__F__F"]
+      }
+    },
+    "signum__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["signum__D__D"]
+      }
+    },
+    "toRadians__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["toRadians__D__D"]
+      }
+    },
+    "toDegrees__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["toDegrees__D__D"]
+      }
+    },
+    "random__": {
+      "calledMethods": {
+        "java_lang_Math$": ["random__D"]
+      }
+    },
+    "atan2__D__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["atan2__D__D__D"]
+      }
+    },
+    "atan__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["atan__D__D"]
+      }
+    },
+    "acos__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["acos__D__D"]
+      }
+    },
+    "asin__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["asin__D__D"]
+      }
+    },
+    "tan__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["tan__D__D"]
+      }
+    },
+    "cos__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["cos__D__D"]
+      }
+    },
+    "sin__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["sin__D__D"]
+      }
+    },
+    "log1p__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["log1p__D__D"]
+      }
+    },
+    "log10__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["log10__D__D"]
+      }
+    },
+    "log__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["log__D__D"]
+      }
+    },
+    "exp__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["exp__D__D"]
+      }
+    },
+    "pow__D__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["pow__D__D__D"]
+      }
+    },
+    "sqrt__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["sqrt__D__D"]
+      }
+    },
+    "round__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["round__D__J"]
+      }
+    },
+    "round__F__": {
+      "calledMethods": {
+        "java_lang_Math$": ["round__F__I"]
+      }
+    },
+    "floor__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["floor__D__D"]
+      }
+    },
+    "ceil__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["ceil__D__D"]
+      }
+    },
+    "min__D__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["min__D__D__D"]
+      }
+    },
+    "min__F__F__": {
+      "calledMethods": {
+        "java_lang_Math$": ["min__F__F__F"]
+      }
+    },
+    "min__J__J__": {
+      "calledMethods": {
+        "java_lang_Math$": ["min__J__J__J"]
+      }
+    },
+    "min__I__I__": {
+      "calledMethods": {
+        "java_lang_Math$": ["min__I__I__I"]
+      }
+    },
+    "max__D__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["max__D__D__D"]
+      }
+    },
+    "max__F__F__": {
+      "calledMethods": {
+        "java_lang_Math$": ["max__F__F__F"]
+      }
+    },
+    "max__J__J__": {
+      "calledMethods": {
+        "java_lang_Math$": ["max__J__J__J"]
+      }
+    },
+    "max__I__I__": {
+      "calledMethods": {
+        "java_lang_Math$": ["max__I__I__I"]
+      }
+    },
+    "abs__D__": {
+      "calledMethods": {
+        "java_lang_Math$": ["abs__D__D"]
+      }
+    },
+    "abs__F__": {
+      "calledMethods": {
+        "java_lang_Math$": ["abs__F__F"]
+      }
+    },
+    "abs__J__": {
+      "calledMethods": {
+        "java_lang_Math$": ["abs__J__J"]
+      }
+    },
+    "abs__I__": {
+      "calledMethods": {
+        "java_lang_Math$": ["abs__I__I"]
+      }
+    },
+    "PI__": {
+      "calledMethods": {
+        "java_lang_Math$": ["PI__D"]
+      }
+    },
+    "E__": {
+      "calledMethods": {
+        "java_lang_Math$": ["E__D"]
+      }
+    }
+  }
+}

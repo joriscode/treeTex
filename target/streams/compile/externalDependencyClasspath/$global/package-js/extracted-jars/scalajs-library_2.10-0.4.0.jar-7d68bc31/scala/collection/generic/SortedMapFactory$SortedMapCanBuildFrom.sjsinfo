@@ -1,0 +1,63 @@
+{
+  "name": "scala.collection.generic.SortedMapFactory$SortedMapCanBuildFrom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_SortedMap__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom": ["scala$collection$generic$SortedMapFactory$SortedMapCanBuildFrom$$$outer__Lscala_collection_generic_SortedMapFactory"],
+        "scala_collection_generic_SortedMapFactory": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom": ["scala$collection$generic$SortedMapFactory$SortedMapCanBuildFrom$$$outer__Lscala_collection_generic_SortedMapFactory"],
+        "scala_collection_generic_SortedMapFactory": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "scala$collection$generic$SortedMapFactory$SortedMapCanBuildFrom$$$outer__Lscala_collection_generic_SortedMapFactory": {},
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom": ["apply__Lscala_collection_SortedMap__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_SortedMap"]
+    },
+    "init___Lscala_collection_generic_SortedMapFactory__Lscala_math_Ordering": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$generic$SortedMapFactory$SortedMapCanBuildFrom$$$outer__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom": ["scala$collection$generic$SortedMapFactory$SortedMapCanBuildFrom$$$outer__Lscala_collection_generic_SortedMapFactory"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_SortedMap__": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom": ["apply__Lscala_collection_SortedMap__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

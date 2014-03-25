@@ -1,0 +1,50 @@
+{
+  "name": "scala.collection.generic.Sorted",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_Sorted",
+  "superClass": "",
+  "ancestors": ["scala_collection_generic_Sorted", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "ordering__Lscala_math_Ordering": {
+      "isAbstract": true
+    },
+    "repr__Lscala_collection_generic_Sorted": {
+      "isAbstract": true
+    },
+    "keySet__Lscala_collection_SortedSet": {
+      "isAbstract": true
+    },
+    "firstKey__O": {
+      "isAbstract": true
+    },
+    "lastKey__O": {
+      "isAbstract": true
+    },
+    "compare__O__O__I": {
+      "isAbstract": true
+    },
+    "rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_generic_Sorted": {
+      "isAbstract": true
+    },
+    "from__O__Lscala_collection_generic_Sorted": {
+      "isAbstract": true
+    },
+    "until__O__Lscala_collection_generic_Sorted": {
+      "isAbstract": true
+    },
+    "range__O__O__Lscala_collection_generic_Sorted": {
+      "isAbstract": true
+    },
+    "to__O__Lscala_collection_generic_Sorted": {
+      "isAbstract": true
+    },
+    "hasAll__Lscala_collection_Iterator__Z": {
+      "isAbstract": true
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "scala.runtime.Statics$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_Statics$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_Statics$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "mix__I__I__I": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["mixLast__I__I__I"],
+        "java_lang_Integer$": ["rotateLeft__I__I__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "mixLast__I__I__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["rotateLeft__I__I__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "finalizeHash__I__I__I": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["avalanche__I__I"]
+      }
+    },
+    "avalanche__I__I": {},
+    "longHash__J__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$bar__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "toInt__I"],
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "doubleHash__D__I": {},
+    "floatHash__F__I": {},
+    "anyHash__O__I": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["floatHash__F__I", "doubleHash__D__I", "longHash__J__I"],
+        "java_lang_Object": ["hashCode__I"]
+      },
+      "accessedClassData": ["java_lang_Float", "java_lang_Long", "java_lang_Double"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "anyHash__O__": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["anyHash__O__I"]
+      }
+    },
+    "floatHash__F__": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["floatHash__F__I"]
+      }
+    },
+    "doubleHash__D__": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["doubleHash__D__I"]
+      }
+    },
+    "longHash__J__": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["longHash__J__I"]
+      }
+    },
+    "avalanche__I__": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["avalanche__I__I"]
+      }
+    },
+    "finalizeHash__I__I__": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["finalizeHash__I__I__I"]
+      }
+    },
+    "mixLast__I__I__": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["mixLast__I__I__I"]
+      }
+    },
+    "mix__I__I__": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["mix__I__I__I"]
+      }
+    }
+  }
+}

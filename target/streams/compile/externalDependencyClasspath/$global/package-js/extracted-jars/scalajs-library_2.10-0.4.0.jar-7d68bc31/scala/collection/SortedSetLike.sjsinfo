@@ -1,0 +1,44 @@
+{
+  "name": "scala.collection.SortedSetLike",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SortedSetLike",
+  "superClass": "",
+  "ancestors": ["scala_collection_SortedSetLike", "scala_collection_SetLike", "scala_collection_generic_Subtractable", "scala_collection_GenSetLike", "scala_Function1", "scala_collection_IterableLike", "scala_collection_GenIterableLike", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "scala_Equals", "scala_collection_generic_Sorted", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "scala$collection$SortedSetLike$$super$subsetOf__Lscala_collection_GenSet__Z": {
+      "isAbstract": true
+    },
+    "ordering__Lscala_math_Ordering": {
+      "isAbstract": true
+    },
+    "keySet__Lscala_collection_SortedSet": {
+      "isAbstract": true
+    },
+    "firstKey__O": {
+      "isAbstract": true
+    },
+    "lastKey__O": {
+      "isAbstract": true
+    },
+    "rangeImpl__Lscala_Option__Lscala_Option__Lscala_collection_SortedSet": {
+      "isAbstract": true
+    },
+    "from__O__Lscala_collection_SortedSet": {
+      "isAbstract": true
+    },
+    "until__O__Lscala_collection_SortedSet": {
+      "isAbstract": true
+    },
+    "range__O__O__Lscala_collection_SortedSet": {
+      "isAbstract": true
+    },
+    "subsetOf__Lscala_collection_GenSet__Z": {
+      "isAbstract": true
+    }
+  }
+}

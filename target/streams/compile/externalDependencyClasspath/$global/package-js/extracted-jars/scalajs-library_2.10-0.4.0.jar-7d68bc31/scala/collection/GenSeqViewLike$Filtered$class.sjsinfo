@@ -1,0 +1,41 @@
+{
+  "name": "scala.collection.GenSeqViewLike$Filtered$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqViewLike$Filtered$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqViewLike$Filtered$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqViewLike$Filtered$class__index__Lscala_collection_GenSeqViewLike$Filtered__AI": {
+      "calledMethods": {
+        "scala_Predef$": ["intArrayOps__AI__Lscala_collection_mutable_ArrayOps", "intWrapper__I__I"],
+        "scala_collection_mutable_ArrayOps": ["take__I__O"],
+        "scala_collection_GenSeqViewLike$Filtered": ["scala$collection$GenSeqViewLike$Filtered$$$outer__Lscala_collection_GenSeqViewLike", "pred__Lscala_Function1"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_GenSeqViewLike": ["apply__I__O", "length__I"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_collection_immutable_Range": ["foreach$mVc$sp__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_GenSeqViewLike$Filtered$class__length__Lscala_collection_GenSeqViewLike$Filtered__I": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Filtered": ["index__AI"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Filtered$class__apply__Lscala_collection_GenSeqViewLike$Filtered__I__O": {
+      "calledMethods": {
+        "scala_collection_GenSeqViewLike$Filtered": ["scala$collection$GenSeqViewLike$Filtered$$$outer__Lscala_collection_GenSeqViewLike", "index__AI"],
+        "scala_collection_GenSeqViewLike": ["apply__I__O"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Filtered$class__$init$__Lscala_collection_GenSeqViewLike$Filtered__V": {}
+  }
+}

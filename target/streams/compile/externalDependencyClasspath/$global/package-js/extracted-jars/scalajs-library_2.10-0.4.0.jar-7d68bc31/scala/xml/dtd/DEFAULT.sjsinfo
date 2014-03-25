@@ -1,0 +1,131 @@
+{
+  "name": "scala.xml.dtd.DEFAULT",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_DEFAULT",
+  "superClass": "scala_xml_dtd_DefaultDecl",
+  "ancestors": ["scala_xml_dtd_DEFAULT", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_xml_dtd_DefaultDecl", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "fixed__Z": {},
+    "attValue__T": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_Utility$": ["sbToString__Lscala_Function1__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility"]
+    },
+    "buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["fixed__Z", "attValue__T"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_StringBuilder": ["append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_xml_Utility$": ["appendEscapedQuoted__T__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder"]
+      },
+      "accessedModules": ["scala_xml_Utility", "scala_runtime_BoxedUnit"]
+    },
+    "copy__Z__T__Lscala_xml_dtd_DEFAULT": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["init___Z__T"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_DEFAULT"]
+    },
+    "copy$default$1__Z": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["fixed__Z"]
+      }
+    },
+    "copy$default$2__T": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["attValue__T"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["fixed__Z", "attValue__T"],
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_xml_dtd_DEFAULT"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["mix__I__I__I", "finalizeHash__I__I__I", "anyHash__O__I"],
+        "scala_xml_dtd_DEFAULT": ["fixed__Z", "attValue__T"]
+      },
+      "accessedModules": ["scala_runtime_Statics"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["fixed__Z", "canEqual__O__Z", "attValue__T"]
+      },
+      "accessedClassData": ["scala_xml_dtd_DEFAULT"]
+    },
+    "init___Z__T": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_dtd_DefaultDecl": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["productPrefix__T"]
+      }
+    },
+    "copy__Z__T__": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["copy__Z__T__Lscala_xml_dtd_DEFAULT"]
+      }
+    },
+    "attValue__": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["attValue__T"]
+      }
+    },
+    "fixed__": {
+      "calledMethods": {
+        "scala_xml_dtd_DEFAULT": ["fixed__Z"]
+      }
+    }
+  }
+}

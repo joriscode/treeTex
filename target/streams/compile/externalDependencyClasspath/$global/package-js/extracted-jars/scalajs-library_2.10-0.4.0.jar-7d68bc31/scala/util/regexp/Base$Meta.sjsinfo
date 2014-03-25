@@ -1,0 +1,36 @@
+{
+  "name": "scala.util.regexp.Base$Meta",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_regexp_Base$Meta",
+  "superClass": "scala_util_regexp_Base$RegExp",
+  "ancestors": ["scala_util_regexp_Base$Meta", "scala_util_regexp_Base$RegExp", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isNullable__Z": {},
+    "r__Lscala_util_regexp_Base$RegExp": {},
+    "scala$util$regexp$Base$Meta$$$outer__Lscala_util_regexp_Base": {},
+    "init___Lscala_util_regexp_Base__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_util_regexp_Base$RegExp": ["isNullable__Z"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_regexp_Base$RegExp": ["init___Lscala_util_regexp_Base"]
+      }
+    },
+    "scala$util$regexp$Base$Meta$$$outer__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Meta": ["scala$util$regexp$Base$Meta$$$outer__Lscala_util_regexp_Base"]
+      }
+    },
+    "r__": {
+      "calledMethods": {
+        "scala_util_regexp_Base$Meta": ["r__Lscala_util_regexp_Base$RegExp"]
+      }
+    }
+  }
+}

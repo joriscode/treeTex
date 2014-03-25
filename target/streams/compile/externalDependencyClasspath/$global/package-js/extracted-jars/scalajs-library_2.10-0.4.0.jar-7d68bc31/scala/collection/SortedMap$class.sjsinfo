@@ -1,0 +1,29 @@
+{
+  "name": "scala.collection.SortedMap$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SortedMap$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_SortedMap$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_SortedMap$class__empty__Lscala_collection_SortedMap__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_SortedMap$": ["empty__Lscala_math_Ordering__Lscala_collection_SortedMap"],
+        "scala_collection_SortedMap": ["ordering__Lscala_math_Ordering"]
+      },
+      "accessedModules": ["scala_collection_SortedMap"]
+    },
+    "scala_collection_SortedMap$class__newBuilder__Lscala_collection_SortedMap__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_SortedMap": ["ordering__Lscala_math_Ordering"],
+        "scala_collection_immutable_SortedMap$": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_immutable_SortedMap"]
+    },
+    "scala_collection_SortedMap$class__$init$__Lscala_collection_SortedMap__V": {}
+  }
+}

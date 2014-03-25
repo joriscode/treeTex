@@ -1,0 +1,55 @@
+{
+  "name": "scala.collection.generic.BitSetFactory$$anon$1",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_BitSetFactory$$anon$1",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_BitSetFactory$$anon$1", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_BitSet__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory": ["newBuilder__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory": ["newBuilder__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory$$anon$1": ["apply__Lscala_collection_BitSet__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_BitSet"]
+    },
+    "init___Lscala_collection_generic_BitSetFactory": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory$$anon$1": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_BitSet__": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory$$anon$1": ["apply__Lscala_collection_BitSet__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

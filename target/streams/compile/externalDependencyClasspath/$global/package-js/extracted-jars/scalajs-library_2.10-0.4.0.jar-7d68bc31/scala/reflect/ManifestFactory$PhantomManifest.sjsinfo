@@ -1,0 +1,27 @@
+{
+  "name": "scala.reflect.ManifestFactory$PhantomManifest",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_reflect_ManifestFactory$PhantomManifest",
+  "superClass": "scala_reflect_ManifestFactory$ClassTypeManifest",
+  "ancestors": ["scala_reflect_ManifestFactory$PhantomManifest", "scala_reflect_ManifestFactory$ClassTypeManifest", "scala_reflect_Manifest", "scala_reflect_ClassTag", "scala_Equals", "scala_reflect_ClassManifestDeprecatedApis", "scala_reflect_OptManifest", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "equals__O__Z": {},
+    "hashCode__I": {},
+    "init___Ljava_lang_Class__T": {
+      "calledMethods": {
+        "java_lang_System$": ["identityHashCode__O__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_reflect_ManifestFactory$ClassTypeManifest": ["init___Lscala_Option__Ljava_lang_Class__Lscala_collection_immutable_List"]
+      },
+      "accessedModules": ["scala_None", "java_lang_System", "scala_collection_immutable_Nil"]
+    }
+  }
+}

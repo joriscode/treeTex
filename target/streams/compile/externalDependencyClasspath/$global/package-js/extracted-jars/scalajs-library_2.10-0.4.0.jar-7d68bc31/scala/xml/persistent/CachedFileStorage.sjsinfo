@@ -1,0 +1,151 @@
+{
+  "name": "scala.xml.persistent.CachedFileStorage",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_persistent_CachedFileStorage",
+  "superClass": "java_lang_Thread",
+  "ancestors": ["scala_xml_persistent_CachedFileStorage", "scala_util_logging_Logged", "java_lang_Thread", "java_lang_Runnable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "log__T__V": {
+      "calledMethods": {
+        "scala_util_logging_Logged$class": ["scala_util_logging_Logged$class__log__Lscala_util_logging_Logged__T__V"]
+      }
+    },
+    "file1__p2__Ljava_io_File": {},
+    "file2__p2__Ljava_io_File": {},
+    "theFile__p2__Ljava_io_File": {},
+    "theFile$und$eq__p2__Ljava_io_File__V": {},
+    "$switch__p2__V": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["file2__p2__Ljava_io_File", "theFile$und$eq__p2__Ljava_io_File__V", "theFile__p2__Ljava_io_File", "file1__p2__Ljava_io_File"]
+      }
+    },
+    "dirty__Z": {},
+    "dirty$und$eq__Z__V": {},
+    "interval__I": {},
+    "initialNodes__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_Tuple2$mcZZ$sp": ["init___Z__Z"],
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_Tuple2": ["$$und1$mcZ$sp__Z", "$$und2$mcZ$sp__Z"],
+        "scala_xml_persistent_CachedFileStorage": ["file2__p2__Ljava_io_File", "theFile$und$eq__p2__Ljava_io_File__V", "load__p2__Lscala_collection_Iterator", "file1__p2__Ljava_io_File"],
+        "scala_scalajs_runtime_Long": ["$$less__Lscala_scalajs_runtime_Long__Z"],
+        "java_io_File": ["lastModified__J", "exists__Z"]
+      },
+      "instantiatedClasses": ["scala_Tuple2$mcZZ$sp"],
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "nodes__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "$$plus$eq__Lscala_xml_Node__V": {
+      "isAbstract": true
+    },
+    "$$minus$eq__Lscala_xml_Node__V": {
+      "isAbstract": true
+    },
+    "load__p2__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Seq": ["iterator__Lscala_collection_Iterator"],
+        "scala_io_Source$": ["fromFile__Ljava_io_File__Lscala_io_Codec__Lscala_io_BufferedSource"],
+        "scala_xml_parsing_ConstructingParser": ["document__Lscala_xml_Document"],
+        "scala_xml_persistent_CachedFileStorage": ["log__T__V", "theFile__p2__Ljava_io_File", "$switch__p2__V"],
+        "scala_io_Codec$": ["fallbackSystemCodec__Lscala_io_Codec"],
+        "scala_xml_Node": ["apply__I__Lscala_xml_Node", "child__Lscala_collection_Seq"],
+        "scala_xml_Document": ["docElem__Lscala_xml_Node"],
+        "scala_xml_parsing_ConstructingParser$": ["fromSource__Lscala_io_Source__Z__Lscala_xml_parsing_ConstructingParser"]
+      },
+      "accessedModules": ["scala_io_Source", "scala_xml_parsing_ConstructingParser", "scala_io_Codec"]
+    },
+    "save__p2__V": {
+      "calledMethods": {
+        "scala_Predef$": ["$$scope__Lscala_xml_TopScope$"],
+        "scala_collection_Iterator": ["toList__Lscala_collection_immutable_List"],
+        "scala_xml_NodeBuffer": ["$$amp$plus__O__Lscala_xml_NodeBuffer", "init___"],
+        "java_nio_channels_FileChannel": ["close__V"],
+        "scala_xml_Elem": ["init___T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Z__Lscala_collection_Seq"],
+        "java_io_FileOutputStream": ["init___Ljava_io_File", "close__V", "getChannel__Ljava_nio_channels_FileChannel"],
+        "scala_xml_persistent_CachedFileStorage": ["theFile__p2__Ljava_io_File", "dirty__Z", "$switch__p2__V", "log__T__V", "nodes__Lscala_collection_Iterator", "dirty$und$eq__Z__V"],
+        "java_nio_channels_Channels$": ["newWriter__Ljava_nio_channels_WritableByteChannel__T__Ljava_io_Writer"],
+        "java_io_Writer": ["close__V"],
+        "scala_xml_XML$": ["write$default$6__Lscala_Enumeration$Value", "write__Ljava_io_Writer__Lscala_xml_Node__T__Z__Lscala_xml_dtd_DocType__Lscala_Enumeration$Value__V"],
+        "java_io_File": ["$delete__Z", "createNewFile__Z"]
+      },
+      "instantiatedClasses": ["java_io_FileOutputStream", "scala_xml_NodeBuffer", "scala_xml_Elem"],
+      "accessedModules": ["scala_Predef", "scala_xml_XML", "java_nio_channels_Channels", "scala_xml_Null"]
+    },
+    "run__V": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"],
+        "scala_xml_persistent_CachedFileStorage": ["log__T__V", "save__p2__V", "interval__I"],
+        "java_lang_Thread$": ["sleep__J__V"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long", "java_lang_Thread"]
+    },
+    "flush__V": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["dirty$und$eq__Z__V", "save__p2__V"]
+      }
+    },
+    "init___Ljava_io_File": {
+      "calledMethods": {
+        "scala_util_logging_Logged$class": ["scala_util_logging_Logged$class__$init$__Lscala_util_logging_Logged__V"],
+        "java_io_File": ["getParent__T", "init___T__T", "getName__T"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Thread": ["init___"]
+      },
+      "instantiatedClasses": ["java_io_File"]
+    },
+    "log__T__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["log__T__V"]
+      }
+    },
+    "flush__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["flush__V"]
+      }
+    },
+    "initialNodes__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["initialNodes__Lscala_collection_Iterator"]
+      }
+    },
+    "interval__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["interval__I"]
+      }
+    },
+    "dirty$und$eq__Z__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["dirty$und$eq__Z__V"]
+      }
+    },
+    "dirty__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["dirty__Z"]
+      }
+    },
+    "$$minus$eq__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["$$minus$eq__Lscala_xml_Node__V"]
+      }
+    },
+    "$$plus$eq__Lscala_xml_Node__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["$$plus$eq__Lscala_xml_Node__V"]
+      }
+    },
+    "nodes__": {
+      "calledMethods": {
+        "scala_xml_persistent_CachedFileStorage": ["nodes__Lscala_collection_Iterator"]
+      }
+    }
+  }
+}

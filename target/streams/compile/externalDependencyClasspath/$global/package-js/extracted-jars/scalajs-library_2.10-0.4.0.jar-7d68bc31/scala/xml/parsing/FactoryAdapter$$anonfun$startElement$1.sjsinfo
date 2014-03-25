@@ -1,0 +1,53 @@
+{
+  "name": "scala.xml.parsing.FactoryAdapter$$anonfun$startElement$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_FactoryAdapter$$anonfun$startElement$1",
+  "superClass": "scala_runtime_AbstractFunction1$mcVI$sp",
+  "ancestors": ["scala_xml_parsing_FactoryAdapter$$anonfun$startElement$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1$mcVI$sp", "scala_Function1$mcVI$sp", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__I__V": {
+      "calledMethods": {
+        "scala_xml_parsing_FactoryAdapter$$anonfun$startElement$1": ["apply$mcVI$sp__I__V"]
+      }
+    },
+    "apply$mcVI$sp__I__V": {
+      "calledMethods": {
+        "scala_xml_parsing_FactoryAdapter": ["scala$xml$parsing$FactoryAdapter$$splitName__T__Lscala_Tuple2"],
+        "scala_MatchError": ["init___O"],
+        "scala_xml_NamespaceBinding": ["init___T__T__Lscala_xml_NamespaceBinding"],
+        "org_xml_sax_Attributes": ["getValue__I__T", "getQName__I__T"],
+        "scala_xml_Attribute$": ["apply__Lscala_Option__T__Lscala_collection_Seq__Lscala_xml_MetaData__Lscala_xml_Attribute"],
+        "scala_Tuple2": ["init___O__O", "$$und1__O", "$$und2__O"],
+        "scala_xml_Text$": ["apply__T__Lscala_xml_Text"],
+        "scala_Option$": ["apply__O__Lscala_Option"],
+        "scala_xml_parsing_FactoryAdapter$$anonfun$startElement$1": ["nullIfEmpty$1__p3__T__T"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_xml_NamespaceBinding"],
+      "accessedModules": ["scala_xml_Attribute", "scala_Option", "scala_xml_Text"],
+      "accessedClassData": ["scala_xml_NamespaceBinding", "scala_xml_MetaData", "java_lang_String"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_parsing_FactoryAdapter$$anonfun$startElement$1": ["apply__I__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "nullIfEmpty$1__p3__T__T": {},
+    "init___Lscala_xml_parsing_FactoryAdapter__Lorg_xml_sax_Attributes__Lscala_runtime_ObjectRef__Lscala_runtime_ObjectRef": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1$mcVI$sp": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

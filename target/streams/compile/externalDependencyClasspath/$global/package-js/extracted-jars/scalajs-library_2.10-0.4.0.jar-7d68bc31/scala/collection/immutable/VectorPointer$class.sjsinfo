@@ -1,0 +1,116 @@
+{
+  "name": "scala.collection.immutable.VectorPointer$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_VectorPointer$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_immutable_VectorPointer$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_immutable_VectorPointer$class__initFrom__Lscala_collection_immutable_VectorPointer__Lscala_collection_immutable_VectorPointer__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer": ["initFrom__Lscala_collection_immutable_VectorPointer__I__V", "depth__I"]
+      }
+    },
+    "scala_collection_immutable_VectorPointer$class__initFrom__Lscala_collection_immutable_VectorPointer__Lscala_collection_immutable_VectorPointer__I__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_VectorPointer": ["display4__AO", "display3__AO", "display5__AO", "display5$und$eq__AO__V", "display3$und$eq__AO__V", "display2$und$eq__AO__V", "display4$und$eq__AO__V", "display1__AO", "display1$und$eq__AO__V", "display0$und$eq__AO__V", "display2__AO", "depth$und$eq__I__V", "display0__AO"]
+      },
+      "instantiatedClasses": ["scala_MatchError"]
+    },
+    "scala_collection_immutable_VectorPointer$class__getElem__Lscala_collection_immutable_VectorPointer__I__I__O": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"],
+        "scala_collection_immutable_VectorPointer": ["display4__AO", "display3__AO", "display5__AO", "display1__AO", "display2__AO", "display0__AO"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_immutable_VectorPointer$class__gotoPos__Lscala_collection_immutable_VectorPointer__I__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"],
+        "scala_collection_immutable_VectorPointer": ["display4__AO", "display3__AO", "display5__AO", "display3$und$eq__AO__V", "display2$und$eq__AO__V", "display4$und$eq__AO__V", "display1__AO", "display2__AO", "display0$und$eq__AO__V", "display1$und$eq__AO__V"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_immutable_VectorPointer$class__gotoNextBlockStart__Lscala_collection_immutable_VectorPointer__I__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"],
+        "scala_collection_immutable_VectorPointer": ["display4__AO", "display3__AO", "display5__AO", "display3$und$eq__AO__V", "display2$und$eq__AO__V", "display4$und$eq__AO__V", "display1__AO", "display2__AO", "display0$und$eq__AO__V", "display1$und$eq__AO__V"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_immutable_VectorPointer$class__gotoNextBlockStartWritable__Lscala_collection_immutable_VectorPointer__I__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"],
+        "scala_collection_immutable_VectorPointer": ["display4__AO", "display3__AO", "display5__AO", "depth__I", "display5$und$eq__AO__V", "display3$und$eq__AO__V", "display2$und$eq__AO__V", "display4$und$eq__AO__V", "display1$und$eq__AO__V", "display1__AO", "display0$und$eq__AO__V", "display2__AO", "depth$und$eq__I__V", "display0__AO"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_immutable_VectorPointer$class__copyOf__Lscala_collection_immutable_VectorPointer__AO__AO": {
+      "calledMethods": {
+        "scala_Predef$": ["println__O__V"],
+        "scala_compat_Platform$": ["arraycopy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["scala_Predef", "scala_compat_Platform"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_immutable_VectorPointer$class__nullSlotAndCopy__Lscala_collection_immutable_VectorPointer__AO__I__AO": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer": ["copyOf__AO__AO"]
+      },
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_immutable_VectorPointer$class__stabilize__Lscala_collection_immutable_VectorPointer__I__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_VectorPointer": ["copyOf__AO__AO", "display4__AO", "display5__AO", "display3__AO", "depth__I", "display5$und$eq__AO__V", "display3$und$eq__AO__V", "display2$und$eq__AO__V", "display4$und$eq__AO__V", "display2__AO", "display1__AO", "display1$und$eq__AO__V", "display0__AO"]
+      },
+      "instantiatedClasses": ["scala_MatchError"]
+    },
+    "scala_collection_immutable_VectorPointer$class__gotoPosWritable0__Lscala_collection_immutable_VectorPointer__I__I__V": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_VectorPointer": ["copyOf__AO__AO", "display4__AO", "display5__AO", "display3__AO", "depth__I", "display5$und$eq__AO__V", "nullSlotAndCopy__AO__I__AO", "display3$und$eq__AO__V", "display2$und$eq__AO__V", "display4$und$eq__AO__V", "display2__AO", "display1$und$eq__AO__V", "display1__AO", "display0$und$eq__AO__V", "display0__AO"]
+      },
+      "instantiatedClasses": ["scala_MatchError"]
+    },
+    "scala_collection_immutable_VectorPointer$class__gotoPosWritable1__Lscala_collection_immutable_VectorPointer__I__I__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"],
+        "scala_collection_immutable_VectorPointer": ["copyOf__AO__AO", "display4__AO", "display3__AO", "display5__AO", "display5$und$eq__AO__V", "nullSlotAndCopy__AO__I__AO", "display3$und$eq__AO__V", "display2$und$eq__AO__V", "display4$und$eq__AO__V", "display1__AO", "display1$und$eq__AO__V", "display0$und$eq__AO__V", "display2__AO", "display0__AO"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "scala_collection_immutable_VectorPointer$class__copyRange__Lscala_collection_immutable_VectorPointer__AO__I__I__AO": {
+      "calledMethods": {
+        "scala_math_package$": ["max__I__I__I"],
+        "scala_compat_Platform$": ["arraycopy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["scala_math_package", "scala_compat_Platform"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_immutable_VectorPointer$class__gotoFreshPosWritable0__Lscala_collection_immutable_VectorPointer__I__I__I__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___"],
+        "scala_collection_immutable_VectorPointer": ["display4__AO", "display3__AO", "display5__AO", "depth__I", "display5$und$eq__AO__V", "display3$und$eq__AO__V", "display2$und$eq__AO__V", "display4$und$eq__AO__V", "display1$und$eq__AO__V", "display1__AO", "display0$und$eq__AO__V", "display2__AO", "depth$und$eq__I__V", "display0__AO"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "scala_collection_immutable_VectorPointer$class__gotoFreshPosWritable1__Lscala_collection_immutable_VectorPointer__I__I__I__V": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorPointer": ["stabilize__I__V", "gotoFreshPosWritable0__I__I__I__V"]
+      }
+    },
+    "scala_collection_immutable_VectorPointer$class__debug__Lscala_collection_immutable_VectorPointer__V": {},
+    "scala_collection_immutable_VectorPointer$class__$init$__Lscala_collection_immutable_VectorPointer__V": {}
+  }
+}

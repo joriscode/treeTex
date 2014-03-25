@@ -1,0 +1,35 @@
+{
+  "name": "java.io.IOException",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_io_IOException",
+  "superClass": "java_lang_Exception",
+  "ancestors": ["java_io_IOException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "init___T__Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_Exception": ["init___T"]
+      }
+    },
+    "init___Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_io_IOException": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "init___T": {
+      "calledMethodsStatic": {
+        "java_io_IOException": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_io_IOException": ["init___T__Ljava_lang_Throwable"]
+      }
+    }
+  }
+}

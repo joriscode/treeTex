@@ -1,0 +1,154 @@
+{
+  "name": "scala.xml.pull.XMLEventReader",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_pull_XMLEventReader",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_xml_pull_XMLEventReader", "scala_xml_pull_ProducerConsumerIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "POISON$lzycompute__p2__Lscala_xml_pull_XMLEventReader$POISON$": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_pull_XMLEventReader$POISON$": ["init___Lscala_xml_pull_XMLEventReader"]
+      },
+      "instantiatedClasses": ["scala_xml_pull_XMLEventReader$POISON$"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala$xml$pull$ProducerConsumerIterator$$queue$lzycompute__p2__Ljava_util_concurrent_LinkedBlockingQueue": {
+      "calledMethods": {
+        "scala_xml_pull_ProducerConsumerIterator$class": ["scala_xml_pull_ProducerConsumerIterator$class__scala$xml$pull$ProducerConsumerIterator$$queue__Lscala_xml_pull_ProducerConsumerIterator__Ljava_util_concurrent_LinkedBlockingQueue"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "scala$xml$pull$ProducerConsumerIterator$$queue__Ljava_util_concurrent_LinkedBlockingQueue": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["scala$xml$pull$ProducerConsumerIterator$$queue$lzycompute__p2__Ljava_util_concurrent_LinkedBlockingQueue"]
+      }
+    },
+    "scala$xml$pull$ProducerConsumerIterator$$undsetter$und$MaxQueueSize$und$eq__I__V": {},
+    "scala$xml$pull$ProducerConsumerIterator$$buffer__O": {},
+    "scala$xml$pull$ProducerConsumerIterator$$buffer$und$eq__O__V": {},
+    "interruptibly__Lscala_Function0__Lscala_Option": {
+      "calledMethods": {
+        "scala_xml_pull_ProducerConsumerIterator$class": ["scala_xml_pull_ProducerConsumerIterator$class__interruptibly__Lscala_xml_pull_ProducerConsumerIterator__Lscala_Function0__Lscala_Option"]
+      }
+    },
+    "produce__O__V": {
+      "calledMethods": {
+        "scala_xml_pull_ProducerConsumerIterator$class": ["scala_xml_pull_ProducerConsumerIterator$class__produce__Lscala_xml_pull_ProducerConsumerIterator__O__V"]
+      }
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_xml_pull_ProducerConsumerIterator$class": ["scala_xml_pull_ProducerConsumerIterator$class__hasNext__Lscala_xml_pull_ProducerConsumerIterator__Z"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_xml_pull_ProducerConsumerIterator$class": ["scala_xml_pull_ProducerConsumerIterator$class__next__Lscala_xml_pull_ProducerConsumerIterator__O"]
+      }
+    },
+    "available__Z": {
+      "calledMethods": {
+        "scala_xml_pull_ProducerConsumerIterator$class": ["scala_xml_pull_ProducerConsumerIterator$class__available__Lscala_xml_pull_ProducerConsumerIterator__Z"]
+      }
+    },
+    "preserveWS__Z": {},
+    "MaxQueueSize__I": {},
+    "POISON__Lscala_xml_pull_XMLEventReader$POISON$": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["POISON$lzycompute__p2__Lscala_xml_pull_XMLEventReader$POISON$"]
+      }
+    },
+    "EndOfStream__Lscala_xml_pull_XMLEventReader$POISON$": {},
+    "stop__V": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["POISON__Lscala_xml_pull_XMLEventReader$POISON$", "produce__O__V"],
+        "java_lang_Thread": ["interrupt__V"]
+      }
+    },
+    "EndOfStream__O": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["EndOfStream__Lscala_xml_pull_XMLEventReader$POISON$"]
+      }
+    },
+    "init___Lscala_io_Source": {
+      "calledMethods": {
+        "scala_xml_pull_ProducerConsumerIterator$class": ["scala_xml_pull_ProducerConsumerIterator$class__$init$__Lscala_xml_pull_ProducerConsumerIterator__V"],
+        "scala_xml_pull_XMLEventReader$Parser": ["init___Lscala_xml_pull_XMLEventReader__Lscala_io_Source"],
+        "scala_xml_pull_XMLEventReader": ["POISON__Lscala_xml_pull_XMLEventReader$POISON$"],
+        "java_lang_Thread": ["start__V", "init___Ljava_lang_Runnable__T"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Thread", "scala_xml_pull_XMLEventReader$Parser"]
+    },
+    "available__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["available__Z"]
+      }
+    },
+    "produce__O__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["produce__O__V"]
+      }
+    },
+    "interruptibly__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["interruptibly__Lscala_Function0__Lscala_Option"]
+      }
+    },
+    "scala$xml$pull$ProducerConsumerIterator$$buffer$und$eq__O__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["scala$xml$pull$ProducerConsumerIterator$$buffer$und$eq__O__V"]
+      }
+    },
+    "scala$xml$pull$ProducerConsumerIterator$$buffer__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["scala$xml$pull$ProducerConsumerIterator$$buffer__O"]
+      }
+    },
+    "scala$xml$pull$ProducerConsumerIterator$$undsetter$und$MaxQueueSize$und$eq__I__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["scala$xml$pull$ProducerConsumerIterator$$undsetter$und$MaxQueueSize$und$eq__I__V"]
+      }
+    },
+    "scala$xml$pull$ProducerConsumerIterator$$queue__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["scala$xml$pull$ProducerConsumerIterator$$queue__Ljava_util_concurrent_LinkedBlockingQueue"]
+      }
+    },
+    "stop__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["stop__V"]
+      }
+    },
+    "EndOfStream__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["EndOfStream__Lscala_xml_pull_XMLEventReader$POISON$"]
+      }
+    },
+    "POISON__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["POISON__Lscala_xml_pull_XMLEventReader$POISON$"]
+      }
+    },
+    "MaxQueueSize__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["MaxQueueSize__I"]
+      }
+    },
+    "preserveWS__": {
+      "calledMethods": {
+        "scala_xml_pull_XMLEventReader": ["preserveWS__Z"]
+      }
+    }
+  }
+}

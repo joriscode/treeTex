@@ -1,0 +1,37 @@
+{
+  "name": "scala.collection.SortedMap$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_SortedMap$",
+  "superClass": "scala_collection_generic_SortedMapFactory",
+  "ancestors": ["scala_collection_SortedMap$", "scala_collection_generic_SortedMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "empty__Lscala_math_Ordering__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_immutable_SortedMap$": ["empty__Lscala_math_Ordering__Lscala_collection_immutable_SortedMap"]
+      },
+      "accessedModules": ["scala_collection_immutable_SortedMap"]
+    },
+    "canBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom": ["init___Lscala_collection_generic_SortedMapFactory__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_SortedMap$": ["canBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

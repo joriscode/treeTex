@@ -1,0 +1,53 @@
+{
+  "name": "scala.scalajs.js.JavaScriptException$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_scalajs_js_JavaScriptException$",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_scalajs_js_JavaScriptException$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Lscala_scalajs_js_Any__Lscala_scalajs_js_JavaScriptException": {
+      "calledMethods": {
+        "scala_scalajs_js_JavaScriptException": ["init___Lscala_scalajs_js_Any"]
+      },
+      "instantiatedClasses": ["scala_scalajs_js_JavaScriptException"]
+    },
+    "unapply__Lscala_scalajs_js_JavaScriptException__Lscala_Option": {
+      "calledMethods": {
+        "scala_scalajs_js_JavaScriptException": ["exception__Lscala_scalajs_js_Any"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_scalajs_js_JavaScriptException"]
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_scalajs_js_JavaScriptException$": ["apply__Lscala_scalajs_js_Any__Lscala_scalajs_js_JavaScriptException"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "unapply__Lscala_scalajs_js_JavaScriptException__": {
+      "calledMethods": {
+        "scala_scalajs_js_JavaScriptException$": ["unapply__Lscala_scalajs_js_JavaScriptException__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_scalajs_js_Any__": {
+      "calledMethods": {
+        "scala_scalajs_js_JavaScriptException$": ["apply__Lscala_scalajs_js_Any__Lscala_scalajs_js_JavaScriptException"]
+      }
+    }
+  }
+}

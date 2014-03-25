@@ -1,0 +1,60 @@
+{
+  "name": "scala.xml.include.sax.EncodingHeuristics$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_include_sax_EncodingHeuristics$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_include_sax_EncodingHeuristics$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "readEncodingFromStream__Ljava_io_InputStream__T": {
+      "calledMethods": {
+        "scala_xml_include_sax_EncodingHeuristics$": ["readASCIIEncoding$1__p1__Ljava_io_InputStream__I__T", "resetAndRet$1__p1__Ljava_io_InputStream__Lscala_runtime_ObjectRef__T"],
+        "java_io_InputStream": ["read__I", "mark__I__V"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_Tuple4": ["$$und3__O", "$$und4__O", "init___O__O__O__O", "$$und1__O", "$$und2__O"],
+        "scala_xml_include_sax_EncodingHeuristics$EncodingNames$": ["littleUCS4__T", "bigUTF16__T", "utf8__T", "unusualUCS4__T", "littleUTF16__T", "bigUCS4__T"]
+      },
+      "instantiatedClasses": ["scala_runtime_ObjectRef", "scala_Tuple4"],
+      "accessedModules": ["scala_xml_include_sax_EncodingHeuristics$EncodingNames"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "resetAndRet$1__p1__Ljava_io_InputStream__Lscala_runtime_ObjectRef__T": {
+      "calledMethods": {
+        "java_io_InputStream": ["reset__V"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "readASCIIEncoding$1__p1__Ljava_io_InputStream__I__T": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["subgroups__Lscala_collection_immutable_List"],
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_util_matching_Regex": ["findFirstMatchIn__Ljava_lang_CharSequence__Lscala_Option"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_StringOps": ["init___T", "r__Lscala_util_matching_Regex"],
+        "scala_collection_immutable_List": ["apply__I__O"],
+        "java_io_InputStream": ["read__AB__I__I__I"],
+        "scala_scalajs_runtime_RuntimeString$": ["newString__AB__I__I__T__Lscala_scalajs_js_String"],
+        "scala_Some": ["x__O"],
+        "scala_xml_include_sax_EncodingHeuristics$EncodingNames$": ["$default__T"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_xml_include_sax_EncodingHeuristics$EncodingNames", "scala_Predef", "scala_None", "scala_scalajs_runtime_RuntimeString"],
+      "accessedClassData": ["scala_Some", "scala_util_matching_Regex$Match", "java_lang_String"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "readEncodingFromStream__Ljava_io_InputStream__": {
+      "calledMethods": {
+        "scala_xml_include_sax_EncodingHeuristics$": ["readEncodingFromStream__Ljava_io_InputStream__T"]
+      }
+    }
+  }
+}

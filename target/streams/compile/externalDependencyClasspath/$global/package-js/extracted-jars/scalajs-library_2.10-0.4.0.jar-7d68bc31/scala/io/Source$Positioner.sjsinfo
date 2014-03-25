@@ -1,0 +1,111 @@
+{
+  "name": "scala.io.Source$Positioner",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_Source$Positioner",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_Source$Positioner", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ch__C": {},
+    "ch$und$eq__C__V": {},
+    "pos__I": {},
+    "pos$und$eq__I__V": {},
+    "cline__I": {},
+    "cline$und$eq__I__V": {},
+    "ccol__I": {},
+    "ccol$und$eq__I__V": {},
+    "tabinc__I": {},
+    "tabinc$und$eq__I__V": {},
+    "next__C": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["ccol__I", "cline__I", "pos$und$eq__I__V", "cline$und$eq__I__V", "ccol$und$eq__I__V", "scala$io$Source$Positioner$$$outer__Lscala_io_Source", "ch$und$eq__C__V", "tabinc__I", "ch__C"],
+        "scala_collection_Iterator": ["next__O"],
+        "scala_io_Position": ["encode__I__I__I"],
+        "scala_io_Source": ["iter__Lscala_collection_Iterator"]
+      }
+    },
+    "scala$io$Source$Positioner$$$outer__Lscala_io_Source": {},
+    "init___Lscala_io_Source__Lscala_io_Position": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "init___Lscala_io_Source": {
+      "calledMethods": {
+        "scala_io_Source": ["RelaxedPosition__Lscala_io_Source$RelaxedPosition$"]
+      },
+      "calledMethodsStatic": {
+        "scala_io_Source$Positioner": ["init___Lscala_io_Source__Lscala_io_Position"]
+      }
+    },
+    "scala$io$Source$Positioner$$$outer__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["scala$io$Source$Positioner$$$outer__Lscala_io_Source"]
+      }
+    },
+    "next__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["next__C"]
+      }
+    },
+    "tabinc$und$eq__I__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["tabinc$und$eq__I__V"]
+      }
+    },
+    "tabinc__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["tabinc__I"]
+      }
+    },
+    "ccol$und$eq__I__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["ccol$und$eq__I__V"]
+      }
+    },
+    "ccol__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["ccol__I"]
+      }
+    },
+    "cline$und$eq__I__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["cline$und$eq__I__V"]
+      }
+    },
+    "cline__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["cline__I"]
+      }
+    },
+    "pos$und$eq__I__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["pos$und$eq__I__V"]
+      }
+    },
+    "pos__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["pos__I"]
+      }
+    },
+    "ch$und$eq__C__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["ch$und$eq__C__V"]
+      }
+    },
+    "ch__": {
+      "calledMethods": {
+        "scala_io_Source$Positioner": ["ch__C"]
+      }
+    }
+  }
+}

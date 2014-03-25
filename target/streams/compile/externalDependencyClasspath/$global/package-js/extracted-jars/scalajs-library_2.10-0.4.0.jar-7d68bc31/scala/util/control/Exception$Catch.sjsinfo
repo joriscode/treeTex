@@ -1,0 +1,235 @@
+{
+  "name": "scala.util.control.Exception$Catch",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_Exception$Catch",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_control_Exception$Catch", "scala_util_control_Exception$Described", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$util$control$Exception$Described$$$unddesc__T": {},
+    "scala$util$control$Exception$Described$$$unddesc$und$eq__T__V": {},
+    "desc__T": {
+      "calledMethods": {
+        "scala_util_control_Exception$Described$class": ["scala_util_control_Exception$Described$class__desc__Lscala_util_control_Exception$Described__T"]
+      }
+    },
+    "withDesc__T__Lscala_util_control_Exception$Described": {
+      "calledMethods": {
+        "scala_util_control_Exception$Described$class": ["scala_util_control_Exception$Described$class__withDesc__Lscala_util_control_Exception$Described__T__Lscala_util_control_Exception$Described"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_util_control_Exception$Described$class": ["scala_util_control_Exception$Described$class__toString__Lscala_util_control_Exception$Described__T"]
+      }
+    },
+    "pf__Lscala_PartialFunction": {},
+    "fin__Lscala_Option": {},
+    "rethrow__Lscala_Function1": {},
+    "name__T": {},
+    "or__Lscala_PartialFunction__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_PartialFunction": ["orElse__Lscala_PartialFunction__Lscala_PartialFunction"],
+        "scala_util_control_Exception$Catch": ["rethrow__Lscala_Function1", "init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1", "pf__Lscala_PartialFunction", "fin__Lscala_Option"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Catch"]
+    },
+    "or__Lscala_util_control_Exception$Catch__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["or__Lscala_PartialFunction__Lscala_util_control_Exception$Catch", "pf__Lscala_PartialFunction"]
+      }
+    },
+    "apply__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["map__Lscala_Function1__Lscala_Option"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_PartialFunction": ["isDefinedAt__O__Z", "apply__O__O"],
+        "scala_util_control_Exception$Finally": ["invoke__V"],
+        "scala_Function0": ["apply__O"],
+        "scala_util_control_Exception$Catch": ["rethrow__Lscala_Function1", "pf__Lscala_PartialFunction", "fin__Lscala_Option"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "andFinally__Lscala_Function0__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_Some": ["x__O", "init___O"],
+        "scala_util_control_Exception$Catch": ["fin__Lscala_Option", "rethrow__Lscala_Function1", "init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1", "pf__Lscala_PartialFunction"],
+        "scala_util_control_Exception$Finally": ["and__Lscala_Function0__Lscala_util_control_Exception$Finally", "init___Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Finally", "scala_util_control_Exception$Catch", "scala_MatchError", "scala_Some"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_util_control_Exception$Finally", "scala_Some"]
+    },
+    "opt__Lscala_Function0__Lscala_Option": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Some": ["init___O"],
+        "scala_util_control_Exception$Catch": ["apply__Lscala_Function0__O", "toOption__Lscala_util_control_Exception$Catch"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_Some"],
+      "accessedClassData": ["scala_Option"]
+    },
+    "either__Lscala_Function0__Lscala_util_Either": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_util_Right": ["init___O"],
+        "scala_util_control_Exception$Catch": ["toEither__Lscala_util_control_Exception$Catch", "apply__Lscala_Function0__O"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_util_Right"],
+      "accessedClassData": ["scala_util_Either"]
+    },
+    "withTry__Lscala_Function0__Lscala_util_Try": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_util_Success": ["init___O"],
+        "scala_util_control_Exception$Catch": ["toTry__Lscala_util_control_Exception$Catch", "apply__Lscala_Function0__O"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_util_Success"],
+      "accessedClassData": ["scala_util_Try"]
+    },
+    "withApply__Lscala_Function1__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch$$anon$2": ["init___Lscala_util_control_Exception$Catch__Lscala_Function1"],
+        "scala_util_control_Exception$Catch": ["rethrow__Lscala_Function1", "init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1", "fin__Lscala_Option"]
+      },
+      "instantiatedClasses": ["scala_util_control_Exception$Catch$$anon$2", "scala_util_control_Exception$Catch"]
+    },
+    "toOption__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_None"]
+    },
+    "toEither__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_util_Left": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_util_Left", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "toTry__Lscala_util_control_Exception$Catch": {
+      "calledMethods": {
+        "scala_util_Failure": ["init___Ljava_lang_Throwable"],
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_util_Failure"]
+    },
+    "init___Lscala_PartialFunction__Lscala_Option__Lscala_Function1": {
+      "calledMethods": {
+        "scala_util_control_Exception$Described$class": ["scala_util_control_Exception$Described$class__$init$__Lscala_util_control_Exception$Described__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "withDesc__T__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["withDesc__T__Lscala_util_control_Exception$Described"]
+      }
+    },
+    "desc__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["desc__T"]
+      }
+    },
+    "scala$util$control$Exception$Described$$$unddesc$und$eq__T__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["scala$util$control$Exception$Described$$$unddesc$und$eq__T__V"]
+      }
+    },
+    "scala$util$control$Exception$Described$$$unddesc__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["scala$util$control$Exception$Described$$$unddesc__T"]
+      }
+    },
+    "toTry__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["toTry__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "toEither__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["toEither__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "toOption__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["toOption__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "withApply__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["withApply__Lscala_Function1__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "withTry__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["withTry__Lscala_Function0__Lscala_util_Try"]
+      }
+    },
+    "either__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["either__Lscala_Function0__Lscala_util_Either"]
+      }
+    },
+    "opt__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["opt__Lscala_Function0__Lscala_Option"]
+      }
+    },
+    "andFinally__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["andFinally__Lscala_Function0__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "apply__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["apply__Lscala_Function0__O"]
+      }
+    },
+    "or__Lscala_util_control_Exception$Catch__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["or__Lscala_util_control_Exception$Catch__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "or__Lscala_PartialFunction__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["or__Lscala_PartialFunction__Lscala_util_control_Exception$Catch"]
+      }
+    },
+    "name__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["name__T"]
+      }
+    },
+    "rethrow__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["rethrow__Lscala_Function1"]
+      }
+    },
+    "fin__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["fin__Lscala_Option"]
+      }
+    },
+    "pf__": {
+      "calledMethods": {
+        "scala_util_control_Exception$Catch": ["pf__Lscala_PartialFunction"]
+      }
+    }
+  }
+}

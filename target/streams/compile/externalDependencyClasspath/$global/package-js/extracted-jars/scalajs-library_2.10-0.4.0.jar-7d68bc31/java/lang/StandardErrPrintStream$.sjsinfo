@@ -1,0 +1,88 @@
+{
+  "name": "java.lang.StandardErrPrintStream$",
+  "ancestorCount": 4,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_StandardErrPrintStream$",
+  "superClass": "java_io_PrintStream",
+  "ancestors": ["java_lang_StandardErrPrintStream$", "java_lang_JSConsoleBasedPrintStream", "java_io_PrintStream", "java_lang_Appendable", "java_io_FilterOutputStream", "java_io_OutputStream", "java_io_Flushable", "java_io_Closeable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "java$lang$JSConsoleBasedPrintStream$$flushed__Lscala_scalajs_js_Boolean": {},
+    "java$lang$JSConsoleBasedPrintStream$$flushed$und$eq__Lscala_scalajs_js_Boolean__V": {},
+    "java$lang$JSConsoleBasedPrintStream$$buffer__Lscala_scalajs_js_String": {},
+    "java$lang$JSConsoleBasedPrintStream$$buffer$und$eq__Lscala_scalajs_js_String__V": {},
+    "java$lang$JSConsoleBasedPrintStream$$lineContEnd__Lscala_scalajs_js_String": {},
+    "java$lang$JSConsoleBasedPrintStream$$lineContStart__Lscala_scalajs_js_String": {},
+    "java$lang$JSConsoleBasedPrintStream$$undsetter$und$java$lang$JSConsoleBasedPrintStream$$lineContEnd$und$eq__Lscala_scalajs_js_String__V": {},
+    "java$lang$JSConsoleBasedPrintStream$$undsetter$und$java$lang$JSConsoleBasedPrintStream$$lineContStart$und$eq__Lscala_scalajs_js_String__V": {},
+    "print__T__V": {
+      "calledMethods": {
+        "java_lang_JSConsoleBasedPrintStream$class": ["java_lang_JSConsoleBasedPrintStream$class__print__Ljava_lang_JSConsoleBasedPrintStream__T__V"]
+      }
+    },
+    "flush__V": {
+      "calledMethods": {
+        "java_lang_JSConsoleBasedPrintStream$class": ["java_lang_JSConsoleBasedPrintStream$class__flush__Ljava_lang_JSConsoleBasedPrintStream__V"]
+      }
+    },
+    "doWriteLine__T__V": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_JSConsoleBasedPrintStream$class": ["java_lang_JSConsoleBasedPrintStream$class__$init$__Ljava_lang_JSConsoleBasedPrintStream__V"]
+      },
+      "calledMethodsStatic": {
+        "java_io_PrintStream": ["init___Ljava_io_OutputStream__Z"]
+      },
+      "accessedModules": ["java_lang_StandardErr"]
+    },
+    "java$lang$JSConsoleBasedPrintStream$$undsetter$und$java$lang$JSConsoleBasedPrintStream$$lineContStart$und$eq__Lscala_scalajs_js_String__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["java$lang$JSConsoleBasedPrintStream$$undsetter$und$java$lang$JSConsoleBasedPrintStream$$lineContStart$und$eq__Lscala_scalajs_js_String__V"]
+      }
+    },
+    "java$lang$JSConsoleBasedPrintStream$$undsetter$und$java$lang$JSConsoleBasedPrintStream$$lineContEnd$und$eq__Lscala_scalajs_js_String__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["java$lang$JSConsoleBasedPrintStream$$undsetter$und$java$lang$JSConsoleBasedPrintStream$$lineContEnd$und$eq__Lscala_scalajs_js_String__V"]
+      }
+    },
+    "java$lang$JSConsoleBasedPrintStream$$lineContStart__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["java$lang$JSConsoleBasedPrintStream$$lineContStart__Lscala_scalajs_js_String"]
+      }
+    },
+    "java$lang$JSConsoleBasedPrintStream$$lineContEnd__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["java$lang$JSConsoleBasedPrintStream$$lineContEnd__Lscala_scalajs_js_String"]
+      }
+    },
+    "java$lang$JSConsoleBasedPrintStream$$buffer$und$eq__Lscala_scalajs_js_String__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["java$lang$JSConsoleBasedPrintStream$$buffer$und$eq__Lscala_scalajs_js_String__V"]
+      }
+    },
+    "java$lang$JSConsoleBasedPrintStream$$buffer__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["java$lang$JSConsoleBasedPrintStream$$buffer__Lscala_scalajs_js_String"]
+      }
+    },
+    "java$lang$JSConsoleBasedPrintStream$$flushed$und$eq__Lscala_scalajs_js_Boolean__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["java$lang$JSConsoleBasedPrintStream$$flushed$und$eq__Lscala_scalajs_js_Boolean__V"]
+      }
+    },
+    "java$lang$JSConsoleBasedPrintStream$$flushed__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["java$lang$JSConsoleBasedPrintStream$$flushed__Lscala_scalajs_js_Boolean"]
+      }
+    },
+    "doWriteLine__T__": {
+      "calledMethods": {
+        "java_lang_StandardErrPrintStream$": ["doWriteLine__T__V"]
+      }
+    }
+  }
+}

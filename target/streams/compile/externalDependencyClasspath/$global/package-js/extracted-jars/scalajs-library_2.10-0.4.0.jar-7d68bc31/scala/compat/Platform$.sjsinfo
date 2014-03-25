@@ -1,0 +1,104 @@
+{
+  "name": "scala.compat.Platform$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_compat_Platform$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_compat_Platform$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "arraycopy__O__I__O__I__I__V": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "createArray__Ljava_lang_Class__I__O": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["newInstance__Ljava_lang_Class__I__O"]
+      },
+      "accessedModules": ["java_lang_reflect_Array"]
+    },
+    "arrayclear__AI__V": {
+      "calledMethods": {
+        "java_util_Arrays$": ["fill__AI__I__V"]
+      },
+      "accessedModules": ["java_util_Arrays"]
+    },
+    "getClassForName__T__Ljava_lang_Class": {
+      "calledMethods": {
+        "java_lang_Class$": ["forName__T__Ljava_lang_Class"]
+      },
+      "accessedModules": ["java_lang_Class"]
+    },
+    "EOL__T": {},
+    "currentTime__J": {
+      "calledMethods": {
+        "java_lang_System$": ["currentTimeMillis__J"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "collectGarbage__V": {
+      "calledMethods": {
+        "java_lang_System$": ["gc__V"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "defaultCharsetName__T": {
+      "calledMethods": {
+        "java_nio_charset_Charset": ["name__T"],
+        "java_nio_charset_Charset$": ["defaultCharset__Ljava_nio_charset_Charset"]
+      },
+      "accessedModules": ["java_nio_charset_Charset"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "defaultCharsetName__": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["defaultCharsetName__T"]
+      }
+    },
+    "collectGarbage__": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["collectGarbage__V"]
+      }
+    },
+    "currentTime__": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["currentTime__J"]
+      }
+    },
+    "EOL__": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["EOL__T"]
+      }
+    },
+    "getClassForName__T__": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["getClassForName__T__Ljava_lang_Class"]
+      }
+    },
+    "arrayclear__AI__": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["arrayclear__AI__V"]
+      }
+    },
+    "createArray__Ljava_lang_Class__I__": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["createArray__Ljava_lang_Class__I__O"]
+      }
+    },
+    "arraycopy__O__I__O__I__I__": {
+      "calledMethods": {
+        "scala_compat_Platform$": ["arraycopy__O__I__O__I__I__V"]
+      }
+    }
+  }
+}

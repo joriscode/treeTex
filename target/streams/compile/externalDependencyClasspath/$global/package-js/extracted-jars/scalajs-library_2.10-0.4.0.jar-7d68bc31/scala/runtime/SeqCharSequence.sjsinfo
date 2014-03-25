@@ -1,0 +1,67 @@
+{
+  "name": "scala.runtime.SeqCharSequence",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_SeqCharSequence",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_SeqCharSequence", "java_lang_CharSequence", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "xs__Lscala_collection_IndexedSeq": {},
+    "length__I": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["xs__Lscala_collection_IndexedSeq"],
+        "scala_collection_IndexedSeq": ["length__I"]
+      }
+    },
+    "charAt__I__C": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["xs__Lscala_collection_IndexedSeq"],
+        "scala_collection_IndexedSeq": ["apply__I__O"]
+      }
+    },
+    "subSequence__I__I__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["init___Lscala_collection_IndexedSeq", "xs__Lscala_collection_IndexedSeq"],
+        "scala_collection_IndexedSeq": ["slice__I__I__O"]
+      },
+      "instantiatedClasses": ["scala_runtime_SeqCharSequence"],
+      "accessedClassData": ["scala_collection_IndexedSeq"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["xs__Lscala_collection_IndexedSeq"],
+        "scala_collection_IndexedSeq": ["mkString__T__T"]
+      }
+    },
+    "init___Lscala_collection_IndexedSeq": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "subSequence__I__I__": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["subSequence__I__I__Ljava_lang_CharSequence"]
+      }
+    },
+    "charAt__I__": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["charAt__I__C"]
+      }
+    },
+    "length__": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["length__I"]
+      }
+    },
+    "xs__": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["xs__Lscala_collection_IndexedSeq"]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "scala.sys.CreatorImpl",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_CreatorImpl",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_CreatorImpl", "scala_sys_Prop$Creator", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__T__Lscala_sys_Prop": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["init___T__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_sys_PropImpl"]
+    },
+    "init___Lscala_Function1": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_sys_CreatorImpl": ["apply__T__Lscala_sys_Prop"]
+      }
+    }
+  }
+}

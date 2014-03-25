@@ -1,0 +1,53 @@
+{
+  "name": "scala.LowPriorityImplicits$$anon$1",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_LowPriorityImplicits$$anon$1",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_LowPriorityImplicits$$anon$1", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__T__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_immutable_IndexedSeq"]
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_immutable_IndexedSeq"]
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits$$anon$1": ["apply__T__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["java_lang_String"]
+    },
+    "init___Lscala_LowPriorityImplicits": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits$$anon$1": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__T__": {
+      "calledMethods": {
+        "scala_LowPriorityImplicits$$anon$1": ["apply__T__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "scala.collection.MapLike$$anon$2",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_MapLike$$anon$2",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_MapLike$$anon$2", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "iter__p2__Lscala_collection_Iterator": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z"],
+        "scala_collection_MapLike$$anon$2": ["iter__p2__Lscala_collection_Iterator"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_MapLike$$anon$2": ["iter__p2__Lscala_collection_Iterator"],
+        "scala_Tuple2": ["$$und2__O"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "init___Lscala_collection_MapLike": {
+      "calledMethods": {
+        "scala_collection_MapLike": ["iterator__Lscala_collection_Iterator"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

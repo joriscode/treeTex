@@ -1,0 +1,64 @@
+{
+  "name": "java.util.IllegalFormatConversionException",
+  "ancestorCount": 6,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_IllegalFormatConversionException",
+  "superClass": "java_util_IllegalFormatException",
+  "ancestors": ["java_util_IllegalFormatConversionException", "java_util_IllegalFormatException", "java_lang_IllegalArgumentException", "java_lang_RuntimeException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "c__p6__C": {},
+    "arg__p6__Ljava_lang_Class": {},
+    "arg$und$eq__p6__Ljava_lang_Class__V": {},
+    "getConversion__C": {
+      "calledMethods": {
+        "java_util_IllegalFormatConversionException": ["c__p6__C"]
+      }
+    },
+    "getArgumentClass__Ljava_lang_Class": {
+      "calledMethods": {
+        "java_util_IllegalFormatConversionException": ["arg__p6__Ljava_lang_Class"]
+      }
+    },
+    "getMessage__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "java_util_IllegalFormatConversionException": ["arg__p6__Ljava_lang_Class", "c__p6__C"],
+        "java_lang_Class": ["getName__T"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_StringContext"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "init___C": {
+      "calledMethodsStatic": {
+        "java_util_IllegalFormatException": ["init___"]
+      }
+    },
+    "init___C__Ljava_lang_Class": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "java_util_IllegalFormatConversionException": ["arg$und$eq__p6__Ljava_lang_Class__V"]
+      },
+      "calledMethodsStatic": {
+        "java_util_IllegalFormatConversionException": ["init___C"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "getArgumentClass__": {
+      "calledMethods": {
+        "java_util_IllegalFormatConversionException": ["getArgumentClass__Ljava_lang_Class"]
+      }
+    },
+    "getConversion__": {
+      "calledMethods": {
+        "java_util_IllegalFormatConversionException": ["getConversion__C"]
+      }
+    }
+  }
+}

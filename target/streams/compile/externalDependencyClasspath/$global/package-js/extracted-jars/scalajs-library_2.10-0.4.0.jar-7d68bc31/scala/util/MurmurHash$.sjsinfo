@@ -1,0 +1,233 @@
+{
+  "name": "scala.util.MurmurHash$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_MurmurHash$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_MurmurHash$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "visibleMagic__p1__I": {},
+    "hiddenMagicA__p1__I": {},
+    "hiddenMagicB__p1__I": {},
+    "visibleMixer__p1__I": {},
+    "hiddenMixerA__p1__I": {},
+    "hiddenMixerB__p1__I": {},
+    "finalMixer1__p1__I": {},
+    "finalMixer2__p1__I": {},
+    "seedString__p1__I": {},
+    "seedArray__p1__I": {},
+    "storedMagicA__AI": {},
+    "storedMagicB__AI": {},
+    "startHash__I__I": {},
+    "startMagicA__I": {},
+    "startMagicB__I": {},
+    "extendHash__I__I__I__I__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["rotateLeft__I__I__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "nextMagicA__I__I": {},
+    "nextMagicB__I__I": {},
+    "finalizeHash__I__I": {},
+    "arrayHash__O__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"],
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O", "hash__O__I", "array$undlength__O__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "stringHash__T__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"]
+      }
+    },
+    "symmetricHash__Lscala_collection_TraversableOnce__I__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["finalizeHash__I__I", "startHash__I__I", "storedMagicB__AI", "extendHash__I__I__I__I__I", "storedMagicA__AI"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V", "seq__Lscala_collection_TraversableOnce"]
+      },
+      "instantiatedClasses": ["scala_runtime_IntRef", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "arrayHash$mZc$sp__AZ__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"]
+      }
+    },
+    "arrayHash$mBc$sp__AB__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"]
+      }
+    },
+    "arrayHash$mCc$sp__AC__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"]
+      }
+    },
+    "arrayHash$mDc$sp__AD__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"],
+        "scala_runtime_ScalaRunTime$": ["hash__D__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "arrayHash$mFc$sp__AF__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"],
+        "scala_runtime_ScalaRunTime$": ["hash__F__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "arrayHash$mIc$sp__AI__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"]
+      }
+    },
+    "arrayHash$mJc$sp__AJ__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"],
+        "scala_runtime_ScalaRunTime$": ["hash__J__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "arrayHash$mSc$sp__AS__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"]
+      }
+    },
+    "arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__I": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "finalizeHash__I__I", "nextMagicA__I__I", "startHash__I__I", "extendHash__I__I__I__I__I"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I", "nextMagicA__I__I"],
+        "scala_collection_Iterator": ["take__I__Lscala_collection_Iterator", "toArray__Lscala_reflect_ClassTag__O"],
+        "scala_collection_Iterator$": ["iterate__O__Lscala_Function1__Lscala_collection_Iterator"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_collection_Iterator", "scala_util_MurmurHash"]
+    },
+    "symmetricHash__Lscala_collection_TraversableOnce__I__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["symmetricHash__Lscala_collection_TraversableOnce__I__I"]
+      }
+    },
+    "stringHash__T__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["stringHash__T__I"]
+      }
+    },
+    "arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mVc$sp__ALscala_runtime_BoxedUnit__I"]
+      }
+    },
+    "arrayHash$mSc$sp__AS__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mSc$sp__AS__I"]
+      }
+    },
+    "arrayHash$mJc$sp__AJ__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mJc$sp__AJ__I"]
+      }
+    },
+    "arrayHash$mIc$sp__AI__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mIc$sp__AI__I"]
+      }
+    },
+    "arrayHash$mFc$sp__AF__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mFc$sp__AF__I"]
+      }
+    },
+    "arrayHash$mDc$sp__AD__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mDc$sp__AD__I"]
+      }
+    },
+    "arrayHash$mCc$sp__AC__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mCc$sp__AC__I"]
+      }
+    },
+    "arrayHash$mBc$sp__AB__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mBc$sp__AB__I"]
+      }
+    },
+    "arrayHash$mZc$sp__AZ__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash$mZc$sp__AZ__I"]
+      }
+    },
+    "arrayHash__O__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["arrayHash__O__I"]
+      }
+    },
+    "finalizeHash__I__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["finalizeHash__I__I"]
+      }
+    },
+    "nextMagicB__I__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicB__I__I"]
+      }
+    },
+    "nextMagicA__I__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["nextMagicA__I__I"]
+      }
+    },
+    "extendHash__I__I__I__I__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["extendHash__I__I__I__I__I"]
+      }
+    },
+    "startMagicB__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["startMagicB__I"]
+      }
+    },
+    "startMagicA__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["startMagicA__I"]
+      }
+    },
+    "startHash__I__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["startHash__I__I"]
+      }
+    },
+    "storedMagicB__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["storedMagicB__AI"]
+      }
+    },
+    "storedMagicA__": {
+      "calledMethods": {
+        "scala_util_MurmurHash$": ["storedMagicA__AI"]
+      }
+    }
+  }
+}

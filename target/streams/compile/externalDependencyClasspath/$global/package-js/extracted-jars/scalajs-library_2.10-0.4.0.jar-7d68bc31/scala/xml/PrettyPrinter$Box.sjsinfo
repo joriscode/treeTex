@@ -1,0 +1,125 @@
+{
+  "name": "scala.xml.PrettyPrinter$Box",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_PrettyPrinter$Box",
+  "superClass": "scala_xml_PrettyPrinter$Item",
+  "ancestors": ["scala_xml_PrettyPrinter$Box", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_xml_PrettyPrinter$Item", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "col__I": {},
+    "s__T": {},
+    "copy__I__T__Lscala_xml_PrettyPrinter$Box": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["init___Lscala_xml_PrettyPrinter__I__T", "scala$xml$PrettyPrinter$Box$$$outer__Lscala_xml_PrettyPrinter"]
+      },
+      "instantiatedClasses": ["scala_xml_PrettyPrinter$Box"]
+    },
+    "copy$default$1__I": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["col__I"]
+      }
+    },
+    "copy$default$2__T": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["s__T"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"],
+        "scala_xml_PrettyPrinter$Box": ["col__I", "s__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_xml_PrettyPrinter$Box"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["finalizeHash__I__I__I", "mix__I__I__I", "anyHash__O__I"],
+        "scala_xml_PrettyPrinter$Box": ["col__I", "s__T"]
+      },
+      "accessedModules": ["scala_runtime_Statics"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["col__I", "canEqual__O__Z", "scala$xml$PrettyPrinter$Box$$$outer__Lscala_xml_PrettyPrinter", "s__T"]
+      },
+      "accessedClassData": ["scala_xml_PrettyPrinter$Box"]
+    },
+    "scala$xml$PrettyPrinter$Box$$$outer__Lscala_xml_PrettyPrinter": {},
+    "init___Lscala_xml_PrettyPrinter__I__T": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_PrettyPrinter$Item": ["init___Lscala_xml_PrettyPrinter"]
+      }
+    },
+    "scala$xml$PrettyPrinter$Box$$$outer__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["scala$xml$PrettyPrinter$Box$$$outer__Lscala_xml_PrettyPrinter"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["productPrefix__T"]
+      }
+    },
+    "copy__I__T__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["copy__I__T__Lscala_xml_PrettyPrinter$Box"]
+      }
+    },
+    "s__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["s__T"]
+      }
+    },
+    "col__": {
+      "calledMethods": {
+        "scala_xml_PrettyPrinter$Box": ["col__I"]
+      }
+    }
+  }
+}

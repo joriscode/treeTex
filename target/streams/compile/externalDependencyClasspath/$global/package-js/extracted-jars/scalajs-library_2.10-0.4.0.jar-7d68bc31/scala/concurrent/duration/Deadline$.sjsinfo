@@ -1,0 +1,62 @@
+{
+  "name": "scala.concurrent.duration.Deadline$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_duration_Deadline$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_duration_Deadline$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "now__Lscala_concurrent_duration_Deadline": {
+      "calledMethods": {
+        "java_lang_System$": ["nanoTime__J"],
+        "scala_concurrent_duration_Duration$": ["apply__J__Ljava_util_concurrent_TimeUnit__Lscala_concurrent_duration_FiniteDuration"],
+        "java_util_concurrent_TimeUnit$": ["NANOSECONDS__Ljava_util_concurrent_TimeUnit"],
+        "scala_concurrent_duration_Deadline": ["init___Lscala_concurrent_duration_FiniteDuration"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_Deadline"],
+      "accessedModules": ["java_lang_System", "java_util_concurrent_TimeUnit", "scala_concurrent_duration_Duration"]
+    },
+    "apply__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_Deadline": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline": ["init___Lscala_concurrent_duration_FiniteDuration"]
+      },
+      "instantiatedClasses": ["scala_concurrent_duration_Deadline"]
+    },
+    "unapply__Lscala_concurrent_duration_Deadline__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_concurrent_duration_Deadline": ["time__Lscala_concurrent_duration_FiniteDuration"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_concurrent_duration_Deadline"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_concurrent_duration_Deadline__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$": ["unapply__Lscala_concurrent_duration_Deadline__Lscala_Option"]
+      }
+    },
+    "apply__Lscala_concurrent_duration_FiniteDuration__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$": ["apply__Lscala_concurrent_duration_FiniteDuration__Lscala_concurrent_duration_Deadline"]
+      }
+    },
+    "now__": {
+      "calledMethods": {
+        "scala_concurrent_duration_Deadline$": ["now__Lscala_concurrent_duration_Deadline"]
+      }
+    }
+  }
+}

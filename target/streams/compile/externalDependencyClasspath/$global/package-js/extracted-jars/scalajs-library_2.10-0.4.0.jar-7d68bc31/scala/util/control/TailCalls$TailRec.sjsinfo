@@ -1,0 +1,40 @@
+{
+  "name": "scala.util.control.TailCalls$TailRec",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_TailCalls$TailRec",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_control_TailCalls$TailRec", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "result__O": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$TailRec": ["loop$1__p1__Lscala_util_control_TailCalls$TailRec__O"]
+      }
+    },
+    "loop$1__p1__Lscala_util_control_TailCalls$TailRec__O": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_util_control_TailCalls$Call": ["rest__Lscala_Function0"],
+        "scala_Function0": ["apply__O"],
+        "scala_util_control_TailCalls$Done": ["result__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedClassData": ["scala_util_control_TailCalls$Call", "scala_util_control_TailCalls$Done", "scala_util_control_TailCalls$TailRec"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "result__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$TailRec": ["result__O"]
+      }
+    }
+  }
+}

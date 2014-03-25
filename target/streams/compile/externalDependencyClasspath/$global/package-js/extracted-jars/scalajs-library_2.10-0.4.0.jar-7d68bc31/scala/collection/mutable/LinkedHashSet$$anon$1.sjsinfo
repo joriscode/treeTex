@@ -1,0 +1,39 @@
+{
+  "name": "scala.collection.mutable.LinkedHashSet$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_LinkedHashSet$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_mutable_LinkedHashSet$$anon$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "cur__p2__Lscala_collection_mutable_LinkedHashSet$Entry": {},
+    "cur$und$eq__p2__Lscala_collection_mutable_LinkedHashSet$Entry__V": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedHashSet$$anon$1": ["cur__p2__Lscala_collection_mutable_LinkedHashSet$Entry"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"],
+        "scala_collection_mutable_LinkedHashSet$Entry": ["key__O", "later__Lscala_collection_mutable_LinkedHashSet$Entry"],
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_mutable_LinkedHashSet$$anon$1": ["cur$und$eq__p2__Lscala_collection_mutable_LinkedHashSet$Entry__V", "cur__p2__Lscala_collection_mutable_LinkedHashSet$Entry", "hasNext__Z"]
+      },
+      "accessedModules": ["scala_collection_Iterator"]
+    },
+    "init___Lscala_collection_mutable_LinkedHashSet": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedHashSet": ["firstEntry__Lscala_collection_mutable_LinkedHashSet$Entry"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "scala.runtime.IntRef",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_IntRef",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_IntRef", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elem__I": {},
+    "elem$und$eq__I__V": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_IntRef": ["elem__I"],
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__I__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_RuntimeString"]
+    },
+    "init___I": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "elem$und$eq__I__": {
+      "calledMethods": {
+        "scala_runtime_IntRef": ["elem$und$eq__I__V"]
+      }
+    },
+    "elem__": {
+      "calledMethods": {
+        "scala_runtime_IntRef": ["elem__I"]
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "name": "scala.sys.process.package$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_package$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_package$", "scala_sys_process_ProcessImplicits", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "buildersToProcess__Lscala_collection_Seq__Lscala_Function1__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImplicits$class": ["scala_sys_process_ProcessImplicits$class__buildersToProcess__Lscala_sys_process_ProcessImplicits__Lscala_collection_Seq__Lscala_Function1__Lscala_collection_Seq"]
+      }
+    },
+    "builderToProcess__Ljava_lang_ProcessBuilder__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImplicits$class": ["scala_sys_process_ProcessImplicits$class__builderToProcess__Lscala_sys_process_ProcessImplicits__Ljava_lang_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "fileToProcess__Ljava_io_File__Lscala_sys_process_ProcessBuilder$FileBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImplicits$class": ["scala_sys_process_ProcessImplicits$class__fileToProcess__Lscala_sys_process_ProcessImplicits__Ljava_io_File__Lscala_sys_process_ProcessBuilder$FileBuilder"]
+      }
+    },
+    "urlToProcess__Ljava_net_URL__Lscala_sys_process_ProcessBuilder$URLBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImplicits$class": ["scala_sys_process_ProcessImplicits$class__urlToProcess__Lscala_sys_process_ProcessImplicits__Ljava_net_URL__Lscala_sys_process_ProcessBuilder$URLBuilder"]
+      }
+    },
+    "xmlToProcess__Lscala_xml_Elem__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImplicits$class": ["scala_sys_process_ProcessImplicits$class__xmlToProcess__Lscala_sys_process_ProcessImplicits__Lscala_xml_Elem__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "stringToProcess__T__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImplicits$class": ["scala_sys_process_ProcessImplicits$class__stringToProcess__Lscala_sys_process_ProcessImplicits__T__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "stringSeqToProcess__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImplicits$class": ["scala_sys_process_ProcessImplicits$class__stringSeqToProcess__Lscala_sys_process_ProcessImplicits__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "javaVmArguments__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_mutable_Buffer": ["toList__Lscala_collection_immutable_List"],
+        "java_lang_management_ManagementFactory$": ["getRuntimeMXBean__Ljava_lang_management_RuntimeMXBean"],
+        "java_lang_management_RuntimeMXBean": ["getInputArguments__Ljava_util_List"],
+        "scala_collection_JavaConversions$": ["asScalaBuffer__Ljava_util_List__Lscala_collection_mutable_Buffer"]
+      },
+      "accessedModules": ["java_lang_management_ManagementFactory", "scala_collection_JavaConversions"]
+    },
+    "stdin__Ljava_io_InputStream": {
+      "calledMethods": {
+        "java_lang_System$": ["$in__Ljava_io_InputStream"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "stdout__Ljava_io_PrintStream": {
+      "calledMethods": {
+        "java_lang_System$": ["out__Ljava_io_PrintStream"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "stderr__Ljava_io_PrintStream": {
+      "calledMethods": {
+        "java_lang_System$": ["err__Ljava_io_PrintStream"]
+      },
+      "accessedModules": ["java_lang_System"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImplicits$class": ["scala_sys_process_ProcessImplicits$class__$init$__Lscala_sys_process_ProcessImplicits__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "stringSeqToProcess__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stringSeqToProcess__Lscala_collection_Seq__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "stringToProcess__T__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stringToProcess__T__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "xmlToProcess__Lscala_xml_Elem__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["xmlToProcess__Lscala_xml_Elem__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "urlToProcess__Ljava_net_URL__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["urlToProcess__Ljava_net_URL__Lscala_sys_process_ProcessBuilder$URLBuilder"]
+      }
+    },
+    "fileToProcess__Ljava_io_File__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["fileToProcess__Ljava_io_File__Lscala_sys_process_ProcessBuilder$FileBuilder"]
+      }
+    },
+    "builderToProcess__Ljava_lang_ProcessBuilder__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["builderToProcess__Ljava_lang_ProcessBuilder__Lscala_sys_process_ProcessBuilder"]
+      }
+    },
+    "buildersToProcess__Lscala_collection_Seq__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["buildersToProcess__Lscala_collection_Seq__Lscala_Function1__Lscala_collection_Seq"]
+      }
+    },
+    "stderr__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stderr__Ljava_io_PrintStream"]
+      }
+    },
+    "stdout__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stdout__Ljava_io_PrintStream"]
+      }
+    },
+    "stdin__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["stdin__Ljava_io_InputStream"]
+      }
+    },
+    "javaVmArguments__": {
+      "calledMethods": {
+        "scala_sys_process_package$": ["javaVmArguments__Lscala_collection_immutable_List"]
+      }
+    }
+  }
+}

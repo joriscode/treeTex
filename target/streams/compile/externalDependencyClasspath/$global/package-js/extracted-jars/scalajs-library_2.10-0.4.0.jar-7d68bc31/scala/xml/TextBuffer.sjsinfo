@@ -1,0 +1,64 @@
+{
+  "name": "scala.xml.TextBuffer",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_TextBuffer",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_xml_TextBuffer", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "sb__Lscala_collection_mutable_StringBuilder": {},
+    "append__Lscala_collection_Seq__Lscala_xml_TextBuffer": {
+      "calledMethods": {
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_StringBuilder": ["isEmpty__Z", "append__C__Lscala_collection_mutable_StringBuilder", "last__O"],
+        "scala_xml_Utility$": ["isSpace__C__Z"],
+        "scala_xml_TextBuffer": ["sb__Lscala_collection_mutable_StringBuilder"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_Utility", "scala_runtime_BoxedUnit"]
+    },
+    "toText__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__trim__Lscala_scalajs_runtime_RuntimeString__T"],
+        "scala_collection_mutable_StringBuilder": ["toString__T"],
+        "scala_collection_Seq$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_xml_Text$": ["apply__T__Lscala_xml_Text"],
+        "scala_xml_TextBuffer": ["sb__Lscala_collection_mutable_StringBuilder"]
+      },
+      "accessedModules": ["scala_Predef", "scala_collection_Seq", "scala_xml_Text", "scala_collection_immutable_Nil"],
+      "accessedClassData": ["java_lang_Object", "scala_collection_Seq", "scala_xml_Text"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_mutable_StringBuilder": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_StringBuilder"]
+    },
+    "toText__": {
+      "calledMethods": {
+        "scala_xml_TextBuffer": ["toText__Lscala_collection_Seq"]
+      }
+    },
+    "append__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_xml_TextBuffer": ["append__Lscala_collection_Seq__Lscala_xml_TextBuffer"]
+      }
+    },
+    "sb__": {
+      "calledMethods": {
+        "scala_xml_TextBuffer": ["sb__Lscala_collection_mutable_StringBuilder"]
+      }
+    }
+  }
+}

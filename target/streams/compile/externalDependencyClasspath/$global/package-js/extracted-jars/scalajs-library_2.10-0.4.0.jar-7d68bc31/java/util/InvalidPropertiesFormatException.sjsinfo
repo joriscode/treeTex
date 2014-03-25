@@ -1,0 +1,29 @@
+{
+  "name": "java.util.InvalidPropertiesFormatException",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_InvalidPropertiesFormatException",
+  "superClass": "java_io_IOException",
+  "ancestors": ["java_util_InvalidPropertiesFormatException", "java_io_IOException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "init___T": {
+      "calledMethods": {
+        "java_io_IOException": ["init___T"]
+      }
+    },
+    "init___Ljava_lang_Throwable": {
+      "calledMethods": {
+        "java_util_InvalidPropertiesFormatException": ["initCause__Ljava_lang_Throwable__Ljava_lang_Throwable"],
+        "java_lang_Throwable": ["toString__T"]
+      },
+      "calledMethodsStatic": {
+        "java_util_InvalidPropertiesFormatException": ["init___T"]
+      }
+    }
+  }
+}

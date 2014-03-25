@@ -1,0 +1,128 @@
+{
+  "name": "scala.collection.mutable.SynchronizedSet",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_SynchronizedSet",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_SynchronizedSet", "scala_collection_mutable_Set", "scala_collection_mutable_SetLike", "scala_collection_mutable_Cloneable", "scala_Cloneable", "java_lang_Cloneable", "scala_collection_generic_Shrinkable", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "scala_collection_script_Scriptable", "scala_collection_Set", "scala_collection_SetLike", "scala_collection_generic_Subtractable", "scala_collection_GenSet", "scala_collection_generic_GenericSetTemplate", "scala_collection_GenSetLike", "scala_Function1", "scala_collection_mutable_Iterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_mutable_Traversable", "scala_Mutable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "scala$collection$mutable$SynchronizedSet$$super$size__I": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$isEmpty__Z": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$contains__O__Z": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$$plus$eq__O__Lscala_collection_mutable_SynchronizedSet": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedSet": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$$minus$eq__O__Lscala_collection_mutable_SynchronizedSet": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$$minus$minus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedSet": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$update__O__Z__V": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$add__O__Z": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$remove__O__Z": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$intersect__Lscala_collection_GenSet__Lscala_collection_mutable_Set": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$clear__V": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$subsetOf__Lscala_collection_GenSet__Z": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$foreach__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$retain__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$toList__Lscala_collection_immutable_List": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$toString__T": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$$less$less__Lscala_collection_script_Message__V": {
+      "isAbstract": true
+    },
+    "scala$collection$mutable$SynchronizedSet$$super$clone__Lscala_collection_mutable_Set": {
+      "isAbstract": true
+    },
+    "size__I": {
+      "isAbstract": true
+    },
+    "isEmpty__Z": {
+      "isAbstract": true
+    },
+    "contains__O__Z": {
+      "isAbstract": true
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_SynchronizedSet": {
+      "isAbstract": true
+    },
+    "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedSet": {
+      "isAbstract": true
+    },
+    "$$minus$eq__O__Lscala_collection_mutable_SynchronizedSet": {
+      "isAbstract": true
+    },
+    "$$minus$minus$eq__Lscala_collection_TraversableOnce__Lscala_collection_mutable_SynchronizedSet": {
+      "isAbstract": true
+    },
+    "update__O__Z__V": {
+      "isAbstract": true
+    },
+    "add__O__Z": {
+      "isAbstract": true
+    },
+    "remove__O__Z": {
+      "isAbstract": true
+    },
+    "intersect__Lscala_collection_GenSet__Lscala_collection_mutable_Set": {
+      "isAbstract": true
+    },
+    "clear__V": {
+      "isAbstract": true
+    },
+    "subsetOf__Lscala_collection_GenSet__Z": {
+      "isAbstract": true
+    },
+    "foreach__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "retain__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "toList__Lscala_collection_immutable_List": {
+      "isAbstract": true
+    },
+    "toString__T": {
+      "isAbstract": true
+    },
+    "$$less$less__Lscala_collection_script_Message__V": {
+      "isAbstract": true
+    },
+    "clone__Lscala_collection_mutable_Set": {
+      "isAbstract": true
+    }
+  }
+}

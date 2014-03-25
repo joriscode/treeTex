@@ -1,0 +1,73 @@
+{
+  "name": "scala.collection.generic.ParMapFactory$CanCombineFromMap",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_ParMapFactory$CanCombineFromMap",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_ParMapFactory$CanCombineFromMap", "scala_collection_generic_CanCombineFrom", "scala_collection_Parallel", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_parallel_ParMap__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_parallel_ParMap": ["genericMapCombiner__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory": ["newCombiner__Lscala_collection_parallel_Combiner"],
+        "scala_collection_generic_ParMapFactory$CanCombineFromMap": ["scala$collection$generic$ParMapFactory$CanCombineFromMap$$$outer__Lscala_collection_generic_ParMapFactory"]
+      }
+    },
+    "scala$collection$generic$ParMapFactory$CanCombineFromMap$$$outer__Lscala_collection_generic_ParMapFactory": {},
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory$CanCombineFromMap": ["apply__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory$CanCombineFromMap": ["apply__Lscala_collection_parallel_ParMap__Lscala_collection_parallel_Combiner"]
+      },
+      "accessedClassData": ["scala_collection_parallel_ParMap"]
+    },
+    "apply__O__Lscala_collection_parallel_Combiner": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory$CanCombineFromMap": ["apply__Lscala_collection_parallel_ParMap__Lscala_collection_parallel_Combiner"]
+      },
+      "accessedClassData": ["scala_collection_parallel_ParMap"]
+    },
+    "init___Lscala_collection_generic_ParMapFactory": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$generic$ParMapFactory$CanCombineFromMap$$$outer__": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory$CanCombineFromMap": ["scala$collection$generic$ParMapFactory$CanCombineFromMap$$$outer__Lscala_collection_generic_ParMapFactory"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory$CanCombineFromMap": ["apply__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__Lscala_collection_parallel_ParMap__": {
+      "calledMethods": {
+        "scala_collection_generic_ParMapFactory$CanCombineFromMap": ["apply__Lscala_collection_parallel_ParMap__Lscala_collection_parallel_Combiner"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanCombineFrom": ["apply__O__Lscala_collection_parallel_Combiner"]
+      }
+    }
+  }
+}

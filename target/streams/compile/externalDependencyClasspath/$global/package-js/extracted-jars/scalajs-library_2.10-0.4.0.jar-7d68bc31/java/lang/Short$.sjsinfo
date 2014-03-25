@@ -1,0 +1,84 @@
+{
+  "name": "java.lang.Short$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_Short$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_Short$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "TYPE__Ljava_lang_Class": {},
+    "MIN$undVALUE__S": {},
+    "MAX$undVALUE__S": {},
+    "SIZE__I": {},
+    "valueOf__S__Ljava_lang_Short": {
+      "calledMethods": {
+        "java_lang_Short": ["init___S"]
+      },
+      "instantiatedClasses": ["java_lang_Short"]
+    },
+    "parseShort__T__S": {
+      "calledMethods": {
+        "java_lang_Integer$": ["parseInt__T__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "toString__S__T": {
+      "calledMethods": {
+        "java_lang_Integer": ["toString__T"],
+        "java_lang_Integer$": ["valueOf__I__Ljava_lang_Integer"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "reverseBytes__S__S": {},
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "reverseBytes__S__": {
+      "calledMethods": {
+        "java_lang_Short$": ["reverseBytes__S__S"]
+      }
+    },
+    "toString__S__": {
+      "calledMethods": {
+        "java_lang_Short$": ["toString__S__T"]
+      }
+    },
+    "parseShort__T__": {
+      "calledMethods": {
+        "java_lang_Short$": ["parseShort__T__S"]
+      }
+    },
+    "valueOf__S__": {
+      "calledMethods": {
+        "java_lang_Short$": ["valueOf__S__Ljava_lang_Short"]
+      }
+    },
+    "SIZE__": {
+      "calledMethods": {
+        "java_lang_Short$": ["SIZE__I"]
+      }
+    },
+    "MAX$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Short$": ["MAX$undVALUE__S"]
+      }
+    },
+    "MIN$undVALUE__": {
+      "calledMethods": {
+        "java_lang_Short$": ["MIN$undVALUE__S"]
+      }
+    },
+    "TYPE__": {
+      "calledMethods": {
+        "java_lang_Short$": ["TYPE__Ljava_lang_Class"]
+      }
+    }
+  }
+}

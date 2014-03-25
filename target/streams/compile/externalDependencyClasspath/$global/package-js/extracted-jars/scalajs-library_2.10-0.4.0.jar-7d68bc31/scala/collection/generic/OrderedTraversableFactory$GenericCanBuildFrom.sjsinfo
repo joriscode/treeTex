@@ -1,0 +1,63 @@
+{
+  "name": "scala.collection.generic.OrderedTraversableFactory$GenericCanBuildFrom",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_Traversable__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_GenericOrderedTraversableTemplate": ["genericOrderedBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_generic_GenericOrderedTraversableTemplate"]
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_OrderedTraversableFactory": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder"],
+        "scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom": ["scala$collection$generic$OrderedTraversableFactory$GenericCanBuildFrom$$$outer__Lscala_collection_generic_OrderedTraversableFactory"]
+      }
+    },
+    "scala$collection$generic$OrderedTraversableFactory$GenericCanBuildFrom$$$outer__Lscala_collection_generic_OrderedTraversableFactory": {},
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom": ["apply__Lscala_collection_Traversable__Lscala_collection_mutable_Builder"]
+      },
+      "accessedClassData": ["scala_collection_Traversable"]
+    },
+    "init___Lscala_collection_generic_OrderedTraversableFactory__Lscala_math_Ordering": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$generic$OrderedTraversableFactory$GenericCanBuildFrom$$$outer__": {
+      "calledMethods": {
+        "scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom": ["scala$collection$generic$OrderedTraversableFactory$GenericCanBuildFrom$$$outer__Lscala_collection_generic_OrderedTraversableFactory"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom": ["apply__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__Lscala_collection_Traversable__": {
+      "calledMethods": {
+        "scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom": ["apply__Lscala_collection_Traversable__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_collection_generic_CanBuildFrom": ["apply__O__Lscala_collection_mutable_Builder"]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "scala.Array$$anon$2",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Array$$anon$2",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Array$$anon$2", "scala_collection_generic_CanBuildFrom", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__O__Lscala_collection_mutable_ArrayBuilder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$": ["make__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayBuilder"]
+      },
+      "accessedModules": ["scala_collection_mutable_ArrayBuilder"]
+    },
+    "apply__Lscala_collection_mutable_ArrayBuilder": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuilder$": ["make__Lscala_reflect_ClassTag__Lscala_collection_mutable_ArrayBuilder"]
+      },
+      "accessedModules": ["scala_collection_mutable_ArrayBuilder"]
+    },
+    "apply__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_Array$$anon$2": ["apply__Lscala_collection_mutable_ArrayBuilder"]
+      }
+    },
+    "apply__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_Array$$anon$2": ["apply__O__Lscala_collection_mutable_ArrayBuilder"]
+      }
+    },
+    "init___Lscala_reflect_ClassTag": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_Array$$anon$2": ["apply__Lscala_collection_mutable_ArrayBuilder"]
+      }
+    },
+    "apply__O__": {
+      "calledMethods": {
+        "scala_Array$$anon$2": ["apply__O__Lscala_collection_mutable_ArrayBuilder"]
+      }
+    }
+  }
+}

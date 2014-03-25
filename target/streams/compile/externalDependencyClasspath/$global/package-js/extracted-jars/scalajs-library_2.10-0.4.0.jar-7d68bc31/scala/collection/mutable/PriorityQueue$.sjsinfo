@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.mutable.PriorityQueue$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_PriorityQueue$",
+  "superClass": "scala_collection_generic_OrderedTraversableFactory",
+  "ancestors": ["scala_collection_mutable_PriorityQueue$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_OrderedTraversableFactory", "scala_collection_generic_GenericOrderedCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_PriorityQueue": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueue": ["init___Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_PriorityQueue"]
+    },
+    "canBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom": ["init___Lscala_collection_generic_OrderedTraversableFactory__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_OrderedTraversableFactory$GenericCanBuildFrom"]
+    },
+    "readResolve__p3__O": {
+      "accessedModules": ["scala_collection_mutable_PriorityQueue"]
+    },
+    "newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueue$": ["newBuilder__Lscala_math_Ordering__Lscala_collection_mutable_PriorityQueue"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_OrderedTraversableFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_mutable_PriorityQueue$": ["canBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "scala.math.Numeric$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_math_Numeric$class",
+  "superClass": "",
+  "ancestors": ["scala_math_Numeric$class"],
+  "isExported": false,
+  "methods": {
+    "scala_math_Numeric$class__zero__Lscala_math_Numeric__O": {
+      "calledMethods": {
+        "scala_math_Numeric": ["fromInt__I__O"]
+      }
+    },
+    "scala_math_Numeric$class__one__Lscala_math_Numeric__O": {
+      "calledMethods": {
+        "scala_math_Numeric": ["fromInt__I__O"]
+      }
+    },
+    "scala_math_Numeric$class__abs__Lscala_math_Numeric__O__O": {
+      "calledMethods": {
+        "scala_math_Numeric": ["zero__O", "lt__O__O__Z", "negate__O__O"]
+      }
+    },
+    "scala_math_Numeric$class__signum__Lscala_math_Numeric__O__I": {
+      "calledMethods": {
+        "scala_math_Numeric": ["zero__O", "lt__O__O__Z", "gt__O__O__Z"]
+      }
+    },
+    "scala_math_Numeric$class__mkNumericOps__Lscala_math_Numeric__O__Lscala_math_Numeric$Ops": {
+      "calledMethods": {
+        "scala_math_Numeric$Ops": ["init___Lscala_math_Numeric__O"]
+      },
+      "instantiatedClasses": ["scala_math_Numeric$Ops"]
+    },
+    "scala_math_Numeric$class__$init$__Lscala_math_Numeric__V": {}
+  }
+}

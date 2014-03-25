@@ -1,0 +1,509 @@
+{
+  "name": "scala.xml.parsing.MarkupParser$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_MarkupParser$class",
+  "superClass": "",
+  "ancestors": ["scala_xml_parsing_MarkupParser$class"],
+  "isExported": false,
+  "methods": {
+    "scala_xml_parsing_MarkupParser$class__truncatedError__Lscala_xml_parsing_MarkupHandler__T__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_xml_parsing_FatalError": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_FatalError"]
+    },
+    "scala_xml_parsing_MarkupParser$class__errorNoEnd__Lscala_xml_parsing_MarkupHandler__T__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_xml_parsing_FatalError": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_FatalError"]
+    },
+    "scala_xml_parsing_MarkupParser$class__xHandleError__Lscala_xml_parsing_MarkupHandler__C__T__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["reportSyntaxError__T__V"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__lookahead__Lscala_xml_parsing_MarkupHandler__Lscala_collection_BufferedIterator": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["curInput$und$eq__Lscala_io_Source__V", "curInput__Lscala_io_Source"],
+        "scala_xml_parsing_MarkupParser$WithLookAhead": ["lookahead__Lscala_collection_BufferedIterator", "init___Lscala_xml_parsing_MarkupHandler__Lscala_io_Source"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_MarkupParser$WithLookAhead"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParser$WithLookAhead", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__ch__Lscala_xml_parsing_MarkupHandler__C": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["curInput__Lscala_io_Source", "pos$und$eq__I__V", "extIndex__I", "lastChRead$und$eq__C__V", "nextChNeeded__Z", "reachedEof$und$eq__Z__V", "nextChNeeded$und$eq__Z__V", "lastChRead__C", "pop__V", "inpStack__Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List": ["length__I"],
+        "scala_io_Source": ["next__C", "pos__I", "hasNext__Z"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__eof__Lscala_xml_parsing_MarkupHandler__Z": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["ch__C", "reachedEof__Z"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__xmlProcInstr__Lscala_xml_parsing_MarkupHandler__Lscala_xml_MetaData": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O", "init___O__O"],
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V", "xSpace__V", "xToken__Lscala_collection_Seq__V"],
+        "scala_xml_parsing_MarkupParser": ["xAttributes__Lscala_xml_NamespaceBinding__Lscala_Tuple2", "reportSyntaxError__T__V"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError"],
+      "accessedModules": ["scala_Predef", "scala_xml_TopScope"],
+      "accessedClassData": ["scala_xml_NamespaceBinding", "scala_xml_parsing_MarkupParserCommon", "scala_xml_MetaData", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__prologOrTextDecl__Lscala_xml_parsing_MarkupHandler__Z__Lscala_Tuple3": {
+      "calledMethods": {
+        "scala_xml_MetaData": ["length__I", "apply__T__Lscala_collection_Seq"],
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapString__T__Lscala_collection_immutable_WrappedString", "augmentString__T__T"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_StringOps": ["init___T", "format__Lscala_collection_Seq__T"],
+        "scala_xml_parsing_TokenTests": ["isValidIANAEncoding__Lscala_collection_Seq__Z"],
+        "scala_xml_parsing_MarkupParserCommon": ["xSpaceOpt__V"],
+        "scala_Tuple3": ["init___O__O__O"],
+        "scala_Some": ["init___O"],
+        "scala_xml_parsing_MarkupParser": ["xmlProcInstr__Lscala_xml_MetaData", "reportSyntaxError__T__V"],
+        "scala_xml_Text$": ["unapply__O__Lscala_Option"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_collection_immutable_StringOps", "scala_Tuple3", "scala_Some"],
+      "accessedModules": ["scala_Predef", "scala_None", "scala_xml_Text", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "java_lang_Object", "scala_xml_parsing_TokenTests", "java_lang_String", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__prolog__Lscala_xml_parsing_MarkupHandler__Lscala_Tuple3": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser$class": ["scala_xml_parsing_MarkupParser$class__prologOrTextDecl__Lscala_xml_parsing_MarkupHandler__Z__Lscala_Tuple3"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupHandler", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__textDecl__Lscala_xml_parsing_MarkupHandler__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Tuple3": ["$$und1__O", "$$und2__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_xml_parsing_MarkupParser$class": ["scala_xml_parsing_MarkupParser$class__prologOrTextDecl__Lscala_xml_parsing_MarkupHandler__Z__Lscala_Tuple3"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError"],
+      "accessedClassData": ["scala_Option", "scala_xml_parsing_MarkupHandler", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__document__Lscala_xml_parsing_MarkupHandler__Lscala_xml_Document": {
+      "calledMethods": {
+        "scala_xml_NodeSeq": ["toList__Lscala_collection_immutable_List", "foreach__Lscala_Function1__V"],
+        "scala_xml_NodeSeq$": ["fromSeq__Lscala_collection_Seq__Lscala_xml_NodeSeq"],
+        "scala_xml_NodeBuffer": ["$$amp$plus__O__Lscala_xml_NodeBuffer", "init___"],
+        "scala_MatchError": ["init___O"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__trim__Lscala_scalajs_runtime_RuntimeString__T", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "init___O__O__O", "$$und2__O"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_runtime_IntRef": ["init___I"],
+        "scala_Console$": ["println__O__V"],
+        "scala_xml_Document": ["encoding$und$eq__Lscala_Option__V", "init___", "children$und$eq__Lscala_collection_Seq__V", "version$und$eq__Lscala_Option__V", "standAlone$und$eq__Lscala_Option__V", "docElem$und$eq__Lscala_xml_Node__V"],
+        "scala_xml_parsing_MarkupParser": ["prolog__Lscala_Tuple3", "ch__C", "content1__Lscala_xml_NamespaceBinding__Lscala_xml_NodeBuffer__V", "doc$und$eq__Lscala_xml_Document__V", "reportSyntaxError__T__V", "dtd$und$eq__Lscala_xml_dtd_DTD__V", "content__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq", "doc__Lscala_xml_Document", "nextch__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_SpecialNode": ["toString__T"]
+      },
+      "instantiatedClasses": ["scala_xml_Document", "scala_MatchError", "scala_Tuple3", "scala_runtime_IntRef", "scala_xml_NodeBuffer", "scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_Console", "scala_None", "scala_xml_TopScope", "scala_xml_NodeSeq", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_SpecialNode", "scala_xml_Node", "scala_xml_Comment", "scala_Option", "scala_xml_ProcInstr", "scala_xml_EntityRef", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__putChar__Lscala_xml_parsing_MarkupHandler__C__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["cbuf__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_mutable_StringBuilder": ["append__C__Lscala_collection_mutable_StringBuilder"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__initialize__Lscala_xml_parsing_MarkupHandler__Lscala_xml_parsing_MarkupHandler": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["nextch__V"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__ch$undreturning$undnextch__Lscala_xml_parsing_MarkupHandler__C": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["ch__C", "nextch__V"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__mkAttributes__Lscala_xml_parsing_MarkupHandler__T__Lscala_xml_NamespaceBinding__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["xAttributes__Lscala_xml_NamespaceBinding__Lscala_Tuple2", "ch__C"],
+        "scala_xml_parsing_TokenTests": ["isNameStart__C__Z"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"],
+      "accessedModules": ["scala_xml_Null"],
+      "accessedClassData": ["scala_xml_parsing_TokenTests", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__mkProcInstr__Lscala_xml_parsing_MarkupHandler__I__T__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_xml_parsing_MarkupHandler": ["procInstr__I__T__T__Lscala_xml_NodeSeq"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__nextch__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["ch__C", "nextChNeeded$und$eq__Z__V"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__xAttributes__Lscala_xml_parsing_MarkupHandler__Lscala_xml_NamespaceBinding__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_xml_MetaData": ["wellformed__Lscala_xml_NamespaceBinding__Z"],
+        "scala_xml_NamespaceBinding": ["init___T__T__Lscala_xml_NamespaceBinding"],
+        "scala_xml_UnprefixedAttribute": ["init___T__Lscala_collection_Seq__Lscala_xml_MetaData"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I", "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T"],
+        "scala_xml_PrefixedAttribute": ["init___T__T__Lscala_collection_Seq__Lscala_xml_MetaData"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_xml_parsing_TokenTests": ["isNameStart__C__Z"],
+        "scala_xml_parsing_MarkupParserCommon": ["xSpace__V", "xName__T", "xEQ__V", "xAttributeValue__T"],
+        "scala_Some": ["x__O"],
+        "scala_xml_parsing_MarkupParser": ["ch__C", "pos__I", "reportSyntaxError__T__V"],
+        "scala_xml_Text$": ["apply__T__Lscala_xml_Text"],
+        "scala_xml_Utility$": ["prefix__T__Lscala_Option"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_xml_UnprefixedAttribute", "scala_Tuple2", "scala_xml_NamespaceBinding", "scala_xml_PrefixedAttribute"],
+      "accessedModules": ["scala_xml_Utility", "scala_xml_Text", "scala_xml_Null", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_Some", "scala_xml_parsing_TokenTests", "java_lang_String", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__xEntityValue__Lscala_xml_parsing_MarkupHandler__T": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["cbuf__Lscala_collection_mutable_StringBuilder", "ch__C", "eof__Z", "nextch__V", "putChar__C__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_mutable_StringBuilder": ["length$und$eq__I__V", "toString__T"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__xCharData__Lscala_xml_parsing_MarkupHandler__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_xml_parsing_MarkupParser$class": ["scala_xml_parsing_MarkupParser$class__mkResult$1__Lscala_xml_parsing_MarkupHandler__I__T__Lscala_xml_NodeSeq"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_xml_parsing_MarkupParserCommon": ["xTakeUntil__Lscala_Function2__Lscala_Function0__T__O", "xToken__Lscala_collection_Seq__V"],
+        "scala_xml_parsing_MarkupParser": ["pos__I"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser", "scala_xml_NodeSeq"]
+    },
+    "scala_xml_parsing_MarkupParser$class__xComment__Lscala_xml_parsing_MarkupHandler__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_xml_parsing_FatalError": ["init___T"],
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V", "xToken__Lscala_collection_Seq__V"],
+        "scala_collection_mutable_StringBuilder": ["length$und$eq__I__V", "append__C__Lscala_collection_mutable_StringBuilder", "toString__T", "length__I", "init___"],
+        "scala_xml_parsing_MarkupParser": ["ch__C", "pos__I", "nextch__V", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_xml_parsing_MarkupHandler": ["comment__I__T__Lscala_xml_NodeSeq"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_FatalError", "scala_collection_mutable_StringBuilder"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__appendText__Lscala_xml_parsing_MarkupHandler__I__Lscala_xml_NodeBuffer__T__V": {
+      "calledMethods": {
+        "scala_xml_Text": ["text__T"],
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V"],
+        "scala_xml_NodeBuffer": ["$$amp$plus__O__Lscala_xml_NodeBuffer"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_xml_TextBuffer$": ["fromString__T__Lscala_xml_TextBuffer"],
+        "scala_xml_parsing_MarkupParser": ["preserveWS__Z", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_xml_TextBuffer": ["toText__Lscala_collection_Seq"],
+        "scala_xml_parsing_MarkupHandler": ["text__I__T__Lscala_xml_NodeSeq"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_xml_TextBuffer"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__content1__Lscala_xml_parsing_MarkupHandler__Lscala_xml_NamespaceBinding__Lscala_xml_NodeBuffer__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParserCommon": ["xProcInstr__O"],
+        "scala_xml_parsing_MarkupParser": ["xCharData__Lscala_xml_NodeSeq", "ch__C", "parseDTD__V", "element1__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq", "xComment__Lscala_xml_NodeSeq", "nextch__V"],
+        "scala_xml_NodeBuffer": ["$$amp$plus__O__Lscala_xml_NodeBuffer"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__content__Lscala_xml_parsing_MarkupHandler__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser$class": ["scala_xml_parsing_MarkupParser$class__done$1__Lscala_xml_parsing_MarkupHandler__Lscala_runtime_ObjectRef__Lscala_xml_NodeSeq", "scala_xml_parsing_MarkupParser$class__xText__Lscala_xml_parsing_MarkupHandler__T"],
+        "scala_xml_Utility$Escapes$": ["pairs__Lscala_collection_immutable_Map"],
+        "scala_xml_NodeBuffer": ["$$amp$plus__O__Lscala_xml_NodeBuffer", "init___"],
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V", "xCharRef__Lscala_Function0__Lscala_Function0__T", "xName__T"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_xml_parsing_MarkupParser": ["appendText__I__Lscala_xml_NodeBuffer__T__V", "ch__C", "eof__Z", "push__T__V", "tmppos$und$eq__I__V", "content1__Lscala_xml_NamespaceBinding__Lscala_xml_NodeBuffer__V", "pos__I", "nextch__V", "tmppos__I", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_collection_immutable_Map": ["contains__O__Z", "apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_xml_parsing_MarkupHandler": ["text__I__T__Lscala_xml_NodeSeq", "entityRef__I__T__Lscala_xml_NodeSeq"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_xml_NodeBuffer", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_xml_Utility$Escapes", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_NodeBuffer", "scala_xml_parsing_MarkupHandler", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__externalID__Lscala_xml_parsing_MarkupHandler__Lscala_xml_dtd_ExternalID": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_MatchError": ["init___O"],
+        "scala_xml_dtd_PublicID": ["init___T__T"],
+        "scala_xml_parsing_MarkupParserCommon": ["xSpace__V", "xToken__Lscala_collection_Seq__V"],
+        "scala_xml_parsing_MarkupParser": ["ch__C", "systemLiteral__T", "nextch__V", "pubidLiteral__T"],
+        "scala_xml_dtd_SystemID": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_SystemID", "scala_MatchError", "scala_xml_dtd_PublicID"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__parseDTD__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_xml_parsing_MarkupParser$$anon$4": ["init___Lscala_xml_parsing_MarkupHandler__Lscala_runtime_ObjectRef"],
+        "scala_collection_immutable_List": ["length__I"],
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V", "xSpace__V", "xName__T", "xToken__Lscala_collection_Seq__V", "xSpaceOpt__V"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_xml_dtd_ExternalID": ["systemId__T"],
+        "scala_xml_Document": ["dtd$und$eq__Lscala_xml_dtd_DTD__V"],
+        "scala_xml_parsing_MarkupParser": ["extSubset__V", "dtd$und$eq__Lscala_xml_dtd_DTD__V", "intSubset__V", "ch__C", "externalID__Lscala_xml_dtd_ExternalID", "extIndex$und$eq__I__V", "doc__Lscala_xml_Document", "pushExternal__T__V", "pop__V", "nextch__V", "inpStack__Lscala_collection_immutable_List", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler", "dtd__Lscala_xml_dtd_DTD", "reportSyntaxError__T__V"],
+        "scala_xml_parsing_MarkupHandler": ["endDTD__T__V", "isValidating__Z"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_MarkupParser$$anon$4", "scala_runtime_ObjectRef"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_dtd_ExternalID", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__element__Lscala_xml_parsing_MarkupHandler__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V"],
+        "scala_xml_parsing_MarkupParser": ["element1__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__element1__Lscala_xml_parsing_MarkupHandler__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString", "augmentString__T__T"],
+        "scala_xml_NodeSeq$": ["Empty__Lscala_xml_NodeSeq"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_StringOps": ["init___T", "drop__I__O"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "scala_xml_parsing_MarkupParserCommon": ["xEndTag__T__V", "xToken__C__V", "xTag__O__Lscala_Tuple2", "xToken__Lscala_collection_Seq__V"],
+        "scala_Tuple3": ["$$und3__O", "init___O__O__O", "$$und1__O", "$$und2__O"],
+        "scala_Some": ["x__O"],
+        "scala_xml_parsing_MarkupParser": ["ch__C", "content__Lscala_xml_NamespaceBinding__Lscala_xml_NodeSeq", "pos__I", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_xml_Utility$": ["prefix__T__Lscala_Option"],
+        "scala_xml_parsing_MarkupHandler": ["elemStart__I__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__V", "elemEnd__I__T__T__V", "elem__I__T__T__Lscala_xml_MetaData__Lscala_xml_NamespaceBinding__Z__Lscala_xml_NodeSeq__Lscala_xml_NodeSeq"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_collection_immutable_StringOps", "scala_Tuple3"],
+      "accessedModules": ["scala_xml_Utility", "scala_Predef", "scala_xml_NodeSeq"],
+      "accessedClassData": ["scala_Tuple2", "scala_xml_NamespaceBinding", "scala_xml_parsing_MarkupParserCommon", "scala_xml_MetaData", "scala_Some", "java_lang_String", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__xText__Lscala_xml_parsing_MarkupHandler__T": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["cbuf__Lscala_collection_mutable_StringBuilder", "ch__C", "eof__Z", "pos__I", "nextch__V", "putChar__C__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_mutable_StringBuilder": ["length$und$eq__I__V", "toString__T"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__systemLiteral__Lscala_xml_parsing_MarkupHandler__T": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["cbuf__Lscala_collection_mutable_StringBuilder", "ch__C", "eof__Z", "nextch__V", "putChar__C__Lscala_collection_mutable_StringBuilder", "reportSyntaxError__T__V"],
+        "scala_collection_mutable_StringBuilder": ["length$und$eq__I__V", "toString__T"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__pubidLiteral__Lscala_xml_parsing_MarkupHandler__T": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["cbuf__Lscala_collection_mutable_StringBuilder", "ch__C", "eof__Z", "nextch__V", "putChar__C__Lscala_collection_mutable_StringBuilder", "reportSyntaxError__T__V"],
+        "scala_xml_parsing_TokenTests": ["isPubIDChar__C__Z"],
+        "scala_collection_mutable_StringBuilder": ["length$und$eq__I__V", "toString__T"]
+      },
+      "accessedClassData": ["scala_xml_parsing_TokenTests", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__extSubset__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["markupDecl__V", "ch__C", "eof__Z", "textDecl__Lscala_Tuple2", "markupDecl1__O", "nextch__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__markupDecl1__Lscala_xml_parsing_MarkupHandler__O": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_xml_parsing_MarkupParser$class": ["scala_xml_parsing_MarkupParser$class__doInclude$1__Lscala_xml_parsing_MarkupHandler__V", "scala_xml_parsing_MarkupParser$class__doIgnore$1__Lscala_xml_parsing_MarkupHandler__V"],
+        "scala_io_Source": ["reportError__I__T__Ljava_io_PrintStream__V", "reportError$default$3__Ljava_io_PrintStream"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_List": ["length__I"],
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V", "xName__T", "xProcInstr__O", "xToken__Lscala_collection_Seq__V", "xSpaceOpt__V"],
+        "scala_xml_parsing_MarkupParser": ["curInput__Lscala_io_Source", "extIndex__I", "ch__C", "push__T__V", "entityDecl__V", "attrDecl__V", "notationDecl__V", "xComment__Lscala_xml_NodeSeq", "nextch__V", "pos__I", "inpStack__Lscala_collection_immutable_List", "elementDecl__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_Predef", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__markupDecl__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V", "xSpace__V", "xName__T"],
+        "scala_xml_parsing_MarkupParser": ["ch__C", "push__T__V", "markupDecl1__O", "nextch__V", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler", "reportSyntaxError__T__V"],
+        "scala_xml_parsing_TokenTests": ["isSpace__C__Z"],
+        "scala_xml_parsing_MarkupHandler": ["peReference__T__V", "isValidating__Z"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_TokenTests", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__intSubset__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParserCommon": ["xSpace__V"],
+        "scala_xml_parsing_MarkupParser": ["markupDecl__V", "ch__C"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__elementDecl__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_xml_parsing_MarkupParserCommon": ["xSpace__V", "xToken__Lscala_collection_Seq__V", "xName__T"],
+        "scala_collection_mutable_StringBuilder": ["length$und$eq__I__V", "toString__T"],
+        "scala_xml_parsing_MarkupParser": ["cbuf__Lscala_collection_mutable_StringBuilder", "ch__C", "nextch__V", "putChar__C__Lscala_collection_mutable_StringBuilder", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_xml_parsing_MarkupHandler": ["elemDecl__T__T__V"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__attrDecl__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_xml_dtd_AttrDecl": ["init___T__T__Lscala_xml_dtd_DefaultDecl"],
+        "scala_xml_dtd_DEFAULT": ["init___Z__T"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List", "reverse__Lscala_collection_immutable_List"],
+        "scala_xml_parsing_TokenTests": ["isSpace__C__Z"],
+        "scala_xml_parsing_MarkupParserCommon": ["xSpace__V", "xName__T", "xToken__Lscala_collection_Seq__V", "xAttributeValue__T", "xSpaceOpt__V"],
+        "scala_collection_mutable_StringBuilder": ["length$und$eq__I__V", "append__C__Lscala_collection_mutable_StringBuilder", "toString__T"],
+        "scala_xml_parsing_MarkupParser": ["cbuf__Lscala_collection_mutable_StringBuilder", "ch__C", "nextch__V", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_xml_parsing_MarkupHandler": ["attListDecl__T__Lscala_collection_immutable_List__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_xml_dtd_DEFAULT", "scala_xml_dtd_AttrDecl"],
+      "accessedModules": ["scala_Predef", "scala_xml_dtd_REQUIRED", "scala_collection_immutable_Nil", "scala_xml_dtd_IMPLIED", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_TokenTests", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__entityDecl__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_MatchError": ["init___O"],
+        "scala_xml_dtd_IntDef": ["init___T"],
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V", "xSpace__V", "xName__T", "xToken__Lscala_collection_Seq__V", "xSpaceOpt__V"],
+        "scala_xml_dtd_ExtDef": ["init___Lscala_xml_dtd_ExternalID"],
+        "scala_xml_parsing_MarkupParser": ["ch__C", "externalID__Lscala_xml_dtd_ExternalID", "nextch__V", "xEntityValue__T", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_xml_parsing_MarkupHandler": ["parameterEntityDecl__T__Lscala_xml_dtd_EntityDef__V", "parsedEntityDecl__T__Lscala_xml_dtd_EntityDef__V", "unparsedEntityDecl__T__Lscala_xml_dtd_ExternalID__T__V"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_xml_dtd_IntDef", "scala_xml_dtd_ExtDef"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__notationDecl__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapString__T__Lscala_collection_immutable_WrappedString"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_xml_dtd_PublicID": ["init___T__T"],
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V", "xSpace__V", "xName__T", "xToken__Lscala_collection_Seq__V", "xSpaceOpt__V"],
+        "scala_xml_parsing_MarkupParser": ["systemLiteral__T", "ch__C", "externalID__Lscala_xml_dtd_ExternalID", "pubidLiteral__T", "nextch__V", "scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler", "reportSyntaxError__T__V"],
+        "scala_xml_parsing_MarkupHandler": ["notationDecl__T__Lscala_xml_dtd_ExternalID__V"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_PublicID"],
+      "accessedModules": ["scala_sys_package", "scala_Predef"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__reportSyntaxError__Lscala_xml_parsing_MarkupHandler__I__T__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["curInput__Lscala_io_Source"],
+        "scala_io_Source": ["reportError$default$3__Ljava_io_PrintStream", "reportError__I__T__Ljava_io_PrintStream__V"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__reportSyntaxError__Lscala_xml_parsing_MarkupHandler__T__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["reportSyntaxError__I__T__V", "pos__I"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__reportValidationError__Lscala_xml_parsing_MarkupHandler__I__T__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["reportSyntaxError__I__T__V"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__push__Lscala_xml_parsing_MarkupHandler__T__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["curInput$und$eq__Lscala_io_Source__V", "curInput__Lscala_io_Source", "inpStack$und$eq__Lscala_collection_immutable_List__V", "ch__C", "eof__Z", "nextch__V", "inpStack__Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_xml_parsing_MarkupHandler": ["replacementText__T__Lscala_io_Source"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__pushExternal__Lscala_xml_parsing_MarkupHandler__T__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["curInput$und$eq__Lscala_io_Source__V", "curInput__Lscala_io_Source", "inpStack$und$eq__Lscala_collection_immutable_List__V", "ch__C", "eof__Z", "externalSource__T__Lscala_io_Source", "nextch__V", "inpStack__Lscala_collection_immutable_List"],
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__pop__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["curInput$und$eq__Lscala_io_Source__V", "curInput__Lscala_io_Source", "inpStack$und$eq__Lscala_collection_immutable_List__V", "pos$und$eq__I__V", "lastChRead$und$eq__C__V", "nextChNeeded$und$eq__Z__V", "inpStack__Lscala_collection_immutable_List", "reachedEof$und$eq__Z__V"],
+        "scala_collection_immutable_List": ["tail__O", "head__O"],
+        "scala_io_Source": ["pos__I", "ch__C"]
+      },
+      "accessedClassData": ["scala_io_Source", "scala_collection_immutable_List", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__mkResult$1__Lscala_xml_parsing_MarkupHandler__I__T__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_PCData$": ["apply__T__Lscala_xml_PCData"],
+        "scala_xml_parsing_MarkupParser": ["scala$xml$parsing$MarkupParser$$handle__Lscala_xml_parsing_MarkupHandler"],
+        "scala_xml_parsing_MarkupHandler": ["text__I__T__Lscala_xml_NodeSeq"]
+      },
+      "accessedModules": ["scala_xml_PCData"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__done$1__Lscala_xml_parsing_MarkupHandler__Lscala_runtime_ObjectRef__Lscala_xml_NodeSeq": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser$$anon$1": ["init___Lscala_xml_parsing_MarkupHandler__Lscala_runtime_ObjectRef"]
+      },
+      "instantiatedClasses": ["scala_xml_parsing_MarkupParser$$anon$1"]
+    },
+    "scala_xml_parsing_MarkupParser$class__doInclude$1__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V"],
+        "scala_xml_parsing_MarkupParser": ["markupDecl__V", "ch__C", "nextch__V"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__doIgnore$1__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParserCommon": ["xToken__C__V"],
+        "scala_xml_parsing_MarkupParser": ["ch__C", "nextch__V"]
+      },
+      "accessedClassData": ["scala_xml_parsing_MarkupParserCommon", "scala_xml_parsing_MarkupParser"]
+    },
+    "scala_xml_parsing_MarkupParser$class__$init$__Lscala_xml_parsing_MarkupHandler__V": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser": ["scala$xml$parsing$MarkupParser$$undsetter$und$cbuf$und$eq__Lscala_collection_mutable_StringBuilder__V", "extIndex$und$eq__I__V", "curInput$und$eq__Lscala_io_Source__V", "dtd$und$eq__Lscala_xml_dtd_DTD__V", "inpStack$und$eq__Lscala_collection_immutable_List__V", "scala$xml$parsing$MarkupParser$$undsetter$und$scala$xml$parsing$MarkupParser$$handle$und$eq__Lscala_xml_parsing_MarkupHandler__V", "input__Lscala_io_Source", "doc$und$eq__Lscala_xml_Document__V", "nextChNeeded$und$eq__Z__V", "reachedEof$und$eq__Z__V"],
+        "scala_collection_mutable_StringBuilder": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_StringBuilder"],
+      "accessedModules": ["scala_collection_immutable_Nil"],
+      "accessedClassData": ["scala_xml_parsing_MarkupParser"]
+    }
+  }
+}

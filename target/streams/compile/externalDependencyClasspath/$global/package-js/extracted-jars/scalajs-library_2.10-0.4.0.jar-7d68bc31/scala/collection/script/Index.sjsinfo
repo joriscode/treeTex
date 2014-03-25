@@ -1,0 +1,108 @@
+{
+  "name": "scala.collection.script.Index",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_script_Index",
+  "superClass": "scala_collection_script_Location",
+  "ancestors": ["scala_collection_script_Index", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_collection_script_Location", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "n__I": {},
+    "copy__I__Lscala_collection_script_Index": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["init___I"]
+      },
+      "instantiatedClasses": ["scala_collection_script_Index"]
+    },
+    "copy$default$1__I": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["n__I"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_script_Index": ["n__I"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_collection_script_Index"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_Statics$": ["finalizeHash__I__I__I", "mix__I__I__I"],
+        "scala_collection_script_Index": ["n__I"]
+      },
+      "accessedModules": ["scala_runtime_Statics"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["canEqual__O__Z", "n__I"]
+      },
+      "accessedClassData": ["scala_collection_script_Index"]
+    },
+    "init___I": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_script_Location": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["productPrefix__T"]
+      }
+    },
+    "copy__I__": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["copy__I__Lscala_collection_script_Index"]
+      }
+    },
+    "n__": {
+      "calledMethods": {
+        "scala_collection_script_Index": ["n__I"]
+      }
+    }
+  }
+}

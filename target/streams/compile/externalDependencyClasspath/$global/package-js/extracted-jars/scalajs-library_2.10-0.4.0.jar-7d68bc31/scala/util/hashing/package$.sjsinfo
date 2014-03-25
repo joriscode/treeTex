@@ -1,0 +1,44 @@
+{
+  "name": "scala.util.hashing.package$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_hashing_package$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_hashing_package$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "byteswap32__I__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["reverseBytes__I__I"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "byteswap64__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$times__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "java_lang_Long$": ["reverseBytes__J__J"]
+      },
+      "accessedModules": ["java_lang_Long", "scala_scalajs_runtime_Long"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "byteswap64__J__": {
+      "calledMethods": {
+        "scala_util_hashing_package$": ["byteswap64__J__J"]
+      }
+    },
+    "byteswap32__I__": {
+      "calledMethods": {
+        "scala_util_hashing_package$": ["byteswap32__I__I"]
+      }
+    }
+  }
+}

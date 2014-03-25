@@ -1,0 +1,48 @@
+{
+  "name": "scala.sys.process.ProcessImpl$DummyProcess",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$DummyProcess",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_ProcessImpl$DummyProcess", "scala_sys_process_Process", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "exitValue__I": {
+      "calledMethods": {
+        "scala_Function0": ["apply$mcI$sp__I"]
+      }
+    },
+    "destroy__V": {},
+    "scala$sys$process$ProcessImpl$DummyProcess$$$outer__Lscala_sys_process_Process$": {},
+    "init___Lscala_sys_process_Process$__Lscala_Function0": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_sys_process_Process$": ["Future__Lscala_sys_process_ProcessImpl$Future$"],
+        "scala_sys_process_ProcessImpl$Future$": ["apply__Lscala_Function0__Lscala_Function0"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$sys$process$ProcessImpl$DummyProcess$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$DummyProcess": ["scala$sys$process$ProcessImpl$DummyProcess$$$outer__Lscala_sys_process_Process$"]
+      }
+    },
+    "destroy__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$DummyProcess": ["destroy__V"]
+      }
+    },
+    "exitValue__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$DummyProcess": ["exitValue__I"]
+      }
+    }
+  }
+}

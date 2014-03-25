@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.immutable.TreeMap$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_TreeMap$",
+  "superClass": "scala_collection_generic_ImmutableSortedMapFactory",
+  "ancestors": ["scala_collection_immutable_TreeMap$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_ImmutableSortedMapFactory", "scala_collection_generic_SortedMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "empty__Lscala_math_Ordering__Lscala_collection_immutable_TreeMap": {
+      "calledMethods": {
+        "scala_collection_immutable_TreeMap": ["init___Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_TreeMap"]
+    },
+    "canBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom": ["init___Lscala_collection_generic_SortedMapFactory__Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_SortedMapFactory$SortedMapCanBuildFrom"]
+    },
+    "readResolve__p3__O": {
+      "accessedModules": ["scala_collection_immutable_TreeMap"]
+    },
+    "empty__Lscala_math_Ordering__Lscala_collection_SortedMap": {
+      "calledMethods": {
+        "scala_collection_immutable_TreeMap$": ["empty__Lscala_math_Ordering__Lscala_collection_immutable_TreeMap"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_ImmutableSortedMapFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__Lscala_math_Ordering__": {
+      "calledMethods": {
+        "scala_collection_immutable_TreeMap$": ["canBuildFrom__Lscala_math_Ordering__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

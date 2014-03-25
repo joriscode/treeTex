@@ -1,0 +1,50 @@
+{
+  "name": "scala.collection.concurrent.INode$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_INode$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_concurrent_INode$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "KEY$undPRESENT__O": {},
+    "KEY$undABSENT__O": {},
+    "newRootNode__Lscala_collection_concurrent_INode": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode": ["init___Lscala_collection_concurrent_MainNode__Lscala_collection_concurrent_Gen"],
+        "scala_collection_concurrent_CNode": ["init___I__ALscala_collection_concurrent_BasicNode__Lscala_collection_concurrent_Gen"],
+        "scala_collection_concurrent_Gen": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_CNode", "scala_collection_concurrent_Gen", "scala_collection_concurrent_INode"],
+      "accessedClassData": ["scala_collection_concurrent_BasicNode"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "newRootNode__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode$": ["newRootNode__Lscala_collection_concurrent_INode"]
+      }
+    },
+    "KEY$undABSENT__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode$": ["KEY$undABSENT__O"]
+      }
+    },
+    "KEY$undPRESENT__": {
+      "calledMethods": {
+        "scala_collection_concurrent_INode$": ["KEY$undPRESENT__O"]
+      }
+    }
+  }
+}

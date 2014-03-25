@@ -1,0 +1,47 @@
+{
+  "name": "java.util.UnknownFormatFlagsException",
+  "ancestorCount": 6,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_UnknownFormatFlagsException",
+  "superClass": "java_util_IllegalFormatException",
+  "ancestors": ["java_util_UnknownFormatFlagsException", "java_util_IllegalFormatException", "java_lang_IllegalArgumentException", "java_lang_RuntimeException", "java_lang_Exception", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "flags__p6__T": {},
+    "flags$und$eq__p6__T__V": {},
+    "getFlags__T": {
+      "calledMethods": {
+        "java_util_UnknownFormatFlagsException": ["flags__p6__T"]
+      }
+    },
+    "getMessage__T": {
+      "calledMethods": {
+        "java_util_UnknownFormatFlagsException": ["flags__p6__T"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_util_IllegalFormatException": ["init___"]
+      }
+    },
+    "init___T": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "java_util_UnknownFormatFlagsException": ["flags$und$eq__p6__T__V"]
+      },
+      "calledMethodsStatic": {
+        "java_util_UnknownFormatFlagsException": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "getFlags__": {
+      "calledMethods": {
+        "java_util_UnknownFormatFlagsException": ["getFlags__T"]
+      }
+    }
+  }
+}

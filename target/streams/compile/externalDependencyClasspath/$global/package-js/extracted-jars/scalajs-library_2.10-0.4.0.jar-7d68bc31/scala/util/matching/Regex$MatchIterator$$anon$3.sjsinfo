@@ -1,0 +1,41 @@
+{
+  "name": "scala.util.matching.Regex$MatchIterator$$anon$3",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_matching_Regex$MatchIterator$$anon$3",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_util_matching_Regex$MatchIterator$$anon$3", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchIterator": ["hasNext__Z"]
+      }
+    },
+    "next__Lscala_util_matching_Regex$Match": {
+      "calledMethods": {
+        "scala_util_matching_Regex$Match": ["init___Ljava_lang_CharSequence__Ljava_util_regex_Matcher__Lscala_collection_Seq", "force__Lscala_util_matching_Regex$Match"],
+        "scala_util_matching_Regex$MatchIterator": ["matcher__Ljava_util_regex_Matcher", "source__Ljava_lang_CharSequence", "next__T", "groupNames__Lscala_collection_Seq"]
+      },
+      "instantiatedClasses": ["scala_util_matching_Regex$Match"]
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_util_matching_Regex$MatchIterator$$anon$3": ["next__Lscala_util_matching_Regex$Match"]
+      }
+    },
+    "init___Lscala_util_matching_Regex$MatchIterator": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

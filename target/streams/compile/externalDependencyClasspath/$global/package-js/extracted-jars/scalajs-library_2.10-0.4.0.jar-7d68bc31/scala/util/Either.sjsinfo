@@ -1,0 +1,117 @@
+{
+  "name": "scala.util.Either",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Either",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Either", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "left__Lscala_util_Either$LeftProjection": {
+      "calledMethods": {
+        "scala_util_Either$LeftProjection": ["init___Lscala_util_Either"]
+      },
+      "instantiatedClasses": ["scala_util_Either$LeftProjection"]
+    },
+    "right__Lscala_util_Either$RightProjection": {
+      "calledMethods": {
+        "scala_util_Either$RightProjection": ["init___Lscala_util_Either"]
+      },
+      "instantiatedClasses": ["scala_util_Either$RightProjection"]
+    },
+    "fold__Lscala_Function1__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_util_Right": ["b__O"],
+        "scala_util_Left": ["a__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedClassData": ["scala_util_Left", "scala_util_Right"]
+    },
+    "swap__Lscala_util_Either": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_util_Right": ["b__O", "init___O"],
+        "scala_util_Left": ["init___O", "a__O"]
+      },
+      "instantiatedClasses": ["scala_util_Left", "scala_MatchError", "scala_util_Right"],
+      "accessedClassData": ["scala_util_Left", "scala_util_Right"]
+    },
+    "joinRight__Lscala_Predef$$less$colon$less__Lscala_util_Either": {
+      "calledMethods": {
+        "scala_Predef$$less$colon$less": ["apply__O__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_util_Right": ["b__O"],
+        "scala_util_Left": ["init___O", "a__O"]
+      },
+      "instantiatedClasses": ["scala_util_Left", "scala_MatchError"],
+      "accessedClassData": ["scala_util_Left", "scala_util_Right", "scala_util_Either"]
+    },
+    "joinLeft__Lscala_Predef$$less$colon$less__Lscala_util_Either": {
+      "calledMethods": {
+        "scala_Predef$$less$colon$less": ["apply__O__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_util_Right": ["b__O", "init___O"],
+        "scala_util_Left": ["a__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_util_Right"],
+      "accessedClassData": ["scala_util_Left", "scala_util_Right", "scala_util_Either"]
+    },
+    "isLeft__Z": {
+      "isAbstract": true
+    },
+    "isRight__Z": {
+      "isAbstract": true
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "joinLeft__Lscala_Predef$$less$colon$less__": {
+      "calledMethods": {
+        "scala_util_Either": ["joinLeft__Lscala_Predef$$less$colon$less__Lscala_util_Either"]
+      }
+    },
+    "joinRight__Lscala_Predef$$less$colon$less__": {
+      "calledMethods": {
+        "scala_util_Either": ["joinRight__Lscala_Predef$$less$colon$less__Lscala_util_Either"]
+      }
+    },
+    "swap__": {
+      "calledMethods": {
+        "scala_util_Either": ["swap__Lscala_util_Either"]
+      }
+    },
+    "fold__Lscala_Function1__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_Either": ["fold__Lscala_Function1__Lscala_Function1__O"]
+      }
+    },
+    "right__": {
+      "calledMethods": {
+        "scala_util_Either": ["right__Lscala_util_Either$RightProjection"]
+      }
+    },
+    "left__": {
+      "calledMethods": {
+        "scala_util_Either": ["left__Lscala_util_Either$LeftProjection"]
+      }
+    },
+    "isRight__": {
+      "calledMethods": {
+        "scala_util_Either": ["isRight__Z"]
+      }
+    },
+    "isLeft__": {
+      "calledMethods": {
+        "scala_util_Either": ["isLeft__Z"]
+      }
+    }
+  }
+}

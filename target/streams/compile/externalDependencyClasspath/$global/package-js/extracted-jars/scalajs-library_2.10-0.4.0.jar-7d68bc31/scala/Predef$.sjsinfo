@@ -1,0 +1,1070 @@
+{
+  "name": "scala.Predef$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Predef$",
+  "superClass": "scala_LowPriorityImplicits",
+  "ancestors": ["scala_Predef$", "scala_LowPriorityImplicits", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "classOf__Ljava_lang_Class": {},
+    "Map__Lscala_collection_immutable_Map$": {},
+    "Set__Lscala_collection_immutable_Set$": {},
+    "ClassManifest__Lscala_reflect_ClassManifestFactory$": {},
+    "Manifest__Lscala_reflect_ManifestFactory$": {},
+    "NoManifest__Lscala_reflect_NoManifest$": {},
+    "manifest__Lscala_reflect_Manifest__Lscala_reflect_Manifest": {},
+    "classManifest__Lscala_reflect_ClassTag__Lscala_reflect_ClassTag": {},
+    "optManifest__Lscala_reflect_OptManifest__Lscala_reflect_OptManifest": {},
+    "identity__O__O": {},
+    "implicitly__O__O": {},
+    "locally__O__O": {},
+    "$$scope__Lscala_xml_TopScope$": {},
+    "error__T__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "exit__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_sys_package$": ["exit__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "exit__I__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_sys_package$": ["exit__I__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "format__T__Lscala_collection_Seq__T": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["format__Lscala_collection_Seq__T", "init___T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"]
+    },
+    "assert__Z__V": {
+      "calledMethods": {
+        "java_lang_AssertionError": ["init___O"]
+      },
+      "instantiatedClasses": ["java_lang_AssertionError"]
+    },
+    "assert__Z__Lscala_Function0__V": {
+      "calledMethods": {
+        "java_lang_AssertionError": ["init___O"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["java_lang_AssertionError"]
+    },
+    "assume__Z__V": {
+      "calledMethods": {
+        "java_lang_AssertionError": ["init___O"]
+      },
+      "instantiatedClasses": ["java_lang_AssertionError"]
+    },
+    "assume__Z__Lscala_Function0__V": {
+      "calledMethods": {
+        "java_lang_AssertionError": ["init___O"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["java_lang_AssertionError"]
+    },
+    "require__Z__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "require__Z__Lscala_Function0__V": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "any2Ensuring__O__O": {},
+    "$$qmark$qmark$qmark__Lscala_Nothing": {
+      "calledMethods": {
+        "scala_NotImplementedError": ["init___"]
+      },
+      "instantiatedClasses": ["scala_NotImplementedError"]
+    },
+    "any2ArrowAssoc__O__O": {},
+    "print__O__V": {
+      "calledMethods": {
+        "scala_Console$": ["print__O__V"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "println__V": {
+      "calledMethods": {
+        "scala_Console$": ["println__V"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "println__O__V": {
+      "calledMethods": {
+        "scala_Console$": ["println__O__V"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "printf__T__Lscala_collection_Seq__V": {
+      "calledMethods": {
+        "scala_Console$": ["print__O__V"],
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["format__Lscala_collection_Seq__T", "init___T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_Console"]
+    },
+    "readLine__T": {
+      "calledMethods": {
+        "scala_Console$": ["readLine__T"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readLine__T__Lscala_collection_Seq__T": {
+      "calledMethods": {
+        "scala_Console$": ["readLine__T__Lscala_collection_Seq__T"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readBoolean__Z": {
+      "calledMethods": {
+        "scala_Console$": ["readBoolean__Z"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readByte__B": {
+      "calledMethods": {
+        "scala_Console$": ["readByte__B"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readShort__S": {
+      "calledMethods": {
+        "scala_Console$": ["readShort__S"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readChar__C": {
+      "calledMethods": {
+        "scala_Console$": ["readChar__C"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readInt__I": {
+      "calledMethods": {
+        "scala_Console$": ["readInt__I"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readLong__J": {
+      "calledMethods": {
+        "scala_Console$": ["readLong__J"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readFloat__F": {
+      "calledMethods": {
+        "scala_Console$": ["readFloat__F"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readDouble__D": {
+      "calledMethods": {
+        "scala_Console$": ["readDouble__D"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readf__T__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_Console$": ["readf__T__Lscala_collection_immutable_List"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readf1__T__O": {
+      "calledMethods": {
+        "scala_Console$": ["readf1__T__O"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readf2__T__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_Console$": ["readf2__T__Lscala_Tuple2"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "readf3__T__Lscala_Tuple3": {
+      "calledMethods": {
+        "scala_Console$": ["readf3__T__Lscala_Tuple3"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "exceptionWrapper__Ljava_lang_Throwable__Lscala_runtime_RichException": {
+      "calledMethods": {
+        "scala_runtime_RichException": ["init___Ljava_lang_Throwable"]
+      },
+      "instantiatedClasses": ["scala_runtime_RichException"]
+    },
+    "tuple2ToZippedOps__Lscala_Tuple2__Lscala_Tuple2": {},
+    "tuple3ToZippedOps__Lscala_Tuple3__Lscala_Tuple3": {},
+    "seqToCharSequence__Lscala_collection_IndexedSeq__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "scala_runtime_SeqCharSequence": ["init___Lscala_collection_IndexedSeq"]
+      },
+      "instantiatedClasses": ["scala_runtime_SeqCharSequence"]
+    },
+    "arrayToCharSequence__AC__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "scala_runtime_ArrayCharSequence": ["init___AC__I__I"]
+      },
+      "instantiatedClasses": ["scala_runtime_ArrayCharSequence"]
+    },
+    "genericArrayOps__O__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_Predef$": ["charArrayOps__AC__Lscala_collection_mutable_ArrayOps", "doubleArrayOps__AD__Lscala_collection_mutable_ArrayOps", "longArrayOps__AJ__Lscala_collection_mutable_ArrayOps", "shortArrayOps__AS__Lscala_collection_mutable_ArrayOps", "intArrayOps__AI__Lscala_collection_mutable_ArrayOps", "byteArrayOps__AB__Lscala_collection_mutable_ArrayOps", "refArrayOps__AO__Lscala_collection_mutable_ArrayOps", "booleanArrayOps__AZ__Lscala_collection_mutable_ArrayOps", "floatArrayOps__AF__Lscala_collection_mutable_ArrayOps", "unitArrayOps__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_ArrayOps"],
+        "scala_MatchError": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedClassData": ["java_lang_Object", "scala_runtime_BoxedUnit"]
+    },
+    "booleanArrayOps__AZ__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofBoolean": ["init___AZ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofBoolean"]
+    },
+    "byteArrayOps__AB__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofByte": ["init___AB"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofByte"]
+    },
+    "charArrayOps__AC__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofChar": ["init___AC"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofChar"]
+    },
+    "doubleArrayOps__AD__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofDouble": ["init___AD"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofDouble"]
+    },
+    "floatArrayOps__AF__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofFloat": ["init___AF"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofFloat"]
+    },
+    "intArrayOps__AI__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofInt": ["init___AI"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofInt"]
+    },
+    "longArrayOps__AJ__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofLong": ["init___AJ"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofLong"]
+    },
+    "refArrayOps__AO__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofRef": ["init___AO"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofRef"]
+    },
+    "shortArrayOps__AS__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofShort": ["init___AS"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofShort"]
+    },
+    "unitArrayOps__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_ArrayOps": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayOps$ofUnit": ["init___ALscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayOps$ofUnit"]
+    },
+    "byte2short__B__S": {},
+    "byte2int__B__I": {},
+    "byte2long__B__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromByte__B__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "byte2float__B__F": {},
+    "byte2double__B__D": {},
+    "short2int__S__I": {},
+    "short2long__S__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromShort__S__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "short2float__S__F": {},
+    "short2double__S__D": {},
+    "char2int__C__I": {},
+    "char2long__C__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromChar__C__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "char2float__C__F": {},
+    "char2double__C__D": {},
+    "int2long__I__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromInt__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "int2float__I__F": {},
+    "int2double__I__D": {},
+    "long2float__J__F": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toFloat__F"]
+      }
+    },
+    "long2double__J__D": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D"]
+      }
+    },
+    "float2double__F__D": {},
+    "byte2Byte__B__Ljava_lang_Byte": {
+      "calledMethods": {
+        "java_lang_Byte$": ["valueOf__B__Ljava_lang_Byte"]
+      },
+      "accessedModules": ["java_lang_Byte"]
+    },
+    "short2Short__S__Ljava_lang_Short": {
+      "calledMethods": {
+        "java_lang_Short$": ["valueOf__S__Ljava_lang_Short"]
+      },
+      "accessedModules": ["java_lang_Short"]
+    },
+    "char2Character__C__Ljava_lang_Character": {
+      "calledMethods": {
+        "java_lang_Character$": ["valueOf__C__Ljava_lang_Character"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "int2Integer__I__Ljava_lang_Integer": {
+      "calledMethods": {
+        "java_lang_Integer$": ["valueOf__I__Ljava_lang_Integer"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "long2Long__J__Ljava_lang_Long": {
+      "calledMethods": {
+        "java_lang_Long$": ["valueOf__J__Ljava_lang_Long"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "float2Float__F__Ljava_lang_Float": {
+      "calledMethods": {
+        "java_lang_Float$": ["valueOf__F__Ljava_lang_Float"]
+      },
+      "accessedModules": ["java_lang_Float"]
+    },
+    "double2Double__D__Ljava_lang_Double": {
+      "calledMethods": {
+        "java_lang_Double$": ["valueOf__D__Ljava_lang_Double"]
+      },
+      "accessedModules": ["java_lang_Double"]
+    },
+    "boolean2Boolean__Z__Ljava_lang_Boolean": {
+      "calledMethods": {
+        "java_lang_Boolean$": ["valueOf__Z__Ljava_lang_Boolean"]
+      },
+      "accessedModules": ["java_lang_Boolean"]
+    },
+    "byte2ByteConflict__B__O": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "short2ShortConflict__S__O": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "char2CharacterConflict__C__O": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "int2IntegerConflict__I__O": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "long2LongConflict__J__O": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "float2FloatConflict__F__O": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "double2DoubleConflict__D__O": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "boolean2BooleanConflict__Z__O": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_Object"]
+    },
+    "Byte2byte__Ljava_lang_Byte__B": {
+      "calledMethods": {
+        "java_lang_Byte": ["byteValue__B"]
+      }
+    },
+    "Short2short__Ljava_lang_Short__S": {
+      "calledMethods": {
+        "java_lang_Short": ["shortValue__S"]
+      }
+    },
+    "Character2char__Ljava_lang_Character__C": {
+      "calledMethods": {
+        "java_lang_Character": ["charValue__C"]
+      }
+    },
+    "Integer2int__Ljava_lang_Integer__I": {
+      "calledMethods": {
+        "java_lang_Integer": ["intValue__I"]
+      }
+    },
+    "Long2long__Ljava_lang_Long__J": {
+      "calledMethods": {
+        "java_lang_Long": ["longValue__J"]
+      }
+    },
+    "Float2float__Ljava_lang_Float__F": {
+      "calledMethods": {
+        "java_lang_Float": ["floatValue__F"]
+      }
+    },
+    "Double2double__Ljava_lang_Double__D": {
+      "calledMethods": {
+        "java_lang_Double": ["doubleValue__D"]
+      }
+    },
+    "Boolean2boolean__Ljava_lang_Boolean__Z": {
+      "calledMethods": {
+        "java_lang_Boolean": ["booleanValue__Z"]
+      }
+    },
+    "any2stringfmt__O__O": {},
+    "augmentString__T__T": {},
+    "any2stringadd__O__O": {},
+    "unaugmentString__T__T": {},
+    "stringCanBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_Predef$": ["StringCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "StringCanBuildFrom__Lscala_collection_generic_CanBuildFrom": {},
+    "conforms__Lscala_Predef$$less$colon$less": {},
+    "init___": {
+      "calledMethods": {
+        "scala_Predef$$anon$1": ["init___"],
+        "scala_Predef$$anon$3": ["init___"],
+        "scala_reflect_package$": ["Manifest__Lscala_reflect_ManifestFactory$", "ClassManifest__Lscala_reflect_ClassManifestFactory$"],
+        "scala_Predef$$anon$2": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_LowPriorityImplicits": ["init___"]
+      },
+      "instantiatedClasses": ["scala_Predef$$anon$2", "scala_Predef$$anon$3", "scala_Predef$$anon$1"],
+      "accessedModules": ["scala_package", "scala_collection_immutable_List", "scala_reflect_NoManifest", "scala_collection_immutable_Set", "scala_reflect_package", "scala_xml_TopScope", "scala_collection_immutable_Map"]
+    },
+    "conforms__": {
+      "calledMethods": {
+        "scala_Predef$": ["conforms__Lscala_Predef$$less$colon$less"]
+      }
+    },
+    "StringCanBuildFrom__": {
+      "calledMethods": {
+        "scala_Predef$": ["StringCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "stringCanBuildFrom__": {
+      "calledMethods": {
+        "scala_Predef$": ["stringCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "unaugmentString__T__": {
+      "calledMethods": {
+        "scala_Predef$": ["unaugmentString__T__T"]
+      }
+    },
+    "any2stringadd__O__": {
+      "calledMethods": {
+        "scala_runtime_StringAdd": ["init___O"],
+        "scala_Predef$": ["any2stringadd__O__O"]
+      },
+      "instantiatedClasses": ["scala_runtime_StringAdd"]
+    },
+    "augmentString__T__": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T"],
+        "scala_collection_immutable_StringOps": ["init___T"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"]
+    },
+    "any2stringfmt__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["any2stringfmt__O__O"],
+        "scala_runtime_StringFormat": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_runtime_StringFormat"]
+    },
+    "Boolean2boolean__Ljava_lang_Boolean__": {
+      "calledMethods": {
+        "scala_Predef$": ["Boolean2boolean__Ljava_lang_Boolean__Z"]
+      }
+    },
+    "Double2double__Ljava_lang_Double__": {
+      "calledMethods": {
+        "scala_Predef$": ["Double2double__Ljava_lang_Double__D"]
+      }
+    },
+    "Float2float__Ljava_lang_Float__": {
+      "calledMethods": {
+        "scala_Predef$": ["Float2float__Ljava_lang_Float__F"]
+      }
+    },
+    "Long2long__Ljava_lang_Long__": {
+      "calledMethods": {
+        "scala_Predef$": ["Long2long__Ljava_lang_Long__J"]
+      }
+    },
+    "Integer2int__Ljava_lang_Integer__": {
+      "calledMethods": {
+        "scala_Predef$": ["Integer2int__Ljava_lang_Integer__I"]
+      }
+    },
+    "Character2char__Ljava_lang_Character__": {
+      "calledMethods": {
+        "scala_Predef$": ["Character2char__Ljava_lang_Character__C"]
+      }
+    },
+    "Short2short__Ljava_lang_Short__": {
+      "calledMethods": {
+        "scala_Predef$": ["Short2short__Ljava_lang_Short__S"]
+      }
+    },
+    "Byte2byte__Ljava_lang_Byte__": {
+      "calledMethods": {
+        "scala_Predef$": ["Byte2byte__Ljava_lang_Byte__B"]
+      }
+    },
+    "boolean2BooleanConflict__Z__": {
+      "calledMethods": {
+        "scala_Predef$": ["boolean2BooleanConflict__Z__O"]
+      }
+    },
+    "double2DoubleConflict__D__": {
+      "calledMethods": {
+        "scala_Predef$": ["double2DoubleConflict__D__O"]
+      }
+    },
+    "float2FloatConflict__F__": {
+      "calledMethods": {
+        "scala_Predef$": ["float2FloatConflict__F__O"]
+      }
+    },
+    "long2LongConflict__J__": {
+      "calledMethods": {
+        "scala_Predef$": ["long2LongConflict__J__O"]
+      }
+    },
+    "int2IntegerConflict__I__": {
+      "calledMethods": {
+        "scala_Predef$": ["int2IntegerConflict__I__O"]
+      }
+    },
+    "char2CharacterConflict__C__": {
+      "calledMethods": {
+        "scala_Predef$": ["char2CharacterConflict__C__O"]
+      }
+    },
+    "short2ShortConflict__S__": {
+      "calledMethods": {
+        "scala_Predef$": ["short2ShortConflict__S__O"]
+      }
+    },
+    "byte2ByteConflict__B__": {
+      "calledMethods": {
+        "scala_Predef$": ["byte2ByteConflict__B__O"]
+      }
+    },
+    "boolean2Boolean__Z__": {
+      "calledMethods": {
+        "scala_Predef$": ["boolean2Boolean__Z__Ljava_lang_Boolean"]
+      }
+    },
+    "double2Double__D__": {
+      "calledMethods": {
+        "scala_Predef$": ["double2Double__D__Ljava_lang_Double"]
+      }
+    },
+    "float2Float__F__": {
+      "calledMethods": {
+        "scala_Predef$": ["float2Float__F__Ljava_lang_Float"]
+      }
+    },
+    "long2Long__J__": {
+      "calledMethods": {
+        "scala_Predef$": ["long2Long__J__Ljava_lang_Long"]
+      }
+    },
+    "int2Integer__I__": {
+      "calledMethods": {
+        "scala_Predef$": ["int2Integer__I__Ljava_lang_Integer"]
+      }
+    },
+    "char2Character__C__": {
+      "calledMethods": {
+        "scala_Predef$": ["char2Character__C__Ljava_lang_Character"]
+      }
+    },
+    "short2Short__S__": {
+      "calledMethods": {
+        "scala_Predef$": ["short2Short__S__Ljava_lang_Short"]
+      }
+    },
+    "byte2Byte__B__": {
+      "calledMethods": {
+        "scala_Predef$": ["byte2Byte__B__Ljava_lang_Byte"]
+      }
+    },
+    "float2double__F__": {
+      "calledMethods": {
+        "scala_Predef$": ["float2double__F__D"]
+      }
+    },
+    "long2double__J__": {
+      "calledMethods": {
+        "scala_Predef$": ["long2double__J__D"]
+      }
+    },
+    "long2float__J__": {
+      "calledMethods": {
+        "scala_Predef$": ["long2float__J__F"]
+      }
+    },
+    "int2double__I__": {
+      "calledMethods": {
+        "scala_Predef$": ["int2double__I__D"]
+      }
+    },
+    "int2float__I__": {
+      "calledMethods": {
+        "scala_Predef$": ["int2float__I__F"]
+      }
+    },
+    "int2long__I__": {
+      "calledMethods": {
+        "scala_Predef$": ["int2long__I__J"]
+      }
+    },
+    "char2double__C__": {
+      "calledMethods": {
+        "scala_Predef$": ["char2double__C__D"]
+      }
+    },
+    "char2float__C__": {
+      "calledMethods": {
+        "scala_Predef$": ["char2float__C__F"]
+      }
+    },
+    "char2long__C__": {
+      "calledMethods": {
+        "scala_Predef$": ["char2long__C__J"]
+      }
+    },
+    "char2int__C__": {
+      "calledMethods": {
+        "scala_Predef$": ["char2int__C__I"]
+      }
+    },
+    "short2double__S__": {
+      "calledMethods": {
+        "scala_Predef$": ["short2double__S__D"]
+      }
+    },
+    "short2float__S__": {
+      "calledMethods": {
+        "scala_Predef$": ["short2float__S__F"]
+      }
+    },
+    "short2long__S__": {
+      "calledMethods": {
+        "scala_Predef$": ["short2long__S__J"]
+      }
+    },
+    "short2int__S__": {
+      "calledMethods": {
+        "scala_Predef$": ["short2int__S__I"]
+      }
+    },
+    "byte2double__B__": {
+      "calledMethods": {
+        "scala_Predef$": ["byte2double__B__D"]
+      }
+    },
+    "byte2float__B__": {
+      "calledMethods": {
+        "scala_Predef$": ["byte2float__B__F"]
+      }
+    },
+    "byte2long__B__": {
+      "calledMethods": {
+        "scala_Predef$": ["byte2long__B__J"]
+      }
+    },
+    "byte2int__B__": {
+      "calledMethods": {
+        "scala_Predef$": ["byte2int__B__I"]
+      }
+    },
+    "byte2short__B__": {
+      "calledMethods": {
+        "scala_Predef$": ["byte2short__B__S"]
+      }
+    },
+    "unitArrayOps__ALscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_Predef$": ["unitArrayOps__ALscala_runtime_BoxedUnit__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "shortArrayOps__AS__": {
+      "calledMethods": {
+        "scala_Predef$": ["shortArrayOps__AS__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "refArrayOps__AO__": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "longArrayOps__AJ__": {
+      "calledMethods": {
+        "scala_Predef$": ["longArrayOps__AJ__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "intArrayOps__AI__": {
+      "calledMethods": {
+        "scala_Predef$": ["intArrayOps__AI__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "floatArrayOps__AF__": {
+      "calledMethods": {
+        "scala_Predef$": ["floatArrayOps__AF__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "doubleArrayOps__AD__": {
+      "calledMethods": {
+        "scala_Predef$": ["doubleArrayOps__AD__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "charArrayOps__AC__": {
+      "calledMethods": {
+        "scala_Predef$": ["charArrayOps__AC__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "byteArrayOps__AB__": {
+      "calledMethods": {
+        "scala_Predef$": ["byteArrayOps__AB__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "booleanArrayOps__AZ__": {
+      "calledMethods": {
+        "scala_Predef$": ["booleanArrayOps__AZ__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "genericArrayOps__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["genericArrayOps__O__Lscala_collection_mutable_ArrayOps"]
+      }
+    },
+    "arrayToCharSequence__AC__": {
+      "calledMethods": {
+        "scala_Predef$": ["arrayToCharSequence__AC__Ljava_lang_CharSequence"]
+      }
+    },
+    "seqToCharSequence__Lscala_collection_IndexedSeq__": {
+      "calledMethods": {
+        "scala_Predef$": ["seqToCharSequence__Lscala_collection_IndexedSeq__Ljava_lang_CharSequence"]
+      }
+    },
+    "tuple3ToZippedOps__Lscala_Tuple3__": {
+      "calledMethods": {
+        "scala_Predef$": ["tuple3ToZippedOps__Lscala_Tuple3__Lscala_Tuple3"],
+        "scala_runtime_Tuple3Zipped$Ops": ["init___Lscala_Tuple3"]
+      },
+      "instantiatedClasses": ["scala_runtime_Tuple3Zipped$Ops"]
+    },
+    "tuple2ToZippedOps__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_Predef$": ["tuple2ToZippedOps__Lscala_Tuple2__Lscala_Tuple2"],
+        "scala_runtime_Tuple2Zipped$Ops": ["init___Lscala_Tuple2"]
+      },
+      "instantiatedClasses": ["scala_runtime_Tuple2Zipped$Ops"]
+    },
+    "exceptionWrapper__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_Predef$": ["exceptionWrapper__Ljava_lang_Throwable__Lscala_runtime_RichException"]
+      }
+    },
+    "readf3__T__": {
+      "calledMethods": {
+        "scala_Predef$": ["readf3__T__Lscala_Tuple3"]
+      }
+    },
+    "readf2__T__": {
+      "calledMethods": {
+        "scala_Predef$": ["readf2__T__Lscala_Tuple2"]
+      }
+    },
+    "readf1__T__": {
+      "calledMethods": {
+        "scala_Predef$": ["readf1__T__O"]
+      }
+    },
+    "readf__T__": {
+      "calledMethods": {
+        "scala_Predef$": ["readf__T__Lscala_collection_immutable_List"]
+      }
+    },
+    "readDouble__": {
+      "calledMethods": {
+        "scala_Predef$": ["readDouble__D"]
+      }
+    },
+    "readFloat__": {
+      "calledMethods": {
+        "scala_Predef$": ["readFloat__F"]
+      }
+    },
+    "readLong__": {
+      "calledMethods": {
+        "scala_Predef$": ["readLong__J"]
+      }
+    },
+    "readInt__": {
+      "calledMethods": {
+        "scala_Predef$": ["readInt__I"]
+      }
+    },
+    "readChar__": {
+      "calledMethods": {
+        "scala_Predef$": ["readChar__C"]
+      }
+    },
+    "readShort__": {
+      "calledMethods": {
+        "scala_Predef$": ["readShort__S"]
+      }
+    },
+    "readByte__": {
+      "calledMethods": {
+        "scala_Predef$": ["readByte__B"]
+      }
+    },
+    "readBoolean__": {
+      "calledMethods": {
+        "scala_Predef$": ["readBoolean__Z"]
+      }
+    },
+    "readLine__T__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_Predef$": ["readLine__T__Lscala_collection_Seq__T"]
+      }
+    },
+    "readLine__": {
+      "calledMethods": {
+        "scala_Predef$": ["readLine__T"]
+      }
+    },
+    "printf__T__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_Predef$": ["printf__T__Lscala_collection_Seq__V"]
+      }
+    },
+    "println__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["println__O__V"]
+      }
+    },
+    "println__": {
+      "calledMethods": {
+        "scala_Predef$": ["println__V"]
+      }
+    },
+    "print__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["print__O__V"]
+      }
+    },
+    "any2ArrowAssoc__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["any2ArrowAssoc__O__O"],
+        "scala_Predef$ArrowAssoc": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Predef$ArrowAssoc"]
+    },
+    "$$qmark$qmark$qmark__": {
+      "calledMethods": {
+        "scala_Predef$": ["$$qmark$qmark$qmark__Lscala_Nothing"]
+      }
+    },
+    "any2Ensuring__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["any2Ensuring__O__O"],
+        "scala_Predef$Ensuring": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Predef$Ensuring"]
+    },
+    "require__Z__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__Lscala_Function0__V"]
+      }
+    },
+    "require__Z__": {
+      "calledMethods": {
+        "scala_Predef$": ["require__Z__V"]
+      }
+    },
+    "assume__Z__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_Predef$": ["assume__Z__Lscala_Function0__V"]
+      }
+    },
+    "assume__Z__": {
+      "calledMethods": {
+        "scala_Predef$": ["assume__Z__V"]
+      }
+    },
+    "assert__Z__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_Predef$": ["assert__Z__Lscala_Function0__V"]
+      }
+    },
+    "assert__Z__": {
+      "calledMethods": {
+        "scala_Predef$": ["assert__Z__V"]
+      }
+    },
+    "format__T__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_Predef$": ["format__T__Lscala_collection_Seq__T"]
+      }
+    },
+    "exit__I__": {
+      "calledMethods": {
+        "scala_Predef$": ["exit__I__Lscala_Nothing"]
+      }
+    },
+    "exit__": {
+      "calledMethods": {
+        "scala_Predef$": ["exit__Lscala_Nothing"]
+      }
+    },
+    "error__T__": {
+      "calledMethods": {
+        "scala_Predef$": ["error__T__Lscala_Nothing"]
+      }
+    },
+    "$$scope__": {
+      "calledMethods": {
+        "scala_Predef$": ["$$scope__Lscala_xml_TopScope$"]
+      }
+    },
+    "locally__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["locally__O__O"]
+      }
+    },
+    "implicitly__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["implicitly__O__O"]
+      }
+    },
+    "identity__O__": {
+      "calledMethods": {
+        "scala_Predef$": ["identity__O__O"]
+      }
+    },
+    "optManifest__Lscala_reflect_OptManifest__": {
+      "calledMethods": {
+        "scala_Predef$": ["optManifest__Lscala_reflect_OptManifest__Lscala_reflect_OptManifest"]
+      }
+    },
+    "classManifest__Lscala_reflect_ClassTag__": {
+      "calledMethods": {
+        "scala_Predef$": ["classManifest__Lscala_reflect_ClassTag__Lscala_reflect_ClassTag"]
+      }
+    },
+    "manifest__Lscala_reflect_Manifest__": {
+      "calledMethods": {
+        "scala_Predef$": ["manifest__Lscala_reflect_Manifest__Lscala_reflect_Manifest"]
+      }
+    },
+    "NoManifest__": {
+      "calledMethods": {
+        "scala_Predef$": ["NoManifest__Lscala_reflect_NoManifest$"]
+      }
+    },
+    "Manifest__": {
+      "calledMethods": {
+        "scala_Predef$": ["Manifest__Lscala_reflect_ManifestFactory$"]
+      }
+    },
+    "ClassManifest__": {
+      "calledMethods": {
+        "scala_Predef$": ["ClassManifest__Lscala_reflect_ClassManifestFactory$"]
+      }
+    },
+    "Set__": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$"]
+      }
+    },
+    "Map__": {
+      "calledMethods": {
+        "scala_Predef$": ["Map__Lscala_collection_immutable_Map$"]
+      }
+    },
+    "classOf__": {
+      "calledMethods": {
+        "scala_Predef$": ["classOf__Ljava_lang_Class"]
+      }
+    }
+  }
+}

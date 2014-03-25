@@ -1,0 +1,187 @@
+{
+  "name": "scala.runtime.RichFloat$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichFloat$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichFloat$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "num$extension__F__Lscala_math_Numeric$FloatIsFractional$": {
+      "accessedModules": ["scala_math_Numeric$FloatIsFractional"]
+    },
+    "ord$extension__F__Lscala_math_Ordering$Float$": {
+      "accessedModules": ["scala_math_Ordering$Float"]
+    },
+    "integralNum$extension__F__Lscala_math_Numeric$FloatAsIfIntegral$": {
+      "accessedModules": ["scala_math_Numeric$FloatAsIfIntegral"]
+    },
+    "round$extension__F__I": {
+      "calledMethods": {
+        "scala_math_package$": ["round__F__I"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "ceil$extension__F__F": {
+      "calledMethods": {
+        "scala_math_package$": ["ceil__D__D"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "floor$extension__F__F": {
+      "calledMethods": {
+        "scala_math_package$": ["floor__D__D"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "toRadians$extension__F__F": {
+      "calledMethods": {
+        "scala_math_package$": ["toRadians__D__D"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "toDegrees$extension__F__F": {
+      "calledMethods": {
+        "scala_math_package$": ["toDegrees__D__D"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "isInfinity$extension__F__Z": {
+      "calledMethods": {
+        "java_lang_Float$": ["isInfinite__F__Z"]
+      },
+      "accessedModules": ["java_lang_Float"]
+    },
+    "isPosInfinity$extension__F__Z": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isInfinity$extension__F__Z"]
+      }
+    },
+    "isNegInfinity$extension__F__Z": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isInfinity$extension__F__Z"]
+      }
+    },
+    "isValidByte$extension__F__Z": {},
+    "isValidShort$extension__F__Z": {},
+    "isValidChar$extension__F__Z": {},
+    "isValidInt$extension__F__Z": {},
+    "isWhole$extension__F__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toFloat__F", "equals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["fromFloat__F__Lscala_scalajs_runtime_Long", "apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "hashCode$extension__F__I": {
+      "calledMethods": {
+        "java_lang_Object": ["hashCode__I"]
+      }
+    },
+    "equals$extension__F__O__Z": {
+      "calledMethods": {
+        "scala_runtime_RichFloat": ["self__F"]
+      },
+      "accessedClassData": ["scala_runtime_RichFloat"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__F__O__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["equals$extension__F__O__Z"]
+      }
+    },
+    "hashCode$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["hashCode$extension__F__I"]
+      }
+    },
+    "isWhole$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isWhole$extension__F__Z"]
+      }
+    },
+    "isValidInt$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isValidInt$extension__F__Z"]
+      }
+    },
+    "isValidChar$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isValidChar$extension__F__Z"]
+      }
+    },
+    "isValidShort$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isValidShort$extension__F__Z"]
+      }
+    },
+    "isValidByte$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isValidByte$extension__F__Z"]
+      }
+    },
+    "isNegInfinity$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isNegInfinity$extension__F__Z"]
+      }
+    },
+    "isPosInfinity$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isPosInfinity$extension__F__Z"]
+      }
+    },
+    "isInfinity$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["isInfinity$extension__F__Z"]
+      }
+    },
+    "toDegrees$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["toDegrees$extension__F__F"]
+      }
+    },
+    "toRadians$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["toRadians$extension__F__F"]
+      }
+    },
+    "floor$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["floor$extension__F__F"]
+      }
+    },
+    "ceil$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["ceil$extension__F__F"]
+      }
+    },
+    "round$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["round$extension__F__I"]
+      }
+    },
+    "integralNum$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["integralNum$extension__F__Lscala_math_Numeric$FloatAsIfIntegral$"]
+      }
+    },
+    "ord$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["ord$extension__F__Lscala_math_Ordering$Float$"]
+      }
+    },
+    "num$extension__F__": {
+      "calledMethods": {
+        "scala_runtime_RichFloat$": ["num$extension__F__Lscala_math_Numeric$FloatIsFractional$"]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "scala.io.BytePickle$$anon$3",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$$anon$3",
+  "superClass": "scala_io_BytePickle$SPU",
+  "ancestors": ["scala_io_BytePickle$$anon$3", "scala_io_BytePickle$SPU", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "appP__O__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState": {
+      "calledMethods": {
+        "scala_io_BytePickle$PicklerEnv": ["nextLoc__I", "get__O__Lscala_Option", "update__O__O__V"],
+        "scala_MatchError": ["init___O"],
+        "scala_io_BytePickle$Ref": ["init___"],
+        "scala_io_BytePickle$": ["refDef__Lscala_io_BytePickle$PU", "unat__Lscala_io_BytePickle$PU"],
+        "scala_io_BytePickle$Def": ["init___"],
+        "scala_Some": ["x__O"],
+        "scala_io_BytePickle$SPU": ["appP__O__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState"],
+        "scala_io_BytePickle$PU": ["appP__O__AB__AB"],
+        "scala_io_BytePickle$PicklerState": ["init___AB__Lscala_io_BytePickle$PicklerEnv", "dict__Lscala_io_BytePickle$PicklerEnv", "stream__AB"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$Def", "scala_MatchError", "scala_io_BytePickle$PicklerState", "scala_io_BytePickle$Ref"],
+      "accessedModules": ["scala_None", "scala_io_BytePickle"],
+      "accessedClassData": ["scala_Some"]
+    },
+    "appU__Lscala_io_BytePickle$UnPicklerState__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_io_BytePickle$UnPicklerState": ["stream__AB", "dict__Lscala_io_BytePickle$UnPicklerEnv", "init___AB__Lscala_io_BytePickle$UnPicklerEnv"],
+        "scala_io_BytePickle$UnPicklerEnv": ["get__O__Lscala_Option", "update__O__O__V", "nextLoc__I"],
+        "scala_MatchError": ["init___O"],
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_io_BytePickle$": ["refDef__Lscala_io_BytePickle$PU", "unat__Lscala_io_BytePickle$PU"],
+        "scala_Tuple2": ["$$und2__O", "init___O__O", "$$und1$mcI$sp__I", "$$und1__O"],
+        "scala_Some": ["x__O"],
+        "scala_io_BytePickle$SPU": ["appU__Lscala_io_BytePickle$UnPicklerState__Lscala_Tuple2"],
+        "scala_io_BytePickle$PU": ["appU__AB__Lscala_Tuple2"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "java_lang_IllegalArgumentException", "scala_MatchError", "scala_io_BytePickle$UnPicklerState"],
+      "accessedModules": ["scala_None", "scala_io_BytePickle"],
+      "accessedClassData": ["scala_io_BytePickle$Def", "scala_Some", "scala_io_BytePickle$RefDef", "scala_io_BytePickle$Ref"]
+    },
+    "init___Lscala_io_BytePickle$SPU": {
+      "calledMethodsStatic": {
+        "scala_io_BytePickle$SPU": ["init___"]
+      }
+    }
+  }
+}

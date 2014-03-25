@@ -1,0 +1,167 @@
+{
+  "name": "scala.util.Try",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_Try",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_Try", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isFailure__Z": {
+      "isAbstract": true
+    },
+    "isSuccess__Z": {
+      "isAbstract": true
+    },
+    "getOrElse__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_Function0": ["apply__O"],
+        "scala_util_Try": ["isSuccess__Z", "get__O"]
+      }
+    },
+    "orElse__Lscala_Function0__Lscala_util_Try": {
+      "calledMethods": {
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"],
+        "scala_util_Failure": ["init___Ljava_lang_Throwable"],
+        "scala_util_Try": ["isSuccess__Z"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_util_Failure"],
+      "accessedModules": ["scala_util_control_NonFatal"],
+      "accessedClassData": ["scala_util_Try", "java_lang_Throwable"]
+    },
+    "get__O": {
+      "isAbstract": true
+    },
+    "foreach__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "flatMap__Lscala_Function1__Lscala_util_Try": {
+      "isAbstract": true
+    },
+    "map__Lscala_Function1__Lscala_util_Try": {
+      "isAbstract": true
+    },
+    "filter__Lscala_Function1__Lscala_util_Try": {
+      "isAbstract": true
+    },
+    "recoverWith__Lscala_PartialFunction__Lscala_util_Try": {
+      "isAbstract": true
+    },
+    "recover__Lscala_PartialFunction__Lscala_util_Try": {
+      "isAbstract": true
+    },
+    "toOption__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_util_Try": ["isSuccess__Z", "get__O"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "flatten__Lscala_Predef$$less$colon$less__Lscala_util_Try": {
+      "isAbstract": true
+    },
+    "failed__Lscala_util_Try": {
+      "isAbstract": true
+    },
+    "transform__Lscala_Function1__Lscala_Function1__Lscala_util_Try": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_util_Success": ["value__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_util_control_NonFatal$": ["unapply__Ljava_lang_Throwable__Lscala_Option"],
+        "scala_util_Failure": ["exception__Ljava_lang_Throwable", "init___Ljava_lang_Throwable"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_util_Failure"],
+      "accessedModules": ["scala_util_control_NonFatal"],
+      "accessedClassData": ["scala_util_Try", "java_lang_Throwable", "scala_util_Success", "scala_util_Failure"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "transform__Lscala_Function1__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_Try": ["transform__Lscala_Function1__Lscala_Function1__Lscala_util_Try"]
+      }
+    },
+    "toOption__": {
+      "calledMethods": {
+        "scala_util_Try": ["toOption__Lscala_Option"]
+      }
+    },
+    "orElse__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_Try": ["orElse__Lscala_Function0__Lscala_util_Try"]
+      }
+    },
+    "getOrElse__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_Try": ["getOrElse__Lscala_Function0__O"]
+      }
+    },
+    "failed__": {
+      "calledMethods": {
+        "scala_util_Try": ["failed__Lscala_util_Try"]
+      }
+    },
+    "flatten__Lscala_Predef$$less$colon$less__": {
+      "calledMethods": {
+        "scala_util_Try": ["flatten__Lscala_Predef$$less$colon$less__Lscala_util_Try"]
+      }
+    },
+    "recover__Lscala_PartialFunction__": {
+      "calledMethods": {
+        "scala_util_Try": ["recover__Lscala_PartialFunction__Lscala_util_Try"]
+      }
+    },
+    "recoverWith__Lscala_PartialFunction__": {
+      "calledMethods": {
+        "scala_util_Try": ["recoverWith__Lscala_PartialFunction__Lscala_util_Try"]
+      }
+    },
+    "filter__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_Try": ["filter__Lscala_Function1__Lscala_util_Try"]
+      }
+    },
+    "map__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_Try": ["map__Lscala_Function1__Lscala_util_Try"]
+      }
+    },
+    "flatMap__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_Try": ["flatMap__Lscala_Function1__Lscala_util_Try"]
+      }
+    },
+    "foreach__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_util_Try": ["foreach__Lscala_Function1__V"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "scala_util_Try": ["get__O"]
+      }
+    },
+    "isSuccess__": {
+      "calledMethods": {
+        "scala_util_Try": ["isSuccess__Z"]
+      }
+    },
+    "isFailure__": {
+      "calledMethods": {
+        "scala_util_Try": ["isFailure__Z"]
+      }
+    }
+  }
+}

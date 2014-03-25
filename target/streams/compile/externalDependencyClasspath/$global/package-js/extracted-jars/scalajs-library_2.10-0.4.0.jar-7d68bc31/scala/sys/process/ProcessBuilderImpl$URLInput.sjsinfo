@@ -1,0 +1,31 @@
+{
+  "name": "scala.sys.process.ProcessBuilderImpl$URLInput",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessBuilderImpl$URLInput",
+  "superClass": "scala_sys_process_ProcessBuilderImpl$IStreamBuilder",
+  "ancestors": ["scala_sys_process_ProcessBuilderImpl$URLInput", "scala_sys_process_ProcessBuilderImpl$IStreamBuilder", "scala_sys_process_ProcessBuilderImpl$ThreadBuilder", "scala_sys_process_ProcessBuilderImpl$AbstractBuilder", "scala_sys_process_ProcessBuilder", "scala_sys_process_ProcessBuilder$Sink", "scala_sys_process_ProcessBuilder$Source", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$sys$process$ProcessBuilderImpl$URLInput$$$outer__Lscala_sys_process_ProcessBuilder$": {},
+    "init___Lscala_sys_process_ProcessBuilder$__Ljava_net_URL": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_net_URL": ["openStream__Ljava_io_InputStream", "toString__T"]
+      },
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessBuilderImpl$IStreamBuilder": ["init___Lscala_sys_process_ProcessBuilder$__Lscala_Function0__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"]
+    },
+    "scala$sys$process$ProcessBuilderImpl$URLInput$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$URLInput": ["scala$sys$process$ProcessBuilderImpl$URLInput$$$outer__Lscala_sys_process_ProcessBuilder$"]
+      }
+    }
+  }
+}

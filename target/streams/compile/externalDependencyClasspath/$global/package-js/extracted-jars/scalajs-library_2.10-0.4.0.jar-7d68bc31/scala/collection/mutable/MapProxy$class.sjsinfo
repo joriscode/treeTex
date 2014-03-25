@@ -1,0 +1,83 @@
+{
+  "name": "scala.collection.mutable.MapProxy$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_MapProxy$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_MapProxy$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_MapProxy$class__newProxy__Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_Map__Lscala_collection_mutable_MapProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy$$anon$1": ["init___Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_Map"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_MapProxy$$anon$1"]
+    },
+    "scala_collection_mutable_MapProxy$class__repr__Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_MapProxy": {},
+    "scala_collection_mutable_MapProxy$class__empty__Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_MapProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy$$anon$2": ["init___Lscala_collection_mutable_MapProxy"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_MapProxy$$anon$2"]
+    },
+    "scala_collection_mutable_MapProxy$class__updated__Lscala_collection_mutable_MapProxy__O__O__Lscala_collection_mutable_MapProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_mutable_MapLike": ["updated__O__O__Lscala_collection_mutable_Map"],
+        "scala_collection_mutable_MapProxy$class": ["scala_collection_mutable_MapProxy$class__newProxy__Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_Map__Lscala_collection_mutable_MapProxy"]
+      },
+      "accessedClassData": ["scala_collection_mutable_MapLike"]
+    },
+    "scala_collection_mutable_MapProxy$class__$plus__Lscala_collection_mutable_MapProxy__Lscala_Tuple2__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_mutable_MapLike": ["$$plus__Lscala_Tuple2__Lscala_collection_mutable_Map"],
+        "scala_collection_mutable_MapProxy$class": ["scala_collection_mutable_MapProxy$class__newProxy__Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_Map__Lscala_collection_mutable_MapProxy"]
+      },
+      "accessedClassData": ["scala_collection_mutable_MapLike"]
+    },
+    "scala_collection_mutable_MapProxy$class__$plus__Lscala_collection_mutable_MapProxy__Lscala_Tuple2__Lscala_Tuple2__Lscala_collection_Seq__Lscala_collection_mutable_MapProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_mutable_MapLike": ["$$plus__Lscala_Tuple2__Lscala_Tuple2__Lscala_collection_Seq__Lscala_collection_mutable_Map"],
+        "scala_collection_mutable_MapProxy$class": ["scala_collection_mutable_MapProxy$class__newProxy__Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_Map__Lscala_collection_mutable_MapProxy"]
+      },
+      "accessedClassData": ["scala_collection_mutable_MapLike"]
+    },
+    "scala_collection_mutable_MapProxy$class__$plus$plus__Lscala_collection_mutable_MapProxy__Lscala_collection_GenTraversableOnce__Lscala_collection_mutable_MapProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_mutable_MapLike": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_mutable_Map"],
+        "scala_collection_GenTraversableOnce": ["seq__Lscala_collection_TraversableOnce"],
+        "scala_collection_mutable_MapProxy$class": ["scala_collection_mutable_MapProxy$class__newProxy__Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_Map__Lscala_collection_mutable_MapProxy"]
+      },
+      "accessedClassData": ["scala_collection_mutable_MapLike"]
+    },
+    "scala_collection_mutable_MapProxy$class__$minus__Lscala_collection_mutable_MapProxy__O__Lscala_collection_mutable_MapProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_mutable_MapLike": ["$$minus__O__Lscala_collection_mutable_Map"],
+        "scala_collection_mutable_MapProxy$class": ["scala_collection_mutable_MapProxy$class__newProxy__Lscala_collection_mutable_MapProxy__Lscala_collection_mutable_Map__Lscala_collection_mutable_MapProxy"]
+      },
+      "accessedClassData": ["scala_collection_mutable_MapLike"]
+    },
+    "scala_collection_mutable_MapProxy$class__$plus$eq__Lscala_collection_mutable_MapProxy__Lscala_Tuple2__Lscala_collection_mutable_MapProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_mutable_MapLike": ["$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_MapLike"]
+      },
+      "accessedClassData": ["scala_collection_mutable_MapLike"]
+    },
+    "scala_collection_mutable_MapProxy$class__$minus$eq__Lscala_collection_mutable_MapProxy__O__Lscala_collection_mutable_MapProxy": {
+      "calledMethods": {
+        "scala_collection_mutable_MapProxy": ["self__Lscala_collection_Traversable"],
+        "scala_collection_mutable_MapLike": ["$$minus$eq__O__Lscala_collection_mutable_MapLike"]
+      },
+      "accessedClassData": ["scala_collection_mutable_MapLike"]
+    },
+    "scala_collection_mutable_MapProxy$class__$init$__Lscala_collection_mutable_MapProxy__V": {}
+  }
+}

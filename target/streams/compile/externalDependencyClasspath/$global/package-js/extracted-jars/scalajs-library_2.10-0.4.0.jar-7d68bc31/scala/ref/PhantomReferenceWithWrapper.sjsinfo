@@ -1,0 +1,34 @@
+{
+  "name": "scala.ref.PhantomReferenceWithWrapper",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_ref_PhantomReferenceWithWrapper",
+  "superClass": "java_lang_ref_PhantomReference",
+  "ancestors": ["scala_ref_PhantomReferenceWithWrapper", "scala_ref_ReferenceWithWrapper", "java_lang_ref_PhantomReference", "java_lang_ref_Reference", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "wrapper__Lscala_ref_PhantomReference": {},
+    "wrapper__Lscala_ref_ReferenceWrapper": {
+      "calledMethods": {
+        "scala_ref_PhantomReferenceWithWrapper": ["wrapper__Lscala_ref_PhantomReference"]
+      }
+    },
+    "init___O__Lscala_ref_ReferenceQueue__Lscala_ref_PhantomReference": {
+      "calledMethods": {
+        "scala_ref_ReferenceQueue": ["underlying__Ljava_lang_ref_ReferenceQueue"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_ref_PhantomReference": ["init___O__Ljava_lang_ref_ReferenceQueue"]
+      }
+    },
+    "wrapper__": {
+      "calledMethods": {
+        "scala_ref_PhantomReferenceWithWrapper": ["wrapper__Lscala_ref_PhantomReference"]
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "name": "java.lang.System$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_System$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_System$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "out__Ljava_io_PrintStream": {},
+    "out$und$eq__Ljava_io_PrintStream__V": {},
+    "err__Ljava_io_PrintStream": {},
+    "err$und$eq__Ljava_io_PrintStream__V": {},
+    "$in__Ljava_io_InputStream": {},
+    "in$und$eq__Ljava_io_InputStream__V": {},
+    "currentTimeMillis__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "nanoTime__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "arraycopy__O__I__O__I__I__V": {
+      "calledMethods": {
+        "java_lang_reflect_Array$": ["getUnderlying__O__Lscala_scalajs_js_Array"]
+      },
+      "accessedModules": ["java_lang_reflect_Array"]
+    },
+    "identityHashCode__O__I": {},
+    "getProperties__Ljava_util_Properties": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "getProperty__T__T": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "getProperty__T__T__T": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "clearProperty__T__T": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "setProperty__T__T__T": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "getenv__Ljava_util_Map": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "getenv__T__T": {
+      "calledMethods": {
+        "scala_sys_package$": ["error__T__Lscala_Nothing"]
+      },
+      "accessedModules": ["scala_sys_package"]
+    },
+    "exit__I__V": {
+      "calledMethods": {
+        "java_lang_Runtime": ["exit__I__V"],
+        "java_lang_Runtime$": ["getRuntime__Ljava_lang_Runtime"]
+      },
+      "accessedModules": ["java_lang_Runtime"]
+    },
+    "gc__V": {
+      "calledMethods": {
+        "java_lang_Runtime": ["gc__V"],
+        "java_lang_Runtime$": ["getRuntime__Ljava_lang_Runtime"]
+      },
+      "accessedModules": ["java_lang_Runtime"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["java_lang_StandardErrPrintStream", "java_lang_StandardOutPrintStream"]
+    },
+    "gc__": {
+      "calledMethods": {
+        "java_lang_System$": ["gc__V"]
+      }
+    },
+    "exit__I__": {
+      "calledMethods": {
+        "java_lang_System$": ["exit__I__V"]
+      }
+    },
+    "getenv__T__": {
+      "calledMethods": {
+        "java_lang_System$": ["getenv__T__T"]
+      }
+    },
+    "getenv__": {
+      "calledMethods": {
+        "java_lang_System$": ["getenv__Ljava_util_Map"]
+      }
+    },
+    "setProperty__T__T__": {
+      "calledMethods": {
+        "java_lang_System$": ["setProperty__T__T__T"]
+      }
+    },
+    "clearProperty__T__": {
+      "calledMethods": {
+        "java_lang_System$": ["clearProperty__T__T"]
+      }
+    },
+    "getProperty__T__T__": {
+      "calledMethods": {
+        "java_lang_System$": ["getProperty__T__T__T"]
+      }
+    },
+    "getProperty__T__": {
+      "calledMethods": {
+        "java_lang_System$": ["getProperty__T__T"]
+      }
+    },
+    "getProperties__": {
+      "calledMethods": {
+        "java_lang_System$": ["getProperties__Ljava_util_Properties"]
+      }
+    },
+    "identityHashCode__O__": {
+      "calledMethods": {
+        "java_lang_System$": ["identityHashCode__O__I"]
+      }
+    },
+    "arraycopy__O__I__O__I__I__": {
+      "calledMethods": {
+        "java_lang_System$": ["arraycopy__O__I__O__I__I__V"]
+      }
+    },
+    "nanoTime__": {
+      "calledMethods": {
+        "java_lang_System$": ["nanoTime__J"]
+      }
+    },
+    "currentTimeMillis__": {
+      "calledMethods": {
+        "java_lang_System$": ["currentTimeMillis__J"]
+      }
+    },
+    "in$und$eq__Ljava_io_InputStream__": {
+      "calledMethods": {
+        "java_lang_System$": ["in$und$eq__Ljava_io_InputStream__V"]
+      }
+    },
+    "$in__": {
+      "calledMethods": {
+        "java_lang_System$": ["$in__Ljava_io_InputStream"]
+      }
+    },
+    "err$und$eq__Ljava_io_PrintStream__": {
+      "calledMethods": {
+        "java_lang_System$": ["err$und$eq__Ljava_io_PrintStream__V"]
+      }
+    },
+    "err__": {
+      "calledMethods": {
+        "java_lang_System$": ["err__Ljava_io_PrintStream"]
+      }
+    },
+    "out$und$eq__Ljava_io_PrintStream__": {
+      "calledMethods": {
+        "java_lang_System$": ["out$und$eq__Ljava_io_PrintStream__V"]
+      }
+    },
+    "out__": {
+      "calledMethods": {
+        "java_lang_System$": ["out__Ljava_io_PrintStream"]
+      }
+    }
+  }
+}

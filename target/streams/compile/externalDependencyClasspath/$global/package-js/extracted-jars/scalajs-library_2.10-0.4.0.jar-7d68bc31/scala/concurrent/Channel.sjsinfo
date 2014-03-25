@@ -1,0 +1,54 @@
+{
+  "name": "scala.concurrent.Channel",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Channel",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_Channel", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "written__p1__Lscala_concurrent_Channel$LinkedList": {},
+    "written$und$eq__p1__Lscala_concurrent_Channel$LinkedList__V": {},
+    "lastWritten__p1__Lscala_concurrent_Channel$LinkedList": {},
+    "lastWritten$und$eq__p1__Lscala_concurrent_Channel$LinkedList__V": {},
+    "nreaders__p1__I": {},
+    "nreaders$und$eq__p1__I__V": {},
+    "write__O__V": {
+      "calledMethods": {
+        "scala_concurrent_Channel$LinkedList": ["elem$und$eq__O__V", "next__Lscala_concurrent_Channel$LinkedList", "init___Lscala_concurrent_Channel", "next$und$eq__Lscala_concurrent_Channel$LinkedList__V"],
+        "scala_concurrent_Channel": ["notify__V", "lastWritten__p1__Lscala_concurrent_Channel$LinkedList", "lastWritten$und$eq__p1__Lscala_concurrent_Channel$LinkedList__V", "nreaders__p1__I"]
+      },
+      "instantiatedClasses": ["scala_concurrent_Channel$LinkedList"]
+    },
+    "read__O": {
+      "calledMethods": {
+        "scala_concurrent_Channel$LinkedList": ["elem__O", "next__Lscala_concurrent_Channel$LinkedList"],
+        "scala_concurrent_Channel": ["written__p1__Lscala_concurrent_Channel$LinkedList", "wait__V", "nreaders__p1__I", "nreaders$und$eq__p1__I__V", "written$und$eq__p1__Lscala_concurrent_Channel$LinkedList__V"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_concurrent_Channel$LinkedList": ["init___Lscala_concurrent_Channel"],
+        "scala_concurrent_Channel": ["written__p1__Lscala_concurrent_Channel$LinkedList"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_concurrent_Channel$LinkedList"]
+    },
+    "read__": {
+      "calledMethods": {
+        "scala_concurrent_Channel": ["read__O"]
+      }
+    },
+    "write__O__": {
+      "calledMethods": {
+        "scala_concurrent_Channel": ["write__O__V"]
+      }
+    }
+  }
+}

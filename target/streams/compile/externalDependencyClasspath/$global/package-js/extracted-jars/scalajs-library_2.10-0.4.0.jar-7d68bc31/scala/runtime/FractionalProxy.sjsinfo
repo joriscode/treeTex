@@ -1,0 +1,35 @@
+{
+  "name": "scala.runtime.FractionalProxy",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_FractionalProxy",
+  "superClass": "",
+  "ancestors": ["scala_runtime_FractionalProxy", "scala_runtime_RangedProxy", "scala_runtime_ScalaNumberProxy", "scala_runtime_OrderedProxy", "scala_math_Ordered", "java_lang_Comparable", "scala_Proxy$Typed", "scala_Proxy", "scala_math_ScalaNumericAnyConversions", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "num__Lscala_math_Fractional": {
+      "isAbstract": true
+    },
+    "integralNum__Lscala_math_Integral": {
+      "isAbstract": true
+    },
+    "isWhole__Z": {
+      "isAbstract": true
+    },
+    "until__O__Lscala_collection_immutable_Range$Partial": {
+      "isAbstract": true
+    },
+    "until__O__O__Lscala_collection_immutable_NumericRange$Exclusive": {
+      "isAbstract": true
+    },
+    "to__O__Lscala_collection_immutable_Range$Partial": {
+      "isAbstract": true
+    },
+    "to__O__O__Lscala_collection_immutable_NumericRange$Inclusive": {
+      "isAbstract": true
+    }
+  }
+}

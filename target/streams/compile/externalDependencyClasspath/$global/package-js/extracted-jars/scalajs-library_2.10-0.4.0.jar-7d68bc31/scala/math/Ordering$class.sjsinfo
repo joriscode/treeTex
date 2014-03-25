@@ -1,0 +1,75 @@
+{
+  "name": "scala.math.Ordering$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_math_Ordering$class",
+  "superClass": "",
+  "ancestors": ["scala_math_Ordering$class"],
+  "isExported": false,
+  "methods": {
+    "scala_math_Ordering$class__tryCompare__Lscala_math_Ordering__O__O__Lscala_Some": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_Some"]
+    },
+    "scala_math_Ordering$class__lteq__Lscala_math_Ordering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    },
+    "scala_math_Ordering$class__gteq__Lscala_math_Ordering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    },
+    "scala_math_Ordering$class__lt__Lscala_math_Ordering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    },
+    "scala_math_Ordering$class__gt__Lscala_math_Ordering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    },
+    "scala_math_Ordering$class__equiv__Lscala_math_Ordering__O__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordering": ["compare__O__O__I"]
+      }
+    },
+    "scala_math_Ordering$class__max__Lscala_math_Ordering__O__O__O": {
+      "calledMethods": {
+        "scala_math_Ordering": ["gteq__O__O__Z"]
+      }
+    },
+    "scala_math_Ordering$class__min__Lscala_math_Ordering__O__O__O": {
+      "calledMethods": {
+        "scala_math_Ordering": ["lteq__O__O__Z"]
+      }
+    },
+    "scala_math_Ordering$class__reverse__Lscala_math_Ordering__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$4": ["init___Lscala_math_Ordering"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$4"]
+    },
+    "scala_math_Ordering$class__on__Lscala_math_Ordering__Lscala_Function1__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_math_Ordering$$anon$5": ["init___Lscala_math_Ordering__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$$anon$5"]
+    },
+    "scala_math_Ordering$class__mkOrderingOps__Lscala_math_Ordering__O__Lscala_math_Ordering$Ops": {
+      "calledMethods": {
+        "scala_math_Ordering$Ops": ["init___Lscala_math_Ordering__O"]
+      },
+      "instantiatedClasses": ["scala_math_Ordering$Ops"]
+    },
+    "scala_math_Ordering$class__$init$__Lscala_math_Ordering__V": {}
+  }
+}

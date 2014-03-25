@@ -1,0 +1,216 @@
+{
+  "name": "java.util.concurrent.TimeUnit$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_concurrent_TimeUnit$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_concurrent_TimeUnit$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["zero__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "NANOSECONDS__Ljava_util_concurrent_TimeUnit": {},
+    "MICROSECONDS__Ljava_util_concurrent_TimeUnit": {},
+    "MILLISECONDS__Ljava_util_concurrent_TimeUnit": {},
+    "SECONDS__Ljava_util_concurrent_TimeUnit": {},
+    "MINUTES__Ljava_util_concurrent_TimeUnit": {},
+    "HOURS__Ljava_util_concurrent_TimeUnit": {},
+    "DAYS__Ljava_util_concurrent_TimeUnit": {},
+    "C0__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "C1__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "C2__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "C3__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "C4__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "C5__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "C6__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "MAX__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "values__ALjava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "scala_Array": ["clone__O"]
+      },
+      "accessedClassData": ["java_util_concurrent_TimeUnit"]
+    },
+    "valueOf__T__Ljava_util_concurrent_TimeUnit": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["find__Lscala_Function1__Lscala_Option"],
+        "scala_Option": ["getOrElse__Lscala_Function0__O"],
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_util_concurrent_TimeUnit": ["name__T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException", "scala_scalajs_runtime_AnonFunction0", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_util_concurrent_TimeUnit"]
+    },
+    "x__J__J__J__J": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["$$less__Lscala_scalajs_runtime_Long__Z", "$$times__Lscala_scalajs_runtime_Long__Lscala_scalajs_runtime_Long", "$$greater__Lscala_scalajs_runtime_Long__Z", "unary$und$minus__Lscala_scalajs_runtime_Long"],
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["java_util_concurrent_TimeUnit"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MINUTES__Ljava_util_concurrent_TimeUnit", "MICROSECONDS__Ljava_util_concurrent_TimeUnit", "DAYS__Ljava_util_concurrent_TimeUnit", "HOURS__Ljava_util_concurrent_TimeUnit", "MILLISECONDS__Ljava_util_concurrent_TimeUnit", "NANOSECONDS__Ljava_util_concurrent_TimeUnit", "SECONDS__Ljava_util_concurrent_TimeUnit"],
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "java_util_concurrent_TimeUnit$$anon$1": ["init___"],
+        "java_util_concurrent_TimeUnit$$anon$5": ["init___"],
+        "java_util_concurrent_TimeUnit$$anon$4": ["init___"],
+        "scala_Array$": ["apply__Lscala_collection_Seq__Lscala_reflect_ClassTag__O"],
+        "java_util_concurrent_TimeUnit$$anon$7": ["init___"],
+        "java_util_concurrent_TimeUnit$$anon$3": ["init___"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "java_util_concurrent_TimeUnit$$anon$6": ["init___"],
+        "java_util_concurrent_TimeUnit$$anon$2": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_util_concurrent_TimeUnit$$anon$6", "java_util_concurrent_TimeUnit$$anon$3", "java_util_concurrent_TimeUnit$$anon$7", "java_util_concurrent_TimeUnit$$anon$4", "java_util_concurrent_TimeUnit$$anon$1", "java_util_concurrent_TimeUnit$$anon$5", "java_util_concurrent_TimeUnit$$anon$2"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "java_util_concurrent_TimeUnit"]
+    },
+    "x__J__J__J__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["x__J__J__J__J"]
+      }
+    },
+    "valueOf__T__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["valueOf__T__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "values__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["values__ALjava_util_concurrent_TimeUnit"]
+      }
+    },
+    "MAX__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MAX__J"]
+      }
+    },
+    "C6__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["C6__J"]
+      }
+    },
+    "C5__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["C5__J"]
+      }
+    },
+    "C4__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["C4__J"]
+      }
+    },
+    "C3__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["C3__J"]
+      }
+    },
+    "C2__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["C2__J"]
+      }
+    },
+    "C1__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["C1__J"]
+      }
+    },
+    "C0__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["C0__J"]
+      }
+    },
+    "DAYS__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["DAYS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "HOURS__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["HOURS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "MINUTES__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MINUTES__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "SECONDS__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["SECONDS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "MILLISECONDS__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MILLISECONDS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "MICROSECONDS__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["MICROSECONDS__Ljava_util_concurrent_TimeUnit"]
+      }
+    },
+    "NANOSECONDS__": {
+      "calledMethods": {
+        "java_util_concurrent_TimeUnit$": ["NANOSECONDS__Ljava_util_concurrent_TimeUnit"]
+      }
+    }
+  }
+}

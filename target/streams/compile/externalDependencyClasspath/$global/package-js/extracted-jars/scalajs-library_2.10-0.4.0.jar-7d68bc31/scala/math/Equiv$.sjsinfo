@@ -1,0 +1,109 @@
+{
+  "name": "scala.math.Equiv$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_math_Equiv$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_math_Equiv$", "scala_Serializable", "java_io_Serializable", "scala_math_LowPriorityEquiv", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "universalEquiv__Lscala_math_Equiv": {
+      "calledMethods": {
+        "scala_math_LowPriorityEquiv$class": ["scala_math_LowPriorityEquiv$class__universalEquiv__Lscala_math_Equiv$__Lscala_math_Equiv"]
+      }
+    },
+    "reference__Lscala_math_Equiv": {
+      "calledMethods": {
+        "scala_math_Equiv$$anon$1": ["init___"]
+      },
+      "instantiatedClasses": ["scala_math_Equiv$$anon$1"]
+    },
+    "universal__Lscala_math_Equiv": {
+      "calledMethods": {
+        "scala_math_Equiv$$anon$2": ["init___"]
+      },
+      "instantiatedClasses": ["scala_math_Equiv$$anon$2"]
+    },
+    "fromComparator__Ljava_util_Comparator__Lscala_math_Equiv": {
+      "calledMethods": {
+        "scala_math_Equiv$$anon$3": ["init___Ljava_util_Comparator"]
+      },
+      "instantiatedClasses": ["scala_math_Equiv$$anon$3"]
+    },
+    "fromFunction__Lscala_Function2__Lscala_math_Equiv": {
+      "calledMethods": {
+        "scala_math_Equiv$$anon$4": ["init___Lscala_Function2"]
+      },
+      "instantiatedClasses": ["scala_math_Equiv$$anon$4"]
+    },
+    "by__Lscala_Function1__Lscala_math_Equiv__Lscala_math_Equiv": {
+      "calledMethods": {
+        "scala_Predef$": ["implicitly__O__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_math_Equiv$": ["fromFunction__Lscala_Function2__Lscala_math_Equiv"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_math_Equiv": ["equiv__O__O__Z"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_math_Equiv"]
+    },
+    "apply__Lscala_math_Equiv__Lscala_math_Equiv": {
+      "calledMethods": {
+        "scala_Predef$": ["implicitly__O__O"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_math_Equiv"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_math_Equiv"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_math_LowPriorityEquiv$class": ["scala_math_LowPriorityEquiv$class__$init$__Lscala_math_Equiv$__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "universalEquiv__": {
+      "calledMethods": {
+        "scala_math_Equiv$": ["universalEquiv__Lscala_math_Equiv"]
+      }
+    },
+    "apply__Lscala_math_Equiv__": {
+      "calledMethods": {
+        "scala_math_Equiv$": ["apply__Lscala_math_Equiv__Lscala_math_Equiv"]
+      }
+    },
+    "by__Lscala_Function1__Lscala_math_Equiv__": {
+      "calledMethods": {
+        "scala_math_Equiv$": ["by__Lscala_Function1__Lscala_math_Equiv__Lscala_math_Equiv"]
+      }
+    },
+    "fromFunction__Lscala_Function2__": {
+      "calledMethods": {
+        "scala_math_Equiv$": ["fromFunction__Lscala_Function2__Lscala_math_Equiv"]
+      }
+    },
+    "fromComparator__Ljava_util_Comparator__": {
+      "calledMethods": {
+        "scala_math_Equiv$": ["fromComparator__Ljava_util_Comparator__Lscala_math_Equiv"]
+      }
+    },
+    "universal__": {
+      "calledMethods": {
+        "scala_math_Equiv$": ["universal__Lscala_math_Equiv"]
+      }
+    },
+    "reference__": {
+      "calledMethods": {
+        "scala_math_Equiv$": ["reference__Lscala_math_Equiv"]
+      }
+    }
+  }
+}

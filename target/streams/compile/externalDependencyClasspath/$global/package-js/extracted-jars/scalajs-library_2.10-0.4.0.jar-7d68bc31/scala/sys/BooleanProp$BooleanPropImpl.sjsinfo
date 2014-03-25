@@ -1,0 +1,69 @@
+{
+  "name": "scala.sys.BooleanProp$BooleanPropImpl",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_BooleanProp$BooleanPropImpl",
+  "superClass": "scala_sys_PropImpl",
+  "ancestors": ["scala_sys_BooleanProp$BooleanPropImpl", "scala_sys_BooleanProp", "scala_sys_PropImpl", "scala_sys_Prop", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "setValue__O__Z": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["value__O", "clear__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_sys_PropImpl": ["setValue__O__O"]
+      },
+      "accessedClassData": ["java_lang_Boolean"]
+    },
+    "enable__V": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["setValue__O__Z"]
+      }
+    },
+    "disable__V": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["clear__V"]
+      }
+    },
+    "toggle__V": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["value__O", "disable__V", "enable__V"]
+      }
+    },
+    "value__Z": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["value__O"]
+      }
+    },
+    "setValue__O__O": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["setValue__O__Z"]
+      }
+    },
+    "init___T__Lscala_Function1": {
+      "calledMethods": {
+        "scala_sys_PropImpl": ["init___T__Lscala_Function1"]
+      }
+    },
+    "toggle__": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["toggle__V"]
+      }
+    },
+    "disable__": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["disable__V"]
+      }
+    },
+    "enable__": {
+      "calledMethods": {
+        "scala_sys_BooleanProp$BooleanPropImpl": ["enable__V"]
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "scala.collection.Iterator$Partner$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$Partner$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_Iterator$Partner$1", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_Queue": ["isEmpty__Z"],
+        "scala_collection_Iterator": ["hasNext__Z"],
+        "scala_collection_Iterator$Partner$1": ["scala$collection$Iterator$Partner$$$outer__Lscala_collection_Iterator"]
+      },
+      "accessedClassData": ["scala_collection_Iterator"]
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_mutable_Queue": ["isEmpty__Z", "enqueue__Lscala_collection_Seq__V", "dequeue__O"],
+        "scala_collection_Iterator$Partner$1": ["scala$collection$Iterator$Partner$$$outer__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["scala_collection_Iterator", "java_lang_Object"]
+    },
+    "compareGap__p2__Lscala_collection_mutable_Queue__Z": {},
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_collection_mutable_Queue": ["hashCode__I"]
+      }
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_Queue": ["isEmpty__Z"],
+        "scala_collection_Iterator$Partner$1": ["compareGap__p2__Lscala_collection_mutable_Queue__Z"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["equals__O__Z"]
+      },
+      "accessedClassData": ["scala_collection_Iterator$Partner$1"]
+    },
+    "scala$collection$Iterator$Partner$$$outer__Lscala_collection_Iterator": {},
+    "init___Lscala_collection_Iterator__Lscala_collection_mutable_Queue__Lscala_runtime_ObjectRef": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$Iterator$Partner$$$outer__": {
+      "calledMethods": {
+        "scala_collection_Iterator$Partner$1": ["scala$collection$Iterator$Partner$$$outer__Lscala_collection_Iterator"]
+      }
+    }
+  }
+}

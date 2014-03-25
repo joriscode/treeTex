@@ -1,0 +1,46 @@
+{
+  "name": "scala.collection.mutable.Builder$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_Builder$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_Builder$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__I__V": {},
+    "scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__Lscala_collection_TraversableLike__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["sizeHint__I__V"],
+        "scala_collection_TraversableLike": ["size__I"]
+      },
+      "accessedClassData": ["scala_collection_IndexedSeqLike"]
+    },
+    "scala_collection_mutable_Builder$class__sizeHint__Lscala_collection_mutable_Builder__Lscala_collection_TraversableLike__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["sizeHint__I__V"],
+        "scala_collection_TraversableLike": ["size__I"]
+      },
+      "accessedClassData": ["scala_collection_IndexedSeqLike"]
+    },
+    "scala_collection_mutable_Builder$class__sizeHintBounded__Lscala_collection_mutable_Builder__I__Lscala_collection_TraversableLike__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder": ["sizeHint__I__V"],
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_collection_TraversableLike": ["size__I"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I"]
+      },
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"],
+      "accessedClassData": ["scala_collection_IndexedSeqLike"]
+    },
+    "scala_collection_mutable_Builder$class__mapResult__Lscala_collection_mutable_Builder__Lscala_Function1__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_Builder$$anon$1": ["init___Lscala_collection_mutable_Builder__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_Builder$$anon$1"]
+    },
+    "scala_collection_mutable_Builder$class__$init$__Lscala_collection_mutable_Builder__V": {}
+  }
+}

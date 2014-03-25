@@ -1,0 +1,98 @@
+{
+  "name": "scala.util.automata.SubsetConstruction",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_automata_SubsetConstruction",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_util_automata_SubsetConstruction", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "nfa__Lscala_util_automata_NondetWordAutom": {},
+    "selectTag__Lscala_collection_immutable_BitSet__AI__I": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapIntArray__AI__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_TraversableLike": ["filter__Lscala_Function1__O"],
+        "scala_collection_immutable_BitSet$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_BitSet": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_TraversableOnce": ["min__Lscala_math_Ordering__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_BitSet", "scala_math_Ordering$Int", "scala_Predef"],
+      "accessedClassData": ["scala_collection_TraversableLike", "scala_collection_TraversableOnce"]
+    },
+    "determinize__Lscala_util_automata_DetWordAutom": {
+      "calledMethods": {
+        "scala_Predef$": ["Set__Lscala_collection_immutable_Set$", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray", "wrapIntArray__AI__Lscala_collection_mutable_WrappedArray", "any2ArrowAssoc__O__O"],
+        "scala_collection_Seq": ["foreach__Lscala_Function1__V"],
+        "scala_util_automata_SubsetConstruction": ["scala$util$automata$SubsetConstruction$$add$1__Lscala_collection_immutable_BitSet__Lscala_runtime_ObjectRef__Lscala_runtime_ObjectRef__Lscala_collection_mutable_Stack__V", "nfa__Lscala_util_automata_NondetWordAutom", "addFinal$1__p1__Lscala_collection_immutable_BitSet__Lscala_runtime_ObjectRef__V"],
+        "scala_collection_immutable_BitSet$": ["empty__Lscala_collection_immutable_BitSet", "apply__Lscala_collection_Seq__Lscala_collection_BitSet"],
+        "scala_MatchError": ["init___O"],
+        "scala_util_automata_NondetWordAutom": ["next__Lscala_collection_immutable_BitSet__O__Lscala_collection_immutable_BitSet", "labels__Lscala_collection_Seq", "nextDefault__Lscala_collection_immutable_BitSet__Lscala_collection_immutable_BitSet"],
+        "scala_util_automata_SubsetConstruction$$anon$1": ["init___Lscala_util_automata_SubsetConstruction__I__ALscala_collection_mutable_Map__AI__AI"],
+        "scala_collection_Map": ["apply__O__O", "updated__O__O__Lscala_collection_Map"],
+        "scala_Tuple2": ["$$und2$mcI$sp__I", "$$und1__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_Stack": ["isEmpty__Z", "pop__O", "push__O__O__Lscala_collection_Seq__Lscala_collection_mutable_Stack", "init___"],
+        "scala_runtime_ObjectRef": ["init___O"],
+        "scala_collection_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_collection_immutable_Set$": ["apply__Lscala_collection_Seq__Lscala_collection_GenTraversable"],
+        "scala_util_automata_SubsetConstruction$$anonfun$determinize$2": ["init___Lscala_util_automata_SubsetConstruction__Lscala_runtime_ObjectRef__Lscala_collection_mutable_HashMap__Lscala_runtime_ObjectRef__ALscala_collection_mutable_Map__AI"],
+        "scala_collection_mutable_Map": ["foreach__Lscala_Function1__V", "updated__O__O__Lscala_collection_mutable_Map"],
+        "scala_collection_mutable_Map$": ["apply__Lscala_collection_Seq__Lscala_collection_GenMap"],
+        "scala_collection_immutable_Set": ["foreach__Lscala_Function1__V", "size__I"],
+        "scala_Predef$ArrowAssoc$": ["$$minus$greater$extension__O__O__Lscala_Tuple2"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_mutable_HashMap": ["init___", "update__O__O__V"]
+      },
+      "instantiatedClasses": ["scala_util_automata_SubsetConstruction$$anon$1", "scala_MatchError", "scala_scalajs_runtime_AnonFunction1", "scala_runtime_ObjectRef", "scala_collection_mutable_Stack", "scala_util_automata_SubsetConstruction$$anonfun$determinize$2", "scala_collection_mutable_HashMap"],
+      "accessedModules": ["scala_collection_Map", "scala_collection_immutable_BitSet", "scala_Predef$ArrowAssoc", "scala_collection_mutable_Map", "scala_Predef", "scala_collection_immutable_Nil", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_Tuple2", "scala_collection_Map", "scala_collection_immutable_BitSet", "scala_collection_mutable_Map", "java_lang_Object", "scala_collection_immutable_Set"]
+    },
+    "addFinal$1__p1__Lscala_collection_immutable_BitSet__Lscala_runtime_ObjectRef__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Map": ["updated__O__O__Lscala_collection_mutable_Map"],
+        "scala_util_automata_SubsetConstruction": ["nfa__Lscala_util_automata_NondetWordAutom", "selectTag__Lscala_collection_immutable_BitSet__AI__I"],
+        "scala_util_automata_NondetWordAutom": ["finals__AI", "containsFinal__Lscala_collection_immutable_BitSet__Z"]
+      },
+      "accessedClassData": ["scala_collection_mutable_Map"]
+    },
+    "scala$util$automata$SubsetConstruction$$add$1__Lscala_collection_immutable_BitSet__Lscala_runtime_ObjectRef__Lscala_runtime_ObjectRef__Lscala_collection_mutable_Stack__V": {
+      "calledMethods": {
+        "scala_collection_mutable_Stack": ["push__O__Lscala_collection_mutable_Stack"],
+        "scala_collection_immutable_Set": ["$$plus__O__Lscala_collection_Set", "apply__O__Z"],
+        "scala_util_automata_SubsetConstruction": ["addFinal$1__p1__Lscala_collection_immutable_BitSet__Lscala_runtime_ObjectRef__V"]
+      },
+      "accessedClassData": ["scala_collection_immutable_Set"]
+    },
+    "init___Lscala_util_automata_NondetWordAutom": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "scala$util$automata$SubsetConstruction$$add$1__Lscala_collection_immutable_BitSet__Lscala_runtime_ObjectRef__Lscala_runtime_ObjectRef__Lscala_collection_mutable_Stack__": {
+      "calledMethods": {
+        "scala_util_automata_SubsetConstruction": ["scala$util$automata$SubsetConstruction$$add$1__Lscala_collection_immutable_BitSet__Lscala_runtime_ObjectRef__Lscala_runtime_ObjectRef__Lscala_collection_mutable_Stack__V"]
+      }
+    },
+    "determinize__": {
+      "calledMethods": {
+        "scala_util_automata_SubsetConstruction": ["determinize__Lscala_util_automata_DetWordAutom"]
+      }
+    },
+    "selectTag__Lscala_collection_immutable_BitSet__AI__": {
+      "calledMethods": {
+        "scala_util_automata_SubsetConstruction": ["selectTag__Lscala_collection_immutable_BitSet__AI__I"]
+      }
+    },
+    "nfa__": {
+      "calledMethods": {
+        "scala_util_automata_SubsetConstruction": ["nfa__Lscala_util_automata_NondetWordAutom"]
+      }
+    }
+  }
+}

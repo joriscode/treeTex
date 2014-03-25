@@ -1,0 +1,59 @@
+{
+  "name": "scala.scalajs.concurrent.QueueExecutionContext$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_scalajs_concurrent_QueueExecutionContext$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_scalajs_concurrent_QueueExecutionContext$", "scala_concurrent_ExecutionContext", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "prepare__Lscala_concurrent_ExecutionContext": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$class": ["scala_concurrent_ExecutionContext$class__prepare__Lscala_concurrent_ExecutionContext__Lscala_concurrent_ExecutionContext"]
+      }
+    },
+    "execute__Ljava_lang_Runnable__V": {
+      "calledMethods": {
+        "java_lang_Runnable": ["run__V"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_scalajs_concurrent_QueueExecutionContext$": ["reportFailure__Ljava_lang_Throwable__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_scalajs_concurrent_QueueExecutionContext"]
+    },
+    "reportFailure__Ljava_lang_Throwable__V": {
+      "calledMethods": {
+        "scala_Console$": ["err__Ljava_io_PrintStream"],
+        "java_io_PrintStream": ["println__T__V"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_concurrent_ExecutionContext$class": ["scala_concurrent_ExecutionContext$class__$init$__Lscala_concurrent_ExecutionContext__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "prepare__": {
+      "calledMethods": {
+        "scala_scalajs_concurrent_QueueExecutionContext$": ["prepare__Lscala_concurrent_ExecutionContext"]
+      }
+    },
+    "reportFailure__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_scalajs_concurrent_QueueExecutionContext$": ["reportFailure__Ljava_lang_Throwable__V"]
+      }
+    },
+    "execute__Ljava_lang_Runnable__": {
+      "calledMethods": {
+        "scala_scalajs_concurrent_QueueExecutionContext$": ["execute__Ljava_lang_Runnable__V"]
+      }
+    }
+  }
+}

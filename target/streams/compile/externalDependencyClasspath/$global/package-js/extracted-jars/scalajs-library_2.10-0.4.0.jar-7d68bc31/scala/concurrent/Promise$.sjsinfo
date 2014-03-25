@@ -1,0 +1,55 @@
+{
+  "name": "scala.concurrent.Promise$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Promise$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_Promise$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_concurrent_impl_Promise$DefaultPromise": ["init___"]
+      },
+      "instantiatedClasses": ["scala_concurrent_impl_Promise$DefaultPromise"]
+    },
+    "failed__Ljava_lang_Throwable__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_util_Failure": ["init___Ljava_lang_Throwable"],
+        "scala_concurrent_impl_Promise$KeptPromise": ["init___Lscala_util_Try"]
+      },
+      "instantiatedClasses": ["scala_concurrent_impl_Promise$KeptPromise", "scala_util_Failure"]
+    },
+    "successful__O__Lscala_concurrent_Promise": {
+      "calledMethods": {
+        "scala_util_Success": ["init___O"],
+        "scala_concurrent_impl_Promise$KeptPromise": ["init___Lscala_util_Try"]
+      },
+      "instantiatedClasses": ["scala_concurrent_impl_Promise$KeptPromise", "scala_util_Success"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "successful__O__": {
+      "calledMethods": {
+        "scala_concurrent_Promise$": ["successful__O__Lscala_concurrent_Promise"]
+      }
+    },
+    "failed__Ljava_lang_Throwable__": {
+      "calledMethods": {
+        "scala_concurrent_Promise$": ["failed__Ljava_lang_Throwable__Lscala_concurrent_Promise"]
+      }
+    },
+    "apply__": {
+      "calledMethods": {
+        "scala_concurrent_Promise$": ["apply__Lscala_concurrent_Promise"]
+      }
+    }
+  }
+}

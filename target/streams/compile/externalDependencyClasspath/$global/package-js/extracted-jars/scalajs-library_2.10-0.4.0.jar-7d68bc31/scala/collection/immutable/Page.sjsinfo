@@ -1,0 +1,141 @@
+{
+  "name": "scala.collection.immutable.Page",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Page",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_Page", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "num__I": {},
+    "PageSize__p1__I": {},
+    "next__Lscala_collection_immutable_Page": {},
+    "next$und$eq__Lscala_collection_immutable_Page__V": {},
+    "later__Lscala_collection_immutable_Page": {},
+    "later$und$eq__Lscala_collection_immutable_Page__V": {},
+    "filled__I": {},
+    "filled$und$eq__I__V": {},
+    "isLast__Z": {},
+    "isLast$und$eq__Z__V": {},
+    "data__O": {},
+    "start__I": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["num__I"]
+      }
+    },
+    "end__I": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["filled__I", "start__I"]
+      }
+    },
+    "latest__Lscala_collection_immutable_Page": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["next__Lscala_collection_immutable_Page", "later$und$eq__Lscala_collection_immutable_Page__V", "latest__Lscala_collection_immutable_Page", "later__Lscala_collection_immutable_Page"]
+      }
+    },
+    "apply__I__O": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["array$undapply__O__I__O"],
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_immutable_Page": ["data__O", "filled__I", "start__I"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"],
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "addMore__Lscala_Function3__Lscala_collection_immutable_Page": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["init___I__Lscala_reflect_ClassTag", "num__I", "next__Lscala_collection_immutable_Page", "isLast$und$eq__Z__V", "filled__I", "next$und$eq__Lscala_collection_immutable_Page__V", "filled$und$eq__I__V", "data__O"],
+        "scala_Function3": ["apply__O__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Page"]
+    },
+    "init___I__Lscala_reflect_ClassTag": {
+      "calledMethods": {
+        "scala_reflect_ClassTag": ["newArray__I__O"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "addMore__Lscala_Function3__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["addMore__Lscala_Function3__Lscala_collection_immutable_Page"]
+      }
+    },
+    "apply__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["apply__I__O"]
+      }
+    },
+    "latest__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["latest__Lscala_collection_immutable_Page"]
+      }
+    },
+    "end__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["end__I"]
+      }
+    },
+    "start__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["start__I"]
+      }
+    },
+    "data__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["data__O"]
+      }
+    },
+    "isLast$und$eq__Z__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["isLast$und$eq__Z__V"]
+      }
+    },
+    "isLast__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["isLast__Z"]
+      }
+    },
+    "filled$und$eq__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["filled$und$eq__I__V"]
+      }
+    },
+    "filled__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["filled__I"]
+      }
+    },
+    "later$und$eq__Lscala_collection_immutable_Page__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["later$und$eq__Lscala_collection_immutable_Page__V"]
+      }
+    },
+    "later__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["later__Lscala_collection_immutable_Page"]
+      }
+    },
+    "next$und$eq__Lscala_collection_immutable_Page__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["next$und$eq__Lscala_collection_immutable_Page__V"]
+      }
+    },
+    "next__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["next__Lscala_collection_immutable_Page"]
+      }
+    },
+    "num__": {
+      "calledMethods": {
+        "scala_collection_immutable_Page": ["num__I"]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "scala.sys.process.ProcessImpl$BasicProcess",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$BasicProcess",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_ProcessImpl$BasicProcess", "scala_sys_process_Process", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "start__V": {
+      "isAbstract": true
+    },
+    "scala$sys$process$ProcessImpl$BasicProcess$$$outer__Lscala_sys_process_Process$": {},
+    "init___Lscala_sys_process_Process$": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$sys$process$ProcessImpl$BasicProcess$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$BasicProcess": ["scala$sys$process$ProcessImpl$BasicProcess$$$outer__Lscala_sys_process_Process$"]
+      }
+    },
+    "start__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$BasicProcess": ["start__V"]
+      }
+    },
+    "destroy__": {
+      "calledMethods": {
+        "scala_sys_process_Process": ["destroy__V"]
+      }
+    },
+    "exitValue__": {
+      "calledMethods": {
+        "scala_sys_process_Process": ["exitValue__I"]
+      }
+    }
+  }
+}

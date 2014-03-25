@@ -1,0 +1,56 @@
+{
+  "name": "scala.collection.Iterator$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$$anon$1",
+  "superClass": "scala_collection_AbstractIterator",
+  "ancestors": ["scala_collection_Iterator$$anon$1", "scala_collection_BufferedIterator", "scala_collection_AbstractIterator", "scala_collection_Iterator", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "buffered__Lscala_collection_BufferedIterator": {
+      "calledMethods": {
+        "scala_collection_BufferedIterator$class": ["scala_collection_BufferedIterator$class__buffered__Lscala_collection_BufferedIterator__Lscala_collection_BufferedIterator"]
+      }
+    },
+    "hd__p2__O": {},
+    "hd$und$eq__p2__O__V": {},
+    "hdDefined__p2__Z": {},
+    "hdDefined$und$eq__p2__Z__V": {},
+    "head__O": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$1": ["hdDefined__p2__Z", "hd__p2__O", "next__O", "hd$und$eq__p2__O__V", "hdDefined$und$eq__p2__Z__V"]
+      }
+    },
+    "hasNext__Z": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["hasNext__Z"],
+        "scala_collection_Iterator$$anon$1": ["hdDefined__p2__Z"]
+      }
+    },
+    "next__O": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["next__O"],
+        "scala_collection_Iterator$$anon$1": ["hdDefined__p2__Z", "hd__p2__O", "hdDefined$und$eq__p2__Z__V"]
+      }
+    },
+    "init___Lscala_collection_Iterator": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"],
+        "scala_collection_BufferedIterator$class": ["scala_collection_BufferedIterator$class__$init$__Lscala_collection_BufferedIterator__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_AbstractIterator": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "head__": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$1": ["head__O"]
+      }
+    }
+  }
+}

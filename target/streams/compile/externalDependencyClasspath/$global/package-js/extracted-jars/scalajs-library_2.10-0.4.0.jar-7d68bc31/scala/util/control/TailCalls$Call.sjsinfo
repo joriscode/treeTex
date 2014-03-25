@@ -1,0 +1,107 @@
+{
+  "name": "scala.util.control.TailCalls$Call",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_control_TailCalls$Call",
+  "superClass": "scala_util_control_TailCalls$TailRec",
+  "ancestors": ["scala_util_control_TailCalls$Call", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_util_control_TailCalls$TailRec", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "rest__Lscala_Function0": {},
+    "copy__Lscala_Function0__Lscala_util_control_TailCalls$Call": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["init___Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_util_control_TailCalls$Call"]
+    },
+    "copy$default$1__Lscala_Function0": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["rest__Lscala_Function0"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_util_control_TailCalls$Call": ["rest__Lscala_Function0"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_util_control_TailCalls$Call"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["canEqual__O__Z", "rest__Lscala_Function0"]
+      },
+      "accessedClassData": ["scala_util_control_TailCalls$Call"]
+    },
+    "init___Lscala_Function0": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_control_TailCalls$TailRec": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["productPrefix__T"]
+      }
+    },
+    "copy__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["copy__Lscala_Function0__Lscala_util_control_TailCalls$Call"]
+      }
+    },
+    "rest__": {
+      "calledMethods": {
+        "scala_util_control_TailCalls$Call": ["rest__Lscala_Function0"]
+      }
+    }
+  }
+}

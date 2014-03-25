@@ -1,0 +1,42 @@
+{
+  "name": "scala.sys.process.ProcessImpl$Spawn$",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$Spawn$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_ProcessImpl$Spawn$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_Function0__Ljava_lang_Thread": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$Spawn$": ["apply__Lscala_Function0__Z__Ljava_lang_Thread"]
+      }
+    },
+    "apply__Lscala_Function0__Z__Ljava_lang_Thread": {
+      "calledMethods": {
+        "java_lang_Thread": ["start__V", "setDaemon__Z__V"],
+        "scala_sys_process_ProcessImpl$Spawn$$anon$1": ["init___Lscala_sys_process_ProcessImpl$Spawn$__Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_ProcessImpl$Spawn$$anon$1"]
+    },
+    "init___Lscala_sys_process_Process$": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "apply__Lscala_Function0__Z__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$Spawn$": ["apply__Lscala_Function0__Z__Ljava_lang_Thread"]
+      }
+    },
+    "apply__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$Spawn$": ["apply__Lscala_Function0__Ljava_lang_Thread"]
+      }
+    }
+  }
+}

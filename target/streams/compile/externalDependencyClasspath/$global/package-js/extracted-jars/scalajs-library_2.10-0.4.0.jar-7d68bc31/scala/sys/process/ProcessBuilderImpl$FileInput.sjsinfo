@@ -1,0 +1,32 @@
+{
+  "name": "scala.sys.process.ProcessBuilderImpl$FileInput",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessBuilderImpl$FileInput",
+  "superClass": "scala_sys_process_ProcessBuilderImpl$IStreamBuilder",
+  "ancestors": ["scala_sys_process_ProcessBuilderImpl$FileInput", "scala_sys_process_ProcessBuilderImpl$IStreamBuilder", "scala_sys_process_ProcessBuilderImpl$ThreadBuilder", "scala_sys_process_ProcessBuilderImpl$AbstractBuilder", "scala_sys_process_ProcessBuilder", "scala_sys_process_ProcessBuilder$Sink", "scala_sys_process_ProcessBuilder$Source", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$sys$process$ProcessBuilderImpl$FileInput$$$outer__Lscala_sys_process_ProcessBuilder$": {},
+    "init___Lscala_sys_process_ProcessBuilder$__Ljava_io_File": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_io_FileInputStream": ["init___Ljava_io_File"],
+        "java_io_File": ["getAbsolutePath__T"]
+      },
+      "calledMethodsStatic": {
+        "scala_sys_process_ProcessBuilderImpl$IStreamBuilder": ["init___Lscala_sys_process_ProcessBuilder$__Lscala_Function0__T"]
+      },
+      "instantiatedClasses": ["java_io_FileInputStream", "scala_scalajs_runtime_AnonFunction0"]
+    },
+    "scala$sys$process$ProcessBuilderImpl$FileInput$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessBuilderImpl$FileInput": ["scala$sys$process$ProcessBuilderImpl$FileInput$$$outer__Lscala_sys_process_ProcessBuilder$"]
+      }
+    }
+  }
+}

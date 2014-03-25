@@ -1,0 +1,69 @@
+{
+  "name": "scala.sys.process.processInternal$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_processInternal$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_processInternal$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "processDebug__Z": {},
+    "onInterrupt__Lscala_Function0__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_sys_process_processInternal$$anonfun$onInterrupt$1": ["init___Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_sys_process_processInternal$$anonfun$onInterrupt$1"]
+    },
+    "ioFailure__Lscala_Function1__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_sys_process_processInternal$$anonfun$ioFailure$1": ["init___Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_sys_process_processInternal$$anonfun$ioFailure$1"]
+    },
+    "dbg__Lscala_collection_Seq__V": {
+      "calledMethods": {
+        "scala_Console$": ["println__O__V"],
+        "scala_sys_process_processInternal$": ["processDebug__Z"],
+        "scala_collection_Seq": ["mkString__T__T"]
+      },
+      "accessedModules": ["scala_Console"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_sys_process_processInternal$": ["dbg__Lscala_collection_Seq__V"],
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray"],
+        "scala_sys_package$": ["props__Lscala_sys_SystemProperties"],
+        "scala_sys_SystemProperties": ["contains__T__Z"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_sys_package", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "dbg__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_sys_process_processInternal$": ["dbg__Lscala_collection_Seq__V"]
+      }
+    },
+    "ioFailure__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_sys_process_processInternal$": ["ioFailure__Lscala_Function1__Lscala_PartialFunction"]
+      }
+    },
+    "onInterrupt__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_processInternal$": ["onInterrupt__Lscala_Function0__Lscala_PartialFunction"]
+      }
+    },
+    "processDebug__": {
+      "calledMethods": {
+        "scala_sys_process_processInternal$": ["processDebug__Z"]
+      }
+    }
+  }
+}

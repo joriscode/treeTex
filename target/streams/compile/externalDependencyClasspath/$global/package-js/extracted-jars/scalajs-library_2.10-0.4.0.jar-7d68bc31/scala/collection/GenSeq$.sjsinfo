@@ -1,0 +1,36 @@
+{
+  "name": "scala.collection.GenSeq$",
+  "ancestorCount": 3,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeq$",
+  "superClass": "scala_collection_generic_GenTraversableFactory",
+  "ancestors": ["scala_collection_GenSeq$", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_GenSeq$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_Seq$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_Seq"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_GenTraversableFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_GenSeq$": ["canBuildFrom__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    }
+  }
+}

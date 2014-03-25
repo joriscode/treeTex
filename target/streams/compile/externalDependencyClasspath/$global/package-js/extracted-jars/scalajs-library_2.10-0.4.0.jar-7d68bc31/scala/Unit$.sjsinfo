@@ -1,0 +1,38 @@
+{
+  "name": "scala.Unit$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Unit$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Unit$", "scala_AnyValCompanion", "scala_Specializable", "scala_SpecializableCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "box__Lscala_runtime_BoxedUnit__Lscala_runtime_BoxedUnit": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "unbox__O__V": {},
+    "toString__T": {},
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unbox__O__": {
+      "calledMethods": {
+        "scala_Unit$": ["unbox__O__V"]
+      }
+    },
+    "box__Lscala_runtime_BoxedUnit__": {
+      "calledMethods": {
+        "scala_Unit$": ["box__Lscala_runtime_BoxedUnit__Lscala_runtime_BoxedUnit"]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "scala.collection.convert.Wrappers$MapWrapper",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$MapWrapper",
+  "superClass": "java_util_AbstractMap",
+  "ancestors": ["scala_collection_convert_Wrappers$MapWrapper", "java_util_AbstractMap", "java_util_Map", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "size__I": {
+      "calledMethods": {
+        "scala_collection_Map": ["size__I"]
+      }
+    },
+    "get__O__O": {
+      "calledMethods": {
+        "scala_collection_Map": ["get__O__Lscala_Option"],
+        "scala_MatchError": ["init___O"],
+        "scala_Some": ["x__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["java_lang_ClassCastException", "scala_Some"]
+    },
+    "entrySet__Ljava_util_Set": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper$$anon$1": ["init___Lscala_collection_convert_Wrappers$MapWrapper"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$MapWrapper$$anon$1"]
+    },
+    "scala$collection$convert$Wrappers$MapWrapper$$$outer__Lscala_collection_convert_Wrappers": {},
+    "init___Lscala_collection_convert_Wrappers__Lscala_collection_Map": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_util_AbstractMap": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$collection$convert$Wrappers$MapWrapper$$$outer__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$MapWrapper": ["scala$collection$convert$Wrappers$MapWrapper$$$outer__Lscala_collection_convert_Wrappers"]
+      }
+    }
+  }
+}

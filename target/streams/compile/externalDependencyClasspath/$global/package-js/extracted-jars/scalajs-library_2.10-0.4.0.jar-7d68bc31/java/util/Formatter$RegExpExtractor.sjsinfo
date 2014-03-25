@@ -1,0 +1,48 @@
+{
+  "name": "java.util.Formatter$RegExpExtractor",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_Formatter$RegExpExtractor",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_Formatter$RegExpExtractor", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "regexp__Lscala_scalajs_js_RegExp": {},
+    "unapply__Lscala_scalajs_js_String__Lscala_Option": {
+      "calledMethods": {
+        "scala_Option$": ["apply__O__Lscala_Option"],
+        "java_util_Formatter$RegExpExtractor": ["regexp__Lscala_scalajs_js_RegExp"]
+      },
+      "accessedModules": ["scala_Option"]
+    },
+    "java$util$Formatter$RegExpExtractor$$$outer__Ljava_util_Formatter": {},
+    "init___Ljava_util_Formatter__Lscala_scalajs_js_RegExp": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "java$util$Formatter$RegExpExtractor$$$outer__": {
+      "calledMethods": {
+        "java_util_Formatter$RegExpExtractor": ["java$util$Formatter$RegExpExtractor$$$outer__Ljava_util_Formatter"]
+      }
+    },
+    "unapply__Lscala_scalajs_js_String__": {
+      "calledMethods": {
+        "java_util_Formatter$RegExpExtractor": ["unapply__Lscala_scalajs_js_String__Lscala_Option"]
+      }
+    },
+    "regexp__": {
+      "calledMethods": {
+        "java_util_Formatter$RegExpExtractor": ["regexp__Lscala_scalajs_js_RegExp"]
+      }
+    }
+  }
+}

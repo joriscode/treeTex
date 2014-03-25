@@ -1,0 +1,107 @@
+{
+  "name": "scala.collection.IterableLike",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": true,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_IterableLike",
+  "superClass": "",
+  "ancestors": ["scala_collection_IterableLike", "scala_collection_GenIterableLike", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "thisCollection__Lscala_collection_Iterable": {
+      "isAbstract": true
+    },
+    "toCollection__O__Lscala_collection_Iterable": {
+      "isAbstract": true
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "foreach__Lscala_Function1__V": {
+      "isAbstract": true
+    },
+    "forall__Lscala_Function1__Z": {
+      "isAbstract": true
+    },
+    "exists__Lscala_Function1__Z": {
+      "isAbstract": true
+    },
+    "find__Lscala_Function1__Lscala_Option": {
+      "isAbstract": true
+    },
+    "isEmpty__Z": {
+      "isAbstract": true
+    },
+    "foldRight__O__Lscala_Function2__O": {
+      "isAbstract": true
+    },
+    "reduceRight__Lscala_Function2__O": {
+      "isAbstract": true
+    },
+    "toIterable__Lscala_collection_Iterable": {
+      "isAbstract": true
+    },
+    "toIterator__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "head__O": {
+      "isAbstract": true
+    },
+    "slice__I__I__O": {
+      "isAbstract": true
+    },
+    "take__I__O": {
+      "isAbstract": true
+    },
+    "drop__I__O": {
+      "isAbstract": true
+    },
+    "takeWhile__Lscala_Function1__O": {
+      "isAbstract": true
+    },
+    "grouped__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "sliding__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "sliding__I__I__Lscala_collection_Iterator": {
+      "isAbstract": true
+    },
+    "takeRight__I__O": {
+      "isAbstract": true
+    },
+    "dropRight__I__O": {
+      "isAbstract": true
+    },
+    "copyToArray__O__I__I__V": {
+      "isAbstract": true
+    },
+    "zip__Lscala_collection_GenIterable__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "zipAll__Lscala_collection_GenIterable__O__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "zipWithIndex__Lscala_collection_generic_CanBuildFrom__O": {
+      "isAbstract": true
+    },
+    "sameElements__Lscala_collection_GenIterable__Z": {
+      "isAbstract": true
+    },
+    "toStream__Lscala_collection_immutable_Stream": {
+      "isAbstract": true
+    },
+    "canEqual__O__Z": {
+      "isAbstract": true
+    },
+    "view__Lscala_collection_IterableView": {
+      "isAbstract": true
+    },
+    "view__I__I__Lscala_collection_IterableView": {
+      "isAbstract": true
+    }
+  }
+}

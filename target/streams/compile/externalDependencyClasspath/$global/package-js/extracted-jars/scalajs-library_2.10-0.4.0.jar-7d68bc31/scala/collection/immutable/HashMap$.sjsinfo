@@ -1,0 +1,177 @@
+{
+  "name": "scala.collection.immutable.HashMap$",
+  "ancestorCount": 4,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_HashMap$",
+  "superClass": "scala_collection_generic_ImmutableMapFactory",
+  "ancestors": ["scala_collection_immutable_HashMap$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_BitOperations$Int", "scala_collection_generic_ImmutableMapFactory", "scala_collection_generic_MapFactory", "scala_collection_generic_GenMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "zero__I__I__Z": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__zero__Lscala_collection_generic_BitOperations$Int__I__I__Z"]
+      }
+    },
+    "mask__I__I__I": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__mask__Lscala_collection_generic_BitOperations$Int__I__I__I"]
+      }
+    },
+    "hasMatch__I__I__I__Z": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__hasMatch__Lscala_collection_generic_BitOperations$Int__I__I__I__Z"]
+      }
+    },
+    "unsignedCompare__I__I__Z": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__unsignedCompare__Lscala_collection_generic_BitOperations$Int__I__I__Z"]
+      }
+    },
+    "shorter__I__I__Z": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__shorter__Lscala_collection_generic_BitOperations$Int__I__I__Z"]
+      }
+    },
+    "complement__I__I": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__complement__Lscala_collection_generic_BitOperations$Int__I__I"]
+      }
+    },
+    "bits__I__Lscala_collection_immutable_IndexedSeq": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__bits__Lscala_collection_generic_BitOperations$Int__I__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "bitString__I__T__T": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__bitString__Lscala_collection_generic_BitOperations$Int__I__T__T"]
+      }
+    },
+    "highestOneBit__I__I": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__highestOneBit__Lscala_collection_generic_BitOperations$Int__I__I"]
+      }
+    },
+    "bitString$default$2__T": {
+      "calledMethods": {
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__bitString$default$2__Lscala_collection_generic_BitOperations$Int__T"]
+      }
+    },
+    "scala$collection$immutable$HashMap$$liftMerger__Lscala_Function2__Lscala_collection_immutable_HashMap$Merger": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["liftMerger0__p4__Lscala_Function2__Lscala_collection_immutable_HashMap$Merger"]
+      }
+    },
+    "liftMerger0__p4__Lscala_Function2__Lscala_collection_immutable_HashMap$Merger": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$$anon$2": ["init___Lscala_Function2"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_HashMap$$anon$2"]
+    },
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["init___Lscala_collection_generic_GenMapFactory"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_GenMapFactory$MapCanBuildFrom"]
+    },
+    "empty__Lscala_collection_immutable_HashMap": {
+      "accessedModules": ["scala_collection_immutable_HashMap$EmptyHashMap"]
+    },
+    "scala$collection$immutable$HashMap$$makeHashTrieMap__I__Lscala_collection_immutable_HashMap__I__Lscala_collection_immutable_HashMap__I__I__Lscala_collection_immutable_HashMap$HashTrieMap": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["scala$collection$immutable$HashMap$$makeHashTrieMap__I__Lscala_collection_immutable_HashMap__I__Lscala_collection_immutable_HashMap__I__I__Lscala_collection_immutable_HashMap$HashTrieMap"],
+        "scala_collection_immutable_HashMap$HashTrieMap": ["init___I__ALscala_collection_immutable_HashMap__I"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_HashMap$HashTrieMap"],
+      "accessedClassData": ["scala_collection_immutable_HashMap"]
+    },
+    "readResolve__p4__O": {
+      "accessedModules": ["scala_collection_immutable_HashMap"]
+    },
+    "empty__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["empty__Lscala_collection_immutable_HashMap"]
+      }
+    },
+    "empty__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["empty__Lscala_collection_immutable_HashMap"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["liftMerger0__p4__Lscala_Function2__Lscala_collection_immutable_HashMap$Merger"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_collection_generic_BitOperations$Int$class": ["scala_collection_generic_BitOperations$Int$class__$init$__Lscala_collection_generic_BitOperations$Int__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_generic_ImmutableMapFactory": ["init___"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"]
+    },
+    "highestOneBit__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["highestOneBit__I__I"]
+      }
+    },
+    "bitString__I__T__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["bitString__I__T__T"]
+      }
+    },
+    "bits__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["bits__I__Lscala_collection_immutable_IndexedSeq"]
+      }
+    },
+    "complement__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["complement__I__I"]
+      }
+    },
+    "shorter__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["shorter__I__I__Z"]
+      }
+    },
+    "unsignedCompare__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["unsignedCompare__I__I__Z"]
+      }
+    },
+    "hasMatch__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["hasMatch__I__I__I__Z"]
+      }
+    },
+    "mask__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["mask__I__I__I"]
+      }
+    },
+    "zero__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["zero__I__I__Z"]
+      }
+    },
+    "scala$collection$immutable$HashMap$$makeHashTrieMap__I__Lscala_collection_immutable_HashMap__I__Lscala_collection_immutable_HashMap__I__I__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["scala$collection$immutable$HashMap$$makeHashTrieMap__I__Lscala_collection_immutable_HashMap__I__Lscala_collection_immutable_HashMap__I__I__Lscala_collection_immutable_HashMap$HashTrieMap"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "scala$collection$immutable$HashMap$$liftMerger__Lscala_Function2__": {
+      "calledMethods": {
+        "scala_collection_immutable_HashMap$": ["scala$collection$immutable$HashMap$$liftMerger__Lscala_Function2__Lscala_collection_immutable_HashMap$Merger"]
+      }
+    }
+  }
+}

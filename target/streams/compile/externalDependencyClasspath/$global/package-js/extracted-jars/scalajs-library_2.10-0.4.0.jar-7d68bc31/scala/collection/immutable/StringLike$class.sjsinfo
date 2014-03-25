@@ -1,0 +1,279 @@
+{
+  "name": "scala.collection.immutable.StringLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_StringLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_immutable_StringLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_immutable_StringLike$class__apply__Lscala_collection_immutable_StringLike__I__C": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__length__Lscala_collection_immutable_StringLike__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__mkString__Lscala_collection_immutable_StringLike__T": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__slice__Lscala_collection_immutable_StringLike__I__I__O": {
+      "calledMethods": {
+        "scala_Predef$": ["augmentString__T__T", "intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["min$extension__I__I__I", "max$extension__I__I__I"],
+        "scala_collection_immutable_StringOps": ["init___T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T"],
+        "scala_collection_immutable_StringLike": ["toString__T", "newBuilder__Lscala_collection_mutable_Builder", "length__I"],
+        "scala_collection_mutable_Builder": ["result__O", "$$plus$plus$eq__Lscala_collection_TraversableOnce__Lscala_collection_generic_Growable"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringOps"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"],
+      "accessedClassData": ["scala_collection_mutable_Builder"]
+    },
+    "scala_collection_immutable_StringLike$class__$times__Lscala_collection_immutable_StringLike__I__T": {
+      "calledMethods": {
+        "scala_Predef$": ["intWrapper__I__I"],
+        "scala_runtime_RichInt$": ["until$extension0__I__I__Lscala_collection_immutable_Range"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_StringBuilder": ["init___", "toString__T", "append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_immutable_StringLike": ["toString__T"],
+        "scala_collection_immutable_Range": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_StringBuilder", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_runtime_RichInt", "scala_Predef"]
+    },
+    "scala_collection_immutable_StringLike$class__compare__Lscala_collection_immutable_StringLike__T__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__compareTo__Lscala_scalajs_runtime_RuntimeString__T__I"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$isLineBreak__Lscala_collection_immutable_StringLike__C__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike$": ["scala$collection$immutable$StringLike$$LF__C", "scala$collection$immutable$StringLike$$FF__C"]
+      },
+      "accessedModules": ["scala_collection_immutable_StringLike"]
+    },
+    "scala_collection_immutable_StringLike$class__stripLineEnd__Lscala_collection_immutable_StringLike__T": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike$class": ["scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$isLineBreak__Lscala_collection_immutable_StringLike__C__Z"],
+        "scala_collection_immutable_StringLike$": ["scala$collection$immutable$StringLike$$CR__C", "scala$collection$immutable$StringLike$$LF__C"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_collection_immutable_StringLike": ["toString__T", "apply__I__C"]
+      },
+      "accessedModules": ["scala_collection_immutable_StringLike"]
+    },
+    "scala_collection_immutable_StringLike$class__linesWithSeparators__Lscala_collection_immutable_StringLike__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike$$anon$1": ["init___Lscala_collection_immutable_StringLike"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_StringLike$$anon$1"]
+    },
+    "scala_collection_immutable_StringLike$class__lines__Lscala_collection_immutable_StringLike__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["map__Lscala_Function1__Lscala_collection_Iterator"],
+        "scala_collection_immutable_WrappedString": ["stripLineEnd__T", "init___T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_StringLike": ["linesWithSeparators__Lscala_collection_Iterator"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_WrappedString", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_immutable_StringLike$class__linesIterator__Lscala_collection_immutable_StringLike__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["map__Lscala_Function1__Lscala_collection_Iterator"],
+        "scala_collection_immutable_WrappedString": ["stripLineEnd__T", "init___T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_immutable_StringLike": ["linesWithSeparators__Lscala_collection_Iterator"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_WrappedString", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_immutable_StringLike$class__capitalize__Lscala_collection_immutable_StringLike__T": {
+      "calledMethods": {
+        "scala_Predef$": ["charWrapper__C__C"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__toCharArray__Lscala_scalajs_runtime_RuntimeString__AC", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_scalajs_runtime_RuntimeString$": ["newString__AC__Lscala_scalajs_js_String"],
+        "scala_collection_immutable_StringLike": ["toString__T"],
+        "scala_runtime_RichChar$": ["toUpper$extension__C__C"]
+      },
+      "accessedModules": ["scala_Predef", "scala_runtime_RichChar", "scala_scalajs_runtime_RuntimeString"]
+    },
+    "scala_collection_immutable_StringLike$class__stripPrefix__Lscala_collection_immutable_StringLike__T__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__T", "scala_scalajs_runtime_RuntimeString$class__startsWith__Lscala_scalajs_runtime_RuntimeString__T__Z", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__stripSuffix__Lscala_collection_immutable_StringLike__T__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I", "scala_scalajs_runtime_RuntimeString$class__endsWith__Lscala_scalajs_runtime_RuntimeString__T__Z"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__replaceAllLiterally__Lscala_collection_immutable_StringLike__T__T__T": {
+      "calledMethods": {
+        "java_util_regex_Matcher$": ["quoteReplacement__T__T"],
+        "java_util_regex_Pattern$": ["quote__T__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__replaceAll__Lscala_scalajs_runtime_RuntimeString__T__T__T"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "accessedModules": ["java_util_regex_Pattern", "java_util_regex_Matcher"]
+    },
+    "scala_collection_immutable_StringLike$class__stripMargin__Lscala_collection_immutable_StringLike__C__T": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["foreach__Lscala_Function1__V"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C", "scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__T", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_StringBuilder": ["init___", "toString__T", "append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_collection_immutable_StringLike": ["linesWithSeparators__Lscala_collection_Iterator"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_StringBuilder", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala_collection_immutable_StringLike$class__stripMargin__Lscala_collection_immutable_StringLike__T": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike": ["stripMargin__C__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$escape__Lscala_collection_immutable_StringLike__C__T": {},
+    "scala_collection_immutable_StringLike$class__split__Lscala_collection_immutable_StringLike__C__AT": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike$class": ["scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$escape__Lscala_collection_immutable_StringLike__C__T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__split__Lscala_scalajs_runtime_RuntimeString__T__AT"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__split__Lscala_collection_immutable_StringLike__AC__AT": {
+      "calledMethods": {
+        "scala_Predef$": ["charArrayOps__AC__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["foldLeft__O__Lscala_Function2__O"],
+        "scala_collection_immutable_StringLike$class": ["scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$escape__Lscala_collection_immutable_StringLike__C__T"],
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__split__Lscala_scalajs_runtime_RuntimeString__T__AT"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedModules": ["scala_Predef"],
+      "accessedClassData": ["java_lang_String"]
+    },
+    "scala_collection_immutable_StringLike$class__r__Lscala_collection_immutable_StringLike__Lscala_util_matching_Regex": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike": ["r__Lscala_collection_Seq__Lscala_util_matching_Regex"]
+      },
+      "accessedModules": ["scala_collection_immutable_Nil"]
+    },
+    "scala_collection_immutable_StringLike$class__r__Lscala_collection_immutable_StringLike__Lscala_collection_Seq__Lscala_util_matching_Regex": {
+      "calledMethods": {
+        "scala_util_matching_Regex": ["init___T__Lscala_collection_Seq"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "instantiatedClasses": ["scala_util_matching_Regex"]
+    },
+    "scala_collection_immutable_StringLike$class__toBoolean__Lscala_collection_immutable_StringLike__Z": {
+      "calledMethods": {
+        "scala_collection_immutable_StringLike$class": ["scala_collection_immutable_StringLike$class__parseBoolean__Lscala_collection_immutable_StringLike__T__Z"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__toByte__Lscala_collection_immutable_StringLike__B": {
+      "calledMethods": {
+        "java_lang_Byte$": ["parseByte__T__B"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "accessedModules": ["java_lang_Byte"]
+    },
+    "scala_collection_immutable_StringLike$class__toShort__Lscala_collection_immutable_StringLike__S": {
+      "calledMethods": {
+        "java_lang_Short$": ["parseShort__T__S"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "accessedModules": ["java_lang_Short"]
+    },
+    "scala_collection_immutable_StringLike$class__toInt__Lscala_collection_immutable_StringLike__I": {
+      "calledMethods": {
+        "java_lang_Integer$": ["parseInt__T__I"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "accessedModules": ["java_lang_Integer"]
+    },
+    "scala_collection_immutable_StringLike$class__toLong__Lscala_collection_immutable_StringLike__J": {
+      "calledMethods": {
+        "java_lang_Long$": ["parseLong__T__J"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "accessedModules": ["java_lang_Long"]
+    },
+    "scala_collection_immutable_StringLike$class__toFloat__Lscala_collection_immutable_StringLike__F": {
+      "calledMethods": {
+        "java_lang_Float$": ["parseFloat__T__F"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "accessedModules": ["java_lang_Float"]
+    },
+    "scala_collection_immutable_StringLike$class__toDouble__Lscala_collection_immutable_StringLike__D": {
+      "calledMethods": {
+        "java_lang_Double$": ["parseDouble__T__D"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      },
+      "accessedModules": ["java_lang_Double"]
+    },
+    "scala_collection_immutable_StringLike$class__parseBoolean__Lscala_collection_immutable_StringLike__T__Z": {
+      "calledMethods": {
+        "java_lang_IllegalArgumentException": ["init___T"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__toLowerCase__Lscala_scalajs_runtime_RuntimeString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IllegalArgumentException"]
+    },
+    "scala_collection_immutable_StringLike$class__toArray__Lscala_collection_immutable_StringLike__Lscala_reflect_ClassTag__O": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__toCharArray__Lscala_scalajs_runtime_RuntimeString__AC"],
+        "scala_collection_immutable_StringLike": ["toString__T"]
+      }
+    },
+    "scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$unwrapArg__Lscala_collection_immutable_StringLike__O__O": {
+      "calledMethods": {
+        "scala_math_ScalaNumber": ["underlying__O"]
+      },
+      "accessedClassData": ["scala_math_ScalaNumber"]
+    },
+    "scala_collection_immutable_StringLike$class__format__Lscala_collection_immutable_StringLike__Lscala_collection_Seq__T": {
+      "calledMethods": {
+        "scala_collection_Seq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_StringLike$class": ["scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$unwrapArg__Lscala_collection_immutable_StringLike__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_RuntimeString$": ["format__T__AO__T"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_StringLike": ["toString__T"],
+        "scala_reflect_ClassTag$": ["AnyRef__Lscala_reflect_ClassTag"],
+        "scala_collection_TraversableOnce": ["toArray__Lscala_reflect_ClassTag__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_collection_Seq", "scala_scalajs_runtime_RuntimeString"],
+      "accessedClassData": ["java_lang_Object", "scala_collection_TraversableOnce"]
+    },
+    "scala_collection_immutable_StringLike$class__formatLocal__Lscala_collection_immutable_StringLike__Ljava_util_Locale__Lscala_collection_Seq__T": {
+      "calledMethods": {
+        "scala_collection_Seq": ["map__Lscala_Function1__Lscala_collection_generic_CanBuildFrom__O"],
+        "scala_collection_immutable_StringLike$class": ["scala_collection_immutable_StringLike$class__scala$collection$immutable$StringLike$$unwrapArg__Lscala_collection_immutable_StringLike__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_scalajs_runtime_RuntimeString$": ["format__Ljava_util_Locale__T__AO__T"],
+        "scala_collection_Seq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"],
+        "scala_collection_immutable_StringLike": ["toString__T"],
+        "scala_reflect_ClassTag$": ["AnyRef__Lscala_reflect_ClassTag"],
+        "scala_collection_TraversableOnce": ["toArray__Lscala_reflect_ClassTag__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_collection_Seq", "scala_scalajs_runtime_RuntimeString"],
+      "accessedClassData": ["java_lang_Object", "scala_collection_TraversableOnce"]
+    },
+    "scala_collection_immutable_StringLike$class__$init$__Lscala_collection_immutable_StringLike__V": {}
+  }
+}

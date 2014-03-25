@@ -1,0 +1,32 @@
+{
+  "name": "scala.concurrent.Future$$anonfun$zip$1$$anonfun$apply$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Future$$anonfun$zip$1$$anonfun$apply$1",
+  "superClass": "scala_runtime_AbstractPartialFunction",
+  "ancestors": ["scala_concurrent_Future$$anonfun$zip$1$$anonfun$apply$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractPartialFunction", "scala_PartialFunction", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "applyOrElse__O__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_Tuple2": ["init___O__O"],
+        "scala_concurrent_Promise": ["success__O__Lscala_concurrent_Promise"]
+      },
+      "instantiatedClasses": ["scala_Tuple2"]
+    },
+    "isDefinedAt__O__Z": {},
+    "init___Lscala_concurrent_Future$$anonfun$zip$1__O": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractPartialFunction": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

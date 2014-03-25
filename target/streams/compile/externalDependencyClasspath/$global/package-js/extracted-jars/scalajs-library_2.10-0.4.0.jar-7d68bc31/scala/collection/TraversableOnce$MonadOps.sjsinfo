@@ -1,0 +1,63 @@
+{
+  "name": "scala.collection.TraversableOnce$MonadOps",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableOnce$MonadOps",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_TraversableOnce$MonadOps", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "map__Lscala_Function1__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["map__Lscala_Function1__Lscala_collection_Iterator"],
+        "scala_collection_TraversableOnce": ["toIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "flatMap__Lscala_Function1__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["flatMap__Lscala_Function1__Lscala_collection_Iterator"],
+        "scala_collection_TraversableOnce": ["toIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "withFilter__Lscala_Function1__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["filter__Lscala_Function1__Lscala_collection_Iterator"],
+        "scala_collection_TraversableOnce": ["toIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "filter__Lscala_Function1__Lscala_collection_TraversableOnce": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$MonadOps": ["withFilter__Lscala_Function1__Lscala_collection_Iterator"]
+      }
+    },
+    "init___Lscala_collection_TraversableOnce": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "filter__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$MonadOps": ["filter__Lscala_Function1__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "withFilter__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$MonadOps": ["withFilter__Lscala_Function1__Lscala_collection_Iterator"]
+      }
+    },
+    "flatMap__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$MonadOps": ["flatMap__Lscala_Function1__Lscala_collection_TraversableOnce"]
+      }
+    },
+    "map__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_TraversableOnce$MonadOps": ["map__Lscala_Function1__Lscala_collection_TraversableOnce"]
+      }
+    }
+  }
+}

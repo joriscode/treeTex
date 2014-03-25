@@ -1,0 +1,59 @@
+{
+  "name": "scala.concurrent.Future$InternalCallbackExecutor$Batch$$anonfun$run$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_Future$InternalCallbackExecutor$Batch$$anonfun$run$1",
+  "superClass": "scala_runtime_AbstractFunction0$mcV$sp",
+  "ancestors": ["scala_concurrent_Future$InternalCallbackExecutor$Batch$$anonfun$run$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0$mcV$sp", "scala_Function0$mcV$sp", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__V": {
+      "calledMethods": {
+        "scala_concurrent_Future$InternalCallbackExecutor$Batch$$anonfun$run$1": ["apply$mcV$sp__V"]
+      }
+    },
+    "apply$mcV$sp__V": {
+      "calledMethods": {
+        "scala_concurrent_Future$InternalCallbackExecutor$": ["scala$concurrent$Future$InternalCallbackExecutor$$$undtasksLocal__Ljava_lang_ThreadLocal"],
+        "java_lang_ThreadLocal": ["remove__V"],
+        "scala_concurrent_Future$InternalCallbackExecutor$Batch$$anonfun$run$1": ["processBatch$1__p3__Lscala_collection_immutable_List__V"],
+        "scala_concurrent_Future$InternalCallbackExecutor$Batch": ["initial__Lscala_collection_immutable_List"]
+      },
+      "accessedModules": ["scala_concurrent_Future$InternalCallbackExecutor"]
+    },
+    "apply__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_concurrent_Future$InternalCallbackExecutor$Batch$$anonfun$run$1": ["apply__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "processBatch$1__p3__Lscala_collection_immutable_List__V": {
+      "calledMethods": {
+        "scala_collection_immutable_$colon$colon": ["tl$1__Lscala_collection_immutable_List", "hd$1__O"],
+        "java_lang_Runnable": ["run__V"],
+        "scala_concurrent_Future$InternalCallbackExecutor$Batch": ["init___Lscala_collection_immutable_List"],
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_Future$InternalCallbackExecutor$": ["scala$concurrent$Future$InternalCallbackExecutor$$unbatchedExecute__Ljava_lang_Runnable__V", "scala$concurrent$Future$InternalCallbackExecutor$$$undtasksLocal__Ljava_lang_ThreadLocal"],
+        "java_lang_ThreadLocal": ["set__O__V", "get__O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_concurrent_Future$InternalCallbackExecutor$Batch"],
+      "accessedModules": ["scala_concurrent_Future$InternalCallbackExecutor", "scala_collection_immutable_Nil", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_immutable_$colon$colon", "scala_collection_immutable_List", "java_lang_Runnable"]
+    },
+    "init___Lscala_concurrent_Future$InternalCallbackExecutor$Batch__Lscala_concurrent_BlockContext": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction0$mcV$sp": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

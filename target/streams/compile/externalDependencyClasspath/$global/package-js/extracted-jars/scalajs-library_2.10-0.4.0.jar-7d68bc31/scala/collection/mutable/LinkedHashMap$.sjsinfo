@@ -1,0 +1,50 @@
+{
+  "name": "scala.collection.mutable.LinkedHashMap$",
+  "ancestorCount": 4,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_LinkedHashMap$",
+  "superClass": "scala_collection_generic_MutableMapFactory",
+  "ancestors": ["scala_collection_mutable_LinkedHashMap$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_MutableMapFactory", "scala_collection_generic_MapFactory", "scala_collection_generic_GenMapFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_GenMapFactory$MapCanBuildFrom": ["init___Lscala_collection_generic_GenMapFactory"]
+      },
+      "instantiatedClasses": ["scala_collection_generic_GenMapFactory$MapCanBuildFrom"]
+    },
+    "empty__Lscala_collection_mutable_LinkedHashMap": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedHashMap": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_LinkedHashMap"]
+    },
+    "readResolve__p4__O": {
+      "accessedModules": ["scala_collection_mutable_LinkedHashMap"]
+    },
+    "empty__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedHashMap$": ["empty__Lscala_collection_mutable_LinkedHashMap"]
+      }
+    },
+    "empty__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedHashMap$": ["empty__Lscala_collection_mutable_LinkedHashMap"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_MutableMapFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_mutable_LinkedHashMap$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

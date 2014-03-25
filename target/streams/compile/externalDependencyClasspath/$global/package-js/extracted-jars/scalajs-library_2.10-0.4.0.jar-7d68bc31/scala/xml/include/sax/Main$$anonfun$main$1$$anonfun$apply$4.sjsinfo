@@ -1,0 +1,38 @@
+{
+  "name": "scala.xml.include.sax.Main$$anonfun$main$1$$anonfun$apply$4",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$4",
+  "superClass": "scala_runtime_AbstractFunction1",
+  "ancestors": ["scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$4", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction1", "scala_Function1", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lorg_xml_sax_EntityResolver__V": {
+      "calledMethods": {
+        "scala_xml_include_sax_XIncludeFilter": ["setEntityResolver__Lorg_xml_sax_EntityResolver__V"]
+      }
+    },
+    "apply__O__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$4": ["apply__Lorg_xml_sax_EntityResolver__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["org_xml_sax_EntityResolver"]
+    },
+    "init___Lscala_xml_include_sax_Main$$anonfun$main$1__Lscala_xml_include_sax_XIncludeFilter": {
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction1": ["init___"]
+      }
+    },
+    "apply__Lorg_xml_sax_EntityResolver__": {
+      "calledMethods": {
+        "scala_xml_include_sax_Main$$anonfun$main$1$$anonfun$apply$4": ["apply__Lorg_xml_sax_EntityResolver__V"]
+      }
+    }
+  }
+}

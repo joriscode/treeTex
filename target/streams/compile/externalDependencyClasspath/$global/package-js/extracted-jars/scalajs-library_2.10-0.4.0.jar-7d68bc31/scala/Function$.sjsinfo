@@ -1,0 +1,180 @@
+{
+  "name": "scala.Function$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_Function$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_Function$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "chain__Lscala_collection_Seq__Lscala_Function1": {
+      "calledMethods": {
+        "scala_Function$$anonfun$chain$1$$anonfun$apply$1": ["init___Lscala_Function$$anonfun$chain$1"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_Seq": ["$$div$colon__O__Lscala_Function2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_Function$$anonfun$chain$1$$anonfun$apply$1"]
+    },
+    "$const__O__O__O": {},
+    "unlift__Lscala_Function1__Lscala_PartialFunction": {
+      "calledMethods": {
+        "scala_PartialFunction$": ["unlifted__Lscala_Function1__Lscala_PartialFunction"]
+      },
+      "accessedModules": ["scala_PartialFunction"]
+    },
+    "uncurried__Lscala_Function1__Lscala_Function2": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_Function1": ["apply__O__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction2"],
+      "accessedClassData": ["scala_Function1"]
+    },
+    "uncurried__Lscala_Function1__Lscala_Function3": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3"],
+      "accessedClassData": ["scala_Function1"]
+    },
+    "uncurried__Lscala_Function1__Lscala_Function4": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction4": ["init___Lscala_scalajs_js_Function4"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction4"],
+      "accessedClassData": ["scala_Function1"]
+    },
+    "uncurried__Lscala_Function1__Lscala_Function5": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction5": ["init___Lscala_scalajs_js_Function5"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction5"],
+      "accessedClassData": ["scala_Function1"]
+    },
+    "tupled__Lscala_Function2__Lscala_Function1": {
+      "calledMethods": {
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "tupled__Lscala_Function3__Lscala_Function1": {
+      "calledMethods": {
+        "scala_Tuple3": ["$$und3__O", "$$und1__O", "$$und2__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_Function3": ["apply__O__O__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "tupled__Lscala_Function4__Lscala_Function1": {
+      "calledMethods": {
+        "scala_Tuple4": ["$$und3__O", "$$und4__O", "$$und1__O", "$$und2__O"],
+        "scala_Function4": ["apply__O__O__O__O__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "tupled__Lscala_Function5__Lscala_Function1": {
+      "calledMethods": {
+        "scala_Function5": ["apply__O__O__O__O__O__O"],
+        "scala_MatchError": ["init___O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Tuple5": ["$$und1__O", "$$und4__O", "$$und2__O", "$$und3__O", "$$und5__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError", "scala_scalajs_runtime_AnonFunction1"]
+    },
+    "untupled__Lscala_Function1__Lscala_Function2": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction2": ["init___Lscala_scalajs_js_Function2"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_scalajs_runtime_AnonFunction2"]
+    },
+    "untupled__Lscala_Function1__Lscala_Function3": {
+      "calledMethods": {
+        "scala_Tuple3": ["init___O__O__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction3": ["init___Lscala_scalajs_js_Function3"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction3", "scala_Tuple3"]
+    },
+    "untupled__Lscala_Function1__Lscala_Function4": {
+      "calledMethods": {
+        "scala_Tuple4": ["init___O__O__O__O"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction4": ["init___Lscala_scalajs_js_Function4"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction4", "scala_Tuple4"]
+    },
+    "untupled__Lscala_Function1__Lscala_Function5": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction5": ["init___Lscala_scalajs_js_Function5"],
+        "scala_Tuple5": ["init___O__O__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple5", "scala_scalajs_runtime_AnonFunction5"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "untupled__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Function$": ["untupled__Lscala_Function1__Lscala_Function5"]
+      }
+    },
+    "tupled__Lscala_Function5__": {
+      "calledMethods": {
+        "scala_Function$": ["tupled__Lscala_Function5__Lscala_Function1"]
+      }
+    },
+    "tupled__Lscala_Function4__": {
+      "calledMethods": {
+        "scala_Function$": ["tupled__Lscala_Function4__Lscala_Function1"]
+      }
+    },
+    "tupled__Lscala_Function3__": {
+      "calledMethods": {
+        "scala_Function$": ["tupled__Lscala_Function3__Lscala_Function1"]
+      }
+    },
+    "tupled__Lscala_Function2__": {
+      "calledMethods": {
+        "scala_Function$": ["tupled__Lscala_Function2__Lscala_Function1"]
+      }
+    },
+    "uncurried__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Function$": ["uncurried__Lscala_Function1__Lscala_Function5"]
+      }
+    },
+    "unlift__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_Function$": ["unlift__Lscala_Function1__Lscala_PartialFunction"]
+      }
+    },
+    "$const__O__O__": {
+      "calledMethods": {
+        "scala_Function$": ["$const__O__O__O"]
+      }
+    },
+    "chain__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_Function$": ["chain__Lscala_collection_Seq__Lscala_Function1"]
+      }
+    }
+  }
+}

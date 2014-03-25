@@ -1,0 +1,38 @@
+{
+  "name": "scala.xml.TopScope$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_TopScope$",
+  "superClass": "scala_xml_NamespaceBinding",
+  "ancestors": ["scala_xml_TopScope$", "scala_xml_NamespaceBinding", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_xml_Equality", "scala_Equals", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "getURI__T__T": {
+      "calledMethods": {
+        "scala_xml_XML$": ["xml__T", "namespace__T"]
+      },
+      "accessedModules": ["scala_xml_XML"]
+    },
+    "getPrefix__T__T": {
+      "calledMethods": {
+        "scala_xml_XML$": ["xml__T", "namespace__T"]
+      },
+      "accessedModules": ["scala_xml_XML"]
+    },
+    "toString__T": {},
+    "buildString__Lscala_xml_NamespaceBinding__T": {},
+    "buildString__Lscala_collection_mutable_StringBuilder__Lscala_xml_NamespaceBinding__V": {},
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_xml_TopScope"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_xml_NamespaceBinding": ["init___T__T__Lscala_xml_NamespaceBinding"]
+      }
+    }
+  }
+}

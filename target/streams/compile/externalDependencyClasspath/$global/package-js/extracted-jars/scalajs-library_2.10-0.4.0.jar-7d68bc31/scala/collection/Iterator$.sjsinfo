@@ -1,0 +1,148 @@
+{
+  "name": "scala.collection.Iterator$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_Iterator$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_Iterator$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "IteratorCanBuildFrom__Lscala_collection_TraversableOnce$BufferedCanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$25": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$25"]
+    },
+    "empty__Lscala_collection_Iterator": {},
+    "single__O__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$3": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$3"]
+    },
+    "apply__Lscala_collection_Seq__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Seq": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "fill__I__Lscala_Function0__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$4": ["init___I__Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$4"]
+    },
+    "tabulate__I__Lscala_Function1__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$5": ["init___I__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$5"]
+    },
+    "range__I__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["range__I__I__I__Lscala_collection_Iterator"]
+      }
+    },
+    "range__I__I__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$6": ["init___I__I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$6"]
+    },
+    "iterate__O__Lscala_Function1__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$7": ["init___O__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$7"]
+    },
+    "from__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["from__I__I__Lscala_collection_Iterator"]
+      }
+    },
+    "from__I__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$8": ["init___I__I"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$8"]
+    },
+    "continually__Lscala_Function0__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$9": ["init___Lscala_Function0"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$9"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_Iterator$$anon$2": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_Iterator$$anon$2"]
+    },
+    "continually__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["continually__Lscala_Function0__Lscala_collection_Iterator"]
+      }
+    },
+    "from__I__I__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["from__I__I__Lscala_collection_Iterator"]
+      }
+    },
+    "from__I__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["from__I__Lscala_collection_Iterator"]
+      }
+    },
+    "iterate__O__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["iterate__O__Lscala_Function1__Lscala_collection_Iterator"]
+      }
+    },
+    "range__I__I__I__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["range__I__I__I__Lscala_collection_Iterator"]
+      }
+    },
+    "range__I__I__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["range__I__I__Lscala_collection_Iterator"]
+      }
+    },
+    "tabulate__I__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["tabulate__I__Lscala_Function1__Lscala_collection_Iterator"]
+      }
+    },
+    "fill__I__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["fill__I__Lscala_Function0__Lscala_collection_Iterator"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["apply__Lscala_collection_Seq__Lscala_collection_Iterator"]
+      }
+    },
+    "single__O__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["single__O__Lscala_collection_Iterator"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["empty__Lscala_collection_Iterator"]
+      }
+    },
+    "IteratorCanBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_Iterator$": ["IteratorCanBuildFrom__Lscala_collection_TraversableOnce$BufferedCanBuildFrom"]
+      }
+    }
+  }
+}

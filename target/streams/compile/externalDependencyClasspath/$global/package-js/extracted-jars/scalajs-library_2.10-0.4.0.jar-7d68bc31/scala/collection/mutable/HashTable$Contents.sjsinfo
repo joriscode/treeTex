@@ -1,0 +1,71 @@
+{
+  "name": "scala.collection.mutable.HashTable$Contents",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_HashTable$Contents",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_HashTable$Contents", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "loadFactor__I": {},
+    "table__ALscala_collection_mutable_HashEntry": {},
+    "tableSize__I": {},
+    "threshold__I": {},
+    "seedvalue__I": {},
+    "sizemap__AI": {},
+    "debugInformation__T": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$Contents": ["threshold__I", "loadFactor__I", "sizemap__AI", "seedvalue__I", "table__ALscala_collection_mutable_HashEntry", "tableSize__I"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_DebugUtils$": ["arrayString__O__I__I__T", "buildString__Lscala_Function1__T"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_DebugUtils"]
+    },
+    "init___I__ALscala_collection_mutable_HashEntry__I__I__I__AI": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "debugInformation__": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$Contents": ["debugInformation__T"]
+      }
+    },
+    "sizemap__": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$Contents": ["sizemap__AI"]
+      }
+    },
+    "seedvalue__": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$Contents": ["seedvalue__I"]
+      }
+    },
+    "threshold__": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$Contents": ["threshold__I"]
+      }
+    },
+    "tableSize__": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$Contents": ["tableSize__I"]
+      }
+    },
+    "table__": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$Contents": ["table__ALscala_collection_mutable_HashEntry"]
+      }
+    },
+    "loadFactor__": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$Contents": ["loadFactor__I"]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "scala.collection.concurrent.CNode$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_CNode$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_concurrent_CNode$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "dual__Lscala_collection_concurrent_SNode__I__Lscala_collection_concurrent_SNode__I__I__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_MainNode": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_collection_concurrent_CNode$": ["dual__Lscala_collection_concurrent_SNode__I__Lscala_collection_concurrent_SNode__I__I__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_MainNode"],
+        "scala_Array$": ["apply__Lscala_collection_Seq__Lscala_reflect_ClassTag__O"],
+        "scala_collection_concurrent_CNode": ["init___I__ALscala_collection_concurrent_BasicNode__Lscala_collection_concurrent_Gen"],
+        "scala_collection_concurrent_INode": ["init___Lscala_collection_concurrent_Gen"],
+        "scala_collection_concurrent_LNode": ["init___O__O__O__O"],
+        "scala_collection_concurrent_SNode": ["v__O", "k__O"],
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_collection_concurrent_CNode", "scala_collection_concurrent_INode", "scala_collection_concurrent_LNode"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object", "scala_collection_concurrent_BasicNode"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "dual__Lscala_collection_concurrent_SNode__I__Lscala_collection_concurrent_SNode__I__I__Lscala_collection_concurrent_Gen__": {
+      "calledMethods": {
+        "scala_collection_concurrent_CNode$": ["dual__Lscala_collection_concurrent_SNode__I__Lscala_collection_concurrent_SNode__I__I__Lscala_collection_concurrent_Gen__Lscala_collection_concurrent_MainNode"]
+      }
+    }
+  }
+}

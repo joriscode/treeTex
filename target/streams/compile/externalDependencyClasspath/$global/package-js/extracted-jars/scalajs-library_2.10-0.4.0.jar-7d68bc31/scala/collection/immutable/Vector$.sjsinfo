@@ -1,0 +1,73 @@
+{
+  "name": "scala.collection.immutable.Vector$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Vector$",
+  "superClass": "scala_collection_generic_SeqFactory",
+  "ancestors": ["scala_collection_immutable_Vector$", "scala_Serializable", "java_io_Serializable", "scala_collection_generic_SeqFactory", "scala_collection_generic_TraversableFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenSeqFactory", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ReusableCBF$lzycompute__p5__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_IndexedSeq$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit", "scala_collection_IndexedSeq"]
+    },
+    "VectorReusableCBF__p5__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": {},
+    "ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["ReusableCBF$lzycompute__p5__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_VectorBuilder": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_VectorBuilder"]
+    },
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "NIL__Lscala_collection_immutable_Vector": {},
+    "empty__Lscala_collection_immutable_Vector": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["NIL__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "readResolve__p5__O": {
+      "accessedModules": ["scala_collection_immutable_Vector"]
+    },
+    "empty__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["empty__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$VectorReusableCBF": ["init___"],
+        "scala_collection_immutable_Vector": ["init___I__I__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_generic_SeqFactory": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_immutable_Vector", "scala_collection_immutable_Vector$VectorReusableCBF"]
+    },
+    "NIL__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["NIL__Lscala_collection_immutable_Vector"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_immutable_Vector$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "scala.runtime.EmptyMethodCache",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_EmptyMethodCache",
+  "superClass": "scala_runtime_MethodCache",
+  "ancestors": ["scala_runtime_EmptyMethodCache", "scala_runtime_MethodCache", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "find__Ljava_lang_Class__Ljava_lang_reflect_Method": {},
+    "add__Ljava_lang_Class__Ljava_lang_reflect_Method__Lscala_runtime_MethodCache": {
+      "calledMethods": {
+        "scala_runtime_PolyMethodCache": ["init___Lscala_runtime_MethodCache__Ljava_lang_Class__Ljava_lang_reflect_Method__I"]
+      },
+      "instantiatedClasses": ["scala_runtime_PolyMethodCache"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_runtime_MethodCache": ["init___"]
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "name": "scala.sys.process.ProcessImpl$CompoundProcess",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$CompoundProcess",
+  "superClass": "scala_sys_process_ProcessImpl$BasicProcess",
+  "ancestors": ["scala_sys_process_ProcessImpl$CompoundProcess", "scala_sys_process_ProcessImpl$BasicProcess", "scala_sys_process_Process", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "x$4$lzycompute__p2__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_sys_process_Process$": ["Spawn__Lscala_sys_process_ProcessImpl$Spawn$", "Future__Lscala_sys_process_ProcessImpl$Future$"],
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_SyncVar": ["init___", "set__O__V", "get__O"],
+        "scala_sys_process_ProcessImpl$Future$": ["apply__Lscala_Function0__Lscala_Function0"],
+        "scala_Tuple2": ["init___O__O", "$$und2__O", "$$und1__O"],
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["runAndExitValue__Lscala_Option", "scala$sys$process$ProcessImpl$CompoundProcess$$$outer__Lscala_sys_process_Process$"],
+        "java_lang_Thread": ["join__V", "interrupt__V"],
+        "scala_sys_process_ProcessImpl$Spawn$": ["apply__Lscala_Function0__Ljava_lang_Thread"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError", "scala_concurrent_SyncVar", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_None", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_Function0", "scala_Option"]
+    },
+    "getExitValue$lzycompute__p2__Lscala_Function0": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["x$4__p2__Lscala_Tuple2"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_Tuple2": ["$$und1__O"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_Function0"]
+    },
+    "destroyer$lzycompute__p2__Lscala_Function0": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["x$4__p2__Lscala_Tuple2"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_Tuple2": ["$$und2__O"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_Function0"]
+    },
+    "destroy__V": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["destroyer__Lscala_Function0"],
+        "scala_Function0": ["apply$mcV$sp__V"]
+      }
+    },
+    "exitValue__I": {
+      "calledMethods": {
+        "scala_Option": ["getOrElse__Lscala_Function0__O"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["getExitValue__Lscala_Function0"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_sys_package"],
+      "accessedClassData": ["scala_Option"]
+    },
+    "start__V": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["getExitValue__Lscala_Function0"]
+      }
+    },
+    "x$4__p2__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["x$4$lzycompute__p2__Lscala_Tuple2"]
+      }
+    },
+    "getExitValue__Lscala_Function0": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["getExitValue$lzycompute__p2__Lscala_Function0"]
+      }
+    },
+    "destroyer__Lscala_Function0": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["destroyer$lzycompute__p2__Lscala_Function0"]
+      }
+    },
+    "runAndExitValue__Lscala_Option": {
+      "isAbstract": true
+    },
+    "runInterruptible__Lscala_Function0__Lscala_Function0__Lscala_Option": {
+      "calledMethods": {
+        "scala_sys_process_processInternal$": ["onInterrupt__Lscala_Function0__Lscala_PartialFunction"],
+        "scala_PartialFunction": ["isDefinedAt__O__Z", "apply__O__O"],
+        "scala_Some": ["init___O"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_Function0": ["apply__O", "apply$mcV$sp__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0", "scala_Some"],
+      "accessedModules": ["scala_None", "scala_sys_process_processInternal"],
+      "accessedClassData": ["scala_Option"]
+    },
+    "scala$sys$process$ProcessImpl$CompoundProcess$$$outer__Lscala_sys_process_Process$": {},
+    "init___Lscala_sys_process_Process$": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$BasicProcess": ["init___Lscala_sys_process_Process$"]
+      }
+    },
+    "scala$sys$process$ProcessImpl$CompoundProcess$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["scala$sys$process$ProcessImpl$CompoundProcess$$$outer__Lscala_sys_process_Process$"]
+      }
+    },
+    "runInterruptible__Lscala_Function0__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["runInterruptible__Lscala_Function0__Lscala_Function0__Lscala_Option"]
+      }
+    },
+    "destroyer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["destroyer__Lscala_Function0"]
+      }
+    },
+    "getExitValue__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["getExitValue__Lscala_Function0"]
+      }
+    },
+    "runAndExitValue__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$CompoundProcess": ["runAndExitValue__Lscala_Option"]
+      }
+    }
+  }
+}

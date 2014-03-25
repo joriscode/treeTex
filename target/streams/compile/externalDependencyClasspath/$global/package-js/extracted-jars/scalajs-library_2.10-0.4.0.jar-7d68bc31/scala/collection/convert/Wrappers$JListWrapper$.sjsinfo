@@ -1,0 +1,54 @@
+{
+  "name": "scala.collection.convert.Wrappers$JListWrapper$",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_convert_Wrappers$JListWrapper$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_convert_Wrappers$JListWrapper$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__Ljava_util_List__Lscala_collection_convert_Wrappers$JListWrapper": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JListWrapper": ["init___Lscala_collection_convert_Wrappers__Ljava_util_List"]
+      },
+      "instantiatedClasses": ["scala_collection_convert_Wrappers$JListWrapper"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$JListWrapper__Lscala_Option": {
+      "calledMethods": {
+        "scala_Some": ["init___O"],
+        "scala_collection_convert_Wrappers$JListWrapper": ["underlying__Ljava_util_List"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p1__O": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers": ["JListWrapper__Lscala_collection_convert_Wrappers$JListWrapper$"]
+      }
+    },
+    "init___Lscala_collection_convert_Wrappers": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_collection_convert_Wrappers$JListWrapper__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JListWrapper$": ["unapply__Lscala_collection_convert_Wrappers$JListWrapper__Lscala_Option"]
+      }
+    },
+    "apply__Ljava_util_List__": {
+      "calledMethods": {
+        "scala_collection_convert_Wrappers$JListWrapper$": ["apply__Ljava_util_List__Lscala_collection_convert_Wrappers$JListWrapper"]
+      }
+    }
+  }
+}

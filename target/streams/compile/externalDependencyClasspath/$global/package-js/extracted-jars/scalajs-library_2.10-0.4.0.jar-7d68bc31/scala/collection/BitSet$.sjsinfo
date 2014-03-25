@@ -1,0 +1,72 @@
+{
+  "name": "scala.collection.BitSet$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_BitSet$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_BitSet$", "scala_collection_generic_BitSetFactory", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_collection_Seq__Lscala_collection_BitSet": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory$class": ["scala_collection_generic_BitSetFactory$class__apply__Lscala_collection_generic_BitSetFactory__Lscala_collection_Seq__Lscala_collection_BitSet"]
+      }
+    },
+    "bitsetCanBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_generic_BitSetFactory$class": ["scala_collection_generic_BitSetFactory$class__bitsetCanBuildFrom__Lscala_collection_generic_BitSetFactory__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "empty__Lscala_collection_BitSet": {},
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_BitSet$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_immutable_BitSet"]
+    },
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_BitSet$": ["bitsetCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_immutable_BitSet$": ["empty__Lscala_collection_immutable_BitSet"],
+        "scala_collection_generic_BitSetFactory$class": ["scala_collection_generic_BitSetFactory$class__$init$__Lscala_collection_generic_BitSetFactory__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_collection_immutable_BitSet"]
+    },
+    "bitsetCanBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_BitSet$": ["bitsetCanBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "apply__Lscala_collection_Seq__": {
+      "calledMethods": {
+        "scala_collection_BitSet$": ["apply__Lscala_collection_Seq__Lscala_collection_BitSet"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_BitSet$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    },
+    "newBuilder__": {
+      "calledMethods": {
+        "scala_collection_BitSet$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      }
+    },
+    "empty__": {
+      "calledMethods": {
+        "scala_collection_BitSet$": ["empty__Lscala_collection_BitSet"]
+      }
+    }
+  }
+}

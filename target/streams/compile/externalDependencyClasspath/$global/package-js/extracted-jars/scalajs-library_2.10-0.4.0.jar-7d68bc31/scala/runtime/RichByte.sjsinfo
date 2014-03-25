@@ -1,0 +1,406 @@
+{
+  "name": "scala.runtime.RichByte",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichByte",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichByte", "scala_runtime_ScalaWholeNumberProxy", "scala_runtime_ScalaNumberProxy", "scala_runtime_OrderedProxy", "scala_math_Ordered", "java_lang_Comparable", "scala_Proxy$Typed", "scala_Proxy", "scala_math_ScalaNumericAnyConversions", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "isWhole__Z": {
+      "calledMethods": {
+        "scala_runtime_ScalaWholeNumberProxy$class": ["scala_runtime_ScalaWholeNumberProxy$class__isWhole__Lscala_runtime_ScalaWholeNumberProxy__Z"]
+      }
+    },
+    "underlying__O": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__underlying__Lscala_runtime_ScalaNumberProxy__O"]
+      }
+    },
+    "doubleValue__D": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__doubleValue__Lscala_runtime_ScalaNumberProxy__D"]
+      }
+    },
+    "floatValue__F": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__floatValue__Lscala_runtime_ScalaNumberProxy__F"]
+      }
+    },
+    "longValue__J": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__longValue__Lscala_runtime_ScalaNumberProxy__J"]
+      }
+    },
+    "intValue__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__intValue__Lscala_runtime_ScalaNumberProxy__I"]
+      }
+    },
+    "byteValue__B": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__byteValue__Lscala_runtime_ScalaNumberProxy__B"]
+      }
+    },
+    "shortValue__S": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__shortValue__Lscala_runtime_ScalaNumberProxy__S"]
+      }
+    },
+    "min__O__O": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__min__Lscala_runtime_ScalaNumberProxy__O__O"]
+      }
+    },
+    "max__O__O": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__max__Lscala_runtime_ScalaNumberProxy__O__O"]
+      }
+    },
+    "abs__O": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__abs__Lscala_runtime_ScalaNumberProxy__O"]
+      }
+    },
+    "signum__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__signum__Lscala_runtime_ScalaNumberProxy__I"]
+      }
+    },
+    "compare__O__I": {
+      "calledMethods": {
+        "scala_runtime_OrderedProxy$class": ["scala_runtime_OrderedProxy$class__compare__Lscala_runtime_OrderedProxy__O__I"]
+      }
+    },
+    "$$less__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$less__Lscala_math_Ordered__O__Z"]
+      }
+    },
+    "$$greater__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$greater__Lscala_math_Ordered__O__Z"]
+      }
+    },
+    "$$less$eq__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$less$eq__Lscala_math_Ordered__O__Z"]
+      }
+    },
+    "$$greater$eq__O__Z": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$greater$eq__Lscala_math_Ordered__O__Z"]
+      }
+    },
+    "compareTo__O__I": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__compareTo__Lscala_math_Ordered__O__I"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_Proxy$class": ["scala_Proxy$class__toString__Lscala_Proxy__T"]
+      }
+    },
+    "toChar__C": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toChar__Lscala_math_ScalaNumericAnyConversions__C"]
+      }
+    },
+    "toByte__B": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toByte__Lscala_math_ScalaNumericAnyConversions__B"]
+      }
+    },
+    "toShort__S": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toShort__Lscala_math_ScalaNumericAnyConversions__S"]
+      }
+    },
+    "toInt__I": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toInt__Lscala_math_ScalaNumericAnyConversions__I"]
+      }
+    },
+    "toLong__J": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toLong__Lscala_math_ScalaNumericAnyConversions__J"]
+      }
+    },
+    "toFloat__F": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toFloat__Lscala_math_ScalaNumericAnyConversions__F"]
+      }
+    },
+    "toDouble__D": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__toDouble__Lscala_math_ScalaNumericAnyConversions__D"]
+      }
+    },
+    "isValidByte__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__isValidByte__Lscala_math_ScalaNumericAnyConversions__Z"]
+      }
+    },
+    "isValidShort__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__isValidShort__Lscala_math_ScalaNumericAnyConversions__Z"]
+      }
+    },
+    "isValidInt__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__isValidInt__Lscala_math_ScalaNumericAnyConversions__Z"]
+      }
+    },
+    "isValidChar__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__isValidChar__Lscala_math_ScalaNumericAnyConversions__Z"]
+      }
+    },
+    "unifiedPrimitiveHashcode__I": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__unifiedPrimitiveHashcode__Lscala_math_ScalaNumericAnyConversions__I"]
+      }
+    },
+    "unifiedPrimitiveEquals__O__Z": {
+      "calledMethods": {
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__unifiedPrimitiveEquals__Lscala_math_ScalaNumericAnyConversions__O__Z"]
+      }
+    },
+    "self__B": {},
+    "num__Lscala_math_Numeric$ByteIsIntegral$": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["num$extension__B__Lscala_math_Numeric$ByteIsIntegral$"],
+        "scala_runtime_RichByte": ["self__B"]
+      },
+      "accessedModules": ["scala_runtime_RichByte"]
+    },
+    "ord__Lscala_math_Ordering$Byte$": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["ord$extension__B__Lscala_math_Ordering$Byte$"],
+        "scala_runtime_RichByte": ["self__B"]
+      },
+      "accessedModules": ["scala_runtime_RichByte"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["hashCode$extension__B__I"],
+        "scala_runtime_RichByte": ["self__B"]
+      },
+      "accessedModules": ["scala_runtime_RichByte"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["equals$extension__B__O__Z"],
+        "scala_runtime_RichByte": ["self__B"]
+      },
+      "accessedModules": ["scala_runtime_RichByte"]
+    },
+    "ord__Lscala_math_Ordering": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["ord$extension__B__Lscala_math_Ordering$Byte$"],
+        "scala_runtime_RichByte": ["self__B"]
+      },
+      "accessedModules": ["scala_runtime_RichByte"]
+    },
+    "num__Lscala_math_Numeric": {
+      "calledMethods": {
+        "scala_runtime_RichByte$": ["num$extension__B__Lscala_math_Numeric$ByteIsIntegral$"],
+        "scala_runtime_RichByte": ["self__B"]
+      },
+      "accessedModules": ["scala_runtime_RichByte"]
+    },
+    "self__O": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["self__B"]
+      }
+    },
+    "init___B": {
+      "calledMethods": {
+        "scala_math_Ordered$class": ["scala_math_Ordered$class__$init$__Lscala_math_Ordered__V"],
+        "scala_runtime_ScalaWholeNumberProxy$class": ["scala_runtime_ScalaWholeNumberProxy$class__$init$__Lscala_runtime_ScalaWholeNumberProxy__V"],
+        "scala_runtime_OrderedProxy$class": ["scala_runtime_OrderedProxy$class__$init$__Lscala_runtime_OrderedProxy__V"],
+        "scala_Proxy$class": ["scala_Proxy$class__$init$__Lscala_Proxy__V"],
+        "scala_runtime_ScalaNumberProxy$class": ["scala_runtime_ScalaNumberProxy$class__$init$__Lscala_runtime_ScalaNumberProxy__V"],
+        "scala_math_ScalaNumericAnyConversions$class": ["scala_math_ScalaNumericAnyConversions$class__$init$__Lscala_math_ScalaNumericAnyConversions__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unifiedPrimitiveEquals__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["unifiedPrimitiveEquals__O__Z"]
+      }
+    },
+    "unifiedPrimitiveHashcode__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["unifiedPrimitiveHashcode__I"]
+      }
+    },
+    "isValidChar__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["isValidChar__Z"]
+      }
+    },
+    "isValidInt__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["isValidInt__Z"]
+      }
+    },
+    "isValidShort__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["isValidShort__Z"]
+      }
+    },
+    "isValidByte__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["isValidByte__Z"]
+      }
+    },
+    "toDouble__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["toDouble__D"]
+      }
+    },
+    "toFloat__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["toFloat__F"]
+      }
+    },
+    "toLong__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["toLong__J"]
+      }
+    },
+    "toInt__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["toInt__I"]
+      }
+    },
+    "toShort__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["toShort__S"]
+      }
+    },
+    "toByte__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["toByte__B"]
+      }
+    },
+    "toChar__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["toChar__C"]
+      }
+    },
+    "compareTo__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["compareTo__O__I"]
+      }
+    },
+    "$$greater$eq__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["$$greater$eq__O__Z"]
+      }
+    },
+    "$$less$eq__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["$$less$eq__O__Z"]
+      }
+    },
+    "$$greater__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["$$greater__O__Z"]
+      }
+    },
+    "$$less__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["$$less__O__Z"]
+      }
+    },
+    "compare__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["compare__O__I"]
+      }
+    },
+    "signum__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["signum__I"]
+      }
+    },
+    "abs__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["abs__O"]
+      }
+    },
+    "max__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["max__O__O"]
+      }
+    },
+    "min__O__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["min__O__O"]
+      }
+    },
+    "shortValue__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["shortValue__S"]
+      }
+    },
+    "byteValue__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["byteValue__B"]
+      }
+    },
+    "intValue__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["intValue__I"]
+      }
+    },
+    "longValue__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["longValue__J"]
+      }
+    },
+    "floatValue__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["floatValue__F"]
+      }
+    },
+    "doubleValue__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["doubleValue__D"]
+      }
+    },
+    "underlying__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["underlying__O"]
+      }
+    },
+    "isWhole__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["isWhole__Z"]
+      }
+    },
+    "ord__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["ord__Lscala_math_Ordering$Byte$"]
+      }
+    },
+    "num__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["num__Lscala_math_Numeric$ByteIsIntegral$"]
+      }
+    },
+    "self__": {
+      "calledMethods": {
+        "scala_runtime_RichByte": ["self__B"]
+      }
+    }
+  }
+}

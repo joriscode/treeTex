@@ -1,0 +1,59 @@
+{
+  "name": "scala.sys.process.ProcessImpl$Future$",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$Future$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_ProcessImpl$Future$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__Lscala_Function0__Lscala_Function0": {
+      "calledMethods": {
+        "scala_sys_process_Process$": ["Spawn__Lscala_sys_process_ProcessImpl$Spawn$"],
+        "scala_MatchError": ["init___O"],
+        "scala_concurrent_SyncVar": ["init___", "get__O"],
+        "scala_util_Left": ["a__O"],
+        "scala_sys_process_ProcessImpl$Future$": ["scala$sys$process$ProcessImpl$Future$$run$1__Lscala_Function0__Lscala_concurrent_SyncVar__V"],
+        "scala_sys_process_ProcessImpl$Spawn$": ["apply__Lscala_Function0__Ljava_lang_Thread"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_util_Right": ["b__O"]
+      },
+      "instantiatedClasses": ["scala_concurrent_SyncVar", "scala_MatchError", "scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["scala_util_Left", "java_lang_Throwable", "scala_util_Right", "scala_util_Either"]
+    },
+    "scala$sys$process$ProcessImpl$Future$$run$1__Lscala_Function0__Lscala_concurrent_SyncVar__V": {
+      "calledMethods": {
+        "scala_util_Right$": ["apply__O__Lscala_util_Right"],
+        "scala_concurrent_SyncVar": ["set__O__V"],
+        "scala_package$": ["Left__Lscala_util_Left$", "Right__Lscala_util_Right$"],
+        "scala_util_Left$": ["apply__O__Lscala_util_Left"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_package"],
+      "accessedClassData": ["java_lang_Exception"]
+    },
+    "init___Lscala_sys_process_Process$": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$sys$process$ProcessImpl$Future$$run$1__Lscala_Function0__Lscala_concurrent_SyncVar__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$Future$": ["scala$sys$process$ProcessImpl$Future$$run$1__Lscala_Function0__Lscala_concurrent_SyncVar__V"]
+      }
+    },
+    "apply__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$Future$": ["apply__Lscala_Function0__Lscala_Function0"]
+      }
+    }
+  }
+}

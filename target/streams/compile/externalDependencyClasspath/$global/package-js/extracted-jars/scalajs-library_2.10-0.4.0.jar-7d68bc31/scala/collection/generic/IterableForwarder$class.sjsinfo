@@ -1,0 +1,27 @@
+{
+  "name": "scala.collection.generic.IterableForwarder$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_generic_IterableForwarder$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_generic_IterableForwarder$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_generic_IterableForwarder$class__iterator__Lscala_collection_generic_IterableForwarder__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_generic_IterableForwarder": ["underlying__Lscala_collection_Iterable"],
+        "scala_collection_Iterable": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "scala_collection_generic_IterableForwarder$class__sameElements__Lscala_collection_generic_IterableForwarder__Lscala_collection_GenIterable__Z": {
+      "calledMethods": {
+        "scala_collection_generic_IterableForwarder": ["underlying__Lscala_collection_Iterable"],
+        "scala_collection_Iterable": ["sameElements__Lscala_collection_GenIterable__Z"]
+      }
+    },
+    "scala_collection_generic_IterableForwarder$class__$init$__Lscala_collection_generic_IterableForwarder__V": {}
+  }
+}

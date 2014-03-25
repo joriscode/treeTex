@@ -1,0 +1,34 @@
+{
+  "name": "scala.collection.immutable.Stream$$hash$colon$colon$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_immutable_Stream$$hash$colon$colon$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_immutable_Stream$$hash$colon$colon$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "unapply__Lscala_collection_immutable_Stream__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream": ["isEmpty__Z", "tail__O", "head__O"],
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "unapply__Lscala_collection_immutable_Stream__": {
+      "calledMethods": {
+        "scala_collection_immutable_Stream$$hash$colon$colon$": ["unapply__Lscala_collection_immutable_Stream__Lscala_Option"]
+      }
+    }
+  }
+}

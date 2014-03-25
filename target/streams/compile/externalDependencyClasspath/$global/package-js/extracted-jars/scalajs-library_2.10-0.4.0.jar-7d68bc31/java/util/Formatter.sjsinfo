@@ -1,0 +1,164 @@
+{
+  "name": "java.util.Formatter",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_util_Formatter",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_util_Formatter", "java_io_Flushable", "java_io_Closeable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "java$util$Formatter$$dest__Ljava_lang_Appendable": {},
+    "closed__Z": {},
+    "closed$und$eq__Z__V": {},
+    "close__V": {
+      "calledMethods": {
+        "java_io_Closeable": ["close__V"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_util_Formatter": ["java$util$Formatter$$dest__Ljava_lang_Appendable", "closed$und$eq__Z__V", "closed__Z"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_io_Closeable"]
+    },
+    "flush__V": {
+      "calledMethods": {
+        "java_io_Flushable": ["flush__V"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "java_util_Formatter": ["java$util$Formatter$$dest__Ljava_lang_Appendable", "ifNotClosed__p1__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedModules": ["scala_runtime_BoxedUnit"],
+      "accessedClassData": ["java_io_Flushable"]
+    },
+    "java$util$Formatter$$RegularChunk__Ljava_util_Formatter$RegExpExtractor": {},
+    "java$util$Formatter$$DoublePercent__Ljava_util_Formatter$RegExpExtractor": {},
+    "java$util$Formatter$$EOLChunk__Ljava_util_Formatter$RegExpExtractor": {},
+    "java$util$Formatter$$FormattedChunk__Ljava_util_Formatter$RegExpExtractor": {},
+    "format__T__AO__Ljava_util_Formatter": {
+      "calledMethods": {
+        "java_util_Formatter$$anonfun$format$1": ["init___Ljava_util_Formatter__T__AO"],
+        "java_util_Formatter": ["ifNotClosed__p1__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["java_util_Formatter$$anonfun$format$1"],
+      "accessedClassData": ["java_util_Formatter"]
+    },
+    "ioException__Ljava_io_IOException": {},
+    "locale__Lscala_Null": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_util_Formatter": ["ifNotClosed__p1__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["scala_runtime_Null$"]
+    },
+    "out__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "java_util_Formatter": ["java$util$Formatter$$dest__Ljava_lang_Appendable", "ifNotClosed__p1__Lscala_Function0__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction0"],
+      "accessedClassData": ["java_lang_Appendable"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "java_util_Formatter": ["out__Ljava_lang_Appendable"],
+        "java_lang_Appendable": ["toString__T"]
+      }
+    },
+    "ifNotClosed__p1__Lscala_Function0__O": {
+      "calledMethods": {
+        "java_util_FormatterClosedException": ["init___"],
+        "java_util_Formatter": ["closed__Z"],
+        "scala_Function0": ["apply__O"]
+      },
+      "instantiatedClasses": ["java_util_FormatterClosedException"]
+    },
+    "init___Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_util_Formatter$RegExpExtractor": ["init___Ljava_util_Formatter__Lscala_scalajs_js_RegExp"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_util_Formatter$RegExpExtractor"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_util_Formatter": ["init___Ljava_lang_Appendable"]
+      },
+      "instantiatedClasses": ["java_lang_StringBuilder"]
+    },
+    "out__": {
+      "calledMethods": {
+        "java_util_Formatter": ["out__Ljava_lang_Appendable"]
+      }
+    },
+    "locale__": {
+      "calledMethods": {
+        "java_util_Formatter": ["locale__Lscala_Null"]
+      }
+    },
+    "ioException__": {
+      "calledMethods": {
+        "java_util_Formatter": ["ioException__Ljava_io_IOException"]
+      }
+    },
+    "format__T__AO__": {
+      "calledMethods": {
+        "java_util_Formatter": ["format__T__AO__Ljava_util_Formatter"]
+      }
+    },
+    "java$util$Formatter$$FormattedChunk__": {
+      "calledMethods": {
+        "java_util_Formatter": ["java$util$Formatter$$FormattedChunk__Ljava_util_Formatter$RegExpExtractor"]
+      }
+    },
+    "java$util$Formatter$$EOLChunk__": {
+      "calledMethods": {
+        "java_util_Formatter": ["java$util$Formatter$$EOLChunk__Ljava_util_Formatter$RegExpExtractor"]
+      }
+    },
+    "java$util$Formatter$$DoublePercent__": {
+      "calledMethods": {
+        "java_util_Formatter": ["java$util$Formatter$$DoublePercent__Ljava_util_Formatter$RegExpExtractor"]
+      }
+    },
+    "java$util$Formatter$$RegularChunk__": {
+      "calledMethods": {
+        "java_util_Formatter": ["java$util$Formatter$$RegularChunk__Ljava_util_Formatter$RegExpExtractor"]
+      }
+    },
+    "flush__": {
+      "calledMethods": {
+        "java_util_Formatter": ["flush__V"]
+      }
+    },
+    "close__": {
+      "calledMethods": {
+        "java_util_Formatter": ["close__V"]
+      }
+    },
+    "closed$und$eq__Z__": {
+      "calledMethods": {
+        "java_util_Formatter": ["closed$und$eq__Z__V"]
+      }
+    },
+    "closed__": {
+      "calledMethods": {
+        "java_util_Formatter": ["closed__Z"]
+      }
+    },
+    "java$util$Formatter$$dest__": {
+      "calledMethods": {
+        "java_util_Formatter": ["java$util$Formatter$$dest__Ljava_lang_Appendable"]
+      }
+    }
+  }
+}

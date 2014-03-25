@@ -1,0 +1,534 @@
+{
+  "name": "scala.io.BytePickle$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_io_BytePickle$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_io_BytePickle$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "pickle__Lscala_io_BytePickle$SPU__O__AB": {
+      "calledMethods": {
+        "scala_io_BytePickle$SPU": ["appP__O__Lscala_io_BytePickle$PicklerState__Lscala_io_BytePickle$PicklerState"],
+        "scala_io_BytePickle$PicklerState": ["init___AB__Lscala_io_BytePickle$PicklerEnv", "stream__AB"],
+        "scala_io_BytePickle$PicklerEnv": ["init___"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$PicklerEnv", "scala_io_BytePickle$PicklerState"]
+    },
+    "unpickle__Lscala_io_BytePickle$SPU__AB__O": {
+      "calledMethods": {
+        "scala_io_BytePickle$UnPicklerEnv": ["init___"],
+        "scala_io_BytePickle$SPU": ["appU__Lscala_io_BytePickle$UnPicklerState__Lscala_Tuple2"],
+        "scala_io_BytePickle$UnPicklerState": ["init___AB__Lscala_io_BytePickle$UnPicklerEnv"],
+        "scala_Tuple2": ["$$und1__O"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$UnPicklerState", "scala_io_BytePickle$UnPicklerEnv"]
+    },
+    "upickle__Lscala_io_BytePickle$PU__O__AB": {
+      "calledMethods": {
+        "scala_io_BytePickle$PU": ["appP__O__AB__AB"]
+      }
+    },
+    "uunpickle__Lscala_io_BytePickle$PU__AB__O": {
+      "calledMethods": {
+        "scala_io_BytePickle$PU": ["appU__AB__Lscala_Tuple2"],
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "refDef__Lscala_io_BytePickle$PU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$1": ["init___"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$1"]
+    },
+    "REF__I": {},
+    "DEF__I": {},
+    "unat__Lscala_io_BytePickle$PU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$2": ["init___"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$2"]
+    },
+    "share__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$3": ["init___Lscala_io_BytePickle$SPU"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$3"]
+    },
+    "ulift__O__Lscala_io_BytePickle$PU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$4": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$4"]
+    },
+    "lift__O__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$5": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$5"]
+    },
+    "usequ__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_Function1__Lscala_io_BytePickle$PU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$6": ["init___Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$6"]
+    },
+    "sequ__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$7": ["init___Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$7"]
+    },
+    "upair__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anonfun$upair$2$$anonfun$apply$2": ["init___Lscala_io_BytePickle$$anonfun$upair$2__O"],
+        "scala_io_BytePickle$$anonfun$upair$2$$anonfun$apply$1": ["init___Lscala_io_BytePickle$$anonfun$upair$2"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["usequ__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_Function1__Lscala_io_BytePickle$PU", "scala$io$BytePickle$$fst$1__Lscala_Tuple2__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_io_BytePickle$$anonfun$upair$2$$anonfun$apply$1", "scala_io_BytePickle$$anonfun$upair$2$$anonfun$apply$2"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "pair__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anonfun$pair$2$$anonfun$apply$4": ["init___Lscala_io_BytePickle$$anonfun$pair$2__O"],
+        "scala_io_BytePickle$$anonfun$pair$2$$anonfun$apply$3": ["init___Lscala_io_BytePickle$$anonfun$pair$2"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$fst$2__Lscala_Tuple2__O", "sequ__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1__Lscala_io_BytePickle$SPU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_io_BytePickle$$anonfun$pair$2$$anonfun$apply$3", "scala_io_BytePickle$$anonfun$pair$2$$anonfun$apply$4"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "triple__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anonfun$triple$2": ["init___Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["sequ__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1__Lscala_io_BytePickle$SPU", "scala$io$BytePickle$$fst$3__Lscala_Tuple3__O"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anonfun$triple$2", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "uwrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["usequ__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_Function1__Lscala_io_BytePickle$PU", "ulift__O__Lscala_io_BytePickle$PU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "wrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["sequ__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1__Lscala_io_BytePickle$SPU", "lift__O__Lscala_io_BytePickle$SPU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "appendByte__AB__I__AB": {
+      "calledMethods": {
+        "scala_Predef$": ["wrapByteArray__AB__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"],
+        "scala_Array$": ["apply__B__Lscala_collection_Seq__AB", "concat__Lscala_collection_Seq__Lscala_reflect_ClassTag__O"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Array", "scala_Predef"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "nat2Bytes__I__AB": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"],
+        "scala_collection_mutable_ArrayBuffer": ["$$plus$eq__O__Lscala_collection_mutable_ArrayBuffer", "init___", "toArray__Lscala_reflect_ClassTag__O"],
+        "scala_io_BytePickle$": ["writeNatPrefix$1__p1__I__Lscala_collection_mutable_ArrayBuffer__V"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_ArrayBuffer"],
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "nat__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$8": ["init___"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$8"]
+    },
+    "$byte__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_io_BytePickle$$anon$9": ["init___"]
+      },
+      "instantiatedClasses": ["scala_io_BytePickle$$anon$9"]
+    },
+    "string__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_Predef$": ["charArrayOps__AC__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["mkString__T"],
+        "scala_io_BytePickle$": ["wrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU", "share__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU", "bytearray__Lscala_io_BytePickle$SPU"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_Codec$": ["toUTF8__Ljava_lang_CharSequence__AB", "fromUTF8__AB__AC"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef", "scala_io_Codec"]
+    },
+    "bytearray__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_Predef$": ["byteArrayOps__AB__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["toList__Lscala_collection_immutable_List"],
+        "scala_io_BytePickle$": ["wrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU", "$byte__Lscala_io_BytePickle$SPU", "list__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU"],
+        "scala_collection_immutable_List": ["toArray__Lscala_reflect_ClassTag__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_reflect_ClassTag", "scala_Predef"]
+    },
+    "bool__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$toEnum$1__Z__I", "wrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU", "scala$io$BytePickle$$fromEnum$1__I__Z", "nat__Lscala_io_BytePickle$SPU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "ufixedList__Lscala_io_BytePickle$PU__I__Lscala_io_BytePickle$PU": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["ufixedList__Lscala_io_BytePickle$PU__I__Lscala_io_BytePickle$PU", "scala$io$BytePickle$$listToPair$1__Lscala_collection_immutable_List__Lscala_Tuple2", "scala$io$BytePickle$$pairToList$1__Lscala_Tuple2__Lscala_collection_immutable_List", "upair__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU", "ulift__O__Lscala_io_BytePickle$PU", "uwrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_Nil", "scala_io_BytePickle"]
+    },
+    "fixedList__Lscala_io_BytePickle$SPU__I__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$listToPair$2__Lscala_collection_immutable_List__Lscala_Tuple2", "wrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU", "scala$io$BytePickle$$pairToList$2__Lscala_Tuple2__Lscala_collection_immutable_List", "lift__O__Lscala_io_BytePickle$SPU", "pair__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU", "fixedList__Lscala_io_BytePickle$SPU__I__Lscala_io_BytePickle$SPU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_immutable_Nil", "scala_io_BytePickle"]
+    },
+    "list__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["length__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["sequ__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1__Lscala_io_BytePickle$SPU", "nat__Lscala_io_BytePickle$SPU", "fixedList__Lscala_io_BytePickle$SPU__I__Lscala_io_BytePickle$SPU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "ulist__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["length__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_io_BytePickle$": ["usequ__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_Function1__Lscala_io_BytePickle$PU", "ufixedList__Lscala_io_BytePickle$PU__I__Lscala_io_BytePickle$PU", "unat__Lscala_io_BytePickle$PU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_io_BytePickle"]
+    },
+    "data__Lscala_Function1__Lscala_collection_immutable_List__Lscala_io_BytePickle$SPU": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["apply__I__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Function0": ["apply__O"],
+        "scala_io_BytePickle$": ["sequ__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1__Lscala_io_BytePickle$SPU", "nat__Lscala_io_BytePickle$SPU"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedClassData": ["scala_io_BytePickle$SPU", "scala_Function0"]
+    },
+    "scala$io$BytePickle$$fst$1__Lscala_Tuple2__O": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "scala$io$BytePickle$$snd$1__Lscala_Tuple2__O": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "scala$io$BytePickle$$fst$2__Lscala_Tuple2__O": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und1__O"]
+      }
+    },
+    "scala$io$BytePickle$$snd$2__Lscala_Tuple2__O": {
+      "calledMethods": {
+        "scala_Tuple2": ["$$und2__O"]
+      }
+    },
+    "scala$io$BytePickle$$fst$3__Lscala_Tuple3__O": {
+      "calledMethods": {
+        "scala_Tuple3": ["$$und1__O"]
+      }
+    },
+    "scala$io$BytePickle$$snd$3__Lscala_Tuple3__O": {
+      "calledMethods": {
+        "scala_Tuple3": ["$$und2__O"]
+      }
+    },
+    "scala$io$BytePickle$$trd$1__Lscala_Tuple3__O": {
+      "calledMethods": {
+        "scala_Tuple3": ["$$und3__O"]
+      }
+    },
+    "writeNatPrefix$1__p1__I__Lscala_collection_mutable_ArrayBuffer__V": {
+      "calledMethods": {
+        "scala_collection_mutable_ArrayBuffer": ["$$plus$eq__O__Lscala_collection_mutable_ArrayBuffer"],
+        "scala_io_BytePickle$": ["writeNatPrefix$1__p1__I__Lscala_collection_mutable_ArrayBuffer__V"]
+      }
+    },
+    "scala$io$BytePickle$$toEnum$1__Z__I": {},
+    "scala$io$BytePickle$$fromEnum$1__I__Z": {},
+    "scala$io$BytePickle$$pairToList$1__Lscala_Tuple2__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"]
+      },
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "scala$io$BytePickle$$listToPair$1__Lscala_collection_immutable_List__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_immutable_$colon$colon": ["tl$1__Lscala_collection_immutable_List", "hd$1__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError"],
+      "accessedClassData": ["scala_collection_immutable_$colon$colon"]
+    },
+    "scala$io$BytePickle$$pairToList$2__Lscala_Tuple2__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["$$colon$colon__O__Lscala_collection_immutable_List"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"]
+      },
+      "accessedClassData": ["scala_collection_immutable_List"]
+    },
+    "scala$io$BytePickle$$listToPair$2__Lscala_collection_immutable_List__Lscala_Tuple2": {
+      "calledMethods": {
+        "scala_MatchError": ["init___O"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_immutable_$colon$colon": ["tl$1__Lscala_collection_immutable_List", "hd$1__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_MatchError"],
+      "accessedClassData": ["scala_collection_immutable_$colon$colon"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "scala$io$BytePickle$$listToPair$2__Lscala_collection_immutable_List__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$listToPair$2__Lscala_collection_immutable_List__Lscala_Tuple2"]
+      }
+    },
+    "scala$io$BytePickle$$pairToList$2__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$pairToList$2__Lscala_Tuple2__Lscala_collection_immutable_List"]
+      }
+    },
+    "scala$io$BytePickle$$listToPair$1__Lscala_collection_immutable_List__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$listToPair$1__Lscala_collection_immutable_List__Lscala_Tuple2"]
+      }
+    },
+    "scala$io$BytePickle$$pairToList$1__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$pairToList$1__Lscala_Tuple2__Lscala_collection_immutable_List"]
+      }
+    },
+    "scala$io$BytePickle$$fromEnum$1__I__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$fromEnum$1__I__Z"]
+      }
+    },
+    "scala$io$BytePickle$$toEnum$1__Z__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$toEnum$1__Z__I"]
+      }
+    },
+    "scala$io$BytePickle$$trd$1__Lscala_Tuple3__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$trd$1__Lscala_Tuple3__O"]
+      }
+    },
+    "scala$io$BytePickle$$snd$3__Lscala_Tuple3__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$snd$3__Lscala_Tuple3__O"]
+      }
+    },
+    "scala$io$BytePickle$$fst$3__Lscala_Tuple3__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$fst$3__Lscala_Tuple3__O"]
+      }
+    },
+    "scala$io$BytePickle$$snd$2__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$snd$2__Lscala_Tuple2__O"]
+      }
+    },
+    "scala$io$BytePickle$$fst$2__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$fst$2__Lscala_Tuple2__O"]
+      }
+    },
+    "scala$io$BytePickle$$snd$1__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$snd$1__Lscala_Tuple2__O"]
+      }
+    },
+    "scala$io$BytePickle$$fst$1__Lscala_Tuple2__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["scala$io$BytePickle$$fst$1__Lscala_Tuple2__O"]
+      }
+    },
+    "data__Lscala_Function1__Lscala_collection_immutable_List__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["data__Lscala_Function1__Lscala_collection_immutable_List__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "ulist__Lscala_io_BytePickle$PU__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["ulist__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU"]
+      }
+    },
+    "list__Lscala_io_BytePickle$SPU__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["list__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "fixedList__Lscala_io_BytePickle$SPU__I__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["fixedList__Lscala_io_BytePickle$SPU__I__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "ufixedList__Lscala_io_BytePickle$PU__I__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["ufixedList__Lscala_io_BytePickle$PU__I__Lscala_io_BytePickle$PU"]
+      }
+    },
+    "bool__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["bool__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "bytearray__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["bytearray__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "string__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["string__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "$byte__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["$byte__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "nat__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["nat__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "nat2Bytes__I__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["nat2Bytes__I__AB"]
+      }
+    },
+    "appendByte__AB__I__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["appendByte__AB__I__AB"]
+      }
+    },
+    "wrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$SPU__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["wrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "uwrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$PU__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["uwrap__Lscala_Function1__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU"]
+      }
+    },
+    "triple__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["triple__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "pair__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["pair__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "upair__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["upair__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU__Lscala_io_BytePickle$PU"]
+      }
+    },
+    "sequ__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["sequ__Lscala_Function1__Lscala_io_BytePickle$SPU__Lscala_Function1__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "usequ__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_Function1__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["usequ__Lscala_Function1__Lscala_io_BytePickle$PU__Lscala_Function1__Lscala_io_BytePickle$PU"]
+      }
+    },
+    "lift__O__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["lift__O__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "ulift__O__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["ulift__O__Lscala_io_BytePickle$PU"]
+      }
+    },
+    "share__Lscala_io_BytePickle$SPU__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["share__Lscala_io_BytePickle$SPU__Lscala_io_BytePickle$SPU"]
+      }
+    },
+    "unat__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["unat__Lscala_io_BytePickle$PU"]
+      }
+    },
+    "DEF__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["DEF__I"]
+      }
+    },
+    "REF__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["REF__I"]
+      }
+    },
+    "refDef__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["refDef__Lscala_io_BytePickle$PU"]
+      }
+    },
+    "uunpickle__Lscala_io_BytePickle$PU__AB__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["uunpickle__Lscala_io_BytePickle$PU__AB__O"]
+      }
+    },
+    "upickle__Lscala_io_BytePickle$PU__O__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["upickle__Lscala_io_BytePickle$PU__O__AB"]
+      }
+    },
+    "unpickle__Lscala_io_BytePickle$SPU__AB__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["unpickle__Lscala_io_BytePickle$SPU__AB__O"]
+      }
+    },
+    "pickle__Lscala_io_BytePickle$SPU__O__": {
+      "calledMethods": {
+        "scala_io_BytePickle$": ["pickle__Lscala_io_BytePickle$SPU__O__AB"]
+      }
+    }
+  }
+}

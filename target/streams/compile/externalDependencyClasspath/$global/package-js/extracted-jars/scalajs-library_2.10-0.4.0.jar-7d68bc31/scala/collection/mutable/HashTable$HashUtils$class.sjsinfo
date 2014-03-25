@@ -1,0 +1,33 @@
+{
+  "name": "scala.collection.mutable.HashTable$HashUtils$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_HashTable$HashUtils$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_HashTable$HashUtils$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_HashTable$HashUtils$class__sizeMapBucketBitSize__Lscala_collection_mutable_HashTable$HashUtils__I": {},
+    "scala_collection_mutable_HashTable$HashUtils$class__sizeMapBucketSize__Lscala_collection_mutable_HashTable$HashUtils__I": {
+      "calledMethods": {
+        "scala_collection_mutable_HashTable$HashUtils": ["sizeMapBucketBitSize__I"]
+      }
+    },
+    "scala_collection_mutable_HashTable$HashUtils$class__elemHashCode__Lscala_collection_mutable_HashTable$HashUtils__O__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "scala_collection_mutable_HashTable$HashUtils$class__improve__Lscala_collection_mutable_HashTable$HashUtils__I__I__I": {
+      "calledMethods": {
+        "scala_util_hashing_package$": ["byteswap32__I__I"]
+      },
+      "accessedModules": ["scala_util_hashing_package"]
+    },
+    "scala_collection_mutable_HashTable$HashUtils$class__$init$__Lscala_collection_mutable_HashTable$HashUtils__V": {}
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "scala.concurrent.impl.ExecutionContextImpl$$anon$1",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_impl_ExecutionContextImpl$$anon$1",
+  "superClass": "scala_concurrent_impl_ExecutionContextImpl",
+  "ancestors": ["scala_concurrent_impl_ExecutionContextImpl$$anon$1", "scala_concurrent_ExecutionContextExecutorService", "java_util_concurrent_ExecutorService", "scala_concurrent_impl_ExecutionContextImpl", "scala_concurrent_ExecutionContextExecutor", "java_util_concurrent_Executor", "scala_concurrent_ExecutionContext", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "asExecutorService__p2__Ljava_util_concurrent_ExecutorService": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["executor__Ljava_util_concurrent_Executor"]
+      },
+      "accessedClassData": ["java_util_concurrent_ExecutorService"]
+    },
+    "execute__Ljava_lang_Runnable__V": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["executor__Ljava_util_concurrent_Executor"],
+        "java_util_concurrent_Executor": ["execute__Ljava_lang_Runnable__V"]
+      }
+    },
+    "shutdown__V": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["shutdown__V"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "shutdownNow__Ljava_util_List": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["shutdownNow__Ljava_util_List"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "isShutdown__Z": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["isShutdown__Z"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "isTerminated__Z": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["isTerminated__Z"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "awaitTermination__J__Ljava_util_concurrent_TimeUnit__Z": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["awaitTermination__J__Ljava_util_concurrent_TimeUnit__Z"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "submit__Ljava_util_concurrent_Callable__Ljava_util_concurrent_Future": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["submit__Ljava_util_concurrent_Callable__Ljava_util_concurrent_Future"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "submit__Ljava_lang_Runnable__O__Ljava_util_concurrent_Future": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["submit__Ljava_lang_Runnable__O__Ljava_util_concurrent_Future"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "submit__Ljava_lang_Runnable__Ljava_util_concurrent_Future": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["submit__Ljava_lang_Runnable__Ljava_util_concurrent_Future"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "invokeAll__Ljava_util_Collection__Ljava_util_List": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["invokeAll__Ljava_util_Collection__Ljava_util_List"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "invokeAll__Ljava_util_Collection__J__Ljava_util_concurrent_TimeUnit__Ljava_util_List": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["invokeAll__Ljava_util_Collection__J__Ljava_util_concurrent_TimeUnit__Ljava_util_List"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "invokeAny__Ljava_util_Collection__O": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["invokeAny__Ljava_util_Collection__O"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "invokeAny__Ljava_util_Collection__J__Ljava_util_concurrent_TimeUnit__O": {
+      "calledMethods": {
+        "java_util_concurrent_ExecutorService": ["invokeAny__Ljava_util_Collection__J__Ljava_util_concurrent_TimeUnit__O"],
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["asExecutorService__p2__Ljava_util_concurrent_ExecutorService"]
+      }
+    },
+    "init___Ljava_util_concurrent_ExecutorService__Lscala_Function1": {
+      "calledMethodsStatic": {
+        "scala_concurrent_impl_ExecutionContextImpl": ["init___Ljava_util_concurrent_Executor__Lscala_Function1"]
+      }
+    },
+    "invokeAny__Ljava_util_Collection__J__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["invokeAny__Ljava_util_Collection__J__Ljava_util_concurrent_TimeUnit__O"]
+      }
+    },
+    "invokeAny__Ljava_util_Collection__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["invokeAny__Ljava_util_Collection__O"]
+      }
+    },
+    "invokeAll__Ljava_util_Collection__J__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["invokeAll__Ljava_util_Collection__J__Ljava_util_concurrent_TimeUnit__Ljava_util_List"]
+      }
+    },
+    "invokeAll__Ljava_util_Collection__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["invokeAll__Ljava_util_Collection__Ljava_util_List"]
+      }
+    },
+    "submit__Ljava_lang_Runnable__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["submit__Ljava_lang_Runnable__Ljava_util_concurrent_Future"]
+      }
+    },
+    "submit__Ljava_lang_Runnable__O__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["submit__Ljava_lang_Runnable__O__Ljava_util_concurrent_Future"]
+      }
+    },
+    "submit__Ljava_util_concurrent_Callable__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["submit__Ljava_util_concurrent_Callable__Ljava_util_concurrent_Future"]
+      }
+    },
+    "awaitTermination__J__Ljava_util_concurrent_TimeUnit__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["awaitTermination__J__Ljava_util_concurrent_TimeUnit__Z"]
+      }
+    },
+    "isTerminated__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["isTerminated__Z"]
+      }
+    },
+    "isShutdown__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["isShutdown__Z"]
+      }
+    },
+    "shutdownNow__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["shutdownNow__Ljava_util_List"]
+      }
+    },
+    "shutdown__": {
+      "calledMethods": {
+        "scala_concurrent_impl_ExecutionContextImpl$$anon$1": ["shutdown__V"]
+      }
+    }
+  }
+}

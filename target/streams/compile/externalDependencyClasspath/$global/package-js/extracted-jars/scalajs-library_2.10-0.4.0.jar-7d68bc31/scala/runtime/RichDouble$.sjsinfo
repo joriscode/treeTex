@@ -1,0 +1,187 @@
+{
+  "name": "scala.runtime.RichDouble$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_RichDouble$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_RichDouble$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "num$extension__D__Lscala_math_Numeric$DoubleIsFractional$": {
+      "accessedModules": ["scala_math_Numeric$DoubleIsFractional"]
+    },
+    "ord$extension__D__Lscala_math_Ordering$Double$": {
+      "accessedModules": ["scala_math_Ordering$Double"]
+    },
+    "integralNum$extension__D__Lscala_math_Numeric$DoubleAsIfIntegral$": {
+      "accessedModules": ["scala_math_Numeric$DoubleAsIfIntegral"]
+    },
+    "round$extension__D__J": {
+      "calledMethods": {
+        "scala_math_package$": ["round__D__J"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "ceil$extension__D__D": {
+      "calledMethods": {
+        "scala_math_package$": ["ceil__D__D"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "floor$extension__D__D": {
+      "calledMethods": {
+        "scala_math_package$": ["floor__D__D"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "toRadians$extension__D__D": {
+      "calledMethods": {
+        "scala_math_package$": ["toRadians__D__D"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "toDegrees$extension__D__D": {
+      "calledMethods": {
+        "scala_math_package$": ["toDegrees__D__D"]
+      },
+      "accessedModules": ["scala_math_package"]
+    },
+    "isInfinity$extension__D__Z": {
+      "calledMethods": {
+        "java_lang_Double$": ["isInfinite__D__Z"]
+      },
+      "accessedModules": ["java_lang_Double"]
+    },
+    "isPosInfinity$extension__D__Z": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isInfinity$extension__D__Z"]
+      }
+    },
+    "isNegInfinity$extension__D__Z": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isInfinity$extension__D__Z"]
+      }
+    },
+    "isValidByte$extension__D__Z": {},
+    "isValidShort$extension__D__Z": {},
+    "isValidChar$extension__D__Z": {},
+    "isValidInt$extension__D__Z": {},
+    "isWhole$extension__D__Z": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long": ["toDouble__D", "equals__O__Z"],
+        "scala_scalajs_runtime_Long$": ["fromDouble__D__Lscala_scalajs_runtime_Long", "apply__I__I__I__Lscala_scalajs_runtime_Long"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "hashCode$extension__D__I": {
+      "calledMethods": {
+        "java_lang_Object": ["hashCode__I"]
+      }
+    },
+    "equals$extension__D__O__Z": {
+      "calledMethods": {
+        "scala_runtime_RichDouble": ["self__D"]
+      },
+      "accessedClassData": ["scala_runtime_RichDouble"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "equals$extension__D__O__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["equals$extension__D__O__Z"]
+      }
+    },
+    "hashCode$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["hashCode$extension__D__I"]
+      }
+    },
+    "isWhole$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isWhole$extension__D__Z"]
+      }
+    },
+    "isValidInt$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isValidInt$extension__D__Z"]
+      }
+    },
+    "isValidChar$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isValidChar$extension__D__Z"]
+      }
+    },
+    "isValidShort$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isValidShort$extension__D__Z"]
+      }
+    },
+    "isValidByte$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isValidByte$extension__D__Z"]
+      }
+    },
+    "isNegInfinity$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isNegInfinity$extension__D__Z"]
+      }
+    },
+    "isPosInfinity$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isPosInfinity$extension__D__Z"]
+      }
+    },
+    "isInfinity$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["isInfinity$extension__D__Z"]
+      }
+    },
+    "toDegrees$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["toDegrees$extension__D__D"]
+      }
+    },
+    "toRadians$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["toRadians$extension__D__D"]
+      }
+    },
+    "floor$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["floor$extension__D__D"]
+      }
+    },
+    "ceil$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["ceil$extension__D__D"]
+      }
+    },
+    "round$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["round$extension__D__J"]
+      }
+    },
+    "integralNum$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["integralNum$extension__D__Lscala_math_Numeric$DoubleAsIfIntegral$"]
+      }
+    },
+    "ord$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["ord$extension__D__Lscala_math_Ordering$Double$"]
+      }
+    },
+    "num$extension__D__": {
+      "calledMethods": {
+        "scala_runtime_RichDouble$": ["num$extension__D__Lscala_math_Numeric$DoubleIsFractional$"]
+      }
+    }
+  }
+}

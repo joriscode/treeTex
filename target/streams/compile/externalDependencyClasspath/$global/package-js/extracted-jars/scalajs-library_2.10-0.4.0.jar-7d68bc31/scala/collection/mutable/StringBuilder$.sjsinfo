@@ -1,0 +1,34 @@
+{
+  "name": "scala.collection.mutable.StringBuilder$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_StringBuilder$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_collection_mutable_StringBuilder$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "newBuilder__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_collection_mutable_StringBuilder": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_StringBuilder"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_collection_mutable_StringBuilder"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "newBuilder__": {
+      "calledMethods": {
+        "scala_collection_mutable_StringBuilder$": ["newBuilder__Lscala_collection_mutable_StringBuilder"]
+      }
+    }
+  }
+}

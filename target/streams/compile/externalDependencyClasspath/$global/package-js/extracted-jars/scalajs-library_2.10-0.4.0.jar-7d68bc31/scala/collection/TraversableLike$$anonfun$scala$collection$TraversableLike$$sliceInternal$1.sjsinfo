@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.TraversableLike$$anonfun$scala$collection$TraversableLike$$sliceInternal$1",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_TraversableLike$$anonfun$scala$collection$TraversableLike$$sliceInternal$1",
+  "superClass": "scala_runtime_AbstractFunction0$mcV$sp",
+  "ancestors": ["scala_collection_TraversableLike$$anonfun$scala$collection$TraversableLike$$sliceInternal$1", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction0$mcV$sp", "scala_Function0$mcV$sp", "scala_runtime_AbstractFunction0", "scala_Function0", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "apply__V": {
+      "calledMethods": {
+        "scala_collection_TraversableLike$$anonfun$scala$collection$TraversableLike$$sliceInternal$1": ["apply$mcV$sp__V"]
+      }
+    },
+    "apply$mcV$sp__V": {
+      "calledMethods": {
+        "scala_collection_TraversableLike": ["seq__Lscala_collection_TraversableOnce"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_collection_mutable_Builder": ["$$plus$eq__O__Lscala_collection_mutable_Builder"],
+        "scala_collection_Traversable$": ["breaks__Lscala_util_control_Breaks"],
+        "scala_util_control_Breaks": ["$break__Lscala_Nothing"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_TraversableOnce": ["foreach__Lscala_Function1__V"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_collection_Traversable", "scala_runtime_BoxedUnit"]
+    },
+    "apply__O": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_TraversableLike$$anonfun$scala$collection$TraversableLike$$sliceInternal$1": ["apply__V"]
+      },
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "init___Lscala_collection_TraversableLike__I__I__Lscala_collection_mutable_Builder__Lscala_runtime_IntRef": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction0$mcV$sp": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    }
+  }
+}

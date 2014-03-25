@@ -1,0 +1,56 @@
+{
+  "name": "scala.collection.mutable.MultiMap$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_MultiMap$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_mutable_MultiMap$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_mutable_MultiMap$class__makeSet__Lscala_collection_mutable_MultiMap__Lscala_collection_mutable_Set": {
+      "calledMethods": {
+        "scala_collection_mutable_HashSet": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_HashSet"]
+    },
+    "scala_collection_mutable_MultiMap$class__addBinding__Lscala_collection_mutable_MultiMap__O__O__Lscala_collection_mutable_MultiMap": {
+      "calledMethods": {
+        "scala_collection_mutable_MultiMap": ["update__O__O__V", "makeSet__Lscala_collection_mutable_Set", "get__O__Lscala_Option"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_mutable_Set": ["$$plus$eq__O__Lscala_collection_mutable_SetLike"],
+        "scala_Some": ["x__O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_mutable_Set", "scala_Some"]
+    },
+    "scala_collection_mutable_MultiMap$class__removeBinding__Lscala_collection_mutable_MultiMap__O__O__Lscala_collection_mutable_MultiMap": {
+      "calledMethods": {
+        "scala_collection_mutable_MultiMap": ["$$minus$eq__O__Lscala_collection_mutable_MapLike", "get__O__Lscala_Option"],
+        "scala_MatchError": ["init___O"],
+        "scala_collection_mutable_Set": ["$$minus$eq__O__Lscala_collection_mutable_SetLike", "isEmpty__Z"],
+        "scala_Some": ["x__O"],
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None", "scala_runtime_BoxedUnit"],
+      "accessedClassData": ["scala_collection_mutable_Set", "scala_Some"]
+    },
+    "scala_collection_mutable_MultiMap$class__entryExists__Lscala_collection_mutable_MultiMap__O__Lscala_Function1__Z": {
+      "calledMethods": {
+        "scala_collection_mutable_MultiMap": ["get__O__Lscala_Option"],
+        "scala_collection_mutable_Set": ["exists__Lscala_Function1__Z"],
+        "scala_MatchError": ["init___O"],
+        "scala_Some": ["x__O"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_None"],
+      "accessedClassData": ["scala_collection_mutable_Set", "scala_Some"]
+    },
+    "scala_collection_mutable_MultiMap$class__$init$__Lscala_collection_mutable_MultiMap__V": {}
+  }
+}

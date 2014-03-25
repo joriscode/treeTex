@@ -1,0 +1,41 @@
+{
+  "name": "scala.collection.concurrent.RestartException$",
+  "ancestorCount": 2,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_concurrent_RestartException$",
+  "superClass": "java_lang_Throwable",
+  "ancestors": ["scala_collection_concurrent_RestartException$", "scala_util_control_ControlThrowable", "scala_util_control_NoStackTrace", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "scala$util$control$NoStackTrace$$super$fillInStackTrace__Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_Throwable": ["fillInStackTrace__Ljava_lang_Throwable"]
+      }
+    },
+    "fillInStackTrace__Ljava_lang_Throwable": {
+      "calledMethods": {
+        "scala_util_control_NoStackTrace$class": ["scala_util_control_NoStackTrace$class__fillInStackTrace__Lscala_util_control_NoStackTrace__Ljava_lang_Throwable"]
+      }
+    },
+    "readResolve__p2__O": {
+      "accessedModules": ["scala_collection_concurrent_RestartException"]
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_util_control_NoStackTrace$class": ["scala_util_control_NoStackTrace$class__$init$__Lscala_util_control_NoStackTrace__V"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Throwable": ["init___"]
+      }
+    },
+    "scala$util$control$NoStackTrace$$super$fillInStackTrace__": {
+      "calledMethods": {
+        "scala_collection_concurrent_RestartException$": ["scala$util$control$NoStackTrace$$super$fillInStackTrace__Ljava_lang_Throwable"]
+      }
+    }
+  }
+}

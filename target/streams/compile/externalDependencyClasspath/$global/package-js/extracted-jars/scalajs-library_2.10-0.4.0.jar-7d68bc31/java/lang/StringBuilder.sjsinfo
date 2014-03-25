@@ -1,0 +1,313 @@
+{
+  "name": "java.lang.StringBuilder",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_StringBuilder",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_StringBuilder", "java_io_Serializable", "java_lang_Appendable", "java_lang_CharSequence", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "content__p1__T": {},
+    "content$und$eq__p1__T__V": {},
+    "append__T__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["content__p1__T", "content$und$eq__p1__T__V"]
+      }
+    },
+    "append__Ljava_lang_Boolean__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"],
+        "java_lang_Boolean": ["toString__T"]
+      }
+    },
+    "append__C__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "append__Ljava_lang_Byte__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_Byte": ["toString__T"],
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Short__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_Short": ["toString__T"],
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__I__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"],
+        "java_lang_Object": ["toString__T"]
+      }
+    },
+    "append__Ljava_lang_Long__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_Long": ["toString__T"],
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Float__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_Float": ["toString__T"],
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Double__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_Double": ["toString__T"],
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__O__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_Object": ["toString__T"],
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__O__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__I__I__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_CharSequence": ["subSequence__I__I__Ljava_lang_CharSequence", "toString__T"],
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder", "append__Ljava_lang_CharSequence__I__I__Ljava_lang_StringBuilder"]
+      }
+    },
+    "toString__T": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "length__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "charAt__I__C": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "codePointAt__I__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__codePointAt__Lscala_scalajs_runtime_RuntimeString__I__I"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "indexOf__T__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__T__I"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "indexOf__T__I__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__indexOf__Lscala_scalajs_runtime_RuntimeString__T__I__I"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "lastIndexOf__T__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__lastIndexOf__Lscala_scalajs_runtime_RuntimeString__T__I"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "lastIndexOf__T__I__I": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__lastIndexOf__Lscala_scalajs_runtime_RuntimeString__T__I__I"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "subSequence__I__I__Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["substring__I__I__T"]
+      }
+    },
+    "substring__I__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__T"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "substring__I__I__T": {
+      "calledMethods": {
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__substring__Lscala_scalajs_runtime_RuntimeString__I__I__T"],
+        "java_lang_StringBuilder": ["content__p1__T"]
+      }
+    },
+    "reverse__Ljava_lang_StringBuilder": {
+      "calledMethods": {
+        "java_lang_Character$": ["isLowSurrogate__C__Z", "isHighSurrogate__C__Z"],
+        "scala_scalajs_runtime_RuntimeString$class": ["scala_scalajs_runtime_RuntimeString$class__charAt__Lscala_scalajs_runtime_RuntimeString__I__C", "scala_scalajs_runtime_RuntimeString$class__length__Lscala_scalajs_runtime_RuntimeString__I"],
+        "java_lang_Object": ["toString__T"],
+        "java_lang_StringBuilder": ["content__p1__T", "content$und$eq__p1__T__V"]
+      },
+      "accessedModules": ["java_lang_Character"]
+    },
+    "append__Ljava_lang_CharSequence__I__I__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_CharSequence__I__I__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_CharSequence__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__C__Ljava_lang_Appendable": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__C__Ljava_lang_StringBuilder"]
+      }
+    },
+    "init___T": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_StringBuilder": ["init___T"]
+      }
+    },
+    "init___I": {
+      "calledMethodsStatic": {
+        "java_lang_StringBuilder": ["init___T"]
+      }
+    },
+    "init___Ljava_lang_CharSequence": {
+      "calledMethods": {
+        "java_lang_CharSequence": ["toString__T"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_StringBuilder": ["init___T"]
+      }
+    },
+    "reverse__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["reverse__Ljava_lang_StringBuilder"]
+      }
+    },
+    "substring__I__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["substring__I__I__T"]
+      }
+    },
+    "substring__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["substring__I__T"]
+      }
+    },
+    "subSequence__I__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["subSequence__I__I__Ljava_lang_CharSequence"]
+      }
+    },
+    "lastIndexOf__T__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["lastIndexOf__T__I__I"]
+      }
+    },
+    "lastIndexOf__T__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["lastIndexOf__T__I"]
+      }
+    },
+    "indexOf__T__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["indexOf__T__I__I"]
+      }
+    },
+    "indexOf__T__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["indexOf__T__I"]
+      }
+    },
+    "codePointAt__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["codePointAt__I__I"]
+      }
+    },
+    "charAt__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["charAt__I__C"]
+      }
+    },
+    "length__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["length__I"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__I__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_CharSequence__I__I__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_CharSequence__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_CharSequence__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__O__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__O__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Double__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_Double__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Float__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_Float__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Long__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_Long__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__I__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__I__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Short__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_Short__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Byte__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_Byte__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__C__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__C__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__Ljava_lang_Boolean__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__Ljava_lang_Boolean__Ljava_lang_StringBuilder"]
+      }
+    },
+    "append__T__": {
+      "calledMethods": {
+        "java_lang_StringBuilder": ["append__T__Ljava_lang_StringBuilder"]
+      }
+    }
+  }
+}

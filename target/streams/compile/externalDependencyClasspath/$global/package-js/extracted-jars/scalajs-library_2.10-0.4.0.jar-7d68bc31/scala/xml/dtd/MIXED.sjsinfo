@@ -1,0 +1,110 @@
+{
+  "name": "scala.xml.dtd.MIXED",
+  "ancestorCount": 3,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_dtd_MIXED",
+  "superClass": "scala_xml_dtd_DFAContentModel",
+  "ancestors": ["scala_xml_dtd_MIXED", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_xml_dtd_DFAContentModel", "scala_xml_dtd_ContentModel", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "r__Lscala_util_regexp_Base$RegExp": {},
+    "buildString__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder": {
+      "calledMethods": {
+        "scala_collection_Seq": ["drop__I__O"],
+        "scala_Option": ["isEmpty__Z", "get__O"],
+        "scala_xml_dtd_ContentModel$": ["buildString__Lscala_util_regexp_Base$RegExp__Lscala_collection_mutable_StringBuilder__Lscala_collection_mutable_StringBuilder", "Alt__Lscala_util_regexp_Base$Alt$"],
+        "scala_MatchError": ["init___O"],
+        "scala_util_regexp_Base$Alt$": ["apply__Lscala_collection_Seq__Lscala_util_regexp_Base$Alt", "unapplySeq__Lscala_util_regexp_Base$Alt__Lscala_Some"],
+        "scala_collection_mutable_StringBuilder": ["append__T__Lscala_collection_mutable_StringBuilder"],
+        "scala_xml_dtd_MIXED": ["r__Lscala_util_regexp_Base$RegExp"]
+      },
+      "instantiatedClasses": ["scala_MatchError"],
+      "accessedModules": ["scala_xml_dtd_ContentModel"],
+      "accessedClassData": ["scala_util_regexp_Base$Alt", "scala_collection_Seq"]
+    },
+    "copy__Lscala_util_regexp_Base$RegExp__Lscala_xml_dtd_MIXED": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["init___Lscala_util_regexp_Base$RegExp"]
+      },
+      "instantiatedClasses": ["scala_xml_dtd_MIXED"]
+    },
+    "copy$default$1__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["r__Lscala_util_regexp_Base$RegExp"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["r__Lscala_util_regexp_Base$RegExp"],
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_xml_dtd_MIXED"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["canEqual__O__Z", "r__Lscala_util_regexp_Base$RegExp"]
+      },
+      "accessedClassData": ["scala_xml_dtd_MIXED"]
+    },
+    "init___Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_dtd_DFAContentModel": ["init___"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["productPrefix__T"]
+      }
+    },
+    "copy__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_xml_dtd_MIXED": ["copy__Lscala_util_regexp_Base$RegExp__Lscala_xml_dtd_MIXED"]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "java.lang.BootstrapMethodError",
+  "ancestorCount": 4,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_BootstrapMethodError",
+  "superClass": "java_lang_LinkageError",
+  "ancestors": ["java_lang_BootstrapMethodError", "java_lang_LinkageError", "java_lang_Error", "java_lang_Throwable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "init___T__Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_LinkageError": ["init___T"]
+      }
+    },
+    "init___Ljava_lang_Throwable": {
+      "calledMethodsStatic": {
+        "java_lang_BootstrapMethodError": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "init___T": {
+      "calledMethodsStatic": {
+        "java_lang_BootstrapMethodError": ["init___T__Ljava_lang_Throwable"]
+      }
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "java_lang_BootstrapMethodError": ["init___T__Ljava_lang_Throwable"]
+      }
+    }
+  }
+}

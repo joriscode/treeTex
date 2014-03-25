@@ -1,0 +1,47 @@
+{
+  "name": "scala.runtime.LongRef$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_LongRef$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_LongRef$", "scala_Serializable", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "create__J__Lscala_runtime_LongRef": {
+      "calledMethods": {
+        "scala_runtime_LongRef": ["init___J"]
+      },
+      "instantiatedClasses": ["scala_runtime_LongRef"]
+    },
+    "zero__Lscala_runtime_LongRef": {
+      "calledMethods": {
+        "scala_scalajs_runtime_Long$": ["apply__I__I__I__Lscala_scalajs_runtime_Long"],
+        "scala_runtime_LongRef": ["init___J"]
+      },
+      "instantiatedClasses": ["scala_runtime_LongRef"],
+      "accessedModules": ["scala_scalajs_runtime_Long"]
+    },
+    "readResolve__p1__O": {
+      "accessedModules": ["scala_runtime_LongRef"]
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "zero__": {
+      "calledMethods": {
+        "scala_runtime_LongRef$": ["zero__Lscala_runtime_LongRef"]
+      }
+    },
+    "create__J__": {
+      "calledMethods": {
+        "scala_runtime_LongRef$": ["create__J__Lscala_runtime_LongRef"]
+      }
+    }
+  }
+}

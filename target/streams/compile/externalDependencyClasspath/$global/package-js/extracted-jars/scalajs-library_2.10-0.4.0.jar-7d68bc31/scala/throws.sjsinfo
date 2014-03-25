@@ -1,0 +1,29 @@
+{
+  "name": "scala.throws",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_throws",
+  "superClass": "scala_annotation_Annotation",
+  "ancestors": ["scala_throws", "scala_annotation_StaticAnnotation", "scala_annotation_Annotation", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "init___T": {
+      "calledMethodsStatic": {
+        "scala_annotation_Annotation": ["init___"]
+      }
+    },
+    "init___Ljava_lang_Class": {
+      "calledMethods": {
+        "scala_throws$": ["$$lessinit$greater$default$1__T"]
+      },
+      "calledMethodsStatic": {
+        "scala_throws": ["init___T"]
+      },
+      "accessedModules": ["scala_throws"]
+    }
+  }
+}

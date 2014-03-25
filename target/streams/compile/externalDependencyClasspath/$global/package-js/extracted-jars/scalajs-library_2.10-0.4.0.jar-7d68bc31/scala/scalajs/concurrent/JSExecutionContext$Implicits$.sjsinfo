@@ -1,0 +1,36 @@
+{
+  "name": "scala.scalajs.concurrent.JSExecutionContext$Implicits$",
+  "ancestorCount": 1,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_scalajs_concurrent_JSExecutionContext$Implicits$",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_scalajs_concurrent_JSExecutionContext$Implicits$", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "runNow__Lscala_concurrent_ExecutionContext": {},
+    "queue__Lscala_concurrent_ExecutionContext": {},
+    "init___": {
+      "calledMethods": {
+        "scala_scalajs_concurrent_JSExecutionContext$": ["queue__Lscala_scalajs_concurrent_QueueExecutionContext$", "runNow__Lscala_scalajs_concurrent_RunNowExecutionContext$"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "accessedModules": ["scala_scalajs_concurrent_JSExecutionContext"]
+    },
+    "queue__": {
+      "calledMethods": {
+        "scala_scalajs_concurrent_JSExecutionContext$Implicits$": ["queue__Lscala_concurrent_ExecutionContext"]
+      }
+    },
+    "runNow__": {
+      "calledMethods": {
+        "scala_scalajs_concurrent_JSExecutionContext$Implicits$": ["runNow__Lscala_concurrent_ExecutionContext"]
+      }
+    }
+  }
+}

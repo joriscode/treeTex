@@ -1,0 +1,61 @@
+{
+  "name": "scala.util.regexp.PointedHedgeExp$Node$",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_regexp_PointedHedgeExp$Node$",
+  "superClass": "scala_runtime_AbstractFunction2",
+  "ancestors": ["scala_util_regexp_PointedHedgeExp$Node$", "scala_Serializable", "java_io_Serializable", "scala_runtime_AbstractFunction2", "scala_Function2", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "toString__T": {},
+    "apply__O__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_PointedHedgeExp$Node": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$Node": ["init___Lscala_util_regexp_PointedHedgeExp__O__Lscala_util_regexp_Base$RegExp"]
+      },
+      "instantiatedClasses": ["scala_util_regexp_PointedHedgeExp$Node"]
+    },
+    "unapply__Lscala_util_regexp_PointedHedgeExp$Node__Lscala_Option": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$Node": ["r__Lscala_util_regexp_Base$RegExp", "label__O"],
+        "scala_Some": ["init___O"],
+        "scala_Tuple2": ["init___O__O"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "readResolve__p2__O": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp": ["Node__Lscala_util_regexp_PointedHedgeExp$Node$"]
+      }
+    },
+    "apply__O__O__O": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$Node$": ["apply__O__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_PointedHedgeExp$Node"]
+      },
+      "accessedClassData": ["scala_util_regexp_Base$RegExp"]
+    },
+    "init___Lscala_util_regexp_PointedHedgeExp": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "scala_runtime_AbstractFunction2": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "unapply__Lscala_util_regexp_PointedHedgeExp$Node__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$Node$": ["unapply__Lscala_util_regexp_PointedHedgeExp$Node__Lscala_Option"]
+      }
+    },
+    "apply__O__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$Node$": ["apply__O__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_PointedHedgeExp$Node"]
+      }
+    }
+  }
+}

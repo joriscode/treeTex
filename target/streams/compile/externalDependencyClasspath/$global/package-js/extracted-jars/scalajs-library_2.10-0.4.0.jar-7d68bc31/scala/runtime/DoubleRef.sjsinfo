@@ -1,0 +1,39 @@
+{
+  "name": "scala.runtime.DoubleRef",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_runtime_DoubleRef",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_runtime_DoubleRef", "java_io_Serializable", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "elem__D": {},
+    "elem$und$eq__D__V": {},
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_DoubleRef": ["elem__D"],
+        "scala_scalajs_runtime_RuntimeString$": ["valueOf__D__T"]
+      },
+      "accessedModules": ["scala_scalajs_runtime_RuntimeString"]
+    },
+    "init___D": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "elem$und$eq__D__": {
+      "calledMethods": {
+        "scala_runtime_DoubleRef": ["elem$und$eq__D__V"]
+      }
+    },
+    "elem__": {
+      "calledMethods": {
+        "scala_runtime_DoubleRef": ["elem__D"]
+      }
+    }
+  }
+}

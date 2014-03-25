@@ -1,0 +1,128 @@
+{
+  "name": "scala.util.regexp.PointedHedgeExp$TopIter",
+  "ancestorCount": 2,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_util_regexp_PointedHedgeExp$TopIter",
+  "superClass": "scala_util_regexp_Base$RegExp",
+  "ancestors": ["scala_util_regexp_PointedHedgeExp$TopIter", "scala_Serializable", "java_io_Serializable", "scala_Product", "scala_Equals", "scala_util_regexp_Base$RegExp", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "r1__Lscala_util_regexp_Base$RegExp": {},
+    "r2__Lscala_util_regexp_Base$RegExp": {},
+    "isNullable__Z": {},
+    "copy__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_PointedHedgeExp$TopIter": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["scala$util$regexp$PointedHedgeExp$TopIter$$$outer__Lscala_util_regexp_PointedHedgeExp", "init___Lscala_util_regexp_PointedHedgeExp__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp"]
+      },
+      "instantiatedClasses": ["scala_util_regexp_PointedHedgeExp$TopIter"]
+    },
+    "copy$default$1__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["r1__Lscala_util_regexp_Base$RegExp"]
+      }
+    },
+    "copy$default$2__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["r2__Lscala_util_regexp_Base$RegExp"]
+      }
+    },
+    "productPrefix__T": {},
+    "productArity__I": {},
+    "productElement__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["r2__Lscala_util_regexp_Base$RegExp", "r1__Lscala_util_regexp_Base$RegExp"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "productIterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["typedProductIterator__Lscala_Product__Lscala_collection_Iterator"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "canEqual__O__Z": {
+      "accessedClassData": ["scala_util_regexp_PointedHedgeExp$TopIter"]
+    },
+    "hashCode__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undhashCode__Lscala_Product__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "toString__T": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["$$undtoString__Lscala_Product__T"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "equals__O__Z": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["scala$util$regexp$PointedHedgeExp$TopIter$$$outer__Lscala_util_regexp_PointedHedgeExp", "r2__Lscala_util_regexp_Base$RegExp", "r1__Lscala_util_regexp_Base$RegExp", "canEqual__O__Z"]
+      },
+      "accessedClassData": ["scala_util_regexp_PointedHedgeExp$TopIter"]
+    },
+    "scala$util$regexp$PointedHedgeExp$TopIter$$$outer__Lscala_util_regexp_PointedHedgeExp": {
+      "accessedClassData": ["scala_util_regexp_PointedHedgeExp"]
+    },
+    "init___Lscala_util_regexp_PointedHedgeExp__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp": {
+      "calledMethods": {
+        "scala_util_regexp_Base$RegExp": ["isNullable__Z"],
+        "scala_Product$class": ["scala_Product$class__$init$__Lscala_Product__V"]
+      },
+      "calledMethodsStatic": {
+        "scala_util_regexp_Base$RegExp": ["init___Lscala_util_regexp_Base"]
+      }
+    },
+    "scala$util$regexp$PointedHedgeExp$TopIter$$$outer__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["scala$util$regexp$PointedHedgeExp$TopIter$$$outer__Lscala_util_regexp_PointedHedgeExp"]
+      }
+    },
+    "canEqual__O__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["canEqual__O__Z"]
+      }
+    },
+    "productIterator__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["productIterator__Lscala_collection_Iterator"]
+      }
+    },
+    "productElement__I__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["productElement__I__O"]
+      }
+    },
+    "productArity__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["productArity__I"]
+      }
+    },
+    "productPrefix__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["productPrefix__T"]
+      }
+    },
+    "copy__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["copy__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_Base$RegExp__Lscala_util_regexp_PointedHedgeExp$TopIter"]
+      }
+    },
+    "r2__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["r2__Lscala_util_regexp_Base$RegExp"]
+      }
+    },
+    "r1__": {
+      "calledMethods": {
+        "scala_util_regexp_PointedHedgeExp$TopIter": ["r1__Lscala_util_regexp_Base$RegExp"]
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "scala.reflect.ClassTag$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_reflect_ClassTag$class",
+  "superClass": "",
+  "ancestors": ["scala_reflect_ClassTag$class"],
+  "isExported": false,
+  "methods": {
+    "scala_reflect_ClassTag$class__wrap__Lscala_reflect_ClassTag__Lscala_reflect_ClassTag": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$": ["apply__Ljava_lang_Class__Lscala_reflect_ClassTag"],
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class", "arrayClass__Ljava_lang_Class__Ljava_lang_Class"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__newArray__Lscala_reflect_ClassTag__I__O": {
+      "calledMethods": {
+        "java_lang_Integer$": ["TYPE__Ljava_lang_Class"],
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"],
+        "java_lang_Short$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Byte$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Boolean$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Float$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Void$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Character$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_Long$": ["TYPE__Ljava_lang_Class"],
+        "java_lang_reflect_Array$": ["newInstance__Ljava_lang_Class__I__O"],
+        "java_lang_Double$": ["TYPE__Ljava_lang_Class"]
+      },
+      "accessedModules": ["java_lang_Boolean", "java_lang_Float", "java_lang_Byte", "java_lang_Integer", "java_lang_Long", "java_lang_Void", "java_lang_reflect_Array", "java_lang_Character", "java_lang_Double", "java_lang_Short"],
+      "accessedClassData": ["scala_runtime_BoxedUnit"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Any__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__B__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Byte__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__S__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Short__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__C__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Char__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__I__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Int__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__J__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Long__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__F__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Float__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__D__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Double__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__Z__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Boolean__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply__Lscala_reflect_ClassTag__Lscala_runtime_BoxedUnit__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option"],
+        "scala_reflect_ClassTag$": ["Unit__Lscala_reflect_ClassTag"]
+      },
+      "accessedModules": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__unapply$undimpl__Lscala_reflect_ClassTag__O__Lscala_reflect_ClassTag__Lscala_Option": {
+      "calledMethods": {
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"],
+        "java_lang_Class": ["isAssignableFrom__Ljava_lang_Class__Z", "isPrimitive__Z"],
+        "java_lang_Object": ["getClass__Ljava_lang_Class"],
+        "scala_Some": ["init___O"],
+        "scala_reflect_package$": ["classTag__Lscala_reflect_ClassTag__Lscala_reflect_ClassTag"]
+      },
+      "instantiatedClasses": ["scala_Some"],
+      "accessedModules": ["scala_None", "scala_reflect_package"]
+    },
+    "scala_reflect_ClassTag$class__canEqual__Lscala_reflect_ClassTag__O__Z": {
+      "accessedClassData": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__equals__Lscala_reflect_ClassTag__O__Z": {
+      "calledMethods": {
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"]
+      },
+      "accessedClassData": ["scala_reflect_ClassTag"]
+    },
+    "scala_reflect_ClassTag$class__hashCode__Lscala_reflect_ClassTag__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"],
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "scala_reflect_ClassTag$class__toString__Lscala_reflect_ClassTag__T": {
+      "calledMethods": {
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__prettyprint$1__Lscala_reflect_ClassTag__Ljava_lang_Class__T"],
+        "scala_reflect_ClassTag": ["runtimeClass__Ljava_lang_Class"]
+      }
+    },
+    "scala_reflect_ClassTag$class__prettyprint$1__Lscala_reflect_ClassTag__Ljava_lang_Class__T": {
+      "calledMethods": {
+        "scala_Predef$": ["genericWrapArray__O__Lscala_collection_mutable_WrappedArray", "wrapRefArray__AO__Lscala_collection_mutable_WrappedArray"],
+        "scala_StringContext": ["s__Lscala_collection_Seq__T", "init___Lscala_collection_Seq"],
+        "java_lang_Class": ["isArray__Z", "getName__T"],
+        "scala_reflect_ClassTag$class": ["scala_reflect_ClassTag$class__prettyprint$1__Lscala_reflect_ClassTag__Ljava_lang_Class__T"],
+        "scala_runtime_ScalaRunTime$": ["arrayElementClass__O__Ljava_lang_Class"]
+      },
+      "instantiatedClasses": ["scala_StringContext"],
+      "accessedModules": ["scala_Predef", "scala_runtime_ScalaRunTime"],
+      "accessedClassData": ["java_lang_Object", "java_lang_String"]
+    },
+    "scala_reflect_ClassTag$class__$init$__Lscala_reflect_ClassTag__V": {}
+  }
+}

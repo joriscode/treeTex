@@ -1,0 +1,99 @@
+{
+  "name": "scala.collection.IterableProxyLike$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_IterableProxyLike$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_IterableProxyLike$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_IterableProxyLike$class__iterator__Lscala_collection_IterableProxyLike__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["iterator__Lscala_collection_Iterator"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__grouped__Lscala_collection_IterableProxyLike__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["grouped__I__Lscala_collection_Iterator"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__sliding__Lscala_collection_IterableProxyLike__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["sliding__I__Lscala_collection_Iterator"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__sliding__Lscala_collection_IterableProxyLike__I__I__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["sliding__I__I__Lscala_collection_Iterator"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__takeRight__Lscala_collection_IterableProxyLike__I__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["takeRight__I__O"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike", "scala_collection_Iterable"]
+    },
+    "scala_collection_IterableProxyLike$class__dropRight__Lscala_collection_IterableProxyLike__I__Lscala_collection_Iterable": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["dropRight__I__O"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike", "scala_collection_Iterable"]
+    },
+    "scala_collection_IterableProxyLike$class__zip__Lscala_collection_IterableProxyLike__Lscala_collection_GenIterable__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["zip__Lscala_collection_GenIterable__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__zipAll__Lscala_collection_IterableProxyLike__Lscala_collection_GenIterable__O__O__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["zipAll__Lscala_collection_GenIterable__O__O__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__zipWithIndex__Lscala_collection_IterableProxyLike__Lscala_collection_generic_CanBuildFrom__O": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["zipWithIndex__Lscala_collection_generic_CanBuildFrom__O"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__sameElements__Lscala_collection_IterableProxyLike__Lscala_collection_GenIterable__Z": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["sameElements__Lscala_collection_GenIterable__Z"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__view__Lscala_collection_IterableProxyLike__Lscala_collection_IterableView": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["view__Lscala_collection_IterableView"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__view__Lscala_collection_IterableProxyLike__I__I__Lscala_collection_IterableView": {
+      "calledMethods": {
+        "scala_collection_IterableProxyLike": ["self__Lscala_collection_Traversable"],
+        "scala_collection_IterableLike": ["view__I__I__Lscala_collection_IterableView"]
+      },
+      "accessedClassData": ["scala_collection_IterableLike"]
+    },
+    "scala_collection_IterableProxyLike$class__$init$__Lscala_collection_IterableProxyLike__V": {}
+  }
+}

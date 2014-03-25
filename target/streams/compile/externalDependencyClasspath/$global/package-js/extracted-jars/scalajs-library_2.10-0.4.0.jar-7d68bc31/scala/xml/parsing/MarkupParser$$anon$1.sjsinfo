@@ -1,0 +1,30 @@
+{
+  "name": "scala.xml.parsing.MarkupParser$$anon$1",
+  "ancestorCount": 5,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_xml_parsing_MarkupParser$$anon$1",
+  "superClass": "scala_xml_NodeSeq",
+  "ancestors": ["scala_xml_parsing_MarkupParser$$anon$1", "scala_xml_NodeSeq", "scala_xml_Equality", "scala_collection_immutable_Seq", "scala_collection_immutable_Iterable", "scala_collection_immutable_Traversable", "scala_Immutable", "scala_collection_AbstractSeq", "scala_collection_Seq", "scala_collection_SeqLike", "scala_collection_GenSeq", "scala_collection_GenSeqLike", "scala_PartialFunction", "scala_Function1", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "theSeq__Lscala_collection_immutable_List": {},
+    "theSeq__Lscala_collection_Seq": {
+      "calledMethods": {
+        "scala_xml_parsing_MarkupParser$$anon$1": ["theSeq__Lscala_collection_immutable_List"]
+      }
+    },
+    "init___Lscala_xml_parsing_MarkupHandler__Lscala_runtime_ObjectRef": {
+      "calledMethods": {
+        "scala_xml_NodeBuffer": ["toList__Lscala_collection_immutable_List"]
+      },
+      "calledMethodsStatic": {
+        "scala_xml_NodeSeq": ["init___"]
+      },
+      "accessedClassData": ["scala_xml_NodeBuffer"]
+    }
+  }
+}

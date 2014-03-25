@@ -1,0 +1,44 @@
+{
+  "name": "scala.collection.GenSeqViewLike$Sliced$class",
+  "ancestorCount": 0,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": true,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_GenSeqViewLike$Sliced$class",
+  "superClass": "",
+  "ancestors": ["scala_collection_GenSeqViewLike$Sliced$class"],
+  "isExported": false,
+  "methods": {
+    "scala_collection_GenSeqViewLike$Sliced$class__length__Lscala_collection_GenSeqViewLike$Sliced__I": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["size__I"],
+        "scala_collection_GenSeqViewLike$Sliced": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Sliced$class__apply__Lscala_collection_GenSeqViewLike$Sliced__I__O": {
+      "calledMethods": {
+        "java_lang_IndexOutOfBoundsException": ["init___T"],
+        "scala_collection_GenSeqViewLike": ["apply__I__O"],
+        "scala_collection_GenSeqViewLike$Sliced": ["until__I", "scala$collection$GenSeqViewLike$Sliced$$$outer__Lscala_collection_GenSeqViewLike", "from__I"],
+        "java_lang_Object": ["toString__T"]
+      },
+      "instantiatedClasses": ["java_lang_IndexOutOfBoundsException"]
+    },
+    "scala_collection_GenSeqViewLike$Sliced$class__foreach__Lscala_collection_GenSeqViewLike$Sliced__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["foreach__Lscala_Function1__V"],
+        "scala_collection_GenSeqViewLike$Sliced": ["iterator__Lscala_collection_Iterator"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Sliced$class__iterator__Lscala_collection_GenSeqViewLike$Sliced__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_Iterator": ["take__I__Lscala_collection_Iterator", "drop__I__Lscala_collection_Iterator"],
+        "scala_collection_GenSeqViewLike": ["iterator__Lscala_collection_Iterator"],
+        "scala_collection_GenSeqViewLike$Sliced": ["scala$collection$GenSeqViewLike$Sliced$$$outer__Lscala_collection_GenSeqViewLike", "from__I", "endpoints__Lscala_collection_generic_SliceInterval"],
+        "scala_collection_generic_SliceInterval": ["width__I"]
+      }
+    },
+    "scala_collection_GenSeqViewLike$Sliced$class__$init$__Lscala_collection_GenSeqViewLike$Sliced__V": {}
+  }
+}

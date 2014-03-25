@@ -1,0 +1,131 @@
+{
+  "name": "scala.concurrent.ThreadRunner",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_concurrent_ThreadRunner",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_concurrent_ThreadRunner", "scala_concurrent_FutureTaskRunner", "scala_concurrent_TaskRunner", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "functionAsTask__Lscala_Function0__Lscala_Function0": {},
+    "futureAsFunction__Lscala_Function0__Lscala_Function0": {},
+    "scala$concurrent$ThreadRunner$$tryCatch__Lscala_Function0__Lscala_util_Either": {
+      "calledMethods": {
+        "scala_package$": ["Left__Lscala_util_Left$", "Right__Lscala_util_Right$"],
+        "scala_util_Left$": ["apply__O__Lscala_util_Left"],
+        "scala_util_Right$": ["apply__O__Lscala_util_Right"],
+        "scala_Function0": ["apply__O"]
+      },
+      "accessedModules": ["scala_package"],
+      "accessedClassData": ["java_lang_Exception"]
+    },
+    "execute__Lscala_Function0__V": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner$$anon$1": ["init___Lscala_concurrent_ThreadRunner__Lscala_Function0"],
+        "java_lang_Thread": ["start__V", "init___Ljava_lang_Runnable"]
+      },
+      "instantiatedClasses": ["scala_concurrent_ThreadRunner$$anon$1", "java_lang_Thread"]
+    },
+    "submit__Lscala_Function0__Lscala_Function0": {
+      "calledMethods": {
+        "scala_util_Either": ["fold__Lscala_Function1__Lscala_Function1__O"],
+        "scala_concurrent_SyncVar": ["init___", "get__O"],
+        "scala_concurrent_ThreadRunner$$anon$2": ["init___Lscala_concurrent_ThreadRunner__Lscala_Function0__Lscala_concurrent_SyncVar"],
+        "scala_concurrent_ThreadRunner$$anonfun$submit$1$$anonfun$apply$1": ["init___Lscala_concurrent_ThreadRunner$$anonfun$submit$1"],
+        "java_lang_Thread": ["start__V", "init___Ljava_lang_Runnable"],
+        "scala_scalajs_runtime_AnonFunction0": ["init___Lscala_scalajs_js_Function0"],
+        "scala_concurrent_ThreadRunner$$anonfun$submit$1$$anonfun$apply$2": ["init___Lscala_concurrent_ThreadRunner$$anonfun$submit$1"]
+      },
+      "instantiatedClasses": ["scala_concurrent_ThreadRunner$$anonfun$submit$1$$anonfun$apply$1", "scala_concurrent_SyncVar", "scala_concurrent_ThreadRunner$$anonfun$submit$1$$anonfun$apply$2", "scala_scalajs_runtime_AnonFunction0", "scala_concurrent_ThreadRunner$$anon$2", "java_lang_Thread"],
+      "accessedClassData": ["scala_util_Either"]
+    },
+    "managedBlock__Lscala_concurrent_ManagedBlocker__V": {
+      "calledMethods": {
+        "scala_concurrent_ManagedBlocker": ["block__Z"]
+      }
+    },
+    "shutdown__V": {},
+    "submit__O__O": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["submit__Lscala_Function0__Lscala_Function0"]
+      },
+      "accessedClassData": ["scala_Function0"]
+    },
+    "execute__O__V": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["execute__Lscala_Function0__V"]
+      },
+      "accessedClassData": ["scala_Function0"]
+    },
+    "futureAsFunction__O__Lscala_Function0": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["futureAsFunction__Lscala_Function0__Lscala_Function0"]
+      },
+      "accessedClassData": ["scala_Function0"]
+    },
+    "functionAsTask__Lscala_Function0__O": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["functionAsTask__Lscala_Function0__Lscala_Function0"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "shutdown__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["shutdown__V"]
+      }
+    },
+    "managedBlock__Lscala_concurrent_ManagedBlocker__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["managedBlock__Lscala_concurrent_ManagedBlocker__V"]
+      }
+    },
+    "submit__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["submit__Lscala_Function0__Lscala_Function0"]
+      }
+    },
+    "execute__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["execute__Lscala_Function0__V"]
+      }
+    },
+    "scala$concurrent$ThreadRunner$$tryCatch__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["scala$concurrent$ThreadRunner$$tryCatch__Lscala_Function0__Lscala_util_Either"]
+      }
+    },
+    "futureAsFunction__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["futureAsFunction__Lscala_Function0__Lscala_Function0"]
+      }
+    },
+    "functionAsTask__Lscala_Function0__": {
+      "calledMethods": {
+        "scala_concurrent_ThreadRunner": ["functionAsTask__Lscala_Function0__Lscala_Function0"]
+      }
+    },
+    "submit__O__": {
+      "calledMethods": {
+        "scala_concurrent_FutureTaskRunner": ["submit__O__O"]
+      }
+    },
+    "futureAsFunction__O__": {
+      "calledMethods": {
+        "scala_concurrent_FutureTaskRunner": ["futureAsFunction__O__Lscala_Function0"]
+      }
+    },
+    "execute__O__": {
+      "calledMethods": {
+        "scala_concurrent_TaskRunner": ["execute__O__V"]
+      }
+    }
+  }
+}

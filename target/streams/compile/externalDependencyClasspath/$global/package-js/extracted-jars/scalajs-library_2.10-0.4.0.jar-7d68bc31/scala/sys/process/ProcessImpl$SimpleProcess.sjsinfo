@@ -1,0 +1,58 @@
+{
+  "name": "scala.sys.process.ProcessImpl$SimpleProcess",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_sys_process_ProcessImpl$SimpleProcess",
+  "superClass": "java_lang_Object",
+  "ancestors": ["scala_sys_process_ProcessImpl$SimpleProcess", "scala_sys_process_Process", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "exitValue__I": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["foreach__Lscala_Function1__V"],
+        "java_lang_Thread": ["join__V", "interrupt__V"],
+        "java_lang_Process": ["exitValue__I", "waitFor__I"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "destroy__V": {
+      "calledMethods": {
+        "scala_collection_immutable_List": ["foreach__Lscala_Function1__V"],
+        "java_lang_Thread": ["stop__V", "interrupt__V"],
+        "java_lang_Process": ["destroy__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"]
+    },
+    "scala$sys$process$ProcessImpl$SimpleProcess$$$outer__Lscala_sys_process_Process$": {},
+    "init___Lscala_sys_process_Process$__Ljava_lang_Process__Ljava_lang_Thread__Lscala_collection_immutable_List": {
+      "calledMethods": {
+        "java_lang_NullPointerException": ["init___"]
+      },
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      },
+      "instantiatedClasses": ["java_lang_NullPointerException"]
+    },
+    "scala$sys$process$ProcessImpl$SimpleProcess$$$outer__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$SimpleProcess": ["scala$sys$process$ProcessImpl$SimpleProcess$$$outer__Lscala_sys_process_Process$"]
+      }
+    },
+    "destroy__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$SimpleProcess": ["destroy__V"]
+      }
+    },
+    "exitValue__": {
+      "calledMethods": {
+        "scala_sys_process_ProcessImpl$SimpleProcess": ["exitValue__I"]
+      }
+    }
+  }
+}

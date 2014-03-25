@@ -1,0 +1,44 @@
+{
+  "name": "java.lang.ref.Reference",
+  "ancestorCount": 1,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "java_lang_ref_Reference",
+  "superClass": "java_lang_Object",
+  "ancestors": ["java_lang_ref_Reference", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "get__O": {},
+    "clear__V": {},
+    "isEnqueued__Z": {},
+    "enqueue__Z": {},
+    "init___O": {
+      "calledMethodsStatic": {
+        "java_lang_Object": ["init___"]
+      }
+    },
+    "enqueue__": {
+      "calledMethods": {
+        "java_lang_ref_Reference": ["enqueue__Z"]
+      }
+    },
+    "isEnqueued__": {
+      "calledMethods": {
+        "java_lang_ref_Reference": ["isEnqueued__Z"]
+      }
+    },
+    "clear__": {
+      "calledMethods": {
+        "java_lang_ref_Reference": ["clear__V"]
+      }
+    },
+    "get__": {
+      "calledMethods": {
+        "java_lang_ref_Reference": ["get__O"]
+      }
+    }
+  }
+}

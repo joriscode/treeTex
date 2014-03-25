@@ -1,0 +1,49 @@
+{
+  "name": "scala.collection.IndexedSeq$",
+  "ancestorCount": 5,
+  "isStaticModule": true,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_IndexedSeq$",
+  "superClass": "scala_collection_generic_SeqFactory",
+  "ancestors": ["scala_collection_IndexedSeq$", "scala_collection_generic_SeqFactory", "scala_collection_generic_TraversableFactory", "scala_collection_generic_GenericSeqCompanion", "scala_collection_generic_GenSeqFactory", "scala_collection_generic_GenTraversableFactory", "scala_collection_generic_GenericCompanion", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "ReusableCBF$lzycompute__p5__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": {
+      "calledMethods": {
+        "scala_runtime_BoxedUnit$": ["UNIT__Lscala_runtime_BoxedUnit"],
+        "scala_collection_IndexedSeq$$anon$1": ["init___"]
+      },
+      "instantiatedClasses": ["scala_collection_IndexedSeq$$anon$1"],
+      "accessedModules": ["scala_runtime_BoxedUnit"]
+    },
+    "ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_IndexedSeq$": ["ReusableCBF$lzycompute__p5__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "newBuilder__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_immutable_IndexedSeq$": ["newBuilder__Lscala_collection_mutable_Builder"]
+      },
+      "accessedModules": ["scala_collection_immutable_IndexedSeq"]
+    },
+    "canBuildFrom__Lscala_collection_generic_CanBuildFrom": {
+      "calledMethods": {
+        "scala_collection_IndexedSeq$": ["ReusableCBF__Lscala_collection_generic_GenTraversableFactory$GenericCanBuildFrom"]
+      }
+    },
+    "init___": {
+      "calledMethods": {
+        "scala_collection_generic_SeqFactory": ["init___"]
+      }
+    },
+    "canBuildFrom__": {
+      "calledMethods": {
+        "scala_collection_IndexedSeq$": ["canBuildFrom__Lscala_collection_generic_CanBuildFrom"]
+      }
+    }
+  }
+}

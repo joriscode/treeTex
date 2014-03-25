@@ -1,0 +1,435 @@
+{
+  "name": "scala.collection.mutable.OpenHashMap",
+  "ancestorCount": 5,
+  "isStaticModule": false,
+  "isInterface": false,
+  "isImplClass": false,
+  "isRawJSType": false,
+  "encodedName": "scala_collection_mutable_OpenHashMap",
+  "superClass": "scala_collection_mutable_AbstractMap",
+  "ancestors": ["scala_collection_mutable_OpenHashMap", "scala_collection_mutable_AbstractMap", "scala_collection_mutable_Map", "scala_collection_mutable_MapLike", "scala_collection_mutable_Cloneable", "scala_Cloneable", "java_lang_Cloneable", "scala_collection_generic_Shrinkable", "scala_collection_mutable_Builder", "scala_collection_generic_Growable", "scala_collection_generic_Clearable", "scala_collection_mutable_Iterable", "scala_collection_mutable_Traversable", "scala_Mutable", "scala_collection_AbstractMap", "scala_collection_Map", "scala_collection_MapLike", "scala_collection_generic_Subtractable", "scala_PartialFunction", "scala_Function1", "scala_collection_GenMap", "scala_collection_GenMapLike", "scala_collection_AbstractIterable", "scala_collection_Iterable", "scala_collection_IterableLike", "scala_Equals", "scala_collection_GenIterable", "scala_collection_GenIterableLike", "scala_collection_AbstractTraversable", "scala_collection_Traversable", "scala_collection_GenTraversable", "scala_collection_generic_GenericTraversableTemplate", "scala_collection_TraversableLike", "scala_collection_GenTraversableLike", "scala_collection_Parallelizable", "scala_collection_TraversableOnce", "scala_collection_GenTraversableOnce", "scala_collection_generic_FilterMonadic", "scala_collection_generic_HasNewBuilder", "java_lang_Object"],
+  "isExported": false,
+  "methods": {
+    "__init__": {},
+    "empty__Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$": ["empty__Lscala_collection_mutable_OpenHashMap"]
+      },
+      "accessedModules": ["scala_collection_mutable_OpenHashMap"]
+    },
+    "scala$collection$mutable$OpenHashMap$$mask__I": {},
+    "scala$collection$mutable$OpenHashMap$$mask$und$eq__p5__I__V": {},
+    "scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry": {},
+    "scala$collection$mutable$OpenHashMap$$table$und$eq__p5__ALscala_collection_mutable_OpenHashMap$OpenEntry__V": {},
+    "$$undsize__p5__I": {},
+    "$$undsize$und$eq__p5__I__V": {},
+    "scala$collection$mutable$OpenHashMap$$deleted__I": {},
+    "scala$collection$mutable$OpenHashMap$$deleted$und$eq__I__V": {},
+    "size__I": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$undsize__p5__I"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$size$und$eq__I__V": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$undsize$und$eq__p5__I__V"]
+      }
+    },
+    "hashOf__O__I": {
+      "calledMethods": {
+        "scala_runtime_ScalaRunTime$": ["hash__O__I"]
+      },
+      "accessedModules": ["scala_runtime_ScalaRunTime"]
+    },
+    "growTable__p5__V": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["foreach__Lscala_Function1__V"],
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$mask__I", "scala$collection$mutable$OpenHashMap$$deleted$und$eq__I__V", "scala$collection$mutable$OpenHashMap$$table$und$eq__p5__ALscala_collection_mutable_OpenHashMap$OpenEntry__V", "scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry", "scala$collection$mutable$OpenHashMap$$mask$und$eq__p5__I__V", "scala$collection$mutable$OpenHashMap$$addEntry__Lscala_collection_mutable_OpenHashMap$OpenEntry__V"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef", "scala_None"],
+      "accessedClassData": ["scala_collection_mutable_OpenHashMap$OpenEntry", "java_lang_Object"]
+    },
+    "findIndex__p5__O__I": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["findIndex__p5__O__I__I", "hashOf__O__I"]
+      }
+    },
+    "findIndex__p5__O__I__I": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$mask__I", "scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["hash__I", "key__O"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$addEntry__Lscala_collection_mutable_OpenHashMap$OpenEntry__V": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["findIndex__p5__O__I__I", "scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["hash__I", "key__O"]
+      }
+    },
+    "update__O__O__V": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["hashOf__O__I", "scala$collection$mutable$OpenHashMap$$put__O__I__O__Lscala_Option"]
+      }
+    },
+    "$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["put__O__O__Lscala_Option"],
+        "scala_Tuple2": ["$$und1__O", "$$und2__O"]
+      }
+    },
+    "$$minus$eq__O__Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["remove__O__Lscala_Option"]
+      }
+    },
+    "put__O__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["hashOf__O__I", "scala$collection$mutable$OpenHashMap$$put__O__I__O__Lscala_Option"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$put__O__I__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$mask__I", "findIndex__p5__O__I__I", "size__I", "growTable__p5__V", "scala$collection$mutable$OpenHashMap$$deleted__I", "scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry", "scala$collection$mutable$OpenHashMap$$size$und$eq__I__V"],
+        "scala_Some": ["init___O"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option", "init___O__I__Lscala_Option", "value$und$eq__Lscala_Option__V"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_OpenHashMap$OpenEntry", "scala_Some"],
+      "accessedModules": ["scala_None"]
+    },
+    "remove__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["size__I", "findIndex__p5__O__I", "scala$collection$mutable$OpenHashMap$$deleted__I", "scala$collection$mutable$OpenHashMap$$deleted$und$eq__I__V", "scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry", "scala$collection$mutable$OpenHashMap$$size$und$eq__I__V"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option", "value$und$eq__Lscala_Option__V"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "get__O__Lscala_Option": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$mask__I", "scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry", "hashOf__O__I"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option", "hash__I", "key__O"]
+      },
+      "accessedModules": ["scala_None"]
+    },
+    "iterator__Lscala_collection_Iterator": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$$anon$1": ["init___Lscala_collection_mutable_OpenHashMap"]
+      },
+      "instantiatedClasses": ["scala_collection_mutable_OpenHashMap$$anon$1"]
+    },
+    "clone__Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["foreachUndeletedEntry__p5__Lscala_Function1__V", "init___", "scala$collection$mutable$OpenHashMap$$put__O__I__O__Lscala_Option"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option", "hash__I", "key__O"],
+        "scala_Option": ["get__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_collection_mutable_OpenHashMap"]
+    },
+    "foreach__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Function1": ["apply__O__O"],
+        "scala_Option": ["get__O"],
+        "scala_sys_package$": ["error__T__Lscala_Nothing"],
+        "scala_collection_mutable_OpenHashMap": ["foreachUndeletedEntry__p5__Lscala_Function1__V"],
+        "scala_Tuple2": ["init___O__O"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option", "key__O"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_Tuple2", "scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_sys_package"]
+    },
+    "foreachUndeletedEntry__p5__Lscala_Function1__V": {
+      "calledMethods": {
+        "scala_Predef$": ["refArrayOps__AO__Lscala_collection_mutable_ArrayOps"],
+        "scala_collection_mutable_ArrayOps": ["foreach__Lscala_Function1__V"],
+        "scala_Function1": ["apply__O__O"],
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_Predef", "scala_None"],
+      "accessedClassData": ["java_lang_Object"]
+    },
+    "transform__Lscala_Function2__Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "scala_Option": ["get__O"],
+        "scala_collection_mutable_OpenHashMap": ["foreachUndeletedEntry__p5__Lscala_Function1__V"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option", "key__O", "value$und$eq__Lscala_Option__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Function2": ["apply__O__O__O"],
+        "scala_Some": ["init___O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1", "scala_Some"]
+    },
+    "retain__Lscala_Function2__Lscala_collection_mutable_OpenHashMap": {
+      "calledMethods": {
+        "scala_Option": ["get__O"],
+        "scala_collection_mutable_OpenHashMap": ["foreachUndeletedEntry__p5__Lscala_Function1__V", "size__I", "scala$collection$mutable$OpenHashMap$$deleted$und$eq__I__V", "scala$collection$mutable$OpenHashMap$$deleted__I", "scala$collection$mutable$OpenHashMap$$size$und$eq__I__V"],
+        "scala_collection_mutable_OpenHashMap$OpenEntry": ["value__Lscala_Option", "key__O", "value$und$eq__Lscala_Option__V"],
+        "scala_scalajs_runtime_AnonFunction1": ["init___Lscala_scalajs_js_Function1"],
+        "scala_Function2": ["apply__O__O__O"]
+      },
+      "instantiatedClasses": ["scala_scalajs_runtime_AnonFunction1"],
+      "accessedModules": ["scala_None"]
+    },
+    "stringPrefix__T": {},
+    "toTraversable__Lscala_collection_GenTraversable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["toTraversable__Lscala_collection_Traversable"]
+      }
+    },
+    "groupBy__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["groupBy__Lscala_Function1__Lscala_collection_immutable_Map"]
+      }
+    },
+    "repr__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["repr__O"]
+      },
+      "accessedClassData": ["scala_collection_generic_Subtractable"]
+    },
+    "view__I__I__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["view__I__I__Lscala_collection_IterableView"]
+      }
+    },
+    "view__Lscala_collection_TraversableView": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["view__Lscala_collection_IterableView"]
+      }
+    },
+    "toIterable__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["toIterable__Lscala_collection_Iterable"]
+      }
+    },
+    "toCollection__O__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["toCollection__O__Lscala_collection_Iterable"]
+      }
+    },
+    "thisCollection__Lscala_collection_Traversable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["thisCollection__Lscala_collection_Iterable"]
+      }
+    },
+    "toSeq__Lscala_collection_GenSeq": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["toSeq__Lscala_collection_Seq"]
+      }
+    },
+    "filterNot__Lscala_Function1__O": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["filterNot__Lscala_Function1__Lscala_collection_Map"]
+      }
+    },
+    "mapValues__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["mapValues__Lscala_Function1__Lscala_collection_Map"]
+      }
+    },
+    "filterKeys__Lscala_Function1__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["filterKeys__Lscala_Function1__Lscala_collection_Map"]
+      }
+    },
+    "values__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["values__Lscala_collection_Iterable"]
+      }
+    },
+    "keys__Lscala_collection_GenIterable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["keys__Lscala_collection_Iterable"]
+      }
+    },
+    "keySet__Lscala_collection_GenSet": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["keySet__Lscala_collection_Set"]
+      }
+    },
+    "$$minus$minus__Lscala_collection_GenTraversableOnce__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$minus$minus__Lscala_collection_GenTraversableOnce__Lscala_collection_mutable_Map"]
+      }
+    },
+    "$$minus__O__O__Lscala_collection_Seq__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$minus__O__O__Lscala_collection_Seq__Lscala_collection_mutable_Map"]
+      }
+    },
+    "result__O": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["result__Lscala_collection_mutable_Map"]
+      }
+    },
+    "$$minus__O__O": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$minus__O__Lscala_collection_mutable_Map"]
+      }
+    },
+    "$$minus__O__Lscala_collection_generic_Subtractable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$minus__O__Lscala_collection_mutable_Map"]
+      }
+    },
+    "$$minus__O__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$minus__O__Lscala_collection_mutable_Map"]
+      }
+    },
+    "$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$plus$plus__Lscala_collection_GenTraversableOnce__Lscala_collection_mutable_Map"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_Tuple2__Lscala_collection_Seq__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$plus__Lscala_Tuple2__Lscala_Tuple2__Lscala_collection_Seq__Lscala_collection_mutable_Map"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$plus__Lscala_Tuple2__Lscala_collection_mutable_Map"]
+      }
+    },
+    "$$plus__Lscala_Tuple2__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$plus__Lscala_Tuple2__Lscala_collection_mutable_Map"]
+      }
+    },
+    "updated__O__O__Lscala_collection_GenMap": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["updated__O__O__Lscala_collection_mutable_Map"]
+      }
+    },
+    "updated__O__O__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["updated__O__O__Lscala_collection_mutable_Map"]
+      }
+    },
+    "seq__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["seq__Lscala_collection_mutable_Map"]
+      }
+    },
+    "retain__Lscala_Function2__Lscala_collection_mutable_MapLike": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["retain__Lscala_Function2__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "transform__Lscala_Function2__Lscala_collection_mutable_MapLike": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["transform__Lscala_Function2__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "clone__O": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["clone__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "clone__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["clone__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "$$minus$eq__O__Lscala_collection_generic_Shrinkable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$minus$eq__O__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "$$minus$eq__O__Lscala_collection_mutable_MapLike": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$minus$eq__O__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "$$plus$eq__O__Lscala_collection_generic_Growable": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_OpenHashMap"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "$$plus$eq__O__Lscala_collection_mutable_Builder": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_OpenHashMap"]
+      },
+      "accessedClassData": ["scala_Tuple2"]
+    },
+    "$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_MapLike": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["$$plus$eq__Lscala_Tuple2__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "empty__Lscala_collection_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["empty__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "empty__Lscala_collection_mutable_Map": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["empty__Lscala_collection_mutable_OpenHashMap"]
+      }
+    },
+    "init___I": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap$": ["nextPowerOfTwo__I__I"]
+      },
+      "calledMethodsStatic": {
+        "scala_collection_mutable_AbstractMap": ["init___"]
+      },
+      "accessedModules": ["scala_collection_mutable_OpenHashMap"],
+      "accessedClassData": ["scala_collection_mutable_OpenHashMap$OpenEntry"]
+    },
+    "init___": {
+      "calledMethodsStatic": {
+        "scala_collection_mutable_OpenHashMap": ["init___I"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$put__O__I__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$put__O__I__O__Lscala_Option"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$addEntry__Lscala_collection_mutable_OpenHashMap$OpenEntry__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$addEntry__Lscala_collection_mutable_OpenHashMap$OpenEntry__V"]
+      }
+    },
+    "hashOf__O__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["hashOf__O__I"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$size$und$eq__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$size$und$eq__I__V"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$deleted$und$eq__I__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$deleted$und$eq__I__V"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$deleted__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$deleted__I"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$table__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$table__ALscala_collection_mutable_OpenHashMap$OpenEntry"]
+      }
+    },
+    "scala$collection$mutable$OpenHashMap$$mask__": {
+      "calledMethods": {
+        "scala_collection_mutable_OpenHashMap": ["scala$collection$mutable$OpenHashMap$$mask__I"]
+      }
+    }
+  }
+}
