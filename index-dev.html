@@ -1,27 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Example Scala.js application</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
+	<head>
+		<title>TreeTex</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="layout.css">
+	</head>
 
-<h1>Example Scala.js application - development version</h1>
+	<body>
 
-<p>After having compiled and packaged properly the code for the application
-(using `sbt packageJS`), you should see "It works" herebelow.
-See README.md for detailed explanations.</p>
+		<header>
+			<div id="hat">
+				<img src="img/logo.jpg" alt="A tree" height="60" width="60">
+				<h1>Build your tree and make easy latex code</h1>
+				<p class="text_line"></p> <!-- stop floating -->
+			</div>
+			
+			<p>After having compiled and packaged properly the code for the application
+			(using `sbt packageJS`), you should see "It works" herebelow.
+			See README.md for detailed explanations.</p>
 
-<div id="playground">
-</div>
+		</header>
 
-<script type="text/javascript" src="./target/scala-2.10/example-extdeps.js"></script>
-<script type="text/javascript" src="./target/scala-2.10/example-intdeps.js"></script>
-<script type="text/javascript" src="./target/scala-2.10/example.js"></script>
+		<menu>
+			<ul>
+	           <li><a href="index-dev.html">Tree1</a></li>
+	           <li><a href="index-dev.html">Tree2</a></li>
+	           <li><a href="index-dev.html">Tree3</a></li>
+	           <li><a href="index-dev.html">Tree4</a></li>
+	       </ul>
+		</menu>	
 
-<script type="text/javascript">
-ScalaJSExample().main();
-</script>
 
-</body>
+
+
+		<div id="playground">
+		</div>
+
+		<script type="text/javascript" src="./target/scala-2.10/example-extdeps.js"></script>
+		<script type="text/javascript" src="./target/scala-2.10/example-intdeps.js"></script>
+		<script type="text/javascript" src="./target/scala-2.10/example.js"></script>
+
+		<script type="text/javascript">
+		ScalaJSExample().main();
+		</script>
+
+
+
+
+
+		<footer>
+			<!-- row 1 -->
+			<ul id="footNavList">
+				<li id="vbar">|</li>
+				<li><a href="index-dev.html">Home</a></li>
+				<li id="vbar">|</li>
+				<li><a href="index-dev.html">Privacy and Cookies</a></li>
+				<li id="vbar">|</li>
+				<li><a href="index-dev.html">Site map</a></li>
+				<li id="vbar">|</li>
+				<li>Languages</li> <!-- make choices list -->
+
+			</ul>
+
+			<!-- row 3 -->
+			<ul id="underneath">
+				<li id="vbar">|</li>
+				<li><a href="index-dev.html">Email</a></li>
+				<li id="vbar">|</li>
+				<li>&copy Copyright</li>
+			</ul>
+		</footer>
+
+	</body>
 </html>
