@@ -1,4 +1,0 @@
-ScalaJS.impls.scala_Function2$mcIDD$sp$class__$init$__Lscala_Function2$mcIDD$sp__V = (function($$this) {
-  /*<skip>*/
-});
-//@ sourceMappingURL=Function2$mcIDD$sp$class.js.map
