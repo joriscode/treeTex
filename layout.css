@@ -1,3 +1,28 @@
+/* ALL */
+.text_line
+{
+	clear:both;
+}
+
+/* HEADER */
+#hat{
+	/*display: inline;*/
+	display:flex;
+	align-items:center;
+	color: gray;
+}
+
+/*header img { float: left;}*/
+
+/*.text_line
+{
+	clear:both;
+}*/
+
+/* MENU */
+menu li{
+	display: inline;
+}
 
 /* BODY */
 body{
@@ -5,22 +30,8 @@ body{
 	/*background-color: gray;*/
 }
 
-/* HEADER */
-#hat{
-	display: inline;
-	color: gray;
-}
-
-header img { float: left;}
-
-.text_line
-{
-	clear:both;
-}
-
-/* MENU */
-menu li{
-	display: inline;
+#playground {
+	float: left;
 }
 
 /* FOOTER */

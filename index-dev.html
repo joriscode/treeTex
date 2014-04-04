@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html>
+<!-- <html> -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:vml="urn:schemas-microsoft-com:vml">
+
 	<head>
 		<title>TreeTex</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="layout.css">
+		<!-- <link rel="stylesheet" href="dist/themes/default/style.min.css" /> -->
+
+		<meta http-equiv="X-UA-Compatible" content="IE=7" />
+		<!--[if vml]><style>vml\:* {behavior: url(#default#VML);}</style><![endif]-->
+		<script type="text/javascript" src="./script/jsgl.js"></script>
+		<script type="text/javascript" src="./script/createTree.js"></script>
 	</head>
 
 	<body>
 
 		<header>
 			<div id="hat">
+				
+				<h1>Build your tree</h1>
 				<img src="img/logo.jpg" alt="A tree" height="60" width="60">
-				<h1>Build your tree and make easy latex code</h1>
+				<h1>Get Latex code</h1>
 				<p class="text_line"></p> <!-- stop floating -->
 			</div>
 			
+			<p> Exhausted to draw a tree in Latex, make easy Latex tree code here!</p>
 			<p>After having compiled and packaged properly the code for the application
 			(using `sbt packageJS`), you should see "It works" herebelow.
 			See README.md for detailed explanations.</p>
@@ -34,15 +47,78 @@
 
 
 		<div id="playground">
+			<!-- form not linked !!! -->
+			<form>
+				Number of node: <input type="text" name="nodesNb"><br>
+			</form>
+
+			  <div id="panel" style="width: 640px; height: 480px"></div>
+  				<script type="text/javascript">
+  				// window.alert("sometext");
+  					// myFunction();
+    				myPanel = new jsgl.Panel(document.getElementById("panel"));
+
+    				// myPanel.addClickListener(clickHandler);
+
+    	// 			rootX = 150;//new jsgl.Vector2D(50, 50);
+    	// 			rootY = 50;
+				 //    root = myPanel.createCircle();
+				 //    root.setCenterLocationXY(rootX, rootY);
+				 //    root.setRadius(20);
+				 //    root.getStroke().setWeight(5);
+				 //    root.getStroke().setColor("rgb(0,0,0)");
+				 //    root.getFill().setColor("rgb(0,0,255)");
+				 //    myPanel.addElement(root);
+
+				 //    child1X = 100;
+				 //    child1Y = 100;
+					// child1 = myPanel.createCircle();
+				 //    child1.setCenterLocationXY(child1X, child1Y);
+				 //    child1.setRadius(20);
+				 //    child1.getStroke().setWeight(5);
+				 //    child1.getStroke().setColor("rgb(0,0,0)");
+				 //    child1.getFill().setColor("rgb(0,0,255)");
+				 //    myPanel.addElement(child1);
+
+				    // child2X = 200;
+				    // child2Y = 100;
+				    // child2 = myPanel.createCircle();
+				    // child2.setCenterLocationXY(child2X, child2Y);
+				    // child2.setRadius(20);
+				    // child2.getStroke().setWeight(5);
+				    // child2.getStroke().setColor("rgb(0,0,0)");
+				    // child2.getFill().setColor("rgb(0,0,255)");
+				    // myPanel.addElement(child2);
+
+				    // createNode(myPanel, 200, 100);
+				    mash(myPanel, 3, 4, 4);
+
+
+				 //    var myLine = myPanel.createLine();
+				 //    myLine.setStartX(rootX);
+				 //    myLine.setStartY(rootY);
+				 //    myLine.setEndX(child1X);
+				 //    myLine.setEndY(child1Y);
+					// myPanel.addElement(myLine);
+  				</script>
 		</div>
+
+		<div>
+			Node paremeters:
+			color, shape, ...
+		</div>
+
+		<p class="text_line"></p> <!-- stop floating -->
 
 		<script type="text/javascript" src="./target/scala-2.10/example-extdeps.js"></script>
 		<script type="text/javascript" src="./target/scala-2.10/example-intdeps.js"></script>
 		<script type="text/javascript" src="./target/scala-2.10/example.js"></script>
 
 		<script type="text/javascript">
-		ScalaJSExample().main();
+			ScalaJSExample().main();
 		</script>
+
+		<button type="button" onclick=ScalaJSExample().main();>Generate!</button>
 
 
 
