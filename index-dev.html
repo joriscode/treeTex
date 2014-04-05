@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- <html> -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:vml="urn:schemas-microsoft-com:vml">
+
+	<head>
+		<title>TreeTex</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link href="layout.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="img/icon.ico">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=7" />
+		<!--[if vml]><style>vml\:* {behavior: url(#default#VML);}</style><![endif]-->
+	</head>
+
+	<body>
+
+		<header>
+			<div id="hat">
+				
+				<h1>Build your tree</h1>
+				<img src="img/logo.jpg" alt="A tree" height="60" width="60">
+				<h1>Get Latex code</h1>
+				<p class="text_line"></p> <!-- stop floating -->
+			</div>
+			
+			<p> Exhausted to draw a tree in Latex, make easy Latex tree code here!</p>
+
+		</header>
+
+		<menu>
+			<ul>
+	           <li><a href="index-dev.html">Tree1</a></li>
+	           <li><a href="index-dev.html">Tree2</a></li>
+	           <li><a href="index-dev.html">Tree3</a></li>
+	           <li><a href="index-dev.html">Tree4</a></li>
+	       </ul>
+		</menu>	
+
+
+<!-- 		<div id="playground">
+			  <div id="panel" style="width: 640px; height: 480px"></div>
+		</div> -->
+
+
+		<div style="min-width: 1610px">
+			<canvas id="treePanel" width="1200" height="800" tabindex="1"></canvas>
+		</div>
+
+	    <script type="text/javascript" src="./target/scala-2.10/games-extdeps.js"></script>
+	    <script type="text/javascript" src="./target/scala-2.10/games-intdeps.js"></script>
+	    <script type="text/javascript" src="./target/scala-2.10/games.js"></script>
+	    <script>ScalaJSExample().main()</script>
+
+
+		<div>
+			Node paremeters:
+			color, shape, ...
+		</div>
+
+		<p class="text_line"></p> <!-- stop floating -->
+
+		<button type="button" onclick=ScalaJSExample().main();>Generate!</button>
+
+
+		<footer>
+			<!-- row 1 -->
+			<ul id="footNavList">
+				<li id="vbar">|</li>
+				<li><a href="index-dev.html">Home</a></li>
+				<li id="vbar">|</li>
+				<li><a href="index-dev.html">Privacy and Cookies</a></li>
+				<li id="vbar">|</li>
+				<li><a href="index-dev.html">Site map</a></li>
+				<li id="vbar">|</li>
+				<li>Languages</li> <!-- make choices list -->
+
+			</ul>
+
+			<!-- row 3 -->
+			<ul id="underneath">
+				<li id="vbar">|</li>
+				<li><a href="index-dev.html">Email</a></li>
+				<li id="vbar">|</li>
+				<li>&copy Copyright</li>
+			</ul>
+		</footer>
+
+	</body>
+</html>
