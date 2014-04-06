@@ -64,20 +64,20 @@ case class TreeTex(canvasName: String) {
   var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
   var curNode = nodeList.head
 
-  canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
-    case e:dom.MouseEvent => 
-      //dom.alert(e.clientX + "," + e.clientY)
-	  simpleClick(Point(e.clientX,e.clientY))
-	  draw()
-      // keys.add(ActionMouseClick(Point(e.clientX, e.clientY)))
-  })
+  // canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
+  //   case e:dom.MouseEvent => 
+  //     //dom.alert(e.clientX + "," + e.clientY)
+	 //  simpleClick(Point(e.clientX,e.clientY))
+	 //  draw()
+  //     // keys.add(ActionMouseClick(Point(e.clientX, e.clientY)))
+  // })
 
-  /*canvas.addEventListener("click", (e:dom.Event) => e match { //wtf can't do partial function 
+  canvas.addEventListener("click", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
       simpleClick(Point(e.clientX, e.clientY))
-  })*/
+  })
 
-  canvas.addEventListener("dblclick", (e:dom.Event) => e match { //wtf can't do partial function 
+  canvas.addEventListener("dblclick", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
       doubleClick(Point(e.clientX, e.clientY))
 	  draw()
@@ -88,9 +88,6 @@ case class TreeTex(canvasName: String) {
   private[this] val ctx = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
 
   draw()
-
-
-
 
 
   def draw() = {
@@ -129,27 +126,10 @@ case class TreeTex(canvasName: String) {
     (x*x) + (y*y) <= node.radius
   }
 
-
   def update(): Unit = {
-    // dom.alert("update")
     draw()
     
   }
-
-
-  // def update(keys: Set[Action]): Unit = {
-  //   dom.alert("click")
-  //   val node = keys.head
-    
-
-  //   node match {
-  //     case a: ActionMouseClick => simpleClick(a.pos)
-  //     // case ActionMouseDoubleClick => 
-  //     case a: ActionMouseDrag => drag(a.pos1, a.pos2)
-  //     // case _ => // throw error ?? in JS ??
-  //   }
-    
-  // }
 
   def simpleClick(pos: Point) = {
     val nodes = getNodeAt(pos)
@@ -157,7 +137,7 @@ case class TreeTex(canvasName: String) {
     if(nodes.isEmpty){ // remove focus
       curNode = null
 
-    } else if (curNode != null){ // focus
+    } else { // focus
       curNode = nodes.head
       
     }
@@ -177,7 +157,6 @@ case class TreeTex(canvasName: String) {
       
     }
   }
-
 
   def drag(pos1: Point, pos2: Point){
     val nodes = getNodeAt(pos1)
