@@ -77,6 +77,7 @@ case class TreeTex(canvasName: String) {
       draw()
   })
 
+
   canvas.addEventListener("click", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
       simpleClick(Point(e.clientX, e.clientY))
@@ -85,7 +86,7 @@ case class TreeTex(canvasName: String) {
 
   canvas.addEventListener("dblclick", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
-      doubleClick(Point(e.clientX, e.clientY))
+      doubleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
       draw()
   })
 
@@ -145,7 +146,7 @@ case class TreeTex(canvasName: String) {
   def isNode(node: Node, click: Point): Boolean = {
     val x = click.x - node.pos.x
     val y = click.x - node.pos.y
-    (x*x) + (y*y) <= node.radius
+    (x*x) + (y*y) <= node.radius * node.radius
   }
 
   def simpleClick(pos: Point) = {
