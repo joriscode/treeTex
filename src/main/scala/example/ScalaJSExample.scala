@@ -49,11 +49,11 @@ object ScalaJSExample {
   @JSExport
   def main(): Unit = {
     val treeTex = new TreeTex("treePanel")
-    dom.setInterval( () => (treeTex.update()), 100 ) // change from 15ms to 100ms
-    
+    // dom.setInterval( () => (treeTex.update()), 100 ) // change from 15ms to 100ms
+    dom.setInterval( () => (treeTex.draw()), 10000 ) // change from 15ms to 100ms
+
   }
 }
-
 
 
 case class Node(var pos: Point, var radius: Int, var color: String, var text: String, var parents: List[Node], var children: List[Node]) // may use (named & ) default args
@@ -65,15 +65,19 @@ case class TreeTex(canvasName: String) {
   var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
   var curNode = nodeList.head
 
-  // canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
-  //   case e:dom.MouseEvent => 
-  //     //dom.alert(e.clientX + "," + e.clientY)
-	 //  simpleClick(Point(e.clientX,e.clientY))
-	 //  draw()
-  //     // keys.add(ActionMouseClick(Point(e.clientX, e.clientY)))
-  // })
+  canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
+    case e:dom.MouseEvent => 
+      canvas.addEventListener("mousemove", (e1:dom.Event) => e1 match {
+        case e1:dom.MouseEvent => 
+          canvas.addEventListener("mouseup", (e2:dom.Event) => e2 match {
+            case e2:dom.MouseEvent => 
+              drag(Point(e.clientX, e.clientY), Point(e2.clientX, e2.clientY))
+              draw()
+          })
+      })    
+  })
 
-  canvas.addEventListener("click", (e:dom.Event) => e match { //wtf can't do partial function 
+  canvas.addEventListener("click", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
       simpleClick(Point(e.clientX, e.clientY))
       draw()
@@ -132,11 +136,6 @@ case class TreeTex(canvasName: String) {
     val x = click.x - node.pos.x
     val y = click.x - node.pos.y
     (x*x) + (y*y) <= node.radius
-  }
-
-  def update(): Unit = {
-    draw()
-    
   }
 
   def simpleClick(pos: Point) = {
