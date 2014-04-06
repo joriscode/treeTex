@@ -71,7 +71,9 @@ case class TreeTex(canvasName: String) {
 
   canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
-      dom.alert(e.clientX + "," + e.clientY)
+      //dom.alert(e.clientX + "," + e.clientY)
+	  simpleClick(Point(e.clientX,e.clientY))
+	  draw()
       // keys.add(ActionMouseClick(Point(e.clientX, e.clientY)))
   })
 
@@ -151,7 +153,7 @@ case class TreeTex(canvasName: String) {
       curNode.children ::: List(nodes.head)
 
     } else { // create new node
-      nodeList ::: List(Node(pos, 20, Color.Blue, "node", Nil, Nil))
+      nodeList = Node(pos, 20, Color.Blue, "node", Nil, Nil)::nodeList
       
     }
   }
