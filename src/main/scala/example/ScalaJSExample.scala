@@ -50,7 +50,7 @@ object ScalaJSExample {
   def main(): Unit = {
     val treeTex = new TreeTex("treePanel")
     // dom.setInterval( () => (treeTex.update()), 100 ) // change from 15ms to 100ms
-    dom.setInterval( () => (treeTex.draw()), 10000 ) // change from 15ms to 100ms
+    //dom.setInterval( () => (treeTex.draw()), 10000 ) // change from 15ms to 100ms
 
   }
 }
@@ -65,7 +65,7 @@ case class TreeTex(canvasName: String) {
   var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
   var curNode = nodeList.head
 
-  canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
+  /*canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
       canvas.addEventListener("mousemove", (e1:dom.Event) => e1 match {
         case e1:dom.MouseEvent => 
@@ -75,7 +75,7 @@ case class TreeTex(canvasName: String) {
               draw()
           })
       })    
-  })
+  })*/
 
   canvas.addEventListener("click", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
@@ -85,7 +85,7 @@ case class TreeTex(canvasName: String) {
 
   canvas.addEventListener("dblclick", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
-      doubleClick(Point(e.clientX, e.clientY))
+      doubleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
       draw()
   })
 
@@ -135,7 +135,7 @@ case class TreeTex(canvasName: String) {
   def isNode(node: Node, click: Point): Boolean = {
     val x = click.x - node.pos.x
     val y = click.x - node.pos.y
-    (x*x) + (y*y) <= node.radius
+    (x*x) + (y*y) <= node.radius * node.radius
   }
 
   def simpleClick(pos: Point) = {
