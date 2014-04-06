@@ -50,6 +50,7 @@ object ScalaJSExample {
   def main(): Unit = {
     val treeTex = new TreeTex("treePanel")
     dom.setInterval( () => (treeTex.update()), 100 ) // change from 15ms to 100ms
+    
   }
 }
 
@@ -75,12 +76,13 @@ case class TreeTex(canvasName: String) {
   canvas.addEventListener("click", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
       simpleClick(Point(e.clientX, e.clientY))
+      draw()
   })
 
   canvas.addEventListener("dblclick", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
       doubleClick(Point(e.clientX, e.clientY))
-	  draw()
+      draw()
   })
 
     
@@ -98,6 +100,7 @@ case class TreeTex(canvasName: String) {
     ctx.strokeStyle = Color.White
 
     nodeList.foreach{ n => drawNode(n) }
+    if (curNode != null) strokeFocus(curNode)
     // draw branches
   }
 
@@ -107,12 +110,17 @@ case class TreeTex(canvasName: String) {
     ctx.fillStyle = node.color
     ctx.fill()
     ctx.lineWidth = 5
-    ctx.strokeStyle = Color.White // Warning: hard coded
+    ctx.strokeStyle = node.color
     ctx.stroke()
 
     ctx.fillText(node.text, node.pos.x, node.pos.y) // may need to be centered on the node
     // ...
 
+  }
+
+  def strokeFocus(node: Node) = {
+    ctx.strokeStyle = Color.White
+    ctx.stroke()
   }
 
   def getNodeAt(click: Point): List[Node] = {
