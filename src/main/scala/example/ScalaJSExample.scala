@@ -60,19 +60,19 @@ case class TreeTex(canvasName: String) {
   private[this] val bounds = Point(canvas.width, canvas.height)
 
   var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
-  var curNode = nodeList.head
+  var focusNode = nodeList.head
 
   var downPos: Point = Point(0, 0) // can check if on node but implies to set downPos at null to avoid fake drags
 
   canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
-      downPos = Point(e.clientX, e.clientY)
+      downPos = Point(e.clientX, e.clientY - canvas.offsetTop)
   })
 
   canvas.addEventListener("mouseup", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
       if(downPos.x != e.clientX || downPos.y != e.clientY){
-        drag(downPos, Point(e.clientX, e.clientY))
+        drag(downPos, Point(e.clientX, e.clientY - canvas.offsetTop))
       }
       draw()
   })
@@ -80,7 +80,7 @@ case class TreeTex(canvasName: String) {
 
   canvas.addEventListener("click", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
-      simpleClick(Point(e.clientX, e.clientY))
+      simpleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
       draw()
   })
 
@@ -103,7 +103,7 @@ case class TreeTex(canvasName: String) {
     ctx.strokeStyle = Color.White
 
     nodeList.foreach{ n => drawNode(n) }
-    if (curNode != null) strokeFocus(curNode)
+    if (focusNode != null) strokeFocus(focusNode)
     nodeList.foreach{ n => drawBranches(n) } // draw branches
   }
 
@@ -153,10 +153,10 @@ case class TreeTex(canvasName: String) {
     val nodes = getNodeAt(pos)
 
     if(nodes.isEmpty){ // remove focus
-      curNode = null
+      focusNode = null
 
     } else { // focus
-      curNode = nodes.head
+      focusNode = nodes.head
       
     }
   }
@@ -164,15 +164,16 @@ case class TreeTex(canvasName: String) {
   def doubleClick(pos: Point) = {
     val nodes = getNodeAt(pos)
 
-    if(!nodes.isEmpty && curNode == null){ // select the node
-      curNode = nodes.head
+    if(!nodes.isEmpty && focusNode == null){ // select the node
+      focusNode = nodes.head
 
-    } else if(!nodes.isEmpty && curNode != null) { // link curNode and nodes.head
-      curNode.children = nodes.head::curNode.children
+    } else if(!nodes.isEmpty && focusNode != null) { // link focusNode and nodes.head
+      focusNode.children = nodes.head::focusNode.children
 
     } else { // create new node
-      nodeList = Node(pos, 20, Color.Blue, "node", Nil, Nil)::nodeList
-      
+      val n = Node(pos, 20, Color.Blue, "node", Nil, Nil)
+      nodeList = n::nodeList
+      focusNode = n
     }
   }
 
@@ -180,7 +181,7 @@ case class TreeTex(canvasName: String) {
     val nodes = getNodeAt(pos1)
 
     if(!nodes.isEmpty){
-      curNode = nodes.head
+      focusNode = nodes.head
       nodes.head.pos = pos2
     }
   }
