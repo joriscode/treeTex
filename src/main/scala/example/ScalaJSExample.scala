@@ -72,14 +72,15 @@ case class TreeTex(canvasName: String) {
       // keys.add(ActionMouseClick(Point(e.clientX, e.clientY)))
   })
 
-    canvas.addEventListener("click", (e:dom.Event) => e match { //wtf can't do partial function 
+  /*canvas.addEventListener("click", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
       simpleClick(Point(e.clientX, e.clientY))
-  })
+  })*/
 
   canvas.addEventListener("dblclick", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
       doubleClick(Point(e.clientX, e.clientY))
+	  draw()
   })
 
     
