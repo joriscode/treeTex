@@ -77,7 +77,7 @@ case class TreeTex(canvasName: String) {
       simpleClick(Point(e.clientX, e.clientY))
   })
 
-  canvas.addEventListener("ondblclick", (e:dom.Event) => e match { //wtf can't do partial function 
+  canvas.addEventListener("dblclick", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
       doubleClick(Point(e.clientX, e.clientY))
   })
@@ -153,7 +153,7 @@ case class TreeTex(canvasName: String) {
   def simpleClick(pos: Point) = {
     val nodes = getNodeAt(pos)
 
-    if(nodes.isEmpty){ // lose focus
+    if(nodes.isEmpty){ // remove focus
       curNode = null
 
     } else if (curNode != null){ // focus
@@ -169,10 +169,9 @@ case class TreeTex(canvasName: String) {
       curNode = nodes.head
 
     } else if(!nodes.isEmpty && curNode != null) { // link curNode and nodes.head
-      curNode.children = curNode.children ::: List(nodes.head)
+      curNode.children = nodes.head::curNode.children
 
     } else { // create new node
-
       nodeList = Node(pos, 20, Color.Blue, "node", Nil, Nil)::nodeList
       
     }
