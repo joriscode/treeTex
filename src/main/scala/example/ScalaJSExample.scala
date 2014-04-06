@@ -49,9 +49,6 @@ object ScalaJSExample {
   @JSExport
   def main(): Unit = {
     val treeTex = new TreeTex("treePanel")
-    // dom.setInterval( () => (treeTex.update()), 100 ) // change from 15ms to 100ms
-    dom.setInterval( () => (treeTex.draw()), 10000 ) // change from 15ms to 100ms
-
   }
 }
 
@@ -65,16 +62,19 @@ case class TreeTex(canvasName: String) {
   var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
   var curNode = nodeList.head
 
+  var downPos: Point = Point(0, 0) // can check if on node but implies to set downPos at null to avoid fake drags
+
   canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
-      canvas.addEventListener("mousemove", (e1:dom.Event) => e1 match {
-        case e1:dom.MouseEvent => 
-          canvas.addEventListener("mouseup", (e2:dom.Event) => e2 match {
-            case e2:dom.MouseEvent => 
-              drag(Point(e.clientX, e.clientY), Point(e2.clientX, e2.clientY))
-              draw()
-          })
-      })    
+      downPos = Point(e.clientX, e.clientY)
+  })
+
+  canvas.addEventListener("mouseup", (e:dom.Event) => e match { //wtf can't do partial function 
+    case e:dom.MouseEvent => 
+      if(downPos.x != e.clientX || downPos.y != e.clientY){
+        drag(downPos, Point(e.clientX, e.clientY))
+      }
+      draw()
   })
 
   canvas.addEventListener("click", (e:dom.Event) => e match {
@@ -88,8 +88,6 @@ case class TreeTex(canvasName: String) {
       doubleClick(Point(e.clientX, e.clientY))
       draw()
   })
-
-    
 
   private[this] val ctx = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
 
@@ -105,7 +103,7 @@ case class TreeTex(canvasName: String) {
 
     nodeList.foreach{ n => drawNode(n) }
     if (curNode != null) strokeFocus(curNode)
-    // draw branches
+    nodeList.foreach{ n => drawBranches(n) } // draw branches
   }
 
   def drawNode(node: Node) = {
@@ -120,6 +118,18 @@ case class TreeTex(canvasName: String) {
     ctx.fillText(node.text, node.pos.x, node.pos.y) // may need to be centered on the node
     // ...
 
+  }
+
+  def drawBranches(node: Node){
+    ctx.beginPath();
+    ctx.moveTo(node.pos.x, node.pos.y);
+    node.children.foreach{
+      c => 
+        ctx.lineTo(c.pos.x, c.pos.y);
+        ctx.lineWidth = 10;
+        ctx.strokeStyle = Color.White;
+        ctx.stroke();
+    }
   }
 
   def strokeFocus(node: Node) = {
