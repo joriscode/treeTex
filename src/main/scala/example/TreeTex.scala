@@ -42,6 +42,7 @@ case class TreeTex(bounds: Point, resetGame: () => Unit) extends Game{
 
   def update(keys: Set[Action]): Unit = {
     val node = keys.head
+    dom.alert("simple click")
 
     node match {
       case a: ActionMouseClick => simpleClick(a.pos)

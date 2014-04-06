@@ -75,12 +75,17 @@ class TreeHolder(canvasName: String, gameMaker: (Point, () => Unit) => Game){
 
   // canvas.onclick = {
   canvas.onmousedown = {
-    dom.alert("simple click")
 
     (e: dom.MouseEvent) =>
       keys.add(ActionMouseClick(Point(100, 100))) // location(e)
       e.preventDefault()
   }
+  
+  canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
+		case e:dom.MouseEvent => 
+			dom.alert(e.clientX + "," + e.clientY)
+			keys.add(ActionMouseClick(Point(e.clientX, e.clientY)))
+	})
 
   //  canvas.onMouseDown = {
   //   (e: dom.MouseEvent) =>
