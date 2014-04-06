@@ -48,11 +48,8 @@ case class Point(x: Double, y: Double){
 object ScalaJSExample {
   @JSExport
   def main(): Unit = {
-    // val treeTex = new TreeHolder("treePanel", TreeTex)
     val treeTex = new TreeTex("treePanel")
-    // val games = Seq(treeTex)
-    // dom.setInterval(() => games.foreach(_.update()), 15)
-    dom.setInterval( () => (treeTex.update()), 15 )
+    dom.setInterval( () => (treeTex.update()), 100 ) // change from 15ms to 100ms
   }
 }
 
@@ -60,11 +57,9 @@ object ScalaJSExample {
 
 case class Node(var pos: Point, var radius: Int, var color: String, var text: String, var parents: List[Node], var children: List[Node]) // may use (named & ) default args
 
-// case class TreeTex(canvasName: String, bounds: Point, resetGame: () => Unit) {
 case class TreeTex(canvasName: String) {
   private[this] val canvas = dom.document.getElementById(canvasName).asInstanceOf[dom.HTMLCanvasElement]
   private[this] val bounds = Point(canvas.width, canvas.height)
-  // private[this] val keys = mutable.Set.empty[Action]
 
   var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
   var curNode = nodeList.head
@@ -74,6 +69,18 @@ case class TreeTex(canvasName: String) {
       dom.alert(e.clientX + "," + e.clientY)
       // keys.add(ActionMouseClick(Point(e.clientX, e.clientY)))
   })
+
+    canvas.addEventListener("click", (e:dom.Event) => e match { //wtf can't do partial function 
+    case e:dom.MouseEvent => 
+      simpleClick(Point(e.clientX, e.clientY))
+  })
+
+  canvas.addEventListener("ondblclick", (e:dom.Event) => e match { //wtf can't do partial function 
+    case e:dom.MouseEvent => 
+      doubleClick(Point(e.clientX, e.clientY))
+  })
+
+    
 
   private[this] val ctx = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
 
@@ -122,7 +129,7 @@ case class TreeTex(canvasName: String) {
 
   def update(): Unit = {
     // dom.alert("update")
-    // draw
+    draw()
     
   }
 
@@ -144,17 +151,30 @@ case class TreeTex(canvasName: String) {
   def simpleClick(pos: Point) = {
     val nodes = getNodeAt(pos)
 
+    if(nodes.isEmpty){ // lose focus
+      curNode = null
+
+    } else if (curNode != null){ // focus
+      curNode = nodes.head
+      
+    }
+  }
+
+  def doubleClick(pos: Point) = {
+    val nodes = getNodeAt(pos)
+
     if(!nodes.isEmpty && curNode == null){ // select the node
       curNode = nodes.head
 
     } else if(!nodes.isEmpty && curNode != null) { // link curNode and nodes.head
-      curNode.children ::: List(nodes.head)
+      curNode.children = curNode.children ::: List(nodes.head)
 
     } else { // create new node
-      nodeList ::: List(Node(pos, 20, Color.Blue, "node", Nil, Nil))
+      nodeList = nodeList ::: List(Node(pos, 20, Color.Blue, "node", Nil, Nil))
       
     }
   }
+
 
   def drag(pos1: Point, pos2: Point){
     val nodes = getNodeAt(pos1)
