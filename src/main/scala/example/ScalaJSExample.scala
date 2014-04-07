@@ -145,7 +145,7 @@ case class TreeTex(canvasName: String) {
 
   def isNode(node: Node, click: Point): Boolean = {
     val x = click.x - node.pos.x
-    val y = click.x - node.pos.y
+    val y = click.y - node.pos.y
     (x*x) + (y*y) <= node.radius * node.radius
   }
 
