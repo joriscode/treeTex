@@ -141,26 +141,33 @@ class TreeTex(canvasName: String) {
   }
 
   def simpleClick(pos: Point) = getNodeAt(pos) match {
-    case x::xs => focusNode = x
-	case Nil => focusNode = null
+    case x::xs => focusThisNode(x)
+	case Nil => focusThisNode(null)
   }
   
   def doubleClick(pos: Point) = getNodeAt(pos) match{
 	case x::xs if focusNode != null =>
 		focusNode.children = x::focusNode.children
 	case x::xs => 
-		focusNode = x
+		focusThisNode(x)
 	case _ => 
 		val n = Node(pos, 20, Color.Blue, "node", Nil, Nil)
 		nodeList = n::nodeList
-		focusNode = n
+		focusThisNode(n)
   }
 
   def drag(pos1: Point, pos2: Point) = getNodeAt(pos1) match {
-	case x::xs => 
-		focusNode = x
-		focusNode.pos = pos2
+	case x::xs => focusThisNode(x).pos = pos2
 	case Nil => 
+  }
+  
+  def focusThisNode(node:Node):Node = {
+	if (focusNode != null) 
+		focusNode.color = Color.Blue
+	focusNode = node
+	if (node != null)
+		focusNode.color = Color.Red
+	focusNode
   }
   
   draw()
