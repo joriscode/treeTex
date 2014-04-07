@@ -62,9 +62,8 @@ case class Node(var pos: Point, var radius: Int, var color: String, var text: St
     pos.x < node.pos.x
   }
 }
-abstract class Connector
-case class ConnectorParent extends Connector(var end: Node, branch: Branch)
-case class ConnectorChild extends Connector(var end: Node, branch: Branch)
+
+case class Connector(var isChild: Boolean, var end: Node, branch: Branch)
 case class Branch(var width: Int, var color: String, var text: String /* ... */)
 
 class TreeTex(canvasName: String) {
