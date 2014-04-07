@@ -55,14 +55,14 @@ object ScalaJSExample {
 
 case class Node(var pos: Point, var radius: Int, var color: String, var text: String, var parents: List[Node], var children: List[Node]) // may use (named & ) default args
 
-case class TreeTex(canvasName: String) {
-  private[this] val canvas = dom.document.getElementById(canvasName).asInstanceOf[dom.HTMLCanvasElement]
-  private[this] val bounds = Point(canvas.width, canvas.height)
+class TreeTex(canvasName: String) {
+  private val canvas = dom.document.getElementById(canvasName).asInstanceOf[dom.HTMLCanvasElement]
+  private val bounds = Point(canvas.width, canvas.height)
+  private val ctx = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
 
-  var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
-  var focusNode = nodeList.head
-
-  var downPos: Point = Point(0, 0) // can check if on node but implies to set downPos at null to avoid fake drags
+  private var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
+  private var focusNode = nodeList.head
+  private var downPos: Point = Point(0, 0) // can check if on node but implies to set downPos at null to avoid fake drags
 
   canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
@@ -77,7 +77,6 @@ case class TreeTex(canvasName: String) {
       draw()
   })
 
-
   canvas.addEventListener("click", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
       simpleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
@@ -89,11 +88,6 @@ case class TreeTex(canvasName: String) {
       doubleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
       draw()
   })
-
-  private[this] val ctx = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
-
-  draw()
-
 
   def draw() = {
     ctx.fillStyle = Color.Black
@@ -138,52 +132,37 @@ case class TreeTex(canvasName: String) {
     ctx.stroke()
   }
 
-  def getNodeAt(click: Point): List[Node] = {
-    // for (n <- nodeList; if isNode(click, n)) yield n
-    nodeList.filter(n => isNode(n, click))
-  }
+  def getNodeAt(click: Point): List[Node] = nodeList.filter(n => intersectNode(n, click))
 
-  def isNode(node: Node, click: Point): Boolean = {
+  def intersectNode(node: Node, click: Point): Boolean = {
     val x = click.x - node.pos.x
     val y = click.y - node.pos.y
     (x*x) + (y*y) <= node.radius * node.radius
   }
 
-  def simpleClick(pos: Point) = {
-    val nodes = getNodeAt(pos)
-
-    if(nodes.isEmpty){ // remove focus
-      focusNode = null
-
-    } else { // focus
-      focusNode = nodes.head
-      
-    }
+  def simpleClick(pos: Point) = getNodeAt(pos) match {
+    case x::xs => focusNode = x
+	case Nil => focusNode = null
+  }
+  
+  def doubleClick(pos: Point) = getNodeAt(pos) match{
+	case x::xs if focusNode != null =>
+		focusNode.children = x::focusNode.children
+	case x::xs => 
+		focusNode = x
+	case _ => 
+		val n = Node(pos, 20, Color.Blue, "node", Nil, Nil)
+		nodeList = n::nodeList
+		focusNode = n
   }
 
-  def doubleClick(pos: Point) = {
-    val nodes = getNodeAt(pos)
-
-    if(!nodes.isEmpty && focusNode == null){ // select the node
-      focusNode = nodes.head
-
-    } else if(!nodes.isEmpty && focusNode != null) { // link focusNode and nodes.head
-      focusNode.children = nodes.head::focusNode.children
-
-    } else { // create new node
-      val n = Node(pos, 20, Color.Blue, "node", Nil, Nil)
-      nodeList = n::nodeList
-      focusNode = n
-    }
+  def drag(pos1: Point, pos2: Point) = getNodeAt(pos1) match {
+	case x::xs => 
+		focusNode = x
+		focusNode.pos = pos2
+	case Nil => 
   }
-
-  def drag(pos1: Point, pos2: Point){
-    val nodes = getNodeAt(pos1)
-
-    if(!nodes.isEmpty){
-      focusNode = nodes.head
-      nodes.head.pos = pos2
-    }
-  }
+  
+  draw()
 
 }
