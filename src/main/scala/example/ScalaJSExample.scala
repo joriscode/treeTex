@@ -62,19 +62,21 @@ class TreeTex(canvasName: String) {
 
   private var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
   private var focusNode = nodeList.head
-  private var downPos: Point = Point(0, 0) // can check if on node but implies to set downPos at null to avoid fake drags
+  private var isMouseDown = false
 
   canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
-    case e:dom.MouseEvent => 
-      downPos = Point(e.clientX, e.clientY - canvas.offsetTop)
+    case e:dom.MouseEvent => isMouseDown = true
   })
 
   canvas.addEventListener("mouseup", (e:dom.Event) => e match { //wtf can't do partial function 
-    case e:dom.MouseEvent => 
-      if(downPos.x != e.clientX || downPos.y != e.clientY){
-        drag(downPos, Point(e.clientX, e.clientY - canvas.offsetTop))
-      }
+    case e:dom.MouseEvent => isMouseDown = false
       draw()
+  })
+  
+  canvas.addEventListener("mousemove", (e:dom.Event) => e match { //wtf can't do partial function 
+    case e:dom.MouseEvent if isMouseDown && focusNode != null => 
+		drag(focusNode, Point(e.clientX, e.clientY - canvas.offsetTop))
+		draw()
   })
 
   canvas.addEventListener("click", (e:dom.Event) => e match {
@@ -90,6 +92,7 @@ class TreeTex(canvasName: String) {
   })
 
   def draw() = {
+  
     ctx.fillStyle = Color.Black
     ctx.fillRect(0, 0, bounds.x, bounds.y)
 
@@ -159,6 +162,11 @@ class TreeTex(canvasName: String) {
   def drag(pos1: Point, pos2: Point) = getNodeAt(pos1) match {
 	case x::xs => focusThisNode(x).pos = pos2
 	case Nil => 
+  }
+  
+  def drag(node: Node, pos2: Point) = node match {
+	case null => 
+	case x => focusThisNode(x).pos = pos2
   }
   
   def focusThisNode(node:Node):Node = {
