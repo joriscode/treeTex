@@ -56,8 +56,7 @@ object ScalaJSExample {
   }
 }
 
-
-case class Node(var pos: Point, var radius: Int, var color: String, var text: String, var children: List[Connector]){ // may use (named & ) default args
+case class Node(var pos: Point, var radius: Int, var color: String, var text: String, var neighbors: List[Connector]){ // may use (named & ) default args
   def isLeftOf(node: Node): Boolean = {
     pos.x < node.pos.x
   }
@@ -160,28 +159,28 @@ class TreeTex(canvasName: String) {
 
   def simpleClick(pos: Point) = getNodeAt(pos) match {
     case x::xs => focusThisNode(x)
-	case Nil => focusThisNode(null)
+    case Nil => focusThisNode(null)
   }
   
   def doubleClick(pos: Point) = getNodeAt(pos) match{
-	case x::xs if focusNode != null =>
-		focusNode.children = x::focusNode.children
-	case x::xs => 
-		focusThisNode(x)
-	case _ => 
-		val n = Node(pos, 20, Color.Blue, "node", Nil, Nil)
-		nodeList = n::nodeList
-		focusThisNode(n)
+  	case x::xs if focusNode != null =>
+  		focusNode.children = x::focusNode.children
+  	case x::xs => 
+  		focusThisNode(x)
+  	case _ => 
+  		val n = Node(pos, 20, Color.Blue, "node", Nil, Nil)
+  		nodeList = n::nodeList
+  		focusThisNode(n)
   }
 
   def drag(pos1: Point, pos2: Point) = getNodeAt(pos1) match {
-	case x::xs => focusThisNode(x).pos = pos2
-	case Nil => 
+  	case x::xs => focusThisNode(x).pos = pos2
+  	case Nil => 
   }
   
   def drag(node: Node, pos2: Point) = node match {
-	case null => 
-	case x => focusThisNode(x).pos = pos2
+  	case null => 
+  	case x => focusThisNode(x).pos = pos2
   }
   
   def focusThisNode(node:Node):Node = {
@@ -192,7 +191,54 @@ class TreeTex(canvasName: String) {
   		focusNode.color = Color.Red
   	focusNode
   }
-  
-  draw()
 
+  case class Latex(){
+    def toLatex(): String = {
+
+      // hard coded parameters!!!
+      val start = ' \begin{tikzpicture}[ fact/.style={rectangle, draw=none, rounded corners=1mm, fill=blue, drop shadow, text centered, anchor=north, text=white}, state/.style={circle, draw=none, fill=orange, circular drop shadow, text centered, anchor=north, text=white}, leaf/.style={circle, draw=none, fill=red, circular drop shadow, text centered, anchor=north, text=white}, level distance=0.5cm, growth parent anchor=south]'
+      val slash = ' \'
+      val end = '; \end{tikzpicture}'
+      var body = ''
+
+      if(verifyTreeConnected && verifyUniqueParent){ // display msg if error
+        val root = searchRoot
+      }
+
+      start + slash + body + end
+    }
+
+    def verifyTreeConnected(): Boolean = {
+      nodeList.foreach(n => n.neighbors != null)
+    }
+
+    def verifyUniqueParent(): Boolean = {
+      nodeList.foreach(n => n.neighbors.count( x => !x.isChild) == 1)
+    }
+
+    def searchRoot(node: Node): Node = { // CAUTION: must be applied after checking of tree correctness
+      val parents = node.neighbors.filter(!_.isChild)
+      
+      parents match {
+        case _ => searchRoot(parents.head)
+        case Nil => parents.head
+      }
+    }
+
+    // doesn't work, need to think at an elegent way to combine tex code
+    // // rounded, hard coded!!!
+    // def writeNode(node: Node): String{ // Caution carriage line
+    //   "node [state] {$" + node.text + "$} [->]" + "\n" + "child{"
+    // }
+
+    // def nodeTex(s: Node)(nodes: List[Node]) => "node [state] {$" + s.text + "$} [->]" + "\n" + "child{" + nodes.text + "}"
+
+
+    // def appendTex(p: Node, c: Node): String => "node [state] {$" + p + "$} [->]" + "\n" + "child{" + nodes.flatMap() + "}"
+
+    // def nodeTex(root: String, orderedList: List[Node]): String = orderedList.foldLeft(root)()
+
+  }
+
+  draw()
 }
