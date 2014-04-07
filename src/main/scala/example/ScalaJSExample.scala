@@ -19,6 +19,10 @@ object Color{
   val all = Seq(White, Red, Green, Blue, Cyan, Magenta, Yellow, Black)
 }
 
+// class Color{
+  
+// }
+
 case class Point(x: Double, y: Double){
   def +(other: Point) = Point(x + other.x, y + other.y)
   def -(other: Point) = Point(x - other.x, y - other.y)
