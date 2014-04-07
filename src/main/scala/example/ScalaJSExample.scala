@@ -65,7 +65,9 @@ class TreeTex(canvasName: String) {
   private var isMouseDown = false
 
   canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
-    case e:dom.MouseEvent => isMouseDown = true
+    case e:dom.MouseEvent => 
+		simpleClick(Point(e.clientX, e.clientY - canvas.offsetTop)) 
+		isMouseDown = true
   })
 
   canvas.addEventListener("mouseup", (e:dom.Event) => e match { //wtf can't do partial function 
@@ -82,12 +84,14 @@ class TreeTex(canvasName: String) {
   canvas.addEventListener("click", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
       simpleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
+	  isMouseDown = false
       draw()
   })
 
   canvas.addEventListener("dblclick", (e:dom.Event) => e match {
     case e:dom.MouseEvent => 
       doubleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
+	  isMouseDown = false
       draw()
   })
 
