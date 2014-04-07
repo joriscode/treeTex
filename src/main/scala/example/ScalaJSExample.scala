@@ -57,7 +57,15 @@ object ScalaJSExample {
 }
 
 
-case class Node(var pos: Point, var radius: Int, var color: String, var text: String, var parents: List[Node], var children: List[Node]) // may use (named & ) default args
+case class Node(var pos: Point, var radius: Int, var color: String, var text: String, var children: List[Connector]){ // may use (named & ) default args
+  def isLeftOf(node: Node): Boolean = {
+    pos.x < node.pos.x
+  }
+}
+abstract class Connector
+case class ConnectorParent extends Connector(var end: Node, branch: Branch)
+case class ConnectorChild extends Connector(var end: Node, branch: Branch)
+case class Branch(var width: Int, var color: String, var text: String /* ... */)
 
 class TreeTex(canvasName: String) {
   private val canvas = dom.document.getElementById(canvasName).asInstanceOf[dom.HTMLCanvasElement]
@@ -178,12 +186,12 @@ class TreeTex(canvasName: String) {
   }
   
   def focusThisNode(node:Node):Node = {
-	if (focusNode != null) 
-		focusNode.color = Color.Blue
-	focusNode = node
-	if (node != null)
-		focusNode.color = Color.Red
-	focusNode
+  	if (focusNode != null) 
+  		focusNode.color = Color.Blue
+  	focusNode = node
+  	if (node != null)
+  		focusNode.color = Color.Red
+  	focusNode
   }
   
   draw()
