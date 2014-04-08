@@ -70,9 +70,11 @@ class TreeTex(canvasName: String) {
   private val bounds = Point(canvas.width, canvas.height)
   private val ctx = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
 
-  private var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil, Nil))
+  private var nodeList: List[Node] = List(Node(Point(50, 50), 20, Color.Blue, "Root", Nil))
   private var focusNode = nodeList.head
   private var isMouseDown = false
+
+  private val defaultBranch = Branch(10, Color.Green, "default branch")
 
   canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
     case e:dom.MouseEvent => 
@@ -132,12 +134,12 @@ class TreeTex(canvasName: String) {
 
   }
 
-  def drawBranches(node: Node){
+  def drawBranches(node: Node){ // Need to be update to changes
     ctx.beginPath();
     ctx.moveTo(node.pos.x, node.pos.y);
-    node.children.foreach{
+    node.neighbors.foreach{
       c => 
-        ctx.lineTo(c.pos.x, c.pos.y);
+        ctx.lineTo(c.end.pos.x, c.end.pos.y);
         ctx.lineWidth = 10;
         ctx.strokeStyle = Color.White;
         ctx.stroke();
@@ -163,12 +165,13 @@ class TreeTex(canvasName: String) {
   }
   
   def doubleClick(pos: Point) = getNodeAt(pos) match{
-  	case x::xs if focusNode != null =>
-  		focusNode.children = x::focusNode.children
+  	case x::xs if focusNode != null => // link nodes
+  		focusNode.neighbors = Connector(false, x, defaultBranch)::focusNode.neighbors // parent
+      x.neighbors = Connector(true, focusNode, defaultBranch)::x.neighbors // child
   	case x::xs => 
   		focusThisNode(x)
   	case _ => 
-  		val n = Node(pos, 20, Color.Blue, "node", Nil, Nil)
+  		val n = Node(pos, 20, Color.Blue, "node", Nil)
   		nodeList = n::nodeList
   		focusThisNode(n)
   }
@@ -196,47 +199,56 @@ class TreeTex(canvasName: String) {
     def toLatex(): String = {
 
       // hard coded parameters!!!
-      val start = ' \begin{tikzpicture}[ fact/.style={rectangle, draw=none, rounded corners=1mm, fill=blue, drop shadow, text centered, anchor=north, text=white}, state/.style={circle, draw=none, fill=orange, circular drop shadow, text centered, anchor=north, text=white}, leaf/.style={circle, draw=none, fill=red, circular drop shadow, text centered, anchor=north, text=white}, level distance=0.5cm, growth parent anchor=south]'
-      val slash = ' \'
-      val end = '; \end{tikzpicture}'
-      var body = ''
+      val start = " \\begin{tikzpicture}[ fact/.style={rectangle, draw=none, rounded corners=1mm, fill=blue, drop shadow, text centered, anchor=north, text=white}, state/.style={circle, draw=none, fill=orange, circular drop shadow, text centered, anchor=north, text=white}, leaf/.style={circle, draw=none, fill=red, circular drop shadow, text centered, anchor=north, text=white}, level distance=0.5cm, growth parent anchor=south]"
+      val slash = " \\"
+      val end = "; \\end{tikzpictu†re}"
+      var body = ""
 
       if(verifyTreeConnected && verifyUniqueParent){ // display msg if error
-        val root = searchRoot
+        val root = searchRoot(nodeList.head) // head is a random node, not necessary root
+        val tempL = constructTexList(root).reverse
+
       }
 
       start + slash + body + end
     }
 
     def verifyTreeConnected(): Boolean = {
-      nodeList.foreach(n => n.neighbors != null)
+      nodeList.forall{n => n.neighbors != Nil}
     }
 
     def verifyUniqueParent(): Boolean = {
-      nodeList.foreach(n => n.neighbors.count( x => !x.isChild) == 1)
+      nodeList.forall{n => n.neighbors.count( x => !x.isChild) == 1}
     }
 
     def searchRoot(node: Node): Node = { // CAUTION: must be applied after checking of tree correctness
       val parents = node.neighbors.filter(!_.isChild)
       
       parents match {
-        case _ => searchRoot(parents.head)
-        case Nil => parents.head
+        case Nil => node
+        case _ => searchRoot(parents.head.end)
       }
     }
 
-    // doesn't work, need to think at an elegent way to combine tex code
-    // // rounded, hard coded!!!
-    // def writeNode(node: Node): String{ // Caution carriage line
-    //   "node [state] {$" + node.text + "$} [->]" + "\n" + "child{"
-    // }
+    def orderChildren(node: Node): List[Connector] = {
+      node.neighbors.sortWith((x, y) => x.end.isLeftOf(y.end))
+    }
 
-    // def nodeTex(s: Node)(nodes: List[Node]) => "node [state] {$" + s.text + "$} [->]" + "\n" + "child{" + nodes.text + "}"
+    // generate ordered list of nodes
+    def constructTexList(node: Node): List[Node] = {
+      val l = orderChildren(node).map{x => x.end}
+      node::( l.flatMap(constructTexList(_)) )
+    }
 
+    // generate the Tex text of the tree body
+    def generateTex(list: List[Node]): String = { // Caution: need to handle sibling distance, increasing value as going up to the root
+      list.foldLeft(""){(acc, c) => "child{" + acc + nodeTex(c) + "}"} // Caution does not check if leaf => no children
+    }
 
-    // def appendTex(p: Node, c: Node): String => "node [state] {$" + p + "$} [->]" + "\n" + "child{" + nodes.flatMap() + "}"
-
-    // def nodeTex(root: String, orderedList: List[Node]): String = orderedList.foldLeft(root)()
+    // node Tex text
+    def nodeTex(node: Node): String = {
+      "node [state] {$" + node.text + "$}"
+    }
 
   }
 
