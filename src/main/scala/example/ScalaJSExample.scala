@@ -94,7 +94,10 @@ class TreeTex(canvasName: String) {
   })
 
   canvas.addEventListener("click", (e:dom.Event) => e match {
-    case e:dom.MouseEvent => 
+	case e:dom.MouseEvent if e.shiftKey => 
+		deleteNodeAt(Point(e.clientX, e.clientY - canvas.offsetTop))
+		draw()
+    case e:dom.MouseEvent  => 
       simpleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
 	  isMouseDown = false
       draw()
@@ -164,6 +167,13 @@ class TreeTex(canvasName: String) {
     case Nil => focusThisNode(null)
   }
   
+  def deleteNodeAt(pos: Point) = getNodeAt(pos) match {
+    case x::xs => 
+		nodeList = nodeList.filter(_ != x)
+		if (focusNode == x) focusThisNode(null)
+    case Nil => focusThisNode(null)
+  }
+  
   def doubleClick(pos: Point) = getNodeAt(pos) match{
   	case x::xs if focusNode != null => // link nodes
   		focusNode.neighbors = Connector(false, x, defaultBranch)::focusNode.neighbors // parent
@@ -173,7 +183,7 @@ class TreeTex(canvasName: String) {
   	case _ => 
   		val n = Node(pos, 20, Color.Blue, "node", Nil)
   		nodeList = n::nodeList
-  		focusThisNode(n)
+  		//focusThisNode(n)
   }
 
   def drag(pos1: Point, pos2: Point) = getNodeAt(pos1) match {
