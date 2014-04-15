@@ -77,6 +77,8 @@ class TreeTex(canvasName: String) {
   private val defaultBranch = Branch(10, Color.Green, "default branch")
 
   canvas.addEventListener("mousedown", (e:dom.Event) => e match { //wtf can't do partial function 
+	case e:dom.MouseEvent if e.ctrlKey => 
+		addBranchTo(Point(e.clientX, e.clientY - canvas.offsetTop))
     case e:dom.MouseEvent => 
 		simpleClick(Point(e.clientX, e.clientY - canvas.offsetTop)) 
 		isMouseDown = true
@@ -94,6 +96,7 @@ class TreeTex(canvasName: String) {
   })
 
   canvas.addEventListener("click", (e:dom.Event) => e match {
+	case e:dom.MouseEvent if e.ctrlKey => 
 	case e:dom.MouseEvent if e.shiftKey => 
 		deleteNodeAt(Point(e.clientX, e.clientY - canvas.offsetTop))
 		draw()
@@ -104,6 +107,8 @@ class TreeTex(canvasName: String) {
   })
 
   canvas.addEventListener("dblclick", (e:dom.Event) => e match {
+	case e:dom.MouseEvent if e.ctrlKey => 
+	case e:dom.MouseEvent if e.shiftKey => 
     case e:dom.MouseEvent => 
       doubleClick(Point(e.clientX, e.clientY - canvas.offsetTop))
 	  isMouseDown = false
@@ -139,9 +144,9 @@ class TreeTex(canvasName: String) {
 
   def drawBranches(node: Node){ // Need to be update to changes
     ctx.beginPath();
-    ctx.moveTo(node.pos.x, node.pos.y);
     node.neighbors.foreach{
-      c => 
+      c =>
+		ctx.moveTo(node.pos.x, node.pos.y); 
         ctx.lineTo(c.end.pos.x, c.end.pos.y);
         ctx.lineWidth = 10;
         ctx.strokeStyle = Color.White;
@@ -155,6 +160,17 @@ class TreeTex(canvasName: String) {
   }
 
   def getNodeAt(click: Point): List[Node] = nodeList.filter(n => intersectNode(n, click))
+  
+  def addBranchTo(point: Point) = if (focusNode != null){
+	getNodeAt(point) match {
+		case node::_ => 
+			if (!focusNode.neighbors.exists(_.end == node)){
+				focusNode.neighbors = Connector(false,node,Branch(10,"Blue",""))::focusNode.neighbors
+				node.neighbors = Connector(true,focusNode,Branch(10,"Blue",""))::node.neighbors
+			}
+		case _ => 
+	}
+  }
 
   def intersectNode(node: Node, click: Point): Boolean = {
     val x = click.x - node.pos.x
